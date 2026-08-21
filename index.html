@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<title>NASDAQ IT 스크리너</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --bg: #0A0C10;
+  --surface: #12151B;
+  --surface-2: #171C24;
+  --border: #232833;
+
+  --text: #E7EAF0;
+  --text-dim: #8A93A6;
+  --text-faint: #565E6E;
+
+  --amber: #FFB020;
+  --amber-dim: #8A6620;
+
+  --green: #3ECF8E;
+  --red: #FF5C5C;
+
+  --radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  padding-bottom: 48px;
+}
+
+.mono {
+  font-family:
+    'IBM Plex Mono',
+    ui-monospace,
+    monospace;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  background: rgba(10,12,16,0.92);
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid var(--border);
+
+  padding:
+    env(safe-area-inset-top, 16px)
+    18px
+    14px;
+}
+
+.eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+
+  font-size: 11px;
+  letter-spacing: 0.16em;
+
+  color: var(--amber);
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+
+  gap: 6px;
+
+  margin-bottom: 4px;
+}
+
+.eyebrow .dot {
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: var(--green);
+
+  box-shadow:
+    0 0 8px var(--green);
+}
+
+h1 {
+  margin: 0;
+
+  font-size: 21px;
+  font-weight: 800;
+
+  letter-spacing: -0.01em;
+}
+
+.sub {
+  color: var(--text-dim);
+
+  font-size: 12.5px;
+
+  margin-top: 3px;
+}
+
+/* =========================================================
+   MAIN
+   ========================================================= */
+
+main {
+  padding: 16px;
+
+  max-width: 640px;
+
+  margin: 0 auto;
+}
+
+/* =========================================================
+   STATUS
+   ========================================================= */
+
+.status-strip {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  padding: 14px 16px;
+
+  margin-bottom: 14px;
+
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr 1fr;
+
+  gap: 10px;
+}
+
+.status-cell {
+  text-align: center;
+}
+
+.status-cell .val {
+  font-family: 'IBM Plex Mono', monospace;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  color: var(--amber);
+}
+
+.status-cell .lbl {
+  font-size: 10.5px;
+
+  color: var(--text-dim);
+
+  margin-top: 2px;
+
+  letter-spacing: 0.03em;
+}
+
+/* =========================================================
+   SETTINGS
+   ========================================================= */
+
+.settings-toggle {
+  width: 100%;
+
+  text-align: left;
+
+  background: none;
+
+  border: none;
+
+  color: var(--text-dim);
+
+  font-size: 12.5px;
+
+  padding: 6px 2px 16px;
+
+  cursor: pointer;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.settings-panel {
+  display: none;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  padding: 14px 16px;
+
+  margin-bottom: 16px;
+}
+
+.settings-panel.open {
+  display: block;
+}
+
+.field {
+  margin-bottom: 14px;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.field label {
+  display: flex;
+
+  justify-content: space-between;
+
+  font-size: 12.5px;
+
+  color: var(--text-dim);
+
+  margin-bottom: 6px;
+}
+
+.field label span.v {
+  color: var(--amber);
+
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.field input[type=range] {
+  width: 100%;
+
+  accent-color: var(--amber);
+}
+
+.toggle-row {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.switch {
+  position: relative;
+
+  width: 42px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+
+  width: 0;
+  height: 0;
+}
+
+.slider-toggle {
+  position: absolute;
+
+  inset: 0;
+
+  background: var(--border);
+
+  border-radius: 24px;
+
+  transition: 0.2s;
+
+  cursor: pointer;
+}
+
+.slider-toggle:before {
+  content: "";
+
+  position: absolute;
+
+  height: 18px;
+  width: 18px;
+
+  left: 3px;
+  top: 3px;
+
+  background: var(--text-dim);
+
+  border-radius: 50%;
+
+  transition: 0.2s;
+}
+
+input:checked + .slider-toggle {
+  background: var(--amber-dim);
+}
+
+input:checked + .slider-toggle:before {
+  transform: translateX(18px);
+
+  background: var(--amber);
+}
+
+/* =========================================================
+   META
+   ========================================================= */
+
+.meta-line {
+  font-size: 11.5px;
+
+  color: var(--text-faint);
+
+  margin: 4px 2px 16px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+
+  gap: 4px;
+}
+
+/* =========================================================
+   NOTICE
+   ========================================================= */
+
+.notice-box {
+  background: var(--surface-2);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  padding: 12px 14px;
+
+  font-size: 12px;
+
+  color: var(--text-dim);
+
+  margin-bottom: 14px;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   EMPTY
+   ========================================================= */
+
+.empty-state {
+  text-align: center;
+
+  padding: 40px 20px;
+
+  color: var(--text-dim);
+
+  font-size: 13.5px;
+
+  border:
+    1px dashed var(--border);
+
+  border-radius: var(--radius);
+}
+
+/* =========================================================
+   CARD
+   ========================================================= */
+
+.card {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-left:
+    3px solid var(--text-faint);
+
+  border-radius: var(--radius);
+
+  padding: 14px 16px;
+
+  margin-bottom: 10px;
+}
+
+.card.up {
+  border-left-color: var(--green);
+}
+
+.card.down {
+  border-left-color: var(--red);
+}
+
+.card-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  margin-bottom: 10px;
+}
+
+.card-ticker {
+  font-size: 16px;
+
+  font-weight: 700;
+
+  letter-spacing: -0.01em;
+}
+
+.card-name {
+  font-size: 11.5px;
+
+  color: var(--text-dim);
+
+  margin-top: 1px;
+}
+
+.card-price-block {
+  text-align: right;
+}
+
+.card-price {
+  font-family: 'IBM Plex Mono', monospace;
+
+  font-size: 16px;
+
+  font-weight: 600;
+}
+
+.card-change {
+  font-family: 'IBM Plex Mono', monospace;
+
+  font-size: 12px;
+
+  margin-top: 2px;
+}
+
+.card-change.up {
+  color: var(--green);
+}
+
+.card-change.down {
+  color: var(--red);
+}
+
+.card-change.flat {
+  color: var(--text-dim);
+}
+
+/* =========================================================
+   BADGE
+   ========================================================= */
+
+.badge-row {
+  display: flex;
+
+  gap: 6px;
+
+  flex-wrap: wrap;
+
+  margin-bottom: 12px;
+}
+
+.badge {
+  font-family: 'IBM Plex Mono', monospace;
+
+  font-size: 11px;
+
+  padding: 3px 8px;
+
+  border-radius: 6px;
+
+  background: var(--surface-2);
+
+  border: 1px solid var(--border);
+
+  color: var(--text-dim);
+}
+
+.badge.rsi-low {
+  color: var(--green);
+
+  border-color:
+    rgba(62,207,142,0.35);
+}
+
+.badge.profit {
+  color: var(--green);
+}
+
+.badge.loss {
+  color: var(--red);
+}
+
+.badge.vol {
+  color: var(--amber);
+
+  border-color:
+    rgba(255,176,32,0.35);
+}
+
+/* =========================================================
+   METRICS
+   ========================================================= */
+
+.metric-grid {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 10px 14px;
+
+  padding: 12px 0;
+
+  border-top:
+    1px solid var(--border);
+
+  margin-bottom: 12px;
+}
+
+.metric.full {
+  grid-column:
+    1 / -1;
+}
+
+.metric .k {
+  font-size: 10.5px;
+
+  color: var(--text-faint);
+
+  margin-bottom: 2px;
+}
+
+.metric .v {
+  font-family:
+    'IBM Plex Mono',
+    monospace;
+
+  font-size: 12.5px;
+}
+
+.metric .v.up {
+  color: var(--green);
+}
+
+.metric .v.down {
+  color: var(--red);
+}
+
+/* =========================================================
+   TARGET / STOP
+   ========================================================= */
+
+.plan-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  background: var(--surface-2);
+
+  border-radius: 8px;
+
+  padding: 10px 12px;
+
+  font-size: 12px;
+
+  gap: 10px;
+}
+
+.plan-item {
+  flex: 1;
+}
+
+.plan-item .k {
+  color: var(--text-faint);
+
+  font-size: 10.5px;
+}
+
+.plan-item .v {
+  font-family:
+    'IBM Plex Mono',
+    monospace;
+
+  font-size: 13px;
+
+  margin-top: 2px;
+}
+
+.plan-item.target .v {
+  color: var(--green);
+}
+
+.plan-item.stop .v {
+  color: var(--red);
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer-note {
+  text-align: center;
+
+  font-size: 11px;
+
+  color: var(--text-faint);
+
+  margin-top: 24px;
+
+  line-height: 1.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+  <div class="eyebrow">
+    <span class="dot"></span>
+    AUTO SCREENER · DAILY 07:00 KST
+  </div>
+
+  <h1>NASDAQ IT 스크리너</h1>
+
+  <div class="sub">
+    RSI 과매도 · 재무 데이터 · 거래량 · 위험관리
+  </div>
+
+</header>
+
+
+<main>
+
+  <!-- =====================================================
+       STATUS
+       ===================================================== -->
+
+  <div class="status-strip">
+
+    <div class="status-cell">
+
+      <div
+        class="val mono"
+        id="scannedCount"
+      >
+        -
+      </div>
+
+      <div class="lbl">
+        전체 스캔 종목
+      </div>
+
+    </div>
+
+
+    <div class="status-cell">
+
+      <div
+        class="val mono"
+        id="observationCount"
+      >
+        -
+      </div>
+
+      <div class="lbl">
+        Observation
+      </div>
+
+    </div>
+
+
+    <div class="status-cell">
+
+      <div
+        class="val mono"
+        id="foundCount"
+      >
+        -
+      </div>
+
+      <div class="lbl">
+        Signal
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       SETTINGS
+       ===================================================== -->
+
+  <button
+    class="settings-toggle"
+    id="settingsToggle"
+  >
+
+    <span>
+      필터 조정
+    </span>
+
+    <span id="settingsCaret">
+      ▾
+    </span>
+
+  </button>
+
+
+  <div
+    class="settings-panel"
+    id="settingsPanel"
+  >
+
+    <div class="field">
+
+      <label>
+
+        RSI 기준 (이하)
+
+        <span
+          class="v"
+          id="rsiVal"
+        >
+          40
+        </span>
+
+      </label>
+
+      <input
+        type="range"
+        id="rsiRange"
+        min="10"
+        max="40"
+        value="40"
+      >
+
+    </div>
+
+
+    <div class="field toggle-row">
+
+      <label style="margin:0;">
+        최근 분기 흑자 기업만
+      </label>
+
+      <label class="switch">
+
+        <input
+          type="checkbox"
+          id="reqProfit"
+        >
+
+        <span class="slider-toggle"></span>
+
+      </label>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       NOTICE
+       ===================================================== -->
+
+  <div class="notice-box">
+
+    이 페이지는
+    <strong>매일 오전 7시(한국시간)</strong>
+    GitHub Actions가 자동으로 스캔한 결과를 표시합니다.
+
+    <br><br>
+
+    화면의 필터는 이미 수집된 데이터에만 적용됩니다.
+    실제 NASDAQ 스캔은 GitHub Actions에서 수행됩니다.
+
+  </div>
+
+
+  <!-- =====================================================
+       META
+       ===================================================== -->
+
+  <div class="meta-line">
+
+    <span id="lastUpdated">
+      마지막 스캔: 불러오는 중...
+    </span>
+
+    <span id="resultCount">
+    </span>
+
+  </div>
+
+
+  <!-- =====================================================
+       RESULTS
+       ===================================================== -->
+
+  <div id="resultsContainer">
+
+    <div class="empty-state">
+      데이터를 불러오는 중입니다...
+    </div>
+
+  </div>
+
+
+  <div class="footer-note">
+
+    Safari 공유 버튼 →
+    "홈 화면에 추가"를 선택하면
+    앱처럼 사용할 수 있습니다.
+
+  </div>
+
+</main>
+
+
+<script>
+
+/* =========================================================
+   DOM
+   ========================================================= */
+
+const settingsToggle =
+  document.getElementById(
+    'settingsToggle'
+  );
+
+const settingsPanel =
+  document.getElementById(
+    'settingsPanel'
+  );
+
+const settingsCaret =
+  document.getElementById(
+    'settingsCaret'
+  );
+
+const rsiRange =
+  document.getElementById(
+    'rsiRange'
+  );
+
+const rsiVal =
+  document.getElementById(
+    'rsiVal'
+  );
+
+const reqProfit =
+  document.getElementById(
+    'reqProfit'
+  );
+
+
+/* =========================================================
+   DATA
+   ========================================================= */
+
+let allResults = [];
+
+
+/* =========================================================
+   SETTINGS OPEN / CLOSE
+   ========================================================= */
+
+settingsToggle.addEventListener(
+  'click',
+  () => {
+
+    settingsPanel.classList.toggle(
+      'open'
+    );
+
+    settingsCaret.textContent =
+      settingsPanel.classList.contains(
+        'open'
+      )
+        ? '▴'
+        : '▾';
+
+  }
+);
+
+
+/* =========================================================
+   FILTER EVENTS
+   ========================================================= */
+
+rsiRange.addEventListener(
+  'input',
+  () => {
+
+    rsiVal.textContent =
+      rsiRange.value;
+
+    applyFilters();
+
+  }
+);
+
+
+reqProfit.addEventListener(
+  'change',
+  applyFilters
+);
+
+
+/* =========================================================
+   숫자 처리
+   ========================================================= */
+
+function isValidNumber(value) {
+
+  return (
+    value !== null &&
+    value !== undefined &&
+    value !== '' &&
+    Number.isFinite(
+      Number(value)
+    )
+  );
+
+}
+
+
+/* =========================================================
+   상승 / 하락 클래스
+   ========================================================= */
+
+function changeClass(pct) {
+
+  if (
+    pct === null ||
+    pct === undefined ||
+    !isValidNumber(pct)
+  ) {
+
+    return 'flat';
+
+  }
+
+  const value =
+    Number(pct);
+
+  if (value > 0) {
+
+    return 'up';
+
+  }
+
+  if (value < 0) {
+
+    return 'down';
+
+  }
+
+  return 'flat';
+
+}
+
+
+/* =========================================================
+   퍼센트
+   ========================================================= */
+
+function fmtPct(value) {
+
+  if (
+    value === null ||
+    value === undefined ||
+    !isValidNumber(value)
+  ) {
+
+    return 'N/A';
+
+  }
+
+  const number =
+    Number(value);
+
+  const sign =
+    number >= 0
+      ? '+'
+      : '';
+
+  return (
+    sign +
+    number.toFixed(1) +
+    '%'
+  );
+
+}
+
+
+/* =========================================================
+   백만 달러
+   ========================================================= */
+
+function fmtM(value) {
+
+  if (
+    value === null ||
+    value === undefined ||
+    !isValidNumber(value)
+  ) {
+
+    return 'N/A';
+
+  }
+
+  return (
+    '$' +
+    Number(value).toLocaleString(
+      'en-US',
+      {
+        maximumFractionDigits: 1
+      }
+    ) +
+    'M'
+  );
+
+}
+
+
+/* =========================================================
+   가격
+   ========================================================= */
+
+function fmtPrice(value) {
+
+  if (
+    value === null ||
+    value === undefined ||
+    !isValidNumber(value)
+  ) {
+
+    return 'N/A';
+
+  }
+
+  return (
+    '$' +
+    Number(value).toFixed(2)
+  );
+
+}
+
+
+/* =========================================================
+   거래량
+   ========================================================= */
+
+function fmtVolume(value) {
+
+  if (
+    value === null ||
+    value === undefined ||
+    !isValidNumber(value)
+  ) {
+
+    return 'N/A';
+
+  }
+
+  return Number(value).toLocaleString(
+    'en-US'
+  );
+
+}
+
+
+/* =========================================================
+   거래량 Badge
+   ========================================================= */
+
+function createVolumeBadge(row) {
+
+  if (
+    row.volume_spike !== true
+  ) {
+
+    return '';
+
+  }
+
+  if (
+    row.volume_direction === 'up'
+  ) {
+
+    return `
+      <span class="badge vol">
+        거래량 폭증 · 상승동반
+      </span>
+    `;
+
+  }
+
+  if (
+    row.volume_direction === 'down'
+  ) {
+
+    return `
+      <span class="badge vol">
+        거래량 폭증 · 하락동반
+      </span>
+    `;
+
+  }
+
+  return `
+    <span class="badge vol">
+      거래량 폭증
+    </span>
+  `;
+
+}
+
+
+/* =========================================================
+   수익성 Badge
+   ========================================================= */
+
+function createProfitBadge(row) {
+
+  if (
+    row.profitable === true
+  ) {
+
+    return `
+      <span class="badge profit">
+        최근분기 흑자
+      </span>
+    `;
+
+  }
+
+  if (
+    row.profitable === false
+  ) {
+
+    return `
+      <span class="badge loss">
+        최근분기 적자
+      </span>
+    `;
+
+  }
+
+  return `
+    <span class="badge">
+      손익 N/A
+    </span>
+  `;
+
+}
+
+
+/* =========================================================
+   결과 렌더링
+   ========================================================= */
+
+function renderResults(list) {
+
+  const container =
+    document.getElementById(
+      'resultsContainer'
+    );
+
+  const resultCount =
+    document.getElementById(
+      'resultCount'
+    );
+
+
+  resultCount.textContent =
+    list.length
+      ? `${list.length}개 종목`
+      : '';
+
+
+  if (!list.length) {
+
+    container.innerHTML = `
+      <div class="empty-state">
+        조건에 맞는 종목이 없습니다.
+        <br>
+        필터를 완화해보십시오.
+      </div>
+    `;
+
+    return;
+
+  }
+
+
+  container.innerHTML =
+    list.map(
+      row => {
+
+        const dirClass =
+          changeClass(
+            row.day_change_pct
+          );
+
+
+        const revenueGrowthClass =
+          changeClass(
+            row.revenue_growth_pct
+          );
+
+
+        const ebitdaGrowthClass =
+          changeClass(
+            row.ebitda_growth_pct
+          );
+
+
+        const cashFlowClass =
+          changeClass(
+            row.operating_cash_flow_change_pct
+          );
+
+
+        return `
+
+        <div class="card ${dirClass}">
+
+          <!-- =========================================
+               TOP
+               ========================================= -->
+
+          <div class="card-top">
+
+            <div>
+
+              <div class="card-ticker">
+                ${row.ticker ?? 'N/A'}
+              </div>
+
+              <div class="card-name">
+                ${row.name ?? 'N/A'}
+              </div>
+
+            </div>
+
+
+            <div class="card-price-block">
+
+              <div class="card-price mono">
+                ${fmtPrice(row.price)}
+              </div>
+
+              <div
+                class="
+                  card-change
+                  mono
+                  ${dirClass}
+                "
+              >
+                ${fmtPct(row.day_change_pct)}
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- =========================================
+               BADGES
+               ========================================= -->
+
+          <div class="badge-row">
+
+            <span class="badge rsi-low">
+              RSI ${isValidNumber(row.rsi)
+                ? Number(row.rsi).toFixed(1)
+                : 'N/A'}
+            </span>
+
+
+            <span class="badge">
+              시총 $${isValidNumber(row.market_cap_b)
+                ? Number(row.market_cap_b).toFixed(2)
+                : 'N/A'}B
+            </span>
+
+
+            ${createProfitBadge(row)}
+
+
+            ${createVolumeBadge(row)}
+
+          </div>
+
+
+          <!-- =========================================
+               METRICS
+               ========================================= -->
+
+          <div class="metric-grid">
+
+
+            <!-- 매출 -->
+
+            <div class="metric">
+
+              <div class="k">
+                매출 최신분기
+              </div>
+
+              <div class="v">
+
+                ${fmtM(
+                  row.revenue_latest_m
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="metric">
+
+              <div class="k">
+                매출 이전분기
+              </div>
+
+              <div class="v">
+
+                ${fmtM(
+                  row.revenue_previous_m
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="metric full">
+
+              <div class="k">
+                매출 증감률
+              </div>
+
+              <div
+                class="
+                  v
+                  ${revenueGrowthClass}
+                "
+              >
+
+                ${fmtPct(
+                  row.revenue_growth_pct
+                )}
+
+              </div>
+
+            </div>
+
+
+            <!-- EBITDA -->
+
+            <div class="metric">
+
+              <div class="k">
+                EBITDA 최신분기
+              </div>
+
+              <div class="v">
+
+                ${fmtM(
+                  row.ebitda_latest_m
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="metric">
+
+              <div class="k">
+                EBITDA 이전분기
+              </div>
+
+              <div class="v">
+
+                ${fmtM(
+                  row.ebitda_previous_m
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="metric full">
+
+              <div class="k">
+                EBITDA 증감률
+              </div>
+
+              <div
+                class="
+                  v
+                  ${ebitdaGrowthClass}
+                "
+              >
+
+                ${fmtPct(
+                  row.ebitda_growth_pct
+                )}
+
+              </div>
+
+            </div>
+
+
+            <!-- 영업현금흐름 -->
+
+            <div class="metric">
+
+              <div class="k">
+                영업현금흐름 최신
+              </div>
+
+              <div class="v">
+
+                ${fmtM(
+                  row.operating_cash_flow_latest_m
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="metric">
+
+              <div class="k">
+                영업현금흐름 이전
+              </div>
+
+              <div class="v">
+
+                ${fmtM(
+                  row.operating_cash_flow_previous_m
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="metric full">
+
+              <div class="k">
+                영업현금흐름 증감률
+              </div>
+
+              <div
+                class="
+                  v
+                  ${cashFlowClass}
+                "
+              >
+
+                ${fmtPct(
+                  row.operating_cash_flow_change_pct
+                )}
+
+              </div>
+
+            </div>
+
+
+            <!-- 거래량 -->
+
+            <div class="metric">
+
+              <div class="k">
+                거래량
+              </div>
+
+              <div class="v">
+
+                ${fmtVolume(
+                  row.volume
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="metric">
+
+              <div class="k">
+                평균 거래량 20일
+              </div>
+
+              <div class="v">
+
+                ${fmtVolume(
+                  row.volume_avg_20d
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="metric full">
+
+              <div class="k">
+                거래량 비율
+              </div>
+
+              <div class="v">
+
+                ${
+                  isValidNumber(
+                    row.volume_ratio
+                  )
+                    ? Number(
+                        row.volume_ratio
+                      ).toFixed(2) + 'x'
+                    : 'N/A'
+                }
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+          <!-- =========================================
+               RISK PLAN
+               ========================================= -->
+
+          <div class="plan-row">
+
+
+            <div class="plan-item target">
+
+              <div class="k">
+                목표가
+              </div>
+
+              <div class="v">
+
+                ${fmtPrice(
+                  row.target_price
+                )}
+
+              </div>
+
+              <div class="k">
+                기대수익
+              </div>
+
+              <div class="v">
+
+                ${fmtPct(
+                  row.expected_gain_pct
+                )}
+
+              </div>
+
+            </div>
+
+
+            <div class="plan-item stop">
+
+              <div class="k">
+                손절가
+              </div>
+
+              <div class="v">
+
+                ${fmtPrice(
+                  row.stop_loss
+                )}
+
+              </div>
+
+              <div class="k">
+                예상손실
+              </div>
+
+              <div class="v">
+
+                ${
+                  isValidNumber(
+                    row.expected_loss_pct
+                  )
+                    ? '-' +
+                      Number(
+                        row.expected_loss_pct
+                      ).toFixed(1) +
+                      '%'
+                    : 'N/A'
+                }
+
+              </div>
+
+            </div>
+
+
+            <div class="plan-item">
+
+              <div class="k">
+                Risk / Reward
+              </div>
+
+              <div class="v">
+
+                ${
+                  isValidNumber(
+                    row.risk_reward
+                  )
+                    ? Number(
+                        row.risk_reward
+                      ).toFixed(2) + ':1'
+                    : 'N/A'
+                }
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+        `;
+
+      }
+    ).join('');
+
+}
+
+
+/* =========================================================
+   FILTER
+   ========================================================= */
+
+function applyFilters() {
+
+  const rsiMax =
+    Number(
+      rsiRange.value
+    );
+
+  const onlyProfit =
+    reqProfit.checked;
+
+
+  let filtered =
+    allResults.filter(
+      row => {
+
+        if (
+          !isValidNumber(
+            row.rsi
+          )
+        ) {
+
+          return false;
+
+        }
+
+        return (
+          Number(row.rsi)
+          <= rsiMax
+        );
+
+      }
+    );
+
+
+  if (onlyProfit) {
+
+    filtered =
+      filtered.filter(
+        row =>
+          row.profitable === true
+      );
+
+  }
+
+
+  filtered.sort(
+    (a, b) =>
+      Number(a.rsi)
+      -
+      Number(b.rsi)
+  );
+
+
+  renderResults(
+    filtered
+  );
+
+}
+
+
+/* =========================================================
+   DATA LOAD
+   ========================================================= */
+
+async function load() {
+
+  const container =
+    document.getElementById(
+      'resultsContainer'
+    );
+
+
+  try {
+
+    /*
+     * GitHub Pages 캐시 방지
+     */
+
+    const url =
+      './data.json?_=' +
+      Date.now();
+
+
+    const response =
+      await fetch(
+        url,
+        {
+          cache: 'no-store'
+        }
+      );
+
+
+    if (!response.ok) {
+
+      throw new Error(
+        'data.json HTTP ' +
+        response.status
+      );
+
+    }
+
+
+    const data =
+      await response.json();
+
+
+    /*
+     * scan.py의 실제 JSON 구조:
+     *
+     * {
+     *   total_scanned,
+     *   total_observations,
+     *   total_signals,
+     *   observations,
+     *   results
+     * }
+     */
+
+
+    allResults =
+      Array.isArray(
+        data.results
+      )
+        ? data.results
+        : [];
+
+
+    document.getElementById(
+      'scannedCount'
+    ).textContent =
+      data.total_scanned
+      ?? '-';
+
+
+    document.getElementById(
+      'observationCount'
+    ).textContent =
+      data.total_observations
+      ?? '-';
+
+
+    document.getElementById(
+      'foundCount'
+    ).textContent =
+      data.total_signals
+      ?? allResults.length;
+
+
+    /*
+     * 마지막 갱신 시간
+     */
+
+    const generatedAt =
+      data.generated_at;
+
+
+    if (generatedAt) {
+
+      const date =
+        new Date(
+          generatedAt
+        );
+
+
+      document.getElementById(
+        'lastUpdated'
+      ).textContent =
+        '마지막 스캔: ' +
+        date.toLocaleString(
+          'ko-KR',
+          {
+            timeZone:
+              'Asia/Seoul'
+          }
+        );
+
+    } else {
+
+      document.getElementById(
+        'lastUpdated'
+      ).textContent =
+        '마지막 스캔: -';
+
+    }
+
+
+    /*
+     * scan.py의 설정값을
+     * 화면의 RSI 기본값에 반영
+     */
+
+    if (
+      data.config &&
+      isValidNumber(
+        data.config.RSI_THRESHOLD
+      )
+    ) {
+
+      const threshold =
+        Number(
+          data.config.RSI_THRESHOLD
+        );
+
+
+      rsiRange.max =
+        threshold;
+
+
+      rsiRange.value =
+        threshold;
+
+
+      rsiVal.textContent =
+        threshold;
+
+    }
+
+
+    /*
+     * 데이터가 존재하지 않는 경우
+     */
+
+    if (
+      allResults.length === 0
+    ) {
+
+      container.innerHTML = `
+        <div class="empty-state">
+          현재 Signal 조건을 만족하는 종목이 없습니다.
+        </div>
+      `;
+
+      return;
+
+    }
+
+
+    applyFilters();
+
+
+  } catch (error) {
+
+    console.error(
+      'data.json 로딩 오류:',
+      error
+    );
+
+
+    container.innerHTML = `
+
+      <div class="empty-state">
+
+        데이터를 불러오지 못했습니다.
+
+        <br><br>
+
+        data.json 파일의 위치와
+        GitHub Pages 배포 상태를 확인하십시오.
+
+        <br><br>
+
+        오류:
+        ${error.message}
+
+      </div>
+
+    `;
+
+
+    document.getElementById(
+      'lastUpdated'
+    ).textContent =
+      '마지막 스캔: 데이터 로딩 실패';
+
+  }
+
+}
+
+
+/* =========================================================
+   START
+   ========================================================= */
+
+load();
+
+</script>
+
+</body>
+</html>
