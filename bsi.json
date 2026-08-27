@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-26T04:39:54.630611+00:00",
+  "generated_at": "2026-08-27T03:14:09.955202+00:00",
   "index_name": "BSI",
   "description": "Signal 발생 종목들의 평균 수익률 기반 지수",
   "base": 0.0,
   "base_description": "Signal 발생 시점의 평균 수익률을 0으로 설정",
-  "signal_count": 379,
+  "signal_count": 422,
   "periods": {
     "5d": {
       "trading_days": 5,
@@ -43,29 +43,34 @@
     },
     "max": {
       "trading_days": null,
-      "value": -0.9423,
-      "samples": 245
+      "value": 0.5856,
+      "samples": 318
     }
   },
   "curve": [
     {
       "day": 0,
       "bsi_pct": 0.0,
-      "samples": 245
+      "samples": 318
     },
     {
       "day": 1,
-      "bsi_pct": -1.9632,
-      "samples": 245
+      "bsi_pct": -0.921,
+      "samples": 318
     },
     {
       "day": 2,
-      "bsi_pct": -1.3321,
-      "samples": 194
+      "bsi_pct": -1.0288,
+      "samples": 245
     },
     {
       "day": 3,
-      "bsi_pct": -2.306,
+      "bsi_pct": -0.2042,
+      "samples": 194
+    },
+    {
+      "day": 4,
+      "bsi_pct": -1.4807,
       "samples": 38
     }
   ]
