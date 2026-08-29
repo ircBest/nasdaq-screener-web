@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
 
 <meta charset="UTF-8">
@@ -987,6 +988,23 @@ input:checked + .slider-toggle:before {
 }
 
 
+.error-state {
+
+  color: var(--red);
+
+  border-color:
+    rgba(255,92,92,0.35);
+
+}
+
+
+.loading-state {
+
+  color: var(--text-dim);
+
+}
+
+
 /* =========================================================
    CARD
    ========================================================= */
@@ -1357,6 +1375,7 @@ input:checked + .slider-toggle:before {
 
   }
 
+
   .bsi-item:nth-child(4n) {
 
     border-right:
@@ -1364,11 +1383,13 @@ input:checked + .slider-toggle:before {
 
   }
 
+
   .bsi-item:nth-child(2n) {
 
     border-right: none;
 
   }
+
 
   .plan-row {
 
@@ -1407,9 +1428,7 @@ input:checked + .slider-toggle:before {
 
 
   <div class="sub">
-
     RSI 과매도 · 재무 데이터 · 거래량 · 위험관리 · Research
-
   </div>
 
 </header>
@@ -1651,7 +1670,10 @@ input:checked + .slider-toggle:before {
     id="bsiGrid"
   >
 
-    <div class="empty-state">
+    <div
+      class="empty-state loading-state"
+      style="grid-column:1/-1;"
+    >
       BSI 데이터를 불러오는 중...
     </div>
 
@@ -1763,7 +1785,10 @@ input:checked + .slider-toggle:before {
   id="statisticsGrid"
 >
 
-  <div class="empty-state">
+  <div
+    class="empty-state loading-state"
+    style="grid-column:1/-1;"
+  >
     Statistics 데이터를 불러오는 중...
   </div>
 
@@ -1785,7 +1810,7 @@ input:checked + .slider-toggle:before {
 
 <div id="resultsContainer">
 
-  <div class="empty-state">
+  <div class="empty-state loading-state">
     데이터를 불러오는 중입니다...
   </div>
 
@@ -1920,13 +1945,19 @@ reqProfit.addEventListener(
 
 function isValidNumber(value) {
 
-  return (
-    value !== null &&
-    value !== undefined &&
-    value !== '' &&
-    Number.isFinite(
-      Number(value)
-    )
+  if (
+    value === null ||
+    value === undefined ||
+    value === ''
+  ) {
+
+    return false;
+
+  }
+
+
+  return Number.isFinite(
+    Number(value)
   );
 
 }
@@ -1945,6 +1976,7 @@ function fmtPct(value) {
     return 'N/A';
 
   }
+
 
   const number =
     Number(value);
@@ -1979,6 +2011,7 @@ function fmtPctShort(value) {
 
   }
 
+
   const number =
     Number(value);
 
@@ -2012,6 +2045,7 @@ function fmtPrice(value) {
 
   }
 
+
   return (
     '$' +
     Number(value).toFixed(2)
@@ -2033,6 +2067,7 @@ function fmtM(value) {
     return 'N/A';
 
   }
+
 
   return (
     '$' +
@@ -2061,6 +2096,7 @@ function fmtVolume(value) {
     return 'N/A';
 
   }
+
 
   return Number(value).toLocaleString(
     'en-US'
@@ -2434,25 +2470,46 @@ function renderBSICurve(curve) {
   }
 
 
-  const values =
-    curve
-      .map(
-        point =>
-          Number(
-            point.bsi_pct
-          )
-      )
-      .filter(
-        value =>
-          Number.isFinite(value)
-      );
+  const validPoints =
+    curve.filter(
+      point =>
+        isValidNumber(
+          point.bsi_pct
+        )
+    );
 
 
-  if (!values.length) {
+  if (
+    validPoints.length < 2
+  ) {
+
+    ctx.fillStyle =
+      '#565E6E';
+
+    ctx.font =
+      '12px IBM Plex Mono';
+
+    ctx.textAlign =
+      'center';
+
+    ctx.fillText(
+      'BSI Curve 데이터 축적 중',
+      width / 2,
+      height / 2
+    );
 
     return;
 
   }
+
+
+  const values =
+    validPoints.map(
+      point =>
+        Number(
+          point.bsi_pct
+        )
+    );
 
 
   const minValue =
@@ -2489,7 +2546,7 @@ function renderBSICurve(curve) {
       (
         index /
         Math.max(
-          curve.length - 1,
+          validPoints.length - 1,
           1
         )
       ) *
@@ -2551,22 +2608,13 @@ function renderBSICurve(curve) {
   ctx.beginPath();
 
 
-  curve.forEach(
+  validPoints.forEach(
     (point, index) => {
 
       const value =
         Number(
           point.bsi_pct
         );
-
-
-      if (
-        !Number.isFinite(value)
-      ) {
-
-        return;
-
-      }
 
 
       const px =
@@ -2577,7 +2625,9 @@ function renderBSICurve(curve) {
         y(value);
 
 
-      if (index === 0) {
+      if (
+        index === 0
+      ) {
 
         ctx.moveTo(
           px,
@@ -2619,14 +2669,14 @@ function renderBSICurve(curve) {
      ------------------------------------------------------- */
 
   const lastPoint =
-    curve[
-      curve.length - 1
+    validPoints[
+      validPoints.length - 1
     ];
 
 
   const lastX =
     x(
-      curve.length - 1
+      validPoints.length - 1
     );
 
 
@@ -2661,7 +2711,7 @@ function renderBSICurve(curve) {
   document.getElementById(
     'curveLatest'
   ).textContent =
-    `Day ${lastPoint.day} · ${fmtPctShort(lastValue)}`;
+    `Day ${lastPoint.day ?? '-'} · ${fmtPctShort(lastValue)}`;
 
 }
 
@@ -2738,31 +2788,30 @@ function renderPerformance(data) {
 
 
   const completed =
-    data.completed ?? 0;
+    data.completed
+    ?? data.completed_signals
+    ?? 0;
 
 
   const total =
-    data.total_signals ?? 0;
+    data.total_signals
+    ?? data.signals
+    ?? 0;
+
+
+  const pending =
+    data.pending
+    ?? data.pending_signals
+    ?? Math.max(
+      Number(total) - Number(completed),
+      0
+    );
 
 
   document.getElementById(
     'performanceStatus'
   ).textContent =
     `${completed}/${total} 완료`;
-
-
-  /*
-   * 현재 Python 코드의 performance.json은
-   *
-   * {
-   *   total_signals,
-   *   completed,
-   *   pending,
-   *   performance: [...]
-   * }
-   *
-   * 구조다.
-   */
 
 
   const rows =
@@ -2810,7 +2859,7 @@ function renderPerformance(data) {
         </td>
 
         <td>
-          ${data.pending ?? 0}
+          ${pending}
         </td>
 
       </tr>
@@ -2821,15 +2870,6 @@ function renderPerformance(data) {
 
   }
 
-
-  /*
-   * performance 배열에서 직접
-   * 평균을 다시 계산한다.
-   *
-   * 이렇게 하면 statistics.json이
-   * 없거나 일부 필드가 달라도
-   * 화면이 정상적으로 동작한다.
-   */
 
   const returns =
     rows
@@ -2988,7 +3028,7 @@ function renderPerformance(data) {
       </td>
 
       <td>
-        ${data.pending ?? 0}
+        ${pending}
       </td>
 
     </tr>
@@ -3682,9 +3722,18 @@ async function fetchJSON(
   filename
 ) {
 
+  const url =
+    `./${filename}?_=${Date.now()}`;
+
+
+  console.log(
+    `[JSON LOAD] ${url}`
+  );
+
+
   const response =
     await fetch(
-      `./${filename}?_=${Date.now()}`,
+      url,
       {
         cache:
           'no-store'
@@ -3701,7 +3750,106 @@ async function fetchJSON(
   }
 
 
-  return response.json();
+  const text =
+    await response.text();
+
+
+  if (!text.trim()) {
+
+    throw new Error(
+      `${filename} 파일이 비어 있습니다.`
+    );
+
+  }
+
+
+  try {
+
+    return JSON.parse(
+      text
+    );
+
+  } catch (error) {
+
+    console.error(
+      `${filename} JSON 파싱 실패`,
+      text.substring(0, 500)
+    );
+
+
+    throw new Error(
+      `${filename} JSON 형식이 올바르지 않습니다.`
+    );
+
+  }
+
+}
+
+
+/* =========================================================
+   DATA JSON NORMALIZER
+   =========================================================
+   
+   data.json이 다음과 같은 형태여도 최대한 대응:
+   
+   {
+     "results": [...]
+   }
+   
+   또는
+   
+   {
+     "signals": [...]
+   }
+   
+   또는
+   
+   {
+     "data": [...]
+   }
+   
+   ========================================================= */
+
+function extractResults(data) {
+
+  if (
+    !data ||
+    typeof data !== 'object'
+  ) {
+
+    return [];
+
+  }
+
+
+  if (
+    Array.isArray(data.results)
+  ) {
+
+    return data.results;
+
+  }
+
+
+  if (
+    Array.isArray(data.signals)
+  ) {
+
+    return data.signals;
+
+  }
+
+
+  if (
+    Array.isArray(data.data)
+  ) {
+
+    return data.data;
+
+  }
+
+
+  return [];
 
 }
 
@@ -3718,332 +3866,177 @@ async function load() {
     );
 
 
-  try {
+  console.log(
+    '========================================'
+  );
 
-    /*
-     * 웹 저장소에 존재하는
-     * 공개 데이터만 가져온다.
-     *
-     * data.json
-     * bsi.json
-     * performance.json
-     * statistics.json
-     */
+  console.log(
+    'NASDAQ SCREENER DATA LOAD START'
+  );
 
-    const [
-      dataResult,
-      bsiResult,
-      performanceResult,
-      statisticsResult
-    ] =
-      await Promise.allSettled([
-
-        fetchJSON(
-          'data.json'
-        ),
-
-        fetchJSON(
-          'bsi.json'
-        ),
-
-        fetchJSON(
-          'performance.json'
-        ),
-
-        fetchJSON(
-          'statistics.json'
-        )
-
-      ]);
+  console.log(
+    '========================================'
+  );
 
 
-    /* =====================================================
-       DATA
-       ===================================================== */
+  const [
+    dataResult,
+    bsiResult,
+    performanceResult,
+    statisticsResult
+  ] =
+    await Promise.allSettled([
+
+      fetchJSON(
+        'data.json'
+      ),
+
+      fetchJSON(
+        'bsi.json'
+      ),
+
+      fetchJSON(
+        'performance.json'
+      ),
+
+      fetchJSON(
+        'statistics.json'
+      )
+
+    ]);
+
+
+  /* =====================================================
+     DATA.JSON
+     ===================================================== */
+
+  if (
+    dataResult.status === 'fulfilled'
+  ) {
+
+    const data =
+      dataResult.value;
+
+
+    console.log(
+      '[OK] data.json',
+      data
+    );
+
+
+    allResults =
+      extractResults(
+        data
+      );
+
+
+    console.log(
+      '[OK] Signal Results:',
+      allResults.length
+    );
+
+
+    document.getElementById(
+      'scannedCount'
+    ).textContent =
+      data.total_scanned
+      ?? data.scanned
+      ?? '-';
+
+
+    document.getElementById(
+      'observationCount'
+    ).textContent =
+      data.total_observations
+      ?? data.observations
+      ?? '-';
+
+
+    document.getElementById(
+      'foundCount'
+    ).textContent =
+      data.total_signals
+      ?? data.signal_count
+      ?? allResults.length;
+
 
     if (
-      dataResult.status === 'fulfilled'
+      data.generated_at
     ) {
 
-      const data =
-        dataResult.value;
-
-
-      allResults =
-        Array.isArray(
-          data.results
-        )
-          ? data.results
-          : [];
-
-
       document.getElementById(
-        'scannedCount'
+        'lastUpdated'
       ).textContent =
-        data.total_scanned
-        ?? '-';
+        '마지막 스캔: ' +
+        formatDate(
+          data.generated_at
+        );
+
+    }
 
 
-      document.getElementById(
-        'observationCount'
-      ).textContent =
-        data.total_observations
-        ?? '-';
+    if (
+      data.config &&
+      isValidNumber(
+        data.config.RSI_THRESHOLD
+      )
+    ) {
 
-
-      document.getElementById(
-        'foundCount'
-      ).textContent =
-        data.total_signals
-        ?? allResults.length;
-
-
-      if (
-        data.generated_at
-      ) {
-
-        document.getElementById(
-          'lastUpdated'
-        ).textContent =
-          '마지막 스캔: ' +
-          formatDate(
-            data.generated_at
-          );
-
-      }
-
-
-      if (
-        data.config &&
-        isValidNumber(
+      const threshold =
+        Number(
           data.config.RSI_THRESHOLD
-        )
-      ) {
-
-        const threshold =
-          Number(
-            data.config.RSI_THRESHOLD
-          );
+        );
 
 
-        rsiRange.max =
-          threshold;
+      rsiRange.max =
+        threshold;
 
 
-        rsiRange.value =
-          threshold;
+      rsiRange.value =
+        threshold;
 
 
-        rsiVal.textContent =
-          threshold;
-
-      }
-
-
-    } else {
-
-      console.error(
-        'data.json 오류:',
-        dataResult.reason
-      );
-
-
-      container.innerHTML = `
-
-        <div class="empty-state">
-
-          메인 데이터를 불러오지 못했습니다.
-
-          <br><br>
-
-          data.json을 확인하십시오.
-
-        </div>
-
-      `;
+      rsiVal.textContent =
+        threshold;
 
     }
 
 
-    /* =====================================================
-       BSI
-       ===================================================== */
-
-    if (
-      bsiResult.status === 'fulfilled'
-    ) {
-
-      bsiData =
-        bsiResult.value;
-
-
-      renderBSI(
-        bsiData
-      );
-
-    } else {
-
-      console.warn(
-        'bsi.json 로딩 실패:',
-        bsiResult.reason
-      );
-
-
-      document.getElementById(
-        'bsiGrid'
-      ).innerHTML = `
-
-        <div
-          class="empty-state"
-          style="grid-column:1/-1;"
-        >
-
-          BSI 데이터 대기 중
-
-          <br>
-
-          bsi.json이 아직 웹 저장소에 없습니다.
-
-        </div>
-
-      `;
-
-    }
-
-
-    /* =====================================================
-       PERFORMANCE
-       ===================================================== */
-
-    if (
-      performanceResult.status ===
-      'fulfilled'
-    ) {
-
-      performanceData =
-        performanceResult.value;
-
-
-      renderPerformance(
-        performanceData
-      );
-
-
-      document.getElementById(
-        'researchCompleted'
-      ).textContent =
-        performanceData.completed
-        ?? '-';
-
-
-      document.getElementById(
-        'researchPending'
-      ).textContent =
-        performanceData.pending
-        ?? '-';
-
-    } else {
-
-      console.warn(
-        'performance.json 로딩 실패:',
-        performanceResult.reason
-      );
-
-
-      document.getElementById(
-        'performanceStatus'
-      ).textContent =
-        '데이터 대기 중';
-
-    }
-
-
-    /* =====================================================
-       STATISTICS
-       ===================================================== */
-
-    if (
-      statisticsResult.status ===
-      'fulfilled'
-    ) {
-
-      statisticsData =
-        statisticsResult.value;
-
-
-      renderStatistics(
-        statisticsData
-      );
-
-    } else {
-
-      console.warn(
-        'statistics.json 로딩 실패:',
-        statisticsResult.reason
-      );
-
-
-      document.getElementById(
-        'statisticsGrid'
-      ).innerHTML = `
-
-        <div
-          class="empty-state"
-          style="grid-column:1/-1;"
-        >
-
-          Statistics 데이터 대기 중
-
-        </div>
-
-      `;
-
-    }
-
-
-    /* =====================================================
-       RESULTS
-       ===================================================== */
-
-    if (
-      allResults.length === 0
-    ) {
-
-      container.innerHTML = `
-
-        <div class="empty-state">
-
-          현재 Signal 조건을 만족하는
-          종목이 없습니다.
-
-        </div>
-
-      `;
-
-    } else {
-
-      applyFilters();
-
-    }
-
-  } catch (error) {
+  } else {
 
     console.error(
-      '전체 데이터 로딩 오류:',
-      error
+      '[FAIL] data.json',
+      dataResult.reason
     );
 
 
     container.innerHTML = `
 
-      <div class="empty-state">
+      <div class="empty-state error-state">
 
-        데이터를 불러오지 못했습니다.
+        <strong>
+          data.json을 불러오지 못했습니다.
+        </strong>
 
         <br><br>
 
-        오류:
-        ${error.message}
+        파일이 웹 저장소의
+        <strong>루트 경로</strong>에 존재하는지 확인하십시오.
+
+        <br><br>
+
+        예상 경로:
+
+        <br>
+
+        <span class="mono">
+          ./data.json
+        </span>
+
+        <br><br>
+
+        브라우저 개발자 콘솔에서
+        자세한 오류를 확인할 수 있습니다.
 
       </div>
 
@@ -4053,11 +4046,240 @@ async function load() {
     document.getElementById(
       'lastUpdated'
     ).textContent =
-      '마지막 스캔: 데이터 로딩 실패';
+      '마지막 스캔: data.json 로딩 실패';
 
   }
 
+
+  /* =====================================================
+     BSI.JSON
+     ===================================================== */
+
+  if (
+    bsiResult.status === 'fulfilled'
+  ) {
+
+    bsiData =
+      bsiResult.value;
+
+
+    console.log(
+      '[OK] bsi.json',
+      bsiData
+    );
+
+
+    renderBSI(
+      bsiData
+    );
+
+  } else {
+
+    console.warn(
+      '[WARN] bsi.json 로딩 실패:',
+      bsiResult.reason
+    );
+
+
+    document.getElementById(
+      'bsiGrid'
+    ).innerHTML = `
+
+      <div
+        class="empty-state"
+        style="grid-column:1/-1;"
+      >
+
+        BSI 데이터 대기 중
+
+        <br>
+
+        bsi.json이 아직 웹 저장소에 없습니다.
+
+      </div>
+
+    `;
+
+  }
+
+
+  /* =====================================================
+     PERFORMANCE.JSON
+     ===================================================== */
+
+  if (
+    performanceResult.status ===
+    'fulfilled'
+  ) {
+
+    performanceData =
+      performanceResult.value;
+
+
+    console.log(
+      '[OK] performance.json',
+      performanceData
+    );
+
+
+    renderPerformance(
+      performanceData
+    );
+
+
+    document.getElementById(
+      'researchCompleted'
+    ).textContent =
+      performanceData.completed
+      ??
+      performanceData.completed_signals
+      ??
+      0;
+
+
+    document.getElementById(
+      'researchPending'
+    ).textContent =
+      performanceData.pending
+      ??
+      performanceData.pending_signals
+      ??
+      0;
+
+  } else {
+
+    console.warn(
+      '[WARN] performance.json 로딩 실패:',
+      performanceResult.reason
+    );
+
+
+    document.getElementById(
+      'performanceStatus'
+    ).textContent =
+      '데이터 대기 중';
+
+  }
+
+
+  /* =====================================================
+     STATISTICS.JSON
+     ===================================================== */
+
+  if (
+    statisticsResult.status ===
+    'fulfilled'
+  ) {
+
+    statisticsData =
+      statisticsResult.value;
+
+
+    console.log(
+      '[OK] statistics.json',
+      statisticsData
+    );
+
+
+    renderStatistics(
+      statisticsData
+    );
+
+  } else {
+
+    console.warn(
+      '[WARN] statistics.json 로딩 실패:',
+      statisticsResult.reason
+    );
+
+
+    document.getElementById(
+      'statisticsGrid'
+    ).innerHTML = `
+
+      <div
+        class="empty-state"
+        style="grid-column:1/-1;"
+      >
+
+        Statistics 데이터 대기 중
+
+      </div>
+
+    `;
+
+  }
+
+
+  /* =====================================================
+     RESULTS
+     ===================================================== */
+
+  if (
+    allResults.length === 0
+  ) {
+
+    container.innerHTML = `
+
+      <div class="empty-state">
+
+        현재 Signal 조건을 만족하는
+        종목이 없습니다.
+
+      </div>
+
+    `;
+
+  } else {
+
+    applyFilters();
+
+  }
+
+
+  console.log(
+    '========================================'
+  );
+
+  console.log(
+    'NASDAQ SCREENER DATA LOAD COMPLETE'
+  );
+
+  console.log(
+    '========================================'
+  );
+
 }
+
+
+/* =========================================================
+   GLOBAL ERROR HANDLER
+   ========================================================= */
+
+window.addEventListener(
+  'error',
+  event => {
+
+    console.error(
+      '[GLOBAL ERROR]',
+      event.error || event.message
+    );
+
+  }
+);
+
+
+window.addEventListener(
+  'unhandledrejection',
+  event => {
+
+    console.error(
+      '[PROMISE ERROR]',
+      event.reason
+    );
+
+  }
+);
 
 
 /* =========================================================
@@ -4069,4 +4291,5 @@ load();
 </script>
 
 </body>
+
 </html>
