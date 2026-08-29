@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-29T08:13:02.279482+00:00",
+  "generated_at": "2026-08-29T10:35:35.644536+00:00",
   "index_name": "BSI",
-  "description": "Signal 발생 종목들의 평균 수익률 기반 지수",
+  "description": "Signal 발생 이후 각 거래일의 평균 수익률",
   "base": 0.0,
-  "base_description": "Signal 발생 시점의 평균 수익률을 0으로 설정",
+  "base_description": "Signal 발생 시점의 수익률을 0%로 설정",
   "signal_count": 451,
   "periods": {
     "5d": {
       "trading_days": 5,
-      "value": -0.2354,
-      "samples": 38
+      "value": -1.5948,
+      "samples": 194
     },
     "10d": {
       "trading_days": 10,
@@ -43,39 +43,44 @@
     },
     "max": {
       "trading_days": null,
-      "value": 2.3766,
-      "samples": 379
+      "value": 2.4051,
+      "samples": 422
     }
   },
   "curve": [
     {
       "day": 0,
       "bsi_pct": 0.0,
-      "samples": 379
+      "samples": 422
     },
     {
       "day": 1,
-      "bsi_pct": -0.1752,
-      "samples": 379
+      "bsi_pct": -0.3472,
+      "samples": 422
     },
     {
       "day": 2,
-      "bsi_pct": 0.3356,
-      "samples": 318
+      "bsi_pct": 0.2376,
+      "samples": 379
     },
     {
       "day": 3,
-      "bsi_pct": 0.1492,
-      "samples": 245
+      "bsi_pct": 0.2814,
+      "samples": 318
     },
     {
       "day": 4,
-      "bsi_pct": 0.9898,
-      "samples": 194
+      "bsi_pct": 0.3347,
+      "samples": 245
     },
     {
       "day": 5,
-      "bsi_pct": -0.2354,
+      "bsi_pct": -1.5948,
+      "samples": 194
+    },
+    {
+      "day": 6,
+      "bsi_pct": -3.6771,
       "samples": 38
     }
   ]
