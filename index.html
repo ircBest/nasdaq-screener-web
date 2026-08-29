@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-<meta
-name=“viewport”
-content=“width=device-width, initial-scale=1, viewport-fit=cover”
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
 
-<meta
-name=“apple-mobile-web-app-capable”
-content=“yes”
+  <meta
+    name="apple-mobile-web-app-capable"
+    content="yes"
+  >
 
-<meta
-name=“apple-mobile-web-app-status-bar-style”
-content=“black-translucent”
+  <meta
+    name="apple-mobile-web-app-status-bar-style"
+    content="black-translucent"
+  >
 
-<title>NASDAQ IT 스크리너</title>
-<link
-  rel="preconnect"
-  href="https://fonts.googleapis.com"
->
-<link
-  rel="preconnect"
-  href="https://fonts.gstatic.com"
-  crossorigin
->
-<link
-  href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
-  rel="stylesheet"
->
+  <meta
+    name="theme-color"
+    content="#0A0C10"
+  >
+
+  <title>NASDAQ IT 스크리너</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
 <style>
 :root {
   --bg: #0A0C10;
@@ -36,1327 +48,2179 @@ content=“black-translucent”
   --surface-2: #171C24;
   --surface-3: #1C222C;
   --border: #232833;
+
   --text: #E7EAF0;
   --text-dim: #8A93A6;
   --text-faint: #565E6E;
+
   --amber: #FFB020;
   --amber-dim: #8A6620;
+
   --green: #3ECF8E;
   --red: #FF5C5C;
   --blue: #6EA8FE;
+
   --radius: 10px;
 }
+
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
-html,
-body {
+
+html {
   margin: 0;
   padding: 0;
   background: var(--bg);
+}
+
+body {
+  margin: 0;
+  padding: 0 0 48px;
+  background: var(--bg);
   color: var(--text);
+
   font-family:
-    'Inter',
+    "Inter",
     -apple-system,
     BlinkMacSystemFont,
     sans-serif;
+
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
-body {
-  padding-bottom: 48px;
+
+button,
+input {
+  font: inherit;
 }
+
 .mono {
   font-family:
-    'IBM Plex Mono',
+    "IBM Plex Mono",
     ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
     monospace;
 }
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
 header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(10,12,16,0.94);
+
+  background: rgba(10, 12, 16, 0.94);
+
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
   border-bottom: 1px solid var(--border);
+
   padding:
-    env(safe-area-inset-top, 16px)
+    max(env(safe-area-inset-top), 16px)
     18px
     14px;
 }
+
 .eyebrow {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  color: var(--amber);
-  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 6px;
+
   margin-bottom: 4px;
+
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: 0.16em;
+
+  color: var(--amber);
 }
+
 .eyebrow .dot {
   width: 6px;
   height: 6px;
+
+  flex: 0 0 auto;
+
   border-radius: 50%;
+
   background: var(--green);
-  box-shadow: 0 0 8px var(--green);
+
+  box-shadow:
+    0 0 8px var(--green);
 }
+
 h1 {
   margin: 0;
+
   font-size: 21px;
+  line-height: 1.3;
   font-weight: 800;
 }
+
 .sub {
-  color: var(--text-dim);
-  font-size: 12.5px;
   margin-top: 3px;
+
+  color: var(--text-dim);
+
+  font-size: 12.5px;
+  line-height: 1.5;
 }
+
+/* =========================================================
+   MAIN
+   ========================================================= */
+
 main {
-  padding: 16px;
+  width: 100%;
   max-width: 680px;
+
   margin: 0 auto;
+  padding: 16px;
 }
+
+/* =========================================================
+   SECTION
+   ========================================================= */
+
 .section-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 22px 2px 10px;
+
+  margin:
+    22px 2px
+    10px;
 }
+
 .section-title .title {
   font-size: 13px;
   font-weight: 700;
 }
+
 .section-title .hint {
   color: var(--text-faint);
-  font-family: 'IBM Plex Mono', monospace;
+
+  font-family: "IBM Plex Mono", monospace;
+
   font-size: 10px;
 }
+
+/* =========================================================
+   STATUS STRIP
+   ========================================================= */
+
 .status-strip {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 14px 16px;
-  margin-bottom: 14px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+
   gap: 10px;
+
+  margin-bottom: 14px;
+  padding: 14px 16px;
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
 }
+
 .status-cell {
+  min-width: 0;
   text-align: center;
 }
+
 .status-cell .val {
-  font-family: 'IBM Plex Mono', monospace;
+  color: var(--amber);
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
   font-size: 15px;
   font-weight: 600;
-  color: var(--amber);
+
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 .status-cell .lbl {
-  font-size: 10.5px;
-  color: var(--text-dim);
   margin-top: 2px;
+
+  color: var(--text-dim);
+
+  font-size: 10.5px;
 }
+
+/* =========================================================
+   RESEARCH STATUS
+   ========================================================= */
+
 .research-status {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   gap: 10px;
+
   margin-bottom: 14px;
 }
+
 .research-status-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   padding: 13px 14px;
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
 }
+
 .research-status-card .k {
-  font-size: 10.5px;
-  color: var(--text-faint);
   margin-bottom: 4px;
+
+  color: var(--text-faint);
+
+  font-size: 10.5px;
 }
+
 .research-status-card .v {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
   font-size: 16px;
   font-weight: 600;
 }
+
 .research-status-card .v.green {
   color: var(--green);
 }
+
 .research-status-card .v.amber {
   color: var(--amber);
 }
+
+/* =========================================================
+   SETTINGS
+   ========================================================= */
+
 .settings-toggle {
   width: 100%;
-  text-align: left;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding:
+    6px
+    2px
+    16px;
+
   background: none;
   border: none;
+
   color: var(--text-dim);
+
   font-size: 12.5px;
-  padding: 6px 2px 16px;
+
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
+
 .settings-panel {
   display: none;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 14px 16px;
+
   margin-bottom: 16px;
+  padding: 14px 16px;
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
 }
+
 .settings-panel.open {
   display: block;
 }
+
 .field {
   margin-bottom: 14px;
 }
+
 .field:last-child {
   margin-bottom: 0;
 }
+
 .field label {
   display: flex;
   justify-content: space-between;
-  font-size: 12.5px;
-  color: var(--text-dim);
+
   margin-bottom: 6px;
+
+  color: var(--text-dim);
+
+  font-size: 12.5px;
 }
+
 .field label span.v {
   color: var(--amber);
-  font-family: 'IBM Plex Mono', monospace;
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
 }
-.field input[type=range] {
+
+.field input[type="range"] {
   width: 100%;
+
   accent-color: var(--amber);
+
+  cursor: pointer;
 }
+
 .toggle-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .switch {
   position: relative;
+
   width: 42px;
   height: 24px;
+
+  flex: 0 0 auto;
 }
+
 .switch input {
   opacity: 0;
+
   width: 0;
   height: 0;
 }
+
 .slider-toggle {
   position: absolute;
   inset: 0;
+
   background: var(--border);
+
   border-radius: 24px;
+
   transition: 0.2s;
+
   cursor: pointer;
 }
-.slider-toggle:before {
+
+.slider-toggle::before {
   content: "";
+
   position: absolute;
-  height: 18px;
+
   width: 18px;
+  height: 18px;
+
   left: 3px;
   top: 3px;
+
   background: var(--text-dim);
+
   border-radius: 50%;
+
   transition: 0.2s;
 }
+
 input:checked + .slider-toggle {
   background: var(--amber-dim);
 }
-input:checked + .slider-toggle:before {
+
+input:checked + .slider-toggle::before {
   transform: translateX(18px);
+
   background: var(--amber);
 }
+
+/* =========================================================
+   NOTICE
+   ========================================================= */
+
 .notice-box {
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 12px 14px;
-  font-size: 12px;
-  color: var(--text-dim);
   margin-bottom: 14px;
+  padding: 12px 14px;
+
+  background: var(--surface-2);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  color: var(--text-dim);
+
+  font-size: 12px;
   line-height: 1.5;
 }
+
 .meta-line {
-  font-size: 11.5px;
-  color: var(--text-faint);
-  margin: 4px 2px 16px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 4px;
+
+  margin:
+    4px 2px
+    16px;
+
+  color: var(--text-faint);
+
+  font-size: 11.5px;
 }
+
+/* =========================================================
+   BSI
+   ========================================================= */
+
 .bsi-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   overflow: hidden;
+
   margin-bottom: 14px;
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
 }
+
 .bsi-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .bsi-item {
   padding: 13px 8px;
-  border-right: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
+
+  border-right:
+    1px solid var(--border);
+
+  border-bottom:
+    1px solid var(--border);
+
   text-align: center;
 }
+
 .bsi-item:nth-child(4n) {
   border-right: none;
 }
+
 .bsi-item .period {
-  color: var(--text-faint);
-  font-size: 10px;
   margin-bottom: 4px;
+
+  color: var(--text-faint);
+
+  font-size: 10px;
 }
+
 .bsi-item .value {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
   font-size: 13px;
   font-weight: 600;
 }
+
 .bsi-item .samples {
-  color: var(--text-faint);
-  font-size: 9px;
   margin-top: 3px;
+
+  color: var(--text-faint);
+
+  font-size: 9px;
 }
+
 .bsi-positive {
   color: var(--green);
 }
+
 .bsi-negative {
   color: var(--red);
 }
+
 .bsi-neutral {
   color: var(--text-dim);
 }
+
+/* =========================================================
+   BSI CURVE
+   ========================================================= */
+
 .curve-wrap {
   padding: 14px;
-  border-top: 1px solid var(--border);
+
+  border-top:
+    1px solid var(--border);
 }
+
 .curve-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  gap: 10px;
+
   margin-bottom: 10px;
 }
+
 .curve-title {
-  font-size: 11px;
   color: var(--text-dim);
+
+  font-size: 11px;
 }
+
 .curve-value {
-  font-family: 'IBM Plex Mono', monospace;
+  color: var(--text);
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
   font-size: 12px;
+
+  white-space: nowrap;
 }
+
 #bsiCanvas {
   display: block;
+
   width: 100%;
   height: 170px;
+
   background: var(--surface-2);
+
   border-radius: 8px;
 }
+
+/* =========================================================
+   PERFORMANCE
+   ========================================================= */
+
 .performance-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   overflow: hidden;
+
   margin-bottom: 14px;
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
 }
+
 .performance-table {
   width: 100%;
+
   border-collapse: collapse;
 }
+
 .performance-table th {
+  padding:
+    10px
+    12px;
+
+  border-bottom:
+    1px solid var(--border);
+
   color: var(--text-faint);
+
   font-size: 10px;
   font-weight: 500;
+
   text-align: left;
-  padding: 10px 12px;
-  border-bottom: 1px solid var(--border);
 }
+
 .performance-table td {
-  padding: 10px 12px;
-  font-family: 'IBM Plex Mono', monospace;
+  padding:
+    10px
+    12px;
+
+  border-bottom:
+    1px solid var(--border);
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
   font-size: 11px;
-  border-bottom: 1px solid var(--border);
 }
+
 .performance-table tr:last-child td {
   border-bottom: none;
 }
+
 .performance-table .positive {
   color: var(--green);
 }
+
 .performance-table .negative {
   color: var(--red);
 }
+
+/* =========================================================
+   STATISTICS
+   ========================================================= */
+
 .statistics-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   gap: 10px;
 }
+
 .stat-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   padding: 13px 14px;
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
 }
+
 .stat-card .k {
-  color: var(--text-faint);
-  font-size: 10px;
   margin-bottom: 5px;
+
+  color: var(--text-faint);
+
+  font-size: 10px;
 }
+
 .stat-card .v {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
   font-size: 15px;
   font-weight: 600;
 }
+
+/* =========================================================
+   STATES
+   ========================================================= */
+
 .empty-state {
-  text-align: center;
-  padding: 34px 20px;
+  padding:
+    34px
+    20px;
+
   color: var(--text-dim);
+
   font-size: 13px;
-  border: 1px dashed var(--border);
+
+  line-height: 1.6;
+
+  text-align: center;
+
+  border:
+    1px dashed var(--border);
+
   border-radius: var(--radius);
 }
+
 .error-state {
   color: var(--red);
-  border-color: rgba(255,92,92,0.35);
+
+  border-color:
+    rgba(255, 92, 92, 0.35);
 }
+
 .loading-state {
   color: var(--text-dim);
 }
+
+/* =========================================================
+   SIGNAL CARD
+   ========================================================= */
+
 .card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--text-faint);
-  border-radius: var(--radius);
-  padding: 14px 16px;
   margin-bottom: 10px;
+  padding: 14px 16px;
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-left:
+    3px solid var(--text-faint);
+
+  border-radius: var(--radius);
 }
+
 .card.up {
   border-left-color: var(--green);
 }
+
 .card.down {
   border-left-color: var(--red);
 }
+
 .card-top {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  gap: 12px;
+
   margin-bottom: 10px;
 }
+
 .card-ticker {
   font-size: 16px;
   font-weight: 700;
 }
+
 .card-name {
-  font-size: 11.5px;
-  color: var(--text-dim);
   margin-top: 1px;
+
+  color: var(--text-dim);
+
+  font-size: 11.5px;
+  line-height: 1.4;
 }
+
 .card-price-block {
+  flex: 0 0 auto;
+
   text-align: right;
 }
+
 .card-price {
-  font-family: 'IBM Plex Mono', monospace;
   font-size: 16px;
   font-weight: 600;
 }
+
 .card-change {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
   margin-top: 2px;
+
+  font-size: 12px;
 }
+
 .card-change.up {
   color: var(--green);
 }
+
 .card-change.down {
   color: var(--red);
 }
+
 .card-change.flat {
   color: var(--text-dim);
 }
+
+/* =========================================================
+   BADGES
+   ========================================================= */
+
 .badge-row {
   display: flex;
-  gap: 6px;
   flex-wrap: wrap;
+  gap: 6px;
+
   margin-bottom: 12px;
 }
+
 .badge {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 11px;
-  padding: 3px 8px;
-  border-radius: 6px;
+  padding:
+    3px
+    8px;
+
   background: var(--surface-2);
-  border: 1px solid var(--border);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: 6px;
+
   color: var(--text-dim);
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
+  font-size: 11px;
 }
+
 .badge.rsi-low {
   color: var(--green);
-  border-color: rgba(62,207,142,0.35);
+
+  border-color:
+    rgba(62, 207, 142, 0.35);
 }
+
 .badge.profit {
   color: var(--green);
 }
+
 .badge.loss {
   color: var(--red);
 }
+
 .badge.vol {
   color: var(--amber);
-  border-color: rgba(255,176,32,0.35);
+
+  border-color:
+    rgba(255, 176, 32, 0.35);
 }
+
+/* =========================================================
+   METRICS
+   ========================================================= */
+
 .metric-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   gap: 10px 14px;
-  padding: 12px 0;
-  border-top: 1px solid var(--border);
+
   margin-bottom: 12px;
+  padding:
+    12px
+    0;
+
+  border-top:
+    1px solid var(--border);
 }
+
 .metric.full {
   grid-column: 1 / -1;
 }
+
 .metric .k {
-  font-size: 10.5px;
-  color: var(--text-faint);
   margin-bottom: 2px;
+
+  color: var(--text-faint);
+
+  font-size: 10.5px;
 }
+
 .metric .v {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
   font-size: 12.5px;
+
+  word-break: break-word;
 }
+
 .metric .v.up {
   color: var(--green);
 }
+
 .metric .v.down {
   color: var(--red);
 }
+
+/* =========================================================
+   PLAN
+   ========================================================= */
+
 .plan-row {
   display: flex;
-  justify-content: space-between;
-  background: var(--surface-2);
-  border-radius: 8px;
-  padding: 10px 12px;
-  font-size: 12px;
+
   gap: 10px;
+
+  padding:
+    10px
+    12px;
+
+  background: var(--surface-2);
+
+  border-radius: 8px;
 }
+
 .plan-item {
   flex: 1;
+  min-width: 0;
 }
+
 .plan-item .k {
   color: var(--text-faint);
+
   font-size: 10.5px;
 }
+
 .plan-item .v {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 13px;
   margin-top: 2px;
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
+  font-size: 13px;
+
+  word-break: break-word;
 }
+
 .plan-item.target .v {
   color: var(--green);
 }
+
 .plan-item.stop .v {
   color: var(--red);
 }
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
 .footer-note {
-  text-align: center;
-  font-size: 11px;
-  color: var(--text-faint);
   margin-top: 24px;
+
+  color: var(--text-faint);
+
+  font-size: 11px;
   line-height: 1.6;
+
+  text-align: center;
 }
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
 @media (max-width: 420px) {
+
   .bsi-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .bsi-item:nth-child(4n) {
-    border-right: 1px solid var(--border);
+    border-right:
+      1px solid var(--border);
   }
+
   .bsi-item:nth-child(2n) {
     border-right: none;
   }
+
   .plan-row {
     flex-direction: column;
+  }
+
+  .card {
+    padding:
+      13px
+      14px;
+  }
+
+  .card-top {
+    gap: 8px;
+  }
+
+  .card-ticker {
+    font-size: 15px;
+  }
+
+  .card-price {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 340px) {
+
+  main {
+    padding:
+      12px;
+  }
+
+  .status-strip {
+    padding:
+      12px 8px;
+  }
+
+  .status-cell .val {
+    font-size: 13px;
+  }
+
+  .status-cell .lbl {
+    font-size: 9.5px;
   }
 }
 </style>
 </head>
+
 <body>
+
 <header>
+
   <div class="eyebrow">
-<span class="dot"></span>
-AUTO SCREENER · DAILY 07:00 KST
+    <span class="dot"></span>
+    AUTO SCREENER · DAILY 07:00 KST
   </div>
+
   <h1>
     NASDAQ IT 스크리너
   </h1>
+
   <div class="sub">
     RSI 과매도 · 재무 데이터 · 거래량 · 위험관리 · Research
   </div>
+
 </header>
+
 <main>
-<div class="status-strip">
-  <div class="status-cell">
-<div
-  class="val mono"
-  id="scannedCount"
->
-  -
-</div>
-<div class="lbl">
-  전체 스캔 종목
-</div>
-  </div>
-  <div class="status-cell">
-<div
-  class="val mono"
-  id="observationCount"
->
-  -
-</div>
-<div class="lbl">
-  Observation
-</div>
-  </div>
-  <div class="status-cell">
-<div
-  class="val mono"
-  id="foundCount"
->
-  -
-</div>
-<div class="lbl">
-  Signal
-</div>
-  </div>
-</div>
-<div class="research-status">
-  <div class="research-status-card">
-<div class="k">
-  Research 완료
-</div>
-<div
-  class="v green"
-  id="researchCompleted"
->
-  -
-</div>
-  </div>
-  <div class="research-status-card">
-<div class="k">
-  Research 대기
-</div>
-<div
-  class="v amber"
-  id="researchPending"
->
-  -
-</div>
-  </div>
-</div>
 
-<button
-class=“settings-toggle”
-id=“settingsToggle”
+  <!-- =====================================================
+       STATUS
+       ===================================================== -->
 
-  <span>
-    필터 조정
-  </span>
-  <span id="settingsCaret">
-    ▾
-  </span>
-</button>
-<div
-  class="settings-panel"
-  id="settingsPanel"
->
-  <div class="field">
-<label>
-  RSI 기준 (이하)
-  <span
-    class="v"
-    id="rsiVal"
+  <div class="status-strip">
+
+    <div class="status-cell">
+
+      <div
+        class="val mono"
+        id="scannedCount"
+      >
+        -
+      </div>
+
+      <div class="lbl">
+        전체 스캔 종목
+      </div>
+
+    </div>
+
+    <div class="status-cell">
+
+      <div
+        class="val mono"
+        id="observationCount"
+      >
+        -
+      </div>
+
+      <div class="lbl">
+        Observation
+      </div>
+
+    </div>
+
+    <div class="status-cell">
+
+      <div
+        class="val mono"
+        id="foundCount"
+      >
+        -
+      </div>
+
+      <div class="lbl">
+        Signal
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       RESEARCH STATUS
+       ===================================================== -->
+
+  <div class="research-status">
+
+    <div class="research-status-card">
+
+      <div class="k">
+        Research 완료
+      </div>
+
+      <div
+        class="v green"
+        id="researchCompleted"
+      >
+        -
+      </div>
+
+    </div>
+
+    <div class="research-status-card">
+
+      <div class="k">
+        Research 대기
+      </div>
+
+      <div
+        class="v amber"
+        id="researchPending"
+      >
+        -
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       SETTINGS
+       ===================================================== -->
+
+  <button
+    class="settings-toggle"
+    id="settingsToggle"
+    type="button"
   >
-    40
-  </span>
-</label>
-<input
-  type="range"
-  id="rsiRange"
-  min="10"
-  max="40"
-  value="40"
->
-  </div>
-  <div class="field toggle-row">
-<label style="margin:0;">
-  최근 분기 흑자 기업만
-</label>
-<label class="switch">
-  <input
-    type="checkbox"
-    id="reqProfit"
-  >
-  <span class="slider-toggle"></span>
-</label>
-  </div>
-</div>
-<div class="notice-box">
 
-이 페이지는
-매일 오전 7시(한국시간)
-GitHub Actions가 자동으로 스캔한 결과를 표시합니다.
+    <span>
+      필터 조정
+    </span>
 
-Research Performance와 BSI는
-과거 Signal의 성과가 충분히 누적된 경우에만
-해당 기간의 값을 표시합니다.
+    <span id="settingsCaret">
+      ▾
+    </span>
 
-</div>
-<div class="meta-line">
-  <span id="lastUpdated">
-    마지막 스캔: 불러오는 중...
-  </span>
-</div>
-<div class="section-title">
-  <div class="title">
-    BSI · Backtest Signal Index
-  </div>
+  </button>
+
+
   <div
-    class="hint"
-    id="bsiUpdated"
+    class="settings-panel"
+    id="settingsPanel"
   >
-    -
-  </div>
-</div>
-<div class="bsi-card">
-  <div
-    class="bsi-grid"
-    id="bsiGrid"
-  >
-<div
-  class="empty-state loading-state"
-  style="grid-column:1/-1;"
->
-  BSI 데이터를 불러오는 중...
-</div>
-  </div>
-  <div class="curve-wrap">
-<div class="curve-header">
-  <div class="curve-title">
-    Signal 발생 이후 평균 수익률 Curve
-  </div>
-  <div
-    class="curve-value"
-    id="curveLatest"
-  >
-    -
-  </div>
-</div>
-<canvas
-  id="bsiCanvas"
-  width="600"
-  height="170"
-></canvas>
-  </div>
-</div>
-<div class="section-title">
-  <div class="title">
-    Research Performance
-  </div>
-  <div
-    class="hint"
-    id="performanceStatus"
-  >
-    -
-  </div>
-</div>
-<div class="performance-card">
-  <table class="performance-table">
-<thead>
-  <tr>
-    <th>
-      항목
-    </th>
-    <th>
-      값
-    </th>
-  </tr>
-</thead>
-<tbody id="performanceTable">
-  <tr>
-    <td colspan="2">
-      Research 데이터를 불러오는 중...
-    </td>
-  </tr>
-</tbody>
-  </table>
-</div>
-<div class="section-title">
-  <div class="title">
-    Research Statistics
-  </div>
-</div>
-<div
-  class="statistics-grid"
-  id="statisticsGrid"
->
-  <div
-    class="empty-state loading-state"
-    style="grid-column:1/-1;"
-  >
-    Statistics 데이터를 불러오는 중...
-  </div>
-</div>
-<div class="section-title">
-  <div class="title">
-    Signal Results
-  </div>
-</div>
-<div id="resultsContainer">
-  <div class="empty-state loading-state">
-    데이터를 불러오는 중입니다...
-  </div>
-</div>
-<div class="footer-note">
 
-Safari 공유 버튼 →
-“홈 화면에 추가”를 선택하면
-앱처럼 사용할 수 있습니다.
+    <div class="field">
 
-Research 데이터는
-충분한 거래일이 축적된 이후 자동으로 갱신됩니다.
+      <label>
 
-</div>
+        <span>
+          RSI 기준 (이하)
+        </span>
+
+        <span
+          class="v"
+          id="rsiVal"
+        >
+          40
+        </span>
+
+      </label>
+
+      <input
+        type="range"
+        id="rsiRange"
+        min="10"
+        max="40"
+        value="40"
+      >
+
+    </div>
+
+
+    <div class="field toggle-row">
+
+      <label style="margin:0;">
+        최근 분기 흑자 기업만
+      </label>
+
+      <label class="switch">
+
+        <input
+          type="checkbox"
+          id="reqProfit"
+        >
+
+        <span class="slider-toggle"></span>
+
+      </label>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       NOTICE
+       ===================================================== -->
+
+  <div class="notice-box">
+
+    이 페이지는
+    매일 오전 7시(한국시간)
+    GitHub Actions가 자동으로 스캔한 결과를 표시합니다.
+
+    <br><br>
+
+    Research Performance와 BSI는
+    과거 Signal의 성과가 충분히 누적된 경우에만
+    해당 기간의 값을 표시합니다.
+
+  </div>
+
+
+  <div class="meta-line">
+
+    <span id="lastUpdated">
+      마지막 스캔: 불러오는 중...
+    </span>
+
+  </div>
+
+
+  <!-- =====================================================
+       BSI
+       ===================================================== -->
+
+  <div class="section-title">
+
+    <div class="title">
+      BSI · Backtest Signal Index
+    </div>
+
+    <div
+      class="hint"
+      id="bsiUpdated"
+    >
+      -
+    </div>
+
+  </div>
+
+
+  <div class="bsi-card">
+
+    <div
+      class="bsi-grid"
+      id="bsiGrid"
+    >
+
+      <div
+        class="empty-state loading-state"
+        style="grid-column:1/-1;"
+      >
+        BSI 데이터를 불러오는 중...
+      </div>
+
+    </div>
+
+
+    <div class="curve-wrap">
+
+      <div class="curve-header">
+
+        <div class="curve-title">
+          Signal 발생 이후 평균 수익률 Curve
+        </div>
+
+        <div
+          class="curve-value"
+          id="curveLatest"
+        >
+          -
+        </div>
+
+      </div>
+
+      <canvas
+        id="bsiCanvas"
+        width="600"
+        height="170"
+      ></canvas>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       PERFORMANCE
+       ===================================================== -->
+
+  <div class="section-title">
+
+    <div class="title">
+      Research Performance
+    </div>
+
+    <div
+      class="hint"
+      id="performanceStatus"
+    >
+      -
+    </div>
+
+  </div>
+
+
+  <div class="performance-card">
+
+    <table class="performance-table">
+
+      <thead>
+
+        <tr>
+
+          <th>
+            항목
+          </th>
+
+          <th>
+            값
+          </th>
+
+        </tr>
+
+      </thead>
+
+      <tbody id="performanceTable">
+
+        <tr>
+
+          <td colspan="2">
+            Research 데이터를 불러오는 중...
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+
+  <!-- =====================================================
+       STATISTICS
+       ===================================================== -->
+
+  <div class="section-title">
+
+    <div class="title">
+      Research Statistics
+    </div>
+
+  </div>
+
+
+  <div
+    class="statistics-grid"
+    id="statisticsGrid"
+  >
+
+    <div
+      class="empty-state loading-state"
+      style="grid-column:1/-1;"
+    >
+      Statistics 데이터를 불러오는 중...
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       SIGNAL RESULTS
+       ===================================================== -->
+
+  <div class="section-title">
+
+    <div class="title">
+      Signal Results
+    </div>
+
+    <div
+      class="hint"
+      id="resultCount"
+    >
+      -
+    </div>
+
+  </div>
+
+
+  <div id="resultsContainer">
+
+    <div class="empty-state loading-state">
+      데이터를 불러오는 중입니다...
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
+  <div class="footer-note">
+
+    Safari 공유 버튼 →
+    “홈 화면에 추가”를 선택하면
+    앱처럼 사용할 수 있습니다.
+
+    <br><br>
+
+    Research 데이터는
+    충분한 거래일이 축적된 이후 자동으로 갱신됩니다.
+
+  </div>
+
 </main>
+
+
 <script>
+
 /* =========================================================
    DOM
    ========================================================= */
+
 const settingsToggle =
-  document.getElementById('settingsToggle');
+  document.getElementById("settingsToggle");
+
 const settingsPanel =
-  document.getElementById('settingsPanel');
+  document.getElementById("settingsPanel");
+
 const settingsCaret =
-  document.getElementById('settingsCaret');
+  document.getElementById("settingsCaret");
+
 const rsiRange =
-  document.getElementById('rsiRange');
+  document.getElementById("rsiRange");
+
 const rsiVal =
-  document.getElementById('rsiVal');
+  document.getElementById("rsiVal");
+
 const reqProfit =
-  document.getElementById('reqProfit');
+  document.getElementById("reqProfit");
+
+
 /* =========================================================
    DATA
    ========================================================= */
+
 let allResults = [];
+
 let bsiData = null;
+
 let performanceData = null;
+
 let statisticsData = null;
+
+
 /* =========================================================
    SETTINGS
    ========================================================= */
+
 settingsToggle.addEventListener(
-  'click',
+  "click",
   () => {
-    settingsPanel.classList.toggle('open');
+
+    settingsPanel.classList.toggle("open");
+
     settingsCaret.textContent =
-      settingsPanel.classList.contains('open')
-        ? '▴'
-        : '▾';
+      settingsPanel.classList.contains("open")
+        ? "▴"
+        : "▾";
+
   }
 );
+
+
 /* =========================================================
    FILTER
    ========================================================= */
+
 rsiRange.addEventListener(
-  'input',
+  "input",
   () => {
+
     rsiVal.textContent =
       rsiRange.value;
+
     applyFilters();
+
   }
 );
+
+
 reqProfit.addEventListener(
-  'change',
+  "change",
   applyFilters
 );
+
+
+/* =========================================================
+   SAFE TEXT
+   ========================================================= */
+
+function escapeHTML(value) {
+
+  if (
+    value === null ||
+    value === undefined
+  ) {
+    return "";
+  }
+
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+
+}
+
+
 /* =========================================================
    NUMBER
    ========================================================= */
+
 function isValidNumber(value) {
+
   if (
     value === null ||
     value === undefined ||
-    value === ''
+    value === ""
   ) {
     return false;
   }
-  return Number.isFinite(Number(value));
+
+  return Number.isFinite(
+    Number(value)
+  );
+
 }
+
+
 /* =========================================================
    PERCENT
    ========================================================= */
+
 function fmtPct(value) {
+
   if (!isValidNumber(value)) {
-    return 'N/A';
+    return "N/A";
   }
-  const number = Number(value);
+
+  const number =
+    Number(value);
+
   const sign =
     number >= 0
-      ? '+'
-      : '';
+      ? "+"
+      : "";
+
   return (
     sign +
     number.toFixed(2) +
-    '%'
+    "%"
   );
+
 }
+
+
 /* =========================================================
    SHORT PERCENT
    ========================================================= */
+
 function fmtPctShort(value) {
+
   if (!isValidNumber(value)) {
-    return 'N/A';
+    return "N/A";
   }
-  const number = Number(value);
+
+  const number =
+    Number(value);
+
   const sign =
     number >= 0
-      ? '+'
-      : '';
+      ? "+"
+      : "";
+
   return (
     sign +
     number.toFixed(1) +
-    '%'
+    "%"
   );
+
 }
+
+
 /* =========================================================
    PRICE
    ========================================================= */
+
 function fmtPrice(value) {
+
   if (!isValidNumber(value)) {
-    return 'N/A';
+    return "N/A";
   }
+
   return (
-    '$' +
+    "$" +
     Number(value).toFixed(2)
   );
+
 }
+
+
 /* =========================================================
    MONEY M
    ========================================================= */
+
 function fmtM(value) {
+
   if (!isValidNumber(value)) {
-    return 'N/A';
+    return "N/A";
   }
+
   return (
-    '$' +
+    "$" +
     Number(value).toLocaleString(
-      'en-US',
+      "en-US",
       {
         maximumFractionDigits: 1
       }
     ) +
-    'M'
+    "M"
   );
+
 }
+
+
 /* =========================================================
    VOLUME
    ========================================================= */
+
 function fmtVolume(value) {
+
   if (!isValidNumber(value)) {
-    return 'N/A';
+    return "N/A";
   }
-  return Number(value).toLocaleString(
-    'en-US'
-  );
+
+  return Number(value)
+    .toLocaleString("en-US");
+
 }
+
+
 /* =========================================================
    CHANGE CLASS
    ========================================================= */
+
 function changeClass(value) {
+
   if (!isValidNumber(value)) {
-    return 'flat';
+    return "flat";
   }
-  const number = Number(value);
+
+  const number =
+    Number(value);
+
   if (number > 0) {
-    return 'up';
+    return "up";
   }
+
   if (number < 0) {
-    return 'down';
+    return "down";
   }
-  return 'flat';
+
+  return "flat";
+
 }
+
+
 /* =========================================================
    BSI CLASS
    ========================================================= */
+
 function bsiClass(value) {
+
   if (!isValidNumber(value)) {
-    return 'bsi-neutral';
+    return "bsi-neutral";
   }
-  const number = Number(value);
+
+  const number =
+    Number(value);
+
   if (number > 0) {
-    return 'bsi-positive';
+    return "bsi-positive";
   }
+
   if (number < 0) {
-    return 'bsi-negative';
+    return "bsi-negative";
   }
-  return 'bsi-neutral';
+
+  return "bsi-neutral";
+
 }
+
+
 /* =========================================================
    VOLUME BADGE
    ========================================================= */
+
 function createVolumeBadge(row) {
-  if (row.volume_spike !== true) {
-    return '';
+
+  if (
+    row.volume_spike !== true
+  ) {
+    return "";
   }
-  if (row.volume_direction === 'up') {
+
+  if (
+    row.volume_direction === "up"
+  ) {
+
     return `
       <span class="badge vol">
         거래량 폭증 · 상승동반
       </span>
     `;
+
   }
-  if (row.volume_direction === 'down') {
+
+  if (
+    row.volume_direction === "down"
+  ) {
+
     return `
       <span class="badge vol">
         거래량 폭증 · 하락동반
       </span>
     `;
+
   }
+
   return `
     <span class="badge vol">
       거래량 폭증
     </span>
   `;
+
 }
+
+
 /* =========================================================
    PROFIT BADGE
    ========================================================= */
+
 function createProfitBadge(row) {
-  if (row.profitable === true) {
+
+  if (
+    row.profitable === true
+  ) {
+
     return `
       <span class="badge profit">
         최근분기 흑자
       </span>
     `;
+
   }
-  if (row.profitable === false) {
+
+  if (
+    row.profitable === false
+  ) {
+
     return `
       <span class="badge loss">
         최근분기 적자
       </span>
     `;
+
   }
+
   return `
     <span class="badge">
       손익 N/A
     </span>
   `;
+
 }
+
+
 /* =========================================================
    BSI PERIOD LABEL
    ========================================================= */
+
 const BSI_LABELS = {
-  '5d': '5D',
-  '10d': '10D',
-  '30d': '30D',
-  '60d': '60D',
-  '90d': '90D',
-  '1y': '1Y',
-  '5y': '5Y',
-  'max': 'MAX'
+
+  "5d": "5D",
+  "10d": "10D",
+  "30d": "30D",
+  "60d": "60D",
+  "90d": "90D",
+  "1y": "1Y",
+  "5y": "5Y",
+  "max": "MAX"
+
 };
+
+
 /* =========================================================
    NORMALIZE LATEST SIGNAL
-   =========================================================
-   
-   latest_signals.json v2.0 구조:
-   {
-     schema_version,
-     observation_date,
-     generated_at,
-     total_signals,
-     results: [
-       {
-         ticker,
-         name,
-         technical: {...},
-         fundamental: {...},
-         signal: {...},
-         risk: {...}
-       }
-     ]
-   }
-   기존 UI는 평면 구조를 사용하므로
-   여기서 화면용 구조로 변환한다.
    ========================================================= */
+
 function normalizeSignal(item) {
+
   if (
     !item ||
-    typeof item !== 'object'
+    typeof item !== "object"
   ) {
     return {};
   }
+
   const technical =
     item.technical &&
-    typeof item.technical === 'object'
+    typeof item.technical === "object"
       ? item.technical
       : {};
+
   const fundamental =
     item.fundamental &&
-    typeof item.fundamental === 'object'
+    typeof item.fundamental === "object"
       ? item.fundamental
       : {};
+
   const signal =
     item.signal &&
-    typeof item.signal === 'object'
+    typeof item.signal === "object"
       ? item.signal
       : {};
+
   const risk =
     item.risk &&
-    typeof item.risk === 'object'
+    typeof item.risk === "object"
       ? item.risk
       : {};
-  /*
-   * 여러 버전의 JSON 키 이름을
-   * 동시에 지원한다.
-   */
+
+
+  /* =======================================================
+     VOLUME
+     ======================================================= */
+
   const volumeAvg =
     technical.volume_avg_20d ??
     technical.volume_avg ??
     technical.avg_volume_20d ??
     technical.volume_average_20d ??
     null;
+
+
   const volumeRatio =
     technical.volume_ratio ??
     (
       isValidNumber(item.volume) &&
       isValidNumber(volumeAvg) &&
       Number(volumeAvg) !== 0
-        ? Number(item.volume) / Number(volumeAvg)
+        ? Number(item.volume) /
+          Number(volumeAvg)
         : null
     );
+
+
+  /* =======================================================
+     NORMALIZED
+     ======================================================= */
+
   return {
+
     schema_version:
-      item.schema_version ?? '2.0',
+      item.schema_version ?? "2.0",
+
     observation_date:
       item.observation_date ?? null,
+
     generated_at:
       item.generated_at ?? null,
+
     ticker:
       item.ticker ??
       item.symbol ??
-      '',
+      "",
+
     name:
       item.name ??
       item.company_name ??
-      '',
+      "",
+
     sector:
-      item.sector ?? '',
+      item.sector ?? "",
+
     industry:
-      item.industry ?? '',
+      item.industry ?? "",
+
     market_cap_b:
       item.market_cap_b ??
       item.market_cap ??
       null,
+
     price:
       item.price ??
       item.current_price ??
       technical.price ??
       null,
+
     day_change_pct:
       item.day_change_pct ??
       item.change_pct ??
       item.daily_change_pct ??
       null,
+
+
     /* =========================
        TECHNICAL
        ========================= */
+
     rsi:
       technical.rsi ??
       item.rsi ??
       null,
+
     rsi_period:
       technical.rsi_period ??
       item.rsi_period ??
       null,
+
     rsi_threshold:
       technical.rsi_threshold ??
       item.rsi_threshold ??
       null,
+
     rsi_pass:
       technical.rsi_pass ??
       item.rsi_pass ??
       null,
+
     atr:
       technical.atr ??
       item.atr ??
       null,
+
     atr_period:
       technical.atr_period ??
       item.atr_period ??
       null,
+
     atr_pct:
       technical.atr_pct ??
       item.atr_pct ??
       null,
+
     volume:
       technical.volume ??
       item.volume ??
       null,
+
     volume_avg_20d:
       volumeAvg,
+
     volume_avg_period:
       technical.volume_avg_period ??
       technical.volume_period ??
       20,
+
     volume_ratio:
       volumeRatio,
+
     volume_spike:
       technical.volume_spike ??
       item.volume_spike ??
       false,
+
     volume_spike_threshold:
       technical.volume_spike_threshold ??
       item.volume_spike_threshold ??
       null,
+
     volume_direction:
       technical.volume_direction ??
       item.volume_direction ??
       null,
+
+
     /* =========================
        FUNDAMENTAL
        ========================= */
+
     profitable:
       fundamental.profitable ??
       fundamental.recent_profitable ??
       item.profitable ??
       null,
+
     profitable_pass:
       fundamental.profitable_pass ??
       item.profitable_pass ??
       null,
+
     net_income:
       fundamental.net_income ??
       item.net_income ??
       null,
+
     revenue_latest_m:
       fundamental.revenue_latest_m ??
       fundamental.revenue_latest ??
       item.revenue_latest_m ??
       null,
+
     revenue_previous_m:
       fundamental.revenue_previous_m ??
       fundamental.revenue_previous ??
       item.revenue_previous_m ??
       null,
+
     revenue_growth_pct:
       fundamental.revenue_growth_pct ??
       fundamental.revenue_change_pct ??
       item.revenue_growth_pct ??
       null,
+
     ebitda_latest_m:
       fundamental.ebitda_latest_m ??
       fundamental.ebitda_latest ??
       item.ebitda_latest_m ??
       null,
+
     ebitda_previous_m:
       fundamental.ebitda_previous_m ??
       fundamental.ebitda_previous ??
       item.ebitda_previous_m ??
       null,
+
     ebitda_growth_pct:
       fundamental.ebitda_growth_pct ??
       fundamental.ebitda_change_pct ??
       item.ebitda_growth_pct ??
       null,
+
     operating_cash_flow_latest_m:
       fundamental.operating_cash_flow_latest_m ??
       fundamental.operating_cash_flow_latest ??
       fundamental.ocf_latest_m ??
       item.operating_cash_flow_latest_m ??
       null,
+
     operating_cash_flow_previous_m:
       fundamental.operating_cash_flow_previous_m ??
       fundamental.operating_cash_flow_previous ??
       fundamental.ocf_previous_m ??
       item.operating_cash_flow_previous_m ??
       null,
+
     operating_cash_flow_change_pct:
       fundamental.operating_cash_flow_change_pct ??
       fundamental.operating_cash_flow_growth_pct ??
       item.operating_cash_flow_change_pct ??
       null,
+
     financial_latest_period:
       fundamental.financial_latest_period ??
       item.financial_latest_period ??
       null,
+
     financial_previous_period:
       fundamental.financial_previous_period ??
       item.financial_previous_period ??
       null,
+
+
     /* =========================
        SIGNAL
        ========================= */
+
     signal_pass:
       signal.pass ??
       signal.signal_pass ??
       item.signal_pass ??
       true,
+
     signal_status:
       signal.status ??
       item.signal_status ??
       null,
+
     signal_rsi_pass:
       signal.rsi_pass ??
       item.signal_rsi_pass ??
       null,
+
     signal_profitable_pass:
       signal.profitable_pass ??
       item.signal_profitable_pass ??
       null,
+
     require_profitable:
       signal.require_profitable ??
       item.require_profitable ??
       false,
+
+
     /* =========================
        RISK
        ========================= */
+
     target_price:
       risk.target_price ??
       risk.target ??
       item.target_price ??
       null,
+
     stop_loss:
       risk.stop_loss ??
       risk.stop ??
       item.stop_loss ??
       null,
+
     expected_gain_pct:
       risk.expected_gain_pct ??
       risk.expected_return_pct ??
       item.expected_gain_pct ??
       null,
+
     expected_loss_pct:
       risk.expected_loss_pct ??
       risk.expected_risk_pct ??
       item.expected_loss_pct ??
       null,
+
     risk_reward:
       risk.risk_reward ??
       risk.risk_reward_ratio ??
       item.risk_reward ??
       null
+
   };
+
 }
+
+
 /* =========================================================
    NORMALIZE SIGNAL LIST
    ========================================================= */
+
 function normalizeSignalList(data) {
+
   const raw =
     extractResults(data);
+
   return raw
     .map(normalizeSignal)
     .filter(
@@ -1364,44 +2228,62 @@ function normalizeSignalList(data) {
         row &&
         row.ticker
     );
+
 }
+
+
 /* =========================================================
    EXTRACT RESULTS
    ========================================================= */
+
 function extractResults(data) {
+
   if (
     !data ||
-    typeof data !== 'object'
+    typeof data !== "object"
   ) {
     return [];
   }
+
   if (
     Array.isArray(data.results)
   ) {
     return data.results;
   }
+
   if (
     Array.isArray(data.signals)
   ) {
     return data.signals;
   }
+
   if (
     Array.isArray(data.data)
   ) {
     return data.data;
   }
+
   return [];
+
 }
+
+
 /* =========================================================
    RENDER BSI
    ========================================================= */
+
 function renderBSI(data) {
+
   const grid =
-    document.getElementById('bsiGrid');
+    document.getElementById(
+      "bsiGrid"
+    );
+
   if (
     !data ||
     !data.periods
   ) {
+
     grid.innerHTML = `
       <div
         class="empty-state"
@@ -1410,98 +2292,140 @@ function renderBSI(data) {
         BSI 데이터가 없습니다.
       </div>
     `;
+
     return;
   }
+
+
   const periods =
     data.periods;
+
+
   grid.innerHTML =
     Object.keys(BSI_LABELS)
-      .map(
-        key => {
-          const item =
-            periods[key] || {};
-          const value =
-            item.value;
-          const samples =
-            item.samples ?? 0;
-          return `
-            <div class="bsi-item">
-              <div class="period">
-                ${BSI_LABELS[key]}
-              </div>
-              <div
-                class="
-                  value
-                  ${bsiClass(value)}
-                "
-              >
-                ${
-                  isValidNumber(value)
-                    ? fmtPctShort(value)
-                    : '데이터 부족'
-                }
-              </div>
-              <div class="samples">
-                ${samples} samples
-              </div>
+      .map(key => {
+
+        const item =
+          periods[key] || {};
+
+        const value =
+          item.value;
+
+        const samples =
+          item.samples ?? 0;
+
+
+        return `
+          <div class="bsi-item">
+
+            <div class="period">
+              ${BSI_LABELS[key]}
             </div>
-          `;
-        }
-      )
-      .join('');
-  if (data.generated_at) {
+
+            <div
+              class="
+                value
+                ${bsiClass(value)}
+              "
+            >
+              ${
+                isValidNumber(value)
+                  ? fmtPctShort(value)
+                  : "데이터 부족"
+              }
+            </div>
+
+            <div class="samples">
+              ${escapeHTML(samples)} samples
+            </div>
+
+          </div>
+        `;
+
+      })
+      .join("");
+
+
+  if (
+    data.generated_at
+  ) {
+
     document.getElementById(
-      'bsiUpdated'
+      "bsiUpdated"
     ).textContent =
       formatDate(
         data.generated_at
       );
+
   }
+
+
   renderBSICurve(
     data.curve || []
   );
+
 }
+
+
 /* =========================================================
    BSI CURVE
    ========================================================= */
+
 function renderBSICurve(curve) {
+
   const canvas =
     document.getElementById(
-      'bsiCanvas'
+      "bsiCanvas"
     );
+
   const ctx =
-    canvas.getContext('2d');
+    canvas.getContext("2d");
+
+
   const width =
     canvas.width;
+
   const height =
     canvas.height;
+
+
   ctx.clearRect(
     0,
     0,
     width,
     height
   );
+
+
   if (
     !Array.isArray(curve) ||
     curve.length < 2
   ) {
+
     ctx.fillStyle =
-      '#565E6E';
+      "#565E6E";
+
     ctx.font =
-      '12px IBM Plex Mono';
+      "12px IBM Plex Mono";
+
     ctx.textAlign =
-      'center';
+      "center";
+
     ctx.fillText(
-      'BSI Curve 데이터 축적 중',
+      "BSI Curve 데이터 축적 중",
       width / 2,
       height / 2
     );
+
     document.getElementById(
-      'curveLatest'
+      "curveLatest"
     ).textContent =
-      '-';
+      "-";
+
     return;
   }
+
+
   const validPoints =
     curve.filter(
       point =>
@@ -1510,39 +2434,66 @@ function renderBSICurve(curve) {
           point.bsi_pct
         )
     );
+
+
   if (
     validPoints.length < 2
   ) {
+
     ctx.fillStyle =
-      '#565E6E';
+      "#565E6E";
+
     ctx.font =
-      '12px IBM Plex Mono';
+      "12px IBM Plex Mono";
+
     ctx.textAlign =
-      'center';
+      "center";
+
     ctx.fillText(
-      'BSI Curve 데이터 축적 중',
+      "BSI Curve 데이터 축적 중",
       width / 2,
       height / 2
     );
+
     return;
   }
+
+
   const values =
     validPoints.map(
       point =>
-        Number(point.bsi_pct)
+        Number(
+          point.bsi_pct
+        )
     );
+
+
   const minValue =
-    Math.min(...values, 0);
+    Math.min(
+      ...values,
+      0
+    );
+
   const maxValue =
-    Math.max(...values, 0);
+    Math.max(
+      ...values,
+      0
+    );
+
+
   const padding = 20;
+
   const plotWidth =
     width -
     padding * 2;
+
   const plotHeight =
     height -
     padding * 2;
+
+
   function x(index) {
+
     return (
       padding +
       (
@@ -1554,84 +2505,134 @@ function renderBSICurve(curve) {
       ) *
       plotWidth
     );
+
   }
+
+
   function y(value) {
+
     const range =
       Math.max(
-        maxValue - minValue,
+        maxValue -
+        minValue,
         0.01
       );
+
     return (
       padding +
       (
-        maxValue - value
+        maxValue -
+        value
       ) /
       range *
       plotHeight
     );
+
   }
+
+
+  /* ZERO LINE */
+
   ctx.beginPath();
+
   ctx.moveTo(
     padding,
     y(0)
   );
+
   ctx.lineTo(
     width - padding,
     y(0)
   );
+
   ctx.strokeStyle =
-    '#232833';
+    "#232833";
+
   ctx.lineWidth = 1;
+
   ctx.stroke();
+
+
+  /* CURVE */
+
   ctx.beginPath();
+
+
   validPoints.forEach(
     (point, index) => {
+
       const value =
         Number(
           point.bsi_pct
         );
+
       const px =
         x(index);
+
       const py =
         y(value);
+
+
       if (index === 0) {
+
         ctx.moveTo(
           px,
           py
         );
+
       } else {
+
         ctx.lineTo(
           px,
           py
         );
+
       }
+
     }
   );
+
+
   const lastValue =
     values[
       values.length - 1
     ];
+
+
   ctx.strokeStyle =
     lastValue >= 0
-      ? '#3ECF8E'
-      : '#FF5C5C';
+      ? "#3ECF8E"
+      : "#FF5C5C";
+
   ctx.lineWidth = 2;
+
   ctx.stroke();
+
+
+  /* LAST POINT */
+
   const lastPoint =
     validPoints[
       validPoints.length - 1
     ];
+
+
   const lastX =
     x(
       validPoints.length - 1
     );
+
+
   const lastY =
     y(
       Number(
         lastPoint.bsi_pct
       )
     );
+
+
   ctx.beginPath();
+
   ctx.arc(
     lastX,
     lastY,
@@ -1639,43 +2640,82 @@ function renderBSICurve(curve) {
     0,
     Math.PI * 2
   );
+
+
   ctx.fillStyle =
     lastValue >= 0
-      ? '#3ECF8E'
-      : '#FF5C5C';
+      ? "#3ECF8E"
+      : "#FF5C5C";
+
   ctx.fill();
+
+
   document.getElementById(
-    'curveLatest'
+    "curveLatest"
   ).textContent =
-    `Day ${lastPoint.day ?? '-'} · ${fmtPctShort(lastValue)}`;
+    `Day ${
+      lastPoint.day ?? "-"
+    } · ${
+      fmtPctShort(lastValue)
+    }`;
+
 }
+
+
 /* =========================================================
-   PERFORMANCE
+   PERFORMANCE VALUE
    ========================================================= */
+
 function performanceValue(value) {
-  if (!isValidNumber(value)) {
+
+  if (
+    !isValidNumber(value)
+  ) {
+
     return `
-      <span style="color:var(--text-faint)">
+      <span
+        style="color:var(--text-faint)"
+      >
         N/A
       </span>
     `;
+
   }
+
+
   const number =
     Number(value);
+
+
   return `
     <span
-      class="${number >= 0 ? 'positive' : 'negative'}"
+      class="${
+        number >= 0
+          ? "positive"
+          : "negative"
+      }"
     >
       ${fmtPct(number)}
     </span>
   `;
+
 }
+
+
+/* =========================================================
+   PERFORMANCE
+   ========================================================= */
+
 function renderPerformance(data) {
+
   const table =
     document.getElementById(
-      'performanceTable'
+      "performanceTable"
     );
+
+
   if (!data) {
+
     table.innerHTML = `
       <tr>
         <td colspan="2">
@@ -1683,16 +2723,23 @@ function renderPerformance(data) {
         </td>
       </tr>
     `;
+
     return;
   }
+
+
   const completed =
     data.completed ??
     data.completed_signals ??
     0;
+
+
   const total =
     data.total_signals ??
     data.signals ??
     0;
+
+
   const pending =
     data.pending ??
     data.pending_signals ??
@@ -1701,37 +2748,64 @@ function renderPerformance(data) {
       Number(completed),
       0
     );
+
+
   document.getElementById(
-    'performanceStatus'
+    "performanceStatus"
   ).textContent =
     `${completed}/${total} 완료`;
+
+
   const rows =
     Array.isArray(
       data.performance
     )
       ? data.performance
       : [];
+
+
   if (!rows.length) {
+
     table.innerHTML = `
       <tr>
-        <td>5D Performance</td>
         <td>
-          <span style="color:var(--text-faint)">
+          5D Performance
+        </td>
+
+        <td>
+          <span
+            style="color:var(--text-faint)"
+          >
             데이터 축적 중
           </span>
         </td>
       </tr>
+
       <tr>
-        <td>완료 Signal</td>
-        <td>${completed}</td>
+        <td>
+          완료 Signal
+        </td>
+
+        <td>
+          ${escapeHTML(completed)}
+        </td>
       </tr>
+
       <tr>
-        <td>대기 Signal</td>
-        <td>${pending}</td>
+        <td>
+          대기 Signal
+        </td>
+
+        <td>
+          ${escapeHTML(pending)}
+        </td>
       </tr>
     `;
+
     return;
   }
+
+
   const returns =
     rows
       .map(
@@ -1744,90 +2818,178 @@ function renderPerformance(data) {
         value =>
           Number.isFinite(value)
       );
+
+
   let avgReturn = null;
+
   let winRate = null;
+
   let avgWin = null;
+
   let avgLoss = null;
+
+
   if (returns.length) {
+
     avgReturn =
       returns.reduce(
-        (a, b) => a + b,
+        (a, b) =>
+          a + b,
         0
       ) /
       returns.length;
+
+
     const wins =
       returns.filter(
         value =>
           value > 0
       );
+
+
     const losses =
       returns.filter(
         value =>
           value <= 0
       );
+
+
     winRate =
       wins.length /
       returns.length *
       100;
+
+
     if (wins.length) {
+
       avgWin =
         wins.reduce(
-          (a, b) => a + b,
+          (a, b) =>
+            a + b,
           0
         ) /
         wins.length;
+
     }
+
+
     if (losses.length) {
+
       avgLoss =
         losses.reduce(
-          (a, b) => a + b,
+          (a, b) =>
+            a + b,
           0
         ) /
         losses.length;
+
     }
+
   }
+
+
   table.innerHTML = `
+
     <tr>
-      <td>5D 평균 수익률</td>
-      <td>${performanceValue(avgReturn)}</td>
+
+      <td>
+        5D 평균 수익률
+      </td>
+
+      <td>
+        ${performanceValue(avgReturn)}
+      </td>
+
     </tr>
+
+
     <tr>
-      <td>5D 승률</td>
+
+      <td>
+        5D 승률
+      </td>
+
       <td>
         ${
           isValidNumber(winRate)
-            ? winRate.toFixed(2) + '%'
-            : 'N/A'
+            ? winRate.toFixed(2) + "%"
+            : "N/A"
         }
       </td>
+
     </tr>
+
+
     <tr>
-      <td>평균 승리</td>
-      <td>${performanceValue(avgWin)}</td>
+
+      <td>
+        평균 승리
+      </td>
+
+      <td>
+        ${performanceValue(avgWin)}
+      </td>
+
     </tr>
+
+
     <tr>
-      <td>평균 손실</td>
-      <td>${performanceValue(avgLoss)}</td>
+
+      <td>
+        평균 손실
+      </td>
+
+      <td>
+        ${performanceValue(avgLoss)}
+      </td>
+
     </tr>
+
+
     <tr>
-      <td>완료 Signal</td>
-      <td>${completed}</td>
+
+      <td>
+        완료 Signal
+      </td>
+
+      <td>
+        ${escapeHTML(completed)}
+      </td>
+
     </tr>
+
+
     <tr>
-      <td>대기 Signal</td>
-      <td>${pending}</td>
+
+      <td>
+        대기 Signal
+      </td>
+
+      <td>
+        ${escapeHTML(pending)}
+      </td>
+
     </tr>
+
   `;
+
 }
+
+
 /* =========================================================
    STATISTICS
    ========================================================= */
+
 function renderStatistics(data) {
+
   const grid =
     document.getElementById(
-      'statisticsGrid'
+      "statisticsGrid"
     );
+
+
   if (!data) {
+
     grid.innerHTML = `
       <div
         class="empty-state"
@@ -1836,125 +2998,186 @@ function renderStatistics(data) {
         Statistics 데이터가 없습니다.
       </div>
     `;
+
     return;
   }
+
+
   const stats = [
+
     [
-      '5D 승률',
+      "5D 승률",
+
       isValidNumber(
         data.win_rate_5d_pct
       )
         ? Number(
             data.win_rate_5d_pct
-          ).toFixed(2) + '%'
-        : 'N/A'
+          ).toFixed(2) + "%"
+        : "N/A"
     ],
+
     [
-      '5D 평균 수익률',
+      "5D 평균 수익률",
+
       fmtPct(
         data.avg_return_5d_pct
       )
     ],
+
     [
-      '평균 승리',
+      "평균 승리",
+
       fmtPct(
         data.avg_win_5d_pct
       )
     ],
+
     [
-      '평균 손실',
+      "평균 손실",
+
       fmtPct(
         data.avg_loss_5d_pct
       )
     ],
+
     [
-      'Target Hit',
+      "Target Hit",
+
       data.target_hit_count ?? 0
     ],
+
     [
-      'Stop Hit',
+      "Stop Hit",
+
       data.stop_hit_count ?? 0
     ]
+
   ];
+
+
   grid.innerHTML =
     stats
       .map(
         item => `
+
           <div class="stat-card">
+
             <div class="k">
-              ${item[0]}
+              ${escapeHTML(item[0])}
             </div>
+
             <div class="v">
-              ${item[1]}
+              ${escapeHTML(item[1])}
             </div>
+
           </div>
+
         `
       )
-      .join('');
+      .join("");
+
 }
+
+
 /* =========================================================
    RESULT RENDER
    ========================================================= */
+
 function renderResults(list) {
+
   const container =
     document.getElementById(
-      'resultsContainer'
+      "resultsContainer"
     );
+
+
   const resultCount =
     document.getElementById(
-      'resultCount'
+      "resultCount"
     );
+
+
   resultCount.textContent =
     list.length
       ? `${list.length}개 종목`
-      : '';
+      : "0개 종목";
+
+
   if (!list.length) {
+
     container.innerHTML = `
       <div class="empty-state">
+
         조건에 맞는 종목이 없습니다.
+
         <br>
+
         필터를 완화해보십시오.
+
       </div>
     `;
+
     return;
   }
+
+
   container.innerHTML =
     list
       .map(
         row => {
+
           const dirClass =
             changeClass(
               row.day_change_pct
             );
+
+
           const revenueClass =
             changeClass(
               row.revenue_growth_pct
             );
+
+
           const ebitdaClass =
             changeClass(
               row.ebitda_growth_pct
             );
+
+
           const cashFlowClass =
             changeClass(
               row.operating_cash_flow_change_pct
             );
+
+
           return `
+
             <div
               class="card ${dirClass}"
             >
+
               <div class="card-top">
+
                 <div>
+
                   <div class="card-ticker">
-                    ${row.ticker ?? 'N/A'}
+                    ${escapeHTML(row.ticker || "N/A")}
                   </div>
+
                   <div class="card-name">
-                    ${row.name ?? 'N/A'}
+                    ${escapeHTML(row.name || "N/A")}
                   </div>
+
                 </div>
+
+
                 <div class="card-price-block">
+
                   <div class="card-price mono">
                     ${fmtPrice(row.price)}
                   </div>
+
                   <div
                     class="
                       card-change
@@ -1966,19 +3189,30 @@ function renderResults(list) {
                       row.day_change_pct
                     )}
                   </div>
+
                 </div>
+
               </div>
+
+
+              <!-- BADGES -->
+
               <div class="badge-row">
+
                 <span class="badge rsi-low">
-                  RSI ${
+
+                  RSI
+                  ${
                     isValidNumber(row.rsi)
-                      ? Number(
-                          row.rsi
-                        ).toFixed(1)
-                      : 'N/A'
+                      ? Number(row.rsi).toFixed(1)
+                      : "N/A"
                   }
+
                 </span>
+
+
                 <span class="badge">
+
                   시총
                   ${
                     isValidNumber(
@@ -1987,37 +3221,59 @@ function renderResults(list) {
                       ? Number(
                           row.market_cap_b
                         ).toFixed(2)
-                      : 'N/A'
+                      : "N/A"
                   }B
+
                 </span>
+
+
                 ${createProfitBadge(row)}
+
                 ${createVolumeBadge(row)}
+
               </div>
+
+
+              <!-- METRICS -->
+
               <div class="metric-grid">
+
                 <div class="metric">
+
                   <div class="k">
                     매출 최신분기
                   </div>
+
                   <div class="v">
                     ${fmtM(
                       row.revenue_latest_m
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric">
+
                   <div class="k">
                     매출 이전분기
                   </div>
+
                   <div class="v">
                     ${fmtM(
                       row.revenue_previous_m
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric full">
+
                   <div class="k">
                     매출 증감률
                   </div>
+
                   <div
                     class="
                       v
@@ -2028,31 +3284,46 @@ function renderResults(list) {
                       row.revenue_growth_pct
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric">
+
                   <div class="k">
                     EBITDA 최신분기
                   </div>
+
                   <div class="v">
                     ${fmtM(
                       row.ebitda_latest_m
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric">
+
                   <div class="k">
                     EBITDA 이전분기
                   </div>
+
                   <div class="v">
                     ${fmtM(
                       row.ebitda_previous_m
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric full">
+
                   <div class="k">
                     EBITDA 증감률
                   </div>
+
                   <div
                     class="
                       v
@@ -2063,31 +3334,46 @@ function renderResults(list) {
                       row.ebitda_growth_pct
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric">
+
                   <div class="k">
                     영업현금흐름 최신
                   </div>
+
                   <div class="v">
                     ${fmtM(
                       row.operating_cash_flow_latest_m
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric">
+
                   <div class="k">
                     영업현금흐름 이전
                   </div>
+
                   <div class="v">
                     ${fmtM(
                       row.operating_cash_flow_previous_m
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric full">
+
                   <div class="k">
                     영업현금흐름 증감률
                   </div>
+
                   <div
                     class="
                       v
@@ -2098,125 +3384,184 @@ function renderResults(list) {
                       row.operating_cash_flow_change_pct
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric">
+
                   <div class="k">
                     거래량
                   </div>
+
                   <div class="v">
                     ${fmtVolume(
                       row.volume
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric">
+
                   <div class="k">
                     평균 거래량 20일
                   </div>
+
                   <div class="v">
                     ${fmtVolume(
                       row.volume_avg_20d
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="metric full">
+
                   <div class="k">
                     거래량 비율
                   </div>
+
                   <div class="v">
+
                     ${
                       isValidNumber(
                         row.volume_ratio
                       )
                         ? Number(
                             row.volume_ratio
-                          ).toFixed(2) + 'x'
-                        : 'N/A'
+                          ).toFixed(2) + "x"
+                        : "N/A"
                     }
+
                   </div>
+
                 </div>
+
               </div>
+
+
+              <!-- PLAN -->
+
               <div class="plan-row">
+
                 <div class="plan-item target">
+
                   <div class="k">
                     목표가
                   </div>
+
                   <div class="v">
                     ${fmtPrice(
                       row.target_price
                     )}
                   </div>
+
                   <div class="k">
                     기대수익
                   </div>
+
                   <div class="v">
                     ${fmtPct(
                       row.expected_gain_pct
                     )}
                   </div>
+
                 </div>
+
+
                 <div class="plan-item stop">
+
                   <div class="k">
                     손절가
                   </div>
+
                   <div class="v">
                     ${fmtPrice(
                       row.stop_loss
                     )}
                   </div>
+
                   <div class="k">
                     예상손실
                   </div>
+
                   <div class="v">
+
                     ${
                       isValidNumber(
                         row.expected_loss_pct
                       )
-                        ? '-' +
+                        ? "-" +
                           Number(
                             row.expected_loss_pct
                           ).toFixed(1) +
-                          '%'
-                        : 'N/A'
+                          "%"
+                        : "N/A"
                     }
+
                   </div>
+
                 </div>
+
+
                 <div class="plan-item">
+
                   <div class="k">
                     Risk / Reward
                   </div>
+
                   <div class="v">
+
                     ${
                       isValidNumber(
                         row.risk_reward
                       )
                         ? Number(
                             row.risk_reward
-                          ).toFixed(2) + ':1'
-                        : 'N/A'
+                          ).toFixed(2) + ":1"
+                        : "N/A"
                     }
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           `;
+
         }
       )
-      .join('');
+      .join("");
+
 }
+
+
 /* =========================================================
    FILTER
    ========================================================= */
+
 function applyFilters() {
+
   const rsiMax =
     Number(
       rsiRange.value
     );
+
+
   const onlyProfit =
     reqProfit.checked;
+
+
   let filtered =
     allResults.filter(
       row => {
+
         if (
           !isValidNumber(
             row.rsi
@@ -2224,185 +3569,248 @@ function applyFilters() {
         ) {
           return false;
         }
+
+
         return (
-          Number(row.rsi)
-          <= rsiMax
+          Number(row.rsi) <=
+          rsiMax
         );
+
       }
     );
+
+
   if (onlyProfit) {
+
     filtered =
       filtered.filter(
         row =>
           row.profitable === true
       );
+
   }
+
+
   filtered.sort(
     (a, b) =>
-      Number(a.rsi)
-      -
+      Number(a.rsi) -
       Number(b.rsi)
   );
+
+
   renderResults(
     filtered
   );
+
 }
+
+
 /* =========================================================
    DATE
    ========================================================= */
+
 function formatDate(value) {
+
   if (!value) {
-    return '-';
+    return "-";
   }
+
+
   const date =
     new Date(value);
+
+
   if (
     Number.isNaN(
       date.getTime()
     )
   ) {
-    return '-';
+    return "-";
   }
+
+
   return date.toLocaleString(
-    'ko-KR',
+    "ko-KR",
     {
-      timeZone: 'Asia/Seoul'
+      timeZone:
+        "Asia/Seoul"
     }
   );
+
 }
+
+
 /* =========================================================
    FETCH JSON
    ========================================================= */
+
 async function fetchJSON(filename) {
+
   const url =
     `./${filename}?_=${Date.now()}`;
+
+
   console.log(
     `[JSON LOAD] ${url}`
   );
+
+
   const response =
     await fetch(
       url,
       {
-        cache: 'no-store'
+        cache: "no-store"
       }
     );
+
+
   if (!response.ok) {
+
     throw new Error(
       `${filename} HTTP ${response.status}`
     );
+
   }
+
+
   const text =
     await response.text();
+
+
   if (!text.trim()) {
+
     throw new Error(
       `${filename} 파일이 비어 있습니다.`
     );
+
   }
+
+
   try {
+
     return JSON.parse(text);
+
   } catch (error) {
+
     console.error(
       `${filename} JSON 파싱 실패`,
       text.substring(0, 500)
     );
+
+
     throw new Error(
       `${filename} JSON 형식이 올바르지 않습니다.`
     );
+
   }
+
 }
+
+
 /* =========================================================
-   LATEST SIGNALS LOAD
-   =========================================================
-   
-   핵심:
-   latest_signals.json을 Signal의 주 데이터로 사용한다.
-   
-   data.json은 보조/레거시 데이터로만 사용한다.
+   LATEST SIGNALS
    ========================================================= */
+
 async function loadLatestSignals() {
+
   const data =
     await fetchJSON(
-      'latest_signals.json'
+      "latest_signals.json"
     );
+
+
   console.log(
-    '[OK] latest_signals.json',
+    "[OK] latest_signals.json",
     data
   );
+
+
   const results =
     normalizeSignalList(
       data
     );
+
+
   console.log(
-    '[OK] latest_signals normalized:',
+    "[OK] latest_signals normalized:",
     results.length
   );
-  /*
-   * latest_signals.json 자체의 메타데이터를
-   * 화면에 반영한다.
-   */
+
+
+  /* =======================================================
+     STATUS
+     ======================================================= */
+
   document.getElementById(
-    'scannedCount'
+    "scannedCount"
   ).textContent =
-    data.total_scanned
-    ??
-    data.scanned
-    ??
-    data.total_observations
-    ??
-    '-';
+    data.total_scanned ??
+    data.scanned ??
+    data.total_observations ??
+    "-";
+
+
   document.getElementById(
-    'observationCount'
+    "observationCount"
   ).textContent =
-    data.total_observations
-    ??
-    data.observations
-    ??
-    data.observation_count
-    ??
-    '-';
+    data.total_observations ??
+    data.observations ??
+    data.observation_count ??
+    "-";
+
+
   document.getElementById(
-    'foundCount'
+    "foundCount"
   ).textContent =
-    data.total_signals
-    ??
-    data.signal_count
-    ??
+    data.total_signals ??
+    data.signal_count ??
     results.length;
+
+
+  /* =======================================================
+     DATE
+     ======================================================= */
+
   if (
     data.generated_at
   ) {
+
     document.getElementById(
-      'lastUpdated'
+      "lastUpdated"
     ).textContent =
-      '마지막 스캔: ' +
+      "마지막 스캔: " +
       formatDate(
         data.generated_at
       );
+
   } else if (
     data.observation_date
   ) {
+
     document.getElementById(
-      'lastUpdated'
+      "lastUpdated"
     ).textContent =
-      '관측일: ' +
+      "관측일: " +
       data.observation_date;
+
   }
-  /*
-   * latest_signals의 설정값이 존재하면
-   * RSI 필터 기본값으로 사용한다.
-   */
+
+
+  /* =======================================================
+     CONFIG
+     ======================================================= */
+
   const config =
     data.config &&
-    typeof data.config === 'object'
+    typeof data.config === "object"
       ? data.config
       : null;
+
+
   const threshold =
-    config?.RSI_THRESHOLD
-    ??
-    config?.rsi_threshold
-    ??
-    data.rsi_threshold
-    ??
+    config?.RSI_THRESHOLD ??
+    config?.rsi_threshold ??
+    data.rsi_threshold ??
     results
       .map(
         row =>
@@ -2412,377 +3820,533 @@ async function loadLatestSignals() {
         value =>
           isValidNumber(value)
       );
+
+
   if (
     isValidNumber(threshold)
   ) {
+
     const value =
       Number(threshold);
-    rsiRange.max =
+
+
+    const safeValue =
       Math.max(
         10,
         Math.min(
-          100,
+          40,
           value
         )
       );
+
+
     rsiRange.value =
-      Math.min(
-        Number(rsiRange.max),
-        value
-      );
+      safeValue;
+
     rsiVal.textContent =
-      rsiRange.value;
+      safeValue;
+
   }
+
+
   return {
+
     data,
+
     results
+
   };
+
 }
+
+
 /* =========================================================
-   LEGACY DATA LOAD
+   LEGACY DATA
    ========================================================= */
+
 async function loadLegacyData() {
+
   try {
+
     const data =
       await fetchJSON(
-        'data.json'
+        "data.json"
       );
+
+
     console.log(
-      '[OK] legacy data.json',
+      "[OK] legacy data.json",
       data
     );
+
+
     return data;
+
   } catch (error) {
+
     console.warn(
-      '[WARN] data.json 로딩 실패:',
+      "[WARN] data.json 로딩 실패:",
       error
     );
+
+
     return null;
+
   }
+
 }
+
+
 /* =========================================================
    MAIN LOAD
    ========================================================= */
+
 async function load() {
+
   const container =
     document.getElementById(
-      'resultsContainer'
+      "resultsContainer"
     );
+
+
   console.log(
-    '========================================'
+    "========================================"
   );
+
   console.log(
-    'NASDAQ SCREENER DATA LOAD START'
+    "NASDAQ SCREENER DATA LOAD START"
   );
+
   console.log(
-    'PRIMARY SOURCE: latest_signals.json'
+    "PRIMARY SOURCE: latest_signals.json"
   );
+
   console.log(
-    '========================================'
+    "========================================"
   );
-  /*
-   * latest_signals.json은 반드시 우선한다.
-   *
-   * BSI / Performance / Statistics는
-   * 각각 독립적으로 로딩한다.
-   *
-   * 따라서 Research 파일 하나가 실패해도
-   * Signal Results 자체는 정상 표시된다.
-   */
+
+
   const [
+
     latestResult,
+
     bsiResult,
+
     performanceResult,
+
     statisticsResult
+
   ] =
     await Promise.allSettled([
+
       loadLatestSignals(),
+
       fetchJSON(
-        'bsi.json'
+        "bsi.json"
       ),
+
       fetchJSON(
-        'performance.json'
+        "performance.json"
       ),
+
       fetchJSON(
-        'statistics.json'
+        "statistics.json"
       )
+
     ]);
+
+
   /* =====================================================
      LATEST SIGNALS
      ===================================================== */
+
   if (
     latestResult.status ===
-    'fulfilled'
+    "fulfilled"
   ) {
+
     const latest =
       latestResult.value;
+
+
     allResults =
       latest.results;
-    /*
-     * 최신 Signal 데이터가 존재하면
-     * 여기서 바로 화면을 렌더링한다.
-     */
+
+
     if (
       allResults.length
     ) {
+
       applyFilters();
+
     } else {
+
       container.innerHTML = `
         <div class="empty-state">
+
           latest_signals.json은 정상적으로
           불러왔지만 Signal 결과가 없습니다.
+
         </div>
       `;
+
     }
+
   } else {
+
     console.error(
-      '[FAIL] latest_signals.json',
+      "[FAIL] latest_signals.json",
       latestResult.reason
     );
-    /*
-     * 최신 파일이 없을 경우에만
-     * 기존 data.json을 fallback으로 사용한다.
-     */
+
+
+    /* ===================================================
+       LEGACY FALLBACK
+       =================================================== */
+
     const legacy =
       await loadLegacyData();
+
+
     if (legacy) {
+
       allResults =
         normalizeSignalList(
           legacy
         );
+
+
       document.getElementById(
-        'scannedCount'
+        "scannedCount"
       ).textContent =
-        legacy.total_scanned
-        ??
-        legacy.scanned
-        ??
-        '-';
+        legacy.total_scanned ??
+        legacy.scanned ??
+        "-";
+
+
       document.getElementById(
-        'observationCount'
+        "observationCount"
       ).textContent =
-        legacy.total_observations
-        ??
-        legacy.observations
-        ??
-        '-';
+        legacy.total_observations ??
+        legacy.observations ??
+        "-";
+
+
       document.getElementById(
-        'foundCount'
+        "foundCount"
       ).textContent =
-        legacy.total_signals
-        ??
-        legacy.signal_count
-        ??
+        legacy.total_signals ??
+        legacy.signal_count ??
         allResults.length;
+
+
       if (
         legacy.generated_at
       ) {
+
         document.getElementById(
-          'lastUpdated'
+          "lastUpdated"
         ).textContent =
-          '마지막 스캔: ' +
+          "마지막 스캔: " +
           formatDate(
             legacy.generated_at
           );
+
       }
+
+
       if (
         allResults.length
       ) {
+
         applyFilters();
+
       } else {
+
         container.innerHTML = `
           <div class="empty-state">
+
             현재 Signal 조건을 만족하는
             종목이 없습니다.
+
           </div>
         `;
+
       }
+
     } else {
+
       container.innerHTML = `
         <div
-          class="empty-state error-state"
+          class="
+            empty-state
+            error-state
+          "
         >
+
           <strong>
             latest_signals.json을 불러오지 못했습니다.
           </strong>
+
           <br><br>
+
           GitHub 저장소 루트에
           <span class="mono">
             latest_signals.json
           </span>
           파일이 존재하는지 확인하십시오.
+
           <br><br>
+
           예상 경로:
+
           <br>
+
           <span class="mono">
             ./latest_signals.json
           </span>
+
           <br><br>
+
           브라우저 콘솔에서
           자세한 오류를 확인할 수 있습니다.
+
         </div>
       `;
+
+
       document.getElementById(
-        'lastUpdated'
+        "lastUpdated"
       ).textContent =
-        '마지막 스캔: latest_signals.json 로딩 실패';
+        "마지막 스캔: latest_signals.json 로딩 실패";
+
     }
+
   }
+
+
   /* =====================================================
      BSI
      ===================================================== */
+
   if (
     bsiResult.status ===
-    'fulfilled'
+    "fulfilled"
   ) {
+
     bsiData =
       bsiResult.value;
+
+
     console.log(
-      '[OK] bsi.json',
+      "[OK] bsi.json",
       bsiData
     );
+
+
     renderBSI(
       bsiData
     );
+
   } else {
+
     console.warn(
-      '[WARN] bsi.json 로딩 실패:',
+      "[WARN] bsi.json 로딩 실패:",
       bsiResult.reason
     );
+
+
     document.getElementById(
-      'bsiGrid'
+      "bsiGrid"
     ).innerHTML = `
       <div
         class="empty-state"
         style="grid-column:1/-1;"
       >
+
         BSI 데이터 대기 중
+
         <br>
+
         bsi.json이 아직 웹 저장소에 없습니다.
+
       </div>
     `;
+
   }
+
+
   /* =====================================================
      PERFORMANCE
      ===================================================== */
+
   if (
     performanceResult.status ===
-    'fulfilled'
+    "fulfilled"
   ) {
+
     performanceData =
       performanceResult.value;
+
+
     console.log(
-      '[OK] performance.json',
+      "[OK] performance.json",
       performanceData
     );
+
+
     renderPerformance(
       performanceData
     );
+
+
     document.getElementById(
-      'researchCompleted'
+      "researchCompleted"
     ).textContent =
-      performanceData.completed
-      ??
-      performanceData.completed_signals
-      ??
+      performanceData.completed ??
+      performanceData.completed_signals ??
       0;
+
+
     document.getElementById(
-      'researchPending'
+      "researchPending"
     ).textContent =
-      performanceData.pending
-      ??
-      performanceData.pending_signals
-      ??
+      performanceData.pending ??
+      performanceData.pending_signals ??
       0;
+
   } else {
+
     console.warn(
-      '[WARN] performance.json 로딩 실패:',
+      "[WARN] performance.json 로딩 실패:",
       performanceResult.reason
     );
+
+
     document.getElementById(
-      'performanceStatus'
+      "performanceStatus"
     ).textContent =
-      '데이터 대기 중';
+      "데이터 대기 중";
+
+
     document.getElementById(
-      'researchCompleted'
+      "researchCompleted"
     ).textContent =
-      '-';
+      "-";
+
+
     document.getElementById(
-      'researchPending'
+      "researchPending"
     ).textContent =
-      '-';
+      "-";
+
   }
+
+
   /* =====================================================
      STATISTICS
      ===================================================== */
+
   if (
     statisticsResult.status ===
-    'fulfilled'
+    "fulfilled"
   ) {
+
     statisticsData =
       statisticsResult.value;
+
+
     console.log(
-      '[OK] statistics.json',
+      "[OK] statistics.json",
       statisticsData
     );
+
+
     renderStatistics(
       statisticsData
     );
+
   } else {
+
     console.warn(
-      '[WARN] statistics.json 로딩 실패:',
+      "[WARN] statistics.json 로딩 실패:",
       statisticsResult.reason
     );
+
+
     document.getElementById(
-      'statisticsGrid'
+      "statisticsGrid"
     ).innerHTML = `
       <div
         class="empty-state"
         style="grid-column:1/-1;"
       >
+
         Statistics 데이터 대기 중
+
       </div>
     `;
+
   }
+
+
   console.log(
-    '========================================'
+    "========================================"
   );
+
   console.log(
-    'NASDAQ SCREENER DATA LOAD COMPLETE'
+    "NASDAQ SCREENER DATA LOAD COMPLETE"
   );
+
   console.log(
     `SIGNALS: ${allResults.length}`
   );
+
   console.log(
-    '========================================'
+    "========================================"
   );
+
 }
+
+
 /* =========================================================
    GLOBAL ERROR HANDLER
    ========================================================= */
+
 window.addEventListener(
-  'error',
+  "error",
   event => {
+
     console.error(
-      '[GLOBAL ERROR]',
+      "[GLOBAL ERROR]",
       event.error ||
       event.message
     );
+
   }
 );
+
+
 window.addEventListener(
-  'unhandledrejection',
+  "unhandledrejection",
   event => {
+
     console.error(
-      '[PROMISE ERROR]',
+      "[PROMISE ERROR]",
       event.reason
     );
+
   }
 );
+
+
 /* =========================================================
    START
    ========================================================= */
+
 load();
+
 </script>
+
 </body>
 </html>
