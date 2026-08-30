@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T10:35:32.779933+00:00",
+  "generated_at": "2026-08-30T01:00:00.787928+00:00",
   "config": {
     "RSI_PERIOD": 14,
     "RSI_THRESHOLD": 40,
@@ -29,13 +29,13 @@
   "breakdown": {
     "total_candidates": 1811,
     "observation": 317,
-    "signal": 29,
-    "sector": 1433,
+    "signal": 67,
+    "sector": 1437,
     "cap": 6,
-    "rsi": 288,
+    "rsi": 250,
     "profit": 0,
-    "data": 2,
-    "fail": 53
+    "data": 0,
+    "fail": 51
   },
   "observations": [],
   "results": []
