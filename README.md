@@ -1,20 +1,21 @@
-NASDAQ IT Screener
+# NASDAQ IT 스크리너
 
-NASDAQ IT 종목을 대상으로 기술적 지표와 재무 데이터를 결합하여 투자 후보군을 탐색하고, 발생한 Signal을 장기적으로 추적·검증하는 Automated Quantitative Research System
+NASDAQ IT 종목을 대상으로 기술적 지표와 재무 데이터를 결합하여 투자 후보군을 탐색하고, 발생한 신호를 장기적으로 추적·검증하는 자동화 정량 리서치 시스템
 
-⸻
+---
 
-1. 프로젝트 소개
+## 1. 프로젝트 소개
 
-본 프로젝트는 NASDAQ 시장의 IT 관련 종목을 대상으로 정량적 조건을 적용하여 투자 후보 종목을 자동으로 탐색하는 Stock Screening & Research System입니다.
+본 프로젝트는 NASDAQ 시장의 IT 관련 종목을 대상으로 정량적 조건을 적용하여 투자 후보 종목을 자동으로 탐색하는 종목 스크리닝 및 리서치 시스템입니다.
 
 단순히 현재 시점의 종목을 선별하는 것에서 끝나지 않고,
 
-Market Data 수집
+```
+시세 데이터 수집
       ↓
-Screening
+스크리닝
       ↓
-Signal 생성
+신호 생성
       ↓
 결과 저장
       ↓
@@ -22,93 +23,95 @@ Signal 생성
       ↓
 통계화
       ↓
-Web Dashboard 표시
+웹 대시보드 표시
+```
 
 의 전체 과정을 자동화하는 것을 목표로 제작했습니다.
 
-현재 시스템은 GitHub Actions를 이용하여 정기적으로 데이터를 수집하고 스크리닝을 수행하며, 생성된 Signal을 이후 거래일 동안 지속적으로 추적하여 실제 시장에서의 성과를 기록합니다.
+현재 시스템은 GitHub Actions를 이용하여 정기적으로 데이터를 수집하고 스크리닝을 수행하며, 생성된 신호를 이후 거래일 동안 지속적으로 추적하여 실제 시장에서의 성과를 기록합니다.
 
-⸻
+---
 
-2. 핵심 목표
+## 2. 핵심 목표
 
 이 프로젝트의 핵심 목표는 다음과 같습니다.
 
 * NASDAQ IT 종목의 자동 탐색
 * 정량적 조건을 이용한 후보 종목 필터링
 * 반복적인 수작업 분석의 자동화
-* Signal 발생 이후 실제 주가 움직임 추적
+* 신호 발생 이후 실제 주가 움직임 추적
 * 기간별 성과 데이터 축적
-* 누적 Research 데이터를 이용한 전략 평가
-* 웹 기반 Dashboard를 통한 결과 시각화
+* 누적 리서치 데이터를 이용한 전략 평가
+* 웹 기반 대시보드를 통한 결과 시각화
 
 즉,
 
-“오늘 어떤 종목이 조건을 만족하는가?”
+> "오늘 어떤 종목이 조건을 만족하는가?"
 
 뿐만 아니라,
 
-“과거에 같은 조건을 만족했던 종목은 이후 실제로 어떻게 움직였는가?”
+> "과거에 같은 조건을 만족했던 종목은 이후 실제로 어떻게 움직였는가?"
 
 까지 확인할 수 있도록 설계했습니다.
 
-⸻
+---
 
-3. System Architecture
+## 3. 시스템 구조
 
+```
                  ┌─────────────────────┐
-                 │     Market Data     │
-                 │       Source        │
+                 │      시세 데이터      │
+                 │        출처          │
                  └──────────┬──────────┘
                             │
                             ▼
                  ┌─────────────────────┐
-                 │   Data Collection   │
-                 │ Proprietary Logic   │
+                 │     데이터 수집       │
+                 │     (비공개 로직)     │
                  └──────────┬──────────┘
                             │
                             ▼
                  ┌─────────────────────┐
-                 │   Stock Screening   │
-                 │ Proprietary Logic   │
+                 │     종목 스크리닝     │
+                 │     (비공개 로직)     │
                  └──────────┬──────────┘
                             │
                             ▼
                  ┌─────────────────────┐
-                 │   Signal Creation   │
-                 │ Proprietary Logic   │
+                 │      신호 생성        │
+                 │     (비공개 로직)     │
                  └──────────┬──────────┘
                             │
                             ▼
                  ┌─────────────────────┐
-                 │   Research Data     │
-                 │      Storage        │
+                 │    리서치 데이터      │
+                 │        저장          │
                  └──────────┬──────────┘
                             │
                  ┌──────────┴──────────┐
                  │                     │
                  ▼                     ▼
         ┌─────────────────┐   ┌─────────────────┐
-        │ Performance     │   │ BSI Calculation │
-        │ Tracking        │   │ Proprietary     │
-        │                 │   │ Research Logic  │
+        │    성과 추적      │   │   BSI 산출       │
+        │                 │   │  (비공개 로직)    │
         └────────┬────────┘   └────────┬────────┘
                  │                     │
                  └──────────┬──────────┘
                             ▼
                  ┌─────────────────────┐
-                 │    Web Dashboard    │
+                 │     웹 대시보드       │
                  │                     │
-                 │ HTML / CSS / JS     │
+                 │  HTML / CSS / JS    │
                  └─────────────────────┘
+```
 
-Note: Data Collection, Screening, Signal Generation 및 BSI 산출에 사용되는 핵심 구현과 Research Logic은 프로젝트의 핵심 기술 자산으로서 공개하지 않습니다.
+> 데이터 수집, 스크리닝, 신호 생성 및 BSI 산출에 사용되는 핵심 구현과 리서치 로직은 프로젝트의 핵심 기술 자산으로서 공개하지 않습니다.
 
-⸻
+---
 
-4. 전체 동작 과정
+## 4. 전체 동작 과정
 
-STEP 1. Market Data 수집
+### STEP 1. 시세 데이터 수집
 
 시스템은 정해진 주기에 따라 NASDAQ 종목 데이터를 수집합니다.
 
@@ -121,222 +124,228 @@ STEP 1. Market Data 수집
 * 시가총액
 * 기술적 지표
 * 재무 관련 데이터
-* 기타 Screening에 필요한 정보
+* 기타 스크리닝에 필요한 정보
 
-데이터 수집 및 전처리 과정은 이후 Screening에 사용할 수 있도록 검증 및 정규화됩니다.
+데이터 수집 및 전처리 과정은 이후 스크리닝에 사용할 수 있도록 검증 및 정규화됩니다.
 
-Data Collection
+```
+데이터 수집
       ↓
-Data Validation
+데이터 검증
       ↓
-Normalization
+정규화
       ↓
-Screening Dataset
+스크리닝용 데이터셋
+```
 
-데이터 수집 및 전처리의 세부 구현은 Proprietary Implementation으로 관리합니다.
+데이터 수집 및 전처리의 세부 구현은 비공개로 관리합니다.
 
-⸻
+---
 
-5. STEP 2. Stock Screening
+## 5. STEP 2. 종목 스크리닝
 
 수집된 종목에 대해 사전에 정의한 정량적 조건을 순차적으로 적용합니다.
 
-대표적으로 다음과 같은 데이터가 Screening에 활용됩니다.
+대표적으로 다음과 같은 데이터가 스크리닝에 활용됩니다.
 
-Technical Conditions
-
+**기술적 조건**
 * RSI
 * 가격 움직임
 * 거래량
 * 기타 기술적 지표
 
-Fundamental Conditions
-
+**펀더멘털 조건**
 * 시가총액
 * 최근 재무 데이터
 * 수익성 관련 지표
 
-Risk Management
-
+**리스크 관리**
 * 예상 손절 기준
 * 예상 목표가
-* Risk / Reward 관련 기준
+* 손익비 관련 기준
 
-세부적인 수식, Threshold 및 조건 조합은 프로젝트의 핵심 Research Logic이므로 공개하지 않습니다.
+세부적인 수식, 임계값 및 조건 조합은 프로젝트의 핵심 리서치 로직이므로 공개하지 않습니다.
 
-Screening Dataset
+```
+스크리닝용 데이터셋
         ↓
-Proprietary Screening Logic
+비공개 스크리닝 로직
         ↓
-Qualified Candidates
+선정 후보 종목
+```
 
-⸻
+---
 
-6. STEP 3. Signal 생성
+## 6. STEP 3. 신호 생성
 
-모든 종목이 Screening 조건을 만족하는 것은 아닙니다.
+모든 종목이 스크리닝 조건을 만족하는 것은 아닙니다.
 
-조건을 통과한 종목만 최종적으로 Research Signal로 기록합니다.
+조건을 통과한 종목만 최종적으로 리서치 신호로 기록합니다.
 
 예시:
 
+```json
 {
   "ticker": "XXXX",
-  "name": "Example Company",
-  "signal": "Proprietary",
-  "rsi": "Proprietary",
-  "price": "Example",
-  "target": "Proprietary",
-  "stop_loss": "Proprietary"
+  "name": "예시 기업",
+  "signal": "비공개",
+  "rsi": "비공개",
+  "price": "예시",
+  "target": "비공개",
+  "stop_loss": "비공개"
 }
+```
 
-실제 Signal 생성 공식, 가중치 및 Threshold는 공개하지 않습니다.
+실제 신호 생성 공식, 가중치 및 임계값은 공개하지 않습니다.
 
-중요한 점은 Signal을 단순히 현재 화면에 표시하는 것이 아니라 Research 대상으로 저장하고 이후 시장 데이터를 이용하여 지속적으로 추적한다는 것입니다.
+중요한 점은 신호를 단순히 현재 화면에 표시하는 것이 아니라 리서치 대상으로 저장하고 이후 시장 데이터를 이용하여 지속적으로 추적한다는 것입니다.
 
-⸻
+---
 
-7. STEP 4. Research Tracking
+## 7. STEP 4. 리서치 추적
 
-Signal이 생성된 이후 시스템은 해당 Signal을 즉시 평가하지 않습니다.
+신호가 생성된 이후 시스템은 해당 신호를 즉시 평가하지 않습니다.
 
-Signal 발생일을 기준으로 이후 거래일의 주가 데이터를 지속적으로 확인합니다.
+신호 발생일을 기준으로 이후 거래일의 주가 데이터를 지속적으로 확인합니다.
 
 예를 들어:
 
-Signal 발생
+```
+신호 발생
      │
-     ├── Day 1
-     ├── Day 2
-     ├── Day 3
-     ├── Day 4
-     ├── Day 5
-     ├── Day 6
+     ├── 1일차
+     ├── 2일차
+     ├── 3일차
+     ├── 4일차
+     ├── 5일차
+     ├── 6일차
      ├── ...
-     └── MAX
+     └── 최대 관측일
+```
 
-각 Signal은 시간이 지나면서 Completed 또는 Pending 상태로 관리됩니다.
+각 신호는 시간이 지나면서 완료(Completed) 또는 대기(Pending) 상태로 관리됩니다.
 
-이를 통해 과거 Signal이 실제 시장에서 어떠한 결과를 만들었는지를 지속적으로 축적합니다.
+이를 통해 과거 신호가 실제 시장에서 어떠한 결과를 만들었는지를 지속적으로 축적합니다.
 
-⸻
+---
 
-8. Research Performance
+## 8. 리서치 성과
 
-현재 Dashboard에서는 누적된 Signal을 기반으로 Research Performance를 계산합니다.
+현재 대시보드에서는 누적된 신호를 기반으로 리서치 성과를 계산합니다.
 
-2026-08-30 기준
+**2026-08-30 기준**
 
-Metric	Value
-완료 Signal	194
-대기 Signal	257
-전체 추적 Signal	451
-5D 평균 수익률	-1.59%
-5D 승률	34.54%
-평균 승리	+3.40%
-평균 손실	-4.23%
+| 지표 | 값 |
+|---|---|
+| 완료 신호 | 194 |
+| 대기 신호 | 257 |
+| 전체 추적 신호 | 451 |
+| 5일 평균 수익률 | -1.59% |
+| 5일 승률 | 34.54% |
+| 평균 승리 | +3.40% |
+| 평균 손실 | -4.23% |
 
-현재 데이터는 아직 모든 Signal의 관측 기간이 완료되지 않았기 때문에 일부 장기 기간의 통계는 충분한 표본이 확보될 때까지 Data Insufficient 상태로 관리합니다.
+현재 데이터는 아직 모든 신호의 관측 기간이 완료되지 않았기 때문에 일부 장기 기간의 통계는 충분한 표본이 확보될 때까지 "데이터 부족" 상태로 관리합니다.
 
-⸻
+---
 
-9. BSI · Backtest Signal Index
+## 9. BSI (Backtest Signal Index, 백테스트 신호 지수)
 
-본 프로젝트에서는 누적된 Signal의 성과를 하나의 지표로 확인하기 위해 **BSI (Backtest Signal Index)**를 사용합니다.
+본 프로젝트에서는 누적된 신호의 성과를 하나의 지표로 확인하기 위해 **BSI**를 사용합니다.
 
-BSI는 특정 기간 동안 발생한 Signal들이 이후 시장에서 어떠한 평균적인 움직임을 보였는지를 확인하기 위한 Research Metric입니다.
+BSI는 특정 기간 동안 발생한 신호들이 이후 시장에서 어떠한 평균적인 움직임을 보였는지를 확인하기 위한 리서치 지표입니다.
 
-현재 Dashboard에서는 다음과 같은 기간을 제공합니다.
+현재 대시보드에서는 다음과 같은 기간을 제공합니다.
 
-5D
-10D
-30D
-60D
-90D
-1Y
-5Y
-MAX
+`5일 / 10일 / 30일 / 60일 / 90일 / 1년 / 5년 / 전체`
 
-각 기간에 충분한 관측 표본이 확보되어야 통계적 의미를 확보할 수 있으므로, 데이터가 부족한 기간은 자동으로 Data Insufficient 상태로 표시합니다.
+각 기간에 충분한 관측 표본이 확보되어야 통계적 의미를 확보할 수 있으므로, 데이터가 부족한 기간은 자동으로 "데이터 부족" 상태로 표시합니다.
 
 현재 예:
 
-5D   → -1.6%   / 194 samples
-10D  → Data Insufficient
-30D  → Data Insufficient
-60D  → Data Insufficient
-90D  → Data Insufficient
-1Y   → Data Insufficient
-5Y   → Data Insufficient
-MAX  → +2.4%   / 422 samples
+```
+5일   → -1.6%   / 194개 표본
+10일  → 데이터 부족
+30일  → 데이터 부족
+60일  → 데이터 부족
+90일  → 데이터 부족
+1년   → 데이터 부족
+5년   → 데이터 부족
+전체  → +2.4%   / 422개 표본
+```
 
-BSI의 세부 산출 공식은 Proprietary Research Logic으로 관리합니다.
+BSI의 세부 산출 공식은 비공개 리서치 로직으로 관리합니다.
 
-⸻
+---
 
-10. Research Curve
+## 10. 리서치 곡선
 
-Signal 발생 이후 평균적인 수익률 변화를 시간축으로 시각화합니다.
+신호 발생 이후 평균적인 수익률 변화를 시간축으로 시각화합니다.
 
-Signal
+```
+신호
   │
-  ├── Day 1
-  ├── Day 2
-  ├── Day 3
-  ├── Day 4
-  ├── Day 5
-  ├── Day 6
+  ├── 1일차
+  ├── 2일차
+  ├── 3일차
+  ├── 4일차
+  ├── 5일차
+  ├── 6일차
   │
   ▼
-Average Return Curve
+평균 수익률 곡선
+```
 
-현재 Dashboard에서는 예를 들어
+현재 대시보드에서는 예를 들어
 
-Day 6 · -3.7%
+> 6일차 · -3.7%
 
 와 같이 특정 시점의 누적 평균 성과를 확인할 수 있습니다.
 
-이를 통해 단순한 최종 수익률뿐만 아니라 Signal 이후 시간이 지나면서 성과가 어떻게 변화하는지를 관찰할 수 있습니다.
+이를 통해 단순한 최종 수익률뿐만 아니라 신호 이후 시간이 지나면서 성과가 어떻게 변화하는지를 관찰할 수 있습니다.
 
-⸻
+---
 
-11. 자동화 구조
+## 11. 자동화 구조
 
-본 프로젝트의 핵심 중 하나는 반복적인 Research 작업을 자동화했다는 점입니다.
+본 프로젝트의 핵심 중 하나는 반복적인 리서치 작업을 자동화했다는 점입니다.
 
 전체적인 실행 구조는 다음과 같습니다.
 
+```
 GitHub Actions
        │
        ▼
-Scheduled Workflow
+예약된 워크플로우
        │
        ▼
-Data Collection
+데이터 수집
        │
        ▼
-Screening
+스크리닝
        │
        ▼
-Signal Generation
+신호 생성
        │
        ▼
-Research Data Update
+리서치 데이터 갱신
        │
        ▼
-Static Web Data Update
+정적 웹 데이터 갱신
        │
        ▼
-Web Dashboard
+웹 대시보드
+```
 
-정해진 시간에 Workflow가 자동으로 실행되므로 사용자가 매일 직접 프로그램을 실행할 필요가 없습니다.
+정해진 시간에 워크플로우가 자동으로 실행되므로 사용자가 매일 직접 프로그램을 실행할 필요가 없습니다.
 
-⸻
+---
 
-12. Web Frontend
+## 12. 웹 프론트엔드
 
-Dashboard는 역할별로 분리된 구조로 구성되어 있습니다.
+대시보드는 역할별로 분리된 구조로 구성되어 있습니다.
 
+```
 index.html
 │
 ├── css/
@@ -347,230 +356,227 @@ index.html
     ├── data.js
     ├── ui.js
     └── utils.js
+```
 
-index.html
-웹 페이지의 기본 구조와 UI Element를 정의합니다.
+* **index.html** — 웹 페이지의 기본 구조와 UI 요소를 정의합니다.
+* **style.css** — 대시보드의 디자인과 반응형 UI를 담당합니다.
+* **data.js** — 리서치 및 신호 데이터를 읽고 관리합니다.
+* **ui.js** — BSI, 성과, 통계, 신호 결과 등의 화면 렌더링을 담당합니다.
+* **utils.js** — 공통적으로 사용되는 데이터 처리 및 보조 기능을 담당합니다.
+* **main.js** — 전체 프론트엔드의 실행 흐름을 연결합니다.
 
-style.css
-Dashboard의 디자인과 반응형 UI를 담당합니다.
+---
 
-data.js
-Research 및 Signal 데이터를 읽고 관리합니다.
+## 13. 데이터와 표시 계층의 분리
 
-ui.js
-BSI, Performance, Statistics, Signal Results 등의 화면 렌더링을 담당합니다.
+프로젝트에서는 데이터와 표시(Presentation) 계층을 의도적으로 분리했습니다.
 
-utils.js
-공통적으로 사용되는 데이터 처리 및 보조 기능을 담당합니다.
-
-main.js
-전체 Frontend의 실행 흐름을 연결합니다.
-
-⸻
-
-13. 데이터와 Presentation의 분리
-
-프로젝트에서는 데이터와 Presentation Layer를 의도적으로 분리했습니다.
-
-Data
+```
+데이터
  │
- ├── Signal Data
- ├── Research Data
- ├── Performance Data
- └── BSI Data
+ ├── 신호 데이터
+ ├── 리서치 데이터
+ ├── 성과 데이터
+ └── BSI 데이터
           │
           ▼
       JavaScript
           │
           ▼
-      UI Rendering
+      UI 렌더링
           │
           ▼
-       Browser
+       브라우저
+```
 
-따라서 데이터가 변경되더라도 HTML 전체를 다시 작성할 필요 없이 데이터 파일을 갱신하여 Dashboard에 반영할 수 있습니다.
+따라서 데이터가 변경되더라도 HTML 전체를 다시 작성할 필요 없이 데이터 파일을 갱신하여 대시보드에 반영할 수 있습니다.
 
-이러한 구조를 통해 Research Data와 Presentation Layer의 결합도를 낮추고 유지보수성을 확보했습니다.
+이러한 구조를 통해 리서치 데이터와 표시 계층의 결합도를 낮추고 유지보수성을 확보했습니다.
 
-⸻
+---
 
-14. 현재 프로젝트 상태
+## 14. 현재 프로젝트 상태
 
-2026-08-30 기준 Research Status
+**2026-08-30 기준 리서치 현황**
 
-Total Signals       : 451
-Completed Signals   : 194
-Pending Signals     : 257
-Completion Rate     : 43.0%
+```
+전체 신호 수     : 451
+완료 신호        : 194
+대기 신호        : 257
+완료율          : 43.0%
+```
 
-현재는 아직 Research 데이터가 축적되는 단계입니다.
+현재는 아직 리서치 데이터가 축적되는 단계입니다.
 
-따라서 현재의 통계값을 최종적인 투자 전략의 성능으로 해석하기보다는 Ongoing Research Result로 보는 것이 적절합니다.
+따라서 현재의 통계값을 최종적인 투자 전략의 성능으로 해석하기보다는 진행 중인 리서치 결과로 보는 것이 적절합니다.
 
 특히 장기 기간의 성과는 충분한 관측 기간과 표본이 확보된 이후 평가할 예정입니다.
 
-⸻
+---
 
-15. 현재 성과에 대한 해석
+## 15. 현재 성과에 대한 해석
 
-현재 5D 기준 성과는 다음과 같습니다.
+현재 5일 기준 성과는 다음과 같습니다.
 
-Average Return : -1.59%
-Win Rate       : 34.54%
-Average Win    : +3.40%
-Average Loss   : -4.23%
+```
+평균 수익률 : -1.59%
+승률       : 34.54%
+평균 승리   : +3.40%
+평균 손실   : -4.23%
+```
 
-현재 결과만 놓고 보면 Signal의 단기 성과가 우수하다고 평가하기는 어렵습니다.
+현재 결과만 놓고 보면 신호의 단기 성과가 우수하다고 평가하기는 어렵습니다.
 
-그러나 본 프로젝트의 목적은 특정 결과를 만들어내는 것뿐만 아니라 투자 가설을 정량적으로 검증할 수 있는 Research Infrastructure를 구축하는 것에 있습니다.
+그러나 본 프로젝트의 목적은 특정 결과를 만들어내는 것뿐만 아니라 투자 가설을 정량적으로 검증할 수 있는 리서치 인프라를 구축하는 것에 있습니다.
 
-따라서 향후 데이터가 충분히 축적되면 Screening 조건 및 Parameter를 변경하고, 동일한 Research Pipeline을 통해 반복적으로 성과를 비교·검증할 수 있습니다.
+따라서 향후 데이터가 충분히 축적되면 스크리닝 조건 및 파라미터를 변경하고, 동일한 리서치 파이프라인을 통해 반복적으로 성과를 비교·검증할 수 있습니다.
 
-현재의 부정적인 결과 또한 전략 개선을 위한 Research Data로 활용됩니다.
+현재의 부정적인 결과 또한 전략 개선을 위한 리서치 데이터로 활용됩니다.
 
-⸻
+---
 
-16. 향후 개발 계획
+## 16. 향후 개발 계획
 
-Phase 1 — Data Accumulation
-
-* Signal 수 증가
-* Research 데이터 지속 축적
+**Phase 1 — 데이터 축적**
+* 신호 수 증가
+* 리서치 데이터 지속 축적
 * 기간별 표본 확보
 * 데이터 품질 검증
 
-Phase 2 — Strategy Research
-
-* Screening 조건 비교
-* Parameter Sensitivity Analysis
+**Phase 2 — 전략 리서치**
+* 스크리닝 조건 비교
+* 파라미터 민감도 분석
 * 시장 상황별 성과 비교
-* Sector별 성과 비교
-* Benchmark 비교
+* 섹터별 성과 비교
+* 벤치마크 비교
 
-Phase 3 — Risk Analysis
+**Phase 3 — 리스크 분석**
+* 최대 낙폭 (MDD)
+* 샤프 지수
+* 소르티노 지수
+* 손익비 (Profit Factor)
+* 기대값 (Expectancy)
+* 변동성
+* 위험조정 수익률
 
-* Maximum Drawdown
-* Sharpe Ratio
-* Sortino Ratio
-* Profit Factor
-* Expectancy
-* Volatility
-* Risk-adjusted Return
-
-Phase 4 — Research Platformization
-
+**Phase 4 — 리서치 플랫폼화**
 * 데이터 파이프라인 안정화
-* Logging / Monitoring
-* Error Handling
-* Version Management
-* Reproducibility
-* Backtesting Framework
+* 로깅 / 모니터링
+* 오류 처리
+* 버전 관리
+* 재현성 확보
+* 백테스팅 프레임워크
 * API 기반 데이터 제공
-* 사용자별 Research Dashboard
+* 사용자별 리서치 대시보드
 
-⸻
+---
 
-17. 프로젝트의 핵심 의의
+## 17. 프로젝트의 핵심 의의
 
 이 프로젝트는 단순한 주식 추천 프로그램을 만드는 것을 목표로 하지 않았습니다.
 
 핵심은
 
-투자 가설을 컴퓨터가 반복적으로 검증할 수 있는 환경을 만드는 것
+> 투자 가설을 컴퓨터가 반복적으로 검증할 수 있는 환경을 만드는 것
 
 입니다.
 
 즉,
 
-Hypothesis
+```
+가설
     ↓
-Quantitative Rule
+정량 규칙
     ↓
-Screening
+스크리닝
     ↓
-Signal
+신호
     ↓
-Observation
+관측
     ↓
-Performance
+성과
     ↓
-Statistics
+통계
     ↓
-Strategy Evaluation
+전략 평가
     ↓
-Improvement
+개선
+```
 
-이라는 Research Cycle을 자동화하는 것을 목표로 합니다.
+이라는 리서치 사이클을 자동화하는 것을 목표로 합니다.
 
-⸻
+---
 
-18. 기술 공개 범위
+## 18. 기술 공개 범위
 
-본 프로젝트는 포트폴리오 및 연구 목적으로 시스템의 구조와 Research 결과를 공개하지만, 다음 핵심 요소는 프로젝트의 지적 자산 보호를 위해 공개하지 않습니다.
+본 프로젝트는 포트폴리오 및 연구 목적으로 시스템의 구조와 리서치 결과를 공개하지만, 다음 핵심 요소는 프로젝트의 지적 자산 보호를 위해 공개하지 않습니다.
 
-* Signal 생성 알고리즘
-* 세부 Screening Formula
-* 내부 Parameter
+* 신호 생성 알고리즘
+* 세부 스크리닝 공식
+* 내부 파라미터
 * 일부 데이터 처리 로직
-* Risk Management Formula
+* 리스크 관리 공식
 * BSI 산출 세부 알고리즘
-* 일부 자동화 Pipeline 구현
+* 일부 자동화 파이프라인 구현
 
-해당 영역은 다음과 같이 Proprietary Research Logic으로 구분합니다.
+해당 영역은 다음과 같이 비공개 리서치 로직으로 구분합니다.
 
-Public Research Infrastructure
+```
+공개된 리서치 인프라
             │
-            ├── Data Flow
-            ├── Tracking Structure
-            ├── Performance Metrics
-            └── Web Visualization
+            ├── 데이터 흐름
+            ├── 추적 구조
+            ├── 성과 지표
+            └── 웹 시각화
                     │
                     ▼
         ┌────────────────────────┐
-        │ Proprietary Research   │
-        │        Logic           │
+        │   비공개 리서치 로직    │
         ├────────────────────────┤
-        │ Screening Algorithm    │
-        │ Signal Generation      │
-        │ Internal Parameters    │
-        │ Risk Management        │
-        │ BSI Calculation        │
+        │   스크리닝 알고리즘     │
+        │   신호 생성            │
+        │   내부 파라미터         │
+        │   리스크 관리           │
+        │   BSI 산출             │
         └────────────────────────┘
+```
 
-이는 단순히 코드를 숨기기 위한 것이 아니라, 프로젝트의 핵심 Research Logic과 Algorithm을 보호하면서 시스템의 구조와 검증 결과를 공개하기 위한 설계입니다.
+이는 단순히 코드를 숨기기 위한 것이 아니라, 프로젝트의 핵심 리서치 로직과 알고리즘을 보호하면서 시스템의 구조와 검증 결과를 공개하기 위한 설계입니다.
 
-⸻
+---
 
-19. Summary
+## 19. 요약
 
-본 프로젝트는 다음의 요소를 하나의 자동화된 Research System으로 통합했습니다.
+본 프로젝트는 다음의 요소를 하나의 자동화된 리서치 시스템으로 통합했습니다.
 
-Market Data
+```
+시세 데이터
       ↓
-Automated Screening
+자동 스크리닝
       ↓
-Signal Generation
+신호 생성
       ↓
-Historical Research
+과거 데이터 리서치
       ↓
-Performance Tracking
+성과 추적
       ↓
-Statistical Analysis
+통계 분석
       ↓
-Web Visualization
+웹 시각화
       ↓
-Continuous Research
+지속적 리서치
+```
 
-현재는 데이터 축적과 전략 검증이 진행 중이며, 향후 충분한 표본이 확보되면 더욱 다양한 통계적 검증과 Risk-adjusted Performance Analysis를 추가할 예정입니다.
+현재는 데이터 축적과 전략 검증이 진행 중이며, 향후 충분한 표본이 확보되면 더욱 다양한 통계적 검증과 위험조정 성과 분석을 추가할 예정입니다.
 
-본 프로젝트의 최종 목표는 특정 종목을 추천하는 것이 아니라, 정량적 투자 가설을 지속적으로 실험하고 검증할 수 있는 자동화된 Research Infrastructure를 구축하는 것입니다.
+본 프로젝트의 최종 목표는 특정 종목을 추천하는 것이 아니라, 정량적 투자 가설을 지속적으로 실험하고 검증할 수 있는 자동화된 리서치 인프라를 구축하는 것입니다.
 
-⸻
+---
 
-Author
+## Author
 
 개인 개발 프로젝트
 
-NASDAQ IT Screener & Research System
+**NASDAQ IT 스크리너 & 리서치 시스템**
 
-Automated Screening · Quantitative Research · Performance Tracking · Data Visualization
+자동 스크리닝 · 정량 리서치 · 성과 추적 · 데이터 시각화
