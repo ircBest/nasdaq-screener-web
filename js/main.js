@@ -115,20 +115,6 @@ function applyFilters() {
    ========================================================= */
 function updateLatestStatus(data) {
   document.getElementById(
-    "scannedCount"
-  ).textContent =
-    data.total_scanned ??
-    data.scanned ??
-    data.total_observations ??
-    "-";
-  document.getElementById(
-    "observationCount"
-  ).textContent =
-    data.total_observations ??
-    data.observations ??
-    data.observation_count ??
-    "-";
-  document.getElementById(
     "foundCount"
   ).textContent =
     data.total_signals ??
@@ -153,6 +139,47 @@ function updateLatestStatus(data) {
       "관측일: " +
       data.observation_date;
   }
+}
+/* =========================================================
+   UPDATE SCAN STATS
+   (전체 스캔 종목 / Observation)
+
+   중요:
+   이 두 카운터는 latest_signals.json에는
+   애초에 존재하지 않는 필드다.
+   (latest_signals.json은 Signal 목록만 담당)
+
+   total_scanned / total_observations는
+   docs/data.json(공개 스캔 요약)에만 존재하므로
+   반드시 data.json을 기준으로 채운다.
+
+   bsi.json / performance.json / statistics.json과
+   동일하게, latest_signals.json 로딩 성공 여부와
+   무관하게 독립적으로 항상 시도한다.
+   ========================================================= */
+function updateScanStats(data) {
+  if (!data) {
+    document.getElementById(
+      "scannedCount"
+    ).textContent = "-";
+    document.getElementById(
+      "observationCount"
+    ).textContent = "-";
+    return;
+  }
+  document.getElementById(
+    "scannedCount"
+  ).textContent =
+    data.total_scanned ??
+    data.scanned ??
+    "-";
+  document.getElementById(
+    "observationCount"
+  ).textContent =
+    data.total_observations ??
+    data.observations ??
+    data.observation_count ??
+    "-";
 }
 /* =========================================================
    APPLY CONFIG
@@ -210,18 +237,6 @@ function applyLegacyData(
       legacy
     );
   document.getElementById(
-    "scannedCount"
-  ).textContent =
-    legacy.total_scanned ??
-    legacy.scanned ??
-    "-";
-  document.getElementById(
-    "observationCount"
-  ).textContent =
-    legacy.total_observations ??
-    legacy.observations ??
-    "-";
-  document.getElementById(
     "foundCount"
   ).textContent =
     legacy.total_signals ??
@@ -273,12 +288,16 @@ async function load() {
   );
   const [
     latestResult,
+    dataJsonResult,
     bsiResult,
     performanceResult,
     statisticsResult
   ] =
     await Promise.allSettled([
       loadLatestSignals(),
+      fetchJSON(
+        "data.json"
+      ),
       fetchJSON(
         "bsi.json"
       ),
@@ -328,7 +347,10 @@ async function load() {
        LEGACY FALLBACK
        =================================================== */
     const legacy =
-      await loadLegacyData();
+      dataJsonResult.status ===
+      "fulfilled"
+        ? dataJsonResult.value
+        : await loadLegacyData();
     if (legacy) {
       applyLegacyData(
         legacy,
@@ -367,6 +389,30 @@ async function load() {
       ).textContent =
         "마지막 스캔: latest_signals.json 로딩 실패";
     }
+  }
+  /* =====================================================
+     SCAN STATS (전체 스캔 종목 / Observation)
+
+     data.json을 기준으로 독립적으로 채운다.
+     latest_signals.json의 성공/실패와 무관하게 항상 시도.
+     ===================================================== */
+  if (
+    dataJsonResult.status ===
+    "fulfilled"
+  ) {
+    console.log(
+      "[OK] data.json",
+      dataJsonResult.value
+    );
+    updateScanStats(
+      dataJsonResult.value
+    );
+  } else {
+    console.warn(
+      "[WARN] data.json 로딩 실패:",
+      dataJsonResult.reason
+    );
+    updateScanStats(null);
   }
   /* =====================================================
      BSI
