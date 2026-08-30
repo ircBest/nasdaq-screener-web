@@ -2,152 +2,207 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
+
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1, viewport-fit=cover"
   >
+
   <meta
     name="apple-mobile-web-app-capable"
     content="yes"
   >
+
   <meta
     name="apple-mobile-web-app-status-bar-style"
     content="black-translucent"
   >
+
   <meta
     name="theme-color"
     content="#0A0C10"
   >
+
   <title>NASDAQ IT 스크리너</title>
+
   <link
     rel="preconnect"
     href="https://fonts.googleapis.com"
   >
+
   <link
     rel="preconnect"
     href="https://fonts.gstatic.com"
-    crossorigin
   >
+
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   >
-  <!-- Main stylesheet -->
+
   <link
     rel="stylesheet"
     href="./css/style.css"
   >
 </head>
+
 <body>
+
 <header>
+
   <div class="eyebrow">
     <span class="dot"></span>
     AUTO SCREENER · DAILY 07:00 KST
   </div>
+
   <h1>
     NASDAQ IT 스크리너
   </h1>
+
   <div class="sub">
     RSI 과매도 · 재무 데이터 · 거래량 · 위험관리 · Research
   </div>
+
 </header>
+
 <main>
+
   <!-- =====================================================
        STATUS
        ===================================================== -->
+
   <div class="status-strip">
+
     <div class="status-cell">
+
       <div
         class="val mono"
         id="scannedCount"
       >
         -
       </div>
+
       <div class="lbl">
         전체 스캔 종목
       </div>
+
     </div>
+
     <div class="status-cell">
+
       <div
         class="val mono"
         id="observationCount"
       >
         -
       </div>
+
       <div class="lbl">
         Observation
       </div>
+
     </div>
+
     <div class="status-cell">
+
       <div
         class="val mono"
         id="foundCount"
       >
         -
       </div>
+
       <div class="lbl">
         Signal
       </div>
+
     </div>
+
   </div>
+
+
   <!-- =====================================================
        RESEARCH STATUS
        ===================================================== -->
+
   <div class="research-status">
+
     <div class="research-status-card">
+
       <div class="k">
         Research 완료
       </div>
+
       <div
         class="v green"
         id="researchCompleted"
       >
         -
       </div>
+
     </div>
+
     <div class="research-status-card">
+
       <div class="k">
         Research 대기
       </div>
+
       <div
         class="v amber"
         id="researchPending"
       >
         -
       </div>
+
     </div>
+
   </div>
+
+
   <!-- =====================================================
        SETTINGS
        ===================================================== -->
+
   <button
     class="settings-toggle"
     id="settingsToggle"
     type="button"
   >
+
     <span>
       필터 조정
     </span>
+
     <span id="settingsCaret">
       ▾
     </span>
+
   </button>
+
+
   <div
     class="settings-panel"
     id="settingsPanel"
   >
+
     <div class="field">
+
       <label>
+
         <span>
           RSI 기준 (이하)
         </span>
+
         <span
           class="v"
           id="rsiVal"
         >
           40
         </span>
+
       </label>
+
       <input
         type="range"
         id="rsiRange"
@@ -155,177 +210,267 @@
         max="40"
         value="40"
       >
+
     </div>
+
+
     <div class="field toggle-row">
+
       <label style="margin:0;">
         최근 분기 흑자 기업만
       </label>
+
       <label class="switch">
+
         <input
           type="checkbox"
           id="reqProfit"
         >
+
         <span class="slider-toggle"></span>
+
       </label>
+
     </div>
+
   </div>
+
+
   <!-- =====================================================
        NOTICE
        ===================================================== -->
+
   <div class="notice-box">
+
     이 페이지는
     매일 오전 7시(한국시간)
     GitHub Actions가 자동으로 스캔한 결과를 표시합니다.
+
     <br><br>
+
     Research Performance와 BSI는
     과거 Signal의 성과가 충분히 누적된 경우에만
     해당 기간의 값을 표시합니다.
+
   </div>
+
+
   <div class="meta-line">
+
     <span id="lastUpdated">
       마지막 스캔: 불러오는 중...
     </span>
+
   </div>
+
+
   <!-- =====================================================
        BSI
        ===================================================== -->
+
   <div class="section-title">
+
     <div class="title">
       BSI · Backtest Signal Index
     </div>
+
     <div
       class="hint"
       id="bsiUpdated"
     >
       -
     </div>
+
   </div>
+
+
   <div class="bsi-card">
+
     <div
       class="bsi-grid"
       id="bsiGrid"
     >
+
       <div
         class="empty-state loading-state"
         style="grid-column:1/-1;"
       >
         BSI 데이터를 불러오는 중...
       </div>
+
     </div>
+
+
     <div class="curve-wrap">
+
       <div class="curve-header">
+
         <div class="curve-title">
           Signal 발생 이후 평균 수익률 Curve
         </div>
+
         <div
           class="curve-value"
           id="curveLatest"
         >
           -
         </div>
+
       </div>
+
       <canvas
         id="bsiCanvas"
         width="600"
         height="170"
       ></canvas>
+
     </div>
+
   </div>
+
+
   <!-- =====================================================
        PERFORMANCE
        ===================================================== -->
+
   <div class="section-title">
+
     <div class="title">
       Research Performance
     </div>
+
     <div
       class="hint"
       id="performanceStatus"
     >
       -
     </div>
+
   </div>
+
+
   <div class="performance-card">
+
     <table class="performance-table">
+
       <thead>
+
         <tr>
+
           <th>
             항목
           </th>
+
           <th>
             값
           </th>
+
         </tr>
+
       </thead>
+
       <tbody id="performanceTable">
+
         <tr>
+
           <td colspan="2">
             Research 데이터를 불러오는 중...
           </td>
+
         </tr>
+
       </tbody>
+
     </table>
+
   </div>
+
+
   <!-- =====================================================
        STATISTICS
        ===================================================== -->
+
   <div class="section-title">
+
     <div class="title">
       Research Statistics
     </div>
+
   </div>
+
+
   <div
     class="statistics-grid"
     id="statisticsGrid"
   >
+
     <div
       class="empty-state loading-state"
       style="grid-column:1/-1;"
     >
       Statistics 데이터를 불러오는 중...
     </div>
+
   </div>
+
+
   <!-- =====================================================
        SIGNAL RESULTS
        ===================================================== -->
+
   <div class="section-title">
+
     <div class="title">
       Signal Results
     </div>
+
     <div
       class="hint"
       id="resultCount"
     >
       -
     </div>
+
   </div>
+
+
   <div id="resultsContainer">
+
     <div class="empty-state loading-state">
       데이터를 불러오는 중입니다...
     </div>
+
   </div>
+
+
   <!-- =====================================================
        FOOTER
        ===================================================== -->
+
   <div class="footer-note">
+
     Safari 공유 버튼 →
     “홈 화면에 추가”를 선택하면
     앱처럼 사용할 수 있습니다.
+
     <br><br>
+
     Research 데이터는
     충분한 거래일이 축적된 이후 자동으로 갱신됩니다.
+
   </div>
+
 </main>
+
+
 <!-- =========================================================
-     JAVASCRIPT
-     =========================================================
-     ES Module을 사용하므로 main.js가
-     data.js / ui.js / utils.js를 import한다.
-     브라우저가 의존성을 자동으로 로드한다.
+     JAVASCRIPT MODULES
      ========================================================= -->
-<script
-  type="module"
-  src="./js/main.js"
-></script>
+
+<script src="./js/utils.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/ui.js"></script>
+<script src="./js/main.js"></script>
+
 </body>
 </html>
