@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T01:00:00.787928+00:00",
+  "generated_at": "2026-08-30T06:11:09.088428+00:00",
   "config": {
     "RSI_PERIOD": 14,
     "RSI_THRESHOLD": 40,
@@ -23,7 +23,7 @@
   "public_filter": {
     "rsi_max": 40
   },
-  "total_scanned": 0,
+  "total_scanned": 1811,
   "total_observations": 0,
   "total_signals": 0,
   "breakdown": {

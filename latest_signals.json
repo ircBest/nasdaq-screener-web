@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "observation_date": "2026-08-30",
-  "generated_at": "2026-08-30T01:00:00.787928+00:00",
+  "generated_at": "2026-08-30T06:11:09.088428+00:00",
   "config": {
     "RSI_PERIOD": 14,
     "RSI_THRESHOLD": 40,
@@ -27,7 +27,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:47:37.009165+00:00",
+      "generated_at": "2026-08-30T05:58:45.181223+00:00",
       "ticker": "VISN",
       "name": "Vistance Networks, Inc.",
       "sector": "Technology",
@@ -85,7 +85,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:44:11.754907+00:00",
+      "generated_at": "2026-08-30T05:55:19.629017+00:00",
       "ticker": "CRUS",
       "name": "Cirrus Logic, Inc.",
       "sector": "Technology",
@@ -143,7 +143,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:53:37.552400+00:00",
+      "generated_at": "2026-08-30T06:04:45.738280+00:00",
       "ticker": "LYTS",
       "name": "LSI Industries Inc.",
       "sector": "Technology",
@@ -201,7 +201,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:52:58.898861+00:00",
+      "generated_at": "2026-08-30T06:04:07.670140+00:00",
       "ticker": "ENRD",
       "name": "Einride AB",
       "sector": "Technology",
@@ -259,7 +259,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:51:18.278375+00:00",
+      "generated_at": "2026-08-30T06:02:27.083160+00:00",
       "ticker": "AIP",
       "name": "Arteris, Inc.",
       "sector": "Technology",
@@ -317,7 +317,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:46:50.175429+00:00",
+      "generated_at": "2026-08-30T05:57:57.865246+00:00",
       "ticker": "POWI",
       "name": "Power Integrations, Inc.",
       "sector": "Technology",
@@ -375,7 +375,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:52:54.907421+00:00",
+      "generated_at": "2026-08-30T06:04:02.852254+00:00",
       "ticker": "WYFI",
       "name": "WhiteFiber, Inc.",
       "sector": "Technology",
@@ -433,7 +433,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:41:56.674170+00:00",
+      "generated_at": "2026-08-30T05:53:04.579419+00:00",
       "ticker": "NVMI",
       "name": "Nova Ltd.",
       "sector": "Technology",
@@ -468,8 +468,8 @@
         "ebitda_previous_m": 76.6,
         "ebitda_growth_pct": 7.3,
         "operating_cash_flow_latest_m": 40.9,
-        "operating_cash_flow_previous_m": 40.1,
-        "operating_cash_flow_change_pct": 2.0,
+        "operating_cash_flow_previous_m": null,
+        "operating_cash_flow_change_pct": null,
         "financial_latest_period": "2026-06-30",
         "financial_previous_period": "2026-03-31"
       },
@@ -491,7 +491,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:53:09.844574+00:00",
+      "generated_at": "2026-08-30T06:04:17.728374+00:00",
       "ticker": "AOSL",
       "name": "Alpha and Omega Semiconductor L",
       "sector": "Technology",
@@ -549,7 +549,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:40:30.892652+00:00",
+      "generated_at": "2026-08-30T05:51:39.451089+00:00",
       "ticker": "GFS",
       "name": "GlobalFoundries Inc.",
       "sector": "Technology",
@@ -607,7 +607,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:43:31.298153+00:00",
+      "generated_at": "2026-08-30T05:54:39.702439+00:00",
       "ticker": "ALGM",
       "name": "Allegro MicroSystems, Inc.",
       "sector": "Technology",
@@ -665,7 +665,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:50:25.974242+00:00",
+      "generated_at": "2026-08-30T06:01:34.150790+00:00",
       "ticker": "NSSC",
       "name": "NAPCO Security Technologies, In",
       "sector": "Industrials",
@@ -723,7 +723,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:41:01.470143+00:00",
+      "generated_at": "2026-08-30T05:52:09.711465+00:00",
       "ticker": "MKSI",
       "name": "MKS Inc.",
       "sector": "Technology",
@@ -781,7 +781,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:47:33.137417+00:00",
+      "generated_at": "2026-08-30T05:58:42.032132+00:00",
       "ticker": "LASR",
       "name": "nLIGHT, Inc.",
       "sector": "Technology",
@@ -839,7 +839,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:44:11.224449+00:00",
+      "generated_at": "2026-08-30T05:55:19.385057+00:00",
       "ticker": "CORZ",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
@@ -897,7 +897,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:54:27.621312+00:00",
+      "generated_at": "2026-08-30T06:05:35.842669+00:00",
       "ticker": "ADTN",
       "name": "ADTRAN Holdings, Inc.",
       "sector": "Technology",
@@ -955,7 +955,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:49:24.766858+00:00",
+      "generated_at": "2026-08-30T06:00:32.614234+00:00",
       "ticker": "PLAB",
       "name": "Photronics, Inc.",
       "sector": "Technology",
@@ -1013,7 +1013,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:53:19.441723+00:00",
+      "generated_at": "2026-08-30T06:04:27.634693+00:00",
       "ticker": "GILT",
       "name": "Gilat Satellite Networks Ltd.",
       "sector": "Technology",
@@ -1071,7 +1071,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:53:51.859116+00:00",
+      "generated_at": "2026-08-30T06:04:59.811680+00:00",
       "ticker": "ARRY",
       "name": "Array Technologies, Inc.",
       "sector": "Technology",
@@ -1129,7 +1129,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:49:35.940569+00:00",
+      "generated_at": "2026-08-30T06:00:44.109031+00:00",
       "ticker": "EVCM",
       "name": "EverCommerce Inc.",
       "sector": "Technology",
@@ -1187,7 +1187,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:46:53.067620+00:00",
+      "generated_at": "2026-08-30T05:58:00.468285+00:00",
       "ticker": "EXTR",
       "name": "Extreme Networks, Inc.",
       "sector": "Technology",
@@ -1245,7 +1245,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:48:23.876305+00:00",
+      "generated_at": "2026-08-30T05:59:32.700108+00:00",
       "ticker": "ICHR",
       "name": "Ichor Holdings",
       "sector": "Technology",
@@ -1303,7 +1303,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:51:58.464633+00:00",
+      "generated_at": "2026-08-30T06:03:06.398467+00:00",
       "ticker": "CSIQ",
       "name": "Canadian Solar Inc.",
       "sector": "Technology",
@@ -1361,7 +1361,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:38:44.041505+00:00",
+      "generated_at": "2026-08-30T05:49:52.299410+00:00",
       "ticker": "KLAC",
       "name": "KLA Corporation",
       "sector": "Technology",
@@ -1419,7 +1419,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:53:04.178165+00:00",
+      "generated_at": "2026-08-30T06:04:12.043792+00:00",
       "ticker": "RXT",
       "name": "Rackspace Technology, Inc.",
       "sector": "Technology",
@@ -1477,7 +1477,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:45:08.792294+00:00",
+      "generated_at": "2026-08-30T05:56:16.665348+00:00",
       "ticker": "KLIC",
       "name": "Kulicke and Soffa Industries, I",
       "sector": "Technology",
@@ -1535,7 +1535,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:40:21.895646+00:00",
+      "generated_at": "2026-08-30T05:51:30.451236+00:00",
       "ticker": "ON",
       "name": "ON Semiconductor Corporation",
       "sector": "Technology",
@@ -1593,7 +1593,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:48:26.012209+00:00",
+      "generated_at": "2026-08-30T05:59:33.581945+00:00",
       "ticker": "RUN",
       "name": "Sunrun Inc.",
       "sector": "Technology",
@@ -1651,7 +1651,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:41:41.703927+00:00",
+      "generated_at": "2026-08-30T05:52:49.558870+00:00",
       "ticker": "NXT",
       "name": "Nextpower Inc.",
       "sector": "Technology",
@@ -1709,7 +1709,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:45:41.518459+00:00",
+      "generated_at": "2026-08-30T05:56:49.433494+00:00",
       "ticker": "ACLS",
       "name": "Axcelis Technologies, Inc.",
       "sector": "Technology",
@@ -1767,7 +1767,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:42:20.164443+00:00",
+      "generated_at": "2026-08-30T05:53:28.365468+00:00",
       "ticker": "VSAT",
       "name": "ViaSat, Inc.",
       "sector": "Technology",
@@ -1825,7 +1825,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:51:46.445285+00:00",
+      "generated_at": "2026-08-30T06:02:54.294766+00:00",
       "ticker": "ITRN",
       "name": "Ituran Location and Control Ltd",
       "sector": "Technology",
@@ -1883,7 +1883,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:55:25.509596+00:00",
+      "generated_at": "2026-08-30T06:06:33.635245+00:00",
       "ticker": "SWMR",
       "name": "Swarmer, Inc",
       "sector": "Technology",
@@ -1941,7 +1941,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:39:30.902657+00:00",
+      "generated_at": "2026-08-30T05:50:39.320525+00:00",
       "ticker": "NXPI",
       "name": "NXP Semiconductors N.V.",
       "sector": "Technology",
@@ -1999,7 +1999,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:42:31.897337+00:00",
+      "generated_at": "2026-08-30T05:53:40.004488+00:00",
       "ticker": "RMBS",
       "name": "Rambus, Inc.",
       "sector": "Technology",
@@ -2057,7 +2057,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:45:49.288294+00:00",
+      "generated_at": "2026-08-30T05:56:57.753460+00:00",
       "ticker": "SYNA",
       "name": "Synaptics Incorporated",
       "sector": "Technology",
@@ -2115,7 +2115,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:47:01.959279+00:00",
+      "generated_at": "2026-08-30T05:58:09.569564+00:00",
       "ticker": "VECO",
       "name": "Veeco Instruments Inc.",
       "sector": "Technology",
@@ -2173,7 +2173,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:46:09.732278+00:00",
+      "generated_at": "2026-08-30T05:57:18.584062+00:00",
       "ticker": "OSIS",
       "name": "OSI Systems, Inc.",
       "sector": "Technology",
@@ -2231,7 +2231,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:38:38.354473+00:00",
+      "generated_at": "2026-08-30T05:49:46.585265+00:00",
       "ticker": "AMAT",
       "name": "Applied Materials, Inc.",
       "sector": "Technology",
@@ -2289,7 +2289,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:53:27.901465+00:00",
+      "generated_at": "2026-08-30T06:04:35.749489+00:00",
       "ticker": "CEVA",
       "name": "CEVA, Inc.",
       "sector": "Technology",
@@ -2347,7 +2347,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:38:44.433929+00:00",
+      "generated_at": "2026-08-30T05:49:52.549162+00:00",
       "ticker": "TXN",
       "name": "Texas Instruments Incorporated",
       "sector": "Technology",
@@ -2405,7 +2405,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:46:15.123601+00:00",
+      "generated_at": "2026-08-30T05:57:22.704363+00:00",
       "ticker": "UCTT",
       "name": "Ultra Clean Holdings, Inc.",
       "sector": "Technology",
@@ -2463,7 +2463,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:42:43.559482+00:00",
+      "generated_at": "2026-08-30T05:53:51.719014+00:00",
       "ticker": "VICR",
       "name": "Vicor Corporation",
       "sector": "Technology",
@@ -2521,7 +2521,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:51:10.097151+00:00",
+      "generated_at": "2026-08-30T06:02:18.287566+00:00",
       "ticker": "AEVA",
       "name": "Aeva Technologies, Inc.",
       "sector": "Technology",
@@ -2579,7 +2579,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:51:10.385434+00:00",
+      "generated_at": "2026-08-30T06:02:18.722196+00:00",
       "ticker": "SHLS",
       "name": "Shoals Technologies Group, Inc.",
       "sector": "Technology",
@@ -2637,7 +2637,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:43:07.809201+00:00",
+      "generated_at": "2026-08-30T05:54:16.090121+00:00",
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
       "sector": "Technology",
@@ -2695,7 +2695,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:45:51.172693+00:00",
+      "generated_at": "2026-08-30T05:56:58.724221+00:00",
       "ticker": "LIF",
       "name": "Life360, Inc.",
       "sector": "Technology",
@@ -2753,7 +2753,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:50:14.920629+00:00",
+      "generated_at": "2026-08-30T06:01:23.074175+00:00",
       "ticker": "PICS",
       "name": "PicS N.V.",
       "sector": "Technology",
@@ -2811,7 +2811,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:54:51.666395+00:00",
+      "generated_at": "2026-08-30T06:05:59.834033+00:00",
       "ticker": "NTGR",
       "name": "NETGEAR, Inc.",
       "sector": "Technology",
@@ -2869,7 +2869,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:40:44.127015+00:00",
+      "generated_at": "2026-08-30T05:51:52.264190+00:00",
       "ticker": "FSLR",
       "name": "First Solar, Inc.",
       "sector": "Technology",
@@ -2927,7 +2927,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:53:59.105326+00:00",
+      "generated_at": "2026-08-30T06:05:07.901192+00:00",
       "ticker": "SSYS",
       "name": "Stratasys, Ltd.",
       "sector": "Technology",
@@ -2985,7 +2985,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:40:35.180663+00:00",
+      "generated_at": "2026-08-30T05:51:43.213000+00:00",
       "ticker": "ASTS",
       "name": "AST SpaceMobile, Inc.",
       "sector": "Technology",
@@ -3043,7 +3043,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:41:52.480298+00:00",
+      "generated_at": "2026-08-30T05:53:00.647962+00:00",
       "ticker": "AMKR",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
@@ -3101,7 +3101,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:46:19.865064+00:00",
+      "generated_at": "2026-08-30T05:57:28.207387+00:00",
       "ticker": "NVTS",
       "name": "Navitas Semiconductor Corporati",
       "sector": "Technology",
@@ -3159,7 +3159,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:58:10.919614+00:00",
+      "generated_at": "2026-08-30T06:09:18.781834+00:00",
       "ticker": "ADI",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -3217,7 +3217,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:41:15.937448+00:00",
+      "generated_at": "2026-08-30T05:52:24.335336+00:00",
       "ticker": "LSCC",
       "name": "Lattice Semiconductor Corporati",
       "sector": "Technology",
@@ -3275,7 +3275,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:58:40.627491+00:00",
+      "generated_at": "2026-08-30T06:09:49.682175+00:00",
       "ticker": "BELFB",
       "name": "Bel Fuse Inc.",
       "sector": "Technology",
@@ -3333,7 +3333,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:41:28.826324+00:00",
+      "generated_at": "2026-08-30T05:52:36.996495+00:00",
       "ticker": "QNT",
       "name": "Quantinuum Inc.",
       "sector": "Technology",
@@ -3391,7 +3391,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:43:31.482256+00:00",
+      "generated_at": "2026-08-30T05:54:39.966321+00:00",
       "ticker": "CAMT",
       "name": "Camtek Ltd.",
       "sector": "Technology",
@@ -3449,7 +3449,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:43:43.574284+00:00",
+      "generated_at": "2026-08-30T05:54:51.713935+00:00",
       "ticker": "PLXS",
       "name": "Plexus Corp.",
       "sector": "Technology",
@@ -3507,7 +3507,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:46:13.731931+00:00",
+      "generated_at": "2026-08-30T05:57:21.923312+00:00",
       "ticker": "CHRN",
       "name": "ChronoScale Holdings Corporatio",
       "sector": "Technology",
@@ -3565,7 +3565,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:46:46.962624+00:00",
+      "generated_at": "2026-08-30T05:57:54.554545+00:00",
       "ticker": "BELFA",
       "name": "Bel Fuse Inc.",
       "sector": "Technology",
@@ -3623,7 +3623,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:48:41.843525+00:00",
+      "generated_at": "2026-08-30T05:59:50.596749+00:00",
       "ticker": "INOD",
       "name": "Innodata Inc.",
       "sector": "Technology",
@@ -3681,7 +3681,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:49:04.968087+00:00",
+      "generated_at": "2026-08-30T06:00:14.122224+00:00",
       "ticker": "SEDG",
       "name": "SolarEdge Technologies, Inc.",
       "sector": "Technology",
@@ -3739,7 +3739,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:38:43.123409+00:00",
+      "generated_at": "2026-08-30T05:49:51.366186+00:00",
       "ticker": "ARM",
       "name": "Arm Holdings plc",
       "sector": "Technology",
@@ -3797,7 +3797,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:46:29.509412+00:00",
+      "generated_at": "2026-08-30T05:57:37.390929+00:00",
       "ticker": "AEHR",
       "name": "Aehr Test Systems",
       "sector": "Technology",
@@ -3855,7 +3855,7 @@
     {
       "schema_version": "2.0",
       "observation_date": "2026-08-30",
-      "generated_at": "2026-08-30T00:53:25.180809+00:00",
+      "generated_at": "2026-08-30T06:04:33.062300+00:00",
       "ticker": "KDK",
       "name": "Kodiak AI, Inc.",
       "sector": "Technology",
