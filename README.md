@@ -186,17 +186,23 @@ NASDAQ IT 종목을 대상으로 기술적 지표와 재무 데이터를 결합�
 
 ```json
 {
-  "ticker": "XXXX",
-  "name": "예시 기업",
-  "signal": "비공개",
-  "rsi": "비공개",
-  "price": "예시",
-  "target": "비공개",
-  "stop_loss": "비공개"
+  "ticker": "EXTC",
+  "name": "Example Tech Corp",
+  "signal_date": "2026-08-28",
+  "signal_type": "BUY",
+  "price": 142.35,
+  "rsi": 28.4,
+  "volume": 3520000,
+  "market_cap": "12.4B",
+  "target": 156.50,
+  "stop_loss": 135.80,
+  "risk_reward": 2.1,
+  "status": "pending",
+  "tracking_day": 2
 }
 ```
 
-실제 신호 생성 공식, 가중치 및 임계값은 공개하지 않습니다.
+가격, 거래량, RSI, 목표가, 손절가 등 개별 신호의 값 자체는 위와 같이 실제 형태로 공개됩니다. 다만 이러한 값들이 산출되는 **생성 공식, 가중치, 내부 임계값 및 조건 조합**은 공개하지 않습니다.
 
 중요한 점은 신호를 단순히 현재 화면에 표시하는 것이 아니라 리서치 대상으로 저장하고 이후 시장 데이터를 이용하여 지속적으로 추적한다는 것입니다.
 
