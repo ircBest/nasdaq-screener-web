@@ -67,9 +67,26 @@
     rel="stylesheet"
   >
 
+  <!-- =====================================================
+       자산 버전
+
+       GitHub Pages는 css / js를 max-age=600으로 내려준다.
+       버전 없이 참조하면 배포 직후
+
+           새 index.html  +  캐시에 남은 옛 main.js
+
+       조합이 생길 수 있다. 이 경우 새로 추가된 요소
+       (검색창 / 정렬 셀렉트)는 화면에 보이지만
+       이벤트 리스너가 없어 아무 반응도 하지 않는다.
+
+       HTML과 자산의 버전을 묶어 이 조합을 막는다.
+
+       주의: css / js를 수정하면 아래 v 값을 반드시 올릴 것.
+       ===================================================== -->
+
   <link
     rel="stylesheet"
-    href="./css/style.css"
+    href="./css/style.css?v=20260901b"
   >
 </head>
 
@@ -709,10 +726,11 @@
      JAVASCRIPT MODULES
      ========================================================= -->
 
-<script src="./js/utils.js"></script>
-<script src="./js/data.js"></script>
-<script src="./js/ui.js"></script>
-<script src="./js/main.js"></script>
+<!-- v 값은 위 스타일시트와 항상 함께 올린다 -->
+<script src="./js/utils.js?v=20260901b"></script>
+<script src="./js/data.js?v=20260901b"></script>
+<script src="./js/ui.js?v=20260901b"></script>
+<script src="./js/main.js?v=20260901b"></script>
 
 </body>
 </html>

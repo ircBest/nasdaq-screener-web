@@ -358,18 +358,67 @@ function applyFilters() {
 
   }
 
+  /*
+     검색
+
+     티커와 종목명을 모두 본다.
+
+     다만 종목명까지 부분일치시키면
+     "VI"를 쳤을 때 Analog De(vi)ces가 걸려
+     ADI가 함께 나온다. 사용자 눈에는 검색이
+     고장난 것처럼 보인다.
+
+     그래서 결과를 버리지는 않되 순위를 나눈다.
+
+       1. 티커가 검색어로 시작
+       2. 티커에 검색어 포함
+       3. 종목명에 검색어 포함
+
+     티커 일치가 하나라도 있으면 그것만 보여준다.
+     (티커를 친 사람은 그 종목을 찾는 것이다)
+  */
+
   if (query) {
 
+    const tickerPrefix = [];
+
+    const tickerMatch = [];
+
+    const nameMatch = [];
+
+    filtered.forEach(row => {
+
+      const ticker =
+        String(row.ticker)
+          .toLowerCase();
+
+      const name =
+        String(row.name)
+          .toLowerCase();
+
+      if (ticker.startsWith(query)) {
+
+        tickerPrefix.push(row);
+
+      } else if (ticker.includes(query)) {
+
+        tickerMatch.push(row);
+
+      } else if (name.includes(query)) {
+
+        nameMatch.push(row);
+
+      }
+
+    });
+
+    const tickerHits =
+      tickerPrefix.concat(tickerMatch);
+
     filtered =
-      filtered.filter(
-        row =>
-          String(row.ticker)
-            .toLowerCase()
-            .includes(query) ||
-          String(row.name)
-            .toLowerCase()
-            .includes(query)
-      );
+      tickerHits.length
+        ? tickerHits
+        : nameMatch;
 
   }
 
