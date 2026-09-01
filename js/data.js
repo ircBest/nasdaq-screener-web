@@ -8,10 +8,24 @@
    FETCH JSON
    ========================================================= */
 
+/*
+   캐시 정책
+
+   예전에는 URL에 ?_=타임스탬프를 붙이고 no-store를 썼다.
+   매 요청이 새 URL이라 캐시가 절대 걸리지 않았고,
+   페이지를 열 때마다 전체 JSON을 다시 받았다.
+
+   no-cache는 "캐시를 쓰되 항상 서버에 확인"이다.
+   GitHub Pages가 ETag를 주므로 데이터가 그대로면
+   304 Not Modified만 오고 본문은 오지 않는다.
+
+   갱신 즉시성은 그대로 유지하면서 재방문 전송량만 사라진다.
+*/
+
 async function fetchJSON(filename) {
 
   const url =
-    `./${filename}?_=${Date.now()}`;
+    `./${filename}`;
 
   console.log(
     `[JSON LOAD] ${url}`
@@ -21,7 +35,7 @@ async function fetchJSON(filename) {
     await fetch(
       url,
       {
-        cache: "no-store"
+        cache: "no-cache"
       }
     );
 
@@ -493,6 +507,185 @@ async function loadLatestSignals() {
     results
 
   };
+
+}
+
+
+/* =========================================================
+   LOAD PERFORMANCE (지연 로딩)
+
+   performance.json은 230KB 규모이고
+   Signal 하나하나의 기간별 수익률까지 담고 있다.
+
+   첫 화면에 필요한 집계값(승률 / 평균 / 완료·대기 수)은
+   statistics.json(0.3KB)에 이미 들어 있으므로
+   이 파일은 사용자가 "Research 상세"를 열 때만 받는다.
+
+   한 번 받으면 캐시해서 다시 받지 않는다.
+   ========================================================= */
+
+let performanceCache = null;
+
+let performancePromise = null;
+
+
+async function loadPerformance() {
+
+  if (performanceCache) {
+    return performanceCache;
+  }
+
+  if (performancePromise) {
+    return performancePromise;
+  }
+
+  performancePromise =
+    fetchJSON("performance.json")
+      .then(data => {
+
+        performanceCache = data;
+
+        performancePromise = null;
+
+        console.log(
+          "[OK] performance.json (지연 로딩)",
+          data
+        );
+
+        return data;
+
+      })
+      .catch(error => {
+
+        performancePromise = null;
+
+        throw error;
+
+      });
+
+  return performancePromise;
+
+}
+
+
+/* =========================================================
+   NORMALIZE RESEARCH ROW
+
+   performance.json의 한 행을 화면용으로 정규화한다.
+   ========================================================= */
+
+const RESEARCH_HORIZONS = [
+  ["5d", "return_5d_pct"],
+  ["10d", "return_10d_pct"],
+  ["30d", "return_30d_pct"],
+  ["60d", "return_60d_pct"],
+  ["90d", "return_90d_pct"],
+  ["1y", "return_1y_pct"],
+  ["5y", "return_5y_pct"]
+];
+
+
+function normalizeResearchRow(item) {
+
+  if (
+    !item ||
+    typeof item !== "object"
+  ) {
+    return null;
+  }
+
+  const returns = {};
+
+  RESEARCH_HORIZONS.forEach(
+    ([key, field]) => {
+
+      returns[key] =
+        item[field] ?? null;
+
+    }
+  );
+
+  return {
+
+    signal_id:
+      item.signal_id ?? "",
+
+    ticker:
+      item.ticker ?? "",
+
+    observation_date:
+      item.observation_date ?? null,
+
+    completion_date:
+      item.completion_date ?? null,
+
+    entry_price:
+      item.entry_price ?? null,
+
+    target_price:
+      item.target_price ?? null,
+
+    stop_price:
+      item.stop_price ?? null,
+
+    rsi:
+      item.rsi ?? null,
+
+    profitable:
+      item.profitable ?? null,
+
+    risk_reward:
+      item.risk_reward ?? null,
+
+    returns,
+
+    max_return_pct:
+      item.max_return_pct ?? null,
+
+    max_return_date:
+      item.max_return_date ?? null,
+
+    target_hit:
+      item.target_hit === true,
+
+    target_hit_date:
+      item.target_hit_date ?? null,
+
+    stop_hit:
+      item.stop_hit === true,
+
+    stop_hit_date:
+      item.stop_hit_date ?? null,
+
+    mfe_pct:
+      item.mfe_pct ?? null,
+
+    mae_pct:
+      item.mae_pct ?? null,
+
+    status:
+      item.status ?? null
+
+  };
+
+}
+
+
+function normalizeResearchList(data) {
+
+  const rows =
+    data &&
+    Array.isArray(data.performance)
+      ? data.performance
+      : [];
+
+  return rows
+    .map(normalizeResearchRow)
+    .filter(
+      row =>
+        row &&
+        row.ticker
+    );
 
 }
 
