@@ -22,6 +22,13 @@ const BSI_LABELS = {
 };
 
 
+/*
+   기준 표본(day 0) 대비 이 비율보다 적으면
+   "표본이 얇은 구간"으로 표시한다.
+*/
+const BSI_RELIABLE_SAMPLE_RATIO = 0.5;
+
+
 /* =========================================================
    VOLUME BADGE
    ========================================================= */
@@ -214,11 +221,54 @@ function renderBSICurve(curve) {
   const ctx =
     canvas.getContext("2d");
 
+  /* =======================================================
+     캔버스 해상도
+
+     예전에는 width/height 속성이 600x170으로 고정이고
+     CSS가 width:100%로 늘려서 두 가지 문제가 있었다.
+
+     1. 가로만 늘어나 종횡비가 깨졌다.
+        마지막 점의 원이 타원이 되고
+        선 굵기가 방향마다 달라졌다.
+
+     2. 고해상도 화면에서 흐릿했다.
+
+     실제 표시 크기와 devicePixelRatio에 맞춰
+     매번 백킹 스토어를 다시 잡는다.
+     ======================================================= */
+
+  const ratio =
+    window.devicePixelRatio || 1;
+
+  const rect =
+    canvas.getBoundingClientRect();
+
   const width =
-    canvas.width;
+    Math.max(
+      Math.round(rect.width),
+      1
+    );
 
   const height =
-    canvas.height;
+    Math.max(
+      Math.round(rect.height),
+      1
+    );
+
+  canvas.width =
+    width * ratio;
+
+  canvas.height =
+    height * ratio;
+
+  ctx.setTransform(
+    ratio,
+    0,
+    0,
+    ratio,
+    0,
+    0
+  );
 
   ctx.clearRect(
     0,
@@ -376,57 +426,137 @@ function renderBSICurve(curve) {
   ctx.stroke();
 
 
-  /* CURVE */
+  /* =======================================================
+     표본 신뢰도
 
-  ctx.beginPath();
+     Curve의 day N은 "Signal 발생 후 N거래일이 지난"
+     Signal들만의 평균이다. 따라서 오른쪽으로 갈수록
+     표본이 줄어든다. (예: day 0은 451개, day 7은 38개)
 
-  validPoints.forEach(
-    (point, index) => {
+     예전에는 전 구간을 같은 실선으로 그려서
+     끝부분이 앞부분과 같은 신뢰도로 보였다.
 
-      const value =
-        Number(
-          point.bsi_pct
-        );
+     기준 표본(day 0) 대비 비율이 낮은 구간은
+     점선 + 흐린 색으로 구분해 그린다.
+     ======================================================= */
 
-      const px =
-        x(index);
+  const baseSamples =
+    Number(
+      validPoints[0].samples
+    ) || 0;
 
-      const py =
-        y(value);
+  function isThin(point) {
 
-      if (index === 0) {
-
-        ctx.moveTo(
-          px,
-          py
-        );
-
-      } else {
-
-        ctx.lineTo(
-          px,
-          py
-        );
-
-      }
-
+    if (!baseSamples) {
+      return false;
     }
-  );
 
+    const samples =
+      Number(point.samples) || 0;
+
+    return (
+      samples / baseSamples <
+      BSI_RELIABLE_SAMPLE_RATIO
+    );
+
+  }
+
+  // 표본이 충분한 마지막 지점
+  let solidEnd =
+    validPoints.length - 1;
+
+  for (
+    let i = 0;
+    i < validPoints.length;
+    i += 1
+  ) {
+
+    if (isThin(validPoints[i])) {
+      solidEnd = Math.max(i - 1, 0);
+      break;
+    }
+
+  }
 
   const lastValue =
     values[
       values.length - 1
     ];
 
-  ctx.strokeStyle =
+  const lineColor =
     lastValue >= 0
       ? "#3ECF8E"
       : "#FF5C5C";
 
-  ctx.lineWidth = 2;
+  function drawSegment(
+    fromIndex,
+    toIndex,
+    dashed
+  ) {
 
-  ctx.stroke();
+    if (toIndex <= fromIndex) {
+      return;
+    }
+
+    ctx.beginPath();
+
+    for (
+      let i = fromIndex;
+      i <= toIndex;
+      i += 1
+    ) {
+
+      const px = x(i);
+
+      const py =
+        y(
+          Number(
+            validPoints[i].bsi_pct
+          )
+        );
+
+      if (i === fromIndex) {
+        ctx.moveTo(px, py);
+      } else {
+        ctx.lineTo(px, py);
+      }
+
+    }
+
+    ctx.setLineDash(
+      dashed
+        ? [4, 3]
+        : []
+    );
+
+    ctx.strokeStyle = lineColor;
+
+    ctx.globalAlpha =
+      dashed
+        ? 0.45
+        : 1;
+
+    ctx.lineWidth = 2;
+
+    ctx.stroke();
+
+    ctx.globalAlpha = 1;
+
+    ctx.setLineDash([]);
+
+  }
+
+  drawSegment(
+    0,
+    solidEnd,
+    false
+  );
+
+  drawSegment(
+    solidEnd,
+    validPoints.length - 1,
+    true
+  );
 
 
   /* LAST POINT */
@@ -458,22 +588,67 @@ function renderBSICurve(curve) {
     Math.PI * 2
   );
 
-  ctx.fillStyle =
-    lastValue >= 0
-      ? "#3ECF8E"
-      : "#FF5C5C";
+  ctx.fillStyle = lineColor;
+
+  ctx.globalAlpha =
+    isThin(lastPoint)
+      ? 0.45
+      : 1;
 
   ctx.fill();
 
+  ctx.globalAlpha = 1;
 
-  document.getElementById(
-    "curveLatest"
-  ).textContent =
+
+  /* =======================================================
+     Curve 요약
+
+     마지막 점은 표본이 가장 적은 지점이므로
+     값만 크게 띄우지 않고 표본 수를 함께 보여준다.
+     ======================================================= */
+
+  const lastSamples =
+    Number(lastPoint.samples) || 0;
+
+  const summary =
+    document.getElementById(
+      "curveLatest"
+    );
+
+  summary.textContent =
     `Day ${
       lastPoint.day ?? "-"
     } · ${
       fmtPctShort(lastValue)
-    }`;
+    } · ${lastSamples} samples`;
+
+  summary.classList.toggle(
+    "thin-sample",
+    isThin(lastPoint)
+  );
+
+
+  /* 표본이 얇아지는 지점 안내 */
+
+  const note =
+    document.getElementById(
+      "curveNote"
+    );
+
+  if (note) {
+
+    const thinFrom =
+      validPoints.find(isThin);
+
+    note.textContent =
+      thinFrom
+        ? `Day ${thinFrom.day}부터는 표본이 ` +
+          `${baseSamples}개 중 ` +
+          `${Number(thinFrom.samples) || 0}개로 줄어듭니다 ` +
+          `(점선 구간).`
+        : `전 구간 표본 ${baseSamples}개 기준입니다.`;
+
+  }
 
 }
 
@@ -520,14 +695,26 @@ function performanceValue(value) {
    PERFORMANCE
    ========================================================= */
 
-function renderPerformance(data) {
+/*
+   집계값은 statistics.json(0.3KB)에서 그대로 읽는다.
+
+   예전에는 performance.json(230KB)을 받아
+   평균 / 승률을 브라우저에서 다시 계산했다.
+
+   같은 값을 두 곳에서 계산하면
+   기술 저장소의 정의가 바뀌었을 때
+   웹이 조용히 다른 값을 보여주게 된다.
+   계산은 한 곳(research_tracker.py)에서만 한다.
+*/
+
+function renderPerformance(stats) {
 
   const table =
     document.getElementById(
       "performanceTable"
     );
 
-  if (!data) {
+  if (!stats) {
 
     table.innerHTML = `
       <tr>
@@ -541,18 +728,15 @@ function renderPerformance(data) {
   }
 
   const completed =
-    data.completed ??
-    data.completed_signals ??
-    0;
+    stats.completed ?? 0;
 
   const total =
-    data.total_signals ??
-    data.signals ??
+    stats.signals ??
+    stats.total_signals ??
     0;
 
   const pending =
-    data.pending ??
-    data.pending_signals ??
+    stats.pending ??
     Math.max(
       Number(total) -
       Number(completed),
@@ -564,14 +748,7 @@ function renderPerformance(data) {
   ).textContent =
     `${completed}/${total} 완료`;
 
-  const rows =
-    Array.isArray(
-      data.performance
-    )
-      ? data.performance
-      : [];
-
-  if (!rows.length) {
+  if (!completed) {
 
     table.innerHTML = `
       <tr>
@@ -612,156 +789,77 @@ function renderPerformance(data) {
     return;
   }
 
-  const returns =
+  const rows = [
+
+    [
+      "5D 평균 수익률",
+      performanceValue(
+        stats.avg_return_5d_pct
+      )
+    ],
+
+    [
+      "5D 승률",
+      isValidNumber(
+        stats.win_rate_5d_pct
+      )
+        ? Number(
+            stats.win_rate_5d_pct
+          ).toFixed(2) + "%"
+        : "N/A"
+    ],
+
+    [
+      "평균 승리",
+      performanceValue(
+        stats.avg_win_5d_pct
+      )
+    ],
+
+    [
+      "평균 손실",
+      performanceValue(
+        stats.avg_loss_5d_pct
+      )
+    ],
+
+    [
+      "Target 도달",
+      escapeHTML(
+        stats.target_hit_count ?? 0
+      )
+    ],
+
+    [
+      "Stop 도달",
+      escapeHTML(
+        stats.stop_hit_count ?? 0
+      )
+    ],
+
+    [
+      "완료 Signal",
+      escapeHTML(completed)
+    ],
+
+    [
+      "대기 Signal",
+      escapeHTML(pending)
+    ]
+
+  ];
+
+  table.innerHTML =
     rows
       .map(
-        row =>
-          Number(
-            row.return_5d_pct
-          )
+        ([key, value]) => `
+          <tr>
+            <td>${escapeHTML(key)}</td>
+            <td>${value}</td>
+          </tr>
+        `
       )
-      .filter(
-        value =>
-          Number.isFinite(value)
-      );
-
-  let avgReturn = null;
-  let winRate = null;
-  let avgWin = null;
-  let avgLoss = null;
-
-  if (returns.length) {
-
-    avgReturn =
-      returns.reduce(
-        (a, b) =>
-          a + b,
-        0
-      ) /
-      returns.length;
-
-    const wins =
-      returns.filter(
-        value =>
-          value > 0
-      );
-
-    const losses =
-      returns.filter(
-        value =>
-          value <= 0
-      );
-
-    winRate =
-      wins.length /
-      returns.length *
-      100;
-
-    if (wins.length) {
-
-      avgWin =
-        wins.reduce(
-          (a, b) =>
-            a + b,
-          0
-        ) /
-        wins.length;
-
-    }
-
-    if (losses.length) {
-
-      avgLoss =
-        losses.reduce(
-          (a, b) =>
-            a + b,
-          0
-        ) /
-        losses.length;
-
-    }
-
-  }
-
-  table.innerHTML = `
-
-    <tr>
-
-      <td>
-        5D 평균 수익률
-      </td>
-
-      <td>
-        ${performanceValue(avgReturn)}
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td>
-        5D 승률
-      </td>
-
-      <td>
-        ${
-          isValidNumber(winRate)
-            ? winRate.toFixed(2) + "%"
-            : "N/A"
-        }
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td>
-        평균 승리
-      </td>
-
-      <td>
-        ${performanceValue(avgWin)}
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td>
-        평균 손실
-      </td>
-
-      <td>
-        ${performanceValue(avgLoss)}
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td>
-        완료 Signal
-      </td>
-
-      <td>
-        ${escapeHTML(completed)}
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td>
-        대기 Signal
-      </td>
-
-      <td>
-        ${escapeHTML(pending)}
-      </td>
-
-    </tr>
-
-  `;
+      .join("");
 
 }
 
@@ -859,6 +957,276 @@ function renderStatistics(data) {
             </div>
 
           </div>
+
+        `
+      )
+      .join("");
+
+}
+
+
+/* =========================================================
+   RESEARCH 상세
+
+   기술 저장소의 research_tracker.py는 Signal 하나마다
+
+     5D / 10D / 30D / 60D / 90D / 1Y / 5Y 수익률
+     MFE / MAE
+     Target / Stop 도달 여부와 날짜
+     발생 이후 최대 도달 수익률
+
+   까지 계산해 performance.json에 담는다.
+
+   지금까지 화면에는 이 중 아무것도 나오지 않고
+   집계값 몇 개만 표시됐다. 여기서 개별 Signal을 보여준다.
+   ========================================================= */
+
+function researchCell(value) {
+
+  if (!isValidNumber(value)) {
+
+    return `
+      <td class="num faint">-</td>
+    `;
+
+  }
+
+  const number = Number(value);
+
+  return `
+    <td
+      class="num ${
+        number >= 0
+          ? "positive"
+          : "negative"
+      }"
+    >${fmtPctShort(number)}</td>
+  `;
+
+}
+
+
+function researchOutcome(row) {
+
+  if (row.target_hit) {
+
+    return `
+      <span class="badge profit">
+        Target
+      </span>
+    `;
+
+  }
+
+  if (row.stop_hit) {
+
+    return `
+      <span class="badge loss">
+        Stop
+      </span>
+    `;
+
+  }
+
+  return `
+    <span class="badge">
+      보유
+    </span>
+  `;
+
+}
+
+
+/*
+   한 번에 보여줄 행 수
+
+   완료 Signal은 계속 쌓이기만 한다.
+   전부 그리면 페이지가 수만 픽셀이 되므로
+   기본은 잘라서 보여주고 "더 보기"로 펼친다.
+*/
+const RESEARCH_PAGE_SIZE = 50;
+
+
+function renderResearchTable(
+  rows,
+  sortKey,
+  limit
+) {
+
+  const body =
+    document.getElementById(
+      "researchBody"
+    );
+
+  const count =
+    document.getElementById(
+      "researchCount"
+    );
+
+  const more =
+    document.getElementById(
+      "researchMore"
+    );
+
+  if (!body) {
+    return;
+  }
+
+  if (!rows.length) {
+
+    count.textContent = "0건";
+
+    body.innerHTML = `
+      <tr>
+        <td colspan="9">
+          완료된 Research Signal이 없습니다.
+        </td>
+      </tr>
+    `;
+
+    if (more) {
+      more.hidden = true;
+    }
+
+    return;
+  }
+
+  const sorted =
+    rows.slice();
+
+  sorted.sort(
+    (a, b) => {
+
+      if (sortKey === "date") {
+
+        return String(
+          b.observation_date || ""
+        ).localeCompare(
+          String(
+            a.observation_date || ""
+          )
+        );
+
+      }
+
+      if (sortKey === "ticker") {
+
+        return String(
+          a.ticker
+        ).localeCompare(
+          String(b.ticker)
+        );
+
+      }
+
+      if (sortKey === "mfe") {
+
+        return (
+          (Number(b.mfe_pct) || -Infinity) -
+          (Number(a.mfe_pct) || -Infinity)
+        );
+
+      }
+
+      if (sortKey === "mae") {
+
+        return (
+          (Number(a.mae_pct) || Infinity) -
+          (Number(b.mae_pct) || Infinity)
+        );
+
+      }
+
+      // 기본: 5D 수익률 내림차순
+      const av =
+        Number(a.returns["5d"]);
+
+      const bv =
+        Number(b.returns["5d"]);
+
+      return (
+        (Number.isFinite(bv)
+          ? bv
+          : -Infinity) -
+        (Number.isFinite(av)
+          ? av
+          : -Infinity)
+      );
+
+    }
+  );
+
+  const shown =
+    isValidNumber(limit) &&
+    Number(limit) > 0
+      ? Math.min(
+          Number(limit),
+          sorted.length
+        )
+      : sorted.length;
+
+  const visible =
+    sorted.slice(0, shown);
+
+  count.textContent =
+    shown < sorted.length
+      ? `${shown} / ${sorted.length}건`
+      : `${sorted.length}건`;
+
+  if (more) {
+
+    if (shown < sorted.length) {
+
+      more.hidden = false;
+
+      more.textContent =
+        `나머지 ${sorted.length - shown}건 더 보기`;
+
+    } else {
+
+      more.hidden = true;
+
+    }
+
+  }
+
+  body.innerHTML =
+    visible
+      .map(
+        row => `
+
+          <tr>
+
+            <td class="mono strong">
+              ${escapeHTML(row.ticker)}
+            </td>
+
+            <td class="mono faint nowrap">
+              ${escapeHTML(
+                row.observation_date || "-"
+              )}
+            </td>
+
+            <td class="num">
+              ${
+                isValidNumber(row.rsi)
+                  ? Number(row.rsi).toFixed(1)
+                  : "-"
+              }
+            </td>
+
+            ${researchCell(row.returns["5d"])}
+            ${researchCell(row.returns["10d"])}
+            ${researchCell(row.returns["30d"])}
+
+            ${researchCell(row.mfe_pct)}
+            ${researchCell(row.mae_pct)}
+
+            <td class="nowrap">
+              ${researchOutcome(row)}
+            </td>
+
+          </tr>
 
         `
       )

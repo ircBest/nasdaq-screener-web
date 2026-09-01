@@ -340,6 +340,83 @@ main {
   cursor: pointer;
 }
 
+/* =========================================================
+   검색 입력 / 셀렉트
+   ========================================================= */
+
+.text-input,
+.settings-panel select,
+.research-controls select {
+  width: 100%;
+
+  padding: 9px 11px;
+
+  color: var(--text);
+
+  background: var(--surface-2);
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-size: 13.5px;
+
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.text-input {
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
+  text-transform: uppercase;
+}
+
+.text-input::placeholder {
+  color: var(--text-faint);
+
+  text-transform: none;
+}
+
+.text-input:focus,
+.settings-panel select:focus,
+.research-controls select:focus {
+  outline: none;
+
+  border-color: var(--amber-dim);
+}
+
+.settings-panel select,
+.research-controls select {
+  /* appearance:none으로 사라진 화살표를 직접 그린다 */
+  background-image:
+    linear-gradient(
+      45deg,
+      transparent 50%,
+      var(--text-dim) 50%
+    ),
+    linear-gradient(
+      135deg,
+      var(--text-dim) 50%,
+      transparent 50%
+    );
+
+  background-position:
+    calc(100% - 16px) calc(50% - 2px),
+    calc(100% - 11px) calc(50% - 2px);
+
+  background-size:
+    5px 5px,
+    5px 5px;
+
+  background-repeat: no-repeat;
+
+  padding-right: 30px;
+
+  cursor: pointer;
+}
+
 .toggle-row {
   display: flex;
   align-items: center;
@@ -545,6 +622,11 @@ input:checked + .slider-toggle::before {
   white-space: nowrap;
 }
 
+/*
+   캔버스 백킹 스토어는 renderBSICurve()가
+   실제 표시 크기와 devicePixelRatio에 맞춰 직접 설정한다.
+   여기서는 표시 크기만 정한다.
+*/
 #bsiCanvas {
   display: block;
 
@@ -554,6 +636,19 @@ input:checked + .slider-toggle::before {
   background: var(--surface-2);
 
   border-radius: 8px;
+}
+
+.curve-note {
+  margin-top: 8px;
+
+  color: var(--text-faint);
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.curve-value.thin-sample {
+  color: var(--text-dim);
 }
 
 /* =========================================================
@@ -996,4 +1091,189 @@ input:checked + .slider-toggle::before {
   .status-cell .lbl {
     font-size: 9.5px;
   }
+}
+
+
+/* =========================================================
+   접근성 유틸
+   ========================================================= */
+
+.sr-only {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+
+  margin: -1px;
+  padding: 0;
+
+  overflow: hidden;
+
+  clip: rect(0, 0, 0, 0);
+
+  white-space: nowrap;
+
+  border: 0;
+}
+
+
+/* =========================================================
+   데이터 신선도 경고
+   ========================================================= */
+
+.stale-warning {
+  margin-bottom: 16px;
+  padding: 11px 14px;
+
+  color: var(--amber);
+
+  background: rgba(255, 176, 32, 0.08);
+
+  border: 1px solid var(--amber-dim);
+  border-radius: var(--radius);
+
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   RESEARCH 상세
+   ========================================================= */
+
+.research-detail {
+  margin-bottom: 22px;
+}
+
+.research-panel {
+  display: none;
+
+  padding: 14px;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.research-panel.open {
+  display: block;
+}
+
+.research-controls {
+  margin-bottom: 12px;
+}
+
+/* 좁은 화면에서 표가 넘칠 때 표만 가로 스크롤 */
+.table-scroll {
+  overflow-x: auto;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.research-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  font-size: 12px;
+
+  white-space: nowrap;
+}
+
+.research-table th,
+.research-table td {
+  padding: 8px 10px;
+
+  border-bottom: 1px solid var(--border);
+
+  text-align: left;
+}
+
+/*
+   표 헤더에 position:sticky를 쓰지 않는다.
+
+   페이지 헤더가 이미 sticky라 top:0으로 붙이면
+   그 뒤로 들어가 가려진다.
+   스크롤 컨테이너도 가로 전용이라 세로 sticky 기준이 모호하다.
+*/
+.research-table th {
+  color: var(--text-dim);
+
+  background: var(--surface);
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.research-table td {
+  color: var(--text-dim);
+}
+
+.research-table .num,
+.research-table th.num {
+  text-align: right;
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+}
+
+.research-table .strong {
+  color: var(--text);
+
+  font-weight: 600;
+}
+
+.research-table .faint {
+  color: var(--text-faint);
+}
+
+.research-table .nowrap {
+  white-space: nowrap;
+}
+
+.research-table .positive {
+  color: var(--green);
+}
+
+.research-table .negative {
+  color: var(--red);
+}
+
+.research-table tr:last-child td {
+  border-bottom: none;
+}
+
+.research-legend {
+  margin-top: 10px;
+
+  color: var(--text-faint);
+
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.research-more {
+  width: 100%;
+
+  margin-top: 12px;
+  padding: 10px;
+
+  color: var(--text-dim);
+
+  background: var(--surface-2);
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  font-size: 12.5px;
+
+  cursor: pointer;
+}
+
+.research-more:hover {
+  color: var(--text);
+
+  border-color: var(--amber-dim);
 }
