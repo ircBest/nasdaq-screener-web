@@ -596,11 +596,17 @@ function normalizeResearchRow(item) {
 
   const returns = {};
 
+  const alphas = {};
+
   RESEARCH_HORIZONS.forEach(
     ([key, field]) => {
 
       returns[key] =
         item[field] ?? null;
+
+      // 같은 기간의 시장 대비 초과수익
+      alphas[key] =
+        item[`alpha_${key}_pct`] ?? null;
 
     }
   );
@@ -638,6 +644,11 @@ function normalizeResearchRow(item) {
       item.risk_reward ?? null,
 
     returns,
+
+    alphas,
+
+    benchmark_5d_pct:
+      item.benchmark_5d_pct ?? null,
 
     max_return_pct:
       item.max_return_pct ?? null,

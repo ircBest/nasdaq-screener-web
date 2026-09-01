@@ -564,6 +564,39 @@ input:checked + .slider-toggle::before {
   font-weight: 600;
 }
 
+/* 기간 라벨 옆의 "vs 시장" 표시 */
+.bsi-item .period .tag {
+  display: inline-block;
+
+  margin-left: 3px;
+  padding: 1px 4px;
+
+  color: var(--amber);
+
+  background: rgba(255, 176, 32, 0.1);
+
+  border-radius: 3px;
+
+  font-size: 8px;
+  font-weight: 600;
+
+  vertical-align: middle;
+}
+
+/* 주 지표가 알파일 때 원래 BSI와 시장 수익률 */
+.bsi-item .breakdown {
+  margin-top: 3px;
+
+  color: var(--text-faint);
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+
+  font-size: 9px;
+  line-height: 1.4;
+}
+
 .bsi-item .samples {
   margin-top: 3px;
 
@@ -594,12 +627,21 @@ input:checked + .slider-toggle::before {
   border-top: 1px solid var(--border);
 }
 
+/*
+   벤치마크가 붙으면 요약 문구가 길어진다.
+   ("Day 7 · 시장 대비 +3.0% · 38 samples")
+
+   한 줄에 밀어넣으면 제목이 세 줄로 눌리므로
+   좁아지면 두 줄로 내려가게 한다.
+*/
 .curve-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 
-  gap: 10px;
+  flex-wrap: wrap;
+
+  gap: 4px 10px;
 
   margin-bottom: 10px;
 }
@@ -608,6 +650,8 @@ input:checked + .slider-toggle::before {
   color: var(--text-dim);
 
   font-size: 11px;
+
+  white-space: nowrap;
 }
 
 .curve-value {

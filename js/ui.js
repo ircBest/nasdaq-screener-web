@@ -144,6 +144,23 @@ function renderBSI(data) {
   const periods =
     data.periods;
 
+  /*
+     벤치마크가 있으면 초과수익(알파)을 주 지표로 보여준다.
+
+     "5D -1.4%"만 보면 좋은지 나쁜지 알 수 없다.
+     같은 기간 시장이 -4.9%였다면 +3.5%p 초과수익이고,
+     시장이 +2%였다면 -3.4%p 손해다.
+
+     같은 숫자인데 결론이 정반대이므로
+     시장 대비 값을 앞에 세운다.
+
+     벤치마크 데이터가 아직 없으면(기술 저장소에서
+     아직 계산 전) 기존처럼 BSI를 그대로 보여준다.
+  */
+
+  const hasBenchmark =
+    data.benchmark_available === true;
+
   grid.innerHTML =
     Object.keys(BSI_LABELS)
       .map(key => {
@@ -154,28 +171,65 @@ function renderBSI(data) {
         const value =
           item.value;
 
+        const benchmark =
+          item.benchmark;
+
+        const alpha =
+          item.alpha;
+
         const samples =
           item.samples ?? 0;
+
+        // 알파를 쓸 수 있는 기간만 알파를 주 지표로
+        const useAlpha =
+          hasBenchmark &&
+          isValidNumber(alpha);
+
+        const primary =
+          useAlpha
+            ? alpha
+            : value;
 
         return `
           <div class="bsi-item">
 
             <div class="period">
               ${BSI_LABELS[key]}
+              ${
+                useAlpha
+                  ? '<span class="tag">vs 시장</span>'
+                  : ""
+              }
             </div>
 
             <div
               class="
                 value
-                ${bsiClass(value)}
+                ${bsiClass(primary)}
               "
             >
               ${
-                isValidNumber(value)
-                  ? fmtPctShort(value)
+                isValidNumber(primary)
+                  ? fmtPctShort(primary)
                   : "데이터 부족"
               }
             </div>
+
+            ${
+              useAlpha
+                ? `
+                    <div class="breakdown">
+                      BSI ${fmtPctShort(value)}
+                      ·
+                      시장 ${
+                        isValidNumber(benchmark)
+                          ? fmtPctShort(benchmark)
+                          : "-"
+                      }
+                    </div>
+                  `
+                : ""
+            }
 
             <div class="samples">
               ${escapeHTML(samples)} samples
@@ -201,7 +255,10 @@ function renderBSI(data) {
   }
 
   renderBSICurve(
-    data.curve || []
+    data.curve || [],
+    hasBenchmark
+      ? (data.benchmark_ticker || "시장")
+      : null
   );
 
 }
@@ -211,7 +268,10 @@ function renderBSI(data) {
    BSI CURVE
    ========================================================= */
 
-function renderBSICurve(curve) {
+function renderBSICurve(
+  curve,
+  benchmarkLabel
+) {
 
   const canvas =
     document.getElementById(
@@ -344,15 +404,57 @@ function renderBSICurve(curve) {
         )
     );
 
+  /*
+     벤치마크 곡선
+
+     BSI와 시장을 함께 그리면 두 선 사이의 간격이
+     곧 초과수익(알파)이 된다. 숫자로 읽는 것보다
+     "시장보다 위에 있나 아래에 있나"가 한눈에 들어온다.
+
+     기술 저장소가 아직 벤치마크를 계산하지 않았다면
+     benchmarkLabel이 없고, 기존처럼 BSI 한 줄만 그린다.
+  */
+
+  const showBenchmark =
+    Boolean(benchmarkLabel) &&
+    validPoints.some(
+      point =>
+        isValidNumber(
+          point.benchmark_pct
+        )
+    );
+
+  const benchmarkValues =
+    showBenchmark
+      ? validPoints.map(
+          point =>
+            isValidNumber(
+              point.benchmark_pct
+            )
+              ? Number(
+                  point.benchmark_pct
+                )
+              : null
+        )
+      : [];
+
+  // 두 곡선이 모두 들어가도록 축을 잡는다
+  const scaleValues =
+    values.concat(
+      benchmarkValues.filter(
+        value => value !== null
+      )
+    );
+
   const minValue =
     Math.min(
-      ...values,
+      ...scaleValues,
       0
     );
 
   const maxValue =
     Math.max(
-      ...values,
+      ...scaleValues,
       0
     );
 
@@ -424,6 +526,54 @@ function renderBSICurve(curve) {
   ctx.lineWidth = 1;
 
   ctx.stroke();
+
+
+  /* =======================================================
+     시장(벤치마크) 곡선
+
+     BSI보다 먼저, 흐린 회색으로 그려 배경처럼 둔다.
+     두 선 사이의 간격이 초과수익이다.
+     ======================================================= */
+
+  if (showBenchmark) {
+
+    ctx.beginPath();
+
+    let started = false;
+
+    benchmarkValues.forEach(
+      (value, index) => {
+
+        if (value === null) {
+          return;
+        }
+
+        const px = x(index);
+
+        const py = y(value);
+
+        if (!started) {
+
+          ctx.moveTo(px, py);
+
+          started = true;
+
+        } else {
+
+          ctx.lineTo(px, py);
+
+        }
+
+      }
+    );
+
+    ctx.strokeStyle = "#6E7787";
+
+    ctx.lineWidth = 1.5;
+
+    ctx.stroke();
+
+  }
 
 
   /* =======================================================
@@ -615,12 +765,27 @@ function renderBSICurve(curve) {
       "curveLatest"
     );
 
+  // 벤치마크가 있으면 초과수익을 앞에 세운다
+  const lastAlpha =
+    showBenchmark &&
+    isValidNumber(
+      lastPoint.alpha_pct
+    )
+      ? Number(lastPoint.alpha_pct)
+      : null;
+
   summary.textContent =
-    `Day ${
-      lastPoint.day ?? "-"
-    } · ${
-      fmtPctShort(lastValue)
-    } · ${lastSamples} samples`;
+    lastAlpha !== null
+      ? `Day ${
+          lastPoint.day ?? "-"
+        } · 시장 대비 ${
+          fmtPctShort(lastAlpha)
+        } · ${lastSamples} samples`
+      : `Day ${
+          lastPoint.day ?? "-"
+        } · ${
+          fmtPctShort(lastValue)
+        } · ${lastSamples} samples`;
 
   summary.classList.toggle(
     "thin-sample",
@@ -628,7 +793,7 @@ function renderBSICurve(curve) {
   );
 
 
-  /* 표본이 얇아지는 지점 안내 */
+  /* 안내 문구 */
 
   const note =
     document.getElementById(
@@ -640,13 +805,22 @@ function renderBSICurve(curve) {
     const thinFrom =
       validPoints.find(isThin);
 
-    note.textContent =
+    const sampleNote =
       thinFrom
         ? `Day ${thinFrom.day}부터는 표본이 ` +
           `${baseSamples}개 중 ` +
           `${Number(thinFrom.samples) || 0}개로 줄어듭니다 ` +
           `(점선 구간).`
         : `전 구간 표본 ${baseSamples}개 기준입니다.`;
+
+    const benchmarkNote =
+      showBenchmark
+        ? `회색 선은 같은 기간 ${benchmarkLabel} 수익률입니다. ` +
+          `두 선의 간격이 초과수익입니다. `
+        : "";
+
+    note.textContent =
+      benchmarkNote + sampleNote;
 
   }
 
@@ -889,7 +1063,56 @@ function renderStatistics(data) {
     return;
   }
 
+  /*
+     벤치마크가 있으면 초과수익을 앞쪽에 배치한다.
+
+     "승률 37%"는 그 자체로 좋은지 나쁜지 알 수 없다.
+     "시장 대비 +3.5%"가 실제로 읽히는 숫자다.
+  */
+
+  const hasBenchmark =
+    isValidNumber(
+      data.avg_alpha_5d_pct
+    );
+
+  const benchmarkStats =
+    hasBenchmark
+      ? [
+          [
+            `시장 대비 (${
+              data.benchmark_ticker || "벤치마크"
+            })`,
+
+            fmtPct(
+              data.avg_alpha_5d_pct
+            )
+          ],
+
+          [
+            "시장을 이긴 비율",
+
+            isValidNumber(
+              data.alpha_win_rate_5d_pct
+            )
+              ? Number(
+                  data.alpha_win_rate_5d_pct
+                ).toFixed(2) + "%"
+              : "N/A"
+          ],
+
+          [
+            "같은 기간 시장",
+
+            fmtPct(
+              data.benchmark_avg_return_5d_pct
+            )
+          ]
+        ]
+      : [];
+
   const stats = [
+
+    ...benchmarkStats,
 
     [
       "5D 승률",
@@ -1078,7 +1301,7 @@ function renderResearchTable(
 
     body.innerHTML = `
       <tr>
-        <td colspan="9">
+        <td colspan="10">
           완료된 Research Signal이 없습니다.
         </td>
       </tr>
@@ -1133,6 +1356,25 @@ function renderResearchTable(
         return (
           (Number(a.mae_pct) || Infinity) -
           (Number(b.mae_pct) || Infinity)
+        );
+
+      }
+
+      if (sortKey === "alpha") {
+
+        const av =
+          Number(a.alphas["5d"]);
+
+        const bv =
+          Number(b.alphas["5d"]);
+
+        return (
+          (Number.isFinite(bv)
+            ? bv
+            : -Infinity) -
+          (Number.isFinite(av)
+            ? av
+            : -Infinity)
         );
 
       }
@@ -1216,6 +1458,7 @@ function renderResearchTable(
             </td>
 
             ${researchCell(row.returns["5d"])}
+            ${researchCell(row.alphas["5d"])}
             ${researchCell(row.returns["10d"])}
             ${researchCell(row.returns["30d"])}
 
