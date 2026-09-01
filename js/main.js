@@ -673,7 +673,7 @@ async function ensureResearchLoaded() {
 
   body.innerHTML = `
     <tr>
-      <td colspan="9" class="loading-state">
+      <td colspan="10" class="loading-state">
         Research 상세를 불러오는 중...
       </td>
     </tr>
@@ -708,7 +708,7 @@ async function ensureResearchLoaded() {
 
     body.innerHTML = `
       <tr>
-        <td colspan="9" class="error-state">
+        <td colspan="10" class="error-state">
           performance.json을 불러오지 못했습니다.
         </td>
       </tr>
