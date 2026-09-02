@@ -114,6 +114,163 @@ function createProfitBadge(row) {
 
 
 /* =========================================================
+   전략 비교
+
+   같은 Observation에 여러 조건을 나란히 적용한 결과.
+
+   중요:
+   지금 표시되는 숫자는 조건을 정한 것과 같은 데이터에서
+   계산된 경우가 많다(in-sample). 그래서 "어느 전략이 좋다"의
+   근거가 아직 아니라는 점을 화면에 함께 적는다.
+   ========================================================= */
+
+function strategyCell(value, digits) {
+
+  if (!isValidNumber(value)) {
+
+    return `<td class="num faint">-</td>`;
+
+  }
+
+  const number = Number(value);
+
+  return `
+    <td
+      class="num ${
+        number >= 0 ? "positive" : "negative"
+      }"
+    >${
+      (number >= 0 ? "+" : "") +
+      number.toFixed(digits ?? 2) + "%"
+    }</td>
+  `;
+
+}
+
+
+function renderStrategies(data) {
+
+  const section =
+    document.getElementById(
+      "strategySection"
+    );
+
+  const card =
+    document.getElementById(
+      "strategyCard"
+    );
+
+  const body =
+    document.getElementById(
+      "strategyBody"
+    );
+
+  if (
+    !section ||
+    !card ||
+    !body
+  ) {
+    return;
+  }
+
+  const rows =
+    data &&
+    Array.isArray(data.strategies)
+      ? data.strategies
+      : [];
+
+  // 전략이 하나뿐이면 비교할 것이 없다
+  if (rows.length < 2) {
+
+    section.hidden = true;
+
+    card.hidden = true;
+
+    return;
+  }
+
+  section.hidden = false;
+
+  card.hidden = false;
+
+  document.getElementById(
+    "strategyHint"
+  ).textContent =
+    `${rows.length}개 조건 · 기준 ${
+      data.primary || "-"
+    }`;
+
+  body.innerHTML =
+    rows
+      .map(row => {
+
+        const win =
+          row.win_rate_5d_pct;
+
+        return `
+          <tr class="${
+            row.primary ? "is-primary" : ""
+          }">
+
+            <td>
+              <div class="strategy-name">
+                ${escapeHTML(row.name || row.id)}
+                ${
+                  row.primary
+                    ? '<span class="tag">기준</span>'
+                    : ""
+                }
+              </div>
+              <div class="strategy-desc">
+                ${escapeHTML(row.description || "")}
+              </div>
+            </td>
+
+            ${strategyCell(row.avg_alpha_5d_pct)}
+            ${strategyCell(row.avg_return_5d_pct)}
+            ${strategyCell(
+              row.benchmark_avg_return_5d_pct
+            )}
+
+            <td class="num">
+              ${
+                isValidNumber(win)
+                  ? Number(win).toFixed(1) + "%"
+                  : "-"
+              }
+            </td>
+
+            <td class="num faint">
+              ${escapeHTML(row.signals ?? 0)}
+            </td>
+
+            <td class="num faint">
+              ${escapeHTML(row.completed ?? 0)}
+            </td>
+
+          </tr>
+        `;
+
+      })
+      .join("");
+
+  const note =
+    document.getElementById(
+      "strategyNote"
+    );
+
+  if (note) {
+
+    note.textContent =
+      data.note ||
+      "여러 조건을 같은 데이터에 나란히 적용한 결과입니다.";
+
+  }
+
+}
+
+
+/* =========================================================
    RENDER BSI
    ========================================================= */
 
