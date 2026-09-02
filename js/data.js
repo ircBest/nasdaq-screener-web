@@ -702,6 +702,104 @@ function normalizeResearchList(data) {
 
 
 /* =========================================================
+   전략 데이터
+
+   기술 저장소가 같은 Observation에 여러 조건을 나란히
+   적용해 결과를 남긴다.
+
+     strategies/index.json          전략별 요약 (비교표용)
+     strategies/<id>/statistics.json
+     strategies/<id>/bsi.json
+
+   비교표는 index.json 하나로 그릴 수 있다.
+   전략별 statistics / bsi는 사용자가 그 전략을 골랐을 때만 받는다.
+
+   전략 기능이 아직 배포되지 않은 저장소에서는
+   index.json이 없으므로 404가 난다. 이 경우 조용히 넘어가고
+   기존 화면 그대로 동작한다.
+   ========================================================= */
+
+async function loadStrategyIndex() {
+
+  try {
+
+    const data =
+      await fetchJSON(
+        "strategies/index.json"
+      );
+
+    console.log(
+      "[OK] strategies/index.json",
+      data
+    );
+
+    return data;
+
+  } catch (error) {
+
+    console.log(
+      "[INFO] 전략 비교 데이터 없음:",
+      error.message
+    );
+
+    return null;
+
+  }
+
+}
+
+
+const strategyDetailCache = {};
+
+
+async function loadStrategyDetail(id) {
+
+  if (strategyDetailCache[id]) {
+    return strategyDetailCache[id];
+  }
+
+  const [
+    statisticsResult,
+    bsiResult
+  ] =
+    await Promise.allSettled([
+      fetchJSON(
+        `strategies/${id}/statistics.json`
+      ),
+      fetchJSON(
+        `strategies/${id}/bsi.json`
+      )
+    ]);
+
+  const detail = {
+
+    statistics:
+      statisticsResult.status === "fulfilled"
+        ? statisticsResult.value
+        : null,
+
+    bsi:
+      bsiResult.status === "fulfilled"
+        ? bsiResult.value
+        : null
+
+  };
+
+  if (
+    detail.statistics ||
+    detail.bsi
+  ) {
+
+    strategyDetailCache[id] = detail;
+
+  }
+
+  return detail;
+
+}
+
+
+/* =========================================================
    LOAD LEGACY DATA
    ========================================================= */
 

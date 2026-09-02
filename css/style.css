@@ -24,6 +24,18 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+/*
+   hidden 속성이 항상 이기게 한다.
+
+   .section-title처럼 display를 지정한 클래스에 hidden을 걸면
+   작성자 스타일이 UA의 display:none을 덮어써서 요소가 그대로
+   보인다. 전략 데이터가 없을 때 "전략 비교" 제목만 남는
+   문제가 실제로 있었다.
+*/
+[hidden] {
+  display: none !important;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -1320,4 +1332,188 @@ input:checked + .slider-toggle::before {
   color: var(--text);
 
   border-color: var(--amber-dim);
+}
+
+
+/* =========================================================
+   전략 비교
+   ========================================================= */
+
+.strategy-card {
+  margin-bottom: 22px;
+  padding: 14px;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.strategy-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  font-size: 12px;
+
+  white-space: nowrap;
+}
+
+.strategy-table th,
+.strategy-table td {
+  padding: 9px 10px;
+
+  border-bottom: 1px solid var(--border);
+
+  text-align: left;
+
+  vertical-align: top;
+}
+
+.strategy-table th {
+  color: var(--text-dim);
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.strategy-table .num,
+.strategy-table th.num {
+  text-align: right;
+
+  font-family:
+    "IBM Plex Mono",
+    monospace;
+}
+
+.strategy-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* 기준 전략 행을 왼쪽 선으로 구분 */
+.strategy-table tr.is-primary td:first-child {
+  box-shadow: inset 2px 0 0 var(--amber);
+}
+
+.strategy-name {
+  color: var(--text);
+
+  font-weight: 600;
+}
+
+.strategy-name .tag {
+  display: inline-block;
+
+  margin-left: 4px;
+  padding: 1px 5px;
+
+  color: var(--amber);
+
+  background: rgba(255, 176, 32, 0.1);
+
+  border-radius: 3px;
+
+  font-size: 9px;
+  font-weight: 600;
+
+  vertical-align: middle;
+}
+
+.strategy-desc {
+  margin-top: 2px;
+
+  color: var(--text-faint);
+
+  font-size: 10.5px;
+
+  white-space: normal;
+
+  max-width: 220px;
+}
+
+.strategy-table .positive {
+  color: var(--green);
+}
+
+.strategy-table .negative {
+  color: var(--red);
+}
+
+.strategy-table .faint {
+  color: var(--text-faint);
+}
+
+.strategy-note {
+  margin-top: 10px;
+
+  color: var(--text-faint);
+
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   전략 전환
+   ========================================================= */
+
+.strategy-switch {
+  margin-bottom: 12px;
+}
+
+.strategy-switch select {
+  width: 100%;
+
+  padding: 9px 11px;
+
+  color: var(--text);
+
+  background: var(--surface-2);
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-size: 13.5px;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  background-image:
+    linear-gradient(
+      45deg,
+      transparent 50%,
+      var(--text-dim) 50%
+    ),
+    linear-gradient(
+      135deg,
+      var(--text-dim) 50%,
+      transparent 50%
+    );
+
+  background-position:
+    calc(100% - 16px) calc(50% - 2px),
+    calc(100% - 11px) calc(50% - 2px);
+
+  background-size: 5px 5px, 5px 5px;
+
+  background-repeat: no-repeat;
+
+  padding-right: 30px;
+
+  cursor: pointer;
+}
+
+.strategy-switch select:focus {
+  outline: none;
+
+  border-color: var(--amber-dim);
+}
+
+.strategy-switch-note {
+  margin-top: 6px;
+
+  color: var(--text-faint);
+
+  font-size: 10.5px;
 }

@@ -86,7 +86,7 @@
 
   <link
     rel="stylesheet"
-    href="./css/style.css?v=20260901c"
+    href="./css/style.css?v=20260902c"
   >
 </head>
 
@@ -222,6 +222,72 @@
 
 
   <!-- =====================================================
+       전략 비교
+
+       같은 Observation에 여러 조건을 나란히 적용한 결과.
+       데이터를 보고 고른 기준이 실제로 나은지는
+       앞으로 쌓이는 구간에서만 확인할 수 있다.
+       ===================================================== -->
+
+  <div
+    class="section-title"
+    id="strategySection"
+    hidden
+  >
+
+    <div class="title">
+      전략 비교
+    </div>
+
+    <div
+      class="hint"
+      id="strategyHint"
+    >
+      -
+    </div>
+
+  </div>
+
+
+  <div
+    class="strategy-card"
+    id="strategyCard"
+    hidden
+  >
+
+    <div class="table-scroll">
+
+      <table class="strategy-table">
+
+        <!--
+          초과수익이 이 표에서 가장 중요한 숫자다.
+          좁은 화면에서 가로 스크롤 없이 바로 보이도록
+          전략 바로 옆에 둔다.
+        -->
+        <thead>
+          <tr>
+            <th>전략</th>
+            <th class="num">초과</th>
+            <th class="num">수익률</th>
+            <th class="num">시장</th>
+            <th class="num">승률</th>
+            <th class="num">신호</th>
+            <th class="num">완료</th>
+          </tr>
+        </thead>
+
+        <tbody id="strategyBody"></tbody>
+
+      </table>
+
+    </div>
+
+    <div class="strategy-note" id="strategyNote"></div>
+
+  </div>
+
+
+  <!-- =====================================================
        BSI
        ===================================================== -->
 
@@ -236,6 +302,29 @@
       id="bsiUpdated"
     >
       -
+    </div>
+
+  </div>
+
+
+  <!-- 아래 BSI / Statistics를 어느 전략 기준으로 볼지 -->
+  <div
+    class="strategy-switch"
+    id="strategySwitch"
+    hidden
+  >
+
+    <label
+      class="sr-only"
+      for="strategySelect"
+    >
+      기준 전략 선택
+    </label>
+
+    <select id="strategySelect"></select>
+
+    <div class="strategy-switch-note">
+      아래 BSI와 Statistics가 선택한 전략 기준으로 바뀝니다.
     </div>
 
   </div>
@@ -732,10 +821,10 @@
      ========================================================= -->
 
 <!-- v 값은 위 스타일시트와 항상 함께 올린다 -->
-<script src="./js/utils.js?v=20260901c"></script>
-<script src="./js/data.js?v=20260901c"></script>
-<script src="./js/ui.js?v=20260901c"></script>
-<script src="./js/main.js?v=20260901c"></script>
+<script src="./js/utils.js?v=20260902c"></script>
+<script src="./js/data.js?v=20260902c"></script>
+<script src="./js/ui.js?v=20260902c"></script>
+<script src="./js/main.js?v=20260902c"></script>
 
 </body>
 </html>

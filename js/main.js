@@ -820,13 +820,15 @@ async function load() {
     latestResult,
     dataJsonResult,
     bsiResult,
-    statisticsResult
+    statisticsResult,
+    strategyResult
   ] =
     await Promise.allSettled([
       loadLatestSignals(),
       fetchJSON("data.json"),
       fetchJSON("bsi.json"),
-      fetchJSON("statistics.json")
+      fetchJSON("statistics.json"),
+      loadStrategyIndex()
     ]);
 
 
@@ -1062,6 +1064,28 @@ async function load() {
 
   }
 
+
+  /* =====================================================
+     전략 비교
+
+     기술 저장소에서 아직 배포되지 않았으면 index.json이
+     없다. 이 경우 비교 섹션과 선택기가 나타나지 않고
+     기존 화면 그대로 동작한다.
+     ===================================================== */
+
+  const strategyIndex =
+    strategyResult.status === "fulfilled"
+      ? strategyResult.value
+      : null;
+
+  if (strategyIndex) {
+
+    renderStrategies(strategyIndex);
+
+    setupStrategySwitch(strategyIndex);
+
+  }
+
   console.log(
     "========================================"
   );
@@ -1076,6 +1100,115 @@ async function load() {
 
   console.log(
     "========================================"
+  );
+
+}
+
+
+/* =========================================================
+   전략 전환
+
+   BSI와 Statistics를 선택한 전략 기준으로 바꾼다.
+   Signal 카드는 바꾸지 않는다. 카드는 "오늘 나온 종목"이고
+   RSI 슬라이더로 이미 사용자가 직접 좁혀볼 수 있다.
+   ========================================================= */
+
+const strategySelect =
+  document.getElementById(
+    "strategySelect"
+  );
+
+
+function setupStrategySwitch(index) {
+
+  const wrap =
+    document.getElementById(
+      "strategySwitch"
+    );
+
+  if (
+    !wrap ||
+    !strategySelect ||
+    !index ||
+    !Array.isArray(index.strategies) ||
+    index.strategies.length < 2
+  ) {
+    return;
+  }
+
+  strategySelect.innerHTML =
+    index.strategies
+      .map(row => `
+        <option value="${escapeHTML(row.id)}">
+          ${escapeHTML(row.name || row.id)}${
+            row.primary ? " (기준)" : ""
+          }
+        </option>
+      `)
+      .join("");
+
+  strategySelect.value =
+    index.primary ||
+    index.strategies[0].id;
+
+  wrap.hidden = false;
+
+  strategySelect.addEventListener(
+    "change",
+    async () => {
+
+      const id = strategySelect.value;
+
+      // 기준 전략은 이미 받아둔 데이터를 그대로 쓴다
+      if (id === index.primary) {
+
+        if (bsiData) renderBSI(bsiData);
+
+        if (statisticsData) {
+
+          renderStatistics(statisticsData);
+
+          renderPerformance(statisticsData);
+
+        }
+
+        return;
+      }
+
+      const detail =
+        await loadStrategyDetail(id);
+
+      if (detail.bsi) {
+
+        bsiData = detail.bsi;
+
+        renderBSI(detail.bsi);
+
+      }
+
+      if (detail.statistics) {
+
+        renderStatistics(
+          detail.statistics
+        );
+
+        renderPerformance(
+          detail.statistics
+        );
+
+        document.getElementById(
+          "researchCompleted"
+        ).textContent =
+          detail.statistics.completed ?? 0;
+
+        document.getElementById(
+          "researchPending"
+        ).textContent =
+          detail.statistics.pending ?? 0;
+
+      }
+
+    }
   );
 
 }
