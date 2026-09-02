@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-02T00:19:07.336196+00:00",
+  "generated_at": "2026-09-02T10:46:14.484480+00:00",
   "benchmark_ticker": "QQQ",
-  "benchmark_samples": 216,
+  "benchmark_samples": 218,
   "benchmark_avg_return_5d_pct": 0.31,
-  "avg_alpha_5d_pct": -1.78,
-  "alpha_win_rate_5d_pct": 33.33,
-  "signals": 589,
-  "completed": 216,
-  "pending": 373,
-  "win_rate_5d_pct": 37.96,
-  "avg_return_5d_pct": -1.47,
+  "avg_alpha_5d_pct": -1.8,
+  "alpha_win_rate_5d_pct": 33.03,
+  "signals": 594,
+  "completed": 218,
+  "pending": 376,
+  "win_rate_5d_pct": 37.61,
+  "avg_return_5d_pct": -1.49,
   "avg_win_5d_pct": 3.58,
-  "avg_loss_5d_pct": -4.56,
+  "avg_loss_5d_pct": -4.54,
   "target_hit_count": 6,
-  "stop_hit_count": 11
+  "stop_hit_count": 12
 }

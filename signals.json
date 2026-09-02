@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-02T00:19:07.336196+00:00",
-  "total_signals": 589,
-  "completed": 216,
-  "pending": 373,
+  "generated_at": "2026-09-02T10:46:14.484480+00:00",
+  "total_signals": 594,
+  "completed": 218,
+  "pending": 376,
   "duplicate_sessions": {
-    "2026-08-23": 51,
-    "2026-08-24": 51,
+    "2026-08-23": 52,
+    "2026-08-24": 52,
     "2026-08-29": 26,
-    "2026-08-31": 67
+    "2026-08-31": 68
   },
   "signals": [
     {
@@ -652,6 +652,23 @@
       "revenue_growth_pct": 6.6,
       "ebitda_growth_pct": 16.4,
       "operating_cash_flow_change_pct": -13.6,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "complete"
+    },
+    {
+      "signal_id": "NVMI|2026-08-20",
+      "ticker": "NVMI",
+      "observation_date": "2026-08-20",
+      "entry_price": 385.33,
+      "target_price": 449.26,
+      "stop_price": 353.36,
+      "rsi": 40.0,
+      "volume_ratio": 0.81,
+      "profitable": true,
+      "revenue_growth_pct": 8.4,
+      "ebitda_growth_pct": 7.3,
+      "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
       "status": "complete"
@@ -2437,6 +2454,23 @@
       "revenue_growth_pct": -8.9,
       "ebitda_growth_pct": -546.7,
       "operating_cash_flow_change_pct": 250.0,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "complete"
+    },
+    {
+      "signal_id": "LSCC|2026-08-22",
+      "ticker": "LSCC",
+      "observation_date": "2026-08-22",
+      "entry_price": 117.69,
+      "target_price": 139.36,
+      "stop_price": 106.85,
+      "rsi": 40.0,
+      "volume_ratio": 0.54,
+      "profitable": true,
+      "revenue_growth_pct": 17.7,
+      "ebitda_growth_pct": 0.8,
+      "operating_cash_flow_change_pct": 75.5,
       "risk_reward": 2.0,
       "volume_direction": null,
       "status": "complete"
@@ -7117,6 +7151,23 @@
       "status": "pending"
     },
     {
+      "signal_id": "OUST|2026-08-30",
+      "ticker": "OUST",
+      "observation_date": "2026-08-30",
+      "entry_price": 34.62,
+      "target_price": 45.76,
+      "stop_price": 29.05,
+      "rsi": 40.0,
+      "volume_ratio": 0.78,
+      "profitable": false,
+      "revenue_growth_pct": 12.3,
+      "ebitda_growth_pct": -1.9,
+      "operating_cash_flow_change_pct": -75.3,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
       "signal_id": "KDK|2026-08-30",
       "ticker": "KDK",
       "observation_date": "2026-08-30",
@@ -8302,6 +8353,23 @@
       "revenue_growth_pct": 18.0,
       "ebitda_growth_pct": 72.9,
       "operating_cash_flow_change_pct": 29.7,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "MXL|2026-09-01",
+      "ticker": "MXL",
+      "observation_date": "2026-09-01",
+      "entry_price": 59.91,
+      "target_price": 79.52,
+      "stop_price": 50.1,
+      "rsi": 40.0,
+      "volume_ratio": 1.08,
+      "profitable": true,
+      "revenue_growth_pct": 23.0,
+      "ebitda_growth_pct": 152.7,
+      "operating_cash_flow_change_pct": 153.9,
       "risk_reward": 2.0,
       "volume_direction": null,
       "status": "pending"
@@ -10019,6 +10087,23 @@
       "revenue_growth_pct": -28.7,
       "ebitda_growth_pct": -413.4,
       "operating_cash_flow_change_pct": -366.1,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "OSIS|2026-09-02",
+      "ticker": "OSIS",
+      "observation_date": "2026-09-02",
+      "entry_price": 208.52,
+      "target_price": 232.67,
+      "stop_price": 196.45,
+      "rsi": 40.0,
+      "volume_ratio": 0.65,
+      "profitable": true,
+      "revenue_growth_pct": -2.3,
+      "ebitda_growth_pct": -8.3,
+      "operating_cash_flow_change_pct": -76.7,
       "risk_reward": 2.0,
       "volume_direction": null,
       "status": "pending"

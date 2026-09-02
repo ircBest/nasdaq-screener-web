@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-02T10:46:14.619365+00:00",
+  "benchmark_ticker": "QQQ",
+  "benchmark_samples": 54,
+  "benchmark_avg_return_5d_pct": 0.28,
+  "avg_alpha_5d_pct": 0.62,
+  "alpha_win_rate_5d_pct": 50.0,
+  "signals": 117,
+  "completed": 54,
+  "pending": 63,
+  "win_rate_5d_pct": 53.7,
+  "avg_return_5d_pct": 0.91,
+  "avg_win_5d_pct": 4.87,
+  "avg_loss_5d_pct": -3.69,
+  "target_hit_count": 2,
+  "stop_hit_count": 4
+}

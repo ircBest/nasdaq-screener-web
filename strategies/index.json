@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-09-02T10:46:14.640266+00:00",
+  "primary": "rsi40",
+  "benchmark_ticker": "QQQ",
+  "note": "여러 전략을 같은 Observation에 대해 나란히 추적한 결과. 데이터를 보고 고른 기준이 실제로 나은지는 앞으로 쌓이는 구간에서 확인해야 한다.",
+  "strategies": [
+    {
+      "id": "rsi40",
+      "name": "RSI 40 이하 (기준)",
+      "description": "지금까지 운영해 온 조건. 비교 기준선.",
+      "criteria": {
+        "rsi_max": 40
+      },
+      "primary": true,
+      "signals": 594,
+      "completed": 218,
+      "pending": 376,
+      "win_rate_5d_pct": 37.61,
+      "avg_return_5d_pct": -1.49,
+      "benchmark_avg_return_5d_pct": 0.31,
+      "avg_alpha_5d_pct": -1.8,
+      "alpha_win_rate_5d_pct": 33.03
+    },
+    {
+      "id": "rsi35",
+      "name": "RSI 35 이하",
+      "description": "실측에서 손실의 대부분이 RSI 35~40 구간에서 나왔다. 그 구간을 제외한 안.",
+      "criteria": {
+        "rsi_max": 35
+      },
+      "primary": false,
+      "signals": 171,
+      "completed": 75,
+      "pending": 96,
+      "win_rate_5d_pct": 46.67,
+      "avg_return_5d_pct": -0.07,
+      "benchmark_avg_return_5d_pct": 0.25,
+      "avg_alpha_5d_pct": -0.32,
+      "alpha_win_rate_5d_pct": 42.67
+    },
+    {
+      "id": "rsi30",
+      "name": "RSI 30 이하",
+      "description": "전통적인 과매도 기준. 신호 수는 적지만 더 깊은 과매도만 취한다.",
+      "criteria": {
+        "rsi_max": 30
+      },
+      "primary": false,
+      "signals": 29,
+      "completed": 12,
+      "pending": 17,
+      "win_rate_5d_pct": 41.67,
+      "avg_return_5d_pct": 0.41,
+      "benchmark_avg_return_5d_pct": 0.22,
+      "avg_alpha_5d_pct": 0.19,
+      "alpha_win_rate_5d_pct": 41.67
+    },
+    {
+      "id": "rsi35_profit",
+      "name": "RSI 35 이하 + 흑자",
+      "description": "RSI 조건에 최근 분기 흑자를 추가. 재무 조건이 초과수익에 기여하는지 확인.",
+      "criteria": {
+        "rsi_max": 35,
+        "require_profitable": true
+      },
+      "primary": false,
+      "signals": 117,
+      "completed": 54,
+      "pending": 63,
+      "win_rate_5d_pct": 53.7,
+      "avg_return_5d_pct": 0.91,
+      "benchmark_avg_return_5d_pct": 0.28,
+      "avg_alpha_5d_pct": 0.62,
+      "alpha_win_rate_5d_pct": 50.0
+    }
+  ]
+}
