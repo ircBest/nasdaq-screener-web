@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:46:14.640266+00:00",
+  "generated_at": "2026-09-03T00:21:41.558973+00:00",
   "primary": "rsi40",
   "benchmark_ticker": "QQQ",
   "note": "여러 전략을 같은 Observation에 대해 나란히 추적한 결과. 데이터를 보고 고른 기준이 실제로 나은지는 앞으로 쌓이는 구간에서 확인해야 한다.",
@@ -13,13 +13,13 @@
       },
       "primary": true,
       "signals": 594,
-      "completed": 218,
-      "pending": 376,
-      "win_rate_5d_pct": 37.61,
-      "avg_return_5d_pct": -1.49,
-      "benchmark_avg_return_5d_pct": 0.31,
-      "avg_alpha_5d_pct": -1.8,
-      "alpha_win_rate_5d_pct": 33.03
+      "completed": 279,
+      "pending": 315,
+      "win_rate_5d_pct": 35.84,
+      "avg_return_5d_pct": -1.61,
+      "benchmark_avg_return_5d_pct": 0.18,
+      "avg_alpha_5d_pct": -1.79,
+      "alpha_win_rate_5d_pct": 32.97
     },
     {
       "id": "rsi35",
@@ -30,13 +30,13 @@
       },
       "primary": false,
       "signals": 171,
-      "completed": 75,
-      "pending": 96,
-      "win_rate_5d_pct": 46.67,
-      "avg_return_5d_pct": -0.07,
-      "benchmark_avg_return_5d_pct": 0.25,
-      "avg_alpha_5d_pct": -0.32,
-      "alpha_win_rate_5d_pct": 42.67
+      "completed": 91,
+      "pending": 80,
+      "win_rate_5d_pct": 45.05,
+      "avg_return_5d_pct": -0.28,
+      "benchmark_avg_return_5d_pct": 0.15,
+      "avg_alpha_5d_pct": -0.43,
+      "alpha_win_rate_5d_pct": 43.96
     },
     {
       "id": "rsi30",
@@ -47,13 +47,13 @@
       },
       "primary": false,
       "signals": 29,
-      "completed": 12,
-      "pending": 17,
-      "win_rate_5d_pct": 41.67,
-      "avg_return_5d_pct": 0.41,
-      "benchmark_avg_return_5d_pct": 0.22,
-      "avg_alpha_5d_pct": 0.19,
-      "alpha_win_rate_5d_pct": 41.67
+      "completed": 14,
+      "pending": 15,
+      "win_rate_5d_pct": 42.86,
+      "avg_return_5d_pct": -0.37,
+      "benchmark_avg_return_5d_pct": 0.15,
+      "avg_alpha_5d_pct": -0.51,
+      "alpha_win_rate_5d_pct": 42.86
     },
     {
       "id": "rsi35_profit",
@@ -65,13 +65,13 @@
       },
       "primary": false,
       "signals": 117,
-      "completed": 54,
-      "pending": 63,
-      "win_rate_5d_pct": 53.7,
-      "avg_return_5d_pct": 0.91,
-      "benchmark_avg_return_5d_pct": 0.28,
-      "avg_alpha_5d_pct": 0.62,
-      "alpha_win_rate_5d_pct": 50.0
+      "completed": 66,
+      "pending": 51,
+      "win_rate_5d_pct": 51.52,
+      "avg_return_5d_pct": 0.56,
+      "benchmark_avg_return_5d_pct": 0.18,
+      "avg_alpha_5d_pct": 0.38,
+      "alpha_win_rate_5d_pct": 51.52
     }
   ]
 }
