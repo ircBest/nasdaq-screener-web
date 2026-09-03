@@ -27,24 +27,15 @@
 .chart-legend span{display:flex;align-items:center;gap:6px}
 .swatch{width:14px;height:3px;border-radius:2px;display:inline-block}
 
-.note-box{background:var(--surface-2);border:1px solid var(--border);
-  border-left:3px solid var(--amber);border-radius:0 var(--radius) var(--radius) 0;
-  padding:13px 15px;font-size:12.5px;color:var(--text-dim);line-height:1.7}
-.note-box b{color:var(--amber)}
-.note-box code{background:var(--surface-3);padding:1px 5px;border-radius:4px;font-size:11.5px}
-
 .kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;
   background:var(--border);border:1px solid var(--border);
   border-radius:var(--radius);overflow:hidden}
 .kv > div{background:var(--surface-2);padding:12px 14px}
 .kv .k{font-size:11px;color:var(--text-faint);margin-bottom:3px}
 .kv .v{font-size:17px;font-weight:700;letter-spacing:-.02em}
+.kv .v.up{color:var(--green)}
+.kv .v.down{color:var(--red)}
 .kv .n{font-size:11px;color:var(--text-dim);margin-top:2px}
-
-.vol-ctrl{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:10px}
-.vol-ctrl label{display:flex;align-items:center;gap:7px;font-size:13px;
-  color:var(--text-dim);cursor:pointer}
-.vol-ctrl label.off{opacity:.45;cursor:not-allowed}
 
 .tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;
   font-weight:700;background:rgba(138,147,166,.14);color:var(--text-dim)}
@@ -222,11 +213,11 @@ function drawPrice(series, marks){
 /* ---------------------------------------------------------
    거래량 차트
 
-   여기 곡선은 하루 총 거래량이다.
-   개인/기관을 나눈 값이 아니다 — 나눌 수가 없다.
-   자세한 이유는 화면의 안내에 적어 두었다.
+   막대는 그 날의 거래량, 색은 20일 평균 대비 많고 적음.
+   거래량은 절대값보다 "평소보다 많았는가"가 읽히는 값이라
+   평균선을 같이 긋고 넘긴 날을 진하게 칠한다.
    --------------------------------------------------------- */
-function drawVolume(series){
+function drawVolume(series, marks){
   const canvas = $("volChart");
   const {ctx, w, h} = prepare(canvas);
   const points = series.points;
@@ -243,28 +234,57 @@ function drawVolume(series){
 
   axis(ctx, w, h, 0, hi, compact);
 
-  /* 막대 */
-  const bw = Math.max(1, (w-PAD.l-PAD.r)/points.length * 0.62);
-  points.forEach((p,i)=>{
-    if(p.v==null) return;
-    const y = s.y(p.v);
-    ctx.fillStyle = "rgba(110,168,254,.42)";
-    ctx.fillRect(s.x(i)-bw/2, y, bw, s.y(0)-y);
-  });
-
-  /* 20일 이동평균 — "평소보다 많은가"의 기준선 */
-  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.6;
-  ctx.beginPath();
-  let started=false;
+  /* 각 날짜의 20일 이동평균.
+     막대 색과 평균선 둘 다 이 값을 쓴다. */
+  const avgAt = [];
   for(let i=0;i<points.length;i++){
     const window = [];
     for(let j=Math.max(0,i-19);j<=i;j++){
       if(points[j].v!=null) window.push(points[j].v);
     }
-    if(window.length < 5) continue;
-    const avg = window.reduce((a,b)=>a+b,0)/window.length;
-    if(!started){ ctx.moveTo(s.x(i), s.y(avg)); started=true; }
-    else ctx.lineTo(s.x(i), s.y(avg));
+    avgAt[i] = window.length >= 5
+      ? window.reduce((a,b)=>a+b,0)/window.length
+      : null;
+  }
+
+  /* 신호가 난 봉 (가격 차트와 같은 규칙으로 맞춘다) */
+  const signalBars = new Set();
+  (marks || []).forEach(m=>{
+    let found = -1;
+    for(let i=0;i<points.length;i++){
+      if(points[i].d <= m.date) found = i; else break;
+    }
+    if(found >= 0) signalBars.add(found);
+  });
+
+  /* 막대.
+     평균을 넘긴 날을 진하게 칠한다. 거래량은 절대값보다
+     "평소보다 많았는가"가 읽히는 값이다. */
+  const bw = Math.max(1, (w-PAD.l-PAD.r)/points.length * 0.62);
+  points.forEach((p,i)=>{
+    if(p.v==null) return;
+    const y = s.y(p.v);
+    const avg = avgAt[i];
+    ctx.fillStyle = (avg != null && p.v >= avg)
+      ? "rgba(110,168,254,.85)"
+      : "rgba(110,168,254,.28)";
+    ctx.fillRect(s.x(i)-bw/2, y, bw, s.y(0)-y);
+  });
+
+  /* 신호 발생일 표시 */
+  signalBars.forEach(i=>{
+    ctx.fillStyle = "rgba(185,138,255,.85)";
+    ctx.fillRect(s.x(i)-1.5, PAD.t, 3, h-PAD.t-PAD.b);
+  });
+
+  /* 20일 이동평균선 */
+  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.6;
+  ctx.beginPath();
+  let started=false;
+  for(let i=0;i<points.length;i++){
+    if(avgAt[i]==null) continue;
+    if(!started){ ctx.moveTo(s.x(i), s.y(avgAt[i])); started=true; }
+    else ctx.lineTo(s.x(i), s.y(avgAt[i]));
   }
   ctx.stroke();
 }
@@ -314,54 +334,36 @@ function render(info){
     <section>
       <div class="section-title"><div class="title">거래량</div></div>
 
-      <div class="vol-ctrl">
-        <label><input type="checkbox" id="volTotal" checked> 총 거래량</label>
-        <label class="off" title="공개 데이터로는 나눌 수 없습니다">
-          <input type="checkbox" disabled> 개인 투자자
-        </label>
-        <label class="off" title="공개 데이터로는 나눌 수 없습니다">
-          <input type="checkbox" disabled> 기관
-        </label>
-      </div>
-
       ${volAvailable ? `
         <div class="chart-box">
           <canvas id="volChart"></canvas>
           <div class="chart-legend">
-            <span><i class="swatch" style="background:rgba(110,168,254,.6)"></i> 일별 총 거래량</span>
+            <span><i class="swatch" style="background:#6EA8FE"></i> 평균 이상</span>
+            <span><i class="swatch" style="background:rgba(110,168,254,.28)"></i> 평균 미만</span>
             <span><i class="swatch" style="background:#FFB020"></i> 20일 평균</span>
+            <span><i class="swatch" style="background:#B98AFF;height:9px;width:3px"></i> 신호 발생일</span>
           </div>
         </div>
-        <div class="kv" style="margin-bottom:10px">
+
+        <div class="kv">
           <div><div class="k">최근 거래량</div>
             <div class="v mono">${fmtCompact(series.volume.latest)}</div></div>
           <div><div class="k">20일 평균</div>
             <div class="v mono">${fmtCompact(series.volume.average)}</div></div>
           <div><div class="k">평균 대비</div>
-            <div class="v mono">${series.volume.ratio!=null?series.volume.ratio.toFixed(2)+"배":"-"}</div>
-            <div class="n">1.0배 = 평소 수준</div></div>
+            <div class="v mono ${volTone(series.volume.ratio)}">${
+              series.volume.ratio!=null?series.volume.ratio.toFixed(2)+"배":"-"}</div>
+            <div class="n">${volLabel(series.volume.ratio)}</div></div>
+          <div><div class="k">급증일</div>
+            <div class="v mono">${spikes(series)}</div>
+            <div class="n">평균의 2배 이상 · 최근 ${series.volume.days}일</div></div>
         </div>
       ` : `
-        <div class="state" style="margin-bottom:10px">
+        <div class="state">
           ${escapeHTML(series?.volume?.reason ||
             "거래량 데이터가 아직 없습니다. 다음 스캔에서 채워집니다.")}
         </div>
       `}
-
-      <div class="note-box">
-        <b>개인 / 기관을 나눈 곡선은 만들 수 없습니다.</b><br>
-        미국 통합 테이프(consolidated tape)에는 주문을 낸 사람의 유형이 기록되지
-        않습니다. 한국(KRX)은 투자자별 매매동향을 공시하지만 미국에는 그런 공시가
-        없습니다. <code>13F</code>는 분기별이고 45일 지연이며, 거래량이 아니라
-        분기말 보유량입니다.<br><br>
-        가장 널리 쓰이는 대안은 FINRA가 종목별로 매일 공개하는
-        <b>장외(off-exchange) 거래량</b>입니다. 개인 주문은 대부분 도매업자가
-        내부체결해 장외로 보고되므로 리테일 흐름의 <i>프록시</i>로 씁니다.
-        추정값이지 실제 개인 거래량이 아닙니다.<br><br>
-        위 곡선은 <b>하루 총 거래량</b>입니다. 프록시를 넣게 되면 그때
-        반드시 프록시라고 표시할 것입니다. 추정값을 실측값처럼 보여주면
-        그 위의 모든 판단이 오염됩니다.
-      </div>
     </section>
 
     ${signal ? `
@@ -421,7 +423,7 @@ function render(info){
 
   if(series && series.points.length >= 2){
     drawPrice(series, series.signals || []);
-    if(volAvailable) drawVolume(series);
+    if(volAvailable) drawVolume(series, series.signals || []);
   }
 
   window.addEventListener("resize", ()=>{
@@ -429,9 +431,50 @@ function render(info){
     clearTimeout(window.__rt);
     window.__rt = setTimeout(()=>{
       drawPrice(series, series.signals || []);
-      if(volAvailable) drawVolume(series);
+      if(volAvailable) drawVolume(series, series.signals || []);
     }, 150);
   });
+}
+
+/* ---------------------------------------------------------
+   거래량 읽기 보조
+
+   숫자만 던져두면 "3.2M"이 많은 건지 적은 건지 알 수 없다.
+   평균 대비 몇 배인지가 실제로 읽히는 값이다.
+   --------------------------------------------------------- */
+function volTone(ratio){
+  if(ratio==null) return "";
+  if(ratio >= 2) return "up";
+  if(ratio <= 0.5) return "down";
+  return "";
+}
+
+function volLabel(ratio){
+  if(ratio==null) return "";
+  if(ratio >= 2) return "평소의 2배 이상";
+  if(ratio >= 1.2) return "평소보다 많음";
+  if(ratio <= 0.5) return "평소의 절반 이하";
+  if(ratio <= 0.8) return "평소보다 적음";
+  return "평소 수준";
+}
+
+/* 최근 구간에서 평균의 2배를 넘긴 날이 며칠인가 */
+function spikes(series){
+  const vols = series.points.map(p=>p.v).filter(v=>v!=null);
+  if(vols.length < 5) return "-";
+  let count = 0;
+  for(let i=0;i<series.points.length;i++){
+    const v = series.points[i].v;
+    if(v==null) continue;
+    const window = [];
+    for(let j=Math.max(0,i-19);j<=i;j++){
+      if(series.points[j].v!=null) window.push(series.points[j].v);
+    }
+    if(window.length < 5) continue;
+    const avg = window.reduce((a,b)=>a+b,0)/window.length;
+    if(avg && v >= avg*2) count++;
+  }
+  return String(count);
 }
 
 function fmtCompact(v){
