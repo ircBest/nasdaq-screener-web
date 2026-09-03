@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T00:21:41.477346+00:00",
+  "generated_at": "2026-09-03T11:44:52.609217+00:00",
   "index_name": "BSI",
   "description": "Signal 발생 이후 각 거래일의 평균 수익률",
   "base": 0.0,
@@ -7,13 +7,13 @@
   "benchmark_ticker": "QQQ",
   "benchmark_description": "같은 구간의 시장 수익률. alpha = BSI - benchmark 이며 이 값이 성과의 실체다.",
   "benchmark_available": true,
-  "signal_count": 594,
+  "signal_count": 680,
   "periods": {
     "5d": {
       "trading_days": 5,
-      "value": -1.6053,
+      "value": -1.6051,
       "benchmark": 0.1805,
-      "alpha": -1.7858,
+      "alpha": -1.7856,
       "samples": 279
     },
     "10d": {
@@ -83,9 +83,9 @@
     },
     {
       "day": 2,
-      "bsi_pct": -0.912,
+      "bsi_pct": -0.9118,
       "benchmark_pct": -0.1522,
-      "alpha_pct": -0.7598,
+      "alpha_pct": -0.7596,
       "samples": 422
     },
     {
@@ -104,9 +104,9 @@
     },
     {
       "day": 5,
-      "bsi_pct": -1.6053,
+      "bsi_pct": -1.6051,
       "benchmark_pct": 0.1805,
-      "alpha_pct": -1.7858,
+      "alpha_pct": -1.7856,
       "samples": 279
     },
     {
@@ -118,9 +118,9 @@
     },
     {
       "day": 7,
-      "bsi_pct": -4.1693,
+      "bsi_pct": -4.1685,
       "benchmark_pct": -0.3737,
-      "alpha_pct": -3.7956,
+      "alpha_pct": -3.7947,
       "samples": 145
     },
     {
@@ -132,9 +132,9 @@
     },
     {
       "day": 9,
-      "bsi_pct": -4.8115,
+      "bsi_pct": -4.8113,
       "benchmark_pct": -0.2377,
-      "alpha_pct": -4.5738,
+      "alpha_pct": -4.5736,
       "samples": 39
     }
   ]
