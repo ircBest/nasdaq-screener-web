@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>종목 상세 · NASDAQ IT 스크리너</title>
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="css/style.css?v=20260903a">
+<style>
+/* 상세 페이지 전용 */
+.detail-head{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;margin-bottom:6px}
+.detail-head .tk{font-size:34px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.detail-head .nm{color:var(--text-dim);font-size:14px}
+.detail-head .px{margin-left:auto;text-align:right}
+.detail-head .px .v{font-size:24px;font-weight:700;letter-spacing:-.02em}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--text-dim);
+  text-decoration:none;font-size:13px;margin-bottom:16px}
+.back:hover{color:var(--text)}
+
+.chart-box{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius);overflow:hidden;margin-bottom:8px}
+.chart-box canvas{display:block;width:100%}
+#priceChart{height:280px}
+#volChart{height:170px}
+.chart-legend{display:flex;flex-wrap:wrap;gap:14px;padding:9px 14px;
+  border-top:1px solid var(--border);font-size:11px;color:var(--text-dim)}
+.chart-legend span{display:flex;align-items:center;gap:6px}
+.swatch{width:14px;height:3px;border-radius:2px;display:inline-block}
+
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;
+  background:var(--border);border:1px solid var(--border);
+  border-radius:var(--radius);overflow:hidden}
+.kv > div{background:var(--surface-2);padding:12px 14px}
+.kv .k{font-size:11px;color:var(--text-faint);margin-bottom:3px}
+.kv .v{font-size:17px;font-weight:700;letter-spacing:-.02em}
+.kv .v.up{color:var(--green)}
+.kv .v.down{color:var(--red)}
+.kv .n{font-size:11px;color:var(--text-dim);margin-top:2px}
+
+.tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;
+  font-weight:700;background:rgba(138,147,166,.14);color:var(--text-dim)}
+.tag.up{background:rgba(62,207,142,.16);color:var(--green)}
+.tag.down{background:rgba(255,92,92,.14);color:var(--red)}
+.state{padding:26px;text-align:center;color:var(--text-dim);
+  background:var(--surface-2);border:1px dashed var(--border);border-radius:var(--radius)}
+</style>
+</head>
+<body>
+
+<main>
+
+  <a class="back" href="index.html">&larr; 목록으로</a>
+
+  <div id="content">
+    <div class="state">불러오는 중…</div>
+  </div>
+
+</main>
+
+<script src="js/utils.js?v=20260903a"></script>
+<script>
+/* =========================================================
+   종목 상세
+
+   목록에서 종목을 누르면 여기로 온다.
+     stock.html?ticker=AAPL
+
+   시세/거래량은 종목마다 파일 하나씩 따로 받는다.
+   목록 화면에서 전 종목 시세를 미리 받을 이유가 없다.
+   ========================================================= */
+
+const TICKER = (new URLSearchParams(location.search)
+  .get("ticker") || "").toUpperCase().trim();
+
+const $ = id => document.getElementById(id);
+
+async function getJSON(path){
+  try{
+    const r = await fetch(path, {cache:"no-cache"});
+    if(!r.ok) return null;
+    return await r.json();
+  }catch(e){ return null; }
+}
+
+function fail(message){
+  $("content").innerHTML = `<div class="state">${escapeHTML(message)}</div>`;
+}
+
+/* ---------------------------------------------------------
+   캔버스 공통
+
+   devicePixelRatio를 반영하지 않으면 고해상도 화면에서
+   선이 뭉개진다.
+   --------------------------------------------------------- */
+function prepare(canvas){
+  const dpr = window.devicePixelRatio || 1;
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = Math.round(rect.width * dpr);
+  canvas.height = Math.round(rect.height * dpr);
+  const ctx = canvas.getContext("2d");
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,rect.width,rect.height);
+  return {ctx, w:rect.width, h:rect.height};
+}
+
+const PAD = {l:52, r:14, t:14, b:22};
+
+function scales(points, w, h, lo, hi){
+  const n = points.length;
+  const span = (hi - lo) || 1;
+  return {
+    x: i => PAD.l + (w-PAD.l-PAD.r) * (n<2?0.5:i/(n-1)),
+    y: v => PAD.t + (h-PAD.t-PAD.b) * (1 - (v-lo)/span)
+  };
+}
+
+function axis(ctx, w, h, lo, hi, fmt){
+  ctx.strokeStyle = "rgba(138,147,166,.14)";
+  ctx.fillStyle = "#565E6E";
+  ctx.font = "10px -apple-system,sans-serif";
+  ctx.textAlign = "right";
+  ctx.textBaseline = "middle";
+  ctx.lineWidth = 1;
+  for(let i=0;i<=4;i++){
+    const v = lo + (hi-lo)*i/4;
+    const y = PAD.t + (h-PAD.t-PAD.b)*(1-i/4);
+    ctx.beginPath();
+    ctx.moveTo(PAD.l, y); ctx.lineTo(w-PAD.r, y); ctx.stroke();
+    ctx.fillText(fmt(v), PAD.l-7, y);
+  }
+}
+
+/* ---------------------------------------------------------
+   가격 차트
+   신호가 난 날에 표시를 찍고, 목표가/손절가를 선으로 긋는다.
+   --------------------------------------------------------- */
+function drawPrice(series, marks){
+  const canvas = $("priceChart");
+  const {ctx, w, h} = prepare(canvas);
+  const points = series.points;
+  if(points.length < 2){ return; }
+
+  const closes = points.map(p=>p.c).filter(v=>v!=null);
+  const extras = [];
+  const last = marks[marks.length-1];
+  if(last){
+    if(last.target!=null) extras.push(last.target);
+    if(last.stop!=null) extras.push(last.stop);
+  }
+  const all = closes.concat(extras);
+  let lo = Math.min(...all), hi = Math.max(...all);
+  const pad = (hi-lo)*0.08 || 1;
+  lo -= pad; hi += pad;
+
+  const s = scales(points, w, h, lo, hi);
+  axis(ctx, w, h, lo, hi, v=>v.toFixed(v<10?2:0));
+
+  /* 목표가 / 손절가 */
+  if(last){
+    [["target","#3ECF8E"],["stop","#FF5C5C"]].forEach(([key,color])=>{
+      if(last[key]==null) return;
+      ctx.strokeStyle = color; ctx.globalAlpha=.55;
+      ctx.setLineDash([4,4]); ctx.lineWidth=1;
+      ctx.beginPath(); ctx.moveTo(PAD.l, s.y(last[key]));
+      ctx.lineTo(w-PAD.r, s.y(last[key])); ctx.stroke();
+      ctx.setLineDash([]); ctx.globalAlpha=1;
+    });
+  }
+
+  /* 종가 */
+  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.8;
+  ctx.beginPath();
+  let started = false;
+  points.forEach((p,i)=>{
+    if(p.c==null) return;
+    if(!started){ ctx.moveTo(s.x(i), s.y(p.c)); started=true; }
+    else ctx.lineTo(s.x(i), s.y(p.c));
+  });
+  ctx.stroke();
+
+  /* 신호 표시
+
+     신호 날짜를 그대로 찾으면 대부분 못 찾는다.
+     워크플로는 한국시간 아침에 도는데 그 시각 미국장은
+     아직 열린 적이 없어서, 신호는 직전 거래일 종가를
+     본다. 주말/휴장일이면 신호 날짜에 해당하는 봉 자체가
+     없다.
+
+     그래서 "신호 날짜 이하의 마지막 봉"에 찍는다.
+     진입가를 잡은 그 순간과 같은 봉이다.
+     벤치마크(QQQ) 정렬에 쓰는 규칙과 같다. */
+  const snap = date => {
+    let found = -1;
+    for(let i=0;i<points.length;i++){
+      if(points[i].d <= date) found = i; else break;
+    }
+    return found;
+  };
+
+  const drawn = new Set();
+  marks.forEach(m=>{
+    const i = snap(m.date);
+    if(i < 0 || points[i].c==null) return;
+    if(drawn.has(i)) return;   /* 같은 봉에 여러 신호면 하나만 */
+    drawn.add(i);
+    ctx.beginPath();
+    ctx.arc(s.x(i), s.y(points[i].c), 4, 0, Math.PI*2);
+    ctx.fillStyle = "#6EA8FE"; ctx.fill();
+    ctx.strokeStyle = "#0A0C10"; ctx.lineWidth=1.5; ctx.stroke();
+  });
+}
+
+/* ---------------------------------------------------------
+   거래량 차트
+
+   막대는 그 날의 거래량, 색은 20일 평균 대비 많고 적음.
+   거래량은 절대값보다 "평소보다 많았는가"가 읽히는 값이라
+   평균선을 같이 긋고 넘긴 날을 진하게 칠한다.
+   --------------------------------------------------------- */
+function drawVolume(series, marks){
+  const canvas = $("volChart");
+  const {ctx, w, h} = prepare(canvas);
+  const points = series.points;
+  const vols = points.map(p=>p.v).filter(v=>v!=null);
+  if(vols.length < 2) return;
+
+  const hi = Math.max(...vols) * 1.08;
+  const s = scales(points, w, h, 0, hi);
+
+  const compact = v =>
+    v >= 1e9 ? (v/1e9).toFixed(1)+"B" :
+    v >= 1e6 ? (v/1e6).toFixed(1)+"M" :
+    v >= 1e3 ? (v/1e3).toFixed(0)+"K" : String(Math.round(v));
+
+  axis(ctx, w, h, 0, hi, compact);
+
+  /* 각 날짜의 20일 이동평균.
+     막대 색과 평균선 둘 다 이 값을 쓴다. */
+  const avgAt = [];
+  for(let i=0;i<points.length;i++){
+    const window = [];
+    for(let j=Math.max(0,i-19);j<=i;j++){
+      if(points[j].v!=null) window.push(points[j].v);
+    }
+    avgAt[i] = window.length >= 5
+      ? window.reduce((a,b)=>a+b,0)/window.length
+      : null;
+  }
+
+  /* 신호가 난 봉 (가격 차트와 같은 규칙으로 맞춘다) */
+  const signalBars = new Set();
+  (marks || []).forEach(m=>{
+    let found = -1;
+    for(let i=0;i<points.length;i++){
+      if(points[i].d <= m.date) found = i; else break;
+    }
+    if(found >= 0) signalBars.add(found);
+  });
+
+  /* 막대.
+     평균을 넘긴 날을 진하게 칠한다. 거래량은 절대값보다
+     "평소보다 많았는가"가 읽히는 값이다. */
+  const bw = Math.max(1, (w-PAD.l-PAD.r)/points.length * 0.62);
+  points.forEach((p,i)=>{
+    if(p.v==null) return;
+    const y = s.y(p.v);
+    const avg = avgAt[i];
+    ctx.fillStyle = (avg != null && p.v >= avg)
+      ? "rgba(110,168,254,.85)"
+      : "rgba(110,168,254,.28)";
+    ctx.fillRect(s.x(i)-bw/2, y, bw, s.y(0)-y);
+  });
+
+  /* 신호 발생일 표시 */
+  signalBars.forEach(i=>{
+    ctx.fillStyle = "rgba(185,138,255,.85)";
+    ctx.fillRect(s.x(i)-1.5, PAD.t, 3, h-PAD.t-PAD.b);
+  });
+
+  /* 20일 이동평균선 */
+  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.6;
+  ctx.beginPath();
+  let started=false;
+  for(let i=0;i<points.length;i++){
+    if(avgAt[i]==null) continue;
+    if(!started){ ctx.moveTo(s.x(i), s.y(avgAt[i])); started=true; }
+    else ctx.lineTo(s.x(i), s.y(avgAt[i]));
+  }
+  ctx.stroke();
+}
+
+/* ---------------------------------------------------------
+   화면 구성
+   --------------------------------------------------------- */
+function render(info){
+  const {signal, history, series, latest} = info;
+
+  const price = latest?.price ?? signal?.entry_price;
+  const change = latest?.day_change_pct;
+
+  const volAvailable = series && series.volume && series.volume.available;
+
+  const perfRows = history.filter(h=>h.alpha!=null);
+  const wins = perfRows.filter(h=>h.alpha>0).length;
+
+  $("content").innerHTML = `
+    <div class="detail-head">
+      <div>
+        <div class="tk">${escapeHTML(TICKER)}</div>
+        <div class="nm">${escapeHTML(latest?.name || signal?.name || "")}</div>
+      </div>
+      <div class="px">
+        <div class="v mono">${price!=null?fmtPrice(price):"-"}</div>
+        <div class="mono ${change!=null?changeClass(change):""}"
+             style="font-size:13px">
+          ${change!=null?fmtPctShort(change):""}
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="section-title"><div class="title">가격</div></div>
+      <div class="chart-box">
+        <canvas id="priceChart"></canvas>
+        <div class="chart-legend">
+          <span><i class="swatch" style="background:#FFB020"></i> 종가</span>
+          <span><i class="swatch" style="background:#6EA8FE;height:9px;width:9px;border-radius:50%"></i> 신호 발생일</span>
+          <span><i class="swatch" style="background:#3ECF8E"></i> 목표가</span>
+          <span><i class="swatch" style="background:#FF5C5C"></i> 손절가</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="title">거래량</div></div>
+
+      ${volAvailable ? `
+        <div class="chart-box">
+          <canvas id="volChart"></canvas>
+          <div class="chart-legend">
+            <span><i class="swatch" style="background:#6EA8FE"></i> 평균 이상</span>
+            <span><i class="swatch" style="background:rgba(110,168,254,.28)"></i> 평균 미만</span>
+            <span><i class="swatch" style="background:#FFB020"></i> 20일 평균</span>
+            <span><i class="swatch" style="background:#B98AFF;height:9px;width:3px"></i> 신호 발생일</span>
+          </div>
+        </div>
+
+        <div class="kv">
+          <div><div class="k">최근 거래량</div>
+            <div class="v mono">${fmtCompact(series.volume.latest)}</div></div>
+          <div><div class="k">20일 평균</div>
+            <div class="v mono">${fmtCompact(series.volume.average)}</div></div>
+          <div><div class="k">평균 대비</div>
+            <div class="v mono ${volTone(series.volume.ratio)}">${
+              series.volume.ratio!=null?series.volume.ratio.toFixed(2)+"배":"-"}</div>
+            <div class="n">${volLabel(series.volume.ratio)}</div></div>
+          <div><div class="k">급증일</div>
+            <div class="v mono">${spikes(series)}</div>
+            <div class="n">평균의 2배 이상 · 최근 ${series.volume.days}일</div></div>
+        </div>
+      ` : `
+        <div class="state">
+          ${escapeHTML(series?.volume?.reason ||
+            "거래량 데이터가 아직 없습니다. 다음 스캔에서 채워집니다.")}
+        </div>
+      `}
+    </section>
+
+    ${signal ? `
+    <section>
+      <div class="section-title"><div class="title">최근 신호</div></div>
+      <div class="kv">
+        <div><div class="k">발생일</div><div class="v mono">${escapeHTML(signal.observation_date||"-")}</div></div>
+        <div><div class="k">진입가</div><div class="v mono">${fmtPrice(signal.entry_price)}</div></div>
+        <div><div class="k">목표가</div><div class="v mono">${fmtPrice(signal.target_price)}</div>
+          <div class="n">${signal.entry_price?fmtPctShort((signal.target_price/signal.entry_price-1)*100):""}</div></div>
+        <div><div class="k">손절가</div><div class="v mono">${fmtPrice(signal.stop_price)}</div>
+          <div class="n">${signal.entry_price?fmtPctShort((signal.stop_price/signal.entry_price-1)*100):""}</div></div>
+        <div><div class="k">RSI</div><div class="v mono">${signal.rsi!=null?signal.rsi.toFixed(1):"-"}</div></div>
+        <div><div class="k">거래량 비율</div><div class="v mono">${signal.volume_ratio!=null?signal.volume_ratio.toFixed(2)+"배":"-"}</div></div>
+        <div><div class="k">최근 분기</div><div class="v">${signal.profitable===true?"흑자":signal.profitable===false?"적자":"-"}</div></div>
+        <div><div class="k">매출 성장</div>
+          <div class="v mono ${signal.revenue_growth_pct!=null?changeClass(signal.revenue_growth_pct):""}">
+            ${signal.revenue_growth_pct!=null?fmtPctShort(signal.revenue_growth_pct):"-"}</div></div>
+      </div>
+    </section>` : ""}
+
+    <section>
+      <div class="section-title"><div class="title">이 종목의 신호 이력</div></div>
+      ${history.length ? `
+        <div class="kv" style="margin-bottom:12px">
+          <div><div class="k">신호 횟수</div><div class="v mono">${history.length}</div></div>
+          <div><div class="k">결과 확정</div><div class="v mono">${perfRows.length}</div>
+            <div class="n">진행중 ${history.length-perfRows.length}</div></div>
+          <div><div class="k">시장을 이긴 횟수</div>
+            <div class="v mono">${perfRows.length?wins+" / "+perfRows.length:"-"}</div></div>
+        </div>
+        <div class="table-scroll">
+        <table class="research-table">
+          <thead><tr>
+            <th>발생일</th><th class="num">진입</th>
+            <th class="num">5일 수익률</th><th class="num">QQQ</th>
+            <th class="num">vs 시장</th><th>결과</th>
+          </tr></thead>
+          <tbody>
+            ${history.map(h=>`
+              <tr>
+                <td class="mono">${escapeHTML(h.observation_date||"-")}</td>
+                <td class="num mono">${fmtPrice(h.entry_price)}</td>
+                <td class="num mono ${h.ret!=null?changeClass(h.ret):""}">${h.ret!=null?fmtPctShort(h.ret):"-"}</td>
+                <td class="num mono ${h.bm!=null?changeClass(h.bm):""}">${h.bm!=null?fmtPctShort(h.bm):"-"}</td>
+                <td class="num mono ${h.alpha!=null?changeClass(h.alpha):""}">${h.alpha!=null?fmtPctShort(h.alpha):"-"}</td>
+                <td>${h.alpha==null?'<span class="tag">진행중</span>'
+                  : h.alpha>0?'<span class="tag up">이김</span>'
+                  : '<span class="tag down">짐</span>'}</td>
+              </tr>`).join("")}
+          </tbody>
+        </table>
+        </div>
+      ` : `<div class="state">이 종목의 신호 기록이 없습니다.</div>`}
+    </section>
+  `;
+
+  if(series && series.points.length >= 2){
+    drawPrice(series, series.signals || []);
+    if(volAvailable) drawVolume(series, series.signals || []);
+  }
+
+  window.addEventListener("resize", ()=>{
+    if(!series || series.points.length < 2) return;
+    clearTimeout(window.__rt);
+    window.__rt = setTimeout(()=>{
+      drawPrice(series, series.signals || []);
+      if(volAvailable) drawVolume(series, series.signals || []);
+    }, 150);
+  });
+}
+
+/* ---------------------------------------------------------
+   거래량 읽기 보조
+
+   숫자만 던져두면 "3.2M"이 많은 건지 적은 건지 알 수 없다.
+   평균 대비 몇 배인지가 실제로 읽히는 값이다.
+   --------------------------------------------------------- */
+function volTone(ratio){
+  if(ratio==null) return "";
+  if(ratio >= 2) return "up";
+  if(ratio <= 0.5) return "down";
+  return "";
+}
+
+function volLabel(ratio){
+  if(ratio==null) return "";
+  if(ratio >= 2) return "평소의 2배 이상";
+  if(ratio >= 1.2) return "평소보다 많음";
+  if(ratio <= 0.5) return "평소의 절반 이하";
+  if(ratio <= 0.8) return "평소보다 적음";
+  return "평소 수준";
+}
+
+/* 최근 구간에서 평균의 2배를 넘긴 날이 며칠인가 */
+function spikes(series){
+  const vols = series.points.map(p=>p.v).filter(v=>v!=null);
+  if(vols.length < 5) return "-";
+  let count = 0;
+  for(let i=0;i<series.points.length;i++){
+    const v = series.points[i].v;
+    if(v==null) continue;
+    const window = [];
+    for(let j=Math.max(0,i-19);j<=i;j++){
+      if(series.points[j].v!=null) window.push(series.points[j].v);
+    }
+    if(window.length < 5) continue;
+    const avg = window.reduce((a,b)=>a+b,0)/window.length;
+    if(avg && v >= avg*2) count++;
+  }
+  return String(count);
+}
+
+function fmtCompact(v){
+  if(v==null) return "-";
+  if(v>=1e9) return (v/1e9).toFixed(2)+"B";
+  if(v>=1e6) return (v/1e6).toFixed(1)+"M";
+  if(v>=1e3) return (v/1e3).toFixed(0)+"K";
+  return String(v);
+}
+
+(async function(){
+  if(!TICKER){ fail("종목이 지정되지 않았습니다."); return; }
+  document.title = TICKER + " · NASDAQ IT 스크리너";
+
+  const [signalsPayload, perfPayload, series, scan] = await Promise.all([
+    getJSON("signals.json"),
+    getJSON("performance.json"),
+    getJSON(`tickers/${encodeURIComponent(TICKER)}.json`),
+    getJSON("latest_signals.json")
+  ]);
+
+  const signals = (signalsPayload?.signals || [])
+    .filter(s => s && s.ticker === TICKER);
+
+  const outcomes = {};
+  (perfPayload?.performance || []).forEach(row=>{
+    if(row && row.signal_id) outcomes[row.signal_id] = row;
+  });
+
+  const history = signals.map(s=>{
+    const o = outcomes[s.signal_id] || {};
+    return {
+      observation_date: s.observation_date,
+      entry_price: s.entry_price,
+      ret: o.return_5d_pct ?? null,
+      bm: o.benchmark_5d_pct ?? null,
+      alpha: o.alpha_5d_pct ?? null
+    };
+  }).sort((a,b)=>(b.observation_date||"").localeCompare(a.observation_date||""));
+
+  const latest = (scan?.signals || []).find(s=>s && s.ticker===TICKER);
+
+  if(!signals.length && !series){
+    fail(`${TICKER} 의 기록을 찾을 수 없습니다.`);
+    return;
+  }
+
+  render({
+    signal: signals[signals.length-1] || null,
+    history,
+    series,
+    latest
+  });
+})();
+</script>
+</body>
+</html>

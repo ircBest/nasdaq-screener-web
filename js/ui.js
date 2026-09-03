@@ -423,12 +423,49 @@ function renderBSI(data) {
 
 /* =========================================================
    BSI CURVE
+
+   마지막으로 그린 인자를 여기 보관한다.
+
+   왜 필요한가:
+     캔버스는 폭이 바뀌면 다시 그려야 한다.
+     예전에는 resize 처리에서 renderBSICurve(curve) 를
+     불렀는데, 두 번째 인자(벤치마크 라벨)가 빠져 있었다.
+
+     그래서 화면이 한 번이라도 리사이즈되면 QQQ 선이
+     조용히 사라졌다. 모바일에서는 주소창이 접히고 펴질
+     때마다 resize가 발생하므로 거의 항상 사라진다.
+     전략을 바꾸면 다시 그려져서 잠깐 보였다가,
+     다음 resize에서 또 없어졌다.
+
+     인자를 호출하는 쪽이 매번 챙기게 두면 같은 실수가
+     또 나온다. 그래서 마지막 인자를 여기서 기억하고,
+     다시 그릴 때는 redrawBSICurve() 를 쓰게 한다.
    ========================================================= */
+
+let lastBSIArgs = null;
+
+function redrawBSICurve() {
+
+  if (!lastBSIArgs) {
+    return;
+  }
+
+  renderBSICurve(
+    lastBSIArgs.curve,
+    lastBSIArgs.benchmarkLabel
+  );
+
+}
 
 function renderBSICurve(
   curve,
   benchmarkLabel
 ) {
+
+  lastBSIArgs = {
+    curve,
+    benchmarkLabel,
+  };
 
   const canvas =
     document.getElementById(
@@ -1698,10 +1735,21 @@ function renderResults(list) {
               row.operating_cash_flow_change_pct
             );
 
+          /*
+             카드를 누르면 종목 상세로 간다.
+
+             a 태그를 쓴다. div에 onclick을 걸면
+             새 탭으로 열기도, 링크 복사도, 키보드
+             이동도 안 된다.
+          */
+
           return `
 
-            <div
+            <a
               class="card ${dirClass}"
+              href="stock.html?ticker=${
+                encodeURIComponent(row.ticker || "")
+              }"
             >
 
               <div class="card-top">
@@ -2056,7 +2104,7 @@ function renderResults(list) {
 
               </div>
 
-            </div>
+            </a>
 
           `;
 

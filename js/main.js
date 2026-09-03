@@ -1239,9 +1239,16 @@ window.addEventListener(
       window.setTimeout(
         () => {
 
-          renderBSICurve(
-            bsiData.curve || []
-          );
+          /*
+             redrawBSICurve()는 마지막에 그린 인자를
+             그대로 다시 쓴다.
+
+             여기서 renderBSICurve(curve)를 직접 부르면
+             벤치마크 라벨이 빠져서 QQQ 선이 사라진다.
+             실제로 그 버그가 있었다.
+          */
+
+          redrawBSICurve();
 
         },
         150

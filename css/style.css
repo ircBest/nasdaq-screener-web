@@ -845,6 +845,16 @@ input:checked + .slider-toggle::before {
    ========================================================= */
 
 .card {
+  /*
+     카드는 a 태그다. 누르면 종목 상세로 간다.
+     a의 기본 스타일(밑줄 / 파란색 / inline)을 지운다.
+  */
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  transition: border-color .12s ease, transform .12s ease;
+
   margin-bottom: 10px;
   padding: 14px 16px;
 
@@ -1516,4 +1526,34 @@ input:checked + .slider-toggle::before {
   color: var(--text-faint);
 
   font-size: 10.5px;
+}
+
+
+/* =========================================================
+   카드 클릭 (종목 상세로 이동)
+   ========================================================= */
+
+.card:hover {
+  border-color: var(--text-faint);
+}
+
+.card:active {
+  transform: scale(.995);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+
+/*
+   손가락으로 스크롤할 때 hover가 남아 눌린 것처럼
+   보이는 것을 막는다.
+*/
+@media (hover: none) {
+
+  .card:hover {
+    border-color: var(--border);
+  }
+
 }
