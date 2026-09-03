@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>종목 상세 · NASDAQ IT 스크리너</title>
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="css/style.css?v=20260903a">
+<style>
+/* 상세 페이지 전용 */
+.detail-head{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;margin-bottom:6px}
+.detail-head .tk{font-size:34px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.detail-head .nm{color:var(--text-dim);font-size:14px}
+.detail-head .px{margin-left:auto;text-align:right}
+.detail-head .px .v{font-size:24px;font-weight:700;letter-spacing:-.02em}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--text-dim);
+  text-decoration:none;font-size:13px;margin-bottom:16px}
+.back:hover{color:var(--text)}
+
+.chart-box{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius);overflow:hidden;margin-bottom:8px}
+.chart-box canvas{display:block;width:100%}
+#priceChart{height:280px}
+#volChart{height:170px}
+.chart-legend{display:flex;flex-wrap:wrap;gap:14px;padding:9px 14px;
+  border-top:1px solid var(--border);font-size:11px;color:var(--text-dim)}
+.chart-legend span{display:flex;align-items:center;gap:6px}
+.swatch{width:14px;height:3px;border-radius:2px;display:inline-block}
+
+.note-box{background:var(--surface-2);border:1px solid var(--border);
+  border-left:3px solid var(--amber);border-radius:0 var(--radius) var(--radius) 0;
+  padding:13px 15px;font-size:12.5px;color:var(--text-dim);line-height:1.7}
+.note-box b{color:var(--amber)}
+.note-box code{background:var(--surface-3);padding:1px 5px;border-radius:4px;font-size:11.5px}
+
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;
+  background:var(--border);border:1px solid var(--border);
+  border-radius:var(--radius);overflow:hidden}
+.kv > div{background:var(--surface-2);padding:12px 14px}
+.kv .k{font-size:11px;color:var(--text-faint);margin-bottom:3px}
+.kv .v{font-size:17px;font-weight:700;letter-spacing:-.02em}
+.kv .n{font-size:11px;color:var(--text-dim);margin-top:2px}
+
+.vol-ctrl{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:10px}
+.vol-ctrl label{display:flex;align-items:center;gap:7px;font-size:13px;
+  color:var(--text-dim);cursor:pointer}
+.vol-ctrl label.off{opacity:.45;cursor:not-allowed}
+
+.tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;
+  font-weight:700;background:rgba(138,147,166,.14);color:var(--text-dim)}
+.tag.up{background:rgba(62,207,142,.16);color:var(--green)}
+.tag.down{background:rgba(255,92,92,.14);color:var(--red)}
+.state{padding:26px;text-align:center;color:var(--text-dim);
+  background:var(--surface-2);border:1px dashed var(--border);border-radius:var(--radius)}
+</style>
+</head>
+<body>
+
+<main>
+
+  <a class="back" href="index.html">&larr; 목록으로</a>
+
+  <div id="content">
+    <div class="state">불러오는 중…</div>
+  </div>
+
+</main>
+
+<script src="js/utils.js?v=20260903a"></script>
+<script>
+/* =========================================================
+   종목 상세
+
+   목록에서 종목을 누르면 여기로 온다.
+     stock.html?ticker=AAPL
+
+   시세/거래량은 종목마다 파일 하나씩 따로 받는다.
+   목록 화면에서 전 종목 시세를 미리 받을 이유가 없다.
+   ========================================================= */
+
+const TICKER = (new URLSearchParams(location.search)
+  .get("ticker") || "").toUpperCase().trim();
+
+const $ = id => document.getElementById(id);
+
+async function getJSON(path){
+  try{
+    const r = await fetch(path, {cache:"no-cache"});
+    if(!r.ok) return null;
+    return await r.json();
+  }catch(e){ return null; }
+}
+
+function fail(message){
+  $("content").innerHTML = `<div class="state">${escapeHTML(message)}</div>`;
+}
+
+/* ---------------------------------------------------------
+   캔버스 공통
+
+   devicePixelRatio를 반영하지 않으면 고해상도 화면에서
+   선이 뭉개진다.
+   --------------------------------------------------------- */
+function prepare(canvas){
+  const dpr = window.devicePixelRatio || 1;
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = Math.round(rect.width * dpr);
+  canvas.height = Math.round(rect.height * dpr);
+  const ctx = canvas.getContext("2d");
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,rect.width,rect.height);
+  return {ctx, w:rect.width, h:rect.height};
+}
+
+const PAD = {l:52, r:14, t:14, b:22};
+
+function scales(points, w, h, lo, hi){
+  const n = points.length;
+  const span = (hi - lo) || 1;
+  return {
+    x: i => PAD.l + (w-PAD.l-PAD.r) * (n<2?0.5:i/(n-1)),
+    y: v => PAD.t + (h-PAD.t-PAD.b) * (1 - (v-lo)/span)
+  };
+}
+
+function axis(ctx, w, h, lo, hi, fmt){
+  ctx.strokeStyle = "rgba(138,147,166,.14)";
+  ctx.fillStyle = "#565E6E";
+  ctx.font = "10px -apple-system,sans-serif";
+  ctx.textAlign = "right";
+  ctx.textBaseline = "middle";
+  ctx.lineWidth = 1;
+  for(let i=0;i<=4;i++){
+    const v = lo + (hi-lo)*i/4;
+    const y = PAD.t + (h-PAD.t-PAD.b)*(1-i/4);
+    ctx.beginPath();
+    ctx.moveTo(PAD.l, y); ctx.lineTo(w-PAD.r, y); ctx.stroke();
+    ctx.fillText(fmt(v), PAD.l-7, y);
+  }
+}
+
+/* ---------------------------------------------------------
+   가격 차트
+   신호가 난 날에 표시를 찍고, 목표가/손절가를 선으로 긋는다.
+   --------------------------------------------------------- */
+function drawPrice(series, marks){
+  const canvas = $("priceChart");
+  const {ctx, w, h} = prepare(canvas);
+  const points = series.points;
+  if(points.length < 2){ return; }
+
+  const closes = points.map(p=>p.c).filter(v=>v!=null);
+  const extras = [];
+  const last = marks[marks.length-1];
+  if(last){
+    if(last.target!=null) extras.push(last.target);
+    if(last.stop!=null) extras.push(last.stop);
+  }
+  const all = closes.concat(extras);
+  let lo = Math.min(...all), hi = Math.max(...all);
+  const pad = (hi-lo)*0.08 || 1;
+  lo -= pad; hi += pad;
+
+  const s = scales(points, w, h, lo, hi);
+  axis(ctx, w, h, lo, hi, v=>v.toFixed(v<10?2:0));
+
+  /* 목표가 / 손절가 */
+  if(last){
+    [["target","#3ECF8E"],["stop","#FF5C5C"]].forEach(([key,color])=>{
+      if(last[key]==null) return;
+      ctx.strokeStyle = color; ctx.globalAlpha=.55;
+      ctx.setLineDash([4,4]); ctx.lineWidth=1;
+      ctx.beginPath(); ctx.moveTo(PAD.l, s.y(last[key]));
+      ctx.lineTo(w-PAD.r, s.y(last[key])); ctx.stroke();
+      ctx.setLineDash([]); ctx.globalAlpha=1;
+    });
+  }
+
+  /* 종가 */
+  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.8;
+  ctx.beginPath();
+  let started = false;
+  points.forEach((p,i)=>{
+    if(p.c==null) return;
+    if(!started){ ctx.moveTo(s.x(i), s.y(p.c)); started=true; }
+    else ctx.lineTo(s.x(i), s.y(p.c));
+  });
+  ctx.stroke();
+
+  /* 신호 표시
+
+     신호 날짜를 그대로 찾으면 대부분 못 찾는다.
+     워크플로는 한국시간 아침에 도는데 그 시각 미국장은
+     아직 열린 적이 없어서, 신호는 직전 거래일 종가를
+     본다. 주말/휴장일이면 신호 날짜에 해당하는 봉 자체가
+     없다.
+
+     그래서 "신호 날짜 이하의 마지막 봉"에 찍는다.
+     진입가를 잡은 그 순간과 같은 봉이다.
+     벤치마크(QQQ) 정렬에 쓰는 규칙과 같다. */
+  const snap = date => {
+    let found = -1;
+    for(let i=0;i<points.length;i++){
+      if(points[i].d <= date) found = i; else break;
+    }
+    return found;
+  };
+
+  const drawn = new Set();
+  marks.forEach(m=>{
+    const i = snap(m.date);
+    if(i < 0 || points[i].c==null) return;
+    if(drawn.has(i)) return;   /* 같은 봉에 여러 신호면 하나만 */
+    drawn.add(i);
+    ctx.beginPath();
+    ctx.arc(s.x(i), s.y(points[i].c), 4, 0, Math.PI*2);
+    ctx.fillStyle = "#6EA8FE"; ctx.fill();
+    ctx.strokeStyle = "#0A0C10"; ctx.lineWidth=1.5; ctx.stroke();
+  });
+}
+
+/* ---------------------------------------------------------
+   거래량 차트
+
+   여기 곡선은 하루 총 거래량이다.
+   개인/기관을 나눈 값이 아니다 — 나눌 수가 없다.
+   자세한 이유는 화면의 안내에 적어 두었다.
+   --------------------------------------------------------- */
+function drawVolume(series){
+  const canvas = $("volChart");
+  const {ctx, w, h} = prepare(canvas);
+  const points = series.points;
+  const vols = points.map(p=>p.v).filter(v=>v!=null);
+  if(vols.length < 2) return;
+
+  const hi = Math.max(...vols) * 1.08;
+  const s = scales(points, w, h, 0, hi);
+
+  const compact = v =>
+    v >= 1e9 ? (v/1e9).toFixed(1)+"B" :
+    v >= 1e6 ? (v/1e6).toFixed(1)+"M" :
+    v >= 1e3 ? (v/1e3).toFixed(0)+"K" : String(Math.round(v));
+
+  axis(ctx, w, h, 0, hi, compact);
+
+  /* 막대 */
+  const bw = Math.max(1, (w-PAD.l-PAD.r)/points.length * 0.62);
+  points.forEach((p,i)=>{
+    if(p.v==null) return;
+    const y = s.y(p.v);
+    ctx.fillStyle = "rgba(110,168,254,.42)";
+    ctx.fillRect(s.x(i)-bw/2, y, bw, s.y(0)-y);
+  });
+
+  /* 20일 이동평균 — "평소보다 많은가"의 기준선 */
+  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.6;
+  ctx.beginPath();
+  let started=false;
+  for(let i=0;i<points.length;i++){
+    const window = [];
+    for(let j=Math.max(0,i-19);j<=i;j++){
+      if(points[j].v!=null) window.push(points[j].v);
+    }
+    if(window.length < 5) continue;
+    const avg = window.reduce((a,b)=>a+b,0)/window.length;
+    if(!started){ ctx.moveTo(s.x(i), s.y(avg)); started=true; }
+    else ctx.lineTo(s.x(i), s.y(avg));
+  }
+  ctx.stroke();
+}
+
+/* ---------------------------------------------------------
+   화면 구성
+   --------------------------------------------------------- */
+function render(info){
+  const {signal, history, series, latest} = info;
+
+  const price = latest?.price ?? signal?.entry_price;
+  const change = latest?.day_change_pct;
+
+  const volAvailable = series && series.volume && series.volume.available;
+
+  const perfRows = history.filter(h=>h.alpha!=null);
+  const wins = perfRows.filter(h=>h.alpha>0).length;
+
+  $("content").innerHTML = `
+    <div class="detail-head">
+      <div>
+        <div class="tk">${escapeHTML(TICKER)}</div>
+        <div class="nm">${escapeHTML(latest?.name || signal?.name || "")}</div>
+      </div>
+      <div class="px">
+        <div class="v mono">${price!=null?fmtPrice(price):"-"}</div>
+        <div class="mono ${change!=null?changeClass(change):""}"
+             style="font-size:13px">
+          ${change!=null?fmtPctShort(change):""}
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="section-title"><div class="title">가격</div></div>
+      <div class="chart-box">
+        <canvas id="priceChart"></canvas>
+        <div class="chart-legend">
+          <span><i class="swatch" style="background:#FFB020"></i> 종가</span>
+          <span><i class="swatch" style="background:#6EA8FE;height:9px;width:9px;border-radius:50%"></i> 신호 발생일</span>
+          <span><i class="swatch" style="background:#3ECF8E"></i> 목표가</span>
+          <span><i class="swatch" style="background:#FF5C5C"></i> 손절가</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="title">거래량</div></div>
+
+      <div class="vol-ctrl">
+        <label><input type="checkbox" id="volTotal" checked> 총 거래량</label>
+        <label class="off" title="공개 데이터로는 나눌 수 없습니다">
+          <input type="checkbox" disabled> 개인 투자자
+        </label>
+        <label class="off" title="공개 데이터로는 나눌 수 없습니다">
+          <input type="checkbox" disabled> 기관
+        </label>
+      </div>
+
+      ${volAvailable ? `
+        <div class="chart-box">
+          <canvas id="volChart"></canvas>
+          <div class="chart-legend">
+            <span><i class="swatch" style="background:rgba(110,168,254,.6)"></i> 일별 총 거래량</span>
+            <span><i class="swatch" style="background:#FFB020"></i> 20일 평균</span>
+          </div>
+        </div>
+        <div class="kv" style="margin-bottom:10px">
+          <div><div class="k">최근 거래량</div>
+            <div class="v mono">${fmtCompact(series.volume.latest)}</div></div>
+          <div><div class="k">20일 평균</div>
+            <div class="v mono">${fmtCompact(series.volume.average)}</div></div>
+          <div><div class="k">평균 대비</div>
+            <div class="v mono">${series.volume.ratio!=null?series.volume.ratio.toFixed(2)+"배":"-"}</div>
+            <div class="n">1.0배 = 평소 수준</div></div>
+        </div>
+      ` : `
+        <div class="state" style="margin-bottom:10px">
+          ${escapeHTML(series?.volume?.reason ||
+            "거래량 데이터가 아직 없습니다. 다음 스캔에서 채워집니다.")}
+        </div>
+      `}
+
+      <div class="note-box">
+        <b>개인 / 기관을 나눈 곡선은 만들 수 없습니다.</b><br>
+        미국 통합 테이프(consolidated tape)에는 주문을 낸 사람의 유형이 기록되지
+        않습니다. 한국(KRX)은 투자자별 매매동향을 공시하지만 미국에는 그런 공시가
+        없습니다. <code>13F</code>는 분기별이고 45일 지연이며, 거래량이 아니라
+        분기말 보유량입니다.<br><br>
+        가장 널리 쓰이는 대안은 FINRA가 종목별로 매일 공개하는
+        <b>장외(off-exchange) 거래량</b>입니다. 개인 주문은 대부분 도매업자가
+        내부체결해 장외로 보고되므로 리테일 흐름의 <i>프록시</i>로 씁니다.
+        추정값이지 실제 개인 거래량이 아닙니다.<br><br>
+        위 곡선은 <b>하루 총 거래량</b>입니다. 프록시를 넣게 되면 그때
+        반드시 프록시라고 표시할 것입니다. 추정값을 실측값처럼 보여주면
+        그 위의 모든 판단이 오염됩니다.
+      </div>
+    </section>
+
+    ${signal ? `
+    <section>
+      <div class="section-title"><div class="title">최근 신호</div></div>
+      <div class="kv">
+        <div><div class="k">발생일</div><div class="v mono">${escapeHTML(signal.observation_date||"-")}</div></div>
+        <div><div class="k">진입가</div><div class="v mono">${fmtPrice(signal.entry_price)}</div></div>
+        <div><div class="k">목표가</div><div class="v mono">${fmtPrice(signal.target_price)}</div>
+          <div class="n">${signal.entry_price?fmtPctShort((signal.target_price/signal.entry_price-1)*100):""}</div></div>
+        <div><div class="k">손절가</div><div class="v mono">${fmtPrice(signal.stop_price)}</div>
+          <div class="n">${signal.entry_price?fmtPctShort((signal.stop_price/signal.entry_price-1)*100):""}</div></div>
+        <div><div class="k">RSI</div><div class="v mono">${signal.rsi!=null?signal.rsi.toFixed(1):"-"}</div></div>
+        <div><div class="k">거래량 비율</div><div class="v mono">${signal.volume_ratio!=null?signal.volume_ratio.toFixed(2)+"배":"-"}</div></div>
+        <div><div class="k">최근 분기</div><div class="v">${signal.profitable===true?"흑자":signal.profitable===false?"적자":"-"}</div></div>
+        <div><div class="k">매출 성장</div>
+          <div class="v mono ${signal.revenue_growth_pct!=null?changeClass(signal.revenue_growth_pct):""}">
+            ${signal.revenue_growth_pct!=null?fmtPctShort(signal.revenue_growth_pct):"-"}</div></div>
+      </div>
+    </section>` : ""}
+
+    <section>
+      <div class="section-title"><div class="title">이 종목의 신호 이력</div></div>
+      ${history.length ? `
+        <div class="kv" style="margin-bottom:12px">
+          <div><div class="k">신호 횟수</div><div class="v mono">${history.length}</div></div>
+          <div><div class="k">결과 확정</div><div class="v mono">${perfRows.length}</div>
+            <div class="n">진행중 ${history.length-perfRows.length}</div></div>
+          <div><div class="k">시장을 이긴 횟수</div>
+            <div class="v mono">${perfRows.length?wins+" / "+perfRows.length:"-"}</div></div>
+        </div>
+        <div class="table-scroll">
+        <table class="research-table">
+          <thead><tr>
+            <th>발생일</th><th class="num">진입</th>
+            <th class="num">5일 수익률</th><th class="num">QQQ</th>
+            <th class="num">vs 시장</th><th>결과</th>
+          </tr></thead>
+          <tbody>
+            ${history.map(h=>`
+              <tr>
+                <td class="mono">${escapeHTML(h.observation_date||"-")}</td>
+                <td class="num mono">${fmtPrice(h.entry_price)}</td>
+                <td class="num mono ${h.ret!=null?changeClass(h.ret):""}">${h.ret!=null?fmtPctShort(h.ret):"-"}</td>
+                <td class="num mono ${h.bm!=null?changeClass(h.bm):""}">${h.bm!=null?fmtPctShort(h.bm):"-"}</td>
+                <td class="num mono ${h.alpha!=null?changeClass(h.alpha):""}">${h.alpha!=null?fmtPctShort(h.alpha):"-"}</td>
+                <td>${h.alpha==null?'<span class="tag">진행중</span>'
+                  : h.alpha>0?'<span class="tag up">이김</span>'
+                  : '<span class="tag down">짐</span>'}</td>
+              </tr>`).join("")}
+          </tbody>
+        </table>
+        </div>
+      ` : `<div class="state">이 종목의 신호 기록이 없습니다.</div>`}
+    </section>
+  `;
+
+  if(series && series.points.length >= 2){
+    drawPrice(series, series.signals || []);
+    if(volAvailable) drawVolume(series);
+  }
+
+  window.addEventListener("resize", ()=>{
+    if(!series || series.points.length < 2) return;
+    clearTimeout(window.__rt);
+    window.__rt = setTimeout(()=>{
+      drawPrice(series, series.signals || []);
+      if(volAvailable) drawVolume(series);
+    }, 150);
+  });
+}
+
+function fmtCompact(v){
+  if(v==null) return "-";
+  if(v>=1e9) return (v/1e9).toFixed(2)+"B";
+  if(v>=1e6) return (v/1e6).toFixed(1)+"M";
+  if(v>=1e3) return (v/1e3).toFixed(0)+"K";
+  return String(v);
+}
+
+(async function(){
+  if(!TICKER){ fail("종목이 지정되지 않았습니다."); return; }
+  document.title = TICKER + " · NASDAQ IT 스크리너";
+
+  const [signalsPayload, perfPayload, series, scan] = await Promise.all([
+    getJSON("signals.json"),
+    getJSON("performance.json"),
+    getJSON(`tickers/${encodeURIComponent(TICKER)}.json`),
+    getJSON("latest_signals.json")
+  ]);
+
+  const signals = (signalsPayload?.signals || [])
+    .filter(s => s && s.ticker === TICKER);
+
+  const outcomes = {};
+  (perfPayload?.performance || []).forEach(row=>{
+    if(row && row.signal_id) outcomes[row.signal_id] = row;
+  });
+
+  const history = signals.map(s=>{
+    const o = outcomes[s.signal_id] || {};
+    return {
+      observation_date: s.observation_date,
+      entry_price: s.entry_price,
+      ret: o.return_5d_pct ?? null,
+      bm: o.benchmark_5d_pct ?? null,
+      alpha: o.alpha_5d_pct ?? null
+    };
+  }).sort((a,b)=>(b.observation_date||"").localeCompare(a.observation_date||""));
+
+  const latest = (scan?.signals || []).find(s=>s && s.ticker===TICKER);
+
+  if(!signals.length && !series){
+    fail(`${TICKER} 의 기록을 찾을 수 없습니다.`);
+    return;
+  }
+
+  render({
+    signal: signals[signals.length-1] || null,
+    history,
+    series,
+    latest
+  });
+})();
+</script>
+</body>
+</html>
