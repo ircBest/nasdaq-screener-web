@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T08:26:05.791303+00:00",
+  "generated_at": "2026-09-04T09:03:06.313051+00:00",
   "index_name": "BSI",
   "description": "Signal 발생 이후 각 거래일의 평균 수익률",
   "base": 0.0,
@@ -7,7 +7,7 @@
   "benchmark_ticker": "QQQ",
   "benchmark_description": "같은 구간의 시장 수익률. alpha = BSI - benchmark 이며 이 값이 성과의 실체다.",
   "benchmark_available": true,
-  "signal_count": 33,
+  "signal_count": 38,
   "periods": {
     "5d": {
       "trading_days": 5,
