@@ -270,7 +270,12 @@
             <th class="num">초과</th>
             <th class="num">수익률</th>
             <th class="num">시장</th>
-            <th class="num">승률</th>
+            <!--
+              이 승률은 "올랐다"가 아니라 "시장을 이겼다"의 비율이다.
+              강세장에서는 아무 종목이나 올라 단순 상승 비율이 같이
+              올라가므로, 기준선이 흔들리지 않는 쪽을 쓴다.
+            -->
+            <th class="num">시장 승률</th>
             <th class="num">신호</th>
             <th class="num">완료</th>
           </tr>
