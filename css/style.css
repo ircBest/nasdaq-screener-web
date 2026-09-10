@@ -78,6 +78,32 @@ input {
    HEADER
    ========================================================= */
 
+/* 헤더 안쪽 폭을 본문과 맞춘다.
+   
+   헤더는 화면 전체를 덮는 sticky 바라 배경·경계선은
+   끝까지 가야 한다. 그런데 글자까지 왼쪽 끝에 붙어 있어서
+   680px 중앙 정렬된 본문과 어긋나 보였다.
+   
+   본문   max-width 680, padding 16  ->  내용 폭 648
+   헤더   padding 18                 ->  내용이 x=18 부터
+   
+   자식만 648 로 묶어 가운데 두면 정확히 겹친다. */
+header > header > *,
+header > * {
+  width: 100%;
+  max-width: 648px;
+  margin-inline: auto;
+}
+
+/* h1 은 뒤에서 margin:0 을 걸므로 여기서 다시 잡는다.
+   같은 특정성이면 나중 규칙이 이긴다 — 실제로 그래서
+   한 번 안 먹었다. 선택자를 두 겹으로 올려 확실히 한다. */
+header h1,
+header .eyebrow,
+header .sub {
+  margin-inline: auto;
+}
+
 header {
   position: sticky;
   top: 0;
