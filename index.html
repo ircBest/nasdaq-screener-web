@@ -230,76 +230,44 @@
   ></div>
 
 
-  <!-- =====================================================
-       전략 비교
 
-       같은 Observation에 여러 조건을 나란히 적용한 결과.
-       데이터를 보고 고른 기준이 실제로 나은지는
-       앞으로 쌓이는 구간에서만 확인할 수 있다.
+  <!-- =====================================================
+       은퇴한 판정 — 고정 기간(5·10·30일) 성과 표시
+       =====================================================
+
+       전략 비교 · Research Performance · Research 상세 ·
+       Research Statistics 네 구역이 여기 있었다.
+
+       전부 고정 기간 승패를 보여주고 있었다. 5일·10일·30일은
+       원래 시장 지수 대비를 재는 눈금이었는데 투자 판단의
+       정답처럼 쓰이고 있었다. 같은 신호가 5일과 10일에 승패가
+       반대인 경우가 네 건 중 하나였다.
+
+       지금은 보유 기간을 미리 정하지 않는 방식을 검증하는
+       중이고, 검증 전의 성과는 표시하지 않는다.
        ===================================================== -->
 
-  <div
-    class="section-title"
-    id="strategySection"
-    hidden
-  >
-
-    <div class="title">
-      전략 비교
-    </div>
-
-    <div
-      class="hint"
-      id="strategyHint"
-    >
-      -
-    </div>
-
+  <div class="section-title">
+    <div class="title">Research</div>
   </div>
 
-
-  <div
-    class="strategy-card"
-    id="strategyCard"
-    hidden
-  >
-
-    <div class="table-scroll">
-
-      <table class="strategy-table">
-
-        <!--
-          초과수익이 이 표에서 가장 중요한 숫자다.
-          좁은 화면에서 가로 스크롤 없이 바로 보이도록
-          전략 바로 옆에 둔다.
-        -->
-        <thead>
-          <tr>
-            <th>전략</th>
-            <th class="num">초과</th>
-            <th class="num">수익률</th>
-            <th class="num">시장</th>
-            <!--
-              이 승률은 "올랐다"가 아니라 "시장을 이겼다"의 비율이다.
-              강세장에서는 아무 종목이나 올라 단순 상승 비율이 같이
-              올라가므로, 기준선이 흔들리지 않는 쪽을 쓴다.
-            -->
-            <th class="num">시장 승률</th>
-            <th class="num">신호</th>
-            <th class="num">완료</th>
-          </tr>
-        </thead>
-
-        <tbody id="strategyBody"></tbody>
-
-      </table>
-
+  <div class="notice-box">
+    <strong>고정 기간 성과 표시를 내렸습니다.</strong>
+    여기에는 5일 · 10일 · 30일 기준의 승률과 전략 비교가
+    있었습니다. 그 기간들은 원래 시장 지수 대비를 재는
+    눈금이었는데 어느새 투자 판단의 정답처럼 쓰이고
+    있었습니다. 같은 신호가 5일과 10일에 승패가 반대로
+    나오는 경우가 네 건 중 하나였습니다.
+    지금은 보유 기간을 미리 정하지 않고 종목마다 언제 나갈지를
+    스스로 정하는 방식을 검증하는 중이며, 검증이 끝나기 전에는
+    성과를 표시하지 않습니다.
+    <div style="margin-top:10px">
+      <a href="learning.html" style="color:#6EA8FE;
+         text-decoration:none;font-size:13px">
+        지금 무엇을 배우고 있는가 &rarr;
+      </a>
     </div>
-
-    <div class="strategy-note" id="strategyNote"></div>
-
   </div>
-
 
   <!-- =====================================================
        BSI
@@ -387,232 +355,6 @@
         id="curveNote"
       ></div>
 
-    </div>
-
-  </div>
-
-
-  <!-- =====================================================
-       PERFORMANCE
-       ===================================================== -->
-
-  <div class="section-title">
-
-    <div class="title">
-      Research Performance
-    </div>
-
-    <div
-      class="hint"
-      id="performanceStatus"
-    >
-      -
-    </div>
-
-  </div>
-
-
-  <div class="performance-card">
-
-    <table class="performance-table">
-
-      <thead>
-
-        <tr>
-
-          <th>
-            항목
-          </th>
-
-          <th>
-            값
-          </th>
-
-        </tr>
-
-      </thead>
-
-      <tbody id="performanceTable">
-
-        <tr>
-
-          <td colspan="2">
-            Research 데이터를 불러오는 중...
-          </td>
-
-        </tr>
-
-      </tbody>
-
-    </table>
-
-  </div>
-
-
-  <!-- =====================================================
-       RESEARCH 상세
-
-       performance.json은 230KB라 첫 화면에서 받지 않는다.
-       사용자가 이 섹션을 펼칠 때만 요청한다.
-       ===================================================== -->
-
-  <div class="section-title">
-
-    <div class="title">
-      Research 상세
-    </div>
-
-    <div
-      class="hint"
-      id="researchCount"
-    >
-      -
-    </div>
-
-  </div>
-
-
-  <div class="research-detail">
-
-    <button
-      class="settings-toggle"
-      id="researchToggle"
-      type="button"
-      aria-expanded="false"
-      aria-controls="researchPanel"
-    >
-
-      <span>
-        완료된 Signal의 기간별 성과 보기
-      </span>
-
-      <span id="researchCaret">
-        ▾
-      </span>
-
-    </button>
-
-
-    <div
-      class="research-panel"
-      id="researchPanel"
-    >
-
-      <div class="research-controls">
-
-        <label
-          class="sr-only"
-          for="researchSort"
-        >
-          정렬 기준
-        </label>
-
-        <select id="researchSort">
-
-          <option value="return">
-            5D 수익률 높은 순
-          </option>
-
-          <option value="alpha">
-            시장 대비 초과수익 순
-          </option>
-
-          <option value="date">
-            최근 관측일 순
-          </option>
-
-          <option value="ticker">
-            티커 순
-          </option>
-
-          <option value="mfe">
-            최대 상승폭(MFE) 순
-          </option>
-
-          <option value="mae">
-            최대 낙폭(MAE) 순
-          </option>
-
-        </select>
-
-      </div>
-
-
-      <div class="table-scroll">
-
-        <table class="research-table">
-
-          <thead>
-
-            <tr>
-              <th>티커</th>
-              <th>관측일</th>
-              <th class="num">RSI</th>
-              <th class="num">5D</th>
-              <th class="num">vs 시장</th>
-              <th class="num">10D</th>
-              <th class="num">30D</th>
-              <th class="num">MFE</th>
-              <th class="num">MAE</th>
-              <th>결과</th>
-            </tr>
-
-          </thead>
-
-          <tbody id="researchBody">
-
-            <tr>
-              <td colspan="9">
-                펼치면 불러옵니다.
-              </td>
-            </tr>
-
-          </tbody>
-
-        </table>
-
-      </div>
-
-      <button
-        class="research-more"
-        id="researchMore"
-        type="button"
-        hidden
-      ></button>
-
-      <div class="research-legend">
-        MFE는 보유 중 최대 상승폭, MAE는 최대 낙폭입니다.
-        기간 수익률은 해당 거래일이 지나야 채워집니다.
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <!-- =====================================================
-       STATISTICS
-       ===================================================== -->
-
-  <div class="section-title">
-
-    <div class="title">
-      Research Statistics
-    </div>
-
-  </div>
-
-
-  <div
-    class="statistics-grid"
-    id="statisticsGrid"
-  >
-
-    <div
-      class="empty-state loading-state"
-      style="grid-column:1/-1;"
-    >
-      Statistics 데이터를 불러오는 중...
     </div>
 
   </div>

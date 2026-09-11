@@ -539,6 +539,12 @@ async function loadPerformance() {
     return performancePromise;
   }
 
+  /* performance.json 은 은퇴했다 (고정 기간 판정).
+     저장소에서 지웠으므로 받을 것이 없다.
+     호출부는 남아 있을 수 있으니 조용히 null 을 돌려준다. */
+  return Promise.resolve(null);
+
+  // eslint-disable-next-line no-unreachable
   performancePromise =
     fetchJSON("performance.json")
       .then(data => {

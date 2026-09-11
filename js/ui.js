@@ -150,6 +150,13 @@ function strategyCell(value, digits) {
 
 function renderStrategies(data) {
 
+  /* 전략 비교 구역은 은퇴했다 (고정 기간 판정).
+     요소가 없으면 조용히 넘어간다. */
+  if (!document.getElementById("strategySection")) {
+    return;
+  }
+
+
   const section =
     document.getElementById(
       "strategySection"
@@ -1077,6 +1084,13 @@ function performanceValue(value) {
 
 function renderPerformance(stats) {
 
+  /* Research Performance 구역은 은퇴했다 (고정 기간 판정).
+     요소가 없으면 조용히 넘어간다. */
+  if (!document.getElementById("performanceTable")) {
+    return;
+  }
+
+
   const table =
     document.getElementById(
       "performanceTable"
@@ -1237,6 +1251,13 @@ function renderPerformance(stats) {
    ========================================================= */
 
 function renderStatistics(data) {
+
+  /* Research Statistics 구역은 은퇴했다 (고정 기간 판정).
+     요소가 없으면 조용히 넘어간다. */
+  if (!document.getElementById("statisticsGrid")) {
+    return;
+  }
+
 
   const grid =
     document.getElementById(
@@ -1469,6 +1490,12 @@ function renderResearchTable(
   sortKey,
   limit
 ) {
+
+  /* Research 상세 구역은 은퇴했다 (고정 기간 판정). */
+  if (!document.getElementById("researchBody")) {
+    return;
+  }
+
 
   const body =
     document.getElementById(

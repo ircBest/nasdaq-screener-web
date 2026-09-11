@@ -1,4 +1,22 @@
 /* =========================================================
+   은퇴한 구역 대비 안전 대입
+
+   고정 기간(5·10·30일) 판정 구역들을 화면에서 내렸다.
+   그 요소를 건드리던 자리가 남아 있으면 null 참조로
+   화면 전체가 멈춘다. 없으면 조용히 넘어간다.
+   ========================================================= */
+
+function setHTML(id, html) {
+  const el = document.getElementById(id);
+  if (el) el.innerHTML = html;
+}
+
+function setText(id, text) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = text;
+}
+
+/* =========================================================
    main.js
    애플리케이션 진입점 / 이벤트 / 필터 / 전체 로딩
    ========================================================= */
@@ -719,12 +737,15 @@ async function ensureResearchLoaded() {
 }
 
 
-bindToggle(
-  researchToggle,
-  researchPanel,
-  researchCaret,
-  ensureResearchLoaded
-);
+/* Research 상세 구역은 은퇴했다. 요소가 없으면 묶지 않는다. */
+if (researchToggle && researchPanel) {
+  bindToggle(
+    researchToggle,
+    researchPanel,
+    researchCaret,
+    ensureResearchLoaded
+  );
+}
 
 
 if (researchSort) {
@@ -827,8 +848,13 @@ async function load() {
       loadLatestSignals(),
       fetchJSON("data.json"),
       fetchJSON("bsi.json"),
-      fetchJSON("statistics.json"),
-      loadStrategyIndex()
+
+      /* statistics.json / strategies 는 더 이상 받지 않는다.
+         고정 기간(5·10·30일) 판정이었고 화면에서 내렸다.
+         파일도 저장소에서 지웠으므로 요청하면 404 가 난다.
+         allSettled 라 터지지는 않지만 콘솔을 더럽힌다. */
+      Promise.resolve(null),
+      Promise.resolve(null)
     ]);
 
 
@@ -1038,21 +1064,17 @@ async function load() {
       statisticsResult.reason
     );
 
-    document.getElementById(
-      "statisticsGrid"
-    ).innerHTML = `
+    setHTML("statisticsGrid", `
       <div
         class="empty-state"
         style="grid-column:1/-1;"
       >
         Statistics 데이터 대기 중
       </div>
-    `;
+    `);
 
-    document.getElementById(
-      "performanceStatus"
-    ).textContent =
-      "데이터 대기 중";
+    setText("performanceStatus",
+      "데이터 대기 중");
 
     document.getElementById(
       "researchCompleted"
