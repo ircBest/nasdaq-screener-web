@@ -300,8 +300,6 @@ function render(info){
 
   const volAvailable = series && series.volume && series.volume.available;
 
-  const perfRows = history.filter(h=>h.alpha!=null);
-  const wins = perfRows.filter(h=>h.alpha>0).length;
 
   $("content").innerHTML = `
     <div class="detail-head">
@@ -390,29 +388,33 @@ function render(info){
       ${history.length ? `
         <div class="kv" style="margin-bottom:12px">
           <div><div class="k">신호 횟수</div><div class="v mono">${history.length}</div></div>
-          <div><div class="k">결과 확정</div><div class="v mono">${perfRows.length}</div>
-            <div class="n">진행중 ${history.length-perfRows.length}</div></div>
-          <div><div class="k">시장을 이긴 횟수</div>
-            <div class="v mono">${perfRows.length?wins+" / "+perfRows.length:"-"}</div></div>
+          <div><div class="k">관측 기간</div>
+            <div class="v mono">${escapeHTML(history[history.length-1]?.observation_date||"-")}</div>
+            <div class="n">~ ${escapeHTML(history[0]?.observation_date||"-")}</div></div>
         </div>
+
+        <div class="notice-box" style="margin-bottom:12px">
+          <strong>고정 기간 승패 표시를 내렸습니다.</strong>
+          여기에는 5일 뒤 수익률과 그에 따른 이김 / 짐이 있었습니다.
+          5일 · 10일 · 30일은 원래 시장 지수 대비를 재는 눈금이었는데,
+          그것이 어느새 투자 판단의 정답처럼 쓰이고 있었습니다.
+          같은 신호가 5일과 10일에 승패가 반대로 나오는 경우가
+          네 건 중 하나였습니다. 눈금을 목표로 착각한 것입니다.
+          지금은 보유 기간을 미리 정하지 않고 종목마다 언제 나갈지를
+          스스로 정하는 방식을 검증하는 중이며, 검증이 끝나기 전에는
+          성과를 표시하지 않습니다.
+        </div>
+
         <div class="table-scroll">
         <table class="research-table">
           <thead><tr>
             <th>발생일</th><th class="num">진입</th>
-            <th class="num">5일 수익률</th><th class="num">QQQ</th>
-            <th class="num">vs 시장</th><th>결과</th>
           </tr></thead>
           <tbody>
             ${history.map(h=>`
               <tr>
                 <td class="mono">${escapeHTML(h.observation_date||"-")}</td>
                 <td class="num mono">${fmtPrice(h.entry_price)}</td>
-                <td class="num mono ${h.ret!=null?changeClass(h.ret):""}">${h.ret!=null?fmtPctShort(h.ret):"-"}</td>
-                <td class="num mono ${h.bm!=null?changeClass(h.bm):""}">${h.bm!=null?fmtPctShort(h.bm):"-"}</td>
-                <td class="num mono ${h.alpha!=null?changeClass(h.alpha):""}">${h.alpha!=null?fmtPctShort(h.alpha):"-"}</td>
-                <td>${h.alpha==null?'<span class="tag">진행중</span>'
-                  : h.alpha>0?'<span class="tag up">이김</span>'
-                  : '<span class="tag down">짐</span>'}</td>
               </tr>`).join("")}
           </tbody>
         </table>
@@ -489,9 +491,11 @@ function fmtCompact(v){
   if(!TICKER){ fail("종목이 지정되지 않았습니다."); return; }
   document.title = TICKER + " · NASDAQ IT 스크리너";
 
-  const [signalsPayload, perfPayload, series, scan] = await Promise.all([
+  /* performance.json 은 더 이상 받지 않는다.
+     거기 들어 있는 것은 고정 기간(5일·10일·30일) 성과뿐이고,
+     이 화면은 그 틀로 승패를 표시하지 않는다. */
+  const [signalsPayload, series, scan] = await Promise.all([
     getJSON("signals.json"),
-    getJSON("performance.json"),
     getJSON(`tickers/${encodeURIComponent(TICKER)}.json`),
     getJSON("latest_signals.json")
   ]);
@@ -499,19 +503,14 @@ function fmtCompact(v){
   const signals = (signalsPayload?.signals || [])
     .filter(s => s && s.ticker === TICKER);
 
-  const outcomes = {};
-  (perfPayload?.performance || []).forEach(row=>{
-    if(row && row.signal_id) outcomes[row.signal_id] = row;
-  });
-
+  /* 고정 기간(5일) 성과를 더 이상 읽지 않는다.
+     5일·10일·30일은 시장 지수 대비를 재는 눈금이었는데
+     투자 판단의 정답처럼 쓰이고 있었다. 눈금을 목표로
+     착각한 것이다. 신호가 난 사실과 진입가만 남긴다. */
   const history = signals.map(s=>{
-    const o = outcomes[s.signal_id] || {};
     return {
       observation_date: s.observation_date,
-      entry_price: s.entry_price,
-      ret: o.return_5d_pct ?? null,
-      bm: o.benchmark_5d_pct ?? null,
-      alpha: o.alpha_5d_pct ?? null
+      entry_price: s.entry_price
     };
   }).sort((a,b)=>(b.observation_date||"").localeCompare(a.observation_date||""));
 
