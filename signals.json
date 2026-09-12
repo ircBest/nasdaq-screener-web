@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T04:43:15.687930+00:00",
+  "generated_at": "2026-09-12T00:26:19.425391+00:00",
   "total_signals": 889,
-  "completed": 594,
-  "pending": 295,
+  "completed": 680,
+  "pending": 209,
   "duplicate_sessions": {
     "2026-08-23": 52,
     "2026-08-24": 52,
@@ -10123,7 +10123,7 @@
       "operating_cash_flow_change_pct": 15.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VISN|2026-09-03",
@@ -10140,7 +10140,7 @@
       "operating_cash_flow_change_pct": 67.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ENRD|2026-09-03",
@@ -10157,7 +10157,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AIP|2026-09-03",
@@ -10174,7 +10174,7 @@
       "operating_cash_flow_change_pct": 229.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "LASR|2026-09-03",
@@ -10191,7 +10191,7 @@
       "operating_cash_flow_change_pct": 113.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CRDO|2026-09-03",
@@ -10208,7 +10208,7 @@
       "operating_cash_flow_change_pct": 9.6,
       "risk_reward": 2.0,
       "volume_direction": "down",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "LYTS|2026-09-03",
@@ -10225,7 +10225,7 @@
       "operating_cash_flow_change_pct": -72.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "POWI|2026-09-03",
@@ -10242,7 +10242,7 @@
       "operating_cash_flow_change_pct": 10.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "GFS|2026-09-03",
@@ -10259,7 +10259,7 @@
       "operating_cash_flow_change_pct": -25.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ADTN|2026-09-03",
@@ -10276,7 +10276,7 @@
       "operating_cash_flow_change_pct": 103.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AMAT|2026-09-03",
@@ -10293,7 +10293,7 @@
       "operating_cash_flow_change_pct": -49.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ICHR|2026-09-03",
@@ -10310,7 +10310,7 @@
       "operating_cash_flow_change_pct": -448.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ALGM|2026-09-03",
@@ -10327,7 +10327,7 @@
       "operating_cash_flow_change_pct": -38.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "EXTR|2026-09-03",
@@ -10344,7 +10344,7 @@
       "operating_cash_flow_change_pct": -71.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "RXT|2026-09-03",
@@ -10361,7 +10361,7 @@
       "operating_cash_flow_change_pct": -91.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "WYFI|2026-09-03",
@@ -10378,7 +10378,7 @@
       "operating_cash_flow_change_pct": -95.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MKSI|2026-09-03",
@@ -10395,7 +10395,7 @@
       "operating_cash_flow_change_pct": 358.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "KDK|2026-09-03",
@@ -10412,7 +10412,7 @@
       "operating_cash_flow_change_pct": -15.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ACLS|2026-09-03",
@@ -10429,7 +10429,7 @@
       "operating_cash_flow_change_pct": 1.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "KLAC|2026-09-03",
@@ -10446,7 +10446,7 @@
       "operating_cash_flow_change_pct": 28.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "KLIC|2026-09-03",
@@ -10463,7 +10463,7 @@
       "operating_cash_flow_change_pct": 338.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NXT|2026-09-03",
@@ -10480,7 +10480,7 @@
       "operating_cash_flow_change_pct": -29.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SWMR|2026-09-03",
@@ -10497,7 +10497,7 @@
       "operating_cash_flow_change_pct": -514.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SHLS|2026-09-03",
@@ -10514,7 +10514,7 @@
       "operating_cash_flow_change_pct": 116.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AOSL|2026-09-03",
@@ -10531,7 +10531,7 @@
       "operating_cash_flow_change_pct": -2.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CRUS|2026-09-03",
@@ -10548,7 +10548,7 @@
       "operating_cash_flow_change_pct": -57.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CEVA|2026-09-03",
@@ -10565,7 +10565,7 @@
       "operating_cash_flow_change_pct": -156.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SSYS|2026-09-03",
@@ -10582,7 +10582,7 @@
       "operating_cash_flow_change_pct": -50.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CDNS|2026-09-03",
@@ -10599,7 +10599,7 @@
       "operating_cash_flow_change_pct": 78.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DDOG|2026-09-03",
@@ -10616,7 +10616,7 @@
       "operating_cash_flow_change_pct": -5.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NVMI|2026-09-03",
@@ -10633,7 +10633,7 @@
       "operating_cash_flow_change_pct": 2.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "BELFB|2026-09-03",
@@ -10650,7 +10650,7 @@
       "operating_cash_flow_change_pct": 29.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "UCTT|2026-09-03",
@@ -10667,7 +10667,7 @@
       "operating_cash_flow_change_pct": -23.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "INOD|2026-09-03",
@@ -10684,7 +10684,7 @@
       "operating_cash_flow_change_pct": 241.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CCSI|2026-09-03",
@@ -10701,7 +10701,7 @@
       "operating_cash_flow_change_pct": -27.3,
       "risk_reward": 2.0,
       "volume_direction": "down",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VECO|2026-09-03",
@@ -10718,7 +10718,7 @@
       "operating_cash_flow_change_pct": -68.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VRRM|2026-09-03",
@@ -10735,7 +10735,7 @@
       "operating_cash_flow_change_pct": 38.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "BLZE|2026-09-03",
@@ -10752,7 +10752,7 @@
       "operating_cash_flow_change_pct": 205.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ADI|2026-09-03",
@@ -10769,7 +10769,7 @@
       "operating_cash_flow_change_pct": -36.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "RMBS|2026-09-03",
@@ -10786,7 +10786,7 @@
       "operating_cash_flow_change_pct": -26.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VNET|2026-09-03",
@@ -10803,7 +10803,7 @@
       "operating_cash_flow_change_pct": -76.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "LPTH|2026-09-03",
@@ -10820,7 +10820,7 @@
       "operating_cash_flow_change_pct": -342.9,
       "risk_reward": 2.0,
       "volume_direction": "up",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ON|2026-09-03",
@@ -10837,7 +10837,7 @@
       "operating_cash_flow_change_pct": 92.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "XNET|2026-09-03",
@@ -10854,7 +10854,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MPWR|2026-09-03",
@@ -10871,7 +10871,7 @@
       "operating_cash_flow_change_pct": -8.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ACMR|2026-09-03",
@@ -10888,7 +10888,7 @@
       "operating_cash_flow_change_pct": 78.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "TXN|2026-09-03",
@@ -10905,7 +10905,7 @@
       "operating_cash_flow_change_pct": 77.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "BELFA|2026-09-03",
@@ -10922,7 +10922,7 @@
       "operating_cash_flow_change_pct": 29.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AMBA|2026-09-03",
@@ -10939,7 +10939,7 @@
       "operating_cash_flow_change_pct": -235.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "EVLV|2026-09-03",
@@ -10956,7 +10956,7 @@
       "operating_cash_flow_change_pct": -120.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "FORM|2026-09-03",
@@ -10973,7 +10973,7 @@
       "operating_cash_flow_change_pct": -2.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CORZ|2026-09-03",
@@ -10990,7 +10990,7 @@
       "operating_cash_flow_change_pct": -107.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PLAB|2026-09-03",
@@ -11007,7 +11007,7 @@
       "operating_cash_flow_change_pct": -51.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VICR|2026-09-03",
@@ -11024,7 +11024,7 @@
       "operating_cash_flow_change_pct": 974.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "QNT|2026-09-03",
@@ -11041,7 +11041,7 @@
       "operating_cash_flow_change_pct": -92.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ARRY|2026-09-03",
@@ -11058,7 +11058,7 @@
       "operating_cash_flow_change_pct": 512.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "FLEX|2026-09-03",
@@ -11075,7 +11075,7 @@
       "operating_cash_flow_change_pct": -1.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AEVA|2026-09-03",
@@ -11092,7 +11092,7 @@
       "operating_cash_flow_change_pct": -20.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NTGR|2026-09-03",
@@ -11109,7 +11109,7 @@
       "operating_cash_flow_change_pct": -737.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ENPH|2026-09-03",
@@ -11126,7 +11126,7 @@
       "operating_cash_flow_change_pct": -60.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "OSIS|2026-09-03",
@@ -11143,7 +11143,7 @@
       "operating_cash_flow_change_pct": -76.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PENG|2026-09-03",
@@ -11160,7 +11160,7 @@
       "operating_cash_flow_change_pct": -236.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DGII|2026-09-03",
@@ -11177,7 +11177,7 @@
       "operating_cash_flow_change_pct": -19.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VIAV|2026-09-03",
@@ -11194,7 +11194,7 @@
       "operating_cash_flow_change_pct": -161.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "GILT|2026-09-03",
@@ -11211,7 +11211,7 @@
       "operating_cash_flow_change_pct": 84.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PDFS|2026-09-03",
@@ -11228,7 +11228,7 @@
       "operating_cash_flow_change_pct": 864.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "APLD|2026-09-03",
@@ -11245,7 +11245,7 @@
       "operating_cash_flow_change_pct": 448.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NTCT|2026-09-03",
@@ -11262,7 +11262,7 @@
       "operating_cash_flow_change_pct": -66.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AKAM|2026-09-03",
@@ -11279,7 +11279,7 @@
       "operating_cash_flow_change_pct": 4.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "FSLR|2026-09-03",
@@ -11296,7 +11296,7 @@
       "operating_cash_flow_change_pct": 32.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ARM|2026-09-03",
@@ -11313,7 +11313,7 @@
       "operating_cash_flow_change_pct": 246.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PLXS|2026-09-03",
@@ -11330,7 +11330,7 @@
       "operating_cash_flow_change_pct": -9.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "QBTS|2026-09-03",
@@ -11347,7 +11347,7 @@
       "operating_cash_flow_change_pct": 36.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CAMT|2026-09-03",
@@ -11364,7 +11364,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NVTS|2026-09-03",
@@ -11381,7 +11381,7 @@
       "operating_cash_flow_change_pct": -95.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PONY|2026-09-03",
@@ -11398,7 +11398,7 @@
       "operating_cash_flow_change_pct": -159.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "COHU|2026-09-03",
@@ -11415,7 +11415,7 @@
       "operating_cash_flow_change_pct": 1.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SYNA|2026-09-03",
@@ -11432,7 +11432,7 @@
       "operating_cash_flow_change_pct": -26.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "BRUN|2026-09-03",
@@ -11449,7 +11449,7 @@
       "operating_cash_flow_change_pct": -19.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "LIF|2026-09-03",
@@ -11466,7 +11466,7 @@
       "operating_cash_flow_change_pct": -53.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AMKR|2026-09-03",
@@ -11483,7 +11483,7 @@
       "operating_cash_flow_change_pct": 63.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CLBT|2026-09-03",
@@ -11500,7 +11500,7 @@
       "operating_cash_flow_change_pct": -77.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "RZLV|2026-09-03",
@@ -11517,7 +11517,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "FEIM|2026-09-03",
@@ -11534,7 +11534,7 @@
       "operating_cash_flow_change_pct": 250.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NSSC|2026-09-03",
@@ -11551,7 +11551,7 @@
       "operating_cash_flow_change_pct": 11.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "LRCX|2026-09-03",
@@ -11568,7 +11568,7 @@
       "operating_cash_flow_change_pct": 27.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "EVCM|2026-09-04",
