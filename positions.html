@@ -73,6 +73,13 @@ small.tag{font-size:10px;color:var(--text-faint);margin-left:5px;
   background:var(--surface-3);color:var(--text-dim)}
 .state.out{background:rgba(62,207,142,.14);color:var(--green)}
 .state.wait{background:rgba(255,176,32,.14);color:var(--amber)}
+.state.blind{background:rgba(255,92,92,.14);color:var(--red)}
+
+.alarm{background:rgba(255,92,92,.08);border:1px solid rgba(255,92,92,.3);
+  border-left:3px solid var(--red);border-radius:var(--radius);
+  padding:14px 16px;margin-bottom:22px;font-size:13px;
+  color:var(--text-dim);line-height:1.7}
+.alarm b{color:var(--red)}
 
 .hold{display:flex;align-items:center;gap:7px;min-width:92px}
 .hold .track{flex:1;height:5px;border-radius:999px;
@@ -165,7 +172,9 @@ function held(row) {
 
 function state(row) {
   const s = row.state || "";
-  const cls = s === "청산" ? "out" : (s === "대기" ? "wait" : "");
+  const cls = s === "청산" ? "out"
+            : (s === "대기" ? "wait"
+            : (s === "판단불가" ? "blind" : ""));
   const why = row.exit_reason ? ` title="${esc(row.exit_reason)}"` : "";
   return `<span class="state ${cls}"${why}>${esc(s)}</span>`;
 }
@@ -256,6 +265,13 @@ function render(d) {
       <div><div class="k">보유 중</div><div class="v">${s.holding ?? "—"}</div></div>
       <div><div class="k">청산됨</div><div class="v">${s.closed ?? "—"}</div></div>
     </div>
+
+    ${s.unjudged ? `<div class="alarm">
+      <b>지금 ${s.unjudged}건은 팔지 말지를 한 번도 판단하지 못했습니다.</b>
+      비교 기준으로 쓰는 시장 지수 자료가 밀려 있어서입니다.
+      "안 팔기로 했다" 가 아니라 <b>판단 자체가 안 된 상태</b>이며,
+      그대로 적어 둡니다. 자료가 채워지면 저절로 풀립니다.
+    </div>` : ""}
 
     ${seals.map(seal => {
       const rows = (seal.positions || []).filter(r => r.entry_date);
