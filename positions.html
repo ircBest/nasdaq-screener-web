@@ -14,6 +14,13 @@
   padding:14px 16px;margin-bottom:22px;font-size:13px;
   color:var(--text-dim);line-height:1.7}
 
+.how{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius);padding:15px 18px;margin-bottom:22px;
+  font-size:13px;line-height:1.75;color:var(--text-dim)}
+.how b{color:var(--text)}
+.how p{margin:8px 0 0}
+.how .band{margin:0 2px}
+
 .tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
   gap:10px;margin-bottom:26px}
 .tally div{background:var(--surface-2);border:1px solid var(--border);
@@ -58,6 +65,8 @@ table.led td.dim{color:var(--text-faint)}
 .ret.minus{color:var(--red)}
 .ret.flat{color:var(--text-dim)}
 .ret small{font-weight:500;color:var(--text-faint);margin-left:5px}
+small.tag{font-size:10px;color:var(--text-faint);margin-left:5px;
+  font-variant-numeric:normal}
 
 .state{display:inline-block;padding:2px 8px;border-radius:999px;
   font-size:10px;font-weight:700;white-space:nowrap;
@@ -129,6 +138,19 @@ function ret(row) {
   return `<span class="ret ${cls}">${sign}${v.toFixed(2)}%${tail}</span>`;
 }
 
+/* 기준일 한 칸.
+   청산된 것은 청산일, 아직 들고 있는 것은 최근 거래일이다.
+   둘을 같은 칸에 넣으므로 어느 쪽인지 칸 안에 적는다 —
+   전에는 헤더가 '청산일' 이라 아직 안 판 것도 판 것처럼 보였다. */
+function asof(row) {
+  const closed = row.exit_date != null;
+  const day = closed ? row.exit_date : row.last_date;
+
+  if (!day) return "—";
+
+  return `${esc(day)} <small class="tag">${closed ? "청산" : "현재"}</small>`;
+}
+
 function held(row) {
   if (row.held_days == null) return '<span class="dim">—</span>';
 
@@ -184,7 +206,7 @@ function table(rows) {
       <td><span class="band ${r.band === "높게 본 20" ? "up" : "down"}">${esc(r.band)}</span></td>
       <td class="dim">${esc(r.entry_date || "—")}</td>
       <td>${money(r.entry_price)}</td>
-      <td class="dim">${esc(r.exit_date || r.last_date || "—")}</td>
+      <td class="dim">${asof(r)}</td>
       <td>${money(r.exit_price != null ? r.exit_price : r.last_price)}</td>
       <td>${ret(r)}</td>
       <td>${held(r)}</td>
@@ -195,7 +217,7 @@ function table(rows) {
       <thead><tr>
         <th>종목</th><th>판단</th>
         <th>진입일</th><th>진입가</th>
-        <th>청산일</th><th>청산가</th>
+        <th>기준일</th><th>기준가</th>
         <th>수익률</th><th>보유</th><th>상태</th>
       </tr></thead>
       <tbody>${body}</tbody>
@@ -212,6 +234,21 @@ function render(d) {
 
   const html = `
     <div class="note">${esc(d.note || "")}</div>
+
+    <div class="how">
+      <b>어떻게 읽나요</b>
+      <p>그날 살펴본 300여 종목을 기대되는 순서대로 줄 세웁니다.
+         그중 <span class="band up">높게 본 20</span> 은 맨 앞 스무 개,
+         <span class="band down">낮게 본 20</span> 은 맨 뒤 스무 개입니다.
+         "사라 / 사지 마라" 로 가른 것이 아니라 <b>순서</b>입니다.</p>
+      <p>낮게 본 쪽을 굳이 같이 싣는 이유는, 오르는 장에서는 무엇을
+         골라도 오르기 때문입니다. 높게 본 것이 올랐는지보다
+         <b>높게 본 것이 낮게 본 것보다 나았는지</b>가 진짜 물음입니다.
+         그래서 날마다 두 쪽을 견줘 줄이 맞았는지 적습니다.</p>
+      <p>아직 아무것도 팔지 않았습니다. <b>기준일</b>은 청산된 것은
+         청산일이고, 들고 있는 것은 마지막 거래일입니다 —
+         칸 안에 어느 쪽인지 적혀 있습니다.</p>
+    </div>
 
     <div class="tally">
       <div><div class="k">판단한 날</div><div class="v">${s.seals ?? "—"}</div></div>
@@ -249,8 +286,7 @@ function render(d) {
       수익률은 진입일 종가 대비입니다.
       <b>평가</b> 표시가 붙은 것은 아직 보유 중이라 확정된 손익이 아닙니다 —
       관찰 기간(${d.window || 60}거래일)이 끝날 때까지 계속 바뀝니다.<br>
-      낮게 본 쪽을 함께 적는 이유는, 높게 본 것이 올랐는지보다
-      <b>높게 본 것이 낮게 본 것보다 나았는지</b>가 진짜 물음이기 때문입니다.<br>
+
       갱신 ${esc((d.generated_at || "").slice(0, 16).replace("T", " "))} UTC
     </div>`;
 
