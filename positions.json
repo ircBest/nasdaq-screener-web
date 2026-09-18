@@ -1,0 +1,1996 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-18T08:04:25.847153+00:00",
+  "window": 60,
+  "note": "어느 날 어느 종목을 높게 봤는지 먼저 적어 두고, 그 뒤 60거래일 동안 어떻게 되는지 따라갑니다. 아직 따라가는 중인 것은 확정된 손익이 아닙니다.",
+  "summary": {
+    "seals": 5,
+    "positions": 119,
+    "closed": 0,
+    "holding": 119
+  },
+  "seals": [
+    {
+      "observation_date": "2026-09-11",
+      "listed": 40,
+      "positions": [
+        {
+          "ticker": "PSQL",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 8.31,
+          "last_date": "2026-09-17",
+          "last_price": 7.91,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -4.81,
+          "unrealized": true
+        },
+        {
+          "ticker": "TTAN",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 58.99,
+          "last_date": "2026-09-17",
+          "last_price": 54.25,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -8.04,
+          "unrealized": true
+        },
+        {
+          "ticker": "WLTH",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 10.65,
+          "last_date": "2026-09-17",
+          "last_price": 10.1,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -5.16,
+          "unrealized": true
+        },
+        {
+          "ticker": "OKTA",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 186.45,
+          "last_date": "2026-09-17",
+          "last_price": 190.02,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 1.91,
+          "unrealized": true
+        },
+        {
+          "ticker": "NAVN",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 21.37,
+          "last_date": "2026-09-17",
+          "last_price": 22.13,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 3.56,
+          "unrealized": true
+        },
+        {
+          "ticker": "BVC",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 15.1,
+          "last_date": "2026-09-17",
+          "last_price": 13.53,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -10.4,
+          "unrealized": true
+        },
+        {
+          "ticker": "BRZE",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 25.6,
+          "last_date": "2026-09-17",
+          "last_price": 24.93,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -2.62,
+          "unrealized": true
+        },
+        {
+          "ticker": "VISN",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 6.465,
+          "last_date": "2026-09-17",
+          "last_price": 6.45,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.23,
+          "unrealized": true
+        },
+        {
+          "ticker": "MSTR",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 136.94,
+          "last_date": "2026-09-17",
+          "last_price": 132.25,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -3.42,
+          "unrealized": true
+        },
+        {
+          "ticker": "NUAI",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 5.6,
+          "last_date": "2026-09-17",
+          "last_price": 5.81,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 3.75,
+          "unrealized": true
+        },
+        {
+          "ticker": "MNDY",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 96.105,
+          "last_date": "2026-09-17",
+          "last_price": 90.29,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -6.05,
+          "unrealized": true
+        },
+        {
+          "ticker": "CRWD",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 235.38,
+          "last_date": "2026-09-17",
+          "last_price": 245.7,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 4.38,
+          "unrealized": true
+        },
+        {
+          "ticker": "WIX",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 83.33,
+          "last_date": "2026-09-17",
+          "last_price": 79.9,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -4.12,
+          "unrealized": true
+        },
+        {
+          "ticker": "QMCO",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 22.83,
+          "last_date": "2026-09-17",
+          "last_price": 24.94,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 9.24,
+          "unrealized": true
+        },
+        {
+          "ticker": "GTLB",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 49.25,
+          "last_date": "2026-09-17",
+          "last_price": 50.27,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 2.07,
+          "unrealized": true
+        },
+        {
+          "ticker": "WDAY",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 194.21,
+          "last_date": "2026-09-17",
+          "last_price": 199.28,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 2.61,
+          "unrealized": true
+        },
+        {
+          "ticker": "LITE",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 835.03,
+          "last_date": "2026-09-17",
+          "last_price": 893.61,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 7.02,
+          "unrealized": true
+        },
+        {
+          "ticker": "DUOL",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 151.14,
+          "last_date": "2026-09-17",
+          "last_price": 147.1,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -2.67,
+          "unrealized": true
+        },
+        {
+          "ticker": "SWKS",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 79.26,
+          "last_date": "2026-09-17",
+          "last_price": 91.32,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 15.22,
+          "unrealized": true
+        },
+        {
+          "ticker": "RZLV",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 2.29,
+          "last_date": "2026-09-17",
+          "last_price": 2.27,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.87,
+          "unrealized": true
+        },
+        {
+          "ticker": "MCHP",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 71.48,
+          "last_date": "2026-09-17",
+          "last_price": 70.82,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.92,
+          "unrealized": true
+        },
+        {
+          "ticker": "AMAT",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 424.21,
+          "last_date": "2026-09-17",
+          "last_price": 417.4,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -1.61,
+          "unrealized": true
+        },
+        {
+          "ticker": "KLAC",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 169.09,
+          "last_date": "2026-09-17",
+          "last_price": 168.98,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.07,
+          "unrealized": true
+        },
+        {
+          "ticker": "BRAI",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 5.55,
+          "last_date": "2026-09-17",
+          "last_price": 5.52,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.54,
+          "unrealized": true
+        },
+        {
+          "ticker": "MKSI",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 239.27,
+          "last_date": "2026-09-17",
+          "last_price": 240.23,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 0.4,
+          "unrealized": true
+        },
+        {
+          "ticker": "NXPI",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 224.23,
+          "last_date": "2026-09-17",
+          "last_price": 227.95,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 1.66,
+          "unrealized": true
+        },
+        {
+          "ticker": "LASR",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 38.45,
+          "last_date": "2026-09-17",
+          "last_price": 38.43,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.05,
+          "unrealized": true
+        },
+        {
+          "ticker": "RMBS",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 80.39,
+          "last_date": "2026-09-17",
+          "last_price": 85.87,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 6.82,
+          "unrealized": true
+        },
+        {
+          "ticker": "VECO",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 40.9,
+          "last_date": "2026-09-17",
+          "last_price": 41.41,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 1.25,
+          "unrealized": true
+        },
+        {
+          "ticker": "ARM",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 239.01,
+          "last_date": "2026-09-17",
+          "last_price": 264.9,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 10.83,
+          "unrealized": true
+        },
+        {
+          "ticker": "ARRY",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 4.41,
+          "last_date": "2026-09-17",
+          "last_price": 4.24,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -3.85,
+          "unrealized": true
+        },
+        {
+          "ticker": "ICHR",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 51.38,
+          "last_date": "2026-09-17",
+          "last_price": 52.955,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 3.07,
+          "unrealized": true
+        },
+        {
+          "ticker": "ALGM",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 33.85,
+          "last_date": "2026-09-17",
+          "last_price": 33.11,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -2.19,
+          "unrealized": true
+        },
+        {
+          "ticker": "INOD",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 55.24,
+          "last_date": "2026-09-17",
+          "last_price": 56.98,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 3.15,
+          "unrealized": true
+        },
+        {
+          "ticker": "ADTN",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 7.04,
+          "last_date": "2026-09-17",
+          "last_price": 7.1,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 0.85,
+          "unrealized": true
+        },
+        {
+          "ticker": "EXTR",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 21.63,
+          "last_date": "2026-09-17",
+          "last_price": 22.31,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 3.14,
+          "unrealized": true
+        },
+        {
+          "ticker": "POWI",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 48.51,
+          "last_date": "2026-09-17",
+          "last_price": 49.15,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 1.32,
+          "unrealized": true
+        },
+        {
+          "ticker": "AIP",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 20.61,
+          "last_date": "2026-09-17",
+          "last_price": 22.37,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 8.54,
+          "unrealized": true
+        },
+        {
+          "ticker": "ON",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 71.65,
+          "last_date": "2026-09-17",
+          "last_price": 68.3,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -4.68,
+          "unrealized": true
+        },
+        {
+          "ticker": "GFS",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 43.54,
+          "last_date": "2026-09-17",
+          "last_price": 45.84,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 5.28,
+          "unrealized": true
+        }
+      ]
+    },
+    {
+      "observation_date": "2026-09-12",
+      "listed": 40,
+      "positions": [
+        {
+          "ticker": "PSQL",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 8.31,
+          "last_date": "2026-09-17",
+          "last_price": 7.91,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -4.81,
+          "unrealized": true
+        },
+        {
+          "ticker": "OKTA",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 186.45,
+          "last_date": "2026-09-17",
+          "last_price": 190.02,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 1.91,
+          "unrealized": true
+        },
+        {
+          "ticker": "MSTR",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 136.94,
+          "last_date": "2026-09-17",
+          "last_price": 132.25,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -3.42,
+          "unrealized": true
+        },
+        {
+          "ticker": "BVC",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 15.1,
+          "last_date": "2026-09-17",
+          "last_price": 13.53,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -10.4,
+          "unrealized": true
+        },
+        {
+          "ticker": "NUAI",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 5.6,
+          "last_date": "2026-09-17",
+          "last_price": 5.81,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 3.75,
+          "unrealized": true
+        },
+        {
+          "ticker": "QMCO",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 22.83,
+          "last_date": "2026-09-17",
+          "last_price": 24.94,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 9.24,
+          "unrealized": true
+        },
+        {
+          "ticker": "TEAM",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 192.77,
+          "last_date": "2026-09-17",
+          "last_price": 192.53,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.12,
+          "unrealized": true
+        },
+        {
+          "ticker": "MGRT",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 120.425,
+          "last_date": "2026-09-17",
+          "last_price": 118.0,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -2.01,
+          "unrealized": true
+        },
+        {
+          "ticker": "CRWD",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 235.38,
+          "last_date": "2026-09-17",
+          "last_price": 245.7,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 4.38,
+          "unrealized": true
+        },
+        {
+          "ticker": "VISN",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 6.465,
+          "last_date": "2026-09-17",
+          "last_price": 6.45,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.23,
+          "unrealized": true
+        },
+        {
+          "ticker": "GTLB",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 49.25,
+          "last_date": "2026-09-17",
+          "last_price": 50.27,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 2.07,
+          "unrealized": true
+        },
+        {
+          "ticker": "AXTI",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 57.06,
+          "last_date": "2026-09-17",
+          "last_price": 67.75,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 18.73,
+          "unrealized": true
+        },
+        {
+          "ticker": "BULL",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 9.04,
+          "last_date": "2026-09-17",
+          "last_price": 7.71,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -14.71,
+          "unrealized": true
+        },
+        {
+          "ticker": "COIN",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 191.45,
+          "last_date": "2026-09-17",
+          "last_price": 173.97,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -9.13,
+          "unrealized": true
+        },
+        {
+          "ticker": "LPTH",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 9.11,
+          "last_date": "2026-09-17",
+          "last_price": 10.11,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 10.98,
+          "unrealized": true
+        },
+        {
+          "ticker": "LITE",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 835.03,
+          "last_date": "2026-09-17",
+          "last_price": 893.61,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 7.02,
+          "unrealized": true
+        },
+        {
+          "ticker": "SMTC",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 147.05,
+          "last_date": "2026-09-17",
+          "last_price": 178.19,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 21.18,
+          "unrealized": true
+        },
+        {
+          "ticker": "PAYP",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 18.68,
+          "last_date": "2026-09-17",
+          "last_price": 17.91,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -4.12,
+          "unrealized": true
+        },
+        {
+          "ticker": "STRD",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 75.34,
+          "last_date": "2026-09-17",
+          "last_price": 71.6,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -4.96,
+          "unrealized": true
+        },
+        {
+          "ticker": "BRZE",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 25.6,
+          "last_date": "2026-09-17",
+          "last_price": 24.93,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -2.62,
+          "unrealized": true
+        },
+        {
+          "ticker": "LASR",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 38.45,
+          "last_date": "2026-09-17",
+          "last_price": 38.43,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.05,
+          "unrealized": true
+        },
+        {
+          "ticker": "MCHP",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 71.48,
+          "last_date": "2026-09-17",
+          "last_price": 70.82,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -0.92,
+          "unrealized": true
+        },
+        {
+          "ticker": "GILT",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 9.7,
+          "last_date": "2026-09-17",
+          "last_price": 9.95,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 2.58,
+          "unrealized": true
+        },
+        {
+          "ticker": "MKSI",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 239.27,
+          "last_date": "2026-09-17",
+          "last_price": 240.23,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 0.4,
+          "unrealized": true
+        },
+        {
+          "ticker": "INOD",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 55.24,
+          "last_date": "2026-09-17",
+          "last_price": 56.98,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 3.15,
+          "unrealized": true
+        },
+        {
+          "ticker": "NXT",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 82.62,
+          "last_date": "2026-09-17",
+          "last_price": 83.36,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 0.9,
+          "unrealized": true
+        },
+        {
+          "ticker": "GRAB",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 3.02,
+          "last_date": "2026-09-17",
+          "last_price": 2.81,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -6.95,
+          "unrealized": true
+        },
+        {
+          "ticker": "ALGM",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 33.85,
+          "last_date": "2026-09-17",
+          "last_price": 33.11,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -2.19,
+          "unrealized": true
+        },
+        {
+          "ticker": "CDNS",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 279.06,
+          "last_date": "2026-09-17",
+          "last_price": 280.76,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 0.61,
+          "unrealized": true
+        },
+        {
+          "ticker": "ON",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 71.65,
+          "last_date": "2026-09-17",
+          "last_price": 68.3,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -4.68,
+          "unrealized": true
+        },
+        {
+          "ticker": "AOSL",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 24.22,
+          "last_date": "2026-09-17",
+          "last_price": 25.21,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 4.09,
+          "unrealized": true
+        },
+        {
+          "ticker": "AIP",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 20.61,
+          "last_date": "2026-09-17",
+          "last_price": 22.37,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 8.54,
+          "unrealized": true
+        },
+        {
+          "ticker": "ARRY",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 4.41,
+          "last_date": "2026-09-17",
+          "last_price": 4.24,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -3.85,
+          "unrealized": true
+        },
+        {
+          "ticker": "EVCM",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 7.56,
+          "last_date": "2026-09-17",
+          "last_price": 7.68,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 1.59,
+          "unrealized": true
+        },
+        {
+          "ticker": "ADTN",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 7.04,
+          "last_date": "2026-09-17",
+          "last_price": 7.1,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 0.85,
+          "unrealized": true
+        },
+        {
+          "ticker": "EXTR",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 21.63,
+          "last_date": "2026-09-17",
+          "last_price": 22.31,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 3.14,
+          "unrealized": true
+        },
+        {
+          "ticker": "KDK",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 3.74,
+          "last_date": "2026-09-17",
+          "last_price": 3.83,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 2.41,
+          "unrealized": true
+        },
+        {
+          "ticker": "GFS",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 43.54,
+          "last_date": "2026-09-17",
+          "last_price": 45.84,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 5.28,
+          "unrealized": true
+        },
+        {
+          "ticker": "VRRM",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 3.63,
+          "last_date": "2026-09-17",
+          "last_price": 3.41,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": -6.06,
+          "unrealized": true
+        },
+        {
+          "ticker": "POWI",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-14",
+          "entry_price": 48.51,
+          "last_date": "2026-09-17",
+          "last_price": 49.15,
+          "held_days": 3,
+          "window": 60,
+          "return_pct": 1.32,
+          "unrealized": true
+        }
+      ]
+    },
+    {
+      "observation_date": "2026-09-15",
+      "listed": 40,
+      "positions": [
+        {
+          "ticker": "PSQL",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 7.45,
+          "last_date": "2026-09-17",
+          "last_price": 7.91,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 6.17,
+          "unrealized": true
+        },
+        {
+          "ticker": "HQ",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 13.56,
+          "last_date": "2026-09-17",
+          "last_price": 13.51,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -0.37,
+          "unrealized": true
+        },
+        {
+          "ticker": "FEIM",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 84.6,
+          "last_date": "2026-09-17",
+          "last_price": 83.82,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -0.92,
+          "unrealized": true
+        },
+        {
+          "ticker": "AXTI",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 64.3,
+          "last_date": "2026-09-17",
+          "last_price": 67.75,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 5.37,
+          "unrealized": true
+        },
+        {
+          "ticker": "SMTC",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 167.55,
+          "last_date": "2026-09-17",
+          "last_price": 178.19,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 6.35,
+          "unrealized": true
+        },
+        {
+          "ticker": "BVC",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 14.29,
+          "last_date": "2026-09-17",
+          "last_price": 13.53,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -5.32,
+          "unrealized": true
+        },
+        {
+          "ticker": "NUAI",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 5.41,
+          "last_date": "2026-09-17",
+          "last_price": 5.81,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 7.39,
+          "unrealized": true
+        },
+        {
+          "ticker": "SIMO",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 241.14,
+          "last_date": "2026-09-17",
+          "last_price": 253.3,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 5.04,
+          "unrealized": true
+        },
+        {
+          "ticker": "AEHR",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 84.25,
+          "last_date": "2026-09-17",
+          "last_price": 90.55,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 7.48,
+          "unrealized": true
+        },
+        {
+          "ticker": "MSTR",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 126.18,
+          "last_date": "2026-09-17",
+          "last_price": 132.25,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 4.81,
+          "unrealized": true
+        },
+        {
+          "ticker": "BAND",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 48.93,
+          "last_date": "2026-09-17",
+          "last_price": 50.51,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 3.23,
+          "unrealized": true
+        },
+        {
+          "ticker": "LITE",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 919.4,
+          "last_date": "2026-09-17",
+          "last_price": 893.61,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -2.81,
+          "unrealized": true
+        },
+        {
+          "ticker": "MGRT",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 118.01,
+          "last_date": "2026-09-17",
+          "last_price": 118.0,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -0.01,
+          "unrealized": true
+        },
+        {
+          "ticker": "QMCO",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 23.83,
+          "last_date": "2026-09-17",
+          "last_price": 24.94,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 4.66,
+          "unrealized": true
+        },
+        {
+          "ticker": "VISN",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 6.51,
+          "last_date": "2026-09-17",
+          "last_price": 6.45,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -0.92,
+          "unrealized": true
+        },
+        {
+          "ticker": "COHU",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 51.06,
+          "last_date": "2026-09-17",
+          "last_price": 55.0,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 7.72,
+          "unrealized": true
+        },
+        {
+          "ticker": "MXL",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 69.51,
+          "last_date": "2026-09-17",
+          "last_price": 74.99,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 7.88,
+          "unrealized": true
+        },
+        {
+          "ticker": "SWMR",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "SMCI",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 36.85,
+          "last_date": "2026-09-17",
+          "last_price": 40.35,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 9.5,
+          "unrealized": true
+        },
+        {
+          "ticker": "SITM",
+          "band": "높게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 548.9,
+          "last_date": "2026-09-17",
+          "last_price": 598.6,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 9.05,
+          "unrealized": true
+        },
+        {
+          "ticker": "ITRI",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 92.14,
+          "last_date": "2026-09-17",
+          "last_price": 91.38,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -0.82,
+          "unrealized": true
+        },
+        {
+          "ticker": "INOD",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 55.41,
+          "last_date": "2026-09-17",
+          "last_price": 56.98,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 2.83,
+          "unrealized": true
+        },
+        {
+          "ticker": "OSIS",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 201.75,
+          "last_date": "2026-09-17",
+          "last_price": 200.35,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -0.69,
+          "unrealized": true
+        },
+        {
+          "ticker": "DGII",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 70.13,
+          "last_date": "2026-09-17",
+          "last_price": 72.66,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 3.61,
+          "unrealized": true
+        },
+        {
+          "ticker": "ITRN",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 51.55,
+          "last_date": "2026-09-17",
+          "last_price": 52.73,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 2.29,
+          "unrealized": true
+        },
+        {
+          "ticker": "WSE",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 11.71,
+          "last_date": "2026-09-17",
+          "last_price": 11.72,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 0.09,
+          "unrealized": true
+        },
+        {
+          "ticker": "GFS",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 43.03,
+          "last_date": "2026-09-17",
+          "last_price": 45.84,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 6.53,
+          "unrealized": true
+        },
+        {
+          "ticker": "BSY",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 31.1,
+          "last_date": "2026-09-17",
+          "last_price": 31.41,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 1.0,
+          "unrealized": true
+        },
+        {
+          "ticker": "CLBT",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 11.43,
+          "last_date": "2026-09-17",
+          "last_price": 11.82,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 3.41,
+          "unrealized": true
+        },
+        {
+          "ticker": "ENRD",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 3.78,
+          "last_date": "2026-09-17",
+          "last_price": 4.0,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 5.82,
+          "unrealized": true
+        },
+        {
+          "ticker": "AVGO",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 339.51,
+          "last_date": "2026-09-17",
+          "last_price": 347.3,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 2.29,
+          "unrealized": true
+        },
+        {
+          "ticker": "CDNS",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 279.9,
+          "last_date": "2026-09-17",
+          "last_price": 280.76,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 0.31,
+          "unrealized": true
+        },
+        {
+          "ticker": "EVLV",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 5.045,
+          "last_date": "2026-09-17",
+          "last_price": 5.04,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -0.1,
+          "unrealized": true
+        },
+        {
+          "ticker": "NTCT",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 38.51,
+          "last_date": "2026-09-17",
+          "last_price": 39.27,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 1.97,
+          "unrealized": true
+        },
+        {
+          "ticker": "NDAQ",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 88.76,
+          "last_date": "2026-09-17",
+          "last_price": 91.31,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 2.87,
+          "unrealized": true
+        },
+        {
+          "ticker": "GRAB",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 2.87,
+          "last_date": "2026-09-17",
+          "last_price": 2.81,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -2.09,
+          "unrealized": true
+        },
+        {
+          "ticker": "EXTR",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 21.89,
+          "last_date": "2026-09-17",
+          "last_price": 22.31,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": 1.92,
+          "unrealized": true
+        },
+        {
+          "ticker": "DAKT",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 17.56,
+          "last_date": "2026-09-17",
+          "last_price": 17.44,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -0.68,
+          "unrealized": true
+        },
+        {
+          "ticker": "EVCM",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 7.95,
+          "last_date": "2026-09-17",
+          "last_price": 7.68,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -3.4,
+          "unrealized": true
+        },
+        {
+          "ticker": "VRRM",
+          "band": "낮게 본 20",
+          "state": "보유중",
+          "entry_date": "2026-09-16",
+          "entry_price": 3.54,
+          "last_date": "2026-09-17",
+          "last_price": 3.41,
+          "held_days": 1,
+          "window": 60,
+          "return_pct": -3.67,
+          "unrealized": true
+        }
+      ]
+    },
+    {
+      "observation_date": "2026-09-17",
+      "listed": 40,
+      "positions": [
+        {
+          "ticker": "PSQL",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "FEIM",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "OKTA",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "MSTR",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "BVC",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "NUAI",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "RPD",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "COIN",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "MGRT",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "TEAM",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "CRWD",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "VISN",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "SMTC",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "BTDR",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "PAYP",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "AXTI",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "GTLB",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "QMCO",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "CIFR",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "FSLY",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "AOSL",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "MCHP",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ON",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ITRI",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "HLIT",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ITRN",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "AMAT",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "BSY",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ADTN",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "AVGO",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "NYAX",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "NDAQ",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "POWI",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "EXTR",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ARRY",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "CDNS",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "GRAB",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "DAKT",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "GFS",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "VRRM",
+          "band": "낮게 본 20",
+          "state": "대기"
+        }
+      ]
+    },
+    {
+      "observation_date": "2026-09-18",
+      "listed": 40,
+      "positions": [
+        {
+          "ticker": "PSQL",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "FEIM",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "HQ",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "OKTA",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "RPD",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "BVC",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "VISN",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "CRWD",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "MGRT",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "SAIL",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "MSTR",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "NTSK",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "NUAI",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "LITE",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "TEAM",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ZS",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "KPLT",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "PANW",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "TENB",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "QLYS",
+          "band": "높게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ADTN",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "NDAQ",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "NXT",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "NOVT",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "PAYO",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ITRI",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ACLS",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "AVGO",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "EXTR",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ARRY",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "WSE",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "AMAT",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "DSP",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "POWI",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ALGM",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "ENRD",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "DAKT",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "GRAB",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "GFS",
+          "band": "낮게 본 20",
+          "state": "대기"
+        },
+        {
+          "ticker": "VRRM",
+          "band": "낮게 본 20",
+          "state": "대기"
+        }
+      ]
+    }
+  ]
+}
