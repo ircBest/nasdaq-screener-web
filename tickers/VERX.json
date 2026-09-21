@@ -1,1 +1,32 @@
-{"ticker":"VERX","generated_at":"2026-09-20T08:31:21.466378+00:00","points":[{"d":"2026-09-18","c":11.96,"h":12.38,"l":11.83,"v":2458948}],"signals":[{"signal_id":"VERX|2026-09-19","date":"2026-09-19","entry":11.96,"target":13.81,"stop":11.03,"rsi":39.3886}],"volume":{"available":true,"days":1,"average":2458948,"latest":2458948,"ratio":1.0,"window":1},"volume_note":"하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."}
+{
+  "ticker": "VERX",
+  "generated_at": "2026-09-21T09:15:26.115427+00:00",
+  "points": [
+    {
+      "d": "2026-09-18",
+      "c": 11.96,
+      "h": 12.38,
+      "l": 11.83,
+      "v": 2468954
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "VERX|2026-09-19",
+      "date": "2026-09-19",
+      "entry": 11.96,
+      "target": 13.81,
+      "stop": 11.03,
+      "rsi": 39.3886
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 2468954,
+    "latest": 2468954,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}
