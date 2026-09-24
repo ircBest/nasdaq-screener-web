@@ -1,0 +1,32 @@
+{
+  "ticker": "ADP",
+  "generated_at": "2026-09-24T09:49:18.359603+00:00",
+  "points": [
+    {
+      "d": "2026-09-23",
+      "c": 263.68,
+      "h": 269.72,
+      "l": 262.47,
+      "v": 2726100
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "ADP|2026-09-24",
+      "date": "2026-09-24",
+      "entry": 263.68,
+      "target": 280.5,
+      "stop": 255.27,
+      "rsi": 39.9749
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 2726100,
+    "latest": 2726100,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}

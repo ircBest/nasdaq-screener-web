@@ -1,1309 +1,1386 @@
 {
-  "generated_at": "2026-09-23T08:53:29.647523+00:00",
+  "generated_at": "2026-09-24T09:49:18.447883+00:00",
   "tickers": {
     "AAOI": {
-      "points": 8,
+      "points": 9,
       "signals": 2,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ACIW": {
-      "points": 23,
-      "signals": 4,
+      "points": 24,
+      "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ACLS": {
-      "points": 23,
+      "points": 24,
       "signals": 12,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ACMR": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "ADBE": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ADEA": {
-      "points": 23,
+      "points": 24,
       "signals": 2,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ADI": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "ADP": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ADSK": {
-      "points": 12,
+      "points": 13,
       "signals": 4,
       "from": "2026-09-04",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ADTN": {
-      "points": 23,
-      "signals": 20,
+      "points": 24,
+      "signals": 21,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AEHR": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AEVA": {
-      "points": 23,
+      "points": 24,
       "signals": 11,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AGYS": {
-      "points": 8,
-      "signals": 4,
+      "points": 9,
+      "signals": 5,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AIP": {
-      "points": 23,
+      "points": 24,
       "signals": 16,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AKAM": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ALAB": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ALGM": {
-      "points": 23,
+      "points": 24,
       "signals": 19,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "ALKT": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ALNT": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ALRM": {
-      "points": 3,
-      "signals": 2,
+      "points": 4,
+      "signals": 3,
       "from": "2026-09-18",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AMAT": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AMBA": {
-      "points": 23,
+      "points": 24,
       "signals": 7,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AMKR": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AOSL": {
-      "points": 23,
+      "points": 24,
       "signals": 17,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "APLD": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ARM": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ARRY": {
-      "points": 23,
-      "signals": 18,
+      "points": 24,
+      "signals": 19,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ASML": {
-      "points": 13,
+      "points": 14,
       "signals": 3,
       "from": "2026-09-03",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ASTS": {
-      "points": 23,
+      "points": 24,
       "signals": 2,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "AVGO": {
-      "points": 23,
+      "points": 24,
       "signals": 11,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BAND": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BELFA": {
-      "points": 23,
+      "points": 24,
       "signals": 12,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BELFB": {
-      "points": 23,
+      "points": 24,
       "signals": 11,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BL": {
-      "points": 9,
+      "points": 10,
       "signals": 2,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BLZE": {
-      "points": 23,
+      "points": 24,
       "signals": 8,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BRAI": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BRUN": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BRZE": {
-      "points": 9,
+      "points": 10,
       "signals": 4,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "BSP": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BSY": {
-      "points": 10,
+      "points": 11,
       "signals": 6,
       "from": "2026-09-09",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "BULL": {
-      "points": 4,
-      "signals": 1,
+      "points": 5,
+      "signals": 2,
       "from": "2026-09-17",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CAMT": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CBRS": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CCSI": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CDNS": {
-      "points": 23,
+      "points": 24,
       "signals": 15,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CEVA": {
-      "points": 23,
+      "points": 24,
       "signals": 12,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CGNT": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CHRN": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "CHYM": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CIFR": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CLBT": {
-      "points": 23,
+      "points": 24,
       "signals": 12,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CNXN": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "COHU": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CORZ": {
-      "points": 23,
+      "points": 24,
       "signals": 12,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CRDO": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CRUS": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CRWD": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CSCO": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "CSIQ": {
-      "points": 23,
-      "signals": 8,
+      "points": 24,
+      "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "DAKT": {
-      "points": 23,
-      "signals": 10,
+      "points": 24,
+      "signals": 11,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "DDOG": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "DGII": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "DSGX": {
-      "points": 9,
+      "points": 10,
       "signals": 1,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "DSP": {
-      "points": 4,
+      "points": 5,
       "signals": 1,
       "from": "2026-09-17",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "EEFT": {
-      "points": 23,
-      "signals": 4,
+      "points": 24,
+      "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ENPH": {
-      "points": 23,
-      "signals": 4,
+      "points": 24,
+      "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ENRD": {
-      "points": 23,
-      "signals": 16,
+      "points": 24,
+      "signals": 17,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "ERIC": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "EVCM": {
-      "points": 23,
+      "points": 24,
       "signals": 17,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "EVLV": {
-      "points": 23,
-      "signals": 12,
+      "points": 24,
+      "signals": 13,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "EXTR": {
-      "points": 23,
+      "points": 24,
       "signals": 16,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "FEIM": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "FFIV": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "FLEX": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "FLYW": {
-      "points": 2,
-      "signals": 1,
+      "points": 3,
+      "signals": 2,
       "from": "2026-09-21",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "FORM": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "FORTY": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "FSLR": {
-      "points": 23,
-      "signals": 7,
+      "points": 24,
+      "signals": 8,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "GDS": {
-      "points": 8,
+      "points": 9,
       "signals": 1,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "GEN": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "GFS": {
-      "points": 23,
+      "points": 24,
       "signals": 16,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "GILT": {
-      "points": 23,
+      "points": 24,
       "signals": 16,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "GRAB": {
-      "points": 10,
+      "points": 11,
       "signals": 8,
       "from": "2026-09-09",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "HLIT": {
-      "points": 8,
+      "points": 9,
       "signals": 2,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "HQ": {
-      "points": 8,
+      "points": 9,
       "signals": 1,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ICHR": {
-      "points": 23,
+      "points": 24,
       "signals": 15,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "INDI": {
-      "points": 9,
-      "signals": 5,
+      "points": 10,
+      "signals": 6,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "INOD": {
-      "points": 23,
+      "points": 24,
       "signals": 10,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "INTC": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "INTU": {
-      "points": 9,
-      "signals": 3,
+      "points": 10,
+      "signals": 4,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "IPGP": {
-      "points": 23,
+      "points": 24,
       "signals": 8,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "IQMX": {
-      "points": 5,
+      "points": 6,
       "signals": 2,
       "from": "2026-09-16",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ITRI": {
-      "points": 8,
-      "signals": 4,
+      "points": 9,
+      "signals": 5,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ITRN": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "JKHY": {
-      "points": 2,
-      "signals": 1,
+      "points": 3,
+      "signals": 2,
       "from": "2026-09-21",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "KC": {
-      "points": 5,
+      "points": 6,
       "signals": 2,
       "from": "2026-09-16",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "KDK": {
-      "points": 23,
-      "signals": 11,
+      "points": 24,
+      "signals": 12,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "KEEL": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "KLAC": {
-      "points": 23,
+      "points": 24,
       "signals": 10,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "KLIC": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "KSPI": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LAES": {
-      "points": 8,
+      "points": 9,
       "signals": 1,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LASR": {
-      "points": 23,
+      "points": 24,
       "signals": 21,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LFUS": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LIF": {
-      "points": 23,
-      "signals": 13,
+      "points": 24,
+      "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LOGI": {
-      "points": 23,
+      "points": 24,
       "signals": 2,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LPTH": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LRCX": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LSCC": {
-      "points": 23,
+      "points": 24,
       "signals": 8,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LYFT": {
-      "points": 9,
-      "signals": 3,
+      "points": 10,
+      "signals": 4,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "LYTS": {
-      "points": 23,
+      "points": 24,
       "signals": 17,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "MCHP": {
-      "points": 23,
+      "points": 24,
       "signals": 2,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "MDB": {
-      "points": 10,
+      "points": 11,
       "signals": 1,
       "from": "2026-09-09",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "MKSI": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "MORN": {
-      "points": 9,
+      "points": 10,
       "signals": 2,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "MPWR": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "MTSI": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "MXL": {
-      "points": 23,
+      "points": 24,
       "signals": 2,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NAVN": {
-      "points": 9,
-      "signals": 7,
+      "points": 10,
+      "signals": 8,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "NCNO": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NDAQ": {
-      "points": 9,
+      "points": 10,
       "signals": 4,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NN": {
-      "points": 3,
+      "points": 4,
       "signals": 1,
       "from": "2026-09-18",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NOVT": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NSSC": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NTCT": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NTGR": {
-      "points": 23,
+      "points": 24,
       "signals": 10,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NVMI": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NVTS": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NXPI": {
-      "points": 23,
+      "points": 24,
       "signals": 10,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NXT": {
-      "points": 23,
+      "points": 24,
       "signals": 17,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "NYAX": {
-      "points": 23,
-      "signals": 11,
+      "points": 24,
+      "signals": 12,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "OCTV": {
-      "points": 9,
+      "points": 10,
       "signals": 1,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "OKTA": {
-      "points": 23,
+      "points": 24,
       "signals": 2,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "OLED": {
-      "points": 9,
-      "signals": 3,
+      "points": 10,
+      "signals": 4,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ON": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ONDS": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "OSIS": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "OTEX": {
-      "points": 9,
+      "points": 10,
       "signals": 1,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "OUST": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PAYX": {
-      "points": 9,
-      "signals": 2,
+      "points": 10,
+      "signals": 3,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PDFS": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PENG": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
+      "has_volume": true
+    },
+    "PGY": {
+      "points": 1,
+      "signals": 1,
+      "from": "2026-09-23",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PICS": {
-      "points": 23,
-      "signals": 5,
+      "points": 24,
+      "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PLAB": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PLXS": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "POET": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PONY": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "POWI": {
-      "points": 23,
+      "points": 24,
       "signals": 19,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PRGS": {
-      "points": 8,
+      "points": 9,
       "signals": 1,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PSQL": {
-      "points": 12,
+      "points": 13,
       "signals": 3,
       "from": "2026-09-04",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PTC": {
-      "points": 10,
+      "points": 11,
       "signals": 3,
       "from": "2026-09-09",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "PTRN": {
-      "points": 23,
+      "points": 24,
       "signals": 2,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "QBTS": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "QLYS": {
-      "points": 8,
+      "points": 9,
       "signals": 1,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "QNT": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "RELY": {
-      "points": 9,
-      "signals": 7,
+      "points": 10,
+      "signals": 8,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "RMBS": {
-      "points": 23,
+      "points": 24,
       "signals": 11,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ROP": {
-      "points": 4,
-      "signals": 3,
+      "points": 5,
+      "signals": 4,
       "from": "2026-09-17",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "RUN": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "RXT": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "RZLV": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SEDG": {
-      "points": 23,
+      "points": 24,
       "signals": 6,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SHAZ": {
-      "points": 5,
+      "points": 6,
       "signals": 1,
       "from": "2026-09-16",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SHLS": {
-      "points": 23,
+      "points": 24,
       "signals": 10,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SHOP": {
-      "points": 9,
+      "points": 10,
       "signals": 2,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SNPS": {
-      "points": 8,
+      "points": 9,
       "signals": 2,
       "from": "2026-09-11",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SOUN": {
-      "points": 9,
-      "signals": 5,
+      "points": 10,
+      "signals": 6,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SRAD": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SSYS": {
-      "points": 23,
+      "points": 24,
       "signals": 10,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "STNE": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SWMR": {
-      "points": 23,
+      "points": 24,
       "signals": 7,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "SYNA": {
-      "points": 23,
+      "points": 24,
       "signals": 13,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "TENB": {
-      "points": 9,
+      "points": 10,
       "signals": 2,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "TER": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "TSEM": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "TTAN": {
-      "points": 10,
-      "signals": 8,
+      "points": 11,
+      "signals": 9,
       "from": "2026-09-09",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "TTMI": {
-      "points": 23,
+      "points": 24,
       "signals": 5,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "TXN": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "UCTT": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "UPBD": {
-      "points": 23,
-      "signals": 8,
+      "points": 24,
+      "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "VECO": {
-      "points": 23,
+      "points": 24,
       "signals": 9,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "VERX": {
-      "points": 3,
-      "signals": 1,
+      "points": 4,
+      "signals": 2,
       "from": "2026-09-18",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "VIAV": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "VICR": {
-      "points": 23,
+      "points": 24,
       "signals": 8,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "VISN": {
-      "points": 23,
-      "signals": 13,
+      "points": 24,
+      "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "VNET": {
-      "points": 23,
+      "points": 24,
       "signals": 7,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "VRRM": {
-      "points": 23,
-      "signals": 12,
+      "points": 24,
+      "signals": 13,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "VSAT": {
-      "points": 23,
+      "points": 24,
       "signals": 3,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "WDC": {
-      "points": 5,
+      "points": 6,
       "signals": 1,
       "from": "2026-09-16",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "WLTH": {
-      "points": 23,
+      "points": 24,
       "signals": 1,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "WSE": {
-      "points": 9,
-      "signals": 6,
+      "points": 10,
+      "signals": 7,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "WYFI": {
-      "points": 23,
+      "points": 24,
       "signals": 14,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "XNDU": {
-      "points": 9,
-      "signals": 7,
+      "points": 10,
+      "signals": 8,
       "from": "2026-09-10",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "XNET": {
-      "points": 23,
+      "points": 24,
       "signals": 2,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "YB": {
-      "points": 5,
-      "signals": 4,
+      "points": 6,
+      "signals": 5,
       "from": "2026-09-16",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     },
     "ZM": {
-      "points": 23,
+      "points": 24,
       "signals": 4,
       "from": "2026-08-20",
-      "to": "2026-09-22",
+      "to": "2026-09-23",
       "has_volume": true
     }
   },
-  "with_volume": 186,
+  "with_volume": 197,
   "without_volume": 0
 }
