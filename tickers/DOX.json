@@ -1,0 +1,32 @@
+{
+  "ticker": "DOX",
+  "generated_at": "2026-09-25T09:09:36.115006+00:00",
+  "points": [
+    {
+      "d": "2026-09-24",
+      "c": 57.85,
+      "h": 59.29,
+      "l": 57.56,
+      "v": 840800
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "DOX|2026-09-25",
+      "date": "2026-09-25",
+      "entry": 57.85,
+      "target": 62.4,
+      "stop": 55.58,
+      "rsi": 39.8721
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 840800,
+    "latest": 840800,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}

@@ -1,9 +1,16 @@
 {
   "ticker": "FORTY",
-  "generated_at": "2026-09-24T09:49:18.392919+00:00",
+  "generated_at": "2026-09-25T09:09:36.122729+00:00",
   "points": [
     {
       "d": "2026-09-23",
+      "c": 114.0,
+      "h": 114.0,
+      "l": 114.0,
+      "v": 0
+    },
+    {
+      "d": "2026-09-24",
       "c": 114.0,
       "h": 114.0,
       "l": 114.0,
@@ -18,15 +25,23 @@
       "target": 120.25,
       "stop": 110.88,
       "rsi": 35.7434
+    },
+    {
+      "signal_id": "FORTY|2026-09-25",
+      "date": "2026-09-25",
+      "entry": 114.0,
+      "target": 119.8,
+      "stop": 111.1,
+      "rsi": 35.744
     }
   ],
   "volume": {
     "available": true,
-    "days": 1,
+    "days": 2,
     "average": 0,
     "latest": 0,
     "ratio": null,
-    "window": 1
+    "window": 2
   },
   "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
 }
