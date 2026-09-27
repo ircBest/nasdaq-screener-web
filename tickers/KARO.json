@@ -1,13 +1,13 @@
 {
   "ticker": "KARO",
-  "generated_at": "2026-09-26T08:56:14.479473+00:00",
+  "generated_at": "2026-09-27T09:35:37.656194+00:00",
   "points": [
     {
       "d": "2026-09-25",
       "c": 61.63,
       "h": 62.285,
       "l": 61.02,
-      "v": 52700
+      "v": 52745
     }
   ],
   "signals": [
@@ -23,8 +23,8 @@
   "volume": {
     "available": true,
     "days": 1,
-    "average": 52700,
-    "latest": 52700,
+    "average": 52745,
+    "latest": 52745,
     "ratio": 1.0,
     "window": 1
   },

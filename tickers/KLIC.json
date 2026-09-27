@@ -1,6 +1,6 @@
 {
   "ticker": "KLIC",
-  "generated_at": "2026-09-26T08:56:14.482514+00:00",
+  "generated_at": "2026-09-27T09:35:37.658357+00:00",
   "points": [
     {
       "d": "2026-08-20",
@@ -182,7 +182,7 @@
       "c": 91.18,
       "h": 91.76,
       "l": 89.0,
-      "v": 471300
+      "v": 464023
     }
   ],
   "signals": [
@@ -302,9 +302,9 @@
   "volume": {
     "available": true,
     "days": 26,
-    "average": 703249,
-    "latest": 471300,
-    "ratio": 0.67,
+    "average": 702885,
+    "latest": 464023,
+    "ratio": 0.66,
     "window": 20
   },
   "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
