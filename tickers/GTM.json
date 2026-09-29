@@ -1,0 +1,32 @@
+{
+  "ticker": "GTM",
+  "generated_at": "2026-09-29T10:08:59.788275+00:00",
+  "points": [
+    {
+      "d": "2026-09-28",
+      "c": 3.59,
+      "h": 3.665,
+      "l": 3.5,
+      "v": 3458300
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "GTM|2026-09-29",
+      "date": "2026-09-29",
+      "entry": 3.59,
+      "target": 4.23,
+      "stop": 3.27,
+      "rsi": 39.6658
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 3458300,
+    "latest": 3458300,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}

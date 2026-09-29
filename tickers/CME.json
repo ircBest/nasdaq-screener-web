@@ -1,0 +1,32 @@
+{
+  "ticker": "CME",
+  "generated_at": "2026-09-29T10:08:59.769197+00:00",
+  "points": [
+    {
+      "d": "2026-09-28",
+      "c": 263.24,
+      "h": 268.2,
+      "l": 262.51,
+      "v": 1335700
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "CME|2026-09-29",
+      "date": "2026-09-29",
+      "entry": 263.24,
+      "target": 281.65,
+      "stop": 254.04,
+      "rsi": 39.7443
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 1335700,
+    "latest": 1335700,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}

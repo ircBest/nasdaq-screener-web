@@ -1,0 +1,32 @@
+{
+  "ticker": "SPT",
+  "generated_at": "2026-09-29T10:08:59.838994+00:00",
+  "points": [
+    {
+      "d": "2026-09-28",
+      "c": 9.47,
+      "h": 9.61,
+      "l": 8.95,
+      "v": 895300
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "SPT|2026-09-29",
+      "date": "2026-09-29",
+      "entry": 9.47,
+      "target": 11.13,
+      "stop": 8.64,
+      "rsi": 39.5468
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 895300,
+    "latest": 895300,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}
