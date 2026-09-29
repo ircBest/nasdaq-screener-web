@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>오늘의 순위 · NASDAQ IT 스크리너</title>
+<meta name="description" content="그날 살펴본 종목 전체를 어떤 순서로 세웠는지. 흑자 · 영업현금 · 매출 성장을 함께 적습니다.">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="css/style.css?v=20260903a">
+<style>
+/* 오늘의 순위 전용 — 판단 장부(positions.html)와 같은 틀 */
+.note{background:var(--surface-2);border:1px solid var(--border);
+  border-left:3px solid var(--amber);border-radius:var(--radius);
+  padding:14px 16px;margin-bottom:22px;font-size:13px;
+  color:var(--text-dim);line-height:1.7}
+
+.how{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius);padding:15px 18px;margin-bottom:22px;
+  font-size:13px;line-height:1.75;color:var(--text-dim)}
+.how b{color:var(--text)}
+.how p{margin:8px 0 0}
+
+.tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:10px;margin-bottom:22px}
+.tally > div{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius);padding:13px 15px}
+.tally .k{font-size:11px;color:var(--text-faint);letter-spacing:.04em;
+  margin-bottom:5px}
+.tally .v{font-size:21px;font-weight:700;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+  margin-bottom:12px}
+.bar button{font:inherit;font-size:12px;font-weight:600;
+  color:var(--text-dim);background:var(--surface-2);
+  border:1px solid var(--border);border-radius:999px;
+  padding:6px 13px;cursor:pointer}
+.bar button[aria-pressed="true"]{color:var(--bg);background:var(--blue);
+  border-color:var(--blue)}
+.bar button:focus-visible,.bar input:focus-visible{outline:2px solid var(--blue);
+  outline-offset:2px}
+.bar input{font:inherit;font-size:13px;color:var(--text);
+  background:var(--surface-2);border:1px solid var(--border);
+  border-radius:999px;padding:6px 13px;min-width:0;flex:1 1 140px;
+  max-width:220px}
+.bar .count{font-size:12px;color:var(--text-faint);margin-left:auto;
+  font-variant-numeric:tabular-nums}
+
+.wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;
+  border:1px solid var(--border);border-radius:var(--radius)}
+table.rk{width:100%;border-collapse:collapse;font-size:13px;min-width:760px}
+table.rk th{background:var(--surface-3);color:var(--text-dim);
+  font-size:11px;font-weight:600;letter-spacing:.04em;text-align:left;
+  padding:9px 12px;white-space:nowrap;border-bottom:1px solid var(--border)}
+table.rk th.num,table.rk td.num{text-align:right}
+table.rk td{padding:9px 12px;border-bottom:1px solid var(--border);
+  white-space:nowrap;font-variant-numeric:tabular-nums}
+table.rk tr:last-child td{border-bottom:none}
+table.rk td.rank{font-weight:700;color:var(--text-dim)}
+table.rk td.rank small{display:block;font-size:10px;font-weight:500;
+  color:var(--text-faint)}
+table.rk td.sym a{font-weight:700;color:var(--text);text-decoration:none;
+  letter-spacing:-.01em}
+table.rk td.sym a:hover{color:var(--blue)}
+table.rk td.name{color:var(--text-dim);max-width:220px;overflow:hidden;
+  text-overflow:ellipsis}
+table.rk td.name small{display:block;font-size:10px;color:var(--text-faint)}
+
+.plus{color:var(--green)}
+.minus{color:var(--red)}
+.dim{color:var(--text-faint)}
+
+.fact{display:inline-block;padding:2px 8px;border-radius:999px;
+  font-size:10px;font-weight:700;white-space:nowrap}
+.fact.yes{background:rgba(62,207,142,.14);color:var(--green)}
+.fact.no{background:rgba(255,92,92,.14);color:var(--red)}
+.fact.na{background:var(--surface-3);color:var(--text-faint)}
+
+.empty{padding:26px;text-align:center;color:var(--text-dim);
+  background:var(--surface-2);border:1px dashed var(--border);
+  border-radius:var(--radius)}
+
+.foot{margin-top:28px;padding-top:18px;border-top:1px solid var(--border);
+  font-size:12px;color:var(--text-faint);line-height:1.8}
+</style>
+</head>
+<body>
+
+<main>
+
+  <a class="back" href="index.html" style="display:inline-flex;
+     align-items:center;gap:6px;color:var(--text-dim);
+     text-decoration:none;font-size:13px;margin-bottom:16px">
+     &larr; 목록으로</a>
+
+  <header>
+    <div class="eyebrow"><span class="dot"></span>오늘의 순위</div>
+    <h1>그날 무엇을 앞에 세웠나</h1>
+    <div class="sub">
+      살펴본 종목 전체의 순서와 재무 사실을 같이 적습니다
+    </div>
+    <div style="margin-top:12px">
+      <a href="positions.html" style="display:inline-flex;align-items:center;
+         gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
+         border:1px solid var(--border);border-radius:999px;
+         padding:6px 14px">
+        높게 본 것이 정말 올랐는가 &rarr;
+      </a>
+    </div>
+  </header>
+
+  <div id="content">
+    <div class="empty">불러오는 중…</div>
+  </div>
+
+</main>
+
+<script>
+const $ = (s, r) => (r || document).querySelector(s);
+
+function esc(v) {
+  return String(v == null ? "" : v).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;",
+    '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+function money(v) {
+  return v == null ? '<span class="dim">—</span>' : "$" + Number(v).toFixed(2);
+}
+
+function pct(v) {
+  if (v == null) return '<span class="dim">—</span>';
+  const cls = v > 0 ? "plus" : (v < 0 ? "minus" : "");
+  return `<span class="${cls}">${v > 0 ? "+" : ""}${Number(v).toFixed(1)}%</span>`;
+}
+
+function cap(v) {
+  if (v == null) return '<span class="dim">—</span>';
+  return v >= 1 ? `${Number(v).toFixed(1)}B` : `${Math.round(v * 1000)}M`;
+}
+
+/* 재무 사실 한 칸. 못 잰 것은 '없음' — 탈락이 아니다. */
+function fact(v, yes, no, extra) {
+  if (v == null) return '<span class="fact na">자료 없음</span>';
+  const tail = extra == null ? "" : ` ${extra > 0 ? "+" : ""}${extra}%`;
+  return v ? `<span class="fact yes">${yes}${tail}</span>`
+           : `<span class="fact no">${no}${tail}</span>`;
+}
+
+const VIEWS = {
+  all:    {label: "전체",        keep: r => true},
+  profit: {label: "흑자만",      keep: r => r.profit === true},
+  three:  {label: "흑자 · 현금 · 성장 모두", keep: r => r.profit && r.cash && r.growth},
+};
+
+let DATA = null;
+let view = "all";
+let query = "";
+
+try { view = localStorage.getItem("rankings.view") || "all"; } catch (e) {}
+if (!VIEWS[view]) view = "all";
+
+function rows() {
+  const q = query.trim().toUpperCase();
+  return (DATA.rows || [])
+    .filter(VIEWS[view].keep)
+    .filter(r => !q || String(r.ticker).toUpperCase().includes(q)
+                    || String(r.name || "").toUpperCase().includes(q));
+}
+
+function table(list) {
+  if (!list.length) {
+    return '<div class="empty">조건에 맞는 종목이 없습니다.</div>';
+  }
+
+  const filtered = view !== "all";
+
+  const body = list.map((r, i) => `<tr>
+      <td class="rank">${filtered ? i + 1 : r.rank}${
+        filtered ? `<small>전체 ${r.rank}위</small>` : ""}</td>
+      <td class="sym"><a href="stock.html?ticker=${encodeURIComponent(r.ticker)}">${esc(r.ticker)}</a></td>
+      <td class="name" title="${esc(r.name)}">${esc(r.name || "—")}<small>${esc(r.industry || "")}</small></td>
+      <td class="num">${money(r.price)}</td>
+      <td class="num">${pct(r.day_change_pct)}</td>
+      <td class="num">${pct(r.from_high60_pct)}</td>
+      <td>${fact(r.profit, "흑자", "적자")}</td>
+      <td>${fact(r.cash, "유입", "유출")}</td>
+      <td>${fact(r.growth, "성장", "감소", r.revenue_growth_pct)}</td>
+      <td class="num">${cap(r.market_cap_b)}</td>
+    </tr>`).join("");
+
+  return `<div class="wrap"><table class="rk">
+      <thead><tr>
+        <th>순위</th><th>종목</th><th>이름</th>
+        <th class="num">가격</th><th class="num">전일 대비</th>
+        <th class="num">60일 고점 대비</th>
+        <th>순이익</th><th>영업현금</th><th>매출</th>
+        <th class="num">시총</th>
+      </tr></thead>
+      <tbody>${body}</tbody>
+    </table></div>`;
+}
+
+function paint() {
+  const list = rows();
+  $("#list").innerHTML = table(list);
+  $("#count").textContent = `${list.length}종목`;
+  document.querySelectorAll(".bar button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.view === view)));
+}
+
+function render(d) {
+  DATA = d;
+  const s = d.summary || {};
+
+  $("#content").innerHTML = `
+    <div class="note">${esc(d.note || "")}</div>
+
+    <div class="how">
+      <b>어떻게 읽나요</b>
+      <p>${esc(d.observation_date)} 에 살펴본 종목 전체를 기대되는 순서대로
+         세웠습니다. <b>1위가 사야 할 종목이라는 뜻이 아닙니다.</b>
+         앞쪽과 뒤쪽을 나눠 그 뒤 어떻게 됐는지는
+         <a href="positions.html" style="color:var(--blue)">판단 장부</a>에
+         따로 적습니다.</p>
+      <p>순서는 가격 흐름만 보고 정합니다. 회사가 돈을 버는지는 모릅니다.
+         그래서 옆에 <b>재무 사실</b>을 붙였습니다 — 최근 4분기 순이익 합,
+         최근 4분기 영업현금흐름 합, 최근 분기 매출이 1년 전 같은 분기보다
+         늘었는지. 모두 그날까지 미국 증권거래위원회(SEC)에 제출된 숫자만 씁니다.</p>
+      <p><b>자료 없음</b>은 외국 회사나 새로 상장한 회사라 분기 재무가
+         없는 경우입니다. 적자라는 뜻이 아닙니다.
+         흑자만 걸러 보는 것이 더 낫다는 것도 아직 증명되지 않았습니다.</p>
+    </div>
+
+    <div class="tally">
+      <div><div class="k">줄 세운 종목</div><div class="v">${s.ranked ?? "—"}</div></div>
+      <div><div class="k">흑자</div><div class="v">${s.profit ?? "—"}</div></div>
+      <div><div class="k">적자</div><div class="v">${s.loss ?? "—"}</div></div>
+      <div><div class="k">재무 자료 없음</div><div class="v">${s.unknown ?? "—"}</div></div>
+      <div><div class="k">흑자 · 현금 · 성장 모두</div><div class="v">${s.all_three ?? "—"}</div></div>
+    </div>
+
+    <div class="bar" role="group" aria-label="보기">
+      ${Object.entries(VIEWS).map(([k, v]) =>
+        `<button type="button" data-view="${k}" aria-pressed="false">${v.label}</button>`
+      ).join("")}
+      <input id="q" type="search" placeholder="종목 찾기" aria-label="종목 찾기">
+      <span class="count" id="count"></span>
+    </div>
+
+    <div id="list"></div>
+
+    <div class="foot">
+      가격은 ${esc(d.price_date || "—")} 종가입니다. 60일 고점 대비는 그날까지
+      60거래일 중 가장 높은 종가와 비교한 것입니다.<br>
+      이 순서는 투자 권유가 아닙니다. 맞는지는 아직 증명되지 않았습니다.<br>
+      갱신 ${esc((d.generated_at || "").slice(0, 16).replace("T", " "))} UTC
+    </div>`;
+
+  document.querySelectorAll(".bar button").forEach(b =>
+    b.addEventListener("click", () => {
+      view = b.dataset.view;
+      try { localStorage.setItem("rankings.view", view); } catch (e) {}
+      paint();
+    }));
+
+  $("#q").addEventListener("input", e => { query = e.target.value; paint(); });
+
+  paint();
+}
+
+(async () => {
+  try {
+    const r = await fetch("rankings.json", {cache: "no-cache"});
+    if (!r.ok) throw new Error(r.status);
+    render(await r.json());
+  } catch (e) {
+    $("#content").innerHTML =
+      '<div class="empty">아직 순위가 없습니다. 다음 갱신에 생깁니다.</div>';
+  }
+})();
+</script>
+
+</body>
+</html>
