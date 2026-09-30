@@ -1,0 +1,33 @@
+{
+  "ticker": "DGII",
+  "generated_at": "2026-09-30T03:11:07+00:00",
+  "window_days": 14,
+  "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
+  "articles": [
+    {
+      "published_utc": "2026-09-29T03:49:25+00:00",
+      "publisher": "Benzinga",
+      "title": "Ingram Micro Holding shares are trading lower after the company announced the pricing of its secondary offering of 8,988,764 shares at $22.25 per share."
+    },
+    {
+      "published_utc": "2026-09-24T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SmartSense Report: 79% of Loss and Organized Retail Crime Prevention Leaders More Concerned About Cargo Theft Than Ever Before"
+    },
+    {
+      "published_utc": "2026-09-24T07:15:43+00:00",
+      "publisher": "Yahoo",
+      "title": "3 Cybersecurity Stocks Investors Are Watching As Defense Supply Chains Tighten"
+    },
+    {
+      "published_utc": "2026-09-23T13:11:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Particle M635e Achieves Skylo Certification for Satellite IoT Connectivity"
+    },
+    {
+      "published_utc": "2026-09-22T13:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Tempus Realty Partners Announces $66 Million Office Acquisition in Hopkins, Minnesota"
+    }
+  ]
+}

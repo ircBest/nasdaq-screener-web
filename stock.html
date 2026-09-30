@@ -43,6 +43,21 @@
 .tag.down{background:rgba(255,92,92,.14);color:var(--red)}
 .state{padding:26px;text-align:center;color:var(--text-dim);
   background:var(--surface-2);border:1px dashed var(--border);border-radius:var(--radius)}
+
+/* 최근 뉴스 — 제목 · 출처 · 시각만 (본문과 링크는 저장하지 않는다) */
+.news{list-style:none;margin:0;padding:0;border:1px solid var(--border);
+  border-radius:var(--radius);overflow:hidden}
+.news li{display:grid;grid-template-columns:92px 1fr;gap:12px;
+  padding:10px 14px;background:var(--surface-2);border-bottom:1px solid var(--border)}
+.news li:last-child{border-bottom:none}
+.news .when{font-size:11px;color:var(--text-faint);font-variant-numeric:tabular-nums;
+  line-height:1.5}
+.news .t{font-size:13px;line-height:1.5;color:var(--text)}
+.news .src{font-size:11px;color:var(--text-dim);margin-top:2px}
+.news-note{font-size:11px;color:var(--text-faint);margin:8px 2px 0;line-height:1.6}
+.news .when span{display:block}
+@media (max-width:480px){.news li{grid-template-columns:1fr;gap:2px}
+  .news .when span{display:inline;margin-left:6px}}
 </style>
 </head>
 <body>
@@ -292,8 +307,44 @@ function drawVolume(series, marks){
 /* ---------------------------------------------------------
    화면 구성
    --------------------------------------------------------- */
+/* 최근 뉴스 한 칸.
+   뉴스 공급자가 이 종목에 붙인 기사 제목이다. 프로그램의 판단에는 아직
+   쓰이지 않으므로 화면에 그렇게 적는다. 시각은 보는 사람의 시간대로. */
+function newsWhen(iso){
+  const d = new Date(iso);
+  if(isNaN(d)) return escapeHTML(iso || "-");
+  const md = `${d.getMonth()+1}/${d.getDate()}`;
+  const hm = `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+  return `${md}<span>${hm}</span>`;
+}
+
+function newsSection(news){
+  const items = (news && news.articles) || [];
+  return `
+    <section>
+      <div class="section-title">
+        <div class="title">최근 뉴스</div>
+        <div class="hint">${items.length ? `최근 ${news.window_days || 14}일 · ${items.length}건` : ""}</div>
+      </div>
+      ${items.length ? `
+        <ul class="news">
+          ${items.map(a=>`
+            <li>
+              <div class="when">${newsWhen(a.published_utc)}</div>
+              <div>
+                <div class="t">${escapeHTML(a.title)}</div>
+                <div class="src">${escapeHTML(a.publisher || "")}</div>
+              </div>
+            </li>`).join("")}
+        </ul>
+        <div class="news-note">${escapeHTML(news.note || "")}</div>
+      ` : `<div class="state">최근 ${news?.window_days || 14}일 동안 이 종목에 붙은 기사가 없습니다.
+        뉴스는 그날 많이 떨어져 있던 종목만 모읍니다.</div>`}
+    </section>`;
+}
+
 function render(info){
-  const {signal, history, series, latest} = info;
+  const {signal, history, series, latest, news} = info;
 
   const price = latest?.price ?? signal?.entry_price;
   const change = latest?.day_change_pct;
@@ -363,6 +414,8 @@ function render(info){
         </div>
       `}
     </section>
+
+    ${newsSection(news)}
 
     ${signal ? `
     <section>
@@ -494,10 +547,11 @@ function fmtCompact(v){
   /* performance.json 은 더 이상 받지 않는다.
      거기 들어 있는 것은 고정 기간(5일·10일·30일) 성과뿐이고,
      이 화면은 그 틀로 승패를 표시하지 않는다. */
-  const [signalsPayload, series, scan] = await Promise.all([
+  const [signalsPayload, series, scan, news] = await Promise.all([
     getJSON("signals.json"),
     getJSON(`tickers/${encodeURIComponent(TICKER)}.json`),
-    getJSON("latest_signals.json")
+    getJSON("latest_signals.json"),
+    getJSON(`news/${encodeURIComponent(TICKER)}.json`)
   ]);
 
   const signals = (signalsPayload?.signals || [])
@@ -516,7 +570,7 @@ function fmtCompact(v){
 
   const latest = (scan?.signals || []).find(s=>s && s.ticker===TICKER);
 
-  if(!signals.length && !series){
+  if(!signals.length && !series && !news){
     fail(`${TICKER} 의 기록을 찾을 수 없습니다.`);
     return;
   }
@@ -525,7 +579,8 @@ function fmtCompact(v){
     signal: signals[signals.length-1] || null,
     history,
     series,
-    latest
+    latest,
+    news
   });
 })();
 </script>
