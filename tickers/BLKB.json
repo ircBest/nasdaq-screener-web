@@ -1,0 +1,32 @@
+{
+  "ticker": "BLKB",
+  "generated_at": "2026-09-30T10:23:33.039071+00:00",
+  "points": [
+    {
+      "d": "2026-09-29",
+      "c": 41.43,
+      "h": 42.33,
+      "l": 40.82,
+      "v": 380500
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "BLKB|2026-09-30",
+      "date": "2026-09-30",
+      "entry": 41.43,
+      "target": 46.22,
+      "stop": 39.04,
+      "rsi": 37.7336
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 380500,
+    "latest": 380500,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}
