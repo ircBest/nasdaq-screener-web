@@ -1,9 +1,29 @@
 {
   "ticker": "GEN",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T19:05:02+00:00",
+      "publisher": "ChartMill",
+      "title": "Top S&P500 movers in Wednesday's session"
+    },
+    {
+      "published_utc": "2026-09-30T17:05:00+00:00",
+      "publisher": "ChartMill",
+      "title": "Let's take a look at the S&P500 stocks that are experiencing unusual volume in today's session."
+    },
+    {
+      "published_utc": "2026-09-30T16:35:02+00:00",
+      "publisher": "ChartMill",
+      "title": "Uncover the latest developments among S&P500 stocks in today's session."
+    },
+    {
+      "published_utc": "2026-09-30T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Engine by Gen Opens the Door to AI Agents, Creating a Trusted Path to Shop for Insurance"
+    },
     {
       "published_utc": "2026-09-29T12:35:02+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-09-26T08:25:48+00:00",
       "publisher": "SeekingAlpha",
       "title": "What Moved Markets This Week"
-    },
-    {
-      "published_utc": "2026-09-25T23:40:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Gen Digital (GEN) Wants to Buy GoDaddy. So Why Did Its Own Stock Crash 12%?"
-    },
-    {
-      "published_utc": "2026-09-25T20:20:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Top Analyst Reports for ExxonMobil, Automatic Data Processing & Cadence"
-    },
-    {
-      "published_utc": "2026-09-25T18:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AI Apps and Agents Are Taking Off. Gen Can Help People Understand What Happens to Their Data."
-    },
-    {
-      "published_utc": "2026-09-25T17:05:00+00:00",
-      "publisher": "ChartMill",
-      "title": "These S&P500 stocks have an unusual volume in today's session"
     }
   ]
 }

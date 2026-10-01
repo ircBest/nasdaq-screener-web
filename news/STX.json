@@ -1,9 +1,39 @@
 {
   "ticker": "STX",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T21:55:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise"
+    },
+    {
+      "published_utc": "2026-09-30T20:15:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Micron (MU) Q4 Earnings and Revenues Beat Estimates"
+    },
+    {
+      "published_utc": "2026-09-30T17:12:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Sandisk Bets on AI and Enterprise SSDs: Can It Outpace MU & STX?"
+    },
+    {
+      "published_utc": "2026-09-30T12:40:00+00:00",
+      "publisher": "Yahoo",
+      "title": "How are NTAP's New Partnerships Expanding Its AI Strategy?"
+    },
+    {
+      "published_utc": "2026-09-30T11:55:34+00:00",
+      "publisher": "Yahoo",
+      "title": "Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields"
+    },
+    {
+      "published_utc": "2026-09-30T09:01:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Top 10 AI Stocks To Buy On The Seasonal Dip"
+    },
     {
       "published_utc": "2026-09-29T21:44:30+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-09-29T06:14:00+00:00",
       "publisher": "Yahoo",
       "title": "The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk"
-    },
-    {
-      "published_utc": "2026-09-28T17:46:47+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Seagate: More Compelling After The Pullback, But Still Expensive (Upgrade)"
-    },
-    {
-      "published_utc": "2026-09-28T17:45:29+00:00",
-      "publisher": "Benzinga",
-      "title": "$100 Invested In Seagate Technology Hldgs 5 Years Ago Would Be Worth This Much Today"
-    },
-    {
-      "published_utc": "2026-09-28T17:14:29+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Seagate: The Areal Density Breakthrough"
-    },
-    {
-      "published_utc": "2026-09-28T17:09:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Seagate Technology Holdings (STX) Rides AI Storage Demand, Is It Still Undervalued?"
-    },
-    {
-      "published_utc": "2026-09-28T14:31:58+00:00",
-      "publisher": "Benzinga",
-      "title": "Seagate Shares Rise Over 6% After Key Trading Signal"
-    },
-    {
-      "published_utc": "2026-09-28T13:18:00+00:00",
-      "publisher": "Yahoo",
-      "title": "4 Memory Semiconductor Stocks to Watch in October 2026"
     }
   ]
 }

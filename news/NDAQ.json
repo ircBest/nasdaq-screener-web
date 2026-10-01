@@ -1,9 +1,29 @@
 {
   "ticker": "NDAQ",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T14:42:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nasdaq's Calypso Gets an AI Boost: Can It Drive Growth?"
+    },
+    {
+      "published_utc": "2026-09-30T14:38:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nasdaq's Financial Technology Business Poised to Drive Growth"
+    },
+    {
+      "published_utc": "2026-09-30T13:00:15+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave, the Original Neocloud, Wants People to Stop Calling It That"
+    },
+    {
+      "published_utc": "2026-09-29T23:17:44+00:00",
+      "publisher": "Benzinga",
+      "title": "Robinhood Bets on AI Agents That Can Trade While You Sleep: Vlad Tenev Says Gave Traders 'Tools' Reserved for Hedge Funds and Big Banks"
+    },
     {
       "published_utc": "2026-09-29T13:25:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-09-24T20:05:00+00:00",
       "publisher": "Yahoo",
       "title": "Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date September 15, 2026"
-    },
-    {
-      "published_utc": "2026-09-24T12:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Nasdaq Eyes Always-On Markets With Tokenized Equities and 23/5 Trading"
-    },
-    {
-      "published_utc": "2026-09-24T11:02:28+00:00",
-      "publisher": "Yahoo",
-      "title": "Nasdaq Eyes 2027 Equity Tokens as AI, Cloud and RegTech Fuel Growth"
-    },
-    {
-      "published_utc": "2026-09-24T05:59:31+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Nasdaq, Inc. (NDAQ) Presents at Bank of America 31st Annual Financials CEO Conference Transcript"
-    },
-    {
-      "published_utc": "2026-09-23T19:14:39+00:00",
-      "publisher": "Yahoo",
-      "title": "NYSE, Blockchain Team Up For Round-The-Clock Trading"
     }
   ]
 }

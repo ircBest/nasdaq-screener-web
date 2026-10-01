@@ -1,9 +1,34 @@
 {
   "ticker": "ADSK",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T19:05:02+00:00",
+      "publisher": "ChartMill",
+      "title": "Top S&P500 movers in Wednesday's session"
+    },
+    {
+      "published_utc": "2026-09-30T18:44:48+00:00",
+      "publisher": "Yahoo",
+      "title": "How Low Can Autodesk (ADSK) Stock Go?"
+    },
+    {
+      "published_utc": "2026-09-30T15:17:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Which Gives You More Of Hard-To-Replace Software, PTC Or Fair Isaac?"
+    },
+    {
+      "published_utc": "2026-09-30T15:09:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is Everyone Ignoring Adobe Stock's High Cash Yield?"
+    },
+    {
+      "published_utc": "2026-09-30T14:40:03+00:00",
+      "publisher": "Yahoo",
+      "title": "EGHT vs. ADSK: Which Stock Should Value Investors Buy Now?"
+    },
     {
       "published_utc": "2026-09-29T19:05:01+00:00",
       "publisher": "ChartMill",
@@ -38,31 +63,6 @@
       "published_utc": "2026-09-28T05:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Arcadis deepens Autodesk collaboration to accelerate AI and data-led delivery for clients"
-    },
-    {
-      "published_utc": "2026-09-28T04:11:54+00:00",
-      "publisher": "Benzinga",
-      "title": "ARCADIS Awarded €20M Calais Port Extension Contract"
-    },
-    {
-      "published_utc": "2026-09-26T14:10:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Autodesk (ADSK) Stock May Be 39% Undervalued Despite New Agentic AI Push"
-    },
-    {
-      "published_utc": "2026-09-25T21:07:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Autodesk (ADSK) Previewed A Cross Product Agentic AI Assistant"
-    },
-    {
-      "published_utc": "2026-09-24T22:59:47+00:00",
-      "publisher": "Yahoo",
-      "title": "What Could Send Autodesk Stock Higher?"
-    },
-    {
-      "published_utc": "2026-09-24T20:24:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Design Software Stocks Q2 In Review: Autodesk (NASDAQ:ADSK) Vs Peers"
     }
   ]
 }

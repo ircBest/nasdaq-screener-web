@@ -1,68 +1,68 @@
 {
   "ticker": "NTAP",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-09-30T20:54:22+00:00",
+      "publisher": "Yahoo",
+      "title": "Stock Market Today: Dow Wavers Ahead Of Key Inflation Data; Micron Report Due (Live Coverage)"
+    },
+    {
+      "published_utc": "2026-09-30T17:07:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Stock Market Today: Nasdaq Leads Rise; AI Giant Microsoft Tests A New Entry (Live Coverage)"
+    },
+    {
+      "published_utc": "2026-09-30T13:09:00+00:00",
+      "publisher": "Yahoo",
+      "title": "NetApp's Keystone Sovereign Targets Europe's Regulated Data Market"
+    },
+    {
+      "published_utc": "2026-09-30T12:50:13+00:00",
+      "publisher": "Yahoo",
+      "title": "NetApp’s AI Opportunity Can Support Higher Growth, Says BofA — Raises Target After INSIGHT Event"
+    },
+    {
+      "published_utc": "2026-09-30T12:40:00+00:00",
+      "publisher": "Yahoo",
+      "title": "How are NTAP's New Partnerships Expanding Its AI Strategy?"
+    },
+    {
+      "published_utc": "2026-09-30T09:06:53+00:00",
+      "publisher": "Yahoo",
+      "title": "SAP (XTRA:SAP) Expands Cloud Infrastructure Partnership"
+    },
+    {
+      "published_utc": "2026-09-30T08:22:08+00:00",
+      "publisher": "Benzinga",
+      "title": "Microsoft To Rally Around 20%? Here Are 10 Top Analyst Forecasts For Wednesday"
+    },
+    {
+      "published_utc": "2026-09-30T08:12:53+00:00",
+      "publisher": "Benzinga",
+      "title": "What's Going On With Oracle Stock Wednesday?"
+    },
+    {
+      "published_utc": "2026-09-30T07:45:01+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "NetApp: Risk/Reward Is Not Compelling At Current Levels"
+    },
+    {
+      "published_utc": "2026-09-30T07:23:59+00:00",
+      "publisher": "Benzinga",
+      "title": "B of A Securities Maintains Neutral on NetApp, Raises Price Target to $220"
+    },
+    {
+      "published_utc": "2026-09-29T22:30:08+00:00",
+      "publisher": "Yahoo",
+      "title": "S&P 500, Dow Extend Losses From Elevated Yield Pressure — SPCX, TGT, AAPL, MU, NTAP In Focus"
+    },
+    {
       "published_utc": "2026-09-29T19:47:48+00:00",
       "publisher": "Yahoo",
       "title": "NTAP Stock Hits Record High: NetApp Expands Strategic Partnerships With SAP, Oracle, and Supermicro To Drive Cloud Infrastructure"
-    },
-    {
-      "published_utc": "2026-09-29T18:14:00+00:00",
-      "publisher": "Yahoo",
-      "title": "2 Reasons Oracle Stock Is on Pace to Snap a 4-Day Losing Streak"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Honors the International Union for Conservation of Nature with the Social Impact Award for Intelligent Data for Good"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp and Supermicro Collaborate to Power AI at Any Scale"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Empowers Enterprises to Build Anything, Anywhere"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Removes Storage Bottleneck for AI Factories"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Enhances Data Sovereignty Controls to Keystone"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp to Expand Partnership with SAP to Support SAP Cloud Infrastructure"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Honors the NFL with Customer Social Impact Award"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Delivers Secure, Zero-Copy Data Activation for the Agentic Enterprise"
-    },
-    {
-      "published_utc": "2026-09-29T17:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp and Oracle to Launch Fully Managed Cloud Storage Service for Demanding AI and Enterprise Workloads"
-    },
-    {
-      "published_utc": "2026-09-29T15:31:31+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Expands Cloud Reach With Native Oracle OCI Storage — Full Roll-Out Planned Within 12 Months"
     }
   ]
 }

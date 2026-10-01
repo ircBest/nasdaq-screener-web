@@ -1,9 +1,29 @@
 {
   "ticker": "PRGS",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T20:41:00+00:00",
+      "publisher": "ChartMill",
+      "title": "Progress Software (NASDAQ:PRGS) Posts EPS Beat but Revenue Miss as Shares Slide"
+    },
+    {
+      "published_utc": "2026-09-30T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Progress Software Advances Domo Magic ETL and Expands Governed AI Capabilities"
+    },
+    {
+      "published_utc": "2026-09-30T07:11:10+00:00",
+      "publisher": "Benzinga",
+      "title": "Earnings Scheduled For September 30, 2026"
+    },
+    {
+      "published_utc": "2026-09-29T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Progress Software Launches ShareFile Enterprise, Offering a New Standard in Governance Controls for Enterprise Document Collaboration"
+    },
     {
       "published_utc": "2026-09-23T07:10:07+00:00",
       "publisher": "Benzinga",
@@ -18,11 +38,6 @@
       "published_utc": "2026-09-22T20:05:00+00:00",
       "publisher": "Yahoo",
       "title": "Domo Completes Sale to Progress Software; Huckleberry Begins the Next Chapter"
-    },
-    {
-      "published_utc": "2026-09-16T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Progress Software to Report Third Quarter 2026 Financial Results on September 30, 2026"
     }
   ]
 }

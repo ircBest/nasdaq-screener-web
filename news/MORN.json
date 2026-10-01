@@ -1,9 +1,29 @@
 {
   "ticker": "MORN",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T18:08:17+00:00",
+      "publisher": "Yahoo",
+      "title": "Morningstar To Relocate Global HQ To Renovated Thompson Center"
+    },
+    {
+      "published_utc": "2026-09-30T16:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Morningstar leases 275K sf at Google’s Thompson Center"
+    },
+    {
+      "published_utc": "2026-09-30T11:44:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Morningstar Announces New Global Headquarters at Chicago's Thompson Center and $5 Million Community Investment Donation"
+    },
+    {
+      "published_utc": "2026-09-30T07:45:42+00:00",
+      "publisher": "Benzinga",
+      "title": "Morningstar Plans To Shift Global Headquarters To Chicago's Thompson Center"
+    },
     {
       "published_utc": "2026-09-29T20:53:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-09-24T04:00:00+00:00",
       "publisher": "Yahoo",
       "title": "PitchBook Releases Next Set of Late-Stage Company Research Covering Prediction Markets"
-    },
-    {
-      "published_utc": "2026-09-23T12:24:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Morningstar Completes Quarterly Reconstitution for Morningstar Market Indexes"
-    },
-    {
-      "published_utc": "2026-09-23T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Morningstar Publishes 2026 Health Savings Account Landscape With Updated Provider Assessments and Industry Trends"
-    },
-    {
-      "published_utc": "2026-09-22T13:11:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Self-Storage Could Be Entering a New Growth Cycle — Baron Capital Re-Initiated Public Storage (PSA)"
-    },
-    {
-      "published_utc": "2026-09-22T13:03:53+00:00",
-      "publisher": "Yahoo",
-      "title": "What Makes Prologis (PLD) a Strong Investment?"
     }
   ]
 }

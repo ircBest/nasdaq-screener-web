@@ -1,9 +1,19 @@
 {
   "ticker": "TEAM",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-29T18:30:28+00:00",
+      "publisher": "Yahoo",
+      "title": "Prediction: Figma Stock Set for 25% Upside"
+    },
+    {
+      "published_utc": "2026-09-29T08:49:19+00:00",
+      "publisher": "Yahoo",
+      "title": "TEAM Stock Rallied Over 120% In 3 Months: Atlassian CEO Says If AI Can Replace You, 'You Have A Relatively Simple Business'"
+    },
     {
       "published_utc": "2026-09-29T08:23:02+00:00",
       "publisher": "ChartMill",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-24T09:20:02+00:00",
       "publisher": "SeekingAlpha",
       "title": "Atlassian: AI And Enterprise Growth Make Valuation More Interesting"
-    },
-    {
-      "published_utc": "2026-09-24T09:00:03+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Atlassian: A $140 Billion Market Growing At 14% Annually Creates A Massive Opportunity"
-    },
-    {
-      "published_utc": "2026-09-23T18:04:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher"
     }
   ]
 }

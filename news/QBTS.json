@@ -1,9 +1,19 @@
 {
   "ticker": "QBTS",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-29T15:40:16+00:00",
+      "publisher": "Yahoo",
+      "title": "A Year Ago, We Called IBM the Next Nvidia. It Lost Money but Still Beat Every Quantum Startup."
+    },
+    {
+      "published_utc": "2026-09-29T12:00:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Quantum Computing Stocks Need A Spark. Could Congress Deliver Soon?"
+    },
     {
       "published_utc": "2026-09-28T18:48:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-24T12:05:46+00:00",
       "publisher": "Yahoo",
       "title": "Everyone’s Talking About IonQ. Smart Money Is Watching Nvidia Instead."
-    },
-    {
-      "published_utc": "2026-09-24T10:12:04+00:00",
-      "publisher": "Yahoo",
-      "title": "What Does D Wave Quantum (QBTS) Gain From Its New Enterprise Partnership?"
-    },
-    {
-      "published_utc": "2026-09-24T07:14:31+00:00",
-      "publisher": "ChartMill",
-      "title": "The 5% Wall: Treasury Yields Take the Air Out of Wall Street's Muse Rally"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "GFS",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T11:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "GlobalFoundries Announces Conference Call to Review Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-09-30T08:49:04+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Marvell: Surprisingly Cheaper Than In August, But There's A Catch"
+    },
+    {
+      "published_utc": "2026-09-30T03:09:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Can GLOBALFOUNDRIES (GFS) Justify Its Price On Future Cash Flow?"
+    },
+    {
+      "published_utc": "2026-09-29T23:09:50+00:00",
+      "publisher": "Yahoo",
+      "title": "GLOBALFOUNDRIES (GFS) Could Be 37% Undervalued Following Its Edge AI Valuation Narrative"
+    },
     {
       "published_utc": "2026-09-28T21:35:06+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-09-23T14:17:10+00:00",
       "publisher": "Yahoo",
       "title": "Nasdaq rally hasn't stopped these tech stocks from flashing warning signs"
-    },
-    {
-      "published_utc": "2026-09-23T14:08:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Monolithic Power Stock Jumped 8% to $1,380. Its Foundry Deal Is Why the Run Could Hold"
-    },
-    {
-      "published_utc": "2026-09-22T15:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "GFS Augments Photonics Portfolio: Will SMART Partnership Boost Growth?"
-    },
-    {
-      "published_utc": "2026-09-21T17:12:00+00:00",
-      "publisher": "Yahoo",
-      "title": "GlobalFoundries Drives Gross Margin Expansion: Can the Momentum Last?"
-    },
-    {
-      "published_utc": "2026-09-21T06:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "OpenLight Adds Former GlobalFoundries Silicon Photonics Leader Kevin Soukup and Semiconductor Veteran Kirk Ouellette to Executive Team"
     }
   ]
 }

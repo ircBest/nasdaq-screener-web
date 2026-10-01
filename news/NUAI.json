@@ -1,9 +1,14 @@
 {
   "ticker": "NUAI",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-29T11:41:14+00:00",
+      "publisher": "Benzinga",
+      "title": "B. Riley Securities Maintains Buy on New Era Energy & Digital, Raises Price Target to $13"
+    },
     {
       "published_utc": "2026-09-24T09:02:04+00:00",
       "publisher": "Benzinga",
@@ -58,11 +63,6 @@
       "published_utc": "2026-09-21T11:54:42+00:00",
       "publisher": "Benzinga",
       "title": "New Era Locks in 20-Year Vistra Power Deal for Texas AI Data Center"
-    },
-    {
-      "published_utc": "2026-09-21T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "New Era Energy & Digital Secures 20-Year, 207 MW PPA with Vistra"
     }
   ]
 }

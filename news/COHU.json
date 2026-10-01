@@ -1,9 +1,19 @@
 {
   "ticker": "COHU",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-29T20:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cohu to Participate in the 18th Annual CEO Investor Summit on October 13"
+    },
+    {
+      "published_utc": "2026-09-29T11:46:00+00:00",
+      "publisher": "Yahoo",
+      "title": "QuickLogic Announces Participation in 18th Annual CEO Investor Summit held October 13th During SEMICON West in San Francisco"
+    },
     {
       "published_utc": "2026-09-28T08:35:33+00:00",
       "publisher": "SeekingAlpha",
@@ -38,16 +48,6 @@
       "published_utc": "2026-09-19T10:21:01+00:00",
       "publisher": "ChartMill",
       "title": "COHU INC (NASDAQ:COHU) Meets Minervini Trend and High Growth Momentum, But Setup Is Extended"
-    },
-    {
-      "published_utc": "2026-09-17T01:13:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Cohu (COHU) Draws Valuation Debate As AI Driven Software Narrative Faces A Pullback"
-    },
-    {
-      "published_utc": "2026-09-16T23:12:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Cohu (COHU) Stock Looks Fairly Valued As Its 133% Run Cools"
     }
   ]
 }

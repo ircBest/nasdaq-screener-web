@@ -1,9 +1,14 @@
 {
   "ticker": "ITRI",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-29T12:40:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Are Investors Undervaluing Itron (ITRI) Right Now?"
+    },
     {
       "published_utc": "2026-09-28T04:29:31+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-09-19T22:12:50+00:00",
       "publisher": "Yahoo",
       "title": "Itron (ITRI) Has A Fresh Update, But What Is The Market Weighing?"
-    },
-    {
-      "published_utc": "2026-09-18T22:00:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Itron (ITRI) Stock Falls Amid Market Uptick: What Investors Need to Know"
     }
   ]
 }

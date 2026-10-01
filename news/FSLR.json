@@ -1,9 +1,34 @@
 {
   "ticker": "FSLR",
-  "generated_at": "2026-09-30T10:23:32+00:00",
+  "generated_at": "2026-10-01T02:56:50+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T13:21:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is T1 Energy Moving Toward Vertical Integration in Solar?"
+    },
+    {
+      "published_utc": "2026-09-30T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ørsted Begins Construction on Blackwater Solar in New Mexico and Announces Wetland Restoration Partnership"
+    },
+    {
+      "published_utc": "2026-09-30T12:02:15+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Nextpower: One Of The Best (But Not 'The' Best) Plays In Solar"
+    },
+    {
+      "published_utc": "2026-09-30T12:00:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Investors Heavily Search First Solar, Inc. (FSLR): Here is What You Need to Know"
+    },
+    {
+      "published_utc": "2026-09-30T08:05:01+00:00",
+      "publisher": "Benzinga",
+      "title": "Piper Sandler Maintains Overweight on First Solar, Lowers Price Target to $251"
+    },
     {
       "published_utc": "2026-09-29T09:58:55+00:00",
       "publisher": "SeekingAlpha",
@@ -38,31 +63,6 @@
       "published_utc": "2026-09-28T06:04:40+00:00",
       "publisher": "Benzinga",
       "title": "Keybanc Upgrades First Solar to Sector Weight"
-    },
-    {
-      "published_utc": "2026-09-26T00:15:36+00:00",
-      "publisher": "Yahoo",
-      "title": "First Solar (FSLR) Keeps Hitting New Lows While Wall Street Says Buy. Who’s Right?"
-    },
-    {
-      "published_utc": "2026-09-25T17:31:05+00:00",
-      "publisher": "Yahoo",
-      "title": "FSLR Stock Heads For Its Worst Week In Over A Month — Roth Says US Polysilicon Crackdown Could Provide A Tailwind"
-    },
-    {
-      "published_utc": "2026-09-25T15:26:40+00:00",
-      "publisher": "Benzinga",
-      "title": "'A Good Time To Buy Equipment Stocks': Citi Upgrades Lam Research, Updates Sector Model"
-    },
-    {
-      "published_utc": "2026-09-25T12:59:42+00:00",
-      "publisher": "Yahoo",
-      "title": "Solar Stocks Tumble After 30-Year Treasury Yield Hits 2004 High"
-    },
-    {
-      "published_utc": "2026-09-25T12:36:31+00:00",
-      "publisher": "ChartMill",
-      "title": "Solar Stocks’ Headline Gains Mask a Widening Split Between Megacaps and Pure Plays"
     }
   ]
 }
