@@ -1,9 +1,24 @@
 {
   "ticker": "OTEX",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T09:07:56+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Open Text: Cheap Valuation Reflects Revenue Declines And Market Skepticism"
+    },
+    {
+      "published_utc": "2026-09-30T23:37:34+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Open Text: Debt Explains The Discount, Not All Of It"
+    },
+    {
+      "published_utc": "2026-09-30T22:40:00+00:00",
+      "publisher": "Yahoo",
+      "title": "OpenText Announces Pricing Terms and Results of Cash Tender Offer"
+    },
     {
       "published_utc": "2026-09-25T12:00:00+00:00",
       "publisher": "Yahoo",
@@ -13,11 +28,6 @@
       "published_utc": "2026-09-25T08:03:35+00:00",
       "publisher": "Benzinga",
       "title": "Open Text Reduces Total Maximum Tender Amount For Its Senior Notes Due 2028 From $450M To $300M"
-    },
-    {
-      "published_utc": "2026-09-25T00:37:37+00:00",
-      "publisher": "Yahoo",
-      "title": "How Much Could You Make If Synopsys Stock Rebounds From Here?"
     },
     {
       "published_utc": "2026-09-24T18:08:54+00:00",
@@ -40,11 +50,6 @@
       "title": "OpenText Announces Cash Tender Offer for a Portion of its Outstanding 2028 Notes"
     },
     {
-      "published_utc": "2026-09-22T20:10:14+00:00",
-      "publisher": "Yahoo",
-      "title": "What Happens To Synopsys Stock If AI Learns To Design Chips Without It?"
-    },
-    {
       "published_utc": "2026-09-22T12:20:00+00:00",
       "publisher": "Yahoo",
       "title": "OpenText Announces Conditional Notice of Redemption of its Outstanding 2027 Notes and Potential Offering of Senior Secured Notes"
@@ -58,11 +63,6 @@
       "published_utc": "2026-09-19T07:16:13+00:00",
       "publisher": "Yahoo",
       "title": "Open Text (OTEX) Partners On Trusted AI For Governments And Regulated Industries"
-    },
-    {
-      "published_utc": "2026-09-18T18:33:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Has Synopsys Stopped Leading With Bad News?"
     }
   ]
 }

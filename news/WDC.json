@@ -1,9 +1,19 @@
 {
   "ticker": "WDC",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T14:40:02+00:00",
+      "publisher": "Yahoo",
+      "title": "SMCI or WDC: Which Is the Better Value Stock Right Now?"
+    },
+    {
+      "published_utc": "2026-10-01T14:16:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Micron Slips 3% Despite Record Quarter and Above-Consensus Guidance; Western Digital Dips, SK Hynix Drifts"
+    },
     {
       "published_utc": "2026-09-30T18:22:56+00:00",
       "publisher": "SeekingAlpha",
@@ -30,26 +40,6 @@
       "title": "Western Digital Stock And 2 More AI Infrastructure Stocks To Own"
     },
     {
-      "published_utc": "2026-09-30T09:01:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Top 10 AI Stocks To Buy On The Seasonal Dip"
-    },
-    {
-      "published_utc": "2026-09-29T14:30:27+00:00",
-      "publisher": "Yahoo",
-      "title": "SanDisk Could Have a Much Bigger Opportunity Than Investors Expect"
-    },
-    {
-      "published_utc": "2026-09-29T13:05:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Examine Sandisk Carefully Before You Jump in on The Buyback News"
-    },
-    {
-      "published_utc": "2026-09-29T08:11:52+00:00",
-      "publisher": "Benzinga",
-      "title": "Netlist Opens New Legal Proceedings At U.S. International Trade Commission Seeking Exclusion And Cease And Desist Orders Against Micron Technology And MU's Customers Nvidia, Broadcom And Google; Claims Infringement Of The Company's HBM Patents"
-    },
-    {
       "published_utc": "2026-09-29T06:14:00+00:00",
       "publisher": "Yahoo",
       "title": "The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk"
@@ -63,6 +53,16 @@
       "published_utc": "2026-09-28T22:54:36+00:00",
       "publisher": "Yahoo",
       "title": "AMD, Intel, Western Digital, Vishay Intertechnology, and Penguin Solutions Stocks Trade Down, What You Need To Know"
+    },
+    {
+      "published_utc": "2026-09-28T19:26:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Spotting Winners: Western Digital (NASDAQ:WDC) And Semiconductors Stocks In Q2"
+    },
+    {
+      "published_utc": "2026-09-28T15:03:41+00:00",
+      "publisher": "Yahoo",
+      "title": "SK Hynix Drops 6% as Bloomberg Puts $100B Value on Potential Solidigm IPO; Micron and Western Digital Fall 4%"
     }
   ]
 }

@@ -1,23 +1,18 @@
 {
   "ticker": "LAES",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
-      "published_utc": "2026-09-28T13:35:08+00:00",
-      "publisher": "Benzinga",
-      "title": "9 Information Technology Stocks With Whale Alerts In Today’s Session"
+      "published_utc": "2026-09-30T12:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SEALSQ Highlights Its Subsidiary IC’Alps’ Low-Power, Secure ASIC Design Expertise for Implantable and Connected Medical Devices"
     },
     {
       "published_utc": "2026-09-24T12:30:00+00:00",
       "publisher": "Yahoo",
       "title": "SEALSQ Leverages NIST FIPS 140-3 Level 3 Validation to Accelerate Government, Critical-Infrastructure and Post-Quantum Hardware-Security Programs; Provides Updated Certification and Commercialization Timetable"
-    },
-    {
-      "published_utc": "2026-09-24T07:14:31+00:00",
-      "publisher": "ChartMill",
-      "title": "The 5% Wall: Treasury Yields Take the Air Out of Wall Street's Muse Rally"
     },
     {
       "published_utc": "2026-09-22T13:15:00+00:00",
@@ -33,21 +28,6 @@
       "published_utc": "2026-09-21T05:00:00+00:00",
       "publisher": "Yahoo",
       "title": "SEALSQ, WISeKey and Canton of Jura Sign MoU to Establish a Swiss Post-Quantum Semiconductor and Cybersecurity Center"
-    },
-    {
-      "published_utc": "2026-09-17T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "iMTC Technology Selects SEALSQ TPM183 for Next-Generation Fingerprint Recognition Medical Mouse"
-    },
-    {
-      "published_utc": "2026-09-17T08:32:32+00:00",
-      "publisher": "Benzinga",
-      "title": "iMTC Technology Selects SEALSQ's QVault TPM183 For Next-Gen Fingerprint Recognition Medical Mouse Designed For Hospitals And Healthcare Environments"
-    },
-    {
-      "published_utc": "2026-09-17T04:52:16+00:00",
-      "publisher": "Yahoo",
-      "title": "SEALSQ (LAES) Reported a $32.2M Half-Year Operating Loss. Can Revenue Catch Up With Spending?"
     }
   ]
 }

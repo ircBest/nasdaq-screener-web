@@ -1,13 +1,43 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
-      "published_utc": "2026-09-30T11:00:00+00:00",
+      "published_utc": "2026-10-01T13:30:49+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cerebras Systems: This Is Not A Golden Buying Opportunity"
+    },
+    {
+      "published_utc": "2026-09-30T23:12:28+00:00",
       "publisher": "Yahoo",
-      "title": "OpenAI's Dots connect to 4,000 apps and never sleep"
+      "title": "Cerebras Systems (CBRS) Stock May Stay Hard To Call After AI Inference Deal"
+    },
+    {
+      "published_utc": "2026-09-30T21:09:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Moderna, Cerebras, Jabil, HPE, Cal-Maine, Mattel, and More Stocks That Explain Today’s Market"
+    },
+    {
+      "published_utc": "2026-09-30T19:15:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Cerebras' Next Big Thing Already Here?"
+    },
+    {
+      "published_utc": "2026-09-30T18:13:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Stock Falls Again Because So Much Depends on OpenAI"
+    },
+    {
+      "published_utc": "2026-09-30T14:24:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras stock slides as Nvidia reportedly powers OpenAI’s ’Ultrafast’ tier"
+    },
+    {
+      "published_utc": "2026-09-30T10:28:34+00:00",
+      "publisher": "Benzinga",
+      "title": "Cerebras Stock Falls as 19.4 Million-Share Unlock Hits"
     },
     {
       "published_utc": "2026-09-30T07:34:38+00:00",
@@ -20,19 +50,9 @@
       "title": "Cerebras Systems vs. Nebius: What Revenue Growth Trends Reveal to Investors About These Artificial Intelligence Companies"
     },
     {
-      "published_utc": "2026-09-29T16:32:03+00:00",
-      "publisher": "Benzinga",
-      "title": "Donald Trump, Cathie Wood Bet on the Same 32 Stocks – Some Might Surprise You"
-    },
-    {
       "published_utc": "2026-09-29T15:15:00+00:00",
       "publisher": "Yahoo",
       "title": "CBRS' Backlog Rides on Strong AI Demand: Can it Outpace NVDA & AMD?"
-    },
-    {
-      "published_utc": "2026-09-29T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Zone Frontier Inc. Signs Long-Term Ground Lease with Purchase Option for more than 4,000 Acres in Potter County, Texas"
     },
     {
       "published_utc": "2026-09-29T12:01:01+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-09-29T11:55:28+00:00",
       "publisher": "SeekingAlpha",
       "title": "Cerebras Systems: Benchmark Numbers Do Not Make This A Winner"
-    },
-    {
-      "published_utc": "2026-09-29T07:44:56+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cerebras: Explosive Growth Makes This AI Stock Hard To Ignore"
-    },
-    {
-      "published_utc": "2026-09-29T01:19:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Systems vs. IonQ: Which Technology Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-09-29T00:41:09+00:00",
-      "publisher": "Yahoo",
-      "title": "BigBear.ai vs. Cerebras Systems: Which Technology Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-09-28T16:03:36+00:00",
-      "publisher": "Benzinga",
-      "title": "Watching Cerebras Systems; Traders Circulate The Company Will Be Hosting An Event Titled 'DevDay AfterParty By Cerebras x OpenAI' On Tuesday, September 29"
     }
   ]
 }

@@ -1,38 +1,33 @@
 {
   "ticker": "STRK",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T23:06:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor Wants His Bitcoin Rival to Win: What's in It for MicroStrategy?"
+    },
+    {
+      "published_utc": "2026-09-30T13:55:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy’s Michael Saylor Says We’re In A Bitcoin ‘Gold Rush’"
+    },
+    {
+      "published_utc": "2026-09-30T11:21:04+00:00",
+      "publisher": "Yahoo",
+      "title": "How Daily Dividends Could Shake Up the MicroStrategy Stock Story"
+    },
     {
       "published_utc": "2026-09-30T11:15:58+00:00",
       "publisher": "Yahoo",
       "title": "Michael Saylor Calls for BTC USD and Crypto to Hit $120 Trillion Valuation"
     },
     {
-      "published_utc": "2026-09-29T17:20:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitmine Continues to Load Up on Ethereum, Now Owns 4.9% of all ETH in Circulation. Is BMNR Stock a Buy?"
-    },
-    {
-      "published_utc": "2026-09-29T16:30:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Which Public Companies Hold the Most Bitcoin?"
-    },
-    {
       "published_utc": "2026-09-29T12:30:17+00:00",
       "publisher": "Yahoo",
       "title": "Strategy Moved 3,568 Bitcoin Worth $297 Million. Is Michael Saylor Selling Again?"
-    },
-    {
-      "published_utc": "2026-09-29T11:42:37+00:00",
-      "publisher": "Yahoo",
-      "title": "AI Predicts Bitcoin Path as Strategy Moves 3,568 Coins"
-    },
-    {
-      "published_utc": "2026-09-29T11:30:50+00:00",
-      "publisher": "Yahoo",
-      "title": "An XRP Treasury Company Is One Vote Away from Nasdaq: What Happens if Evernorth Lists as XRPN?"
     },
     {
       "published_utc": "2026-09-29T09:56:20+00:00",
@@ -45,11 +40,6 @@
       "title": "Can Strategy (MSTR) Be A Bargain Based On Book Value?"
     },
     {
-      "published_utc": "2026-09-28T19:54:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Strive Crosses 27,000 BTC After $94.5 Million Bitcoin Purchase"
-    },
-    {
       "published_utc": "2026-09-28T16:49:28+00:00",
       "publisher": "Yahoo",
       "title": "Michael Saylor's Strategy just bought more Bitcoin, this purchase was 75% bigger"
@@ -60,9 +50,19 @@
       "title": "Strategy’s Bitcoin Stockpile Is Bigger Than Before It Started Selling"
     },
     {
-      "published_utc": "2026-09-28T16:05:09+00:00",
+      "published_utc": "2026-09-28T16:00:00+00:00",
       "publisher": "Yahoo",
-      "title": "Strategy buys $142.7M worth of bitcoin"
+      "title": "Michael Saylor's Strategy buys $143M worth of bitcoin"
+    },
+    {
+      "published_utc": "2026-09-28T15:26:53+00:00",
+      "publisher": "Yahoo",
+      "title": "‘A Little More Orange,’ Says Saylor as He Starts Buying Bitcoin Again. Here’s Why I Don't See Much Orange in the Short Term."
+    },
+    {
+      "published_utc": "2026-09-28T15:25:46+00:00",
+      "publisher": "Yahoo",
+      "title": "BitMine’s Ethereum Stack Crosses 6M, While Strategy Taps MSTR Sales To Buy BTC And STRC"
     }
   ]
 }

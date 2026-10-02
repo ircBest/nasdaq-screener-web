@@ -1,23 +1,18 @@
 {
   "ticker": "CGNX",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
-      "published_utc": "2026-09-29T13:04:02+00:00",
-      "publisher": "Yahoo",
-      "title": "3 of Wall Street’s Favorite Stocks with Warning Signs"
+      "published_utc": "2026-09-30T23:08:32+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cognex: AI And Robotics Have Potential, But Near-Term Upside Looks Limited"
     },
     {
       "published_utc": "2026-09-25T13:34:15+00:00",
       "publisher": "Benzinga",
       "title": "Deal Dispatch: Jana Calls For Six Flags Review, Cognex Corp Buys RealSense, Brightline Bankruptcy"
-    },
-    {
-      "published_utc": "2026-09-25T12:06:07+00:00",
-      "publisher": "ChartMill",
-      "title": "Robotics Earnings Week: Momentum vs. Value as Four Automation Names Report"
     },
     {
       "published_utc": "2026-09-24T08:07:53+00:00",
@@ -63,6 +58,11 @@
       "published_utc": "2026-09-22T11:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Cognex to Acquire RealSense, Expanding Machine Vision Leadership into High-Growth Robotic Perception Market"
+    },
+    {
+      "published_utc": "2026-09-22T07:08:11+00:00",
+      "publisher": "Benzinga",
+      "title": "Cognex Expects To Grant Restricted Stock Units Valued At ~$50M Under Its Existing 2023 Stock Option And Incentive Plan Dependent On Grant-Date Share Price"
     }
   ]
 }

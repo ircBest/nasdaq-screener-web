@@ -1,29 +1,9 @@
 {
   "ticker": "RUN",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
-    {
-      "published_utc": "2026-09-29T14:26:53+00:00",
-      "publisher": "Benzinga",
-      "title": "Under the Radar: 5 Stocks With 10X Potential"
-    },
-    {
-      "published_utc": "2026-09-28T14:27:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Can This Number Push Tesla Stock Higher?"
-    },
-    {
-      "published_utc": "2026-09-25T13:37:11+00:00",
-      "publisher": "Yahoo",
-      "title": "What Would It Take For Tesla Stock To Move Higher?"
-    },
-    {
-      "published_utc": "2026-09-25T12:59:42+00:00",
-      "publisher": "Yahoo",
-      "title": "Solar Stocks Tumble After 30-Year Treasury Yield Hits 2004 High"
-    },
     {
       "published_utc": "2026-09-24T22:48:58+00:00",
       "publisher": "Yahoo",
@@ -55,14 +35,34 @@
       "title": "TSLA, RUN Stocks In Focus — 580 MW Heat-Wave Battery Drop Lifts Tesla And Sunrun Despite 2026 Losses"
     },
     {
-      "published_utc": "2026-09-21T15:02:25+00:00",
-      "publisher": "Yahoo",
-      "title": "2 Industrials Stocks to Consider Right Now and 1 That Underwhelm"
+      "published_utc": "2026-09-21T12:32:32+00:00",
+      "publisher": "Benzinga",
+      "title": "Sunrun, Tesla Set Record With 580 MW California Grid Dispatch"
     },
     {
-      "published_utc": "2026-09-21T13:27:54+00:00",
+      "published_utc": "2026-09-21T12:00:00+00:00",
       "publisher": "Yahoo",
-      "title": "Should You Pay Up For Tesla's Narrow Lead Over Its Peers?"
+      "title": "Sunrun and Tesla Dispatch 580 Megawatts To California’s Grid During Heat Wave, Marking Largest Residential Distributed Power Plant Event In History"
+    },
+    {
+      "published_utc": "2026-09-21T08:33:04+00:00",
+      "publisher": "Benzinga",
+      "title": "CORRECTION: Sunrun, Tesla Fleets Of Home Batteries Provided 580 Megawatts Of Peak Power In California On Sept. 9"
+    },
+    {
+      "published_utc": "2026-09-21T06:59:24+00:00",
+      "publisher": "Benzinga",
+      "title": "Goldman Sachs Maintains Buy on Sunrun, Lowers Price Target to $13"
+    },
+    {
+      "published_utc": "2026-09-18T17:01:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Enphase Energy Drops 5% as Solar Selling Resumes; First Solar and Sunrun Fall 4%"
+    },
+    {
+      "published_utc": "2026-09-18T16:11:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Should Sunrun’s (RUN) New Capital Raise and Outage Messaging Reframe Its Resilience-Focused Investment Story?"
     }
   ]
 }

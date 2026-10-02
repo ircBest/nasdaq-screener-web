@@ -1,9 +1,14 @@
 {
   "ticker": "ZS",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T17:11:30+00:00",
+      "publisher": "Yahoo",
+      "title": "Zscaler (ZS) Warns AI Driven Ransomware Is Reshaping Cyber Threats"
+    },
     {
       "published_utc": "2026-09-30T11:15:11+00:00",
       "publisher": "Yahoo",
@@ -13,16 +18,6 @@
       "published_utc": "2026-09-30T07:01:00+00:00",
       "publisher": "Yahoo",
       "title": "New Zscaler Report Reveals AI-Assisted Attackers Move to Massive Data Theft, Executive Targeting, and Millions in Extortion Payments"
-    },
-    {
-      "published_utc": "2026-09-29T22:17:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Bot Traffic Will Be “1000X” Bigger Than Human Traffic in Just Five Years, According to Cloudflare CEO"
-    },
-    {
-      "published_utc": "2026-09-29T12:54:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can AI Infrastructure Demand Boost PANW's Network Security Growth?"
     },
     {
       "published_utc": "2026-09-29T08:37:59+00:00",
@@ -45,24 +40,29 @@
       "title": "Zscaler's ARR Growth on Focus at Upcoming Investor Day, Wedbush Says"
     },
     {
-      "published_utc": "2026-09-28T16:08:07+00:00",
-      "publisher": "Yahoo",
-      "title": "What Could Derail CrowdStrike Stock?"
-    },
-    {
-      "published_utc": "2026-09-28T15:03:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?"
-    },
-    {
-      "published_utc": "2026-09-28T13:03:33+00:00",
+      "published_utc": "2026-09-28T08:40:15+00:00",
       "publisher": "Benzinga",
-      "title": "Nasdaq 100 Sinks, Oil Rallies as Trump Rejects Iran's Hormuz Plan: Stock Market Today"
+      "title": "Wedbush Reiterates Outperform on Zscaler, Maintains $215 Price Target"
     },
     {
-      "published_utc": "2026-09-28T12:38:36+00:00",
+      "published_utc": "2026-09-26T18:09:02+00:00",
       "publisher": "Yahoo",
-      "title": "2 Unpopular Stocks That Deserve Some Love and 1 Facing Headwinds"
+      "title": "Zscaler (ZS) Names Ross Tackett Chief Revenue Officer"
+    },
+    {
+      "published_utc": "2026-09-26T03:04:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Zscaler (ZS) Stock Is Trading Lower Today"
+    },
+    {
+      "published_utc": "2026-09-25T20:39:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft, Meta, Akamai, Zscaler, Comcast, and More Stocks That Explain Today’s Market"
+    },
+    {
+      "published_utc": "2026-09-25T20:21:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Zscaler Stock Had Its Worst Day in 4 Months"
     }
   ]
 }

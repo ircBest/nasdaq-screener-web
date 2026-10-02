@@ -1,9 +1,14 @@
 {
   "ticker": "KLIC",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T13:17:53+00:00",
+      "publisher": "Yahoo",
+      "title": "American Century Sees Kulicke and Soffa Industries (KLIC) as a Semiconductor Growth Opportunity"
+    },
     {
       "published_utc": "2026-09-24T14:04:45+00:00",
       "publisher": "Yahoo",
@@ -15,24 +20,9 @@
       "title": "FormFactor, Kulicke and Soffa, Monolithic Power Systems, Micron, and Seagate Stocks Trade Up, What You Need To Know"
     },
     {
-      "published_utc": "2026-09-22T01:16:38+00:00",
-      "publisher": "Yahoo",
-      "title": "3 AI Chip Equipment Stocks Riding the Semiconductor Rally"
-    },
-    {
       "published_utc": "2026-09-21T15:34:00+00:00",
       "publisher": "Yahoo",
       "title": "KLIC Up 93.6% in a Year: Should Investors Bet on the Stock Now?"
-    },
-    {
-      "published_utc": "2026-09-18T13:10:00+00:00",
-      "publisher": "Yahoo",
-      "title": "UCTT Rides on Solid Growth Dynamics: Should You Buy the Stock Now?"
-    },
-    {
-      "published_utc": "2026-09-17T12:51:06+00:00",
-      "publisher": "ChartMill",
-      "title": "Kulicke & Soffa (NASDAQ:KLIC) Offers Affordable Growth With Strong Forward Earnings and a Reasonable Valuation"
     }
   ]
 }

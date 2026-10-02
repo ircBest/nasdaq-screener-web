@@ -1,9 +1,14 @@
 {
   "ticker": "NXT",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T15:10:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Will Nextpower (NXT) Beat Estimates Again in Its Next Earnings Report?"
+    },
     {
       "published_utc": "2026-09-30T12:02:15+00:00",
       "publisher": "SeekingAlpha",
@@ -20,19 +25,9 @@
       "title": "Nextpower (NXT) Declines More Than Market: Some Information for Investors"
     },
     {
-      "published_utc": "2026-09-28T14:22:36+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Quality Compounders with Exciting Potential"
-    },
-    {
       "published_utc": "2026-09-26T17:02:20+00:00",
       "publisher": "Yahoo",
       "title": "Nextpower Sees Solar, Storage Demand Powering Through Policy and Grid Challenges"
-    },
-    {
-      "published_utc": "2026-09-25T18:16:37+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Growth Stocks Set to Flourish"
     },
     {
       "published_utc": "2026-09-25T00:16:58+00:00",
@@ -50,11 +45,6 @@
       "title": "Nextpower Inc. (NXT) Presents at BNP Paribas Annual Power Up Conference Transcript"
     },
     {
-      "published_utc": "2026-09-22T13:57:39+00:00",
-      "publisher": "Yahoo",
-      "title": "AI Pick-And-Shovel Stocks To Watch As Xi And Trump Meet"
-    },
-    {
       "published_utc": "2026-09-22T08:25:11+00:00",
       "publisher": "Benzinga",
       "title": "Baird Maintains Outperform on Nextpower, Lowers Price Target to $116"
@@ -63,6 +53,16 @@
       "published_utc": "2026-09-22T04:48:13+00:00",
       "publisher": "Yahoo",
       "title": "A New Patent Just Validated Nextpower’s (NXT) Boldest Growth Bet"
+    },
+    {
+      "published_utc": "2026-09-21T21:45:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Nextpower (NXT) Outpaced the Stock Market Today"
+    },
+    {
+      "published_utc": "2026-09-18T11:10:42+00:00",
+      "publisher": "ChartMill",
+      "title": "Nextpower (NASDAQ:NXT) Combines Affordable Growth With Quality and Reasonable Valuation"
     }
   ]
 }

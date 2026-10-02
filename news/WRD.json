@@ -1,48 +1,23 @@
 {
   "ticker": "WRD",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T02:07:18+00:00",
+      "publisher": "Yahoo",
+      "title": "WeRide (WRD) Could Be 62% Undervalued Following Its Slovakia Partnership"
+    },
     {
       "published_utc": "2026-09-28T05:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Zacks Investment Ideas feature highlights: Alibaba, Baidu, Kingsoft Cloud, Tencent, Hesai, Pony AI and WeRide"
     },
     {
-      "published_utc": "2026-09-25T18:33:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Trump-Xi Meeting Puts These 5 Chinese AI Stocks in Focus"
-    },
-    {
-      "published_utc": "2026-09-24T23:12:41+00:00",
-      "publisher": "Yahoo",
-      "title": "What Does Uber Technologies (UBER) Winning Spain's First Robotaxi Permit Mean?"
-    },
-    {
       "published_utc": "2026-09-24T06:24:00+00:00",
       "publisher": "Yahoo",
       "title": "WeRide Recognized on Fortune's 2026 Change the World List as the Only Autonomous Driving Company Honored"
-    },
-    {
-      "published_utc": "2026-09-23T07:17:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Elon Musk Ally Jason Calacanis Bets These 4 Autonomy Stocks Will Be Bought Within 2 Years — And Double His Money"
-    },
-    {
-      "published_utc": "2026-09-18T02:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Waymo to launch robotaxis in Singapore, its first Southeast Asia market, by 2028"
-    },
-    {
-      "published_utc": "2026-09-17T21:36:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Uber’s Madrid Expansion Adds a Fourth City to Its WeRide Partnership, But Its Multi-Partner Bet Faces Real Strain"
-    },
-    {
-      "published_utc": "2026-09-17T16:02:23+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "WeRide: Strong Operational Momentum Meets Market Skepticism"
     }
   ]
 }

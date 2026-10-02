@@ -1,18 +1,18 @@
 {
   "ticker": "SWKS",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-01T09:14:10+00:00",
+      "publisher": "Benzinga",
+      "title": "RBC Capital Maintains Sector Perform on Skyworks Solutions, Raises Price Target to $95"
+    },
+    {
       "published_utc": "2026-09-30T12:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Skyworks Receives All Necessary Clearances for Proposed Combination with Qorvo"
-    },
-    {
-      "published_utc": "2026-09-29T09:03:01+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Cash-Producing Stocks We Keep Off Our Radar"
     },
     {
       "published_utc": "2026-09-28T22:46:36+00:00",
@@ -25,11 +25,6 @@
       "title": "Q2 Earnings Highs And Lows: Skyworks Solutions (NASDAQ:SWKS) Vs The Rest Of The Analog Semiconductors Stocks"
     },
     {
-      "published_utc": "2026-09-28T13:39:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cirrus Logic Faces Pricing Pressure: Can Gross Margin Stay Firm?"
-    },
-    {
       "published_utc": "2026-09-25T22:34:00+00:00",
       "publisher": "Yahoo",
       "title": "Skyworks Announces Extension of Expiration Date of Exchange Offers for Qorvo’s Senior Notes due 2029 and 2031"
@@ -38,16 +33,6 @@
       "published_utc": "2026-09-25T17:14:35+00:00",
       "publisher": "Yahoo",
       "title": "What Should Skyworks Solutions (SWKS) Investors Watch After Its Index Removal?"
-    },
-    {
-      "published_utc": "2026-09-25T12:35:00+00:00",
-      "publisher": "ChartMill",
-      "title": "Wondering what's happening in today's S&P500  pre-market session?"
-    },
-    {
-      "published_utc": "2026-09-25T07:23:07+00:00",
-      "publisher": "Benzinga",
-      "title": "Wall Street's Most Accurate Analysts Spotlight On 3 Tech Stocks Delivering High-Dividend Yields"
     },
     {
       "published_utc": "2026-09-24T22:24:58+00:00",
@@ -60,9 +45,24 @@
       "title": "Microchip Technology, Skyworks Solutions, and Universal Display Shares Are Falling, What You Need To Know"
     },
     {
-      "published_utc": "2026-09-23T11:42:58+00:00",
+      "published_utc": "2026-09-22T19:12:52+00:00",
       "publisher": "Yahoo",
-      "title": "Analysts Think 6 S&P 500 Stocks Are Grossly Overvalued"
+      "title": "Skyworks Just Surged 33% in a Month: Is It Too Late to Buy SWKS Stock Now?"
+    },
+    {
+      "published_utc": "2026-09-22T12:51:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Skyworks Solutions Stock Outperforming the Dow?"
+    },
+    {
+      "published_utc": "2026-09-21T16:53:14+00:00",
+      "publisher": "Yahoo",
+      "title": "Qualcomm Jumps 7% as AI Interconnect Demo Points Past Handsets; Skyworks and Qorvo Sit Out the Rally"
+    },
+    {
+      "published_utc": "2026-09-21T05:36:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Most Qorvo (QRVO) Bondholders Said Yes, but Skyworks (SWKS) Is Still Waiting"
     }
   ]
 }

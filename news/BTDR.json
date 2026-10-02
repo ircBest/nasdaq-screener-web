@@ -1,43 +1,23 @@
 {
   "ticker": "BTDR",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T09:00:21+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Bitdeer: The Real Value Is In What Each Megawatt Can Earn"
+    },
     {
       "published_utc": "2026-09-29T17:05:06+00:00",
       "publisher": "Benzinga",
       "title": "Bitdeer Technologies Group's Bitdeer AI Secures Off-Take Commitments Of More Than 70% For Its ~21.7MW Capacity At Its A201 Data Center Facility In Johor Bahru, Malaysia For AI Cloud Business"
     },
     {
-      "published_utc": "2026-09-29T08:17:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Norway Data Center Market: Existing and Upcoming Portfolio Database, 2026-2031 | 34 Upcoming Facilities Drive Capacity Growth and Investment Beyond Oslo"
-    },
-    {
-      "published_utc": "2026-09-28T17:09:31+00:00",
-      "publisher": "Yahoo",
-      "title": "JonesTrading initiates DarkHorse at Buy with $5 target on site conversions"
-    },
-    {
       "published_utc": "2026-09-28T07:32:40+00:00",
       "publisher": "Benzinga",
       "title": "Soluna Holdings Announces Amended Agreement With Bitdeer’s Dory Creek, Adding ~7 MW And Bringing Deployment To ~2.42 EH/S, Fully Subscribing Site's K1BC Phase"
-    },
-    {
-      "published_utc": "2026-09-25T14:00:54+00:00",
-      "publisher": "Benzinga",
-      "title": "Squeeze Watch: 10 Stocks With Over 33% Short Interest"
-    },
-    {
-      "published_utc": "2026-09-25T11:34:21+00:00",
-      "publisher": "Benzinga",
-      "title": "Securitize shares are trading higher after Rosenblatt initiated its coverage on the stock with a Buy rating and announced a price target of $14."
-    },
-    {
-      "published_utc": "2026-09-24T14:50:36+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave, Nebius take Platinum in SemiAnalysis rankings while IREN rated ‘Underperforming’"
     },
     {
       "published_utc": "2026-09-24T12:27:53+00:00",
@@ -53,11 +33,6 @@
       "published_utc": "2026-09-20T21:04:58+00:00",
       "publisher": "Yahoo",
       "title": "Bitdeer (BTDR) Fully Contracts A102. Can Signed Demand Become Profitable AI Revenue?"
-    },
-    {
-      "published_utc": "2026-09-18T23:06:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy (MSTR) Surges 16% on Growing Digital Asset Adoption — A New Catalyst Looms Next Week"
     }
   ]
 }

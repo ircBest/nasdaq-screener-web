@@ -1,9 +1,14 @@
 {
   "ticker": "PGY",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T14:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Pagaya Trades at a Discount: Is the Stock Worth Investing In?"
+    },
     {
       "published_utc": "2026-09-29T12:30:00+00:00",
       "publisher": "Yahoo",
@@ -30,16 +35,6 @@
       "title": "Pagaya Technologies: A High-Conviction Satellite Bet With 20%+ Projected IRR"
     },
     {
-      "published_utc": "2026-09-23T14:38:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Value Investing Legend Seth Klarman’s New Non-AI Picks"
-    },
-    {
-      "published_utc": "2026-09-23T12:40:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Market Fear Vs. Fundamentals: The Top-Rated AI Fintech Steven Cress Is Buying"
-    },
-    {
       "published_utc": "2026-09-22T12:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Pagaya Closes 24-Month $460 Million Revolving Personal Loan Facility"
@@ -63,6 +58,11 @@
       "published_utc": "2026-09-19T03:12:29+00:00",
       "publisher": "SeekingAlpha",
       "title": "Pagaya: The Growth Narrative Is Getting Harder To Ignore"
+    },
+    {
+      "published_utc": "2026-09-18T16:00:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Pagaya Technologies Ltd. (PGY) Upgraded to Strong Buy: Here's What You Should Know"
     }
   ]
 }

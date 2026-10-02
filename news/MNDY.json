@@ -1,9 +1,19 @@
 {
   "ticker": "MNDY",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-09-30T23:01:13+00:00",
+      "publisher": "Yahoo",
+      "title": "UiPath, monday.com, Amplitude, Doximity, and Sprinklr Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "published_utc": "2026-09-30T20:45:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocks making big moves yesterday: FuelCell Energy, Carnival, Warby Parker, Fair Isaac Corporation, and monday.com"
+    },
     {
       "published_utc": "2026-09-29T23:52:02+00:00",
       "publisher": "Yahoo",
@@ -25,11 +35,6 @@
       "title": "JPMorgan cuts Monday.com to Neutral on slowing growth"
     },
     {
-      "published_utc": "2026-09-29T12:29:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Best Growth Stocks to Buy for September 29th"
-    },
-    {
       "published_utc": "2026-09-29T12:16:07+00:00",
       "publisher": "Benzinga",
       "title": "JP Morgan Downgrades Monday.Com to Neutral, Lowers Price Target to $87"
@@ -45,24 +50,19 @@
       "title": "JFrog, Commerce, ZoomInfo, Upstart, and monday.com Shares Plummet, What You Need To Know"
     },
     {
-      "published_utc": "2026-09-28T19:41:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Meta Platform Takes Aim at Salesforce, ServiceNow With AI Push"
-    },
-    {
-      "published_utc": "2026-09-28T11:43:23+00:00",
-      "publisher": "Benzinga",
-      "title": "Infobird Says On May 7 Xiangyang Wen Was Appointed As CEO"
-    },
-    {
       "published_utc": "2026-09-25T08:49:00+00:00",
       "publisher": "Yahoo",
       "title": "Zacks.com featured highlights include Match Group, monday.com, Ubiquiti and Semtech"
     },
     {
-      "published_utc": "2026-09-24T14:36:00+00:00",
+      "published_utc": "2026-09-23T21:50:05+00:00",
       "publisher": "Yahoo",
-      "title": "4 Top-Performing Liquid Stocks to Strengthen Your Portfolio"
+      "title": "Monday.com (MNDY) Gains As Market Dips: What You Should Know"
+    },
+    {
+      "published_utc": "2026-09-23T18:04:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher"
     }
   ]
 }

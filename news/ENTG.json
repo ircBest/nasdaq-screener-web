@@ -1,9 +1,14 @@
 {
   "ticker": "ENTG",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T20:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Entegris to Report Results for Third Quarter of 2026 on Thursday, October 29, 2026"
+    },
     {
       "published_utc": "2026-09-28T17:00:37+00:00",
       "publisher": "Benzinga",
@@ -20,34 +25,14 @@
       "title": "Creep Resistance Materials Market - Global Strategic Business Report 2026: Capitalize on the $5.5B Surge to $21.8B by 2030 as Tariffs Reshape Sourcing and Acerinox, Aperam, Saint-Gobain, Entegris and Imerys Battle to Dominate High-Temperature Systems"
     },
     {
-      "published_utc": "2026-09-24T15:47:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Chip Stocks Retreat. Qualcomm Secures Apple Licensing Deal."
-    },
-    {
       "published_utc": "2026-09-24T09:13:56+00:00",
       "publisher": "Yahoo",
       "title": "Entegris (ENTG) Looks 13% Below Fair Value, Is The P E Premium Too High?"
     },
     {
-      "published_utc": "2026-09-23T21:07:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Top Research Reports for Micron, Costco & Interactive Brokers"
-    },
-    {
       "published_utc": "2026-09-22T21:09:46+00:00",
       "publisher": "Yahoo",
       "title": "Entegris and Lattice Semiconductor Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "published_utc": "2026-09-22T04:44:42+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "PSI: A Semiconductor ETF Built Around More Than Nvidia"
-    },
-    {
-      "published_utc": "2026-09-19T08:20:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Harbor SMID Cap Value ETF Q2 2026 Contributors And Detractors"
     }
   ]
 }

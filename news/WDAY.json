@@ -1,18 +1,28 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-01T20:50:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday (WDAY) Stock Slides as Market Rises: Facts to Know Before You Trade"
+    },
+    {
+      "published_utc": "2026-10-01T18:17:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday's axe falls again, and this time it lands on the tech team"
+    },
+    {
+      "published_utc": "2026-10-01T15:28:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday Launches in the UAE to Help Organisations Transform HR, Finance, and IT in the AI Era"
+    },
+    {
       "published_utc": "2026-09-30T13:30:40+00:00",
       "publisher": "SeekingAlpha",
       "title": "Workday: Reduced Headcount Could Further Bolster My AI Thesis"
-    },
-    {
-      "published_utc": "2026-09-30T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Guidehouse Helps California Counties Modernize Core Operations"
     },
     {
       "published_utc": "2026-09-29T16:05:06+00:00",
@@ -20,19 +30,9 @@
       "title": "Workday Announces Reduction Of About 2.5% Of Current Workforce; Estimates Charges Of $65M-$80M Related To Reorganization; Expects $40M-$55M In Future Cash Expenditures For Severance And Benefits; Continue To Hire In Key Strategic Areas And Locations Throughout Its Fiscal 2027; Workforce Reduction Pr"
     },
     {
-      "published_utc": "2026-09-29T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "The gut-check questions every leader needs to ask before building with AI"
-    },
-    {
       "published_utc": "2026-09-28T15:07:00+00:00",
       "publisher": "Yahoo",
       "title": "Teem Brings AI-Native Supplier Intelligence to Workday Spend Management"
-    },
-    {
-      "published_utc": "2026-09-28T14:43:38+00:00",
-      "publisher": "Yahoo",
-      "title": "Meta and ServiceNow Drop 4% as Enterprise Platform Launch Reprices Software; MongoDB Tumbles 19%"
     },
     {
       "published_utc": "2026-09-28T12:00:00+00:00",
@@ -60,9 +60,9 @@
       "title": "Can WDAY's Introduction of Total Benefits Boost Its Growth Prospects?"
     },
     {
-      "published_utc": "2026-09-25T12:08:00+00:00",
+      "published_utc": "2026-09-25T11:17:00+00:00",
       "publisher": "Yahoo",
-      "title": "How Will SAP's AI Platform Support Cloud Revenue Growth?"
+      "title": "Block Expands Square and Cash App's Reach With Apple & Workday Deals"
     }
   ]
 }

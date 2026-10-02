@@ -1,9 +1,19 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T12:50:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Stock Is Down 45% in 12 Months. Here’s What Drove the Slide"
+    },
+    {
+      "published_utc": "2026-10-01T04:33:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Coinbase, Vlad Tenev-Led Robinhood, Andreessen Horowitz’s Crypto Arm Among Others Poured $8 Million in CLARITY Act Push: Report"
+    },
     {
       "published_utc": "2026-09-30T21:16:37+00:00",
       "publisher": "Yahoo",
@@ -15,29 +25,9 @@
       "title": "Coinbase Global, Inc. (COIN) Dips More Than Broader Market: What You Should Know"
     },
     {
-      "published_utc": "2026-09-30T17:45:57+00:00",
-      "publisher": "Yahoo",
-      "title": "Stripe's Bridge Launches OUSD, the Stablecoin That Pays Its Distributors"
-    },
-    {
       "published_utc": "2026-09-30T16:51:00+00:00",
       "publisher": "Yahoo",
       "title": "CFTC Approval Expands Coinbase's U.S. Derivatives Opportunity"
-    },
-    {
-      "published_utc": "2026-09-30T14:28:30+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin to $400K? Robinhood’s 10x Trading Push Meets ‘Uptober’ Hopes"
-    },
-    {
-      "published_utc": "2026-09-30T14:13:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin Rises on Cooler-Than-Expected Inflation Data"
-    },
-    {
-      "published_utc": "2026-09-30T13:17:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Payment Giants Are Buying the Pipes Before the Lanes Are Built"
     },
     {
       "published_utc": "2026-09-30T13:11:56+00:00",
@@ -63,6 +53,16 @@
       "published_utc": "2026-09-29T17:44:02+00:00",
       "publisher": "Yahoo",
       "title": "Q2 Earnings Outperformers: Coinbase (NASDAQ:COIN) And The Rest Of The Financial Technology Stocks"
+    },
+    {
+      "published_utc": "2026-09-29T16:15:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase wins approval for crypto clearinghouse: What to know"
+    },
+    {
+      "published_utc": "2026-09-29T16:12:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Citigroup Deepens Stablecoin Push With Expanded Coinbase Tie-Up"
     }
   ]
 }

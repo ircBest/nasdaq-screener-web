@@ -1,13 +1,48 @@
 {
   "ticker": "MDB",
-  "generated_at": "2026-10-01T02:56:50+00:00",
+  "generated_at": "2026-10-02T07:49:36+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
-      "published_utc": "2026-09-30T09:55:38+00:00",
+      "published_utc": "2026-10-01T09:25:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Do CEOs Matter? MongoDB Shareholders Are About To Find Out"
+    },
+    {
+      "published_utc": "2026-09-30T22:53:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is MongoDB (MDB) Stock Rocketing Higher Today"
+    },
+    {
+      "published_utc": "2026-09-30T17:38:00+00:00",
+      "publisher": "Yahoo",
+      "title": "MongoDB has AI momentum on its side, BofA says following investor day"
+    },
+    {
+      "published_utc": "2026-09-30T16:00:59+00:00",
+      "publisher": "Yahoo",
+      "title": "MongoDB Stock Regains Ground. How Investor Day Addressed CEO Leaving For Meta."
+    },
+    {
+      "published_utc": "2026-09-30T14:55:46+00:00",
+      "publisher": "Yahoo",
+      "title": "MongoDB Stock Crashes After CEO Exit. This Brutal Selloff Is a Buying Opportunity."
+    },
+    {
+      "published_utc": "2026-09-30T14:15:13+00:00",
       "publisher": "Benzinga",
-      "title": "Hewlett Packard Enterprise, Capital Bancorp, FormFactor And Other Big Stocks Moving Higher On Wednesday"
+      "title": "DA Davidson Maintains Buy on MongoDB, Lowers Price Target to $415"
+    },
+    {
+      "published_utc": "2026-09-30T13:44:26+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Neutral on MongoDB, Lowers Price Target to $375"
+    },
+    {
+      "published_utc": "2026-09-30T13:08:51+00:00",
+      "publisher": "Benzinga",
+      "title": "MongoDB Stock Pops After $1 Billion Buyback Announcement"
     },
     {
       "published_utc": "2026-09-30T09:32:31+00:00",
@@ -28,41 +63,6 @@
       "published_utc": "2026-09-30T08:54:55+00:00",
       "publisher": "Benzinga",
       "title": "BMO Capital Maintains Outperform on MongoDB, Lowers Price Target to $420"
-    },
-    {
-      "published_utc": "2026-09-30T08:30:47+00:00",
-      "publisher": "Benzinga",
-      "title": "Guggenheim Reiterates Buy on MongoDB, Maintains $560 Price Target"
-    },
-    {
-      "published_utc": "2026-09-30T08:26:44+00:00",
-      "publisher": "Benzinga",
-      "title": "Stifel Maintains Buy on MongoDB, Lowers Price Target to $385"
-    },
-    {
-      "published_utc": "2026-09-30T08:06:47+00:00",
-      "publisher": "Benzinga",
-      "title": "Stephens & Co. Maintains Equal-Weight on MongoDB, Lowers Price Target to $372"
-    },
-    {
-      "published_utc": "2026-09-30T07:08:22+00:00",
-      "publisher": "Yahoo",
-      "title": "What Does MongoDB (MDB) 9.0 And Atlas Infinite Mean For Its AI Push?"
-    },
-    {
-      "published_utc": "2026-09-30T06:15:50+00:00",
-      "publisher": "Benzinga",
-      "title": "Needham Reiterates Buy on MongoDB, Maintains $430 Price Target"
-    },
-    {
-      "published_utc": "2026-09-30T06:10:24+00:00",
-      "publisher": "Benzinga",
-      "title": "Evercore ISI Group Reiterates Outperform on MongoDB, Maintains $525 Price Target"
-    },
-    {
-      "published_utc": "2026-09-30T06:06:17+00:00",
-      "publisher": "Yahoo",
-      "title": "MongoDB (MDB) Is Down 21.2% After CEO Desai’s Sudden Exit to Join Meta Platforms"
     }
   ]
 }

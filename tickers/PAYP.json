@@ -1,0 +1,32 @@
+{
+  "ticker": "PAYP",
+  "generated_at": "2026-10-02T07:49:36.887865+00:00",
+  "points": [
+    {
+      "d": "2026-10-01",
+      "c": 15.14,
+      "h": 15.93,
+      "l": 15.05,
+      "v": 892800
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "PAYP|2026-10-02",
+      "date": "2026-10-02",
+      "entry": 15.14,
+      "target": 17.22,
+      "stop": 14.1,
+      "rsi": 36.0576
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 892800,
+    "latest": 892800,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}
