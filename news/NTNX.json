@@ -1,9 +1,29 @@
 {
   "ticker": "NTNX",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T12:05:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Nutanix (NTNX) Reshapes Sales Leadership As Tarkan Maner Exits"
+    },
+    {
+      "published_utc": "2026-10-02T10:08:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Nutanix (NTNX) Stock Sees Fair Value Lift As Analysts Back Hybrid Cloud Demand"
+    },
+    {
+      "published_utc": "2026-10-02T09:50:30+00:00",
+      "publisher": "ChartMill",
+      "title": "Nutanix (NASDAQ:NTNX): Strong Growth Meets a High-Quality Technical Setup"
+    },
+    {
+      "published_utc": "2026-10-01T23:10:40+00:00",
+      "publisher": "Yahoo",
+      "title": "Nutanix (NTNX) Stock May Be 12% Undervalued As Managed Cloud Expands"
+    },
     {
       "published_utc": "2026-10-01T20:50:05+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-09-24T14:40:04+00:00",
       "publisher": "Yahoo",
       "title": "G or NTNX: Which Is the Better Value Stock Right Now?"
-    },
-    {
-      "published_utc": "2026-09-23T09:08:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Nutanix acquires France-based AI orchestration firm Ryax Technologies"
-    },
-    {
-      "published_utc": "2026-09-22T14:36:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Nutanix Acquires Ryax Technologies To Tackle GPU Bottlenecks In Agentic AI — Plans Integration Across Enterprise AI Platforms"
-    },
-    {
-      "published_utc": "2026-09-22T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Nutanix Acquires Ryax Technologies to Help Customers Accelerate Agentic AI Initiatives"
-    },
-    {
-      "published_utc": "2026-09-22T12:45:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Nexcess Expands Service Offerings with Managed Cloud Powered by Nutanix"
     }
   ]
 }

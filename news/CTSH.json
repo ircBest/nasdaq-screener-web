@@ -1,9 +1,19 @@
 {
   "ticker": "CTSH",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T15:06:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Cognizant Set for Durable Growth as Margin Expansion Expected to Begin in Q4, Wedbush Says"
+    },
+    {
+      "published_utc": "2026-10-02T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cognizant Schedules Third Quarter 2026 Earnings Release and Conference Call"
+    },
     {
       "published_utc": "2026-10-01T15:16:28+00:00",
       "publisher": "Yahoo",
@@ -13,6 +23,11 @@
       "published_utc": "2026-10-01T12:33:06+00:00",
       "publisher": "Yahoo",
       "title": "Cognizant Shares Rise 7.2% Following Accenture Results"
+    },
+    {
+      "published_utc": "2026-10-01T11:47:20+00:00",
+      "publisher": "Benzinga",
+      "title": "Accenture Earnings Lift Software and IT Services Stocks: Cognizant, IBM, Wipro Rise on Thursday"
     },
     {
       "published_utc": "2026-09-29T15:00:00+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-23T10:15:21+00:00",
       "publisher": "SeekingAlpha",
       "title": "Cognizant: Rogue AI Agents Need Guardrails"
-    },
-    {
-      "published_utc": "2026-09-23T08:12:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Capitalize on AI-Driven Pharmacovigilance: Benchmark IQVIA, Accenture, Cognizant, Parexel and ArisGlobal to Secure Compliance ROI and Dominate the Global Market Shift Through 2030"
-    },
-    {
-      "published_utc": "2026-09-23T08:00:51+00:00",
-      "publisher": "ChartMill",
-      "title": "Cognizant Tech Solutions-A (NASDAQ:CTSH): A Quality Dividend Stock for Income Investors"
-    },
-    {
-      "published_utc": "2026-09-23T07:10:43+00:00",
-      "publisher": "Benzinga",
-      "title": "Cognizant And Cognition Announce That Autonomous AI Software Engineer, Devin, Helped Yield A 37% Percent Net Cost Saving On A Fixed Budget And Accelerated Timeline"
     }
   ]
 }

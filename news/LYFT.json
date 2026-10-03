@@ -1,9 +1,29 @@
 {
   "ticker": "LYFT",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T21:57:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers"
+    },
+    {
+      "published_utc": "2026-10-01T20:05:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Lyft agrees to pay California $272.5m in largest-ever wage theft settlement"
+    },
+    {
+      "published_utc": "2026-10-01T18:05:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Lyft settles California driver misclassification claims for $272.5M"
+    },
+    {
+      "published_utc": "2026-10-01T10:33:20+00:00",
+      "publisher": "Yahoo",
+      "title": "Lyft Agrees $272.5 Million Settlement Over California Driver Classification Claims"
+    },
     {
       "published_utc": "2026-10-01T06:21:37+00:00",
       "publisher": "Benzinga",
@@ -43,16 +63,6 @@
       "published_utc": "2026-09-22T11:15:08+00:00",
       "publisher": "Yahoo",
       "title": "Lyft (LYFT) Lands Sphere Partnership, Is The 21% Undervaluation Still Compelling?"
-    },
-    {
-      "published_utc": "2026-09-22T09:15:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is Lyft (LYFT) Recasting Its Future With A New CFO And AV Push?"
-    },
-    {
-      "published_utc": "2026-09-18T11:47:32+00:00",
-      "publisher": "Yahoo",
-      "title": "Jim Cramer on Lyft (LYFT): “We’ve Seen a Pretty Impressive Turnaround Here”"
     }
   ]
 }

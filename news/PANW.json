@@ -1,9 +1,29 @@
 {
   "ticker": "PANW",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T12:27:00+00:00",
+      "publisher": "Yahoo",
+      "title": "The Zacks Analyst Blog Highlights CrowdStrike, Okta and Palo Alto Networks"
+    },
+    {
+      "published_utc": "2026-10-02T12:00:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Trending Stock Palo Alto Networks, Inc. (PANW) a Buy Now?"
+    },
+    {
+      "published_utc": "2026-10-02T09:57:04+00:00",
+      "publisher": "Benzinga",
+      "title": "TD Cowen Maintains Buy on Palo Alto Networks, Raises Price Target to $440"
+    },
+    {
+      "published_utc": "2026-10-02T09:44:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Platformization Becoming Palo Alto Networks' Biggest Growth Lever?"
+    },
     {
       "published_utc": "2026-10-01T14:30:05+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-09-30T15:27:01+00:00",
       "publisher": "Yahoo",
       "title": "PANW Hits Record High As AI Safety Debate Continues To Boost Cybersecurity Stocks — Analysts See Cyber Spending Upside"
-    },
-    {
-      "published_utc": "2026-09-30T13:50:59+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Palo Alto Networks: The Valuation Has Lost Touch With Reality"
-    },
-    {
-      "published_utc": "2026-09-30T13:15:24+00:00",
-      "publisher": "Yahoo",
-      "title": "All In On Cybersecurity: The Choice Between Palo Alto Networks or Crowdstrike Not Difficult"
-    },
-    {
-      "published_utc": "2026-09-30T07:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto Networks’ Nikesh Arora is building a defense against the dark side of AI"
-    },
-    {
-      "published_utc": "2026-09-29T20:32:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Stocks making big moves yesterday: TTM Technologies, PacBio, Nvidia, Palo Alto Networks, and Teleflex"
     }
   ]
 }

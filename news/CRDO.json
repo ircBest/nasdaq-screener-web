@@ -1,9 +1,19 @@
 {
   "ticker": "CRDO",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T18:41:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Arm vs. Credo Technology Group: Which Tech Stock Is a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-01T14:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Credo Technology Group (CRDO) Up 17.9% Since Last Earnings Report: Can It Continue?"
+    },
     {
       "published_utc": "2026-10-01T08:12:29+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-25T09:43:37+00:00",
       "publisher": "SeekingAlpha",
       "title": "Credo: The Rise Of Muse Validates The AI Trade"
-    },
-    {
-      "published_utc": "2026-09-24T03:02:50+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Photonics And Optics Are In Shortage, Buy Credo"
-    },
-    {
-      "published_utc": "2026-09-22T11:21:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Credo Technology (CRDO) Just Cleared a Key PCIe 6.0 Milestone. What Comes Next?"
     }
   ]
 }

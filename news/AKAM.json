@@ -1,9 +1,14 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T14:40:01+00:00",
+      "publisher": "Yahoo",
+      "title": "BEKE vs. AKAM: Which Stock Is the Better Value Option?"
+    },
     {
       "published_utc": "2026-09-30T21:15:04+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-09-27T17:47:00+00:00",
       "publisher": "Yahoo",
       "title": "Anthropic just handed Akamai a game-changing deal"
-    },
-    {
-      "published_utc": "2026-09-26T12:35:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Bank of America Sees AMD at $720 on CPU Demand. Anthropic’s $11.6 Billion Akamai Deal Is Part of Why"
     }
   ]
 }

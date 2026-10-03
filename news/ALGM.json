@@ -1,0 +1,23 @@
+{
+  "ticker": "ALGM",
+  "generated_at": "2026-10-03T01:54:20+00:00",
+  "window_days": 14,
+  "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
+  "articles": [
+    {
+      "published_utc": "2026-10-02T21:42:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is Allegro MicroSystems (ALGM) Stock Soaring Today"
+    },
+    {
+      "published_utc": "2026-10-02T15:10:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Allegro MicroSystems' Data Center, Auto Content Gains Support Momentum, RBC Says"
+    },
+    {
+      "published_utc": "2026-10-02T09:13:59+00:00",
+      "publisher": "Benzinga",
+      "title": "RBC Capital Initiates Coverage On Allegro Microsystems with Outperform Rating, Announces Price Target of $50"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "ticker": "LITE",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
@@ -20,9 +20,19 @@
       "title": "Stock Market Today: S&P 500 Breaks Key Level As Micron Falls; Lumentum Soars (Live Coverage)"
     },
     {
+      "published_utc": "2026-10-01T15:15:10+00:00",
+      "publisher": "Benzinga",
+      "title": "Lumentum Leads As Technology And Semiconductors Drive Order Flow Activity"
+    },
+    {
       "published_utc": "2026-10-01T14:56:11+00:00",
       "publisher": "Yahoo",
       "title": "Coherent Jumps 10% on PhotonLink Push and Bernstein’s Outperform Start; Lumentum Rises 9%, Corning Advances 3%"
+    },
+    {
+      "published_utc": "2026-10-01T13:42:04+00:00",
+      "publisher": "Benzinga",
+      "title": "Lumentum, Coherent Rip Higher As Washington Targets Chinese Optical Transceivers"
     },
     {
       "published_utc": "2026-10-01T10:00:00+00:00",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-29T15:47:00+00:00",
       "publisher": "Yahoo",
       "title": "LITE vs. NVTS: Which AI Data Center Stock Is the Better Buy?"
-    },
-    {
-      "published_utc": "2026-09-29T15:00:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Lumentum Climbs 7% as Optics Selloff Reverses a Day After Citi’s $11B Switching Call; Coherent and Corning Rise 5%"
-    },
-    {
-      "published_utc": "2026-09-29T14:17:13+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Lumentum Stock: I Bought It At $800; 2027 Could Change The Story"
     }
   ]
 }

@@ -1,9 +1,14 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T12:42:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday Plans to Cut 2.5% of Its Workforce and Revise Its Margin Outlook. How Investors Should View the Move."
+    },
     {
       "published_utc": "2026-10-01T20:50:06+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-09-25T14:57:00+00:00",
       "publisher": "Yahoo",
       "title": "Can WDAY's Introduction of Total Benefits Boost Its Growth Prospects?"
-    },
-    {
-      "published_utc": "2026-09-25T11:17:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Block Expands Square and Cash App's Reach With Apple & Workday Deals"
     }
   ]
 }

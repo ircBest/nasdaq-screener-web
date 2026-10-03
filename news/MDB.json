@@ -1,9 +1,19 @@
 {
   "ticker": "MDB",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T07:19:54+00:00",
+      "publisher": "Benzinga",
+      "title": "Cantor Fitzgerald Reiterates Overweight on MongoDB, Maintains $540 Price Target"
+    },
+    {
+      "published_utc": "2026-10-01T14:30:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is MongoDB (MDB) Down 7.1% Since Last Earnings Report?"
+    },
     {
       "published_utc": "2026-10-01T09:25:00+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-30T09:13:30+00:00",
       "publisher": "Benzinga",
       "title": "Citizens Reiterates Market Outperform on MongoDB, Maintains $519 Price Target"
-    },
-    {
-      "published_utc": "2026-09-30T09:07:29+00:00",
-      "publisher": "Benzinga",
-      "title": "RBC Capital Reiterates Outperform on MongoDB, Maintains $465 Price Target"
-    },
-    {
-      "published_utc": "2026-09-30T08:54:55+00:00",
-      "publisher": "Benzinga",
-      "title": "BMO Capital Maintains Outperform on MongoDB, Lowers Price Target to $420"
     }
   ]
 }

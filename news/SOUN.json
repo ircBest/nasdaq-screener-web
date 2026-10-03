@@ -1,9 +1,19 @@
 {
   "ticker": "SOUN",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T21:24:33+00:00",
+      "publisher": "Yahoo",
+      "title": "IonQ vs. SoundHound AI: Which Tech Stock Is a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-01T13:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SoundHound's Agentic Voice AI Launches in India With Kia Sorento"
+    },
     {
       "published_utc": "2026-09-30T22:37:13+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-28T00:15:15+00:00",
       "publisher": "Yahoo",
       "title": "SoundHound AI vs. BigBear.ai: Revenue Trends Reveal Key Insights About These Artificial Intelligence Companies"
-    },
-    {
-      "published_utc": "2026-09-25T13:45:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Will SoundHound's OASYS Edge Expand Its Embedded AI Opportunity?"
-    },
-    {
-      "published_utc": "2026-09-25T12:00:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Trending Stock SoundHound AI, Inc. (SOUN) a Buy Now?"
     }
   ]
 }

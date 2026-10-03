@@ -1,0 +1,32 @@
+{
+  "ticker": "SABR",
+  "generated_at": "2026-10-03T01:54:20.283286+00:00",
+  "points": [
+    {
+      "d": "2026-10-02",
+      "c": 1.97,
+      "h": 2.02,
+      "l": 1.945,
+      "v": 4255800
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "SABR|2026-10-03",
+      "date": "2026-10-03",
+      "entry": 1.97,
+      "target": 2.35,
+      "stop": 1.78,
+      "rsi": 39.9955
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 4255800,
+    "latest": 4255800,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}

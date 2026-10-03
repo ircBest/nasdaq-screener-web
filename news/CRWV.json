@@ -1,9 +1,39 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T17:02:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave capacity constraints bolster Jefferies bull case"
+    },
+    {
+      "published_utc": "2026-10-02T16:52:09+00:00",
+      "publisher": "Yahoo",
+      "title": "What Is CoreWeave Worth After the Cost of Replacing Its GPUs?"
+    },
+    {
+      "published_utc": "2026-10-02T13:30:17+00:00",
+      "publisher": "Yahoo",
+      "title": "The Most Aggressive Price Target in AI Right Now Belongs to CoreWeave"
+    },
+    {
+      "published_utc": "2026-10-02T12:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CRWV's Vera Rubin Push: Can AI Infrastructure Fuel Its Growth Engine?"
+    },
+    {
+      "published_utc": "2026-10-02T09:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nebius vs. CoreWeave: Which Is the Better AI Stock to Own for the Next 5 Years?"
+    },
+    {
+      "published_utc": "2026-10-02T07:17:36+00:00",
+      "publisher": "Benzinga",
+      "title": "Cantor Fitzgerald Reiterates Overweight on CoreWeave, Maintains $176 Price Target"
+    },
     {
       "published_utc": "2026-10-01T20:35:00+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-01T08:09:41+00:00",
       "publisher": "SeekingAlpha",
       "title": "CoreWeave: The Bond Market Remains Cautious"
-    },
-    {
-      "published_utc": "2026-10-01T02:09:22+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave (CRWV) Unveils Forge For AI Development"
-    },
-    {
-      "published_utc": "2026-09-30T17:57:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Analysts Are Feeling Bullish on CoreWeave Stock. Here's Why."
-    },
-    {
-      "published_utc": "2026-09-30T17:53:29+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave Stock Climbs on NVIDIA Vera Rubin Expansion"
-    },
-    {
-      "published_utc": "2026-09-30T16:39:01+00:00",
-      "publisher": "Benzinga",
-      "title": "William Blair Initiates Coverage On CoreWeave with Outperform Rating"
-    },
-    {
-      "published_utc": "2026-09-30T15:22:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave Stock Rises After Neocloud Goes Live With New Nvidia Hardware"
-    },
-    {
-      "published_utc": "2026-09-30T14:31:22+00:00",
-      "publisher": "Yahoo",
-      "title": "CRWV CEO Says ‘No Reduction In Orders’ As CoreWeave Rolls Out Nvidia Vera Rubin AI Systems"
     }
   ]
 }

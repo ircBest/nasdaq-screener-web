@@ -1,9 +1,29 @@
 {
   "ticker": "GTM",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T06:07:01+00:00",
+      "publisher": "Yahoo",
+      "title": "ZoomInfo (GTM) Stock Looks Cheap Relative To Its Sales Base"
+    },
+    {
+      "published_utc": "2026-10-01T14:08:35+00:00",
+      "publisher": "Yahoo",
+      "title": "ZoomInfo’s New GTM.AI Integrations with Superhuman Go and Replit Could Be A Game Changer For ZoomInfo Technologies (GTM)"
+    },
+    {
+      "published_utc": "2026-10-01T12:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "ZoomInfo Introduces Agent Teams, Powered by the Acquisition of DoubleO.ai"
+    },
+    {
+      "published_utc": "2026-10-01T11:08:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Is ZoomInfo Technologies (GTM) A Bargain As Its New AI Connector Gains Attention?"
+    },
     {
       "published_utc": "2026-09-30T23:09:13+00:00",
       "publisher": "Yahoo",
@@ -43,11 +63,6 @@
       "published_utc": "2026-09-21T12:47:00+00:00",
       "publisher": "Yahoo",
       "title": "ZoomInfo Launches Talent Autopilot, Its Most Advanced Technology for Recruiting"
-    },
-    {
-      "published_utc": "2026-09-18T23:20:40+00:00",
-      "publisher": "Yahoo",
-      "title": "ZoomInfo, monday.com, Asure Software, DigitalOcean, and Amplitude Shares Are Falling, What You Need To Know"
     }
   ]
 }

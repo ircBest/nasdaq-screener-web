@@ -1,9 +1,24 @@
 {
   "ticker": "QBTS",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-01T21:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Better Quantum Computing Stock: IonQ vs. D-Wave"
+    },
+    {
+      "published_utc": "2026-10-01T11:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave Launches Gate-Model Simulator Beta Program, Advancing Error-Aware Programming Capabilities"
+    },
+    {
+      "published_utc": "2026-10-01T09:10:19+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave Quantum (QBTS) Appoints Bernard Gavgani To Board And Cybersecurity Committee"
+    },
     {
       "published_utc": "2026-09-30T15:05:40+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-23T13:19:45+00:00",
       "publisher": "Yahoo",
       "title": "IonQ Surges 11% as NVIDIA Research Center Deal Follows Error-Decoder Breakthrough; D-Wave Climbs 5%, Rigetti Rises 4%"
-    },
-    {
-      "published_utc": "2026-09-23T12:16:13+00:00",
-      "publisher": "Yahoo",
-      "title": "How To Size QBTS Stock For The Next Market Shock?"
-    },
-    {
-      "published_utc": "2026-09-23T12:06:15+00:00",
-      "publisher": "Yahoo",
-      "title": "CGI and D-Wave Quantum Partner on Enterprise Quantum Computing Applications"
-    },
-    {
-      "published_utc": "2026-09-23T10:55:52+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "D-Wave And Quantum Computing: Taking Profits On The Pair, Waiting For The Next Gap"
     }
   ]
 }

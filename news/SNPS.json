@@ -1,13 +1,48 @@
 {
   "ticker": "SNPS",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-02T18:00:52+00:00",
+      "publisher": "Yahoo",
+      "title": "Synopsys Is the Nasdaq 100’s Top Stock Today. The Target Says It’s Not Done"
+    },
+    {
+      "published_utc": "2026-10-02T08:47:55+00:00",
+      "publisher": "Yahoo",
+      "title": "What Is Driving The Move In Synopsys Stock?"
+    },
+    {
+      "published_utc": "2026-10-02T07:55:53+00:00",
+      "publisher": "Yahoo",
+      "title": "How Do OpenAI And AWS Deals Reshape Synopsys's Design Automation Outlook?"
+    },
+    {
+      "published_utc": "2026-10-02T03:03:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Synopsys (SNPS) Bags New Multi-Billion Dollar Deals, Shares Spike"
+    },
+    {
+      "published_utc": "2026-10-02T00:46:20+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Synopsys: AI And Ansys Create A Growth Story"
+    },
+    {
+      "published_utc": "2026-10-02T00:07:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Synopsys Stock’s 13% Jump Followed a $1 Billion Amazon Deal"
+    },
+    {
       "published_utc": "2026-10-01T20:27:01+00:00",
       "publisher": "Yahoo",
       "title": "Synopsys is becoming a major AI player: CEO discusses OpenAI, Amazon deals"
+    },
+    {
+      "published_utc": "2026-10-01T18:13:58+00:00",
+      "publisher": "Yahoo",
+      "title": "Deutsche Bank Just Upped Its Price Target on Synopsys Stock. Here's Why."
     },
     {
       "published_utc": "2026-10-01T18:00:53+00:00",
@@ -28,41 +63,6 @@
       "published_utc": "2026-10-01T16:32:55+00:00",
       "publisher": "Yahoo",
       "title": "Synopsys Stock Rallies After AI Deals With OpenAI and Amazon"
-    },
-    {
-      "published_utc": "2026-10-01T16:29:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Micron, Accenture, Google, IBM, Fair Isaac, Synopsys, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "published_utc": "2026-10-01T15:37:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Amazon Inks $1B SNPS Deal to Power AWS Custom Chips: Should You Hold?"
-    },
-    {
-      "published_utc": "2026-10-01T14:33:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Synopsys Is the Top Stock in the Nasdaq 100 Today. Here’s Why."
-    },
-    {
-      "published_utc": "2026-10-01T14:24:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Accenture, IBM, Micron, Google, Synopsys,  Constellation Energy, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "published_utc": "2026-10-01T12:28:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Synopsys Shares Rise 2.5% After Investor Day Announcements"
-    },
-    {
-      "published_utc": "2026-10-01T12:27:00+00:00",
-      "publisher": "Yahoo",
-      "title": "How Synopsys Is on Fire With New Amazon and AI Tie Ups"
-    },
-    {
-      "published_utc": "2026-10-01T12:22:02+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Synopsys: Building Recurring Revenue For The Custom Silicon Era"
     }
   ]
 }

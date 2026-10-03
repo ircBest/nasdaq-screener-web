@@ -1,9 +1,24 @@
 {
   "ticker": "SMTC",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T12:30:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Semtech Stock Actionable In Buy Zone After Earnings Boost"
+    },
+    {
+      "published_utc": "2026-10-02T11:48:15+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Semtech: A Sharper Portfolio Still Has To Earn Its Premium"
+    },
+    {
+      "published_utc": "2026-10-01T23:17:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Are Semtech (SMTC) Shares Soaring Today"
+    },
     {
       "published_utc": "2026-10-01T08:55:48+00:00",
       "publisher": "Benzinga",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-24T02:10:10+00:00",
       "publisher": "Yahoo",
       "title": "Semtech (SMTC) Stock May Be Overvalued On Its 7x Three Year Run"
-    },
-    {
-      "published_utc": "2026-09-23T19:15:30+00:00",
-      "publisher": "Benzinga",
-      "title": "$100 Invested In Semtech 5 Years Ago Would Be Worth This Much Today"
-    },
-    {
-      "published_utc": "2026-09-23T14:43:32+00:00",
-      "publisher": "Yahoo",
-      "title": "What Makes Semtech Corp. (SMTC) a Key Enabler of AI Data Infrastructure?"
-    },
-    {
-      "published_utc": "2026-09-23T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Semtech and Palo Alto Networks Secure Industrial IoT with Zero Trust"
     }
   ]
 }

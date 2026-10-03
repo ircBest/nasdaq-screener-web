@@ -1,9 +1,24 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T20:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group Suspends Plans to Launch 24/7 10-Barrel Crude Oil Contract"
+    },
+    {
+      "published_utc": "2026-10-02T11:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group Reports Record Average Daily Volume for September and Q3, Driven by Growth Across Asset Classes"
+    },
+    {
+      "published_utc": "2026-10-02T10:00:07+00:00",
+      "publisher": "Benzinga",
+      "title": "Wells Fargo Initiates Coverage On CME Group with Overweight Rating, Announces Price Target of $301"
+    },
     {
       "published_utc": "2026-10-01T16:19:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-28T21:16:27+00:00",
       "publisher": "Yahoo",
       "title": "CME Group (CME) is Looking Beyond its Core. Can its Next Move Unlock More Value?"
-    },
-    {
-      "published_utc": "2026-09-28T13:10:30+00:00",
-      "publisher": "Yahoo",
-      "title": "Cooper Investors Reduced CME Group (CME) Exposure Amid New Futures Market Threats"
-    },
-    {
-      "published_utc": "2026-09-28T10:23:22+00:00",
-      "publisher": "Benzinga",
-      "title": "TD Cowen Reiterates Buy on CME Group, Maintains $292 Price Target"
-    },
-    {
-      "published_utc": "2026-09-25T11:10:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Is CME Group (CME) A Bargain Following Its New Leveraged Loan Futures Launch?"
     }
   ]
 }

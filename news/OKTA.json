@@ -1,9 +1,24 @@
 {
   "ticker": "OKTA",
-  "generated_at": "2026-10-02T07:49:36+00:00",
+  "generated_at": "2026-10-03T01:54:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T13:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Commercializing AI Agents Will Help Okta Accelerate Its Growth"
+    },
+    {
+      "published_utc": "2026-10-02T12:27:00+00:00",
+      "publisher": "Yahoo",
+      "title": "The Zacks Analyst Blog Highlights CrowdStrike, Okta and Palo Alto Networks"
+    },
+    {
+      "published_utc": "2026-10-02T02:25:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Okta (OKTA) vs. Rubrik (RBRK): Which Security Stock Is the Better Buy Right Now?"
+    },
     {
       "published_utc": "2026-09-30T12:30:03+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-28T23:57:30+00:00",
       "publisher": "Yahoo",
       "title": "CrowdStrike vs. Okta: Which Cybersecurity Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-09-28T13:45:37+00:00",
-      "publisher": "Benzinga",
-      "title": "Scotiabank Maintains Sector Outperform on Okta, Raises Price Target to $245"
-    },
-    {
-      "published_utc": "2026-09-28T10:48:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Okta’s AI Security Role Can Drive ‘Durable Growth Re-Acceleration,’ Says Citizens — Lifts Target To $225"
-    },
-    {
-      "published_utc": "2026-09-28T08:20:10+00:00",
-      "publisher": "Benzinga",
-      "title": "Citizens Maintains Market Outperform on Okta, Raises Price Target to $225"
     }
   ]
 }
