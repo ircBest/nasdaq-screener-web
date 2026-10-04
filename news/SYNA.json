@@ -1,9 +1,19 @@
 {
   "ticker": "SYNA",
-  "generated_at": "2026-10-03T03:20:40+00:00",
+  "generated_at": "2026-10-04T10:02:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-03T03:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Synaptics (SYNA) Soars 14% as ON Semi Sweetens Deal With All-Cash Offer"
+    },
+    {
+      "published_utc": "2026-10-02T18:53:53+00:00",
+      "publisher": "Yahoo",
+      "title": "A $5.7 Billion Reason Why Synaptics Stock Is Up Today"
+    },
     {
       "published_utc": "2026-10-02T17:46:52+00:00",
       "publisher": "Yahoo",
@@ -35,6 +45,11 @@
       "title": "On Semiconductor Climbs 8%, Synaptics Surges 14% as $5.7B Cash Bid Replaces $7B Stock Deal"
     },
     {
+      "published_utc": "2026-10-02T12:18:28+00:00",
+      "publisher": "Benzinga",
+      "title": "ON Semiconductor Analyst's 5 Key Takeaways from Synaptics Acquistion"
+    },
+    {
       "published_utc": "2026-10-02T11:37:56+00:00",
       "publisher": "Yahoo",
       "title": "Premarket movers: Nike tumbles 10%, Synaptics jumps on $5.7B deal"
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-02T11:17:12+00:00",
       "publisher": "Yahoo",
       "title": "onsemi revises Synaptics acquisition to all-cash $5.7B deal"
-    },
-    {
-      "published_utc": "2026-10-02T10:50:00+00:00",
-      "publisher": "Yahoo",
-      "title": "On Semi Is Getting Synaptics at a Knock Down Price and Both Stocks Are Soaring"
-    },
-    {
-      "published_utc": "2026-10-02T10:29:47+00:00",
-      "publisher": "Benzinga",
-      "title": "Wells Fargo Downgrades Synaptics to Equal-Weight, Lowers Price Target to $123"
-    },
-    {
-      "published_utc": "2026-10-02T10:23:29+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor Shares Rise 6.5% After Synaptics Acquisition Terms Revised"
     }
   ]
 }

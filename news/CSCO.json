@@ -1,9 +1,14 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-10-03T03:20:40+00:00",
+  "generated_at": "2026-10-04T10:02:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T12:30:46+00:00",
+      "publisher": "Benzinga",
+      "title": "If You Invested $1000 In Cisco Systems Stock 5 Years Ago, You Would Have This Much Today"
+    },
     {
       "published_utc": "2026-10-02T12:30:00+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-09-29T18:52:46+00:00",
       "publisher": "Yahoo",
       "title": "Cisco Stock Slips as 4,100 Daily Alerts Force AgenticOps"
-    },
-    {
-      "published_utc": "2026-09-29T16:39:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Steve Eisman Says AI Boom Is ‘For Real’ as Cisco Growth Hits 18%: Here’s What Could Derail It"
     }
   ]
 }

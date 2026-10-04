@@ -1,6 +1,6 @@
 {
   "ticker": "PSQL",
-  "generated_at": "2026-10-03T03:20:40.470085+00:00",
+  "generated_at": "2026-10-04T10:02:56.714770+00:00",
   "points": [
     {
       "d": "2026-09-04",
@@ -140,7 +140,7 @@
       "c": 6.05,
       "h": 6.38,
       "l": 5.9,
-      "v": 704500
+      "v": 703337
     }
   ],
   "signals": [
@@ -228,9 +228,9 @@
   "volume": {
     "available": true,
     "days": 20,
-    "average": 790353,
-    "latest": 704500,
-    "ratio": 0.891,
+    "average": 790294,
+    "latest": 703337,
+    "ratio": 0.89,
     "window": 20
   },
   "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."

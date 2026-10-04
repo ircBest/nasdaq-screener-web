@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T03:19:19.918979+00:00",
+  "generated_at": "2026-10-04T10:01:44.415341+00:00",
   "index_name": "BSI",
   "description": "Signal 발생 이후 각 거래일의 평균 수익률",
   "base": 0.0,
@@ -11,16 +11,16 @@
   "periods": {
     "5d": {
       "trading_days": 5,
-      "value": 0.87,
+      "value": 0.8699,
       "benchmark": 0.8425,
-      "alpha": 0.0275,
+      "alpha": 0.0274,
       "samples": 1372
     },
     "10d": {
       "trading_days": 10,
-      "value": 1.9291,
+      "value": 1.929,
       "benchmark": 1.7651,
-      "alpha": 0.164,
+      "alpha": 0.1639,
       "samples": 1178
     },
     "30d": {
@@ -60,7 +60,7 @@
     },
     "max": {
       "trading_days": null,
-      "value": 10.3832,
+      "value": 10.3831,
       "benchmark": null,
       "alpha": null,
       "samples": 1585
@@ -85,12 +85,12 @@
       "day": 2,
       "bsi_pct": 1.0915,
       "benchmark_pct": 0.466,
-      "alpha_pct": 0.6256,
+      "alpha_pct": 0.6255,
       "samples": 1523
     },
     {
       "day": 3,
-      "bsi_pct": 1.144,
+      "bsi_pct": 1.1439,
       "benchmark_pct": 0.3936,
       "alpha_pct": 0.7504,
       "samples": 1444
@@ -104,16 +104,16 @@
     },
     {
       "day": 5,
-      "bsi_pct": 0.87,
+      "bsi_pct": 0.8699,
       "benchmark_pct": 0.8425,
-      "alpha_pct": 0.0275,
+      "alpha_pct": 0.0274,
       "samples": 1372
     },
     {
       "day": 6,
       "bsi_pct": 0.9341,
       "benchmark_pct": 1.0188,
-      "alpha_pct": -0.0847,
+      "alpha_pct": -0.0848,
       "samples": 1259
     },
     {
@@ -125,9 +125,9 @@
     },
     {
       "day": 8,
-      "bsi_pct": 0.7617,
+      "bsi_pct": 0.7616,
       "benchmark_pct": 0.9687,
-      "alpha_pct": -0.2069,
+      "alpha_pct": -0.207,
       "samples": 1211
     },
     {
@@ -139,16 +139,16 @@
     },
     {
       "day": 10,
-      "bsi_pct": 1.9291,
+      "bsi_pct": 1.929,
       "benchmark_pct": 1.7651,
-      "alpha_pct": 0.164,
+      "alpha_pct": 0.1639,
       "samples": 1178
     },
     {
       "day": 11,
-      "bsi_pct": 2.613,
+      "bsi_pct": 2.6129,
       "benchmark_pct": 1.9401,
-      "alpha_pct": 0.6729,
+      "alpha_pct": 0.6728,
       "samples": 1086
     },
     {
@@ -174,9 +174,9 @@
     },
     {
       "day": 15,
-      "bsi_pct": 2.8496,
+      "bsi_pct": 2.8495,
       "benchmark_pct": 2.5382,
-      "alpha_pct": 0.3114,
+      "alpha_pct": 0.3112,
       "samples": 932
     },
     {
@@ -216,16 +216,16 @@
     },
     {
       "day": 21,
-      "bsi_pct": 4.6508,
+      "bsi_pct": 4.6507,
       "benchmark_pct": 4.346,
-      "alpha_pct": 0.3048,
+      "alpha_pct": 0.3047,
       "samples": 594
     },
     {
       "day": 22,
-      "bsi_pct": 3.2063,
+      "bsi_pct": 3.2062,
       "benchmark_pct": 4.0989,
-      "alpha_pct": -0.8926,
+      "alpha_pct": -0.8927,
       "samples": 492
     },
     {
@@ -237,9 +237,9 @@
     },
     {
       "day": 24,
-      "bsi_pct": 3.1407,
+      "bsi_pct": 3.1406,
       "benchmark_pct": 4.1172,
-      "alpha_pct": -0.9765,
+      "alpha_pct": -0.9766,
       "samples": 422
     },
     {

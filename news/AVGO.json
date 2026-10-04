@@ -1,9 +1,29 @@
 {
   "ticker": "AVGO",
-  "generated_at": "2026-10-03T03:20:40+00:00",
+  "generated_at": "2026-10-04T10:02:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-03T10:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "If You'd Invested $1,000 in Broadcom's 2009 IPO, Here's How Much You'd Have Today"
+    },
+    {
+      "published_utc": "2026-10-03T09:40:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Prediction: This AI Chip Stock Will Be the Biggest Winner of 2027 (Hint: It’s Not Nvidia, AMD, or Broadcom)"
+    },
+    {
+      "published_utc": "2026-10-03T07:38:43+00:00",
+      "publisher": "Yahoo",
+      "title": "Broadcom’s $42 Billion Loan to Anthropic Turns the Chipmaker Into Its Customer’s Bank"
+    },
+    {
+      "published_utc": "2026-10-03T00:30:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Broadcom, Qualcomm, and Sensata Technologies Stocks Trade Up, What You Need To Know"
+    },
     {
       "published_utc": "2026-10-02T18:35:57+00:00",
       "publisher": "Yahoo",
@@ -35,34 +55,14 @@
       "title": "Why Is Broadcom Inc. (AVGO) Down 3.8% Since Last Earnings Report?"
     },
     {
+      "published_utc": "2026-10-02T14:06:31+00:00",
+      "publisher": "Benzinga",
+      "title": "Taiwan Semiconductor Stock Rises on Broadcom's $60 Billion Chip Deal"
+    },
+    {
       "published_utc": "2026-10-02T12:23:22+00:00",
       "publisher": "Yahoo",
       "title": "Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending"
-    },
-    {
-      "published_utc": "2026-10-02T12:12:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom Is Lending One of Its Biggest Customers $42 Billion to Buy Its Chips"
-    },
-    {
-      "published_utc": "2026-10-02T12:05:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom’s Total Return From 4 Milestones: Avago IPO to the $2 Trillion Club"
-    },
-    {
-      "published_utc": "2026-10-02T12:04:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom Reportedly Lines Up $60B AI Chip Financing As Anthropic Expands Compute"
-    },
-    {
-      "published_utc": "2026-10-02T11:30:47+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom raises $60 billion in debt to fund Anthropic AI chips"
-    },
-    {
-      "published_utc": "2026-10-02T10:26:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom Financing Syndicate Reportedly Seeks $60 Billion for Anthropic and Other AI Companies"
     }
   ]
 }

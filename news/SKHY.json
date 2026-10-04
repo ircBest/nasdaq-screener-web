@@ -1,9 +1,24 @@
 {
   "ticker": "SKHY",
-  "generated_at": "2026-10-03T03:20:40+00:00",
+  "generated_at": "2026-10-04T10:02:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-03T03:15:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Better Artificial Intelligence Stock: NVIDIA vs. SK Hynix"
+    },
+    {
+      "published_utc": "2026-10-02T13:30:41+00:00",
+      "publisher": "Yahoo",
+      "title": "SK Hynix Signed Five-Year Memory Contracts. Wall Street Still Sees Revenue Peaking in the Next Years."
+    },
+    {
+      "published_utc": "2026-10-02T12:55:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Wall Street Analysts Believe SK Hynix, Inc. - Sponsored ADR (SKHY) Could Rally 30.94%: Here's is How to Trade"
+    },
     {
       "published_utc": "2026-10-01T19:37:36+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-29T19:16:39+00:00",
       "publisher": "Yahoo",
       "title": "SK Hynix Stock Rises While Bernstein Cuts Target"
-    },
-    {
-      "published_utc": "2026-09-29T16:58:47+00:00",
-      "publisher": "Yahoo",
-      "title": "SK Hynix Climbs 3%, Outpaces U.S. Rivals Micron and Seagate as Traders Weigh Memory Demand"
-    },
-    {
-      "published_utc": "2026-09-29T11:20:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Advanced Micro Devices vs. SK Hynix: Which Technology Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-09-28T20:42:23+00:00",
-      "publisher": "Yahoo",
-      "title": "SK Hynix Stock Falls 5.1% as Rubin Memory Moves Into View"
     }
   ]
 }

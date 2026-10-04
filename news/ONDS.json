@@ -1,9 +1,14 @@
 {
   "ticker": "ONDS",
-  "generated_at": "2026-10-03T03:20:40+00:00",
+  "generated_at": "2026-10-04T10:02:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-02T18:18:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Which Drone Stock Is Dominating in 2026: Red Cat, Ondas, or AeroVironment?"
+    },
     {
       "published_utc": "2026-10-01T12:18:00+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-09-24T18:02:51+00:00",
       "publisher": "Yahoo",
       "title": "Unusual Machines Jumps 6% as Drone Names Bounce Together; Ondas Climbs 4%, Red Cat Rises 3%"
-    },
-    {
-      "published_utc": "2026-09-24T12:21:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ONDS' $56M Defense Bet: Can 3 Buyouts Build an Autonomous Warfare Stack?"
     }
   ]
 }
