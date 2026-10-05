@@ -1,6 +1,6 @@
 {
   "ticker": "DAVE",
-  "generated_at": "2026-10-04T10:02:56.678461+00:00",
+  "generated_at": "2026-10-05T10:43:39.023815+00:00",
   "points": [
     {
       "d": "2026-09-28",
@@ -35,7 +35,7 @@
       "c": 346.57,
       "h": 355.92,
       "l": 345.98,
-      "v": 339166
+      "v": 339304
     }
   ],
   "signals": [
@@ -51,9 +51,9 @@
   "volume": {
     "available": true,
     "days": 5,
-    "average": 272333,
-    "latest": 339166,
-    "ratio": 1.245,
+    "average": 272360,
+    "latest": 339304,
+    "ratio": 1.246,
     "window": 5
   },
   "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."

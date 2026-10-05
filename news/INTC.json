@@ -1,9 +1,19 @@
 {
   "ticker": "INTC",
-  "generated_at": "2026-10-04T10:02:56+00:00",
+  "generated_at": "2026-10-05T10:43:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-04T08:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Not Intel. Not Nvidia. The $2.4 Trillion Chipmaker That Wall Street Calls the Ultimate AI \"Picks-and-Shovels\" Play"
+    },
+    {
+      "published_utc": "2026-10-04T06:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "How Supreme Court Battles Involving Apple, Exxon, and Intel Could Hit Your Portfolio"
+    },
     {
       "published_utc": "2026-10-03T20:10:26+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-02T09:53:51+00:00",
       "publisher": "Yahoo",
       "title": "One Reason Intel Stock Looks Better Than Its Price"
-    },
-    {
-      "published_utc": "2026-10-02T07:54:46+00:00",
-      "publisher": "Benzinga",
-      "title": "Trump Floats Intel-Style Government Equity Stakes in OpenAI and Anthropic: 'I Have Many Deals Like That' (UPDATED)"
-    },
-    {
-      "published_utc": "2026-10-02T03:06:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ex-Intel CEO urges New Mexico to embrace tech revolution amid quantum push"
     }
   ]
 }

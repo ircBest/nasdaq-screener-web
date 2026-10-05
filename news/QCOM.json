@@ -1,9 +1,24 @@
 {
   "ticker": "QCOM",
-  "generated_at": "2026-10-04T10:02:56+00:00",
+  "generated_at": "2026-10-05T10:43:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-04T05:40:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Micron Technology vs. Qualcomm: What Revenue Trends Tell Investors About These Tech Companies"
+    },
+    {
+      "published_utc": "2026-10-04T01:11:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Agentic AI Power Qualcomm’s (QCOM) Next Growth Cycle?"
+    },
+    {
+      "published_utc": "2026-10-03T22:52:32+00:00",
+      "publisher": "Yahoo",
+      "title": "ASML Holding vs. Qualcomm: What Revenue Trends Tell Investors About These Semiconductor Industry Giants"
+    },
     {
       "published_utc": "2026-10-03T00:30:03+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-30T18:51:54+00:00",
       "publisher": "Yahoo",
       "title": "What Is The Case For Waiting On Qualcomm Stock?"
-    },
-    {
-      "published_utc": "2026-09-30T16:19:30+00:00",
-      "publisher": "Yahoo",
-      "title": "QUALCOMM (QCOM) Is Down 6.7% After Renewing Apple Patent Deal And Deepening AI, Cloud Push"
-    },
-    {
-      "published_utc": "2026-09-30T15:09:17+00:00",
-      "publisher": "Yahoo",
-      "title": "QUALCOMM (QCOM) Renewed A Global Patent License Effective April 2027"
-    },
-    {
-      "published_utc": "2026-09-30T14:45:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Here’s What The Apple Patent Renewal Really Does for Qualcomm and Why I’m Buying"
     }
   ]
 }

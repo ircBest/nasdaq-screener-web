@@ -1,6 +1,6 @@
 {
   "ticker": "ENRD",
-  "generated_at": "2026-10-04T10:02:56.681666+00:00",
+  "generated_at": "2026-10-05T10:43:39.028171+00:00",
   "points": [
     {
       "d": "2026-08-20",
@@ -217,7 +217,7 @@
       "c": 3.33,
       "h": 3.86,
       "l": 3.33,
-      "v": 173326
+      "v": 173877
     }
   ],
   "signals": [
@@ -417,9 +417,9 @@
   "volume": {
     "available": true,
     "days": 31,
-    "average": 239260,
-    "latest": 173326,
-    "ratio": 0.724,
+    "average": 239287,
+    "latest": 173877,
+    "ratio": 0.727,
     "window": 20
   },
   "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."

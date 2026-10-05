@@ -1,9 +1,29 @@
 {
   "ticker": "MSFT",
-  "generated_at": "2026-10-04T10:02:56+00:00",
+  "generated_at": "2026-10-05T10:43:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-04T18:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Copilot Microsoft's Secret Weapon in the AI Arms Race?"
+    },
+    {
+      "published_utc": "2026-10-04T15:58:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Accenture vs. Microsoft: Which Technology Stock Is a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-04T12:36:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Meta vs. Microsoft: One AI Agent Has a Problem the Other Doesn’t."
+    },
+    {
+      "published_utc": "2026-10-04T02:35:34+00:00",
+      "publisher": "Yahoo",
+      "title": "How Much Revenue Visibility Does Microsoft’s Backlog Really Provide?"
+    },
     {
       "published_utc": "2026-10-03T08:47:01+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-02T12:00:17+00:00",
       "publisher": "Yahoo",
       "title": "52 Analysts, Zero Sells: What Microsoft’s Price Target Really Implies"
-    },
-    {
-      "published_utc": "2026-10-02T09:53:54+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Microsoft Stock Paying You Enough For The Swings?"
-    },
-    {
-      "published_utc": "2026-10-02T08:46:16+00:00",
-      "publisher": "Yahoo",
-      "title": "MSFT Stock Posts Best Quarter Since 1998 As Azure Growth Revives AI Optimism"
-    },
-    {
-      "published_utc": "2026-10-02T08:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Artificial Intelligence in Healthcare Market Forecasts Growth from $36.67B (2026) to $194.79B by 2031, Profiling Philips, Microsoft, Siemens Healthineers & NVIDIA"
-    },
-    {
-      "published_utc": "2026-10-02T07:27:35+00:00",
-      "publisher": "Benzinga",
-      "title": "'Microsoft, Amazon Cloud Arms Set to Face Deeper Scrutiny Under EU’s Tech Rules' - Bloomberg"
     }
   ]
 }

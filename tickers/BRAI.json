@@ -1,6 +1,6 @@
 {
   "ticker": "BRAI",
-  "generated_at": "2026-10-04T10:02:56.668274+00:00",
+  "generated_at": "2026-10-05T10:43:39.010104+00:00",
   "points": [
     {
       "d": "2026-08-20",
@@ -217,7 +217,7 @@
       "c": 4.63,
       "h": 5.445,
       "l": 4.48,
-      "v": 192361
+      "v": 197384
     }
   ],
   "signals": [
@@ -241,9 +241,9 @@
   "volume": {
     "available": true,
     "days": 31,
-    "average": 30850,
-    "latest": 192361,
-    "ratio": 6.235,
+    "average": 31102,
+    "latest": 197384,
+    "ratio": 6.346,
     "window": 20
   },
   "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."

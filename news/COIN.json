@@ -1,9 +1,29 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-10-04T10:02:56+00:00",
+  "generated_at": "2026-10-05T10:43:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-04T15:41:57+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Stock Got a $200 Target From Wells Fargo. Here’s How Its CFO’s Cost Pledge Changes the Math"
+    },
+    {
+      "published_utc": "2026-10-04T15:00:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Visa, Mastercard, Stripe, and Coinbase Commit $1 Billion to New Stablecoin: Is Open USD a Challenge to Tether, USDC, and RLUSD?"
+    },
+    {
+      "published_utc": "2026-10-04T14:00:57+00:00",
+      "publisher": "Yahoo",
+      "title": "Grok Dominates Coinbase’s AI Trading with a 60% Share: Which Coins Are Being Purchased?"
+    },
+    {
+      "published_utc": "2026-10-04T02:09:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Coinbase (COIN) Turn Citi’s Stablecoin Partnership Into a Durable Institutional Advantage?"
+    },
     {
       "published_utc": "2026-10-03T18:03:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-01T12:50:16+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase Stock Is Down 45% in 12 Months. Here’s What Drove the Slide"
-    },
-    {
-      "published_utc": "2026-10-01T04:33:05+00:00",
-      "publisher": "Benzinga",
-      "title": "Coinbase, Vlad Tenev-Led Robinhood, Andreessen Horowitz’s Crypto Arm Among Others Poured $8 Million in CLARITY Act Push: Report"
-    },
-    {
-      "published_utc": "2026-09-30T21:16:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global (COIN) Opens Regulated Stablecoin Payments To Merchants"
-    },
-    {
-      "published_utc": "2026-09-30T20:45:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global, Inc. (COIN) Dips More Than Broader Market: What You Should Know"
-    },
-    {
-      "published_utc": "2026-09-30T16:51:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CFTC Approval Expands Coinbase's U.S. Derivatives Opportunity"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-10-04T10:02:56+00:00",
+  "generated_at": "2026-10-05T10:43:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-04T16:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is CoreWeave Stock a Buy Right Now?"
+    },
+    {
+      "published_utc": "2026-10-04T12:29:56+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave vs. Nebius: Nebius Is Winning the Customers CoreWeave Can’t Serve"
+    },
     {
       "published_utc": "2026-10-03T15:03:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-01T20:35:00+00:00",
       "publisher": "Yahoo",
       "title": "Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030"
-    },
-    {
-      "published_utc": "2026-10-01T13:36:00+00:00",
-      "publisher": "Yahoo",
-      "title": "The Best IPO to Buy in 2026 Isn't What You Think. I'm Betting on CoreWeave."
-    },
-    {
-      "published_utc": "2026-10-01T13:06:47+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave Stock Lost Over a Third of Its Value in the Past Year. Here’s What Analysts Expect Next"
     }
   ]
 }
