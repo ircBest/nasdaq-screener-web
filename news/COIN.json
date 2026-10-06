@@ -1,9 +1,34 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-10-05T10:43:38+00:00",
+  "generated_at": "2026-10-06T10:43:53+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-05T18:03:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase CAO to retire as leadership shuffle continues after layoffs"
+    },
+    {
+      "published_utc": "2026-10-05T17:43:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase vs. Intercontinental: Which Exchange Stock Has an Edge?"
+    },
+    {
+      "published_utc": "2026-10-05T15:33:58+00:00",
+      "publisher": "Yahoo",
+      "title": "Robinhood, Coinbase Get Price Target Hikes From BofA — eToro Target Cut Ahead Of Q3 Earnings"
+    },
+    {
+      "published_utc": "2026-10-05T14:00:45+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Stock vs. Bitcoin: Which Investment Performs Better?"
+    },
+    {
+      "published_utc": "2026-10-05T06:59:45+00:00",
+      "publisher": "Yahoo",
+      "title": "Once 'Nearly Impossible,' Now Reality: Brian Armstrong Cheers Citi Partnership, Says Coinbase 'Has Come a Long Way'"
+    },
     {
       "published_utc": "2026-10-04T15:41:57+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-02T12:06:10+00:00",
       "publisher": "Benzinga",
       "title": "Coinbase Stock Drops: What's Going On?"
-    },
-    {
-      "published_utc": "2026-10-02T12:00:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Investors Heavily Search Coinbase Global, Inc. (COIN): Here is What You Need to Know"
-    },
-    {
-      "published_utc": "2026-10-02T11:59:57+00:00",
-      "publisher": "Yahoo",
-      "title": "Here Are Friday’s Top Wall Street Analyst Research Calls: Abbott Laboratories, Airbnb, Cerebras Systems, Coinbase Global, Edison International, Northrop Grumman, Pershing Square, Robinhood Markets, and More"
-    },
-    {
-      "published_utc": "2026-10-02T10:03:04+00:00",
-      "publisher": "Benzinga",
-      "title": "Piper Sandler Maintains Neutral on Coinbase Global, Raises Price Target to $170"
-    },
-    {
-      "published_utc": "2026-10-02T09:32:52+00:00",
-      "publisher": "Benzinga",
-      "title": "Wells Fargo Initiates Coverage On Coinbase Global with Equal-Weight Rating, Announces Price Target of $200"
-    },
-    {
-      "published_utc": "2026-10-01T12:50:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Stock Is Down 45% in 12 Months. Here’s What Drove the Slide"
     }
   ]
 }

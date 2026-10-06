@@ -1,9 +1,14 @@
 {
   "ticker": "CNXC",
-  "generated_at": "2026-10-05T10:43:38+00:00",
+  "generated_at": "2026-10-06T10:43:53+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-05T04:36:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Concentrix (CNXC): Is This Stock Really Priced For Disaster, Or Just Misunderstood?"
+    },
     {
       "published_utc": "2026-10-02T23:05:26+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-09-30T08:02:09+00:00",
       "publisher": "Benzinga",
       "title": "Concentrix Posts Mixed Q3 Results, Joins Cal-Maine Foods And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session"
-    },
-    {
-      "published_utc": "2026-09-30T07:57:13+00:00",
-      "publisher": "Yahoo",
-      "title": "CNXC Q3 Deep Dive: AI-Driven Revenue Mix Shift and Margin Expansion Meet Cautious Outlook"
     }
   ]
 }

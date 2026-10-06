@@ -1,9 +1,24 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-10-05T10:43:38+00:00",
+  "generated_at": "2026-10-06T10:43:53+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-05T21:26:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Fortinet vs. CrowdStrike: Both Grew 26%. Why Pay Four Times the Earnings Multiple?"
+    },
+    {
+      "published_utc": "2026-10-05T14:27:00+00:00",
+      "publisher": "Yahoo",
+      "title": "3 Reasons to Buy Fortinet Stock After a 119.9% Rise in 6 Months"
+    },
+    {
+      "published_utc": "2026-10-05T09:10:56+00:00",
+      "publisher": "ChartMill",
+      "title": "Fortinet (NASDAQ:FTNT) Aligns With Minervini Trend Template and High Growth Momentum"
+    },
     {
       "published_utc": "2026-10-03T15:45:24+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-30T15:45:02+00:00",
       "publisher": "Yahoo",
       "title": "Is Fortinet (FTNT) a Solid Growth Stock? 3 Reasons to Think \"Yes\""
-    },
-    {
-      "published_utc": "2026-09-28T05:00:02+00:00",
-      "publisher": "Yahoo",
-      "title": "With AI Putting Cybersecurity in the Spotlight, Fortinet Stock Looks Hot at New All-Time Highs"
-    },
-    {
-      "published_utc": "2026-09-26T21:11:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Fortinet (FTNT) Fully Valued On Its New York Hub Expansion?"
-    },
-    {
-      "published_utc": "2026-09-25T20:45:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet (FTNT) Stock Sinks As Market Gains: What You Should Know"
     }
   ]
 }

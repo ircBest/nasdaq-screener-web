@@ -1,9 +1,24 @@
 {
   "ticker": "DDOG",
-  "generated_at": "2026-10-05T10:43:38+00:00",
+  "generated_at": "2026-10-06T10:43:53+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-05T15:36:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog’s Growth Is Expected to Slow From 36% to Around 29% in Q3. Here’s the CFO’s Plan to Protect Margins"
+    },
+    {
+      "published_utc": "2026-10-05T14:09:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog (DDOG): Positioned to Capture Explosive Agentic AI Growth"
+    },
+    {
+      "published_utc": "2026-10-05T08:39:22+00:00",
+      "publisher": "Benzinga",
+      "title": "Full Transcript: Datadog Q2 2026 Earnings Call"
+    },
     {
       "published_utc": "2026-10-02T18:05:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-28T15:35:00+00:00",
       "publisher": "Yahoo",
       "title": "CSCO's Security Growth Accelerates: Can It Outpace DDOG & CRWD?"
-    },
-    {
-      "published_utc": "2026-09-28T13:45:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Snowflake Slides 4% on Proposed $3.5B Convertible Offering; Oracle Falls 3%, Datadog Drops 4%"
-    },
-    {
-      "published_utc": "2026-09-28T12:12:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: Applied Digital, Autodesk, Datadog, First Solar, L3Harris Technologies, PepsiCo, Roblox, Snowflake, TeraWulf and More"
-    },
-    {
-      "published_utc": "2026-09-26T03:12:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is Datadog (DDOG) Stock Rocketing Higher Today"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "SNPS",
-  "generated_at": "2026-10-05T10:43:38+00:00",
+  "generated_at": "2026-10-06T10:43:53+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-05T16:11:08+00:00",
+      "publisher": "Yahoo",
+      "title": "A $1 Billion Reason to Buy Synopsys Stock"
+    },
+    {
+      "published_utc": "2026-10-05T15:35:30+00:00",
+      "publisher": "Yahoo",
+      "title": "Where Could Synopsys Stock Be A Year From Now?"
+    },
+    {
+      "published_utc": "2026-10-05T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Synopsys Initiates $1 Billion Accelerated Share Repurchase Agreement"
+    },
+    {
+      "published_utc": "2026-10-05T09:01:00+00:00",
+      "publisher": "Benzinga",
+      "title": "Synopsys Inks $1B Accelerated Stock Buyback Plan"
+    },
     {
       "published_utc": "2026-10-04T01:54:01+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-01T20:27:01+00:00",
       "publisher": "Yahoo",
       "title": "Synopsys is becoming a major AI player: CEO discusses OpenAI, Amazon deals"
-    },
-    {
-      "published_utc": "2026-10-01T18:13:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Deutsche Bank Just Upped Its Price Target on Synopsys Stock. Here's Why."
-    },
-    {
-      "published_utc": "2026-10-01T18:00:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Synopsys Stock Surges On AI-Driven Transformation Of Engineering"
-    },
-    {
-      "published_utc": "2026-10-01T16:47:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Synopsys Stock Soared on Thursday"
-    },
-    {
-      "published_utc": "2026-10-01T16:45:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Synopsys Investor Day Impresses BofA and KeyBanc, Driving Higher Price Targets and Stronger Growth Outlook"
     }
   ]
 }

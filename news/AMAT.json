@@ -1,9 +1,14 @@
 {
   "ticker": "AMAT",
-  "generated_at": "2026-10-05T10:43:38+00:00",
+  "generated_at": "2026-10-06T10:43:53+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-05T12:36:28+00:00",
+      "publisher": "ChartMill",
+      "title": "Broadcom and Applied Materials Earnings Put Broadening Chip Rally to the Test"
+    },
     {
       "published_utc": "2026-10-02T20:45:05+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-01T01:34:01+00:00",
       "publisher": "Yahoo",
       "title": "Applied Materials vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-09-30T19:32:41+00:00",
-      "publisher": "Yahoo",
-      "title": "What Are Applied Materials Stock Investors Overlooking?"
     }
   ]
 }

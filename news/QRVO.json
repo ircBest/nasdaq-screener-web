@@ -1,9 +1,14 @@
 {
   "ticker": "QRVO",
-  "generated_at": "2026-10-05T10:43:38+00:00",
+  "generated_at": "2026-10-06T10:43:53+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-05T07:31:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus"
+    },
     {
       "published_utc": "2026-10-03T07:47:12+00:00",
       "publisher": "SeekingAlpha",
@@ -23,11 +28,6 @@
       "published_utc": "2026-09-24T16:13:46+00:00",
       "publisher": "Yahoo",
       "title": "What Does Qorvo (QRVO) Leaving A Key Chip Index Mean For Investors?"
-    },
-    {
-      "published_utc": "2026-09-21T16:53:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Qualcomm Jumps 7% as AI Interconnect Demo Points Past Handsets; Skyworks and Qorvo Sit Out the Rally"
     }
   ]
 }
