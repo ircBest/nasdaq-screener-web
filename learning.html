@@ -47,6 +47,7 @@
   letter-spacing:-.01em;text-wrap:balance}
 .ask .aa{color:var(--text-dim);font-size:13px;line-height:1.7}
 .ask .nn{margin-top:6px;font-size:11px;color:var(--text-faint)}
+.bar-row .nn{margin-top:6px;font-size:11px;color:var(--text-faint)}
 
 .gap-list{display:grid;gap:9px}
 .gap-item{background:var(--surface-2);border:1px solid var(--border);
@@ -106,7 +107,7 @@
 
 const $ = id => document.getElementById(id);
 
-function bar(label, have, need){
+function bar(label, have, need, note){
   const pct = need > 0
     ? Math.min(100, Math.round(have / need * 100))
     : 0;
@@ -118,6 +119,7 @@ function bar(label, have, need){
         <span class="num mono">${have} / ${need}</span>
       </div>
       <div class="track"><div class="fill" style="width:${pct}%"></div></div>
+      ${note ? `<div class="nn">${escapeHTML(note)}</div>` : ""}
     </div>`;
 }
 
@@ -162,10 +164,17 @@ function render(d){
     <section>
       <div class="section-title"><div class="title">판정까지</div></div>
       <div class="bars">
-        ${bar("결정을 봉인한 날",
-              gate["결정을 봉인한 날"] ?? 0, gate["필요한 날"] ?? 0)}
-        ${bar("봉인된 판단",
-              gate["봉인된 판단"] ?? 0, gate["필요한 판단"] ?? 0)}
+        ${/* 막대는 '채점까지 끝난' 수로 채운다. 봉인 수로 채우면 채점 0건인데도
+             '4761 / 200' 으로 가득 찬 것처럼 보였다 (2026-10-03 내실 점검).
+             봉인 수는 아래에 작게 적는다. 옛 learning.json 이면 봉인 수로 그린다. */""}
+        ${"채점까지 끝난 날" in gate
+          ? bar("채점까지 끝난 날", gate["채점까지 끝난 날"] ?? 0, gate["필요한 날"] ?? 0,
+                `결정을 봉인한 날 ${gate["결정을 봉인한 날"] ?? 0}일 — 봉인 뒤 60거래일이 지나야 채점합니다`)
+          : bar("결정을 봉인한 날", gate["결정을 봉인한 날"] ?? 0, gate["필요한 날"] ?? 0)}
+        ${"채점까지 끝난 판단" in gate
+          ? bar("채점까지 끝난 판단", gate["채점까지 끝난 판단"] ?? 0, gate["필요한 판단"] ?? 0,
+                `봉인된 판단 ${gate["봉인된 판단"] ?? 0}건`)
+          : bar("봉인된 판단", gate["봉인된 판단"] ?? 0, gate["필요한 판단"] ?? 0)}
       </div>
       <div class="notice-box" style="margin-top:14px">
         ${escapeHTML(gate["설명"] || "")}
