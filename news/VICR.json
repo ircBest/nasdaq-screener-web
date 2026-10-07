@@ -1,9 +1,19 @@
 {
   "ticker": "VICR",
-  "generated_at": "2026-10-06T10:43:53+00:00",
+  "generated_at": "2026-10-07T10:34:40+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-06T17:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Vicor Corporation to Hold Third Quarter Earnings Conference Call and Webcast on October 20, 2026"
+    },
+    {
+      "published_utc": "2026-10-06T02:36:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Vicor (VICR) Has the AI Power Opportunity. Can It Actually Scale?"
+    },
     {
       "published_utc": "2026-10-02T14:51:11+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-30T20:54:58+00:00",
       "publisher": "Yahoo",
       "title": "Vicor raises third-quarter revenue guidance; stock rips higher"
-    },
-    {
-      "published_utc": "2026-09-30T16:26:53+00:00",
-      "publisher": "Benzinga",
-      "title": "Vicor Q3  Revenue expected to be more than $186.358M vs $165.450M Est"
-    },
-    {
-      "published_utc": "2026-09-30T16:05:23+00:00",
-      "publisher": "Benzinga",
-      "title": "Vicor Raises Q3 Sequential Revenue Growth Guidance To Above 30% From Above 20% On Higher Vertical Power Delivery Royalties"
     }
   ]
 }

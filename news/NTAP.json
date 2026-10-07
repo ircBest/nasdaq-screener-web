@@ -1,9 +1,29 @@
 {
   "ticker": "NTAP",
-  "generated_at": "2026-10-06T10:43:53+00:00",
+  "generated_at": "2026-10-07T10:34:40+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-06T16:13:00+00:00",
+      "publisher": "Yahoo",
+      "title": "GDT Named NetApp North America Growth Partner of the Year for FY26"
+    },
+    {
+      "published_utc": "2026-10-06T14:08:00+00:00",
+      "publisher": "Yahoo",
+      "title": "NetApp Teams With Diskover Data to Unlock Data Value"
+    },
+    {
+      "published_utc": "2026-10-06T10:07:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Supermicro’s NetApp AI Factory Alliance Quietly Redefining SMCI’s Full-Stack Data Center Ambitions?"
+    },
+    {
+      "published_utc": "2026-10-06T02:45:41+00:00",
+      "publisher": "CNBC",
+      "title": "AI tech creators are responsible for building in the security controls, says Netapp CEO"
+    },
     {
       "published_utc": "2026-10-05T13:00:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-01T21:00:05+00:00",
       "publisher": "Yahoo",
       "title": "Why NetApp (NTAP) Outpaced the Stock Market Today"
-    },
-    {
-      "published_utc": "2026-10-01T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Recognizes Winners of 2026 North America Partner Awards"
-    },
-    {
-      "published_utc": "2026-10-01T00:02:20+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Unveils Novus, AI Data Engine Upgrades to Power Agentic AI"
-    },
-    {
-      "published_utc": "2026-09-30T13:09:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp's Keystone Sovereign Targets Europe's Regulated Data Market"
-    },
-    {
-      "published_utc": "2026-09-30T12:50:13+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp’s AI Opportunity Can Support Higher Growth, Says BofA — Raises Target After INSIGHT Event"
     }
   ]
 }

@@ -1,9 +1,39 @@
 {
   "ticker": "ONDS",
-  "generated_at": "2026-10-06T10:43:53+00:00",
+  "generated_at": "2026-10-07T10:34:40+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-05T14:40:53+00:00",
+      "publisher": "Benzinga",
+      "title": "QUICK SPARK: Citizens Turns Bullish on Ondas Stock"
+    },
+    {
+      "published_utc": "2026-10-05T13:54:53+00:00",
+      "publisher": "Yahoo",
+      "title": "ONDS Stock Jumps On $56M ESAD Order – Citizens Sees Nearly 2X Upside, Calls Ondas A ‘Dynamic Player’"
+    },
+    {
+      "published_utc": "2026-10-05T13:44:40+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Climbs 5% on $56M Precision Strike Order as Citizens Starts Coverage; AeroVironment Barely Budges"
+    },
+    {
+      "published_utc": "2026-10-05T13:40:08+00:00",
+      "publisher": "Benzinga",
+      "title": "Ondas Bags $56 Million Precision Weapons Order"
+    },
+    {
+      "published_utc": "2026-10-05T13:20:54+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Is Priced Like a Defense Contractor. AeroVironment Actually Is One."
+    },
+    {
+      "published_utc": "2026-10-05T12:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Receives $56 Million Order in Precision Strike Business for Electronic Safe & Arm Devices Supporting European Loitering Munition Program"
+    },
     {
       "published_utc": "2026-10-05T08:46:20+00:00",
       "publisher": "Benzinga",
@@ -33,36 +63,6 @@
       "published_utc": "2026-09-30T14:38:06+00:00",
       "publisher": "Yahoo",
       "title": "Ondas Expands Counter-Drone Portfolio With Long-Range Dronebuster REACH -- What Investors Need To Know"
-    },
-    {
-      "published_utc": "2026-09-30T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Launches Dronebuster REACH, Extending Non-Kinetic Counter-UAS Defeat to Long Range"
-    },
-    {
-      "published_utc": "2026-09-28T17:49:16+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Ondas: Short Squeeze Might Be Coming"
-    },
-    {
-      "published_utc": "2026-09-28T15:09:23+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Ondas (ONDS) Is Back In The Spotlight"
-    },
-    {
-      "published_utc": "2026-09-28T14:10:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Does Ondas (ONDS) Look Too Expensive On Earnings Today?"
-    },
-    {
-      "published_utc": "2026-09-28T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas' Cyberhawk(TM) Secures Multi-Year Agreement for SSE plc's Electricity Network Inspection and Surveying"
-    },
-    {
-      "published_utc": "2026-09-28T08:33:38+00:00",
-      "publisher": "Benzinga",
-      "title": "Ondas’ Subsidiary Cyberhawk Secures New 3-Yr Agreement, With Option To Extend For Further Two Years, With SSE Plc's Economically-Regulated Networks Businesses For Provision Of Specialist Drone Inspection And Surveying Services"
     }
   ]
 }

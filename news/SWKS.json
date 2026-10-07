@@ -1,9 +1,24 @@
 {
   "ticker": "SWKS",
-  "generated_at": "2026-10-06T10:43:53+00:00",
+  "generated_at": "2026-10-07T10:34:40+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-06T17:00:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Skyworks vs Qualcomm: Why One Chip Maker Is Rewarding Shareholders While the Other Suspends Dividends"
+    },
+    {
+      "published_utc": "2026-10-06T10:03:11+00:00",
+      "publisher": "CNBC",
+      "title": "Cramer’s Stop Trading: Skyworks Solutions"
+    },
+    {
+      "published_utc": "2026-10-06T09:08:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Skyworks completes Qorvo deal, expects $500m in cost synergies"
+    },
     {
       "published_utc": "2026-10-05T23:39:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-28T22:46:36+00:00",
       "publisher": "Yahoo",
       "title": "Skyworks Solutions and Himax Stocks Trade Down, What You Need To Know"
-    },
-    {
-      "published_utc": "2026-09-28T20:22:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Q2 Earnings Highs And Lows: Skyworks Solutions (NASDAQ:SWKS) Vs The Rest Of The Analog Semiconductors Stocks"
-    },
-    {
-      "published_utc": "2026-09-25T22:34:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Skyworks Announces Extension of Expiration Date of Exchange Offers for Qorvo’s Senior Notes due 2029 and 2031"
-    },
-    {
-      "published_utc": "2026-09-25T17:14:35+00:00",
-      "publisher": "Yahoo",
-      "title": "What Should Skyworks Solutions (SWKS) Investors Watch After Its Index Removal?"
     }
   ]
 }
