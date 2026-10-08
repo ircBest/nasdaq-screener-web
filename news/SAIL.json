@@ -1,9 +1,34 @@
 {
   "ticker": "SAIL",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T07:14:33+00:00",
+      "publisher": "Benzinga",
+      "title": "Oppenheimer Initiates Coverage On SailPoint with Outperform Rating, Announces Price Target of $30"
+    },
+    {
+      "published_utc": "2026-10-06T23:13:28+00:00",
+      "publisher": "Yahoo",
+      "title": "SailPoint’s 40x Gap — Enterprise AI Agent Adoption Has Outrun Identity Security by a Factor of 40"
+    },
+    {
+      "published_utc": "2026-10-06T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SailPoint Announces Modernization Capabilities for both Cloud and On-Premises Identity Security"
+    },
+    {
+      "published_utc": "2026-10-06T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SailPoint Report Finds 79% of Enterprises Run AI Agents in Production, Yet Only 2% Have Deployed Purpose-built Security"
+    },
+    {
+      "published_utc": "2026-10-06T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "From Chaos to Control: SailPoint Unlocks a Secure Agentic Era with Autonomous Identity Security"
+    },
     {
       "published_utc": "2026-10-05T14:36:53+00:00",
       "publisher": "Benzinga",

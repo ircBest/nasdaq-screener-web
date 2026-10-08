@@ -1,9 +1,24 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T19:19:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike vs. Fortinet: Which Cybersecurity Stock Is Poised for Higher Highs?"
+    },
+    {
+      "published_utc": "2026-10-07T14:11:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Fortinet (FTNT) Stay Fully Priced on Future Cash Flow?"
+    },
+    {
+      "published_utc": "2026-10-07T13:59:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Operational Technology Security Market Forecasts Growth from $27.39B (2026) to $58.94B by 2031, Profiling Cisco, Palo Alto Networks, Fortinet, Siemens, Honeywell & 35 Other Key Players"
+    },
     {
       "published_utc": "2026-10-06T14:00:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-01T13:02:00+00:00",
       "publisher": "Yahoo",
       "title": "Fortinet Launches P.A.U.S.E., a Free National Campaign Helping Canadians Stop and Think Before AI-Driven Scams Succeed"
-    },
-    {
-      "published_utc": "2026-10-01T11:30:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's How Much a $1000 Investment in Fortinet Made 10 Years Ago Would Be Worth Today"
-    },
-    {
-      "published_utc": "2026-10-01T08:37:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Industrial Control System Security Market Forecasts Growth from $17.91B (2026) to $38.48B by 2031, Profiling Cisco, Fortinet & Palo Alto Networks"
-    },
-    {
-      "published_utc": "2026-09-30T17:35:23+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Fortinet: I'm Up Over 100% But I'm Still Not Selling"
     }
   ]
 }

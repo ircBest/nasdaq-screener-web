@@ -1,9 +1,29 @@
 {
   "ticker": "ADI",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T21:15:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Here's Why Analog Devices (ADI) Fell More Than Broader Market"
+    },
+    {
+      "published_utc": "2026-10-07T16:08:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Analog Devices (ADI): Buy, Sell, or Hold Post Q2 Earnings?"
+    },
+    {
+      "published_utc": "2026-10-07T13:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Moët Hennessy, Analog Devices and UC Davis Join Forces to Advance Wine Production Through Breakthrough Chemical Signature Detection Technology Leveraging AI"
+    },
+    {
+      "published_utc": "2026-10-07T11:12:22+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Analog Devices (ADI) Is Back In The Spotlight"
+    },
     {
       "published_utc": "2026-10-03T00:22:03+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-09-29T01:41:10+00:00",
       "publisher": "SeekingAlpha",
       "title": "Analog Devices: Double-Digit Growth To Continue Into 2027"
-    },
-    {
-      "published_utc": "2026-09-28T23:47:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Could Cadence Design (CDNS) and Analog Devices (ADI) Capture More of the Smart-Vehicle Opportunity?"
-    },
-    {
-      "published_utc": "2026-09-28T06:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "The Zacks Analyst Blog Highlights Analog Devices, Semtech, Taiwan Semiconductor and ASM"
-    },
-    {
-      "published_utc": "2026-09-28T05:59:18+00:00",
-      "publisher": "Benzinga",
-      "title": "Competitor Analysis: Evaluating Analog Devices And Competitors In Semiconductors &amp; Semiconductor Equipment Industry"
-    },
-    {
-      "published_utc": "2026-09-25T14:22:00+00:00",
-      "publisher": "Yahoo",
-      "title": "MCHP Expands 48V Power Portfolio: Can It Outpace TXN & ADI?"
     }
   ]
 }

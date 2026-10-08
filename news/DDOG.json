@@ -1,9 +1,19 @@
 {
   "ticker": "DDOG",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T20:45:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog (DDOG) Declines More Than Market: Some Information for Investors"
+    },
+    {
+      "published_utc": "2026-10-07T15:13:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog (DDOG) vs. DT and CSCO: Can Multi-Product Adoption Sustain Its High-Growth Story?"
+    },
     {
       "published_utc": "2026-10-06T16:51:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-30T10:25:44+00:00",
       "publisher": "SeekingAlpha",
       "title": "Datadog: The SaaS That AI Needs"
-    },
-    {
-      "published_utc": "2026-09-30T09:39:22+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Datadog's Guidance Is Too Low, But The Street Has Already Priced It"
-    },
-    {
-      "published_utc": "2026-09-30T07:15:41+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Datadog: I Was Wrong; Upgrading After Management Debunked My Bear Thesis"
     }
   ]
 }

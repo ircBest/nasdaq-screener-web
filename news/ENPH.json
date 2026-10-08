@@ -1,9 +1,19 @@
 {
   "ticker": "ENPH",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-06T20:50:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Enphase Energy (ENPH) Outpaced the Stock Market Today"
+    },
+    {
+      "published_utc": "2026-10-06T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Enphase Energy Announces Conference Call to Review Third Quarter 2026 Financial Results"
+    },
     {
       "published_utc": "2026-10-04T20:06:23+00:00",
       "publisher": "Yahoo",
@@ -48,11 +58,6 @@
       "published_utc": "2026-09-24T15:55:16+00:00",
       "publisher": "Yahoo",
       "title": "Solar Stocks Slide as High Borrowing Costs Weigh on Project Financing: First Solar Sinks 8%, SolarEdge Falls 5%, Enphase Energy Drops 4%"
-    },
-    {
-      "published_utc": "2026-09-23T21:50:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Enphase Energy (ENPH) Registers a Bigger Fall Than the Market: Important Facts to Note"
     }
   ]
 }

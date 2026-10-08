@@ -1,9 +1,29 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-06T16:04:53+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile Is Soaring After State Dept. Endorses LEO Satellite Cooperation with Japan"
+    },
+    {
+      "published_utc": "2026-10-06T15:14:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Why AST SpaceMobile Stock Popped on Tuesday"
+    },
+    {
+      "published_utc": "2026-10-06T14:53:41+00:00",
+      "publisher": "Yahoo",
+      "title": "SpaceX Gains 2% as Morgan Stanley Sees a Closing Window; AST SpaceMobile Surges 8%, Rocket Lab Rises 5%"
+    },
+    {
+      "published_utc": "2026-10-06T14:48:07+00:00",
+      "publisher": "Benzinga",
+      "title": "AST SpaceMobile Stock Has a $1B Japan Catalyst, But $81 Is the Number to Watch"
+    },
     {
       "published_utc": "2026-10-06T13:03:20+00:00",
       "publisher": "SeekingAlpha",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-05T13:00:00+00:00",
       "publisher": "Yahoo",
       "title": "TELUS and AST SpaceMobile successfully complete first satellite-to-smartphone integration test on the TELUS network"
-    },
-    {
-      "published_utc": "2026-10-05T09:06:13+00:00",
-      "publisher": "Benzinga",
-      "title": "TELUS, AST SpaceMobile Complete Their First Test Between Wireless Networks"
-    },
-    {
-      "published_utc": "2026-10-05T04:44:57+00:00",
-      "publisher": "Yahoo",
-      "title": "ASTS Stock Edges Up Overnight: Retail Traders Seize On T-Mobile Dropping Starlink Name From Satellite Page"
-    },
-    {
-      "published_utc": "2026-10-04T15:10:32+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile (ASTS) Is Down 5.4% After Class Action Allegations Over Funding Model - What's Changed"
-    },
-    {
-      "published_utc": "2026-10-03T13:42:53+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Stock Is Down 31% in Three Months. Buy the Dip or Wait for More Launches?"
     }
   ]
 }

@@ -1,9 +1,59 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T16:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Can USDC Adoption Reshape Coinbase's Long-Term Growth Profile?"
+    },
+    {
+      "published_utc": "2026-10-07T16:15:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Pro is coming back. Here's what you should know."
+    },
+    {
+      "published_utc": "2026-10-07T14:49:42+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitcoin falls below $83,000, dragging down Strategy, Coinbase, and Robinhood stocks"
+    },
+    {
+      "published_utc": "2026-10-07T14:41:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Wall Street Lifts Coinbase Targets Across the Board"
+    },
+    {
+      "published_utc": "2026-10-07T14:18:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Wall Street Split On Coinbase: Barclays Sees 20% Downside, Goldman Thinks COIN Stock Has Room To Run"
+    },
+    {
+      "published_utc": "2026-10-07T13:24:17+00:00",
+      "publisher": "CNBC",
+      "title": "Calls of the Day: Spotify, ServiceTitan and Coinbase"
+    },
+    {
+      "published_utc": "2026-10-07T10:05:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Completes Deribit Integration and Says Coinbase Pro Returns by Year-End"
+    },
+    {
+      "published_utc": "2026-10-07T09:47:46+00:00",
+      "publisher": "Benzinga",
+      "title": "Barclays Maintains Underweight on Coinbase Global, Raises Price Target to $149"
+    },
+    {
+      "published_utc": "2026-10-07T06:28:48+00:00",
+      "publisher": "Benzinga",
+      "title": "BTIG Reiterates Buy on Coinbase Global, Maintains $240 Price Target"
+    },
+    {
+      "published_utc": "2026-10-07T05:24:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase's Martin Sees Rising Demand for Crypto"
+    },
     {
       "published_utc": "2026-10-06T20:45:04+00:00",
       "publisher": "Yahoo",
@@ -13,56 +63,6 @@
       "published_utc": "2026-10-06T20:09:15+00:00",
       "publisher": "Yahoo",
       "title": "Riot Platforms (RIOT) Is Down 10.6% After Retiring Secured Coinbase Loan Facility And Freeing Collateral"
-    },
-    {
-      "published_utc": "2026-10-06T03:22:18+00:00",
-      "publisher": "Benzinga",
-      "title": "This Company Just Became the World's 2nd-Largest Bitcoin Hoarder and It Has More BTC Than Tesla, SpaceX and Coinbase"
-    },
-    {
-      "published_utc": "2026-10-05T18:03:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase CAO to retire as leadership shuffle continues after layoffs"
-    },
-    {
-      "published_utc": "2026-10-05T17:43:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase vs. Intercontinental: Which Exchange Stock Has an Edge?"
-    },
-    {
-      "published_utc": "2026-10-05T15:33:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Robinhood, Coinbase Get Price Target Hikes From BofA — eToro Target Cut Ahead Of Q3 Earnings"
-    },
-    {
-      "published_utc": "2026-10-05T14:00:45+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Stock vs. Bitcoin: Which Investment Performs Better?"
-    },
-    {
-      "published_utc": "2026-10-05T06:59:45+00:00",
-      "publisher": "Yahoo",
-      "title": "Once 'Nearly Impossible,' Now Reality: Brian Armstrong Cheers Citi Partnership, Says Coinbase 'Has Come a Long Way'"
-    },
-    {
-      "published_utc": "2026-10-04T15:41:57+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Stock Got a $200 Target From Wells Fargo. Here’s How Its CFO’s Cost Pledge Changes the Math"
-    },
-    {
-      "published_utc": "2026-10-04T15:00:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Visa, Mastercard, Stripe, and Coinbase Commit $1 Billion to New Stablecoin: Is Open USD a Challenge to Tether, USDC, and RLUSD?"
-    },
-    {
-      "published_utc": "2026-10-04T14:00:57+00:00",
-      "publisher": "Yahoo",
-      "title": "Grok Dominates Coinbase’s AI Trading with a 60% Share: Which Coins Are Being Purchased?"
-    },
-    {
-      "published_utc": "2026-10-04T02:09:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Coinbase (COIN) Turn Citi’s Stablecoin Partnership Into a Durable Institutional Advantage?"
     }
   ]
 }

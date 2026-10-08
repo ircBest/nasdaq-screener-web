@@ -1,9 +1,19 @@
 {
   "ticker": "PANW",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T14:00:28+00:00",
+      "publisher": "Yahoo",
+      "title": "A $1,000 Bet on Palo Alto Networks Beat the S&P 500 by More Than 5x Over Ten Years"
+    },
+    {
+      "published_utc": "2026-10-07T13:59:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Operational Technology Security Market Forecasts Growth from $27.39B (2026) to $58.94B by 2031, Profiling Cisco, Palo Alto Networks, Fortinet, Siemens, Honeywell & 35 Other Key Players"
+    },
     {
       "published_utc": "2026-10-06T21:36:34+00:00",
       "publisher": "Yahoo",
@@ -13,6 +23,11 @@
       "published_utc": "2026-10-06T15:00:00+00:00",
       "publisher": "Yahoo",
       "title": "CrowdStrike Advances 3% on Agentic Security Accelerator With Amazon and NVIDIA; Palo Alto Networks and Zscaler Gain 4%"
+    },
+    {
+      "published_utc": "2026-10-06T12:16:39+00:00",
+      "publisher": "Benzinga",
+      "title": "Palo Alto Networks Stock Reaches New Highs: What's Happening?"
     },
     {
       "published_utc": "2026-10-05T13:24:17+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-02T09:44:00+00:00",
       "publisher": "Yahoo",
       "title": "Is Platformization Becoming Palo Alto Networks' Biggest Growth Lever?"
-    },
-    {
-      "published_utc": "2026-10-01T14:30:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is Palo Alto (PANW) Up 21% Since Last Earnings Report?"
-    },
-    {
-      "published_utc": "2026-10-01T14:22:00+00:00",
-      "publisher": "Yahoo",
-      "title": "PANW Stock Rises 21% in a Month: Should You Hold or Book Profits?"
-    },
-    {
-      "published_utc": "2026-10-01T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cyderes Partners with Palo Alto Networks to Accelerate AI-Powered Security Operations for Global Enterprises"
     }
   ]
 }

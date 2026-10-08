@@ -1,0 +1,32 @@
+{
+  "ticker": "RGTI",
+  "generated_at": "2026-10-08T10:51:30.617335+00:00",
+  "points": [
+    {
+      "d": "2026-10-07",
+      "c": 14.59,
+      "h": 14.89,
+      "l": 14.45,
+      "v": 13695700
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "RGTI|2026-10-08",
+      "date": "2026-10-08",
+      "entry": 14.59,
+      "target": 17.2,
+      "stop": 13.29,
+      "rsi": 38.2307
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 13695700,
+    "latest": 13695700,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}

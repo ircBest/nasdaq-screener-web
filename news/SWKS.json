@@ -1,13 +1,33 @@
 {
   "ticker": "SWKS",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-07T12:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Skyworks Si829x Isolated Safety Gate Driver Qualified and Ready for Customer Evaluation"
+    },
+    {
+      "published_utc": "2026-10-07T11:11:31+00:00",
+      "publisher": "Yahoo",
+      "title": "Skyworks Solutions (SWKS) Stock Gets Fair Value Bump As Qorvo Deal Views Split Analysts"
+    },
+    {
       "published_utc": "2026-10-06T17:00:19+00:00",
       "publisher": "Yahoo",
       "title": "Skyworks vs Qualcomm: Why One Chip Maker Is Rewarding Shareholders While the Other Suspends Dividends"
+    },
+    {
+      "published_utc": "2026-10-06T13:59:36+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Neutral on Skyworks Solutions, Raises Price Target to $90"
+    },
+    {
+      "published_utc": "2026-10-06T12:40:08+00:00",
+      "publisher": "Benzinga",
+      "title": "B. Riley Securities Upgrades Skyworks Solutions to Buy, Raises Price Target to $107"
     },
     {
       "published_utc": "2026-10-06T10:03:11+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-04T10:05:31+00:00",
       "publisher": "Yahoo",
       "title": "Does Skyworks’ Russell Index Exit Recast the Mobile Concentration Narrative for Skyworks Solutions (SWKS)?"
-    },
-    {
-      "published_utc": "2026-10-03T07:47:12+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Skyworks: The Qorvo Deal Could Finally Change The Investment Case"
-    },
-    {
-      "published_utc": "2026-10-01T09:14:10+00:00",
-      "publisher": "Benzinga",
-      "title": "RBC Capital Maintains Sector Perform on Skyworks Solutions, Raises Price Target to $95"
-    },
-    {
-      "published_utc": "2026-09-30T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Skyworks Receives All Necessary Clearances for Proposed Combination with Qorvo"
-    },
-    {
-      "published_utc": "2026-09-28T22:46:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Skyworks Solutions and Himax Stocks Trade Down, What You Need To Know"
     }
   ]
 }

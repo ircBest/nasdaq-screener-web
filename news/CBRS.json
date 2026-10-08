@@ -1,9 +1,34 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T11:19:44+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cerebras: OpenAI's Nvidia Move Doesn't Break The 750 MW Deal"
+    },
+    {
+      "published_utc": "2026-10-07T09:52:26+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cerebras: Back At Its IPO Price, With A Much Bigger Story"
+    },
+    {
+      "published_utc": "2026-10-07T06:12:54+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Systems (CBRS) Lands Gimlet Labs Deal, Is The Stock Still Below Fair Value?"
+    },
+    {
+      "published_utc": "2026-10-06T16:28:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Cerebras speed could be worth billions"
+    },
+    {
+      "published_utc": "2026-10-06T15:01:15+00:00",
+      "publisher": "Yahoo",
+      "title": "A full breakdown of the OpenAI–Cerebras chip controversy"
+    },
     {
       "published_utc": "2026-10-05T21:15:31+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-05T13:46:07+00:00",
       "publisher": "Yahoo",
       "title": "Does The Fall In Cerebras Stock Change Anything?"
-    },
-    {
-      "published_utc": "2026-10-05T13:34:38+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cerebras: I Was Right To Sell (Rating Upgrade)"
-    },
-    {
-      "published_utc": "2026-10-05T11:15:28+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Systems’ Tough 2026 Continues: It’ll Double Soon According to One of The Biggest Global Banks"
-    },
-    {
-      "published_utc": "2026-10-05T10:52:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras stock surges after OpenAI CEO Altman lauds 'close partner'"
-    },
-    {
-      "published_utc": "2026-10-05T10:25:02+00:00",
-      "publisher": "Benzinga",
-      "title": "Cerebras Stock Surges After Altman Calls Them \"Close Partner\""
-    },
-    {
-      "published_utc": "2026-10-05T10:19:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Systems Shares Rise After Altman Comments on OpenAI Partnership"
     }
   ]
 }

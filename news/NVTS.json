@@ -1,9 +1,24 @@
 {
   "ticker": "NVTS",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T06:43:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Navitas’ (NVTS) Army Award Strengthens Its Ultra-High-Voltage SiC Push"
+    },
+    {
+      "published_utc": "2026-10-06T20:15:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Navitas Closes Acquisition of Claros, Advancing AI Infrastructure with Grid-to-xPU Power Delivery"
+    },
+    {
+      "published_utc": "2026-10-06T13:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "NVTS Stock Surges 72% YTD: Should You Hold or Book Profits?"
+    },
     {
       "published_utc": "2026-10-05T13:56:45+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-30T08:45:05+00:00",
       "publisher": "SeekingAlpha",
       "title": "Why Magnachip Is Becoming Navitas' Manufacturing Arm For Next-Gen SiC"
-    },
-    {
-      "published_utc": "2026-09-29T18:27:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Navitas Stock Is Rising. Why It’s a Hot Chip Play Again."
-    },
-    {
-      "published_utc": "2026-09-29T16:22:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Navitas Semiconductor lands US Army award for high-voltage silicon carbide chips"
-    },
-    {
-      "published_utc": "2026-09-29T15:47:00+00:00",
-      "publisher": "Yahoo",
-      "title": "LITE vs. NVTS: Which AI Data Center Stock Is the Better Buy?"
     }
   ]
 }

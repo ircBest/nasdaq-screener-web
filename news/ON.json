@@ -1,9 +1,29 @@
 {
   "ticker": "ON",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T22:24:47+00:00",
+      "publisher": "Yahoo",
+      "title": "onsemi, Sensata Technologies, Texas Instruments, Allegro MicroSystems, and Power Integrations Shares Are Falling, What You Need To Know"
+    },
+    {
+      "published_utc": "2026-10-07T12:00:03+00:00",
+      "publisher": "Yahoo",
+      "title": "ON Semiconductor Corporation (ON) is Attracting Investor Attention: Here is What You Should Know"
+    },
+    {
+      "published_utc": "2026-10-07T10:15:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Synaptics: The Revised Onsemi Deal Is A Lot More Attractive Than Before"
+    },
+    {
+      "published_utc": "2026-10-06T15:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Why onsemi’s Synaptics Pivot Could Be a Game Changer"
+    },
     {
       "published_utc": "2026-10-06T10:37:20+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-02T17:46:52+00:00",
       "publisher": "Yahoo",
       "title": "Onsemi, Synaptics Stocks Rally on Revised Merger Agreement"
-    },
-    {
-      "published_utc": "2026-10-02T17:31:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor's revised Synaptics deal improves earnings outlook, says BofA"
-    },
-    {
-      "published_utc": "2026-10-02T15:49:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Onsemi's Revised Synaptics Deal Expected to Be Immediately Accretive, UBS Says"
-    },
-    {
-      "published_utc": "2026-10-02T15:24:16+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor, Synaptics stocks jump on revised merger deal"
-    },
-    {
-      "published_utc": "2026-10-02T13:35:40+00:00",
-      "publisher": "Benzinga",
-      "title": "Deal Dispatch: Hormel Acquires Brakebush, Onsemi buys Synaptics for $5.7 Billion, Leslie’s Pools Bankruptcy"
     }
   ]
 }

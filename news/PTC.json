@@ -1,9 +1,29 @@
 {
   "ticker": "PTC",
-  "generated_at": "2026-10-07T10:34:40+00:00",
+  "generated_at": "2026-10-08T10:51:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T19:09:20+00:00",
+      "publisher": "Yahoo",
+      "title": "PTC (PTC) Stock Gets Fair Value Boost As Analysts Reset Around Schneider Deal"
+    },
+    {
+      "published_utc": "2026-10-06T14:07:51+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Neutral on PTC, Raises Price Target to $205"
+    },
+    {
+      "published_utc": "2026-10-06T13:41:50+00:00",
+      "publisher": "Benzinga",
+      "title": "Oppenheimer Downgrades PTC to Perform"
+    },
+    {
+      "published_utc": "2026-10-06T13:32:07+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Upgrades PTC to Neutral, Raises Price Target to $205"
+    },
     {
       "published_utc": "2026-10-06T12:55:01+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-06T06:59:24+00:00",
       "publisher": "Benzinga",
       "title": "BMO Capital Downgrades PTC to Market Perform, Raises Price Target to $205"
-    },
-    {
-      "published_utc": "2026-10-05T22:11:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Why PTC (PTC) Stock Is Trading Up Today"
-    },
-    {
-      "published_utc": "2026-10-05T21:16:07+00:00",
-      "publisher": "Benzinga",
-      "title": "Novavax, Nvidia, MercadoLibre, Nu Holdings and PTC: Why These 5 Stocks Are on Investors' Radars Today"
-    },
-    {
-      "published_utc": "2026-10-05T21:04:52+00:00",
-      "publisher": "Yahoo",
-      "title": "PTC Inc. (PTC) Climbs 36% as Schneider Puts Whopping Premium on Takeover Bid — Here’s What’s Next"
-    },
-    {
-      "published_utc": "2026-10-05T18:43:37+00:00",
-      "publisher": "Yahoo",
-      "title": "PTC Soars 33% on $22.6 Billion All-Cash Schneider Electric Buyout: “Certain and Compelling Value”"
     }
   ]
 }
