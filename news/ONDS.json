@@ -1,9 +1,39 @@
 {
   "ticker": "ONDS",
-  "generated_at": "2026-10-08T10:51:30+00:00",
+  "generated_at": "2026-10-09T10:50:12+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-07T17:02:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Falls 5% Despite $165 Million in New Orders; AeroVironment and Red Cat Drop 5%"
+    },
+    {
+      "published_utc": "2026-10-07T16:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas shares fall despite company's announcement of new orders"
+    },
+    {
+      "published_utc": "2026-10-07T13:53:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Adds Another $165M To Its Order Book, Putting Revenue Conversion In Focus"
+    },
+    {
+      "published_utc": "2026-10-07T13:31:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Trades at a Discounted Valuation: How to Approach the Stock?"
+    },
+    {
+      "published_utc": "2026-10-07T12:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Secures Over $165 Million in New Orders Since Last Order Update"
+    },
+    {
+      "published_utc": "2026-10-07T10:12:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas (ONDS) Lands $56 Million European Defense Order After Key Acquisitions"
+    },
     {
       "published_utc": "2026-10-07T08:34:34+00:00",
       "publisher": "Benzinga",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-05T13:40:08+00:00",
       "publisher": "Benzinga",
       "title": "Ondas Bags $56 Million Precision Weapons Order"
-    },
-    {
-      "published_utc": "2026-10-05T13:20:54+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Is Priced Like a Defense Contractor. AeroVironment Actually Is One."
-    },
-    {
-      "published_utc": "2026-10-05T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Receives $56 Million Order in Precision Strike Business for Electronic Safe & Arm Devices Supporting European Loitering Munition Program"
-    },
-    {
-      "published_utc": "2026-10-05T08:46:20+00:00",
-      "publisher": "Benzinga",
-      "title": "Citizens Initiates Coverage On Ondas with Market Outperform Rating, Announces Price Target of $14"
-    },
-    {
-      "published_utc": "2026-10-05T08:33:12+00:00",
-      "publisher": "Benzinga",
-      "title": "Ondas Awarded ~$56M Order For Its Electronic Safe & Arm Device"
-    },
-    {
-      "published_utc": "2026-10-02T18:18:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Which Drone Stock Is Dominating in 2026: Red Cat, Ondas, or AeroVironment?"
-    },
-    {
-      "published_utc": "2026-10-01T12:18:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas' Dronebuster REACH Launch: Can Long-Range C-UAS Drive Growth?"
     }
   ]
 }

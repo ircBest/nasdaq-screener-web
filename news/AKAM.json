@@ -1,9 +1,19 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-10-08T10:51:30+00:00",
+  "generated_at": "2026-10-09T10:50:12+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T11:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Akamai Technologies To Hold Third Quarter 2026 Investor Conference Call On Thursday, November 5, at 4:30 PM ET"
+    },
+    {
+      "published_utc": "2026-10-08T03:17:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Akamai (AKAM) Stock May Be 14% Undervalued Despite Fresh AI Cloud Deal"
+    },
     {
       "published_utc": "2026-10-07T21:15:02+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-29T06:32:26+00:00",
       "publisher": "Benzinga",
       "title": "SoftServe Joins Akamai Partner Connect To Help Enterprises Optimize Multicloud Environments, Lower Infrastructure Costs, And Accelerate Edge AI Deployments"
-    },
-    {
-      "published_utc": "2026-09-28T14:55:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Akamai’s Anthropic Deal Puts $5.5 Billion Behind Its Edge AI Pivot"
-    },
-    {
-      "published_utc": "2026-09-28T13:26:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Akamai Technologies (AKAM) Soars 3.2%: Is Further Upside Left in the Stock?"
     }
   ]
 }

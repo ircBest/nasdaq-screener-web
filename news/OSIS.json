@@ -1,9 +1,14 @@
 {
   "ticker": "OSIS",
-  "generated_at": "2026-10-08T10:51:30+00:00",
+  "generated_at": "2026-10-09T10:50:12+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T09:12:40+00:00",
+      "publisher": "Benzinga",
+      "title": "Oppenheimer Maintains Outperform on OSI Systems, Lowers Price Target to $265"
+    },
     {
       "published_utc": "2026-09-30T12:30:00+00:00",
       "publisher": "Yahoo",
@@ -23,16 +28,6 @@
       "published_utc": "2026-09-28T08:31:24+00:00",
       "publisher": "Benzinga",
       "title": "OSI Systems' Optoelectronics And Manufacturing Division Receives ~$7M Orders For Its Electronic Sub-Assemblies"
-    },
-    {
-      "published_utc": "2026-09-25T08:02:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Can OSI Systems (OSIS) Convert $1.9B Backlog Into Sustainable Multi-Year Compounding?"
-    },
-    {
-      "published_utc": "2026-09-25T07:52:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Is OSI Systems (OSIS) Built to Be a Long-Term Compounding Powerhouse in Defense and Security?"
     }
   ]
 }

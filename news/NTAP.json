@@ -1,9 +1,34 @@
 {
   "ticker": "NTAP",
-  "generated_at": "2026-10-08T10:51:30+00:00",
+  "generated_at": "2026-10-09T10:50:12+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T21:00:04+00:00",
+      "publisher": "Yahoo",
+      "title": "NetApp (NTAP) Falls More Steeply Than Broader Market: What Investors Need to Know"
+    },
+    {
+      "published_utc": "2026-10-08T19:48:28+00:00",
+      "publisher": "Yahoo",
+      "title": "Can AWS Transform Make NetApp (NTAP) the Default Storage Landing Zone in the Cloud?"
+    },
+    {
+      "published_utc": "2026-10-08T12:32:00+00:00",
+      "publisher": "Yahoo",
+      "title": "NetApp Up 147% in the Past 6 Months: Time to Buy the Stock?"
+    },
+    {
+      "published_utc": "2026-10-08T08:14:23+00:00",
+      "publisher": "Yahoo",
+      "title": "NetApp (NTAP) Wins An Analyst Upgrade, Is It 19% Overvalued?"
+    },
+    {
+      "published_utc": "2026-10-08T03:52:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Did HPE, ANET, NTAP Stocks Surge To 52-Week Highs Today?"
+    },
     {
       "published_utc": "2026-10-07T17:39:35+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-06T14:08:00+00:00",
       "publisher": "Yahoo",
       "title": "NetApp Teams With Diskover Data to Unlock Data Value"
-    },
-    {
-      "published_utc": "2026-10-06T11:09:37+00:00",
-      "publisher": "Benzinga",
-      "title": "TD Cowen Maintains Buy on NetApp, Raises Price Target to $250"
-    },
-    {
-      "published_utc": "2026-10-06T10:07:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Supermicro’s NetApp AI Factory Alliance Quietly Redefining SMCI’s Full-Stack Data Center Ambitions?"
-    },
-    {
-      "published_utc": "2026-10-06T02:45:41+00:00",
-      "publisher": "CNBC",
-      "title": "AI tech creators are responsible for building in the security controls, says Netapp CEO"
-    },
-    {
-      "published_utc": "2026-10-05T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Diskover Data collaborates with NetApp to bring discovery and control to file-intensive workloads"
-    },
-    {
-      "published_utc": "2026-10-05T11:50:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Zacks Investment Ideas feature highlights: Hewlett, PBF Energy and NetApp"
     }
   ]
 }

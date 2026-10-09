@@ -1,9 +1,24 @@
 {
   "ticker": "ARM",
-  "generated_at": "2026-10-08T10:51:30+00:00",
+  "generated_at": "2026-10-09T10:50:12+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T17:10:00+00:00",
+      "publisher": "Yahoo",
+      "title": "ARM Stock Rebounds 11.5% in a Month: Is it a Buy Right Now?"
+    },
+    {
+      "published_utc": "2026-10-08T13:09:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Arm Holdings (ARM): Semiconductor Sector Sell-Off and Supply Execution Questions Weigh on Stock"
+    },
+    {
+      "published_utc": "2026-10-08T05:11:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Arm Holdings (ARM) Heads To Trial Over Billions In Royalty Payments"
+    },
     {
       "published_utc": "2026-10-07T17:55:21+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-29T12:08:07+00:00",
       "publisher": "Yahoo",
       "title": "Arm (ARM) Stock Looks Overvalued After Its 442% Three Year Run"
-    },
-    {
-      "published_utc": "2026-09-29T09:09:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Arm Holdings (ARM) Could Be 34% Undervalued On Its AI Growth Narrative"
-    },
-    {
-      "published_utc": "2026-09-29T06:09:35+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Arm (ARM) Quietly Becoming the Linchpin of Nvidia’s AI Security and Compute Strategy?"
-    },
-    {
-      "published_utc": "2026-09-25T19:34:12+00:00",
-      "publisher": "Yahoo",
-      "title": "ARM vs. Intel: What Revenue Growth Trends Reveal About These Artificial Intelligence Companies"
     }
   ]
 }

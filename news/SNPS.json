@@ -1,9 +1,24 @@
 {
   "ticker": "SNPS",
-  "generated_at": "2026-10-08T10:51:30+00:00",
+  "generated_at": "2026-10-09T10:50:12+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T16:58:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Synopsys (SNPS): The Next Big AI Stock Breakout?"
+    },
+    {
+      "published_utc": "2026-10-08T16:56:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Synopsys Stock Drop From Here?"
+    },
+    {
+      "published_utc": "2026-10-08T15:35:21+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Synopsys: A Low-Risk, High-Reward Play On The AI Chip Design Market"
+    },
     {
       "published_utc": "2026-10-07T12:17:40+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-05T09:01:00+00:00",
       "publisher": "Benzinga",
       "title": "Synopsys Inks $1B Accelerated Stock Buyback Plan"
-    },
-    {
-      "published_utc": "2026-10-04T01:54:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Synopsys (SNPS) Has a Strong Design Business. Is Its Growth Worth the Premium?"
-    },
-    {
-      "published_utc": "2026-10-02T18:00:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Synopsys Is the Nasdaq 100’s Top Stock Today. The Target Says It’s Not Done"
-    },
-    {
-      "published_utc": "2026-10-02T08:47:55+00:00",
-      "publisher": "Yahoo",
-      "title": "What Is Driving The Move In Synopsys Stock?"
     }
   ]
 }

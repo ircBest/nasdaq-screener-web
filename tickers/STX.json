@@ -1,0 +1,32 @@
+{
+  "ticker": "STX",
+  "generated_at": "2026-10-09T10:50:13.242767+00:00",
+  "points": [
+    {
+      "d": "2026-10-08",
+      "c": 774.83,
+      "h": 801.95,
+      "l": 770.06,
+      "v": 5065500
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "STX|2026-10-09",
+      "date": "2026-10-09",
+      "entry": 774.83,
+      "target": 938.83,
+      "stop": 692.83,
+      "rsi": 39.1882
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 5065500,
+    "latest": 5065500,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}

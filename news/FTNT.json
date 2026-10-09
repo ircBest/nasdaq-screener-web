@@ -1,9 +1,24 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-10-08T10:51:30+00:00",
+  "generated_at": "2026-10-09T10:50:12+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T15:00:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Are You Looking for a Top Momentum Pick? Why Fortinet (FTNT) is a Great Choice"
+    },
+    {
+      "published_utc": "2026-10-08T08:37:40+00:00",
+      "publisher": "Benzinga",
+      "title": "Amerx Initiates Coverage On Fortinet with Overweight Rating, Announces Price Target of $240"
+    },
+    {
+      "published_utc": "2026-10-08T06:11:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Zacks Investment Ideas feature highlights: CrowdStrike and Fortinet"
+    },
     {
       "published_utc": "2026-10-07T19:19:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-02T20:50:04+00:00",
       "publisher": "Yahoo",
       "title": "Why Fortinet (FTNT) Outpaced the Stock Market Today"
-    },
-    {
-      "published_utc": "2026-10-02T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet to Announce Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-10-02T11:40:52+00:00",
-      "publisher": "ChartMill",
-      "title": "Fortinet (NASDAQ:FTNT) Shows High-Growth Leadership and Momentum in CANSLIM Screen"
-    },
-    {
-      "published_utc": "2026-10-01T13:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet Launches P.A.U.S.E., a Free National Campaign Helping Canadians Stop and Think Before AI-Driven Scams Succeed"
     }
   ]
 }

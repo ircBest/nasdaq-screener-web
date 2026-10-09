@@ -1,9 +1,39 @@
 {
   "ticker": "SEDG",
-  "generated_at": "2026-10-08T10:51:30+00:00",
+  "generated_at": "2026-10-09T10:50:12+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T04:23:04+00:00",
+      "publisher": "Benzinga",
+      "title": "SolarEdge Technologies Reports Q2 2026 Results: Full Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-07T22:32:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Why SolarEdge (SEDG) Shares Are Trading Lower Today"
+    },
+    {
+      "published_utc": "2026-10-07T21:15:07+00:00",
+      "publisher": "Yahoo",
+      "title": "SolarEdge Technologies (SEDG) Falls More Steeply Than Broader Market: What Investors Need to Know"
+    },
+    {
+      "published_utc": "2026-10-07T19:08:31+00:00",
+      "publisher": "Yahoo",
+      "title": "SEDG Stock Slides After Deutsche Bank Tags It A Short-Term Sell"
+    },
+    {
+      "published_utc": "2026-10-07T13:46:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Deutsche Bank warns SolarEdge recovery may stumble on high interest rates"
+    },
+    {
+      "published_utc": "2026-10-07T11:27:31+00:00",
+      "publisher": "Benzinga",
+      "title": "Barclays Maintains Equal-Weight on SolarEdge Technologies, Lowers Price Target to $36"
+    },
     {
       "published_utc": "2026-10-05T21:15:00+00:00",
       "publisher": "Yahoo",
@@ -18,26 +48,6 @@
       "published_utc": "2026-09-30T21:15:03+00:00",
       "publisher": "Yahoo",
       "title": "SolarEdge Technologies (SEDG) Increases Despite Market Slip: Here's What You Need to Know"
-    },
-    {
-      "published_utc": "2026-09-24T23:52:58+00:00",
-      "publisher": "Yahoo",
-      "title": "First Solar, Enphase, SolarEdge, Alight, and Goodyear Shares Are Falling, What You Need To Know"
-    },
-    {
-      "published_utc": "2026-09-24T21:15:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Why SolarEdge Technologies (SEDG) Dipped More Than Broader Market Today"
-    },
-    {
-      "published_utc": "2026-09-24T20:13:12+00:00",
-      "publisher": "Yahoo",
-      "title": "FSLR Stock Hits Fresh 52-Week Low As Target Cuts, Slower Booking Visibility Weigh — Peers Enphase, SolarEdge Also Down"
-    },
-    {
-      "published_utc": "2026-09-24T15:55:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Solar Stocks Slide as High Borrowing Costs Weigh on Project Financing: First Solar Sinks 8%, SolarEdge Falls 5%, Enphase Energy Drops 4%"
     }
   ]
 }
