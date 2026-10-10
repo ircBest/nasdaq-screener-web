@@ -1,9 +1,24 @@
 {
   "ticker": "MNDY",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T19:18:26+00:00",
+      "publisher": "Yahoo",
+      "title": "monday.com (MNDY) Stock Could Trade At A Discount On A 77% Five Year Fall"
+    },
+    {
+      "published_utc": "2026-10-08T17:16:34+00:00",
+      "publisher": "Yahoo",
+      "title": "monday.com (MNDY) Is Getting Fresh Attention, What Is Behind It?"
+    },
+    {
+      "published_utc": "2026-10-08T16:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "monday.com Named a Leader in the 2026 Gartner® Magic Quadrant™ for Collaborative Work Management for the Fourth Consecutive Year"
+    },
     {
       "published_utc": "2026-10-07T12:55:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-09-30T20:45:13+00:00",
       "publisher": "Yahoo",
       "title": "Stocks making big moves yesterday: FuelCell Energy, Carnival, Warby Parker, Fair Isaac Corporation, and monday.com"
-    },
-    {
-      "published_utc": "2026-09-29T23:52:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Why monday.com (MNDY) Shares Are Getting Obliterated Today"
-    },
-    {
-      "published_utc": "2026-09-29T20:50:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Monday.com (MNDY) Falls More Steeply Than Broader Market: What Investors Need to Know"
-    },
-    {
-      "published_utc": "2026-09-29T14:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "monday.com Elevate ‘26 Puts AI Agents to Work: Every Attendee Gets to Build an Agent"
     }
   ]
 }

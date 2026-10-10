@@ -1,9 +1,49 @@
 {
   "ticker": "BULL",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T08:30:34+00:00",
+      "publisher": "Benzinga",
+      "title": "Scotiabank Upgrades Webull to Sector Outperform, Maintains Price Target to $9"
+    },
+    {
+      "published_utc": "2026-10-09T08:08:03+00:00",
+      "publisher": "Benzinga",
+      "title": "Rosenblatt Maintains Buy on Webull, Lowers Price Target to $12"
+    },
+    {
+      "published_utc": "2026-10-08T21:04:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull Pushes Back Against House Report Alleging China Security Risks"
+    },
+    {
+      "published_utc": "2026-10-08T15:34:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Update: Market Chatter: Webull's China Ties Pose National Security Risk, Congressional Panel Finds"
+    },
+    {
+      "published_utc": "2026-10-08T15:04:52+00:00",
+      "publisher": "Benzinga",
+      "title": "Robinhood Vs. WeBull: ‘America’s Favorite Broker’ Tries to Lure Away Customers"
+    },
+    {
+      "published_utc": "2026-10-08T12:59:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Webull's Regulatory Troubles Give Robinhood a Competitive Edge?"
+    },
+    {
+      "published_utc": "2026-10-08T12:29:15+00:00",
+      "publisher": "Benzinga",
+      "title": "Webull Just Exposed a Bigger China Risk for Futu and UP Fintech"
+    },
+    {
+      "published_utc": "2026-10-08T11:27:41+00:00",
+      "publisher": "Benzinga",
+      "title": "Webull Stock Trends: What's Going On?"
+    },
     {
       "published_utc": "2026-10-08T04:16:58+00:00",
       "publisher": "Yahoo",
@@ -23,46 +63,6 @@
       "published_utc": "2026-10-07T21:11:32+00:00",
       "publisher": "Benzinga",
       "title": "Applied Digital, Webull Corp., Super Micro Computer, Micron and Caterpillar: Why These 5 Stocks Are on Investors' Radars Today"
-    },
-    {
-      "published_utc": "2026-10-07T18:55:38+00:00",
-      "publisher": "Yahoo",
-      "title": "WeBull Stock Sinks as Congress Flags National Security Risk"
-    },
-    {
-      "published_utc": "2026-10-07T16:39:28+00:00",
-      "publisher": "Yahoo",
-      "title": "Congressional Investigation Finds Trading Platform Webull Tied To Chinese Government"
-    },
-    {
-      "published_utc": "2026-10-07T16:11:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Webull stock suffers worst day in a year after lawmakers flag ties to China"
-    },
-    {
-      "published_utc": "2026-10-07T16:00:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Top Midday Stories: SpaceX Said to Seek $40 Billion in Financing for Nvidia Chips; Webull Poses National Security Threat, House Panel Reportedly Says"
-    },
-    {
-      "published_utc": "2026-10-07T15:44:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Webull Stock Plummets as House Panel Flags China Ties as Security Risk: Report"
-    },
-    {
-      "published_utc": "2026-10-07T14:23:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Webull shares plunge more than 20% after congressional report flags China ties"
-    },
-    {
-      "published_utc": "2026-10-07T14:19:56+00:00",
-      "publisher": "Benzinga",
-      "title": "Webull’s 20% Rout Becomes a 48% Bloodbath for 2X ETF"
-    },
-    {
-      "published_utc": "2026-10-07T13:27:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Webull Sinks 22% as Congressional Panel Finds “A Profound Gap” in Its American Image"
     }
   ]
 }

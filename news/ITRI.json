@@ -1,9 +1,29 @@
 {
   "ticker": "ITRI",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T06:13:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Will Itron’s (ITRI) Smart Meter Monetization Push Shift Its Grid Technology Investment Narrative?"
+    },
+    {
+      "published_utc": "2026-10-09T05:09:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Itron (ITRI) Stock May Be 27% Undervalued As Grid Reliability Launches Roll Out"
+    },
+    {
+      "published_utc": "2026-10-09T03:18:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Itron (ITRI) After Its Grid Reliability Launch And The Undervalued Narrative"
+    },
+    {
+      "published_utc": "2026-10-08T12:45:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Itron Unveils Grid Edge Intelligence Catalyst: Feeder Reliability Solution to Help Utilities Improve Reliability Without Costly Grid Upgrades"
+    },
     {
       "published_utc": "2026-10-07T12:45:00+00:00",
       "publisher": "Yahoo",
@@ -38,11 +58,6 @@
       "published_utc": "2026-09-28T03:10:13+00:00",
       "publisher": "Yahoo",
       "title": "Is Itron’s (ITRI) High-Margin Software Transition Built to Last?"
-    },
-    {
-      "published_utc": "2026-09-25T21:00:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Itron (ITRI) Stock Sinks As Market Gains: Here's Why"
     }
   ]
 }

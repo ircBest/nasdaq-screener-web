@@ -1,9 +1,14 @@
 {
   "ticker": "VICR",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T05:18:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Zacks.com featured highlights Enlight Renewable, Vicor and Cenovus Energy"
+    },
     {
       "published_utc": "2026-10-08T18:09:37+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-01T08:39:36+00:00",
       "publisher": "Benzinga",
       "title": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Gain as Iran Receives US Proposal To Restore Ceasefire— CEG, VICR, MU in Focus (UPDATED)"
-    },
-    {
-      "published_utc": "2026-10-01T05:58:48+00:00",
-      "publisher": "Benzinga",
-      "title": "Vicor Stock Soars 11% On Another Outlook Hike"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "FSLY",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T10:51:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Humana, Evolution Metals & Technologies, Fastly And Other Big Stocks Moving Higher On Friday"
+    },
+    {
+      "published_utc": "2026-10-09T08:18:02+00:00",
+      "publisher": "Benzinga",
+      "title": "Oppenheimer Upgrades Fastly to Outperform, Announces $35 Price Target"
+    },
+    {
+      "published_utc": "2026-10-08T21:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Fastly to Announce Third Quarter 2026 Financial Results"
+    },
     {
       "published_utc": "2026-10-07T22:05:41+00:00",
       "publisher": "Yahoo",
@@ -33,11 +48,6 @@
       "published_utc": "2026-09-26T16:55:17+00:00",
       "publisher": "Yahoo",
       "title": "Fastly (FSLY) Is Getting More Interesting. Meta’s Muse Is Part of the Reason"
-    },
-    {
-      "published_utc": "2026-09-25T15:57:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Zscaler Sinks 9% on Chief Revenue Officer Exit, Fastly Drops 6% as Citi Questions AI Traffic Payoff"
     }
   ]
 }

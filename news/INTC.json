@@ -1,13 +1,53 @@
 {
   "ticker": "INTC",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-09T18:11:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Computer (SMCI) Appoints 35 Year Intel Veteran To Its Board"
+    },
+    {
+      "published_utc": "2026-10-09T17:00:17+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel Stock Is Still a Turnaround Bet. Here’s What I See Ahead"
+    },
+    {
+      "published_utc": "2026-10-09T13:00:10+00:00",
+      "publisher": "Yahoo",
+      "title": "How Low Can Intel Stock Go?"
+    },
+    {
+      "published_utc": "2026-10-09T12:45:30+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel Is Worth More Than Coca-Cola and PepsiCo Put Together"
+    },
+    {
+      "published_utc": "2026-10-09T07:01:56+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Intel: The Turnaround Is Real, But Valuation Leaves Little Margin For Error"
+    },
+    {
+      "published_utc": "2026-10-09T05:29:55+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Intel Has A $100 Billion Problem"
+    },
+    {
+      "published_utc": "2026-10-09T02:50:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel Stock Fell 5% in a Day as Chip Stocks Sold Off Ahead of Its October 29 Report. Here’s Where the Stock Could Go"
+    },
+    {
       "published_utc": "2026-10-08T23:27:00+00:00",
       "publisher": "Yahoo",
       "title": "Prediction: This Will Happen to Intel Stock in 2027"
+    },
+    {
+      "published_utc": "2026-10-08T19:42:17+00:00",
+      "publisher": "CNBC",
+      "title": "Lightning Round: Buy Intel here, says Jim Cramer"
     },
     {
       "published_utc": "2026-10-08T19:00:00+00:00",
@@ -23,46 +63,6 @@
       "published_utc": "2026-10-08T16:50:00+00:00",
       "publisher": "Yahoo",
       "title": "AMD vs. Intel: Which Chip Stock Has More Upside From Here?"
-    },
-    {
-      "published_utc": "2026-10-08T16:38:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Chipotle, Starbucks, Palantir, Intel, SpaceX, Wolfspeed, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "published_utc": "2026-10-08T16:33:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Meta Muse gives AMD and Intel investors a reason to cheer"
-    },
-    {
-      "published_utc": "2026-10-08T14:19:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel Stock Is Up 212% Since December. Here’s What Needs to Happen for Another 300% Long-Term Upside"
-    },
-    {
-      "published_utc": "2026-10-08T14:05:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel Slides 3% as Chip Stocks Sell Off With Yields and Oil Higher; NVIDIA and AMD Slip"
-    },
-    {
-      "published_utc": "2026-10-08T13:30:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft’s Most Powerful Laptop Ever Runs on Nvidia, Not Intel"
-    },
-    {
-      "published_utc": "2026-10-08T13:12:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Palantir, Intel, SpaceX, Wolfspeed, PepsiCo, Haemonetics, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "published_utc": "2026-10-08T12:43:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Elon Musk Reaffirms Control Over Terafab AI Chip Complex As Intel Remains Involved"
-    },
-    {
-      "published_utc": "2026-10-08T11:49:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Elon Musk Just Shared Bad News for Intel Shareholders"
     }
   ]
 }

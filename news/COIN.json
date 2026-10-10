@@ -1,13 +1,48 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-09T17:57:45+00:00",
+      "publisher": "Yahoo",
+      "title": "Circle Internet Spikes 7% After Backing OKX at $25B Valuation; Coinbase Rallies 6%, Strategy Climbs 3%"
+    },
+    {
+      "published_utc": "2026-10-09T16:24:52+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Has Lost 56% in a Year: Citizens JMP Sees 63% Upside"
+    },
+    {
+      "published_utc": "2026-10-09T14:19:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase-Samsung Deal Expands USDC Access Through Samsung Wallet"
+    },
+    {
+      "published_utc": "2026-10-09T10:39:30+00:00",
+      "publisher": "Yahoo",
+      "title": "President Trump Discloses New Trades in Strategy (MSTR), Coinbase, NVIDIA, SpaceX, Meta"
+    },
+    {
+      "published_utc": "2026-10-09T08:48:34+00:00",
+      "publisher": "Benzinga",
+      "title": "Citizens Maintains Market Outperform on Coinbase Global, Lowers Price Target to $280"
+    },
+    {
+      "published_utc": "2026-10-09T08:42:54+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Equal-Weight on Coinbase Global, Raises Price Target to $258"
+    },
+    {
       "published_utc": "2026-10-08T16:30:00+00:00",
       "publisher": "Yahoo",
       "title": "US government moved $770M worth of bitcoin onto Coinbase Prime"
+    },
+    {
+      "published_utc": "2026-10-08T15:10:23+00:00",
+      "publisher": "Benzinga",
+      "title": "Solana Tops NYSE Trade Count: Can Robinhood, Coinbase, Hyperliquid Keep Up?"
     },
     {
       "published_utc": "2026-10-08T14:03:00+00:00",
@@ -28,41 +63,6 @@
       "published_utc": "2026-10-07T16:15:00+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase Pro is coming back. Here's what you should know."
-    },
-    {
-      "published_utc": "2026-10-07T14:49:42+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin falls below $83,000, dragging down Strategy, Coinbase, and Robinhood stocks"
-    },
-    {
-      "published_utc": "2026-10-07T14:41:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Wall Street Lifts Coinbase Targets Across the Board"
-    },
-    {
-      "published_utc": "2026-10-07T14:18:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Wall Street Split On Coinbase: Barclays Sees 20% Downside, Goldman Thinks COIN Stock Has Room To Run"
-    },
-    {
-      "published_utc": "2026-10-07T13:24:17+00:00",
-      "publisher": "CNBC",
-      "title": "Calls of the Day: Spotify, ServiceTitan and Coinbase"
-    },
-    {
-      "published_utc": "2026-10-07T10:05:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Completes Deribit Integration and Says Coinbase Pro Returns by Year-End"
-    },
-    {
-      "published_utc": "2026-10-07T09:47:46+00:00",
-      "publisher": "Benzinga",
-      "title": "Barclays Maintains Underweight on Coinbase Global, Raises Price Target to $149"
-    },
-    {
-      "published_utc": "2026-10-07T06:28:48+00:00",
-      "publisher": "Benzinga",
-      "title": "BTIG Reiterates Buy on Coinbase Global, Maintains $240 Price Target"
     }
   ]
 }

@@ -1,9 +1,39 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T20:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Appoints Girish Rishi to its Board of Directors"
+    },
+    {
+      "published_utc": "2026-10-09T15:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Systems (CSCO) Is Up 5.15% in One Week: What You Should Know"
+    },
+    {
+      "published_utc": "2026-10-09T14:00:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco’s Product Sales Surged. Why Were Services Almost Flat?"
+    },
+    {
+      "published_utc": "2026-10-09T12:52:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Buy Cisco Systems as Leader of the AI Cloud Networking Space for 2027"
+    },
+    {
+      "published_utc": "2026-10-09T12:30:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Cisco (CSCO) a Buy as Wall Street Analysts Look Optimistic?"
+    },
+    {
+      "published_utc": "2026-10-09T08:11:58+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Systems (CSCO) Dropped, So What Is Behind The Latest Attention?"
+    },
     {
       "published_utc": "2026-10-08T20:45:05+00:00",
       "publisher": "Yahoo",
@@ -13,6 +43,11 @@
       "published_utc": "2026-10-08T11:15:48+00:00",
       "publisher": "Yahoo",
       "title": "Cisco Could Be Entering a New Growth Phase. Here’s My Price Target."
+    },
+    {
+      "published_utc": "2026-10-08T11:00:10+00:00",
+      "publisher": "Benzinga",
+      "title": "Recent Report Shows That Rep. Maria Elvira Salazar Sold Up to $530K Worth of Cisco Systems Stock"
     },
     {
       "published_utc": "2026-10-08T08:58:13+00:00",
@@ -28,41 +63,6 @@
       "published_utc": "2026-10-07T21:14:00+00:00",
       "publisher": "Yahoo",
       "title": "Hyper-Converged Infrastructure - Global Strategic Business Report: Capitalize on 23.3% CAGR to US$92.7 Billion by 2032 as Dell, Nutanix, Cisco, HPE, and Huawei Disrupt Enterprise IT"
-    },
-    {
-      "published_utc": "2026-10-07T21:13:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Mobile Edge Computing - Global Strategic Business Report: Capitalize on 29% CAGR to Secure the US$6.9 Billion 2030 Market as Cisco, AT&T, Broadcom, ADLINK, and HPE Reshape Competition"
-    },
-    {
-      "published_utc": "2026-10-07T18:29:47+00:00",
-      "publisher": "Yahoo",
-      "title": "What Is The Case For Waiting On Cisco Stock?"
-    },
-    {
-      "published_utc": "2026-10-07T15:13:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Datadog (DDOG) vs. DT and CSCO: Can Multi-Product Adoption Sustain Its High-Growth Story?"
-    },
-    {
-      "published_utc": "2026-10-07T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco Unveils New Agentic Collaboration Experiences"
-    },
-    {
-      "published_utc": "2026-10-07T13:59:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Operational Technology Security Market Forecasts Growth from $27.39B (2026) to $58.94B by 2031, Profiling Cisco, Palo Alto Networks, Fortinet, Siemens, Honeywell & 35 Other Key Players"
-    },
-    {
-      "published_utc": "2026-10-07T13:07:28+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco (CSCO) Added A FIPS Validated Post Quantum Security App"
-    },
-    {
-      "published_utc": "2026-10-07T10:01:55+00:00",
-      "publisher": "Benzinga",
-      "title": "Cisco Launches Agentic Partnership"
     }
   ]
 }

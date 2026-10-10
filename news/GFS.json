@@ -1,9 +1,49 @@
 {
   "ticker": "GFS",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T07:35:50+00:00",
+      "publisher": "Yahoo",
+      "title": "GlobalFoundries and TSMC agree on $2bn US silicon interposer supply deal"
+    },
+    {
+      "published_utc": "2026-10-08T20:17:37+00:00",
+      "publisher": "Yahoo",
+      "title": "A $2 Billion Reason Why GlobalFoundries Stock Is Up Today"
+    },
+    {
+      "published_utc": "2026-10-08T16:57:59+00:00",
+      "publisher": "Yahoo",
+      "title": "GlobalFoundries Signs $2 Billion Silicon Supply Deal With Taiwan Semiconductor Manufacturing"
+    },
+    {
+      "published_utc": "2026-10-08T15:05:25+00:00",
+      "publisher": "Yahoo",
+      "title": "TSMC Taps GlobalFoundries In $2B AI Chip Deal, Putting GFS Stock On Track To Hit Over 1-Month High"
+    },
+    {
+      "published_utc": "2026-10-08T14:12:00+00:00",
+      "publisher": "Yahoo",
+      "title": "GlobalFoundries shares rise on $2 billion TSMC agreement"
+    },
+    {
+      "published_utc": "2026-10-08T13:06:16+00:00",
+      "publisher": "Yahoo",
+      "title": "TSMC taps GlobalFoundries in $2B U.S. chip deal; GFS shares jump 4%"
+    },
+    {
+      "published_utc": "2026-10-08T12:43:37+00:00",
+      "publisher": "Benzinga",
+      "title": "GlobalFoundries Lands $2 Billion TSMC Deal to Expand US AI Chip Packaging"
+    },
+    {
+      "published_utc": "2026-10-08T12:10:00+00:00",
+      "publisher": "Yahoo",
+      "title": "GlobalFoundries reaches agreement to establish U.S.-based supply of silicon interposers for advanced AI packaging"
+    },
     {
       "published_utc": "2026-10-08T08:14:07+00:00",
       "publisher": "Benzinga",
@@ -23,46 +63,6 @@
       "published_utc": "2026-10-06T21:10:00+00:00",
       "publisher": "Yahoo",
       "title": "Xanadu Quantum Stock Jumps on GlobalFoundries Pact to Mass-Produce Computers"
-    },
-    {
-      "published_utc": "2026-10-06T17:47:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Xanadu Soars 16% on Multi-Year GlobalFoundries Deal to Deliver “Quantum Computing at Scale”"
-    },
-    {
-      "published_utc": "2026-10-06T15:47:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Xanadu stock surges on GlobalFoundries quantum manufacturing deal"
-    },
-    {
-      "published_utc": "2026-10-06T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Xanadu and GlobalFoundries Announce Strategic Partnership to Accelerate Utility-Scale Quantum Manufacturing"
-    },
-    {
-      "published_utc": "2026-10-06T08:46:56+00:00",
-      "publisher": "Benzinga",
-      "title": "Xanadu Stock Climbs on Multi-Year GlobalFoundries Manufacturing Partnership"
-    },
-    {
-      "published_utc": "2026-10-06T07:04:42+00:00",
-      "publisher": "Benzinga",
-      "title": "Xanadu Quantum Technologies Enters Multi-Year Partnership With GlobalFoundries To Develop High-Volume Production For Utility-Scale Quantum Computing"
-    },
-    {
-      "published_utc": "2026-09-30T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "GlobalFoundries Announces Conference Call to Review Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-09-30T03:09:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Can GLOBALFOUNDRIES (GFS) Justify Its Price On Future Cash Flow?"
-    },
-    {
-      "published_utc": "2026-09-29T23:09:50+00:00",
-      "publisher": "Yahoo",
-      "title": "GLOBALFOUNDRIES (GFS) Could Be 37% Undervalued Following Its Edge AI Valuation Narrative"
     }
   ]
 }

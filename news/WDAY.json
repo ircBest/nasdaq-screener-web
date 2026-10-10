@@ -1,9 +1,29 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T11:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Strada unveils Aon partnership and new AI-powered innovations ahead of Workday Rising U.S. 2026"
+    },
+    {
+      "published_utc": "2026-10-09T10:18:43+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday (WDAY) Extends Credit Access, Is It Still 66% Below Fair Value?"
+    },
+    {
+      "published_utc": "2026-10-09T06:12:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday (WDAY) Broadens Cash Cycle Automation For Finance Customers"
+    },
+    {
+      "published_utc": "2026-10-09T00:25:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday (WDAY) Stock Looks Undervalued Even As Caution Persists"
+    },
     {
       "published_utc": "2026-10-08T18:03:00+00:00",
       "publisher": "Yahoo",
@@ -13,6 +33,11 @@
       "published_utc": "2026-10-08T16:45:00+00:00",
       "publisher": "Yahoo",
       "title": "Workday faces slower growth and widening gap with software peers: Jefferies"
+    },
+    {
+      "published_utc": "2026-10-08T16:04:20+00:00",
+      "publisher": "Benzinga",
+      "title": "Jefferies Maintains Hold on Workday, Lowers Price Target to $210"
     },
     {
       "published_utc": "2026-10-08T13:30:00+00:00",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-05T13:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Guild Achieves Workday Certified Integration Status to Simplify Workforce Data Connectivity"
-    },
-    {
-      "published_utc": "2026-10-05T10:20:57+00:00",
-      "publisher": "ChartMill",
-      "title": "Workday (NASDAQ:WDAY): Affordable Growth With a Reasonable Valuation"
-    },
-    {
-      "published_utc": "2026-10-05T05:40:00+00:00",
-      "publisher": "Benzinga",
-      "title": "Needham Reiterates Buy on Workday, Maintains $230 Price Target"
-    },
-    {
-      "published_utc": "2026-10-02T12:42:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Plans to Cut 2.5% of Its Workforce and Revise Its Margin Outlook. How Investors Should View the Move."
-    },
-    {
-      "published_utc": "2026-10-01T20:50:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday (WDAY) Stock Slides as Market Rises: Facts to Know Before You Trade"
-    },
-    {
-      "published_utc": "2026-10-01T18:17:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday's axe falls again, and this time it lands on the tech team"
     }
   ]
 }

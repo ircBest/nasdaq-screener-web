@@ -1,9 +1,24 @@
 {
   "ticker": "RUN",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-08T18:41:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Sunrun’s Unusual Options Activity Points to 3 Possible Multimillion-Dollar Bets"
+    },
+    {
+      "published_utc": "2026-10-08T14:36:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Goldman Sachs Cut Its Sunrun Target. It Still Sees [44%] Upside"
+    },
+    {
+      "published_utc": "2026-10-08T11:10:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Sunrun (RUN) Could Be 52% Undervalued As Q3 Earnings Date Nears"
+    },
     {
       "published_utc": "2026-10-08T08:35:48+00:00",
       "publisher": "Benzinga",

@@ -1,9 +1,19 @@
 {
   "ticker": "APPF",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T21:00:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Why AppFolio (APPF) Outpaced the Stock Market Today"
+    },
+    {
+      "published_utc": "2026-10-09T15:45:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Is AppFolio (APPF) a Solid Growth Stock? 3 Reasons to Think \"Yes\""
+    },
     {
       "published_utc": "2026-10-08T20:05:00+00:00",
       "publisher": "Yahoo",
@@ -53,11 +63,6 @@
       "published_utc": "2026-09-30T21:15:05+00:00",
       "publisher": "Yahoo",
       "title": "AppFolio (APPF) Advances While Market Declines: Some Information for Investors"
-    },
-    {
-      "published_utc": "2026-09-29T16:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AppFolio Introduces the New Realm-X, Built in the Platform That Already Knows Your Business"
     }
   ]
 }

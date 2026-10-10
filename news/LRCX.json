@@ -1,9 +1,24 @@
 {
   "ticker": "LRCX",
-  "generated_at": "2026-10-09T10:50:12+00:00",
+  "generated_at": "2026-10-10T10:09:15+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T13:09:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Lam Research (LRCX) DRAM Wins Put Its Fair Value Narrative Back In Focus"
+    },
+    {
+      "published_utc": "2026-10-09T11:45:40+00:00",
+      "publisher": "Yahoo",
+      "title": "Lam Research Transformed $1,000 Into $37,462 Over Ten Years Despite Three 40% Crashes"
+    },
+    {
+      "published_utc": "2026-10-09T11:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "If You Invested $1000 in Lam Research a Decade Ago, This is How Much It'd Be Worth Now"
+    },
     {
       "published_utc": "2026-10-08T20:50:03+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-05T11:30:36+00:00",
       "publisher": "Benzinga",
       "title": "Morgan Stanley Maintains Overweight on Lam Research, Raises Price Target to $385"
-    },
-    {
-      "published_utc": "2026-10-05T10:50:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%."
-    },
-    {
-      "published_utc": "2026-10-04T20:47:47+00:00",
-      "publisher": "Yahoo",
-      "title": "What is Lam Research’s (LRCX) Economic Moat, and is it Widening or Narrowing?"
-    },
-    {
-      "published_utc": "2026-10-04T09:41:22+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Lam Research: AI Manufacturing Complexity And Installed-Base Growth Support A Cautious Buy"
     }
   ]
 }
