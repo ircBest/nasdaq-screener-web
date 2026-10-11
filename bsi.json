@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:07:27.094027+00:00",
+  "generated_at": "2026-10-11T10:17:25.956747+00:00",
   "index_name": "BSI",
   "description": "Signal 발생 이후 각 거래일의 평균 수익률",
   "base": 0.0,
@@ -11,7 +11,7 @@
   "periods": {
     "5d": {
       "trading_days": 5,
-      "value": 1.3314,
+      "value": 1.3313,
       "benchmark": 0.9764,
       "alpha": 0.355,
       "samples": 1663
@@ -20,7 +20,7 @@
       "trading_days": 10,
       "value": 1.773,
       "benchmark": 1.6603,
-      "alpha": 0.1128,
+      "alpha": 0.1127,
       "samples": 1372
     },
     "30d": {
@@ -60,7 +60,7 @@
     },
     "max": {
       "trading_days": null,
-      "value": 11.5597,
+      "value": 11.5594,
       "benchmark": null,
       "alpha": null,
       "samples": 1768
@@ -92,7 +92,7 @@
       "day": 3,
       "bsi_pct": 1.3347,
       "benchmark_pct": 0.5519,
-      "alpha_pct": 0.7828,
+      "alpha_pct": 0.7827,
       "samples": 1698
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "day": 5,
-      "bsi_pct": 1.3314,
+      "bsi_pct": 1.3313,
       "benchmark_pct": 0.9764,
       "alpha_pct": 0.355,
       "samples": 1663
@@ -120,7 +120,7 @@
       "day": 7,
       "bsi_pct": 1.1257,
       "benchmark_pct": 1.1514,
-      "alpha_pct": -0.0257,
+      "alpha_pct": -0.0258,
       "samples": 1523
     },
     {
@@ -141,14 +141,14 @@
       "day": 10,
       "bsi_pct": 1.773,
       "benchmark_pct": 1.6603,
-      "alpha_pct": 0.1128,
+      "alpha_pct": 0.1127,
       "samples": 1372
     },
     {
       "day": 11,
       "bsi_pct": 2.5174,
       "benchmark_pct": 2.1138,
-      "alpha_pct": 0.4036,
+      "alpha_pct": 0.4035,
       "samples": 1259
     },
     {
@@ -209,7 +209,7 @@
     },
     {
       "day": 20,
-      "bsi_pct": 5.1283,
+      "bsi_pct": 5.1282,
       "benchmark_pct": 4.2271,
       "alpha_pct": 0.9012,
       "samples": 932
@@ -251,7 +251,7 @@
     },
     {
       "day": 26,
-      "bsi_pct": 4.0391,
+      "bsi_pct": 4.039,
       "benchmark_pct": 4.9928,
       "alpha_pct": -0.9538,
       "samples": 594

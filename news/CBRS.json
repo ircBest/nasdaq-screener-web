@@ -1,9 +1,19 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-10T10:00:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cerebras: AI Inferencing Premium Already Baked-In"
+    },
+    {
+      "published_utc": "2026-10-09T15:07:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Systems vs. Nebius Group: Which Technology Stock Is a Better Buy in 2026?"
+    },
     {
       "published_utc": "2026-10-09T02:24:43+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-05T17:32:10+00:00",
       "publisher": "Yahoo",
       "title": "Sam Altman Just Gave Cerebras Stock a Big Boost"
-    },
-    {
-      "published_utc": "2026-10-05T16:49:23+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Stock Surges After OpenAI CEO Calls Chipmaker a ‘Close Partner’"
-    },
-    {
-      "published_utc": "2026-10-05T14:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras shares rise after OpenAI's Altman calls chipmaker a “close partner”"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-09T22:27:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is Penguin Solutions (PENG) Stock Soaring Today"
+    },
+    {
+      "published_utc": "2026-10-09T21:47:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocks making big moves this week: PTC, Blink Charging, Onterris, Option Care Health, and Penguin Solutions"
+    },
+    {
+      "published_utc": "2026-10-09T15:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions initiated with a Buy from Bank of America on AI memory demand"
+    },
     {
       "published_utc": "2026-10-08T19:20:09+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-07T15:29:36+00:00",
       "publisher": "Yahoo",
       "title": "Penguin Solutions Soars 13% on Record Quarter and Raised Outlook: “The Proof Is in the Results”"
-    },
-    {
-      "published_utc": "2026-10-07T14:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions shares rise over 15% after strong earnings and higher 2027 outlook"
-    },
-    {
-      "published_utc": "2026-10-07T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth"
-    },
-    {
-      "published_utc": "2026-10-07T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions, Inc. Q4 2026 Earnings Call Summary"
     }
   ]
 }

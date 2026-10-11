@@ -1,9 +1,34 @@
 {
   "ticker": "MU",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-10T10:09:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is Micron Technology (MU) Facing New Supply Chain Risk In Taiwan?"
+    },
+    {
+      "published_utc": "2026-10-10T10:00:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Micron Suffers Extreme AI Pessimism: Structural Demand Through 2031 (Rating Upgrade)"
+    },
+    {
+      "published_utc": "2026-10-10T08:58:24+00:00",
+      "publisher": "Benzinga",
+      "title": "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week"
+    },
+    {
+      "published_utc": "2026-10-10T08:00:45+00:00",
+      "publisher": "ChartMill",
+      "title": "Micron Technology (NASDAQ:MU): High Growth Momentum Meets Breakout Setup"
+    },
+    {
+      "published_utc": "2026-10-10T07:24:58+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Micron: Winter Is Coming (Rating Upgrade)"
+    },
     {
       "published_utc": "2026-10-09T21:18:53+00:00",
       "publisher": "Yahoo",
@@ -25,6 +50,11 @@
       "title": "Not Micron. Not Sandisk. This Memory Stock Is Quietly Gaining Share."
     },
     {
+      "published_utc": "2026-10-09T14:50:21+00:00",
+      "publisher": "CNBC",
+      "title": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips"
+    },
+    {
       "published_utc": "2026-10-09T14:45:30+00:00",
       "publisher": "Yahoo",
       "title": "Micron Has Evolved Into a Next Gen Player So I Keep Adding"
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-09T14:31:42+00:00",
       "publisher": "SeekingAlpha",
       "title": "Micron: Even If Memory Prices Fall 15%, It May Still Be Undervalued"
-    },
-    {
-      "published_utc": "2026-10-09T13:55:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Micron Stock Pops. Why Buybacks Could be Crucial for Gains."
-    },
-    {
-      "published_utc": "2026-10-09T13:34:35+00:00",
-      "publisher": "Yahoo",
-      "title": "Nvidia and Micron stocks bounce on OpenAI $70B revenue target"
-    },
-    {
-      "published_utc": "2026-10-09T13:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "A Wall Street Analyst Just Placed a $3,000 Price Target on Micron: Here Are the Cases For and Against a 200% Surge in the Stock."
-    },
-    {
-      "published_utc": "2026-10-09T13:16:00+00:00",
-      "publisher": "Yahoo",
-      "title": "This Under-the-Radar Memory Stock Surged 46% in 3 Weeks (Hint: It's Not Micron or Sandisk)"
-    },
-    {
-      "published_utc": "2026-10-09T13:00:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Wall Street May Not Be Ready for What’s Coming Next for NVIDIA, Micron, and SanDisk"
-    },
-    {
-      "published_utc": "2026-10-09T12:57:11+00:00",
-      "publisher": "CNBC",
-      "title": "Options Action: Massive action in Micron"
     }
   ]
 }

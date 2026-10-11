@@ -1,13 +1,23 @@
 {
   "ticker": "WDC",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-10T12:51:03+00:00",
+      "publisher": "ChartMill",
+      "title": "Western Digital (NASDAQ:WDC) Shows High Growth and Improving Fundamentals"
+    },
+    {
       "published_utc": "2026-10-09T21:18:53+00:00",
       "publisher": "Yahoo",
       "title": "Micron vs. Western Digital: Which AI Data Stock Has More Room for Profits to Normalize?"
+    },
+    {
+      "published_utc": "2026-10-09T20:50:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Western Digital (WDC) Outperforms Broader Market: What You Need to Know"
     },
     {
       "published_utc": "2026-10-08T23:00:32+00:00",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-07T14:15:48+00:00",
       "publisher": "Yahoo",
       "title": "Could You Have Seen The Run In Western Digital Stock Coming?"
-    },
-    {
-      "published_utc": "2026-10-07T12:42:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Seagate vs. Western Digital: Which HDD Stock Has More Room to Run?"
-    },
-    {
-      "published_utc": "2026-10-06T16:45:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Western Digital Fell Nearly 20% Over The Last 3 Months: A Respected Wall Street Analyst Says 140% To Come"
     }
   ]
 }

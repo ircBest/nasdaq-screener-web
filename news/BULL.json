@@ -1,13 +1,38 @@
 {
   "ticker": "BULL",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-09T16:25:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull Shares Got Slammed This Week. Why This Analyst Says It’s Time to Buy."
+    },
+    {
+      "published_utc": "2026-10-09T13:06:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Analysts view Webull selloff as overdone following House panel report; shares rise"
+    },
+    {
+      "published_utc": "2026-10-09T12:07:16+00:00",
+      "publisher": "Benzinga",
+      "title": "Webull Stock Rises: What's Going On?"
+    },
+    {
+      "published_utc": "2026-10-09T11:09:00+00:00",
+      "publisher": "Benzinga",
+      "title": "Webull Decides To Engage With White House Committee, SEC, FINRA To Enhance Its U.S. Financial Regulatory Frameworks"
+    },
+    {
       "published_utc": "2026-10-09T08:30:34+00:00",
       "publisher": "Benzinga",
       "title": "Scotiabank Upgrades Webull to Sector Outperform, Maintains Price Target to $9"
+    },
+    {
+      "published_utc": "2026-10-09T08:15:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull (BULL) Links Social Discussions To Investing Tools"
     },
     {
       "published_utc": "2026-10-09T08:08:03+00:00",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-08T12:29:15+00:00",
       "publisher": "Benzinga",
       "title": "Webull Just Exposed a Bigger China Risk for Futu and UP Fintech"
-    },
-    {
-      "published_utc": "2026-10-08T11:27:41+00:00",
-      "publisher": "Benzinga",
-      "title": "Webull Stock Trends: What's Going On?"
-    },
-    {
-      "published_utc": "2026-10-08T04:16:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Robinhood CEO, Public Trading App Move To Poach Webull Customers As China Concerns Hammer BULL Stock"
-    },
-    {
-      "published_utc": "2026-10-07T23:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Webull Stock Falls 20% Over China Ties: Who Really Controls the App?"
-    },
-    {
-      "published_utc": "2026-10-07T21:35:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Oct. 7: Webull Plunges 19% on House China Security Report"
-    },
-    {
-      "published_utc": "2026-10-07T21:11:32+00:00",
-      "publisher": "Benzinga",
-      "title": "Applied Digital, Webull Corp., Super Micro Computer, Micron and Caterpillar: Why These 5 Stocks Are on Investors' Radars Today"
     }
   ]
 }

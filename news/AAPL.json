@@ -1,9 +1,39 @@
 {
   "ticker": "AAPL",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-10T19:50:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe"
+    },
+    {
+      "published_utc": "2026-10-10T11:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Tim Cook's Final Apple Earnings Call Showed the Company Made More Quarterly Revenue Than It Booked in All of Fiscal 2011, the Year He Became CEO. What Does That Growth Curve Mean for Apple Under John Ternus?"
+    },
+    {
+      "published_utc": "2026-10-10T11:14:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Did Softer iPhone 18 Pro Demand and Memory Costs Just Rewire Apple’s (AAPL) AI Investment Narrative?"
+    },
+    {
+      "published_utc": "2026-10-10T10:20:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Apple’s iPhone 18 Pro Demand Is Likely Slipping — But Gene Munster Says That’s Not The Real Story"
+    },
+    {
+      "published_utc": "2026-10-09T23:15:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Apple (AAPL) Stock Is Trading Lower Today"
+    },
+    {
+      "published_utc": "2026-10-09T22:34:12+00:00",
+      "publisher": "Benzinga",
+      "title": "Top Analyst Says iPhone 18 Pro and Pro Max Lead Times Have Dropped, But Apple’s Cycle Is ‘Off to a Solid Start’"
+    },
     {
       "published_utc": "2026-10-09T21:38:48+00:00",
       "publisher": "Yahoo",
@@ -15,54 +45,24 @@
       "title": "Apple Weighed Replacing “5,000 AppleCare Employees” With AI, and More Cuts Are Coming"
     },
     {
+      "published_utc": "2026-10-09T19:15:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Apple Cuts iPhone Orders Up to 20%. Its $2,000 Gamble May Already Be in Trouble."
+    },
+    {
+      "published_utc": "2026-10-09T19:01:20+00:00",
+      "publisher": "CNBC",
+      "title": "Apple faces fresh iPhone demand concerns as Pro component cuts come earlier than usual"
+    },
+    {
       "published_utc": "2026-10-09T18:12:31+00:00",
       "publisher": "Yahoo",
       "title": "Apple Faces Double Blow as Shares Dip Amid iPhone 18 Pro Order Cuts"
     },
     {
-      "published_utc": "2026-10-09T18:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple, Nvidia, and Tesla Shares Now Trade on Solana: Why Did Securitize Choose Solana Over Ethereum?"
-    },
-    {
-      "published_utc": "2026-10-09T17:29:57+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple cuts iPhone 18 Pro component orders amid soft demand"
-    },
-    {
-      "published_utc": "2026-10-09T16:14:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Top Midday Stories: Delta Shares Fall After Q3 EPS, Revenue Misses; Apple Reportedly Cuts iPhone 18 Pro Component Orders Due to Soft Demand"
-    },
-    {
-      "published_utc": "2026-10-09T15:41:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple May Be Cutting iPhone Production. Price Hikes Aren’t the Only Reason."
-    },
-    {
-      "published_utc": "2026-10-09T14:49:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple Reportedly Cuts iPhone 18 Pro Orders by 15%: Price Problem or Timing Problem?"
-    },
-    {
-      "published_utc": "2026-10-09T14:48:46+00:00",
-      "publisher": "Yahoo",
-      "title": "How Proprietary Silicon and Privacy Anchor Apple’s (AAPL) Edge AI Leadership"
-    },
-    {
-      "published_utc": "2026-10-09T13:48:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple Reportedly Cuts iPhone 18 Pro Component Orders 15% as AI Memory Crunch Bites"
-    },
-    {
-      "published_utc": "2026-10-09T13:41:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today: Dow Rises As Apple Sells Off; SpaceX Jumps On Starlink Move (Live Coverage)"
-    },
-    {
-      "published_utc": "2026-10-09T13:31:32+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple Drops 3% on Reported iPhone 18 Pro Component Order Cuts; Skyworks Slips, Qualcomm Treads Water"
+      "published_utc": "2026-10-09T18:04:49+00:00",
+      "publisher": "CNBC",
+      "title": "Morgan Stanley backs up report that Apple cut iPhone 18 Pro component orders by at least 15%"
     }
   ]
 }

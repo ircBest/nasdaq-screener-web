@@ -1,14 +1,14 @@
 {
   "observation_date": "2026-10-10",
   "price_date": "2026-10-09",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:27+00:00",
   "note": "그날 살펴본 종목 전체를 기대되는 순서대로 세운 것입니다. '사라 / 사지 마라' 가 아니라 순서이며, 이 순서가 맞는지는 아직 증명되지 않았습니다.",
   "summary": {
     "ranked": 315,
     "profit": 162,
     "loss": 75,
     "unknown": 78,
-    "all_three": 140
+    "all_three": 139
   },
   "rows": [
     {
@@ -218,8 +218,8 @@
       "from_high60_pct": -21.0,
       "profit": false,
       "cash": true,
-      "growth": true,
-      "revenue_growth_pct": 1.9
+      "growth": false,
+      "revenue_growth_pct": -1.2
     },
     {
       "rank": 16,
@@ -765,7 +765,7 @@
       "profit": null,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 406.6
+      "revenue_growth_pct": 224.7
     },
     {
       "rank": 55,
@@ -1072,8 +1072,8 @@
       "from_high60_pct": -15.0,
       "profit": true,
       "cash": true,
-      "growth": true,
-      "revenue_growth_pct": 6.8
+      "growth": false,
+      "revenue_growth_pct": -1.5
     },
     {
       "rank": 77,
@@ -2613,7 +2613,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 345.7
+      "revenue_growth_pct": 379.3
     },
     {
       "rank": 187,

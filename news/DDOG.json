@@ -1,9 +1,19 @@
 {
   "ticker": "DDOG",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-10T15:30:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog Stock Jumped 7% to a 52-Week High. Here’s What Its Doubled Valuation Has to Survive"
+    },
+    {
+      "published_utc": "2026-10-10T01:07:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is Datadog (DDOG) Stock Soaring Today"
+    },
     {
       "published_utc": "2026-10-09T18:18:40+00:00",
       "publisher": "Yahoo",
@@ -13,6 +23,11 @@
       "published_utc": "2026-10-09T15:51:37+00:00",
       "publisher": "Yahoo",
       "title": "Fastly Spikes 15% as Oppenheimer Upgrades to Outperform With $35 Target; Datadog Rises 4%, Cloudflare Gains 2%"
+    },
+    {
+      "published_utc": "2026-10-09T14:21:11+00:00",
+      "publisher": "Benzinga",
+      "title": "CIBC Maintains Outperformer on Datadog, Raises Price Target to $315"
     },
     {
       "published_utc": "2026-10-09T14:12:37+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-06T12:00:04+00:00",
       "publisher": "Yahoo",
       "title": "Datadog, Inc. (DDOG) is Attracting Investor Attention: Here is What You Should Know"
-    },
-    {
-      "published_utc": "2026-10-05T15:36:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Datadog’s Growth Is Expected to Slow From 36% to Around 29% in Q3. Here’s the CFO’s Plan to Protect Margins"
-    },
-    {
-      "published_utc": "2026-10-05T15:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Datadog’s Rally Has Insiders Selling—Can It Keep Climbing?"
-    },
-    {
-      "published_utc": "2026-10-05T14:09:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Datadog (DDOG): Positioned to Capture Explosive Agentic AI Growth"
     }
   ]
 }

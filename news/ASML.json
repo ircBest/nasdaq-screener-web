@@ -1,9 +1,19 @@
 {
   "ticker": "ASML",
-  "generated_at": "2026-10-10T10:09:15+00:00",
+  "generated_at": "2026-10-11T10:18:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-10T20:51:33+00:00",
+      "publisher": "Yahoo",
+      "title": "VOO Doesn't Hold SpaceX, Taiwan Semiconductor, Samsung Electronics, SK Hynix, or ASML. Meet the Vanguard ETF That Does."
+    },
+    {
+      "published_utc": "2026-10-09T22:12:21+00:00",
+      "publisher": "Yahoo",
+      "title": "ASML Holding (ENXTAM:ASML) Faces An AI Pullback, Is The Stock Too Expensive?"
+    },
     {
       "published_utc": "2026-10-09T20:44:20+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-08T12:16:44+00:00",
       "publisher": "Yahoo",
       "title": "AI Chip Demand Meets Reality in ASML Stock and Semiconductor Equipment Shares"
-    },
-    {
-      "published_utc": "2026-10-08T07:16:12+00:00",
-      "publisher": "Yahoo",
-      "title": "ASML Holding (ASML) Tests Its Valuation As The Mistral Deal Reshapes The Story"
-    },
-    {
-      "published_utc": "2026-10-08T00:18:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is ASML Holding (ENXTAM:ASML) Drawing Bullish Calls Ahead Of Q3?"
     }
   ]
 }
