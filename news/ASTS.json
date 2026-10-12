@@ -1,9 +1,14 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-10T16:25:00+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile Has $3.7 Billion in Liquidity and No Commercial Revenue. Here's How to Value That."
+    },
     {
       "published_utc": "2026-10-10T10:42:12+00:00",
       "publisher": "SeekingAlpha",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-09T12:56:41+00:00",
       "publisher": "Benzinga",
       "title": "Why Is AST SpaceMobile Stock Falling on Friday?"
-    },
-    {
-      "published_utc": "2026-10-09T08:38:57+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Are Nasdaq Futures Surging Premarket? SPCX, ASTS, AAPL, TMUS, VZ, NVDA, MU, LITE Stocks In Focus"
     }
   ]
 }

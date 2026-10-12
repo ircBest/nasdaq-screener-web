@@ -1,9 +1,19 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-11T09:40:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cerebras: The Earnings Curve Changes The Entire Setup"
+    },
+    {
+      "published_utc": "2026-10-11T00:57:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Is About as Big as Nvidia's Data Center Business Was Nearly a Decade Ago. The Similarities Mostly End There."
+    },
     {
       "published_utc": "2026-10-10T10:00:00+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-05T21:15:31+00:00",
       "publisher": "Yahoo",
       "title": "SemiAnalysis Sank Cerebras with a Tweet. Altman Saved It."
-    },
-    {
-      "published_utc": "2026-10-05T18:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Stock Rebounds After OpenAI’s Sam Altman Quashed the Market’s Biggest Fear"
-    },
-    {
-      "published_utc": "2026-10-05T17:32:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Sam Altman Just Gave Cerebras Stock a Big Boost"
     }
   ]
 }

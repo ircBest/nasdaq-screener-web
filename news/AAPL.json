@@ -1,9 +1,39 @@
 {
   "ticker": "AAPL",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-11T09:00:47+00:00",
+      "publisher": "Benzinga",
+      "title": "China's AI Server Scheme, iPhone 18 Lead Times and More: This Week In Tech"
+    },
+    {
+      "published_utc": "2026-10-11T08:27:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Siri AI at Day 28: Apple Ships the HomePad Screen Oct 13 — but the Enterprise Half Doesn’t Exist"
+    },
+    {
+      "published_utc": "2026-10-11T07:00:14+00:00",
+      "publisher": "Benzinga",
+      "title": "iPhone 18 Whiplash, OLED MacBooks, Sudden Order Cut and More: This Week in Appleverse"
+    },
+    {
+      "published_utc": "2026-10-11T05:17:40+00:00",
+      "publisher": "Yahoo",
+      "title": "Apple Stock Drops After Reports of Reduced iPhone 18 Production Orders"
+    },
+    {
+      "published_utc": "2026-10-11T04:50:28+00:00",
+      "publisher": "Benzinga",
+      "title": "Gary Black Says Tesla Needs to Follow Apple’s Playbook: TSLA Has Been ‘Underinvested in Marketing Forever’"
+    },
+    {
+      "published_utc": "2026-10-10T22:11:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Is AT&T (T) Ready for a Starlink World After Its Latest Fiber and iPhone Duo Moves?"
+    },
     {
       "published_utc": "2026-10-10T19:50:00+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-09T22:34:12+00:00",
       "publisher": "Benzinga",
       "title": "Top Analyst Says iPhone 18 Pro and Pro Max Lead Times Have Dropped, But Apple’s Cycle Is ‘Off to a Solid Start’"
-    },
-    {
-      "published_utc": "2026-10-09T21:38:48+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple’s App Store Growth Improved in September. What UBS Sees Coming in October Is Harder"
-    },
-    {
-      "published_utc": "2026-10-09T19:28:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple Weighed Replacing “5,000 AppleCare Employees” With AI, and More Cuts Are Coming"
-    },
-    {
-      "published_utc": "2026-10-09T19:15:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple Cuts iPhone Orders Up to 20%. Its $2,000 Gamble May Already Be in Trouble."
-    },
-    {
-      "published_utc": "2026-10-09T19:01:20+00:00",
-      "publisher": "CNBC",
-      "title": "Apple faces fresh iPhone demand concerns as Pro component cuts come earlier than usual"
-    },
-    {
-      "published_utc": "2026-10-09T18:12:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple Faces Double Blow as Shares Dip Amid iPhone 18 Pro Order Cuts"
-    },
-    {
-      "published_utc": "2026-10-09T18:04:49+00:00",
-      "publisher": "CNBC",
-      "title": "Morgan Stanley backs up report that Apple cut iPhone 18 Pro component orders by at least 15%"
     }
   ]
 }

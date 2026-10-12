@@ -1,9 +1,29 @@
 {
   "ticker": "MSFT",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-11T20:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Not Alphabet. Not Amazon. Microsoft Trades at Big Tech's Cheapest Valuation."
+    },
+    {
+      "published_utc": "2026-10-11T16:08:36+00:00",
+      "publisher": "Yahoo",
+      "title": "What Could Microsoft (MSFT) Green Card Suspension Mean For Hiring And Compliance?"
+    },
+    {
+      "published_utc": "2026-10-10T23:11:04+00:00",
+      "publisher": "Benzinga",
+      "title": "Microsoft CEO Satya Nadella Says AI Systems Should Be Built to ‘Trust the Model the Least’"
+    },
+    {
+      "published_utc": "2026-10-10T16:59:28+00:00",
+      "publisher": "CNBC",
+      "title": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control"
+    },
     {
       "published_utc": "2026-10-10T14:15:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-09T21:20:27+00:00",
       "publisher": "Yahoo",
       "title": "Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending?"
-    },
-    {
-      "published_utc": "2026-10-09T19:13:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Delta cuts outlook, Microsoft fights H-1B restrictions, Bezos eyes Blue Origin IPO"
-    },
-    {
-      "published_utc": "2026-10-09T17:55:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft pushes back on H-1B restrictions: What's at stake for tech?"
-    },
-    {
-      "published_utc": "2026-10-09T17:47:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft gets paid no matter which AI model wins"
-    },
-    {
-      "published_utc": "2026-10-09T17:10:48+00:00",
-      "publisher": "Yahoo",
-      "title": "Are You Overpaying For Microsoft Stock Versus Its Rivals?"
     }
   ]
 }

@@ -1,9 +1,14 @@
 {
   "ticker": "ZS",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-11T08:30:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Zscaler Powered By Agentic AI Growth"
+    },
     {
       "published_utc": "2026-10-09T23:07:10+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-07T16:47:00+00:00",
       "publisher": "Yahoo",
       "title": "Zscaler’s $10 billion long-term ARR target looks ambitious, says Jefferies"
-    },
-    {
-      "published_utc": "2026-10-07T15:38:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Zscaler on Track as AI, Sales Push Expand Growth, Oppenheimer Says"
     }
   ]
 }

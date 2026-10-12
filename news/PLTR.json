@@ -1,9 +1,24 @@
 {
   "ticker": "PLTR",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-11T19:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "History Says This Will Happen to Palantir Stock by 2028"
+    },
+    {
+      "published_utc": "2026-10-11T10:00:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Palantir: I Couldn't Have Been More Wrong, I See The Light Now - Buy (Rating Upgrade)"
+    },
+    {
+      "published_utc": "2026-10-11T08:45:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Palantir: Staying Bullish At Record Highs As Q3 Approaches"
+    },
     {
       "published_utc": "2026-10-10T20:07:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-09T17:40:09+00:00",
       "publisher": "Yahoo",
       "title": "Goldman Predicts a “Step Function Change” in Palantir’s AI Opportunity"
-    },
-    {
-      "published_utc": "2026-10-09T17:30:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Goldman Sachs Upgrades Palantir to Buy, Sees 18% Upside and Further Outperformance Into 2027"
-    },
-    {
-      "published_utc": "2026-10-09T17:30:02+00:00",
-      "publisher": "Yahoo",
-      "title": "How Much Growth Are You Paying For In Palantir Stock?"
-    },
-    {
-      "published_utc": "2026-10-09T16:30:17+00:00",
-      "publisher": "Benzinga",
-      "title": "Here’s How Much You Would Have Made Owning Palantir Technologies Stock In The Last 15 Years"
     }
   ]
 }

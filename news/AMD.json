@@ -1,9 +1,29 @@
 {
   "ticker": "AMD",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-11T21:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "History Says This Will Happen to AMD Stock in 2027"
+    },
+    {
+      "published_utc": "2026-10-11T15:07:44+00:00",
+      "publisher": "Yahoo",
+      "title": "AMD Stock Fell 6% in Three Sessions After Its Record Close. Here’s What OpenAI’s $20 Billion Revenue Gap Means for the Stock"
+    },
+    {
+      "published_utc": "2026-10-11T12:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Not Anthropic. Not AMD. Here's My Top AI Stock for 2027."
+    },
+    {
+      "published_utc": "2026-10-11T12:30:14+00:00",
+      "publisher": "Yahoo",
+      "title": "AMD’s Biggest Problem Is No Longer Demand. Lisa Su Is in Asia to Fix the Real One"
+    },
     {
       "published_utc": "2026-10-10T17:03:01+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-09T16:52:00+00:00",
       "publisher": "Yahoo",
       "title": "Prediction: This Will Be AMD's Stock Price in 1 Year"
-    },
-    {
-      "published_utc": "2026-10-09T16:05:21+00:00",
-      "publisher": "Yahoo",
-      "title": "AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?"
-    },
-    {
-      "published_utc": "2026-10-09T15:37:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Nvidia and AMD Lead the AI Market. 1 Chip Stock Has Far Greater Upside."
-    },
-    {
-      "published_utc": "2026-10-09T15:24:47+00:00",
-      "publisher": "Yahoo",
-      "title": "Advanced Micro Devices’ (AMD) Premium Valuation Puts Execution Under the Microscope"
-    },
-    {
-      "published_utc": "2026-10-09T14:45:56+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "AMD: Too Expensive To Be Worth It Despite Unique Position As CPU Leader"
     }
   ]
 }

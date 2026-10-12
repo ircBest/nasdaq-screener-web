@@ -1,9 +1,19 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-10T23:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Can CoreWeave Unseat Amazon Web Services as the Top Cloud Provider?"
+    },
+    {
+      "published_utc": "2026-10-10T14:20:21+00:00",
+      "publisher": "Benzinga",
+      "title": "Nvidia-Backed Neoclouds Face a Test as IREN, CoreWeave and Nebius Stocks Slide"
+    },
     {
       "published_utc": "2026-10-09T19:41:36+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-08T16:45:23+00:00",
       "publisher": "Yahoo",
       "title": "Why CoreWeave Is My High-Beta AI Play I Keep Adding"
-    },
-    {
-      "published_utc": "2026-10-08T16:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Better Cloud AI Pick: CoreWeave or Nebius Group?"
-    },
-    {
-      "published_utc": "2026-10-08T14:50:11+00:00",
-      "publisher": "Yahoo",
-      "title": "ARK buys about $19 million of CoreWeave shares as stock falls 3.6%"
     }
   ]
 }

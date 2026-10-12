@@ -1,9 +1,24 @@
 {
   "ticker": "INTC",
-  "generated_at": "2026-10-11T10:18:28+00:00",
+  "generated_at": "2026-10-12T11:16:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-11T20:33:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Elon Musk just handed Intel a new problem Wall Street can't ignore"
+    },
+    {
+      "published_utc": "2026-10-11T14:11:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel (INTC) Reaches 500 Million AI Tool Downloads As Edge Integrations Expand"
+    },
+    {
+      "published_utc": "2026-10-11T12:16:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel and Applied Materials Just Deepened Their AI Partnership. Which Stock Looks Better Positioned?"
+    },
     {
       "published_utc": "2026-10-10T15:35:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-08T23:27:00+00:00",
       "publisher": "Yahoo",
       "title": "Prediction: This Will Happen to Intel Stock in 2027"
-    },
-    {
-      "published_utc": "2026-10-08T19:42:17+00:00",
-      "publisher": "CNBC",
-      "title": "Lightning Round: Buy Intel here, says Jim Cramer"
-    },
-    {
-      "published_utc": "2026-10-08T19:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Anaconda Expands Collaboration with Intel to Give Enterprises a Secure Path to Production AI"
-    },
-    {
-      "published_utc": "2026-10-08T17:20:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel (INTC): Buy, Sell, or Hold Post Q2 Earnings?"
     }
   ]
 }
