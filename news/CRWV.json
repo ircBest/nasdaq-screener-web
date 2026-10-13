@@ -1,9 +1,29 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-10-12T11:16:49+00:00",
+  "generated_at": "2026-10-13T10:51:05+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T12:41:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CRWV Shares Slide 25% in 6 Months: Time to Buy, Hold or Cut Losses?"
+    },
+    {
+      "published_utc": "2026-10-12T12:36:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave (CRWV) Has a $104B Backlog. Can Its Balance Sheet Keep Up?"
+    },
+    {
+      "published_utc": "2026-10-12T12:26:40+00:00",
+      "publisher": "Yahoo",
+      "title": "Nebius Slides 3% Despite Rosenblatt’s New Buy Rating; CoreWeave Slips"
+    },
+    {
+      "published_utc": "2026-10-11T17:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave Just Landed a Massive New AI Opportunity. Wall Street Sees 59% Upside Ahead."
+    },
     {
       "published_utc": "2026-10-10T23:30:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-09T10:58:30+00:00",
       "publisher": "Yahoo",
       "title": "Premarket Movers: CRWV, AMD And Other AI Stocks Rebound, SpaceX Deal Boosts Tower Shares"
-    },
-    {
-      "published_utc": "2026-10-09T08:59:25+00:00",
-      "publisher": "Benzinga",
-      "title": "CoreWeave’s Busy Week: A 240 MW India Entry, a Sell-Off Tied to OpenAI’s Revenue Disclosure"
-    },
-    {
-      "published_utc": "2026-10-08T20:26:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cathie Wood’s ARK Sells $23.7M of Robinhood, Buys $27.8M of CoreWeave"
-    },
-    {
-      "published_utc": "2026-10-08T19:11:19+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave (CRWV) Could Be 26% Overvalued As India Expansion Raises The Stakes"
-    },
-    {
-      "published_utc": "2026-10-08T16:45:23+00:00",
-      "publisher": "Yahoo",
-      "title": "Why CoreWeave Is My High-Beta AI Play I Keep Adding"
     }
   ]
 }

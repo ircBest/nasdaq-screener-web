@@ -1,9 +1,24 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-10-12T11:16:49+00:00",
+  "generated_at": "2026-10-13T10:51:05+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T20:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)"
+    },
+    {
+      "published_utc": "2026-10-12T15:20:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock"
+    },
+    {
+      "published_utc": "2026-10-12T06:57:43+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Penguin Solutions: Explosive AI Growth At A Surprisingly Low Valuation"
+    },
     {
       "published_utc": "2026-10-11T07:47:11+00:00",
       "publisher": "SeekingAlpha",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-07T19:04:47+00:00",
       "publisher": "Yahoo",
       "title": "Penguin Solutions (PENG) Stock Trades Up, Here Is Why"
-    },
-    {
-      "published_utc": "2026-10-07T17:50:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions Is Soaring as AI Memory Demand Explodes"
-    },
-    {
-      "published_utc": "2026-10-07T17:48:25+00:00",
-      "publisher": "Yahoo",
-      "title": "PENG Stock Rallies To Over 2-Month High After Wall Street Hikes Price Targets On Q4 Beat, Guidance Raise"
-    },
-    {
-      "published_utc": "2026-10-07T15:58:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions (PENG) Q4 2026 Earnings Call Transcript"
     }
   ]
 }

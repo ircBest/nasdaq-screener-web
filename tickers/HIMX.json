@@ -1,0 +1,32 @@
+{
+  "ticker": "HIMX",
+  "generated_at": "2026-10-13T10:51:05.785756+00:00",
+  "points": [
+    {
+      "d": "2026-10-12",
+      "c": 12.78,
+      "h": 13.13,
+      "l": 12.76,
+      "v": 939600
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "HIMX|2026-10-13",
+      "date": "2026-10-13",
+      "entry": 12.78,
+      "target": 14.72,
+      "stop": 11.81,
+      "rsi": 38.6267
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 939600,
+    "latest": 939600,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}

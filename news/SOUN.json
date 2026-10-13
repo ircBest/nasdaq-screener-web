@@ -1,9 +1,19 @@
 {
   "ticker": "SOUN",
-  "generated_at": "2026-10-12T11:16:49+00:00",
+  "generated_at": "2026-10-13T10:51:05+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T15:46:31+00:00",
+      "publisher": "Yahoo",
+      "title": "SoundHound AI Slides 5% to Fresh Lows While C3.ai Climbs 4% on Northland Upgrade; UiPath Slips"
+    },
+    {
+      "published_utc": "2026-10-11T15:38:53+00:00",
+      "publisher": "Yahoo",
+      "title": "SoundHound AI Has Lost 46% in 2026. Here’s Why 4 Straight Cash Flow Misses Matter More Than Its Revenue Beats"
+    },
     {
       "published_utc": "2026-10-10T12:54:15+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-05T14:15:01+00:00",
       "publisher": "Yahoo",
       "title": "SoundHound AI Stock: Is it a Bargain Buy at $6?"
-    },
-    {
-      "published_utc": "2026-10-05T13:55:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Rigetti Computing vs. SoundHound AI: Which Tech Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-10-05T00:01:40+00:00",
-      "publisher": "Yahoo",
-      "title": "SoundHound vs. Rezolve: Which AI Growth Story Is Worth the Financing Risk?"
     }
   ]
 }

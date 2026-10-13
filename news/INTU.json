@@ -1,9 +1,19 @@
 {
   "ticker": "INTU",
-  "generated_at": "2026-10-12T11:16:49+00:00",
+  "generated_at": "2026-10-13T10:51:05+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T13:29:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Adobe Falls 4% as Wells Fargo Cuts to Underweight With $225 Target; ServiceNow Climbs 3%, Intuit Ticks Up"
+    },
+    {
+      "published_utc": "2026-10-12T10:31:08+00:00",
+      "publisher": "ChartMill",
+      "title": "Intuit (NASDAQ:INTU): Affordable Growth With Strong Fundamentals"
+    },
     {
       "published_utc": "2026-10-09T05:32:27+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-02T12:00:00+00:00",
       "publisher": "Yahoo",
       "title": "SimpleClosure and Intuit QuickBooks Partner to Help Businesses Stay Compliant When Closing Payroll Tax Accounts"
-    },
-    {
-      "published_utc": "2026-10-02T09:30:38+00:00",
-      "publisher": "Benzinga",
-      "title": "RBC Capital Reiterates Outperform on Intuit, Maintains $385 Price Target"
-    },
-    {
-      "published_utc": "2026-10-02T00:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "RedHammer to Help Shape Intuit Enterprise Suite for Construction"
     }
   ]
 }

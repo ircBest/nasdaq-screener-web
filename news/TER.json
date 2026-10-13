@@ -1,9 +1,34 @@
 {
   "ticker": "TER",
-  "generated_at": "2026-10-12T11:16:49+00:00",
+  "generated_at": "2026-10-13T10:51:05+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T21:15:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Here's Why Teradyne (TER) Fell More Than Broader Market"
+    },
+    {
+      "published_utc": "2026-10-12T20:48:47+00:00",
+      "publisher": "Yahoo",
+      "title": "FormFactor stock rises on $300M Teradyne investment deal"
+    },
+    {
+      "published_utc": "2026-10-12T20:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing"
+    },
+    {
+      "published_utc": "2026-10-12T15:11:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?"
+    },
+    {
+      "published_utc": "2026-10-12T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne Introduces UltraFLEXplus S Series for Edge AI Applications"
+    },
     {
       "published_utc": "2026-10-08T17:12:50+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-05T13:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing"
-    },
-    {
-      "published_utc": "2026-10-05T09:16:45+00:00",
-      "publisher": "Benzinga",
-      "title": "Teradyne Makes Strategic Investment In Bright Machines To Advance AI Infrastructure Manufacturing And Integrate Robotics, Test Technologies"
-    },
-    {
-      "published_utc": "2026-10-03T23:11:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Teradyne Is Up Big, But The Real Growth May Still Be Ahead"
-    },
-    {
-      "published_utc": "2026-10-02T22:06:03+00:00",
-      "publisher": "Yahoo",
-      "title": "MACOM, Texas Instruments, Semtech, Amkor, and Teradyne Stocks Trade Up, What You Need To Know"
-    },
-    {
-      "published_utc": "2026-10-02T09:47:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Teradyne Expands Memory Test Portfolio: Can It Beat KLAC & COHU?"
-    },
-    {
-      "published_utc": "2026-10-02T04:18:32+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Teradyne: AI Test Demand Is Exploding, But The Valuation Already Reflects A Lot Of Growth"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "FORM",
-  "generated_at": "2026-10-12T11:16:49+00:00",
+  "generated_at": "2026-10-13T10:51:05+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T20:48:47+00:00",
+      "publisher": "Yahoo",
+      "title": "FormFactor stock rises on $300M Teradyne investment deal"
+    },
+    {
+      "published_utc": "2026-10-12T20:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing"
+    },
     {
       "published_utc": "2026-10-11T00:16:14+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-30T20:01:00+00:00",
       "publisher": "Yahoo",
       "title": "FormFactor Announces Participation in 18th Annual CEO Investor Summit 2026"
-    },
-    {
-      "published_utc": "2026-09-30T17:49:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Nvidia Supplier FormFactor’s Stock Surges After Deutsche Bank Says It’s a Buy"
-    },
-    {
-      "published_utc": "2026-09-30T12:02:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: Ally Financial, BankUnited, Ciena Corporation, CoreWeave, Dow, FormFactor, Lumentum Holdings, Moderna, Target, and More"
     }
   ]
 }

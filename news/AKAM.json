@@ -1,9 +1,19 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-10-12T11:16:49+00:00",
+  "generated_at": "2026-10-13T10:51:05+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T17:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Akamai Recognized as a Leader in the IDC MarketScape: Worldwide Web Application and API Protection (WAAP) Platforms 2026 Vendor Assessment"
+    },
+    {
+      "published_utc": "2026-10-12T06:25:02+00:00",
+      "publisher": "Benzinga",
+      "title": "Akamai Technologies Q2 2026 Earnings Call: Complete Transcript"
+    },
     {
       "published_utc": "2026-10-08T11:00:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-09-30T04:59:35+00:00",
       "publisher": "SeekingAlpha",
       "title": "Akamai: The $11.6 Billion Anthropic Deal Is Worth Far Less -- And Potentially Far More -- Than It Looks"
-    },
-    {
-      "published_utc": "2026-09-29T10:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Akamai Welcomes SoftServe to Partner Connect Program"
-    },
-    {
-      "published_utc": "2026-09-29T06:32:26+00:00",
-      "publisher": "Benzinga",
-      "title": "SoftServe Joins Akamai Partner Connect To Help Enterprises Optimize Multicloud Environments, Lower Infrastructure Costs, And Accelerate Edge AI Deployments"
     }
   ]
 }

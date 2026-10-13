@@ -1,9 +1,14 @@
 {
   "ticker": "GEN",
-  "generated_at": "2026-10-12T11:16:49+00:00",
+  "generated_at": "2026-10-13T10:51:05+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T09:38:18+00:00",
+      "publisher": "Benzinga",
+      "title": "RBC Capital Maintains Sector Perform on Gen Digital, Lowers Price Target to $24"
+    },
     {
       "published_utc": "2026-10-10T04:18:10+00:00",
       "publisher": "Yahoo",
@@ -43,26 +48,6 @@
       "published_utc": "2026-09-29T12:35:02+00:00",
       "publisher": "Yahoo",
       "title": "Gen Digital (GEN) Loses 32.7% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner"
-    },
-    {
-      "published_utc": "2026-09-29T04:15:14+00:00",
-      "publisher": "Benzinga",
-      "title": "Reported earlier, Gen Digital Affirms FY2027 Adj EPS Guidance of $2.87-$2.97 vs $2.90 Est; Affirms FY2027 Sales Guidance of $5.375B-$5.475B vs $5.373B Est; Outlook Tracking At High End Of Guidance"
-    },
-    {
-      "published_utc": "2026-09-29T04:13:48+00:00",
-      "publisher": "Benzinga",
-      "title": "Reported earlier, Gen Digital Affirms Q2 Adj EPS Guidance of $0.71-$0.73 vs $0.69 Est; Affirms Q2 Sales Guidance of $1.325B-$1.350B vs $1.312B Est; Outlook Tracking At High End Of Guidance"
-    },
-    {
-      "published_utc": "2026-09-28T21:11:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Gen Digital CEO addresses GoDaddy acquisition rumors"
-    },
-    {
-      "published_utc": "2026-09-28T16:15:08+00:00",
-      "publisher": "Benzinga",
-      "title": "Stock of the Day: Is This the Bottom for Gen Digital?"
     }
   ]
 }
