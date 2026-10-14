@@ -1,13 +1,28 @@
 {
   "ticker": "CIFR",
-  "generated_at": "2026-10-13T10:51:05+00:00",
+  "generated_at": "2026-10-14T09:01:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-13T08:47:06+00:00",
+      "publisher": "Benzinga",
+      "title": "Cipher Digital Stock Falls After Proposing $850 Million in Notes. Here’s Where the Money Would Go"
+    },
+    {
+      "published_utc": "2026-10-13T08:05:13+00:00",
+      "publisher": "Benzinga",
+      "title": "Cipher Digital Plans To Commence Offering Of $850M Senior Notes Due 2032"
+    },
+    {
       "published_utc": "2026-10-12T21:15:04+00:00",
       "publisher": "Yahoo",
       "title": "Cipher Digital Inc. (CIFR) Suffers a Larger Drop Than the General Market: Key Insights"
+    },
+    {
+      "published_utc": "2026-10-12T12:33:07+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Overweight on Cipher Digital, Lowers Price Target to $51.5"
     },
     {
       "published_utc": "2026-10-10T15:33:58+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-08T07:52:00+00:00",
       "publisher": "Yahoo",
       "title": "Riot Platforms Shouldn't Be Worth More Than Cipher Digital"
-    },
-    {
-      "published_utc": "2026-10-07T23:55:42+00:00",
-      "publisher": "Benzinga",
-      "title": "Cipher Digital (CIFR) Stock Trending After Hours: Here's Why"
-    },
-    {
-      "published_utc": "2026-10-06T22:02:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Mining Sees AI Demand Holding Strong as Power Scarcity Drives Data Center Leases"
-    },
-    {
-      "published_utc": "2026-10-05T21:00:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital Inc. (CIFR) Stock Dips While Market Gains: Key Facts"
     }
   ]
 }

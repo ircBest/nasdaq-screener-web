@@ -1,9 +1,14 @@
 {
   "ticker": "APLD",
-  "generated_at": "2026-10-13T10:51:05+00:00",
+  "generated_at": "2026-10-14T09:01:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-13T08:14:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Digital (APLD), Why Is Its Latest Update Drawing Attention?"
+    },
     {
       "published_utc": "2026-10-12T22:32:18+00:00",
       "publisher": "Yahoo",
@@ -20,6 +25,11 @@
       "title": "Should Investors Hold or Fold APLD Stock After Its Q1 Earnings Miss?"
     },
     {
+      "published_utc": "2026-10-12T14:24:51+00:00",
+      "publisher": "Yahoo",
+      "title": "JPMorgan downgrades Applied Digital’s project bonds, citing supply overhang"
+    },
+    {
       "published_utc": "2026-10-12T12:50:05+00:00",
       "publisher": "Yahoo",
       "title": "Applied Digital Has $36 Billion in Contracted Revenue. Wolfspeed Has the Better Stock Chart."
@@ -28,6 +38,11 @@
       "published_utc": "2026-10-12T12:30:16+00:00",
       "publisher": "Yahoo",
       "title": "IREN Climbs 4% on Report of Unconfirmed Anthropic Cloud Deal; TeraWulf and Applied Digital Hold Flat"
+    },
+    {
+      "published_utc": "2026-10-12T12:26:27+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Equal-Weight on Applied Digital, Raises Price Target to $41"
     },
     {
       "published_utc": "2026-10-12T02:13:50+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-09T13:03:00+00:00",
       "publisher": "Yahoo",
       "title": "Applied Digital Stock Gains as Fiscal Q1 Revenue Leaps 300%"
-    },
-    {
-      "published_utc": "2026-10-09T11:20:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Digital’s Hidden Moat Could Unlock Massive Upside"
-    },
-    {
-      "published_utc": "2026-10-09T05:55:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Applied Digital: More Than 600MW Could Drive The Next Leg Of Growth"
-    },
-    {
-      "published_utc": "2026-10-08T23:15:02+00:00",
-      "publisher": "Yahoo",
-      "title": "What Is Applied Digital (APLD) Signaling With Its First Finland AI Factory Move?"
     }
   ]
 }

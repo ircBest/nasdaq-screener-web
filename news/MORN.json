@@ -1,9 +1,34 @@
 {
   "ticker": "MORN",
-  "generated_at": "2026-10-13T10:51:05+00:00",
+  "generated_at": "2026-10-14T09:01:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-13T16:20:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CME vs. Morningstar: Which Financial Stock Is a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-13T08:14:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Morningstar's (MORN) New AI Platform Quietly Rewriting Its Data Moat And Competitive Edge?"
+    },
+    {
+      "published_utc": "2026-10-13T07:18:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Morningstar (MORN), Why Is It Getting Attention Today?"
+    },
+    {
+      "published_utc": "2026-10-13T02:18:13+00:00",
+      "publisher": "Yahoo",
+      "title": "What Could Morningstar (MORN) Headquarters Move To The Thompson Center Signal?"
+    },
+    {
+      "published_utc": "2026-10-13T01:34:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Morningstar (MORN) Stock Could Be 26% Overvalued As Direct AI Launch Lands"
+    },
     {
       "published_utc": "2026-10-07T21:36:47+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-02T08:47:41+00:00",
       "publisher": "Yahoo",
       "title": "NKE Stock Heads For A Weekly Loss: Morningstar Says Nike's Fresh Cost Cuts Signal A Longer Road To Recovery"
-    },
-    {
-      "published_utc": "2026-09-30T18:08:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Morningstar To Relocate Global HQ To Renovated Thompson Center"
-    },
-    {
-      "published_utc": "2026-09-30T16:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Morningstar leases 275K sf at Google’s Thompson Center"
-    },
-    {
-      "published_utc": "2026-09-30T11:44:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Morningstar Announces New Global Headquarters at Chicago's Thompson Center and $5 Million Community Investment Donation"
-    },
-    {
-      "published_utc": "2026-09-30T07:45:42+00:00",
-      "publisher": "Benzinga",
-      "title": "Morningstar Plans To Shift Global Headquarters To Chicago's Thompson Center"
-    },
-    {
-      "published_utc": "2026-09-29T14:10:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Robinhood Markets vs. Morningstar: Which Financial Stock Is a Better Buy in 2026?"
     }
   ]
 }

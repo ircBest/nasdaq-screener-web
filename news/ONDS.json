@@ -1,6 +1,6 @@
 {
   "ticker": "ONDS",
-  "generated_at": "2026-10-13T10:51:05+00:00",
+  "generated_at": "2026-10-14T09:01:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
@@ -25,9 +25,19 @@
       "title": "Ondas and Palantir Launch Regna AI to Develop Sovereign Artificial Intelligence for Defence Operations"
     },
     {
+      "published_utc": "2026-10-12T12:18:50+00:00",
+      "publisher": "Benzinga",
+      "title": "Ondas Wants to Run Pentagon AI with Palantir-Powered Regna AI"
+    },
+    {
       "published_utc": "2026-10-12T12:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Ondas Announces Regna AI, Powered by Palantir, to Advance Sovereign AI"
+    },
+    {
+      "published_utc": "2026-10-12T11:33:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Ondas Takes Its Palantir Partnership Deeper With New Sovereign AI Company"
     },
     {
       "published_utc": "2026-10-12T08:52:27+00:00",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-08T23:50:54+00:00",
       "publisher": "Yahoo",
       "title": "What Is The One Risk Every Ondas Investor Should Know?"
-    },
-    {
-      "published_utc": "2026-10-08T17:03:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Falls 5% as Defense Orders Pile Up Without Lifting Shares; AeroVironment Slips, Kratos Edges Higher"
-    },
-    {
-      "published_utc": "2026-10-08T14:10:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Adds $165M in New Orders, Boosts 2027 Revenue Visibility"
     }
   ]
 }

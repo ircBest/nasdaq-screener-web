@@ -1,9 +1,19 @@
 {
   "ticker": "RGTI",
-  "generated_at": "2026-10-13T10:51:05+00:00",
+  "generated_at": "2026-10-14T09:01:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-13T05:52:23+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Rigetti Could Be The Ideal Buy-And-Forget Stock Right Now"
+    },
+    {
+      "published_utc": "2026-10-13T04:03:35+00:00",
+      "publisher": "Benzinga",
+      "title": "Rigetti Computing Q2 2026 Earnings Call Transcript"
+    },
     {
       "published_utc": "2026-10-12T15:15:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-07T12:30:03+00:00",
       "publisher": "Yahoo",
       "title": "Wall Street Analysts See Rigetti Computing (RGTI) as a Buy: Should You Invest?"
-    },
-    {
-      "published_utc": "2026-10-06T17:03:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Rigetti's Quantum Momentum Builds Despite Uneven Revenue Growth"
-    },
-    {
-      "published_utc": "2026-10-06T14:36:55+00:00",
-      "publisher": "Yahoo",
-      "title": "One $8.4 Million Order Equals Most of Rigetti’s Q4 Revenue Estimate. Here’s What It Means for the Stock"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "ZS",
-  "generated_at": "2026-10-13T10:51:05+00:00",
+  "generated_at": "2026-10-14T09:01:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-12T22:48:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Does Zscaler Stock's Run Make Any Sense?"
+    },
+    {
+      "published_utc": "2026-10-12T11:52:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Zscaler's Growth Likely to Slow to 17%: Can AI Products Close the Gap?"
+    },
     {
       "published_utc": "2026-10-12T11:43:56+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-08T08:36:18+00:00",
       "publisher": "Benzinga",
       "title": "Amerx Initiates Coverage On Zscaler with Buy Rating, Announces Price Target of $305"
-    },
-    {
-      "published_utc": "2026-10-07T17:44:56+00:00",
-      "publisher": "Benzinga",
-      "title": "Macquarie Maintains Outperform on Zscaler, Raises Price Target to $250"
-    },
-    {
-      "published_utc": "2026-10-07T17:31:34+00:00",
-      "publisher": "Benzinga",
-      "title": "UBS Maintains Buy on Zscaler, Raises Price Target to $250"
     }
   ]
 }

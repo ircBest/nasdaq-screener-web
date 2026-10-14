@@ -1,9 +1,24 @@
 {
   "ticker": "QBTS",
-  "generated_at": "2026-10-13T10:51:05+00:00",
+  "generated_at": "2026-10-14T09:01:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-13T11:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SkyWater and D-Wave Extend Quantum Manufacturing Collaboration Through Multi-Year Agreement"
+    },
+    {
+      "published_utc": "2026-10-13T07:11:16+00:00",
+      "publisher": "Benzinga",
+      "title": "D-Wave Quantum Enters Multi-Year Agreement With SkyWater Technology To Continue Specialized Semiconductor Process Development And Manufacturing"
+    },
+    {
+      "published_utc": "2026-10-13T05:44:42+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave Quantum vs. QuantumScape: Here Is the Better Innovative Technology Stock to Buy in 2026"
+    },
     {
       "published_utc": "2026-10-12T22:07:27+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-05T11:00:00+00:00",
       "publisher": "Yahoo",
       "title": "D-Wave Partners with University of Arkansas to Establish Quantum Supply Chain Initiative at the Sam M. Walton College of Business"
-    },
-    {
-      "published_utc": "2026-10-01T21:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Better Quantum Computing Stock: IonQ vs. D-Wave"
-    },
-    {
-      "published_utc": "2026-10-01T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "D-Wave Launches Gate-Model Simulator Beta Program, Advancing Error-Aware Programming Capabilities"
-    },
-    {
-      "published_utc": "2026-10-01T09:10:19+00:00",
-      "publisher": "Yahoo",
-      "title": "D-Wave Quantum (QBTS) Appoints Bernard Gavgani To Board And Cybersecurity Committee"
     }
   ]
 }

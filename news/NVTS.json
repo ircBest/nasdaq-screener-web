@@ -1,9 +1,14 @@
 {
   "ticker": "NVTS",
-  "generated_at": "2026-10-13T10:51:05+00:00",
+  "generated_at": "2026-10-14T09:01:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-13T06:38:16+00:00",
+      "publisher": "Yahoo",
+      "title": "NVTS Stock Rises Overnight: Navitas Unveils 24 kW Nvidia AI Power Board Targeting 97% Efficiency"
+    },
     {
       "published_utc": "2026-10-12T20:54:35+00:00",
       "publisher": "Yahoo",
@@ -13,6 +18,16 @@
       "published_utc": "2026-10-12T20:15:00+00:00",
       "publisher": "Yahoo",
       "title": "Navitas Collaborates with NVIDIA on 800 V-to-12 V Power Delivery Board for Next-Generation AI Infrastructure"
+    },
+    {
+      "published_utc": "2026-10-12T16:43:16+00:00",
+      "publisher": "Benzinga",
+      "title": "Navitas Semiconductor Stock Rises After Hours: Here's Why"
+    },
+    {
+      "published_utc": "2026-10-12T16:17:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Navitas Semiconductor Unveils 24 kW GaN-Powered 800V-To-12V Power Delivery Board For NVIDIA AI Data Centers"
     },
     {
       "published_utc": "2026-10-12T14:25:00+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-05T13:56:45+00:00",
       "publisher": "Yahoo",
       "title": "NVTS Stock In Spotlight Today Following Microchip Collaboration – Everything That Investors Need To Know"
-    },
-    {
-      "published_utc": "2026-10-05T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Navitas and Microchip Collaborate to Deliver 800V Reference Design for Next-Generation AI Data Centers"
-    },
-    {
-      "published_utc": "2026-10-05T06:58:34+00:00",
-      "publisher": "Benzinga",
-      "title": "Microchip Technology And Navitas Semiconductor Partners On 800V DC-To-6V DC Reference Design For AI Data Center Rack Power Applications To Combine MCHP's Digital Power Control And Security Technologies With NVTS GaNFast Gallium Nitride Power Devices"
-    },
-    {
-      "published_utc": "2026-09-30T19:27:51+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Navitas Semiconductor's U.S. Army Deal Could Be Just The Beginning (Rating Upgrade)"
     }
   ]
 }
