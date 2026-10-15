@@ -1,9 +1,49 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T21:11:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Accenture (ACN) Is Up 10.4% After Dividend Hike And New AI Deals With Dell And Workday"
+    },
+    {
+      "published_utc": "2026-10-14T16:42:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Accenture and Workday Promise a Faster Path to Measurable AI Impact. The Path Has No Numbers on It."
+    },
+    {
+      "published_utc": "2026-10-14T13:11:44+00:00",
+      "publisher": "Yahoo",
+      "title": "META, TTD, SNAP, GOOGL, BMBL, WDAY Stocks Get New UBS Targets Amid AI And Ad Shifts"
+    },
+    {
+      "published_utc": "2026-10-14T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Metaview Expands Workday Integration to Bring Agentic Recruiting to the Fortune 500"
+    },
+    {
+      "published_utc": "2026-10-14T09:27:42+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday to purchase C1.ai for AI agent access governance"
+    },
+    {
+      "published_utc": "2026-10-14T07:34:40+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Workday, Inc. (WDAY) Analyst/Investor Day Transcript"
+    },
+    {
+      "published_utc": "2026-10-14T04:02:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday Analyst Day Spotlights AI Agents, $600M ARR and New Growth Paths"
+    },
+    {
+      "published_utc": "2026-10-13T21:02:37+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Workday, Inc. (WDAY) Analyst/Investor Day - Slideshow"
+    },
     {
       "published_utc": "2026-10-13T20:50:04+00:00",
       "publisher": "Yahoo",
@@ -23,46 +63,6 @@
       "published_utc": "2026-10-13T18:16:43+00:00",
       "publisher": "Yahoo",
       "title": "What Is Workday (WDAY) Really Gaining From Its Latest AI Governance Deal?"
-    },
-    {
-      "published_utc": "2026-10-13T15:03:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Is Selling the Map of Which Parts of Jobs AI Should Take"
-    },
-    {
-      "published_utc": "2026-10-13T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "HireClix Named Workday Partner To Help Employers Improve Career Site Performance"
-    },
-    {
-      "published_utc": "2026-10-13T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Introduces Work Intelligence to Help Customers Design Work for AI"
-    },
-    {
-      "published_utc": "2026-10-13T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "New Workday Candidate Profile Lets Job Seekers Save Their Information Once and Use It Every Time They Apply Through Workday"
-    },
-    {
-      "published_utc": "2026-10-13T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday and Anthropic Announce New Partnership to Connect Reasoning to the Rules That Run the Business, Wherever People Choose to Work"
-    },
-    {
-      "published_utc": "2026-10-13T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Brings Decision Intelligence to HR and Finance, Helping Teams Weigh Workforce and Financial Decisions Together"
-    },
-    {
-      "published_utc": "2026-10-13T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Launches Autopilot Agents That Get Real Work Done Across HR, Finance, and IT"
-    },
-    {
-      "published_utc": "2026-10-13T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday's Trusted Agent Platform Now Delivers Headless Access to HR and Finance, Letting Customers Build and Run Lawful AI Agents"
     }
   ]
 }

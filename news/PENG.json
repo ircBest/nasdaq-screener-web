@@ -1,9 +1,14 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T08:35:18+00:00",
+      "publisher": "Benzinga",
+      "title": "Axe Compute Collaborates With Penguin Solutions To Integrate Its Services Into Axe's Partner Network"
+    },
     {
       "published_utc": "2026-10-13T12:31:00+00:00",
       "publisher": "SeekingAlpha",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-07T23:18:08+00:00",
       "publisher": "Yahoo",
       "title": "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?"
-    },
-    {
-      "published_utc": "2026-10-07T22:40:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions (PENG) Flies 13% on Stellar Earnings, FY Outlook"
     }
   ]
 }

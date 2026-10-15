@@ -1,9 +1,29 @@
 {
   "ticker": "ENPH",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T08:04:36+00:00",
+      "publisher": "Benzinga",
+      "title": "Susquehanna Maintains Neutral on Enphase Energy, Lowers Price Target to $35"
+    },
+    {
+      "published_utc": "2026-10-13T20:50:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Enphase Energy (ENPH) Rises As Market Takes a Dip: Key Facts"
+    },
+    {
+      "published_utc": "2026-10-13T18:03:38+00:00",
+      "publisher": "Yahoo",
+      "title": "First Solar Climbs 4% as Truist Buy Call and December Tariff Floor Reset Panel Pricing Outlook; Enphase Energy and Sunrun Hold Flat"
+    },
+    {
+      "published_utc": "2026-10-13T12:00:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Investors Heavily Search Enphase Energy, Inc. (ENPH): Here is What You Need to Know"
+    },
     {
       "published_utc": "2026-10-12T21:00:05+00:00",
       "publisher": "Yahoo",
@@ -43,11 +63,6 @@
       "published_utc": "2026-10-04T20:06:23+00:00",
       "publisher": "Yahoo",
       "title": "Enphase Energy (ENPH) Utility Approvals Open A Bigger Backup Market As Undervalued Narrative Holds"
-    },
-    {
-      "published_utc": "2026-10-02T12:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Here is What to Know Beyond Why Enphase Energy, Inc. (ENPH) is a Trending Stock"
     }
   ]
 }

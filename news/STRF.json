@@ -1,9 +1,39 @@
 {
   "ticker": "STRF",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T04:21:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor Says Bitcoin Has Bottomed And Should Get Back Above $100,000: ‘Long-Term Forecast Is…’"
+    },
+    {
+      "published_utc": "2026-10-13T23:47:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor drops bold Bitcoin call ahead of major index review"
+    },
+    {
+      "published_utc": "2026-10-13T22:14:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy (MSTR) Stock Still Looks Like A Bargain Despite Its 354% Run"
+    },
+    {
+      "published_utc": "2026-10-13T18:57:59+00:00",
+      "publisher": "Yahoo",
+      "title": "MSCI's Index Position Disappointing: Michael Saylor"
+    },
+    {
+      "published_utc": "2026-10-13T18:48:11+00:00",
+      "publisher": "Yahoo",
+      "title": "'Inoculating' Investors, Could Buy Or Sell Bitcoin: Saylor"
+    },
+    {
+      "published_utc": "2026-10-13T14:47:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Peter Schiff Calls Strategy’s 2026 a ‘Failure’ as MSTR Bulls Push Back"
+    },
     {
       "published_utc": "2026-10-12T21:00:06+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-12T13:14:35+00:00",
       "publisher": "Yahoo",
       "title": "Michael Saylor-Backed Strategy Buys Just 250 Bitcoin, Its Smallest Purchase Of 2026"
-    },
-    {
-      "published_utc": "2026-10-12T12:54:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Acquires 250 Bitcoin and Repurchases $192 Million in STRC, MSTR Stock Jumps"
-    },
-    {
-      "published_utc": "2026-10-12T12:06:37+00:00",
-      "publisher": "Yahoo",
-      "title": "MicroStrategy's Bitcoin Buys Drop 84% in 2 Weeks. Why Is Saylor Slowing Down?"
-    },
-    {
-      "published_utc": "2026-10-12T11:30:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Saylor Says There Is Always Room for More Orange. Strategy Bought 334 Bitcoin Last Week. Two Years Ago It Was Buying 55,000 in a Week."
-    },
-    {
-      "published_utc": "2026-10-10T06:15:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Does Strategy’s 12% Preferred Payout Reveal a Deeper Funding Tradeoff in MSTR’s Crypto Model?"
-    },
-    {
-      "published_utc": "2026-10-09T16:20:00+00:00",
-      "publisher": "Yahoo",
-      "title": "MSTR Stock Rises 60% in Three Months: Is More Upside Still Ahead?"
-    },
-    {
-      "published_utc": "2026-10-09T10:39:30+00:00",
-      "publisher": "Yahoo",
-      "title": "President Trump Discloses New Trades in Strategy (MSTR), Coinbase, NVIDIA, SpaceX, Meta"
     }
   ]
 }

@@ -1,13 +1,23 @@
 {
   "ticker": "CRUS",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-14T09:35:12+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cirrus Logic Went To M&A For Speeding Up The Needed Massive Development"
+    },
+    {
       "published_utc": "2026-10-13T20:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Cirrus Logic to Report Second Quarter Fiscal Year 2027 Results"
+    },
+    {
+      "published_utc": "2026-10-13T17:03:16+00:00",
+      "publisher": "Benzinga",
+      "title": "Cirrus Logic Confirms Past Acquisition Proposals For Synaptics, Says It Is No Longer Pursuing A Deal"
     },
     {
       "published_utc": "2026-10-08T10:10:01+00:00",
@@ -23,11 +33,6 @@
       "published_utc": "2026-10-06T20:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Cirrus Logic Announces Acquisition of INVENTVM Semiconductor"
-    },
-    {
-      "published_utc": "2026-09-30T12:10:55+00:00",
-      "publisher": "ChartMill",
-      "title": "Cirrus Logic (NASDAQ:CRUS): A GARP Stock With Strong Balance Sheet and Reasonable Valuation"
     }
   ]
 }

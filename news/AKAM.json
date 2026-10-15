@@ -1,9 +1,19 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T13:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "AKAM Acquires Matthew Adam Properties, Further Expanding Its New York City Presence"
+    },
+    {
+      "published_utc": "2026-10-13T21:15:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Akamai Technologies (AKAM) Falls More Steeply Than Broader Market: What Investors Need to Know"
+    },
     {
       "published_utc": "2026-10-12T17:01:00+00:00",
       "publisher": "Yahoo",
@@ -43,21 +53,6 @@
       "published_utc": "2026-10-02T14:40:01+00:00",
       "publisher": "Yahoo",
       "title": "BEKE vs. AKAM: Which Stock Is the Better Value Option?"
-    },
-    {
-      "published_utc": "2026-09-30T21:15:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Akamai Technologies (AKAM) Dipped More Than Broader Market Today"
-    },
-    {
-      "published_utc": "2026-09-30T14:17:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Akamai Just Landed an $11.6 Billion AI Deal. How This Could Change the Narrative for AKAM Stock."
-    },
-    {
-      "published_utc": "2026-09-30T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Resurety and Akamai Make Clean Energy History With First-Ever Exchange-Executed VPPA"
     }
   ]
 }

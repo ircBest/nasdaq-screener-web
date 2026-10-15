@@ -1,9 +1,24 @@
 {
   "ticker": "WDC",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T18:01:04+00:00",
+      "publisher": "Yahoo",
+      "title": "SK Hynix Sinks 5% as China’s CXMT Aims at Server Memory; Western Digital Drops 4%, Micron Falls 3%"
+    },
+    {
+      "published_utc": "2026-10-14T12:45:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Western Digital Lost One Third Its Value Over 3 Months: It’S Ready to Provide 175% Returns Says This Wall Street Pro"
+    },
+    {
+      "published_utc": "2026-10-14T12:00:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Trending Stock Western Digital Corporation (WDC) a Buy Now?"
+    },
     {
       "published_utc": "2026-10-13T19:11:30+00:00",
       "publisher": "Yahoo",
@@ -18,6 +33,11 @@
       "published_utc": "2026-10-13T13:58:07+00:00",
       "publisher": "Yahoo",
       "title": "SK Hynix Sinks 6% as Seoul Selloff Extends to Fifth Session; Western Digital and Seagate Drop 7%"
+    },
+    {
+      "published_utc": "2026-10-13T12:40:46+00:00",
+      "publisher": "Benzinga",
+      "title": "Western Digital Stock Under Pressure as Rising Asian Production Raises Supply Concerns"
     },
     {
       "published_utc": "2026-10-13T10:55:22+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-12T17:10:05+00:00",
       "publisher": "Yahoo",
       "title": "Western Digital (WDC) Stock Looks Reasonable As AI Storage Contracts Expand"
-    },
-    {
-      "published_utc": "2026-10-12T16:10:28+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Western Digital’s (WDC) AI-Fueled Outlook Reframing Its Role in Cloud Infrastructure Leadership?"
-    },
-    {
-      "published_utc": "2026-10-12T14:41:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Memory Stocks Slide as China’s CXMT Flags Denser Chip Design: Micron and SK Hynix Fall 4%, Western Digital Drops 2%"
-    },
-    {
-      "published_utc": "2026-10-12T13:40:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Western Digital Sustain 44% Revenue Growth in Fiscal 2027?"
-    },
-    {
-      "published_utc": "2026-10-11T19:47:06+00:00",
-      "publisher": "Yahoo",
-      "title": "A Western Digital (WDC) Investor’s Losses Prompt Jim Cramer to Bring Up Micron (MU)"
     }
   ]
 }

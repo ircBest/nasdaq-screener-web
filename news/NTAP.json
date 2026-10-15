@@ -1,9 +1,39 @@
 {
   "ticker": "NTAP",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T20:04:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Cogent, Flex, Mirion, NetApp, and Viasat Shares Plummet, What You Need To Know"
+    },
+    {
+      "published_utc": "2026-10-14T19:49:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Dell, HPE and NetApp Stocks Slump After Downgrades on Worries About AI Spending"
+    },
+    {
+      "published_utc": "2026-10-14T11:46:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: Albemarle, Alcoa, Brinker International, Dell Technologies, Garmin, Hewlett Packard Enterprise, Lockheed Martin, NetApp, Trane Technologies, and More"
+    },
+    {
+      "published_utc": "2026-10-14T11:21:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Barclays Downgrades HPE, Dell, NetApp On Enterprise AI Spending Trends"
+    },
+    {
+      "published_utc": "2026-10-14T10:22:55+00:00",
+      "publisher": "Yahoo",
+      "title": "HPE, DELL, NTAP Stocks Downgraded, Barclays Sees No ‘Meaningful AI Inflection’"
+    },
+    {
+      "published_utc": "2026-10-14T09:23:01+00:00",
+      "publisher": "Benzinga",
+      "title": "Barclays Downgrades NetApp to Equal-Weight, Maintains Price Target to $219"
+    },
     {
       "published_utc": "2026-10-13T21:10:15+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-13T12:40:04+00:00",
       "publisher": "Yahoo",
       "title": "Are Computer and Technology Stocks Lagging  NetApp (NTAP) This Year?"
-    },
-    {
-      "published_utc": "2026-10-10T21:52:44+00:00",
-      "publisher": "Yahoo",
-      "title": "A Longtime NetApp (NTAP) Shareholder Gets a Clear Answer From Jim Cramer"
-    },
-    {
-      "published_utc": "2026-10-09T12:13:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp  highlighted as Zacks Bull and NVR Bear of the Day"
-    },
-    {
-      "published_utc": "2026-10-09T09:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Bull of the Day: NetApp (NTAP)"
-    },
-    {
-      "published_utc": "2026-10-08T21:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp (NTAP) Falls More Steeply Than Broader Market: What Investors Need to Know"
-    },
-    {
-      "published_utc": "2026-10-08T19:48:28+00:00",
-      "publisher": "Yahoo",
-      "title": "Can AWS Transform Make NetApp (NTAP) the Default Storage Landing Zone in the Cloud?"
-    },
-    {
-      "published_utc": "2026-10-08T12:32:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Up 147% in the Past 6 Months: Time to Buy the Stock?"
     }
   ]
 }

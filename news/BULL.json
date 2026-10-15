@@ -1,9 +1,14 @@
 {
   "ticker": "BULL",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-13T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull Canada Launches Paper Trading Competition"
+    },
     {
       "published_utc": "2026-10-09T16:25:00+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-08T12:59:00+00:00",
       "publisher": "Yahoo",
       "title": "Can Webull's Regulatory Troubles Give Robinhood a Competitive Edge?"
-    },
-    {
-      "published_utc": "2026-10-08T12:29:15+00:00",
-      "publisher": "Benzinga",
-      "title": "Webull Just Exposed a Bigger China Risk for Futu and UP Fintech"
     }
   ]
 }

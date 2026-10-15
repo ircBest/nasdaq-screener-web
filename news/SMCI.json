@@ -1,9 +1,24 @@
 {
   "ticker": "SMCI",
-  "generated_at": "2026-10-14T09:01:06+00:00",
+  "generated_at": "2026-10-15T08:36:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T19:40:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro, Applied Digital, Benchmark, Planet Labs, and Ingram Micro Shares Are Falling, What You Need To Know"
+    },
+    {
+      "published_utc": "2026-10-14T19:07:31+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Is Up 22% in 2026 but It’s Down Today: Take Profits, or Hold On for the Ride?"
+    },
+    {
+      "published_utc": "2026-10-14T15:03:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Digi Power X pairs owned power infrastructure with Supermicro GPUs to serve enterprise AI customers"
+    },
     {
       "published_utc": "2026-10-13T20:45:05+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-12T15:13:00+00:00",
       "publisher": "Yahoo",
       "title": "HPE Partners With NVDA: Can it Help Challenge SMCI & DELL?"
-    },
-    {
-      "published_utc": "2026-10-12T15:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro (SMCI) Upgraded to Strong Buy: Here's What You Should Know"
-    },
-    {
-      "published_utc": "2026-10-12T13:58:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Super Micro Stock Is Heading to $60"
-    },
-    {
-      "published_utc": "2026-10-12T11:41:28+00:00",
-      "publisher": "Benzinga",
-      "title": "Why Is Super Micro Computer Stock Falling on Monday?"
     }
   ]
 }
