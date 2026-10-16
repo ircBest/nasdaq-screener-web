@@ -1,0 +1,32 @@
+{
+  "ticker": "SMTC",
+  "generated_at": "2026-10-16T08:29:31.261164+00:00",
+  "points": [
+    {
+      "d": "2026-10-15",
+      "c": 144.21,
+      "h": 155.83,
+      "l": 133.66,
+      "v": 9736300
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "SMTC|2026-10-16",
+      "date": "2026-10-16",
+      "entry": 144.21,
+      "target": 184.48,
+      "stop": 124.07,
+      "rsi": 36.9335
+    }
+  ],
+  "volume": {
+    "available": true,
+    "days": 1,
+    "average": 9736300,
+    "latest": 9736300,
+    "ratio": 1.0,
+    "window": 1
+  },
+  "volume_note": "하루 거래량이다. average는 최근 20거래일 평균, ratio는 그 대비 마지막 날의 비율이다."
+}
