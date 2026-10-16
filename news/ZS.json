@@ -1,9 +1,19 @@
 {
   "ticker": "ZS",
-  "generated_at": "2026-10-15T08:36:51+00:00",
+  "generated_at": "2026-10-16T08:29:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-15T12:02:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Cybersecurity Stocks Retreat From Record Highs — Citi Raises CRWD, PANW, ZS Targets On Improving Spending Momentum"
+    },
+    {
+      "published_utc": "2026-10-14T20:45:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Zscaler (ZS) Falls More Steeply Than Broader Market: What Investors Need to Know"
+    },
     {
       "published_utc": "2026-10-14T05:28:41+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-09T13:14:35+00:00",
       "publisher": "Yahoo",
       "title": "Zscaler (ZS) Is Up 9.1% After Reaffirming 2027 Outlook and Expanding AI Security Partnership"
-    },
-    {
-      "published_utc": "2026-10-09T08:54:31+00:00",
-      "publisher": "Benzinga",
-      "title": "Citizens Maintains Market Outperform on Zscaler, Raises Price Target to $265"
-    },
-    {
-      "published_utc": "2026-10-09T08:15:23+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Zscaler (ZS) Still Look Undervalued On Reaffirmed 2027 Guidance And AI Security Goals?"
     }
   ]
 }

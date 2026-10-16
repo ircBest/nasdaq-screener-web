@@ -1,9 +1,49 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-10-15T08:36:51+00:00",
+  "generated_at": "2026-10-16T08:29:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-15T13:06:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Rocket Lab Tumbles 11% as Neutron’s First Flight Moves to 2027; SpaceX and AST SpaceMobile Pull Back"
+    },
+    {
+      "published_utc": "2026-10-15T06:17:35+00:00",
+      "publisher": "Yahoo",
+      "title": "ASTS Stock Heads For Worst Year Since Listing — Analyst Says 60-Satellite Milestone Could Slip To 2028"
+    },
+    {
+      "published_utc": "2026-10-15T04:26:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Did SOFI, PLUG, ASTS Stocks Plunge To 52-Week Lows?"
+    },
+    {
+      "published_utc": "2026-10-15T00:55:39+00:00",
+      "publisher": "Yahoo",
+      "title": "How Low Can AST SpaceMobile Stock Go?"
+    },
+    {
+      "published_utc": "2026-10-14T20:23:00+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile Is the New Battleground Stock"
+    },
+    {
+      "published_utc": "2026-10-14T17:00:55+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile Is Building Something Wall Street Can’t Ignore"
+    },
+    {
+      "published_utc": "2026-10-14T14:31:31+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile Falls 8% as Piper Sandler Cuts Target to $54 on SpaceX Competition; Rocket Lab Slips"
+    },
+    {
+      "published_utc": "2026-10-14T12:58:37+00:00",
+      "publisher": "Benzinga",
+      "title": "AST SpaceMobile Stock Sinks To 52-Week Low - Here's Why"
+    },
     {
       "published_utc": "2026-10-14T03:06:05+00:00",
       "publisher": "Yahoo",
@@ -23,46 +63,6 @@
       "published_utc": "2026-10-13T20:42:01+00:00",
       "publisher": "Yahoo",
       "title": "AST SpaceMobile vs. Rocket Lab: Which Space-Focused Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-10-13T20:35:48+00:00",
-      "publisher": "Yahoo",
-      "title": "Piper Sandler Just Downgraded ASTS Stock. SpaceX May Be to Blame."
-    },
-    {
-      "published_utc": "2026-10-13T16:47:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Why AST SpaceMobile Stock Keeps Falling"
-    },
-    {
-      "published_utc": "2026-10-13T15:51:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Wall Street Says You Should Stop Panicking and Buy AST SpaceMobile Stock"
-    },
-    {
-      "published_utc": "2026-10-13T14:59:17+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Sinks 9% as Piper Sandler Cuts to Neutral on SpaceX Direct-to-Cell Threat; Planet Labs Drops 4%, Rocket Lab Slips"
-    },
-    {
-      "published_utc": "2026-10-13T14:50:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Investing in AST SpaceMobile Stock Double Your Money?"
-    },
-    {
-      "published_utc": "2026-10-13T14:47:32+00:00",
-      "publisher": "Yahoo",
-      "title": "ASTS Stock Slumps Over 9% Today: Piper Sandler Flags Satellite Launch Risks, But Retail Calls Concerns ‘Overstated’"
-    },
-    {
-      "published_utc": "2026-10-13T14:09:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Stock Price Target Slashed in Half. The SpaceX Curse."
-    },
-    {
-      "published_utc": "2026-10-13T13:40:48+00:00",
-      "publisher": "Yahoo",
-      "title": "SpaceX D2C aggression triggers Piper Sandler downgrade of AST SpaceMobile"
     }
   ]
 }

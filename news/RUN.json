@@ -1,9 +1,19 @@
 {
   "ticker": "RUN",
-  "generated_at": "2026-10-15T08:36:51+00:00",
+  "generated_at": "2026-10-16T08:29:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Sunrun Leads Record Grid Dispatch Delivering Enough Energy to Power Every Home in San Francisco and San Jose"
+    },
+    {
+      "published_utc": "2026-10-14T10:49:11+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Equal-Weight on Sunrun, Lowers Price Target to $10"
+    },
     {
       "published_utc": "2026-10-14T08:11:32+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-08T08:35:48+00:00",
       "publisher": "Benzinga",
       "title": "Goldman Sachs Maintains Buy on Sunrun, Lowers Price Target to $11"
-    },
-    {
-      "published_utc": "2026-10-07T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Sunrun Announces Date for Third Quarter 2026 Earnings Report"
-    },
-    {
-      "published_utc": "2026-10-06T21:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Sunrun (RUN) Exceeds Market Returns: Some Facts to Consider"
     }
   ]
 }

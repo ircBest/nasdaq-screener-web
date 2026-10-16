@@ -1,9 +1,14 @@
 {
   "ticker": "OKTA",
-  "generated_at": "2026-10-15T08:36:51+00:00",
+  "generated_at": "2026-10-16T08:29:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-14T21:00:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Okta (OKTA) Dips More Than Broader Market: What You Should Know"
+    },
     {
       "published_utc": "2026-10-13T13:49:59+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-06T11:09:17+00:00",
       "publisher": "SeekingAlpha",
       "title": "Okta: Don't Pay 54x Adjusted Earnings For An Unproven Opportunity"
-    },
-    {
-      "published_utc": "2026-10-05T21:31:00+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Reasons OKTA is Risky and 1 Stock to Buy Instead"
     }
   ]
 }
