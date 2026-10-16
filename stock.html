@@ -56,6 +56,13 @@
 .news .src{font-size:11px;color:var(--text-dim);margin-top:2px}
 .news-note{font-size:11px;color:var(--text-faint);margin:8px 2px 0;line-height:1.6}
 .news .when span{display:block}
+.read-lines{list-style:none;margin:0 0 12px;padding:0;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.read-lines li{padding:10px 14px;border-bottom:1px solid var(--border);font-size:13px;line-height:1.5;color:var(--text)}
+.read-lines li:last-child{border-bottom:none}
+.trend-chip{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;
+  border:1px solid var(--border);color:var(--text-dim);margin-left:6px}
+.trend-chip.up{color:var(--green);border-color:var(--green)}
+.trend-chip.down{color:var(--red);border-color:var(--red)}
 @media (max-width:480px){.news li{grid-template-columns:1fr;gap:2px}
   .news .when span{display:inline;margin-left:6px}}
 </style>
@@ -343,10 +350,84 @@ function newsSection(news){
     </section>`;
 }
 
+/* 차트 요약 — 수출 단계(export_series.chart_summary)가 계산한 지금 위치.
+   판단(사라 · 팔아라)은 적지 않는다. */
+function pctCell(v){
+  return v!=null ? `<span class="${changeClass(v)}">${fmtPctShort(v)}</span>` : "-";
+}
+
+function chartSection(ch){
+  if(!ch) return "";
+  if(!ch.available){
+    return `
+    <section>
+      <div class="section-title"><div class="title">차트 요약</div></div>
+      <div class="state">${escapeHTML(ch.reason || "차트를 읽을 시세가 아직 모자랍니다.")}</div>
+    </section>`;
+  }
+  const tone = ch.trend === "오름 흐름" ? "up" : ch.trend === "내림 흐름" ? "down" : "";
+  return `
+    <section>
+      <div class="section-title">
+        <div class="title">차트 요약<span class="trend-chip ${tone}">${escapeHTML(ch.trend || "")}</span></div>
+        <div class="hint">${escapeHTML(ch.as_of || "")} 종가 기준</div>
+      </div>
+      <ul class="read-lines">
+        ${(ch.lines || []).map(l=>`<li>${escapeHTML(l)}</li>`).join("")}
+      </ul>
+      <div class="kv">
+        <div><div class="k">20일선</div><div class="v mono">${fmtPrice(ch.ma20)}</div>
+          <div class="n">5거래일 전보다 ${ch.ma20_slope_pct!=null?fmtPctShort(ch.ma20_slope_pct):"-"}</div></div>
+        <div><div class="k">50일선</div><div class="v mono">${ch.ma50!=null?fmtPrice(ch.ma50):"-"}</div></div>
+        <div><div class="k">RSI(14)</div><div class="v mono">${ch.rsi!=null?ch.rsi.toFixed(0):"-"}</div>
+          <div class="n">${escapeHTML(ch.rsi_label || "")}</div></div>
+        <div><div class="k">${ch.window}거래일 고점 대비</div><div class="v mono">${pctCell(ch.from_high_pct)}</div>
+          <div class="n">고점 ${fmtPrice(ch.high)}</div></div>
+        <div><div class="k">${ch.window}거래일 저점 대비</div><div class="v mono">${pctCell(ch.from_low_pct)}</div>
+          <div class="n">저점 ${fmtPrice(ch.low)}</div></div>
+        <div><div class="k">단기 지지 · 저항</div><div class="v mono" style="font-size:14px">${fmtPrice(ch.support20)} · ${fmtPrice(ch.resistance20)}</div>
+          <div class="n">최근 20거래일 저가 · 고가</div></div>
+        <div><div class="k">하루 움직임</div><div class="v mono">±${ch.daily_move_pct!=null?ch.daily_move_pct.toFixed(1):"-"}%</div>
+          <div class="n">최근 20거래일 보통 폭</div></div>
+      </div>
+      <div class="news-note">${escapeHTML(ch.note || "")}</div>
+    </section>`;
+}
+
+/* 과거 비슷한 흐름 — outlook.py 가 센 과거 기록의 빈도. 예측이 아니다. */
+function outlookCell(label, o, base){
+  if(!o) return `<div><div class="k">${label}</div><div class="v mono">-</div></div>`;
+  return `
+    <div><div class="k">${label}</div>
+      <div class="v mono">${(o.rate*100).toFixed(0)}%</div>
+      <div class="n">가운데 ${fmtPctShort(o.median_pct)} · 절반이 ${fmtPctShort(o.q25_pct)} ~ ${fmtPctShort(o.q75_pct)}</div>
+      <div class="n">모든 과거 사례 평균 ${base!=null?(base*100).toFixed(0)+"%":"-"}</div></div>`;
+}
+
+function outlookSection(o){
+  if(!o) return "";
+  const n = (o.up5 && o.up5.n) || (o.up60 && o.up60.n);
+  const tk = (o.up5 && o.up5.tickers) || (o.up60 && o.up60.tickers);
+  return `
+    <section>
+      <div class="section-title">
+        <div class="title">과거 비슷한 흐름</div>
+        <div class="hint">${escapeHTML(o.as_of || "")} 종가 기준 · 비슷한 사례 ${n || "-"}건 (${tk || "-"}개 종목)</div>
+      </div>
+      <div class="kv">
+        ${outlookCell("5거래일 뒤 오른 비율", o.up5, o.base && o.base.up5)}
+        ${outlookCell("60거래일 뒤 오른 비율", o.up60, o.base && o.base.up60)}
+      </div>
+      <div class="news-note">${escapeHTML(o.note || "")}</div>
+      <div class="news-note">${escapeHTML(o.reliability || "")}</div>
+    </section>`;
+}
+
 function render(info){
   const {signal, history, series, latest, news} = info;
 
-  const price = latest?.price ?? signal?.entry_price;
+  /* 오늘 신호가 없는 종목은 latest 가 없다 — 옛 신호의 진입가 대신 차트 요약의 마지막 종가를 쓴다. */
+  const price = latest?.price ?? series?.chart?.close ?? signal?.entry_price;
   const change = latest?.day_change_pct;
 
   const volAvailable = series && series.volume && series.volume.available;
@@ -414,6 +495,10 @@ function render(info){
         </div>
       `}
     </section>
+
+    ${chartSection(series && series.chart)}
+
+    ${outlookSection(series && series.outlook)}
 
     ${newsSection(news)}
 
