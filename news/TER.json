@@ -1,13 +1,23 @@
 {
   "ticker": "TER",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-16T20:19:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Vishay Intertechnology, FormFactor, Teradyne, Penguin Solutions, and Applied Materials Stocks Trade Down, What You Need To Know"
+    },
+    {
       "published_utc": "2026-10-15T17:36:27+00:00",
       "publisher": "Yahoo",
       "title": "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know"
+    },
+    {
+      "published_utc": "2026-10-15T17:00:54+00:00",
+      "publisher": "Benzinga",
+      "title": "Here's How Much $1000 Invested In Teradyne 20 Years Ago Would Be Worth Today"
     },
     {
       "published_utc": "2026-10-14T20:17:27+00:00",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-12T21:15:02+00:00",
       "publisher": "Yahoo",
       "title": "Here's Why Teradyne (TER) Fell More Than Broader Market"
-    },
-    {
-      "published_utc": "2026-10-12T20:48:47+00:00",
-      "publisher": "Yahoo",
-      "title": "FormFactor stock rises on $300M Teradyne investment deal"
-    },
-    {
-      "published_utc": "2026-10-12T20:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing"
     }
   ]
 }

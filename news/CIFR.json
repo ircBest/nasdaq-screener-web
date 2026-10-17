@@ -1,9 +1,24 @@
 {
   "ticker": "CIFR",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-16T07:33:51+00:00",
+      "publisher": "Benzinga",
+      "title": "Cantor Fitzgerald Maintains Overweight on Cipher Digital, Lowers Price Target to $19"
+    },
+    {
+      "published_utc": "2026-10-15T13:44:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Data Center Stocks Tumble as Financing Costs Draw Scrutiny: Cipher Digital Drops 9%, Applied Digital Falls 6%"
+    },
+    {
+      "published_utc": "2026-10-15T12:14:26+00:00",
+      "publisher": "Benzinga",
+      "title": "Cipher Digital Stock Drops as AI Buildout Debt Concerns Persist"
+    },
     {
       "published_utc": "2026-10-15T01:33:01+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-14T03:06:05+00:00",
       "publisher": "Yahoo",
       "title": "Why Did ASTS, CIFR, JOBY Stocks Plunge To 52-Week Lows Today?"
-    },
-    {
-      "published_utc": "2026-10-13T22:04:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Oct. 13: Cipher Digital Drops 13% on $850M Convertible Note Offering"
-    },
-    {
-      "published_utc": "2026-10-13T21:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Cipher Digital Inc. (CIFR) Dipped More Than Broader Market Today"
-    },
-    {
-      "published_utc": "2026-10-13T19:17:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital’s $850M Convertible Note, Goldman Sachs SpaceX Price Target, AMD’s Fermi Backstop"
     }
   ]
 }

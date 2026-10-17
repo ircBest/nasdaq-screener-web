@@ -1,9 +1,29 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-16T09:42:50+00:00",
+      "publisher": "Benzinga",
+      "title": "Why Is AST SpaceMobile Stock Falling Friday?"
+    },
+    {
+      "published_utc": "2026-10-16T06:23:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocktwits Space Race Weekly: SPCX Weathers Selloff Better Than ASTS, RKLB And FLY — RDW Fares Best"
+    },
+    {
+      "published_utc": "2026-10-16T04:24:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Did ASTS Miss Its Rocket Lab Moment? Analyst Warns Deal Window May Be Closing, Floats Firefly As A Target"
+    },
+    {
+      "published_utc": "2026-10-15T14:07:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Why There Might Be a Mathematical Incentive to Bet on AST SpaceMobile Stock’s 227% Options Spread"
+    },
     {
       "published_utc": "2026-10-15T13:06:25+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-14T12:58:37+00:00",
       "publisher": "Benzinga",
       "title": "AST SpaceMobile Stock Sinks To 52-Week Low - Here's Why"
-    },
-    {
-      "published_utc": "2026-10-14T03:06:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Did ASTS, CIFR, JOBY Stocks Plunge To 52-Week Lows Today?"
-    },
-    {
-      "published_utc": "2026-10-14T01:39:44+00:00",
-      "publisher": "Yahoo",
-      "title": "ASTS Stock Bounces Overnight: Vodafone Questions SpaceX’s Europe Push, AST Presses FCC On Spectrum"
-    },
-    {
-      "published_utc": "2026-10-13T21:08:39+00:00",
-      "publisher": "Yahoo",
-      "title": "ASTS Stock Hits Fresh 52-Week Low, But Clear Street Sees Six-Month Lead Over SpaceX"
-    },
-    {
-      "published_utc": "2026-10-13T20:42:01+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile vs. Rocket Lab: Which Space-Focused Stock Is a Better Buy in 2026?"
     }
   ]
 }

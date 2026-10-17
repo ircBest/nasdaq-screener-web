@@ -1,9 +1,29 @@
 {
   "ticker": "PANW",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-16T19:39:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Snowflake, Atlassian, Bandwidth, Five9, and Palo Alto Networks Stocks Trade Down, What You Need To Know"
+    },
+    {
+      "published_utc": "2026-10-16T18:10:59+00:00",
+      "publisher": "Yahoo",
+      "title": "Palo Alto Networks And 2 Other Top Cybersecurity Stocks"
+    },
+    {
+      "published_utc": "2026-10-15T16:13:38+00:00",
+      "publisher": "CNBC",
+      "title": "Palo Alto Networks CEO Nikesh Arora: Our security response time has to get faster as AI gets faster"
+    },
+    {
+      "published_utc": "2026-10-15T14:56:22+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Palo Alto Networks, Raises Price Target to $440"
+    },
     {
       "published_utc": "2026-10-15T12:02:16+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-13T12:00:03+00:00",
       "publisher": "Yahoo",
       "title": "Here is What to Know Beyond Why Palo Alto Networks, Inc. (PANW) is a Trending Stock"
-    },
-    {
-      "published_utc": "2026-10-13T11:17:11+00:00",
-      "publisher": "Benzinga",
-      "title": "Wells Fargo Maintains Overweight on Palo Alto Networks, Raises Price Target to $525"
-    },
-    {
-      "published_utc": "2026-10-13T01:35:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Palo Alto Networks (PANW) Stock Is Falling Today"
-    },
-    {
-      "published_utc": "2026-10-12T19:11:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto Networks (PANW) Expands Into Critical Infrastructure Cybersecurity"
-    },
-    {
-      "published_utc": "2026-10-12T18:08:28+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto Networks (PANW) Climbed, But What Is Drawing Fresh Attention?"
     }
   ]
 }

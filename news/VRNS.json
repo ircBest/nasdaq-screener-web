@@ -1,33 +1,68 @@
 {
   "ticker": "VRNS",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-16T09:25:16+00:00",
+      "publisher": "Benzinga",
+      "title": "Varonis to Go Private in $6.3 Billion Takeover"
+    },
+    {
+      "published_utc": "2026-10-16T09:22:22+00:00",
+      "publisher": "Benzinga",
+      "title": "Jefferies Downgrades Varonis Systems to Hold, Lowers Price Target to $49.75"
+    },
+    {
+      "published_utc": "2026-10-16T08:46:49+00:00",
+      "publisher": "Benzinga",
+      "title": "Wells Fargo Downgrades Varonis Systems to Equal-Weight, Lowers Price Target to $49.75"
+    },
+    {
+      "published_utc": "2026-10-16T08:29:01+00:00",
+      "publisher": "Benzinga",
+      "title": "Wedbush Maintains Neutral on Varonis Systems, Raises Price Target to $49.75"
+    },
+    {
+      "published_utc": "2026-10-16T07:44:50+00:00",
+      "publisher": "Benzinga",
+      "title": "Rosenblatt Downgrades Varonis Systems to Neutral, Lowers Price Target to $49.75"
+    },
+    {
+      "published_utc": "2026-10-16T07:11:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Proofpoint to acquire Varonis in $6.3bn cybersecurity deal"
+    },
+    {
+      "published_utc": "2026-10-16T05:43:43+00:00",
+      "publisher": "Benzinga",
+      "title": "Needham Downgrades Varonis Systems to Hold"
+    },
+    {
+      "published_utc": "2026-10-15T20:54:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Varonis stock climbs on $6.3 billion Proofpoint deal"
+    },
+    {
+      "published_utc": "2026-10-15T20:15:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Proofpoint to Acquire Varonis in a $6.3 Billion Transaction"
+    },
+    {
+      "published_utc": "2026-10-15T17:28:14+00:00",
+      "publisher": "Benzinga",
+      "title": "Varonis Systems To Pay Proofpoint Termination Fee Of $211.7M If Deal Terminated Under Specified Circumstances; Termination Fee Of $423.3M Will Be Payable By Proofpoint To Co If Deal Terminated Under Specified Circumstances"
+    },
+    {
+      "published_utc": "2026-10-15T16:16:30+00:00",
+      "publisher": "Benzinga",
+      "title": "Varonis Systems Agrees To Be Acquired By Thoma Bravo's Proofpoint For ~$6.3B In Cash"
+    },
+    {
       "published_utc": "2026-10-15T09:58:58+00:00",
       "publisher": "Benzinga",
       "title": "Wells Fargo Maintains Overweight on Varonis Systems, Raises Price Target to $53"
-    },
-    {
-      "published_utc": "2026-10-13T20:47:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is Varonis Systems (VRNS) Stock Soaring Today"
-    },
-    {
-      "published_utc": "2026-10-13T11:36:35+00:00",
-      "publisher": "Benzinga",
-      "title": "TD Cowen Maintains Buy on Varonis Systems, Raises Price Target to $56"
-    },
-    {
-      "published_utc": "2026-10-09T20:59:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Q2 Rundown: Varonis Systems (NASDAQ:VRNS) Vs Other Cybersecurity Stocks"
-    },
-    {
-      "published_utc": "2026-10-07T10:10:50+00:00",
-      "publisher": "ChartMill",
-      "title": "Varonis Systems (NASDAQ:VRNS) Breakout Setup Builds on Technical Strength"
     }
   ]
 }

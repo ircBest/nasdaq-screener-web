@@ -1,9 +1,14 @@
 {
   "ticker": "LYFT",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-15T20:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Lyft To Announce Third Quarter 2026 Financial Results"
+    },
     {
       "published_utc": "2026-10-15T12:00:00+00:00",
       "publisher": "Yahoo",
@@ -43,11 +48,6 @@
       "published_utc": "2026-10-05T10:47:14+00:00",
       "publisher": "Benzinga",
       "title": "Wells Fargo Maintains Equal-Weight on Lyft, Lowers Price Target to $17"
-    },
-    {
-      "published_utc": "2026-10-02T17:50:26+00:00",
-      "publisher": "Yahoo",
-      "title": "Lyft will pay more than $270 million in California wage-theft settlement"
     }
   ]
 }

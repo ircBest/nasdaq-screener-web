@@ -1,9 +1,24 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-16T18:20:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco (CSCO): Can Software Renewals Outlast the Networking Upgrade Cycle?"
+    },
+    {
+      "published_utc": "2026-10-16T17:04:00+00:00",
+      "publisher": "Yahoo",
+      "title": "ALAB vs. CSCO: Which AI Infrastructure Stock Is a Better Buy?"
+    },
+    {
+      "published_utc": "2026-10-15T23:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Not Nvidia. Not Cisco. This Is the AI Networking Stock Quietly Wiring Every Data Center"
+    },
     {
       "published_utc": "2026-10-15T21:16:53+00:00",
       "publisher": "Yahoo",
@@ -13,6 +28,16 @@
       "published_utc": "2026-10-15T16:53:16+00:00",
       "publisher": "Yahoo",
       "title": "How Rare Is Cisco's Record Sales Growth?"
+    },
+    {
+      "published_utc": "2026-10-15T15:42:36+00:00",
+      "publisher": "CNBC",
+      "title": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom"
+    },
+    {
+      "published_utc": "2026-10-15T14:12:51+00:00",
+      "publisher": "Benzinga",
+      "title": "Why Is Cisco Stock Falling on Thursday?"
     },
     {
       "published_utc": "2026-10-15T13:35:00+00:00",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-14T14:07:48+00:00",
       "publisher": "Yahoo",
       "title": "Cisco (CSCO): Can Its Earnings Recovery Turn Into Lasting Cash Growth?"
-    },
-    {
-      "published_utc": "2026-10-13T15:45:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco vs. IBM: Why the Stock Nobody Wants Could Be the Better Retirement Buy"
-    },
-    {
-      "published_utc": "2026-10-13T15:15:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco (CSCO) Stock May Be 14% Undervalued Despite Fresh AI Infrastructure News"
-    },
-    {
-      "published_utc": "2026-10-13T14:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Should You Buy, Sell, or Hold Cisco Stock After a 68% Rise in a Year?"
-    },
-    {
-      "published_utc": "2026-10-13T12:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco Systems, Inc. (CSCO) Is a Trending Stock: Facts to Know Before Betting on It"
-    },
-    {
-      "published_utc": "2026-10-12T18:24:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco, Nvidia Tackle AI's Growing Data Center Bottleneck"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-16T14:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "AKAM vs. ANET: Which AI Infrastructure Stock is the Better Buy Now?"
+    },
+    {
+      "published_utc": "2026-10-16T13:23:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Akamai's Expanding Cloud Business Boost Its Competitive Edge?"
+    },
+    {
+      "published_utc": "2026-10-16T12:37:52+00:00",
+      "publisher": "Yahoo",
+      "title": "This Week In Cloud AI - Akamai Technologies Boosts Global Cloud Service Adoption"
+    },
     {
       "published_utc": "2026-10-15T10:30:00+00:00",
       "publisher": "Yahoo",
@@ -48,16 +63,6 @@
       "published_utc": "2026-10-05T16:02:28+00:00",
       "publisher": "Yahoo",
       "title": "Akamai’s (AKAM) Latest Move Has Jim Cramer Thinking Differently"
-    },
-    {
-      "published_utc": "2026-10-05T15:07:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Should You Stay Cautious About AKAM Stock Despite AI Cloud Momentum?"
-    },
-    {
-      "published_utc": "2026-10-02T14:40:01+00:00",
-      "publisher": "Yahoo",
-      "title": "BEKE vs. AKAM: Which Stock Is the Better Value Option?"
     }
   ]
 }

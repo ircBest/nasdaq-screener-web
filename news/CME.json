@@ -1,9 +1,29 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-10-16T08:29:30+00:00",
+  "generated_at": "2026-10-17T08:07:43+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-16T15:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Polymarket Bitcoin and Rate Hike Odds Shift as CME Says No Change"
+    },
+    {
+      "published_utc": "2026-10-16T12:15:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Ahead of CME (CME) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics"
+    },
+    {
+      "published_utc": "2026-10-16T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Zacks Industry Outlook Highlights S&P Global, CME, Intercontinental Exchange, Nasdaq and Cboe Global Markets"
+    },
+    {
+      "published_utc": "2026-10-16T10:00:30+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Is Launching Uniswap and Bitcoin Cash Futures. Do Futures Actually Move Prices?"
+    },
     {
       "published_utc": "2026-10-14T23:24:50+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-13T13:10:55+00:00",
       "publisher": "Yahoo",
       "title": "CME vs. Robinhood Markets: Which Financial Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-10-12T22:36:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group's Corn Futures Set New Daily Volume Record After USDA Raised Outlook"
-    },
-    {
-      "published_utc": "2026-10-12T21:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group Announces Cloud Migration Milestones"
-    },
-    {
-      "published_utc": "2026-10-12T15:06:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can CME Group Sustain Trading Momentum Amid Easing Volatility?"
-    },
-    {
-      "published_utc": "2026-10-10T12:16:20+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "CME Group: I Missed The Best Entry"
     }
   ]
 }
