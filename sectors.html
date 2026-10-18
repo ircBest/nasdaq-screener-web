@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>업종 순위 · NASDAQ IT 스크리너</title>
+<meta name="description" content="어느 업종이 오르고 어느 업종이 빠지는지. 업종마다 최근 20 · 60거래일 흐름과 50일선 위 종목 비율을 모았습니다.">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="css/style.css?v=20260903a">
+<style>
+/* 업종 순위 전용 — 오늘의 순위(rankings.html)와 같은 틀 */
+.note{background:var(--surface-2);border:1px solid var(--border);
+  border-left:3px solid var(--amber);border-radius:var(--radius);
+  padding:14px 16px;margin-bottom:22px;font-size:13px;
+  color:var(--text-dim);line-height:1.7}
+
+.how{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius);padding:15px 18px;margin-bottom:22px;
+  font-size:13px;line-height:1.75;color:var(--text-dim)}
+.how b{color:var(--text)}
+.how p{margin:8px 0 0}
+
+.tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:10px;margin-bottom:26px}
+.tally > div{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius);padding:13px 15px}
+.tally .k{font-size:11px;color:var(--text-faint);letter-spacing:.04em;
+  margin-bottom:5px}
+.tally .v{font-size:21px;font-weight:700;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+
+h2.sec{font-size:15px;font-weight:700;margin:6px 0 4px;letter-spacing:-.01em}
+.sec-sub{font-size:12px;color:var(--text-faint);margin-bottom:12px;line-height:1.6}
+
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+  margin-bottom:12px}
+.bar button{font:inherit;font-size:12px;font-weight:600;
+  color:var(--text-dim);background:var(--surface-2);
+  border:1px solid var(--border);border-radius:999px;
+  padding:6px 13px;cursor:pointer}
+.bar button[aria-pressed="true"]{color:var(--bg);background:var(--blue);
+  border-color:var(--blue)}
+.bar button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
+.list{display:grid;gap:10px;margin-bottom:30px}
+.card{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius);padding:13px 15px}
+.card .top{display:flex;align-items:center;gap:10px;min-width:0}
+.card .rk{font-size:13px;font-weight:700;color:var(--text-dim);
+  min-width:24px;font-variant-numeric:tabular-nums}
+.card .nm{font-size:14px;font-weight:700;letter-spacing:-.01em;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.card .nm small{font-size:11px;font-weight:500;color:var(--text-faint);
+  margin-left:6px}
+.card .chip-slot{margin-left:auto;flex:none}
+
+.chip{display:inline-block;padding:2px 9px;border-radius:999px;
+  font-size:11px;font-weight:700;white-space:nowrap}
+.chip.up{background:rgba(62,207,142,.14);color:var(--green)}
+.chip.down{background:rgba(255,92,92,.14);color:var(--red)}
+.chip.mix{background:var(--surface-3);color:var(--text-dim)}
+
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;
+  margin-top:11px}
+.nums .k{font-size:10px;color:var(--text-faint);letter-spacing:.03em;
+  margin-bottom:2px}
+.nums .v{font-size:14px;font-weight:700;font-variant-numeric:tabular-nums}
+
+.meter{height:4px;background:var(--surface-3);border-radius:999px;
+  margin-top:10px;position:relative;overflow:hidden}
+.meter i{position:absolute;top:0;bottom:0;border-radius:999px}
+
+.leaders{margin-top:10px;font-size:12px;color:var(--text-faint);
+  display:flex;gap:10px;flex-wrap:wrap}
+.leaders a{color:var(--text-dim);text-decoration:none;font-weight:600}
+.leaders a:hover{color:var(--blue)}
+
+.plus{color:var(--green)}
+.minus{color:var(--red)}
+.dim{color:var(--text-faint)}
+
+.ref{font-size:12px;color:var(--text-dim);margin:-4px 0 14px;line-height:1.6}
+
+.empty{padding:22px;text-align:center;color:var(--text-dim);font-size:13px;
+  background:var(--surface-2);border:1px dashed var(--border);
+  border-radius:var(--radius);margin-bottom:30px}
+
+.foot{margin-top:8px;padding-top:18px;border-top:1px solid var(--border);
+  font-size:12px;color:var(--text-faint);line-height:1.8}
+
+@media (max-width: 420px){
+  .nums{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<main>
+
+  <a class="back" href="index.html" style="display:inline-flex;
+     align-items:center;gap:6px;color:var(--text-dim);
+     text-decoration:none;font-size:13px;margin-bottom:16px">
+     &larr; 목록으로</a>
+
+  <header>
+    <div class="eyebrow"><span class="dot"></span>업종 순위</div>
+    <h1>어느 업종이 오르고 어디가 빠지나</h1>
+    <div class="sub">
+      업종마다 최근 흐름을 모아 순서를 세웠습니다
+    </div>
+    <div style="margin-top:12px">
+      <a href="rankings.html" style="display:inline-flex;align-items:center;
+         gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
+         border:1px solid var(--border);border-radius:999px;
+         padding:6px 14px">
+        종목별 오늘의 순위 &rarr;
+      </a>
+    </div>
+  </header>
+
+  <div id="content">
+    <div class="empty">불러오는 중…</div>
+  </div>
+
+</main>
+
+<script>
+const $ = (s, r) => (r || document).querySelector(s);
+
+function esc(v) {
+  return String(v == null ? "" : v).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;",
+    '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+function pct(v) {
+  if (v == null) return '<span class="dim">—</span>';
+  const cls = v > 0 ? "plus" : (v < 0 ? "minus" : "");
+  return `<span class="${cls}">${v > 0 ? "+" : ""}${Number(v).toFixed(1)}%</span>`;
+}
+
+function chip(t) {
+  const cls = t === "오르는 중" ? "up" : (t === "내리는 중" ? "down" : "mix");
+  return `<span class="chip ${cls}">${esc(t || "—")}</span>`;
+}
+
+/* 20일 수익 막대 — 가운데가 0. 가장 큰 절댓값을 끝으로 둔다. */
+function meter(v, span) {
+  if (v == null || !span) return '<div class="meter"></div>';
+  const w = Math.min(50, Math.abs(v) / span * 50);
+  const left = v >= 0 ? 50 : 50 - w;
+  const color = v >= 0 ? "var(--green)" : "var(--red)";
+  return `<div class="meter" aria-hidden="true"><i style="left:${left}%;width:${w}%;background:${color}"></i></div>`;
+}
+
+const SORTS = {
+  rank: {label: "종합 순위", key: r => r.rank, asc: true},
+  r20:  {label: "20일",     key: r => r.r20,  asc: false},
+  r60:  {label: "60일",     key: r => r.r60,  asc: false},
+  r5:   {label: "5일",      key: r => r.r5,   asc: false},
+};
+
+let DATA = null;
+let sort = "rank";
+try { sort = localStorage.getItem("sectors.sort") || "rank"; } catch (e) {}
+if (!SORTS[sort]) sort = "rank";
+
+function sorted(list) {
+  const s = SORTS[sort];
+  return list.slice().sort((a, b) => {
+    const x = s.key(a), y = s.key(b);
+    if (x == null && y == null) return a.rank - b.rank;
+    if (x == null) return 1;
+    if (y == null) return -1;
+    return s.asc ? x - y : y - x;
+  });
+}
+
+function industryCards(list) {
+  if (!list.length) return '<div class="empty">업종 자료가 아직 없습니다.</div>';
+  const span = Math.max(1, ...list.map(r => Math.abs(r.r20 || 0)));
+  return `<div class="list">${sorted(list).map(r => `
+    <div class="card">
+      <div class="top">
+        <span class="rk">${r.rank}</span>
+        <span class="nm" title="${esc(r.industry)}">${esc(r.name)}<small>${r.count}종목</small></span>
+        <span class="chip-slot">${chip(r.trend)}</span>
+      </div>
+      <div class="nums">
+        <div><div class="k">5일</div><div class="v">${pct(r.r5)}</div></div>
+        <div><div class="k">20일</div><div class="v">${pct(r.r20)}</div></div>
+        <div><div class="k">60일</div><div class="v">${pct(r.r60)}</div></div>
+        <div><div class="k">50일선 위</div><div class="v">${r.above50 == null ? '<span class="dim">—</span>' : r.above50 + "%"}</div></div>
+      </div>
+      ${meter(r.r20, span)}
+      ${r.leaders && r.leaders.length ? `<div class="leaders">20일 상위
+        ${r.leaders.map(x => `<a href="stock.html?ticker=${encodeURIComponent(x.ticker)}">${esc(x.ticker)} ${pct(x.r20)}</a>`).join("")}
+      </div>` : ""}
+    </div>`).join("")}</div>`;
+}
+
+function marketCards(list) {
+  if (!list.length) {
+    return '<div class="empty">시장 섹터 시세는 다음 갱신부터 실립니다.</div>';
+  }
+  const span = Math.max(1, ...list.map(r => Math.abs(r.r20 || 0)));
+  return `<div class="list">${sorted(list).map(r => `
+    <div class="card">
+      <div class="top">
+        <span class="rk">${r.rank}</span>
+        <span class="nm">${esc(r.name)}<small>${esc(r.ticker)}</small></span>
+        <span class="chip-slot">${chip(r.trend)}</span>
+      </div>
+      <div class="nums">
+        <div><div class="k">5일</div><div class="v">${pct(r.r5)}</div></div>
+        <div><div class="k">20일</div><div class="v">${pct(r.r20)}</div></div>
+        <div><div class="k">60일</div><div class="v">${pct(r.r60)}</div></div>
+        <div><div class="k">50일선 대비</div><div class="v">${pct(r.gap50)}</div></div>
+      </div>
+      ${meter(r.r20, span)}
+    </div>`).join("")}</div>`;
+}
+
+function paint() {
+  $("#industries").innerHTML = industryCards(DATA.industries || []);
+  $("#market").innerHTML = marketCards(DATA.market || []);
+  document.querySelectorAll(".bar button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.sort === sort)));
+}
+
+function render(d) {
+  DATA = d;
+  const s = d.summary || {};
+  const ref = d.reference;
+
+  $("#content").innerHTML = `
+    <div class="note">${esc(d.note || "")}</div>
+
+    <div class="how">
+      <b>어떻게 읽나요</b>
+      <p>${esc(d.how || "")}</p>
+      <p><b>오르는 중</b>은 20일 수익이 플러스이고 절반 넘는 종목이 50일선 위에 있는 업종,
+         <b>내리는 중</b>은 20일 수익이 마이너스이고 50일선 위 종목이 30%가 안 되는 업종입니다.
+         나머지는 <b>섞여 있음</b>입니다.</p>
+      <p>위쪽 표는 이 사이트가 매일 살펴보는 종목(나스닥 기술주 위주)을 업종으로 묶은 것이라
+         에너지 · 헬스케어 같은 업종이 거의 없습니다. 그래서 아래에 미국 시장 전체의
+         섹터 ETF 11개를 따로 적습니다.</p>
+    </div>
+
+    <div class="tally">
+      <div><div class="k">업종</div><div class="v">${s.industries ?? "—"}</div></div>
+      <div><div class="k">묶은 종목</div><div class="v">${s.stocks ?? "—"}</div></div>
+      <div><div class="k">오르는 중</div><div class="v plus">${s.rising ?? "—"}</div></div>
+      <div><div class="k">내리는 중</div><div class="v minus">${s.falling ?? "—"}</div></div>
+    </div>
+
+    <div class="bar" role="group" aria-label="정렬">
+      ${Object.entries(SORTS).map(([k, v]) =>
+        `<button type="button" data-sort="${k}" aria-pressed="false">${v.label}</button>`
+      ).join("")}
+    </div>
+
+    <h2 class="sec">우리가 살펴보는 종목의 업종</h2>
+    <div class="sec-sub">업종 숫자는 그 업종 종목들의 중간값입니다.</div>
+    <div id="industries"></div>
+
+    <h2 class="sec">미국 시장 전체 섹터</h2>
+    <div class="sec-sub">섹터 ETF 11개의 같은 숫자입니다.</div>
+    ${ref ? `<div class="ref">기준 — ${esc(ref.name)}: 5일 ${pct(ref.r5)} · 20일 ${pct(ref.r20)} · 60일 ${pct(ref.r60)}</div>` : ""}
+    <div id="market"></div>
+
+    <div class="foot">
+      가격은 ${esc(d.price_date || "—")} 종가입니다. 5 · 20 · 60일은 거래일 기준입니다.<br>
+      지나온 흐름을 모은 순서이며, 앞으로 오를 업종을 맞힌다는 뜻이 아닙니다. 투자 권유가 아닙니다.<br>
+      갱신 ${esc((d.generated_at || "").slice(0, 16).replace("T", " "))} UTC
+    </div>`;
+
+  document.querySelectorAll(".bar button").forEach(b =>
+    b.addEventListener("click", () => {
+      sort = b.dataset.sort;
+      try { localStorage.setItem("sectors.sort", sort); } catch (e) {}
+      paint();
+    }));
+
+  paint();
+}
+
+(async () => {
+  try {
+    const r = await fetch("sectors.json", {cache: "no-cache"});
+    if (!r.ok) throw new Error(r.status);
+    render(await r.json());
+  } catch (e) {
+    $("#content").innerHTML =
+      '<div class="empty">아직 업종 순위가 없습니다. 다음 갱신에 생깁니다.</div>';
+  }
+})();
+</script>
+
+</body>
+</html>
