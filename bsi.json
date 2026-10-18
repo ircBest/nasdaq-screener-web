@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T08:04:52.078691+00:00",
+  "generated_at": "2026-10-18T08:19:57.544528+00:00",
   "index_name": "BSI",
   "description": "Signal 발생 이후 각 거래일의 평균 수익률",
   "base": 0.0,
@@ -13,14 +13,14 @@
       "trading_days": 5,
       "value": 0.089,
       "benchmark": 0.4303,
-      "alpha": -0.3413,
+      "alpha": -0.3414,
       "samples": 1864
     },
     "10d": {
       "trading_days": 10,
       "value": 1.6471,
       "benchmark": 1.0139,
-      "alpha": 0.6332,
+      "alpha": 0.6331,
       "samples": 1663
     },
     "30d": {
@@ -106,28 +106,28 @@
       "day": 5,
       "bsi_pct": 0.089,
       "benchmark_pct": 0.4303,
-      "alpha_pct": -0.3413,
+      "alpha_pct": -0.3414,
       "samples": 1864
     },
     {
       "day": 6,
       "bsi_pct": 0.7342,
       "benchmark_pct": 0.7436,
-      "alpha_pct": -0.0094,
+      "alpha_pct": -0.0095,
       "samples": 1768
     },
     {
       "day": 7,
       "bsi_pct": 0.7595,
       "benchmark_pct": 0.8079,
-      "alpha_pct": -0.0484,
+      "alpha_pct": -0.0485,
       "samples": 1727
     },
     {
       "day": 8,
       "bsi_pct": 0.7667,
       "benchmark_pct": 0.7418,
-      "alpha_pct": 0.0249,
+      "alpha_pct": 0.0248,
       "samples": 1698
     },
     {
@@ -141,7 +141,7 @@
       "day": 10,
       "bsi_pct": 1.6471,
       "benchmark_pct": 1.0139,
-      "alpha_pct": 0.6332,
+      "alpha_pct": 0.6331,
       "samples": 1663
     },
     {
@@ -307,9 +307,9 @@
     },
     {
       "day": 34,
-      "bsi_pct": -3.9694,
+      "bsi_pct": -3.9695,
       "benchmark_pct": 2.8432,
-      "alpha_pct": -6.8125,
+      "alpha_pct": -6.8127,
       "samples": 422
     },
     {

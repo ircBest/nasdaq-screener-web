@@ -1,13 +1,38 @@
 {
   "ticker": "MSFT",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-17T19:11:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft (MSFT) Is Facing Fresh Regulatory Pressure"
+    },
+    {
+      "published_utc": "2026-10-17T14:37:00+00:00",
+      "publisher": "Yahoo",
+      "title": "UBS resets Microsoft stock price target for investors"
+    },
+    {
+      "published_utc": "2026-10-17T14:36:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Here's How Microsoft's $175 Billion in Capital Expenditures Is Hurting Its Business"
+    },
+    {
+      "published_utc": "2026-10-17T01:10:06+00:00",
+      "publisher": "Benzinga",
+      "title": "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny"
+    },
+    {
       "published_utc": "2026-10-16T21:43:00+00:00",
       "publisher": "Yahoo",
       "title": "Not Alphabet. Not Microsoft. This Is the Cloud Stock I'd Buy With $5,000 Right Now."
+    },
+    {
+      "published_utc": "2026-10-16T19:11:18+00:00",
+      "publisher": "ChartMill",
+      "title": "Dow Jones Losers: GOOGL, CRM, MSFT, AMZN, CSCO in Today's US Session"
     },
     {
       "published_utc": "2026-10-16T16:45:18+00:00",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-16T15:32:03+00:00",
       "publisher": "Yahoo",
       "title": "High Switching Costs Protect Microsoft Corporation (MSFT) in the AI Era"
-    },
-    {
-      "published_utc": "2026-10-16T14:22:23+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "If AI Crumbles, Microsoft Wins"
-    },
-    {
-      "published_utc": "2026-10-16T12:57:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft’s AI Chief Says It Built a Better Model Than OpenAI’s With a Quarter of the Computing Power"
-    },
-    {
-      "published_utc": "2026-10-16T12:51:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NiSource Expands Microsoft Power Deal, Projects $1.75B In Customer Savings"
-    },
-    {
-      "published_utc": "2026-10-16T12:43:31+00:00",
-      "publisher": "Yahoo",
-      "title": "NiSource Signs 20-Year Microsoft Power Agreement for 1,100 MW Indiana Data Centre Campus"
-    },
-    {
-      "published_utc": "2026-10-16T11:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NiSource announces long-term agreement with Microsoft expected to increase customer savings and support Indiana’s economic growth"
     }
   ]
 }

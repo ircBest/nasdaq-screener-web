@@ -1,13 +1,23 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-17T21:10:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Global (COIN) Wins SEC Backing For Binaries And Flags Bitcoin Quantum Risk"
+    },
+    {
       "published_utc": "2026-10-16T15:28:00+00:00",
       "publisher": "Yahoo",
       "title": "Marqeta, Coinbase to Bring Stablecoin-Backed Cards to Businesses"
+    },
+    {
+      "published_utc": "2026-10-16T12:47:04+00:00",
+      "publisher": "Benzinga",
+      "title": "Coinbase Strikes Marqeta Deal but COIN Loses 3%"
     },
     {
       "published_utc": "2026-10-16T12:43:00+00:00",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-15T13:27:12+00:00",
       "publisher": "Yahoo",
       "title": "SEC Approves Binary Options on Coinbase and MARA Metrics, but Not a Bet on Bitcoin’s Price"
-    },
-    {
-      "published_utc": "2026-10-15T13:11:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Update: Market Chatter: Coinbase, Kalshi Sites Blocked in Taiwan Over Suspected Election Betting"
-    },
-    {
-      "published_utc": "2026-10-15T12:14:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Market Chatter: Coinbase, Kalshi Sites Blocked in Taiwan Over Suspected Election Betting"
     }
   ]
 }

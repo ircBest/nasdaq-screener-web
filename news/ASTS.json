@@ -1,13 +1,28 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-16T21:00:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Why AST SpaceMobile, Inc. (ASTS) Dipped More Than Broader Market Today"
+    },
+    {
+      "published_utc": "2026-10-16T10:11:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Launch Delays Could Change The Case For AST SpaceMobile Stock"
+    },
+    {
       "published_utc": "2026-10-16T09:42:50+00:00",
       "publisher": "Benzinga",
       "title": "Why Is AST SpaceMobile Stock Falling Friday?"
+    },
+    {
+      "published_utc": "2026-10-16T09:26:14+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocktwits Wall Street Wrap: Crocs, Liquidia Win Upgrades While SpaceX Competition And Grocery Woes Put AST SpaceMobile, Albertsons Under Pressure"
     },
     {
       "published_utc": "2026-10-16T06:23:10+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-14T20:23:00+00:00",
       "publisher": "Yahoo",
       "title": "AST SpaceMobile Is the New Battleground Stock"
-    },
-    {
-      "published_utc": "2026-10-14T17:00:55+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Is Building Something Wall Street Can’t Ignore"
-    },
-    {
-      "published_utc": "2026-10-14T14:31:31+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Falls 8% as Piper Sandler Cuts Target to $54 on SpaceX Competition; Rocket Lab Slips"
-    },
-    {
-      "published_utc": "2026-10-14T12:58:37+00:00",
-      "publisher": "Benzinga",
-      "title": "AST SpaceMobile Stock Sinks To 52-Week Low - Here's Why"
     }
   ]
 }

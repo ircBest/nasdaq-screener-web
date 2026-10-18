@@ -1,9 +1,19 @@
 {
   "ticker": "AAOI",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-17T00:15:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Optoelectronics (AAOI) Completes $600 Million Follow On Equity Offering"
+    },
+    {
+      "published_utc": "2026-10-16T17:56:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Applied Optoelectronics Stock Plummeted This Week"
+    },
     {
       "published_utc": "2026-10-15T20:10:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-09T12:36:59+00:00",
       "publisher": "Yahoo",
       "title": "Optics Stocks Rally on Sold-Out Optical Capacity Through Early 2029: Applied Optoelectronics and Lumentum Surge 7%, Coherent Climbs 5%"
-    },
-    {
-      "published_utc": "2026-10-09T11:15:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Optoelectronics Has Fallen Hard for 6 Months: This Wall Street Analyst Expects It’s Going to Double Soon"
-    },
-    {
-      "published_utc": "2026-10-09T06:45:03+00:00",
-      "publisher": "Benzinga",
-      "title": "What's Going On With Applied Optoelectronics Stock Friday?"
     }
   ]
 }

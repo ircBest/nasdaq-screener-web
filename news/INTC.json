@@ -1,9 +1,24 @@
 {
   "ticker": "INTC",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-17T18:53:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Jim Cramer On Micron (MU) & Intel (INTC): Nothing Is Working Despite Good Businesses & Strong Quarters"
+    },
+    {
+      "published_utc": "2026-10-17T17:26:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel Stock Fell Nearly 6% as TSMC Took Aim at Its Packaging Business. Here’s What It Means for Intel’s Margins"
+    },
+    {
+      "published_utc": "2026-10-17T11:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "1 Reason Intel Stock Could Outperform in 2027"
+    },
     {
       "published_utc": "2026-10-16T20:11:39+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-15T15:19:11+00:00",
       "publisher": "Yahoo",
       "title": "TSMC CEO Hints Company Could Back Up Customers If Intel’s Advanced Packaging Ramp-Up Falls Short"
-    },
-    {
-      "published_utc": "2026-10-15T14:53:59+00:00",
-      "publisher": "Benzinga",
-      "title": "Intel Shares Rise Over 3% After Key Trading Signal"
-    },
-    {
-      "published_utc": "2026-10-15T13:08:47+00:00",
-      "publisher": "Yahoo",
-      "title": "Taiwan Semiconductor Falls 3% Despite Record Quarterly Profit; Intel Drops 4%, AMD Slides 3%"
-    },
-    {
-      "published_utc": "2026-10-15T12:57:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel vs. Qualcomm: Which Tech Stock Is a Better Buy in 2026?"
     }
   ]
 }

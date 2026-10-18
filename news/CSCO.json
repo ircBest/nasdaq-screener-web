@@ -1,9 +1,24 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-17T14:30:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Prediction: Cisco Stock Could Surprise Wall Street by 2030"
+    },
+    {
+      "published_utc": "2026-10-17T03:22:43+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Systems Heads 3 AI Infrastructure Stocks To Watch"
+    },
+    {
+      "published_utc": "2026-10-16T19:11:18+00:00",
+      "publisher": "ChartMill",
+      "title": "Dow Jones Losers: GOOGL, CRM, MSFT, AMZN, CSCO in Today's US Session"
+    },
     {
       "published_utc": "2026-10-16T18:20:51+00:00",
       "publisher": "Yahoo",
@@ -13,6 +28,11 @@
       "published_utc": "2026-10-16T17:04:00+00:00",
       "publisher": "Yahoo",
       "title": "ALAB vs. CSCO: Which AI Infrastructure Stock Is a Better Buy?"
+    },
+    {
+      "published_utc": "2026-10-16T11:07:26+00:00",
+      "publisher": "Benzinga",
+      "title": "Nvidia, Micron and Broadcom Already Trade Like Cisco Post Dot-Com Burst: Bank of America"
     },
     {
       "published_utc": "2026-10-15T23:35:00+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-15T13:35:00+00:00",
       "publisher": "Yahoo",
       "title": "How Cisco and Jagriti Are Unlocking Digital Potential in Purvanchal"
-    },
-    {
-      "published_utc": "2026-10-15T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Quantum XChange Strengthens Advisory Board with Former BlackRock Chief Innovation Officer Kfir Godrich and Longtime Cisco Senior Executive Chris White"
-    },
-    {
-      "published_utc": "2026-10-14T20:45:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's Why Cisco Systems (CSCO) Fell More Than Broader Market"
-    },
-    {
-      "published_utc": "2026-10-14T19:16:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco Stock And 2 Value Plays For An Overvalued Market"
-    },
-    {
-      "published_utc": "2026-10-14T14:07:48+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco (CSCO): Can Its Earnings Recovery Turn Into Lasting Cash Growth?"
     }
   ]
 }

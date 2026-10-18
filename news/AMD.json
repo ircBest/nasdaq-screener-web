@@ -1,9 +1,19 @@
 {
   "ticker": "AMD",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-17T16:50:00+00:00",
+      "publisher": "Yahoo",
+      "title": "1 Red Flag That AMD Investors Should Be Aware Of Now"
+    },
+    {
+      "published_utc": "2026-10-16T23:12:49+00:00",
+      "publisher": "Yahoo",
+      "title": "How much AMD stock does CEO Lisa Su actually own?"
+    },
     {
       "published_utc": "2026-10-16T20:03:39+00:00",
       "publisher": "Yahoo",
@@ -30,6 +40,11 @@
       "title": "Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady"
     },
     {
+      "published_utc": "2026-10-16T14:34:01+00:00",
+      "publisher": "Benzinga",
+      "title": "SemiAnalysis Pots On X \"SHOCKING: We have confirmed that multiple Neoclouds have been refused access to GTC Berlin due to them adding AMD GPUs, TPUs, and other chips to their cloud offerings. Note that this doesn't apply to hyperscalers, as they have more buying power. But for neoclouds, executives"
+    },
+    {
       "published_utc": "2026-10-16T13:49:39+00:00",
       "publisher": "Yahoo",
       "title": "Is AMD Stock Safer Or Riskier Than A Year Ago?"
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-16T09:04:00+00:00",
       "publisher": "Yahoo",
       "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching"
-    },
-    {
-      "published_utc": "2026-10-16T09:03:29+00:00",
-      "publisher": "Yahoo",
-      "title": "NVDA Bucks Selloff As MU, INTC, AMD Slide Premarket Amid Chip Rout"
-    },
-    {
-      "published_utc": "2026-10-16T05:35:15+00:00",
-      "publisher": "Benzinga",
-      "title": "Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity"
-    },
-    {
-      "published_utc": "2026-10-15T18:10:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Advanced Micro Devices (AMD) Expands AI Infrastructure Cooling, Is The Stock Fully Priced?"
     }
   ]
 }

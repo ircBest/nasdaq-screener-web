@@ -1,9 +1,14 @@
 {
   "ticker": "SAIL",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-17T10:26:54+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "SailPoint: The Identity Layer For AI Agents"
+    },
     {
       "published_utc": "2026-10-14T19:02:22+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-07T07:14:33+00:00",
       "publisher": "Benzinga",
       "title": "Oppenheimer Initiates Coverage On SailPoint with Outperform Rating, Announces Price Target of $30"
-    },
-    {
-      "published_utc": "2026-10-06T23:13:28+00:00",
-      "publisher": "Yahoo",
-      "title": "SailPoint’s 40x Gap — Enterprise AI Agent Adoption Has Outrun Identity Security by a Factor of 40"
     }
   ]
 }

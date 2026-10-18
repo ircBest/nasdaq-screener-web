@@ -1,6 +1,6 @@
 {
   "ticker": "LRCX",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
@@ -13,6 +13,11 @@
       "published_utc": "2026-10-16T16:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Tesla, SpaceX, CoreWeave, Lam Research, Netflix, Strategy, and More Stocks That Explain Today’s Market"
+    },
+    {
+      "published_utc": "2026-10-16T15:30:09+00:00",
+      "publisher": "Benzinga",
+      "title": "Lam Research Could Swing $28.6 Billion After Earnings"
     },
     {
       "published_utc": "2026-10-16T12:15:17+00:00",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-13T12:41:13+00:00",
       "publisher": "ChartMill",
       "title": "Lam Research (NASDAQ:LRCX) Offers Dividend Investors Strong Payout Quality and Growth Potential"
-    },
-    {
-      "published_utc": "2026-10-13T00:51:09+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Lam Research Corporation: Strong FY27 Setup Makes It A Solid Bet Ahead Of Q1"
     }
   ]
 }

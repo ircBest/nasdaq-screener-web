@@ -1,9 +1,14 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-16T20:19:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Vishay Intertechnology, FormFactor, Teradyne, Penguin Solutions, and Applied Materials Stocks Trade Down, What You Need To Know"
+    },
     {
       "published_utc": "2026-10-16T13:32:00+00:00",
       "publisher": "SeekingAlpha",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-09T21:47:10+00:00",
       "publisher": "Yahoo",
       "title": "Stocks making big moves this week: PTC, Blink Charging, Onterris, Option Care Health, and Penguin Solutions"
-    },
-    {
-      "published_utc": "2026-10-09T15:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions initiated with a Buy from Bank of America on AI memory demand"
     }
   ]
 }

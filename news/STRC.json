@@ -1,9 +1,39 @@
 {
   "ticker": "STRC",
-  "generated_at": "2026-10-17T08:07:43+00:00",
+  "generated_at": "2026-10-18T08:21:13+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-16T22:15:34+00:00",
+      "publisher": "Yahoo",
+      "title": "Nasdaq 100 Records Worst Week In 18 Months As Investors Steer Clear Of Chipmakers — AAPL, MSTR, UBER, SOXX In Focus"
+    },
+    {
+      "published_utc": "2026-10-16T20:50:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy (MSTR) Falls More Steeply Than Broader Market: What Investors Need to Know"
+    },
+    {
+      "published_utc": "2026-10-16T20:35:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Strategy (MSTR) Stock Is Down Today"
+    },
+    {
+      "published_utc": "2026-10-16T19:03:31+00:00",
+      "publisher": "Yahoo",
+      "title": "MSCI Gets Ready to Show Saylor’s Strategy the Door"
+    },
+    {
+      "published_utc": "2026-10-16T14:49:34+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy stock falls 10% as Michael Saylor's bitcoin giant faces index-level threat"
+    },
+    {
+      "published_utc": "2026-10-16T14:10:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Index Rule Change Might Change The Case For Investing In Strategy Stock (MSTR)"
+    },
     {
       "published_utc": "2026-10-15T23:08:51+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-14T13:08:42+00:00",
       "publisher": "Yahoo",
       "title": "Michael Saylor Cheered a Rival’s $280 Million Bitcoin Buy Despite His Own Company Buying 85% Less the Same Week."
-    },
-    {
-      "published_utc": "2026-10-14T12:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Trending Stock Strategy Inc (MSTR) a Buy Now?"
-    },
-    {
-      "published_utc": "2026-10-14T04:21:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Michael Saylor Says Bitcoin Has Bottomed And Should Get Back Above $100,000: ‘Long-Term Forecast Is…’"
-    },
-    {
-      "published_utc": "2026-10-13T23:47:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Michael Saylor drops bold Bitcoin call ahead of major index review"
-    },
-    {
-      "published_utc": "2026-10-13T22:14:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy (MSTR) Stock Still Looks Like A Bargain Despite Its 354% Run"
-    },
-    {
-      "published_utc": "2026-10-13T18:57:59+00:00",
-      "publisher": "Yahoo",
-      "title": "MSCI's Index Position Disappointing: Michael Saylor"
-    },
-    {
-      "published_utc": "2026-10-13T18:48:11+00:00",
-      "publisher": "Yahoo",
-      "title": "'Inoculating' Investors, Could Buy Or Sell Bitcoin: Saylor"
     }
   ]
 }
