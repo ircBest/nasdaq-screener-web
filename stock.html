@@ -395,12 +395,17 @@ function chartSection(ch){
 }
 
 /* 과거 비슷한 흐름 — outlook.py 가 센 과거 기록의 빈도. 예측이 아니다. */
+/* 크게 보이는 숫자는 '고친 값' — 과거 시험에서 같은 비율이 나왔던 종목들이 실제로 오른 비율.
+   고친 값이 없는 옛 자료면 닮은 사례의 비율을 그대로 보인다. */
 function outlookCell(label, o, base){
   if(!o) return `<div><div class="k">${label}</div><div class="v mono">-</div></div>`;
+  const fixed = o.calibrated != null;
+  const main = fixed ? o.calibrated : o.rate;
   return `
     <div><div class="k">${label}</div>
-      <div class="v mono">${(o.rate*100).toFixed(0)}%</div>
-      <div class="n">가운데 ${fmtPctShort(o.median_pct)} · 절반이 ${fmtPctShort(o.q25_pct)} ~ ${fmtPctShort(o.q75_pct)}</div>
+      <div class="v mono">${(main*100).toFixed(0)}%</div>
+      ${fixed ? `<div class="n">과거 시험으로 고친 값 · 닮은 사례만 보면 ${(o.rate*100).toFixed(0)}%</div>` : ""}
+      <div class="n">닮은 사례 가운데 ${fmtPctShort(o.median_pct)} · 절반이 ${fmtPctShort(o.q25_pct)} ~ ${fmtPctShort(o.q75_pct)}</div>
       <div class="n">모든 과거 사례 평균 ${base!=null?(base*100).toFixed(0)+"%":"-"}</div></div>`;
 }
 
