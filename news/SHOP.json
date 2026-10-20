@@ -1,9 +1,24 @@
 {
   "ticker": "SHOP",
-  "generated_at": "2026-10-19T09:24:12+00:00",
+  "generated_at": "2026-10-20T08:49:29+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-19T15:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "All You Need to Know About Shopify (SHOP) Rating Upgrade to Strong Buy"
+    },
+    {
+      "published_utc": "2026-10-19T12:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Here is What to Know Beyond Why Shopify Inc. (SHOP) is a Trending Stock"
+    },
+    {
+      "published_utc": "2026-10-19T06:42:30+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Shopify Q3 Preview: A Great But Already Expensive Business"
+    },
     {
       "published_utc": "2026-10-17T05:17:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-15T13:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Shopify Marketing Agency Advisory: October API Update Changes How Shipping, Inventory and Order Apps Work"
-    },
-    {
-      "published_utc": "2026-10-15T09:21:05+00:00",
-      "publisher": "ChartMill",
-      "title": "Shopify (NASDAQ:SHOP) Shows High-Growth Leadership and Momentum in CAN SLIM Screen"
-    },
-    {
-      "published_utc": "2026-10-15T07:53:04+00:00",
-      "publisher": "Yahoo",
-      "title": "SHOP Stock Heads For 4th Green Week: Analysts See Up To 10% Upside For Shopify Ahead Of Earnings"
-    },
-    {
-      "published_utc": "2026-10-14T17:01:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Shopify Stock Is Up 42% Since Mid-July. Should You Hold or Take Profits?"
     }
   ]
 }

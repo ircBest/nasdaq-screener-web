@@ -1,9 +1,39 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-10-19T09:24:12+00:00",
+  "generated_at": "2026-10-20T08:49:29+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-19T15:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CME vs. Coinbase Global: Which Financial Stock Is a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-19T13:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is a Beat in the Cards for CME Group This Earnings Season?"
+    },
+    {
+      "published_utc": "2026-10-19T11:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group Expands Dairy Business with New European Futures and Options"
+    },
+    {
+      "published_utc": "2026-10-19T10:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group to Launch Tungsten Futures to Meet Rising Demand for Critical Minerals"
+    },
+    {
+      "published_utc": "2026-10-19T08:32:06+00:00",
+      "publisher": "Benzinga",
+      "title": "CME Group Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call"
+    },
+    {
+      "published_utc": "2026-10-19T06:14:43+00:00",
+      "publisher": "Benzinga",
+      "title": "CME Group To Launch Tungsten Futures; Trading Will Start By Early Q1 2027"
+    },
     {
       "published_utc": "2026-10-17T11:33:43+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-16T10:00:30+00:00",
       "publisher": "Yahoo",
       "title": "CME Is Launching Uniswap and Bitcoin Cash Futures. Do Futures Actually Move Prices?"
-    },
-    {
-      "published_utc": "2026-10-14T23:24:50+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Stock Seems Overvalued After Its 65% Five Year Run"
-    },
-    {
-      "published_utc": "2026-10-14T18:16:41+00:00",
-      "publisher": "Yahoo",
-      "title": "What CME Group (CME)'s Regulated Baseball Futures Launch Means For Shareholders"
-    },
-    {
-      "published_utc": "2026-10-14T17:14:39+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Stock Fair Value Edges Higher As Analysts Weigh Growth And Competition"
-    },
-    {
-      "published_utc": "2026-10-14T16:12:28+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Expands Sports Futures, Is The Stock Still Undervalued?"
-    },
-    {
-      "published_utc": "2026-10-14T13:00:11+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Earnings Expected to Grow: What to Know Ahead of Next Week's Release"
-    },
-    {
-      "published_utc": "2026-10-14T10:40:34+00:00",
-      "publisher": "Benzinga",
-      "title": "Wells Fargo Maintains Overweight on CME Group, Raises Price Target to $315"
     }
   ]
 }

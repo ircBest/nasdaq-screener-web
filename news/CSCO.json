@@ -1,9 +1,34 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-10-19T09:24:12+00:00",
+  "generated_at": "2026-10-20T08:49:29+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-19T19:17:42+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Systems (CSCO) Unveiled 102.4T AI Networking Platforms"
+    },
+    {
+      "published_utc": "2026-10-19T18:20:19+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cisco: Don't Throw In The Towel Just Yet (Earnings Preview)"
+    },
+    {
+      "published_utc": "2026-10-19T18:06:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Networking Stocks Rally as Tech Rebound Lifts AI Gear Makers: Ciena and Arista Climb 4%, but Cisco Barely Moves"
+    },
+    {
+      "published_utc": "2026-10-19T17:00:59+00:00",
+      "publisher": "Yahoo",
+      "title": "Price Prediction: Cisco Stock Will Trade at $200 on This Date"
+    },
+    {
+      "published_utc": "2026-10-19T00:08:30+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cisco: Fundamental Fair Value, But Here's Where Major Technical Support Appears (Downgrade)"
+    },
     {
       "published_utc": "2026-10-17T14:30:56+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-15T23:35:00+00:00",
       "publisher": "Yahoo",
       "title": "Not Nvidia. Not Cisco. This Is the AI Networking Stock Quietly Wiring Every Data Center"
-    },
-    {
-      "published_utc": "2026-10-15T21:16:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco (CSCO) Backs A New 400G Optical Standard For AI Data Centers"
-    },
-    {
-      "published_utc": "2026-10-15T16:53:16+00:00",
-      "publisher": "Yahoo",
-      "title": "How Rare Is Cisco's Record Sales Growth?"
-    },
-    {
-      "published_utc": "2026-10-15T15:42:36+00:00",
-      "publisher": "CNBC",
-      "title": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom"
-    },
-    {
-      "published_utc": "2026-10-15T14:12:51+00:00",
-      "publisher": "Benzinga",
-      "title": "Why Is Cisco Stock Falling on Thursday?"
-    },
-    {
-      "published_utc": "2026-10-15T13:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "How Cisco and Jagriti Are Unlocking Digital Potential in Purvanchal"
     }
   ]
 }

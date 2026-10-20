@@ -1,9 +1,19 @@
 {
   "ticker": "ADP",
-  "generated_at": "2026-10-19T09:24:12+00:00",
+  "generated_at": "2026-10-20T08:49:29+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-19T15:45:00+00:00",
+      "publisher": "Yahoo",
+      "title": "ADP vs. PAYX: Which Payroll Stock Will Reward Retirees More Over the Next Decade?"
+    },
+    {
+      "published_utc": "2026-10-19T05:59:19+00:00",
+      "publisher": "Benzinga",
+      "title": "Evaluating Automatic Data Processing Against Peers In Professional Services Industry"
+    },
     {
       "published_utc": "2026-10-16T05:58:40+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-09T13:34:00+00:00",
       "publisher": "Yahoo",
       "title": "Reasons Why Investors Can Consider Buying ADP Stock Now"
-    },
-    {
-      "published_utc": "2026-10-08T13:59:47+00:00",
-      "publisher": "Yahoo",
-      "title": "Automatic Data Processing (ADP) Has a Hidden Earnings Advantage From Higher Interest Rates"
-    },
-    {
-      "published_utc": "2026-10-08T12:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ADP Canada Pay Insights: Pay for Job-Stayers Was Up 3.0% in September"
     }
   ]
 }

@@ -1,9 +1,14 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-10-19T09:24:12+00:00",
+  "generated_at": "2026-10-20T08:49:29+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-19T12:00:46+00:00",
+      "publisher": "ChartMill",
+      "title": "Fortinet (NASDAQ:FTNT): A High-Quality Stock with Strong Fundamentals and a Premium Price"
+    },
     {
       "published_utc": "2026-10-16T15:45:03+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-13T16:13:56+00:00",
       "publisher": "Yahoo",
       "title": "Is Fortinet’s AI Security Push and GovWare 2026 Spotlight Reshaping the Investment Case for FTNT?"
-    },
-    {
-      "published_utc": "2026-10-13T15:12:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet (FTNT) Could Be 54% Overvalued After Better Than Expected Earnings"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "CVLT",
-  "generated_at": "2026-10-19T09:24:12+00:00",
+  "generated_at": "2026-10-20T08:49:29+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-19T20:50:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Commvault Systems (CVLT) Outpaced the Stock Market Today"
+    },
+    {
+      "published_utc": "2026-10-19T12:30:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Commvault (CVLT) a Buy as Wall Street Analysts Look Optimistic?"
+    },
+    {
+      "published_utc": "2026-10-19T01:18:58+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Commvault Systems: Buy The Business, Respect The Print"
+    },
     {
       "published_utc": "2026-10-16T19:47:39+00:00",
       "publisher": "Yahoo",
@@ -43,16 +58,6 @@
       "published_utc": "2026-10-06T12:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Commvault Announces Second Quarter Fiscal Year 2027 Earnings Release Date"
-    },
-    {
-      "published_utc": "2026-10-05T20:50:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Commvault Systems (CVLT) Exceeds Market Returns: Some Facts to Consider"
-    },
-    {
-      "published_utc": "2026-10-05T14:26:57+00:00",
-      "publisher": "Benzinga",
-      "title": "Scotiabank Maintains Sector Perform on CommVault Systems, Raises Price Target to $160"
     }
   ]
 }

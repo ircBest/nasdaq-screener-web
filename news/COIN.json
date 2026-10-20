@@ -1,9 +1,24 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-10-19T09:24:12+00:00",
+  "generated_at": "2026-10-20T08:49:29+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-19T19:41:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase (COIN) Is Leaning on Institutions as Retail Revenue Fell 31%"
+    },
+    {
+      "published_utc": "2026-10-19T15:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CME vs. Coinbase Global: Which Financial Stock Is a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-19T11:24:42+00:00",
+      "publisher": "Yahoo",
+      "title": "Card Processor Giants Enter Stablecoin Settlement: Marqeta and Coinbase Wire Stablecoin Cards Through Base"
+    },
     {
       "published_utc": "2026-10-18T09:12:46+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-16T03:37:05+00:00",
       "publisher": "Benzinga",
       "title": "Coinbase Says Users May Face Delayed Sends On TON Network; Receives, Buys, Sells, Fiat Withdrawals And Deposits Not Affected, Funds Safe"
-    },
-    {
-      "published_utc": "2026-10-15T17:35:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Struggling Coinbase Stock May Be Ready For This Options Trade"
-    },
-    {
-      "published_utc": "2026-10-15T15:18:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global Stock Drops 24% YTD: Time to Buy the Dip?"
-    },
-    {
-      "published_utc": "2026-10-15T15:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Citi hikes price targets on Coinbase, Gemini, Galaxy"
     }
   ]
 }
