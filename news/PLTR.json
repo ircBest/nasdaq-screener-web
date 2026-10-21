@@ -1,9 +1,44 @@
 {
   "ticker": "PLTR",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Mural, a startup founded by former Palantir engineers, raises $15 million bid to connect banks to the emerging bot economy"
+    },
+    {
+      "published_utc": "2026-10-20T12:26:20+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Palantir: Wall Street Expects Shrinking Margins, I See The Opposite"
+    },
+    {
+      "published_utc": "2026-10-20T09:52:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Not Palantir. Not Snowflake. This AI Software Stock Could Be the Biggest Winner of 2027."
+    },
+    {
+      "published_utc": "2026-10-20T08:51:00+00:00",
+      "publisher": "Benzinga",
+      "title": "PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’"
+    },
+    {
+      "published_utc": "2026-10-20T00:33:08+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Palantir: Higher Fair Value But Not Enough So I Switched From Bullish To Neutral"
+    },
+    {
+      "published_utc": "2026-10-19T23:00:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Nasdaq 100 Sees Best Day In Nearly A Month As AI Rout Cools — AMZN, BE, CRWV, AAPL, PLTR In Focus"
+    },
+    {
+      "published_utc": "2026-10-19T21:45:15+00:00",
+      "publisher": "Benzinga",
+      "title": "Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock"
+    },
     {
       "published_utc": "2026-10-19T21:44:55+00:00",
       "publisher": "Yahoo",
@@ -28,41 +63,6 @@
       "published_utc": "2026-10-19T19:20:00+00:00",
       "publisher": "Yahoo",
       "title": "Palantir Stock Is Near a Record High. Should Investors Sell?"
-    },
-    {
-      "published_utc": "2026-10-19T18:10:39+00:00",
-      "publisher": "Yahoo",
-      "title": "How Could Palantir Technologies (PLTR) Speed Secure Federal Cloud Delivery?"
-    },
-    {
-      "published_utc": "2026-10-19T16:51:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Palantir Technologies Stock Rallied Today"
-    },
-    {
-      "published_utc": "2026-10-19T16:46:15+00:00",
-      "publisher": "Yahoo",
-      "title": "PLTR Stock Gains After Palantir Expands Federal Push With Knox Systems Partnership"
-    },
-    {
-      "published_utc": "2026-10-19T16:24:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Palantir rallies after last week's beating — here's where sellers could reload"
-    },
-    {
-      "published_utc": "2026-10-19T15:57:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Palantir Rises 5% on Knox Partnership for Federal Cloud Software; Leidos Edges Higher, Booz Allen Hamilton Slips"
-    },
-    {
-      "published_utc": "2026-10-19T15:52:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Palantir: TITAN System Delivery And My DOW Mistake"
-    },
-    {
-      "published_utc": "2026-10-19T15:30:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Palantir Is Expanding Beyond Government Contracts. Here’s Why Investors Should Care"
     }
   ]
 }

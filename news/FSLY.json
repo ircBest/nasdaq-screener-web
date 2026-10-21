@@ -1,9 +1,24 @@
 {
   "ticker": "FSLY",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T02:18:06+00:00",
+      "publisher": "Yahoo",
+      "title": "How JioCDN Expansion Will Impact Fastly (FSLY) Investors"
+    },
+    {
+      "published_utc": "2026-10-19T21:44:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Twilio, JFrog, Fastly, Palantir Technologies, and Snowflake Shares Are Soaring, What You Need To Know"
+    },
+    {
+      "published_utc": "2026-10-19T12:40:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Fastly (FSLY) Stock Outpacing Its Computer and Technology Peers This Year?"
+    },
     {
       "published_utc": "2026-10-15T19:55:09+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-12T08:18:42+00:00",
       "publisher": "Benzinga",
       "title": "What's Going On With Fastly Stock Monday?"
-    },
-    {
-      "published_utc": "2026-10-10T23:12:32+00:00",
-      "publisher": "Yahoo",
-      "title": "Fastly (FSLY) Stock Fair Value Edges Higher After Investor Day And Analyst Revisions"
-    },
-    {
-      "published_utc": "2026-10-10T11:16:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Fastly (FSLY) Is Up 13.5% After Comcast Taps Its Edge Platform for Peacock Streaming Partnership – Has The Bull Case Changed?"
-    },
-    {
-      "published_utc": "2026-10-10T07:11:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Fastly (FSLY) Climbed, So What Is Behind The Latest Attention?"
     }
   ]
 }

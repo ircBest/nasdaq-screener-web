@@ -1,9 +1,34 @@
 {
   "ticker": "SYNA",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T12:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Synaptics Launches the xMCU™ Era with the Astra® SR200 Series of Multimodal Edge AI Processors"
+    },
+    {
+      "published_utc": "2026-10-20T12:25:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Synaptics and Google Research Expand the Coralboard™ Ecosystem"
+    },
+    {
+      "published_utc": "2026-10-20T11:05:13+00:00",
+      "publisher": "Yahoo",
+      "title": "SPDR S&P Semiconductor ETF (XSD) Sells Synaptics, Analog Devices on Friday"
+    },
+    {
+      "published_utc": "2026-10-20T08:30:33+00:00",
+      "publisher": "Benzinga",
+      "title": "Synaptics Announces Availability Of Its Synaptics Coralboard For Purchase Through DigiKey"
+    },
+    {
+      "published_utc": "2026-10-19T05:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "ON- A Semi Stock to Target After Synaptics Acquisition"
+    },
     {
       "published_utc": "2026-10-19T03:58:02+00:00",
       "publisher": "Yahoo",
@@ -33,11 +58,6 @@
       "published_utc": "2026-10-07T10:15:00+00:00",
       "publisher": "SeekingAlpha",
       "title": "Synaptics: The Revised Onsemi Deal Is A Lot More Attractive Than Before"
-    },
-    {
-      "published_utc": "2026-10-06T15:20:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Why onsemi’s Synaptics Pivot Could Be a Game Changer"
     }
   ]
 }

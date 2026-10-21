@@ -1,9 +1,24 @@
 {
   "ticker": "BTDR",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T10:36:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitdeer Technologies Shares Rise 1.8% Premarket as Bitcoin Production Triples and AI Cloud Backlog Reaches $2.9 Billion"
+    },
+    {
+      "published_utc": "2026-10-19T21:32:50+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitdeer stock jumps on $2.9B AI Cloud revenue backlog"
+    },
+    {
+      "published_utc": "2026-10-19T16:51:58+00:00",
+      "publisher": "Benzinga",
+      "title": "Bitdeer Stock Jumps After Hours: Here's Why"
+    },
     {
       "published_utc": "2026-10-16T07:16:27+00:00",
       "publisher": "Yahoo",
@@ -48,11 +63,6 @@
       "published_utc": "2026-10-08T16:40:17+00:00",
       "publisher": "Benzinga",
       "title": "Bitdeer AI Active Pipeline For AI Cloud Capacity Estimated To Exceed $10B"
-    },
-    {
-      "published_utc": "2026-10-08T16:03:21+00:00",
-      "publisher": "Benzinga",
-      "title": "Bitdeer Technologies Announces New $100M Share Buyback Program Through October 7, 2028"
     }
   ]
 }

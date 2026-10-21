@@ -1,9 +1,24 @@
 {
   "ticker": "CVLT",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T14:14:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Commvault (CVLT) Stock May Be Cheap Following Its 132% Three Year Run"
+    },
+    {
+      "published_utc": "2026-10-20T12:10:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Commvault Systems (CVLT) Could Be 5% Undervalued Following Microsoft 365 Security Launch"
+    },
+    {
+      "published_utc": "2026-10-20T11:12:15+00:00",
+      "publisher": "Yahoo",
+      "title": "How Investors Are Reacting To Commvault Systems (CVLT) Microsoft 365 Security Launch"
+    },
     {
       "published_utc": "2026-10-19T20:50:04+00:00",
       "publisher": "Yahoo",
@@ -48,16 +63,6 @@
       "published_utc": "2026-10-08T17:52:09+00:00",
       "publisher": "Yahoo",
       "title": "Q2 Rundown: Commvault (NASDAQ:CVLT) Vs Other Data Storage Stocks"
-    },
-    {
-      "published_utc": "2026-10-07T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Commvault Appoints Matthew Stauble as Chief Customer Officer"
-    },
-    {
-      "published_utc": "2026-10-06T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Commvault Announces Second Quarter Fiscal Year 2027 Earnings Release Date"
     }
   ]
 }

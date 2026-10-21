@@ -1,9 +1,19 @@
 {
   "ticker": "NXPI",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T13:00:22+00:00",
+      "publisher": "Yahoo",
+      "title": "NXP Semiconductors (NXPI) Reports Next Week: Wall Street Expects Earnings Growth"
+    },
+    {
+      "published_utc": "2026-10-20T10:15:35+00:00",
+      "publisher": "Benzinga",
+      "title": "Wells Fargo Maintains Equal-Weight on NXP Semiconductors, Lowers Price Target to $235"
+    },
     {
       "published_utc": "2026-10-16T15:00:05+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-08T19:44:09+00:00",
       "publisher": "Yahoo",
       "title": "Why NXP Semiconductors (NXPI) Shares Are Falling Today"
-    },
-    {
-      "published_utc": "2026-10-08T17:13:10+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Downgrades NXP Semiconductors to Neutral, Lowers Price Target to $260"
-    },
-    {
-      "published_utc": "2026-10-08T12:46:26+00:00",
-      "publisher": "Yahoo",
-      "title": "NXP Semiconductors falls as Citi cuts stock on limited data center exposure"
     }
   ]
 }

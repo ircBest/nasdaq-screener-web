@@ -1,9 +1,24 @@
 {
   "ticker": "STX",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T18:19:45+00:00",
+      "publisher": "Yahoo",
+      "title": "STX Stock Adds 2% After Morgan Stanley Hikes Price Target To Nearly Double From Current Levels"
+    },
+    {
+      "published_utc": "2026-10-20T13:13:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Morgan Stanley cuts Western Digital target, raises Seagate amid HDD selloff"
+    },
+    {
+      "published_utc": "2026-10-20T12:59:00+00:00",
+      "publisher": "Yahoo",
+      "title": "80% Upside? Why Morgan Stanley Is Pounding the Table on Battered Seagate and Western Digital Stocks"
+    },
     {
       "published_utc": "2026-10-19T21:20:55+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-16T10:30:48+00:00",
       "publisher": "Benzinga",
       "title": "Seagate, Western Digital Face Supply Risks as AI Demand Drives Capacity Expansion"
-    },
-    {
-      "published_utc": "2026-10-15T14:49:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Seagate's 44TB Mozaic 4 Drives Lift Gross Margins Further?"
-    },
-    {
-      "published_utc": "2026-10-15T12:45:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Seagate Could Have a Long Runway as Data Storage Demand Explodes"
-    },
-    {
-      "published_utc": "2026-10-15T07:05:16+00:00",
-      "publisher": "Benzinga",
-      "title": "Seagate Is the Better Trade, Analyst Says — but What's Holding Western Digital Back?"
     }
   ]
 }

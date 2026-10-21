@@ -1,9 +1,29 @@
 {
   "ticker": "XNDU",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T00:17:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Xanadu Quantum Technologies And 2 Canadian Owner Operator Stocks To Watch"
+    },
+    {
+      "published_utc": "2026-10-19T14:23:55+00:00",
+      "publisher": "Benzinga",
+      "title": "Xanadu Stock Tumbles: What's Going On?"
+    },
+    {
+      "published_utc": "2026-10-19T14:04:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Xanadu Quantum stock rises on DARPA contract approval"
+    },
+    {
+      "published_utc": "2026-10-19T11:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Xanadu Secures Up to USD $10 Million in Additional DARPA Support to Accelerate Quantum R&D Roadmap"
+    },
     {
       "published_utc": "2026-10-19T07:05:17+00:00",
       "publisher": "Benzinga",
@@ -33,31 +53,6 @@
       "published_utc": "2026-10-07T17:12:53+00:00",
       "publisher": "Yahoo",
       "title": "Xanadu Quantum Technologies (TSX:XNDU) Moves Photonic Quantum Chips Into High Volume Manufacturing"
-    },
-    {
-      "published_utc": "2026-10-06T21:10:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Xanadu Quantum Stock Jumps on GlobalFoundries Pact to Mass-Produce Computers"
-    },
-    {
-      "published_utc": "2026-10-06T17:47:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Xanadu Soars 16% on Multi-Year GlobalFoundries Deal to Deliver “Quantum Computing at Scale”"
-    },
-    {
-      "published_utc": "2026-10-06T16:21:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Xanadu Quantum Technologies Stock Jumped 17% Today"
-    },
-    {
-      "published_utc": "2026-10-06T15:47:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Xanadu stock surges on GlobalFoundries quantum manufacturing deal"
-    },
-    {
-      "published_utc": "2026-10-06T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Xanadu and GlobalFoundries Announce Strategic Partnership to Accelerate Utility-Scale Quantum Manufacturing"
     }
   ]
 }

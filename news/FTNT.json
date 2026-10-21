@@ -1,9 +1,19 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CBTS and Fortinet Launch Fully Managed Secure Networking Service for Growing Mid-Market Organizations"
+    },
+    {
+      "published_utc": "2026-10-20T12:47:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Fortinet's SASE Momentum Propel the Stock to New Highs?"
+    },
     {
       "published_utc": "2026-10-19T12:00:46+00:00",
       "publisher": "ChartMill",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-14T12:42:00+00:00",
       "publisher": "Yahoo",
       "title": "NET vs. FTNT: Which Cybersecurity Stock Should You Buy Right Now?"
-    },
-    {
-      "published_utc": "2026-10-14T08:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Atos expands partnership with Fortinet to deliver a global unified cybersecurity framework across hybrid and multi-cloud environments"
-    },
-    {
-      "published_utc": "2026-10-13T16:13:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Fortinet’s AI Security Push and GovWare 2026 Spotlight Reshaping the Investment Case for FTNT?"
     }
   ]
 }

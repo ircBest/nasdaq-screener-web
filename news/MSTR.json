@@ -1,9 +1,19 @@
 {
   "ticker": "MSTR",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T16:04:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor Says Bitcoin's Next Bull Run Has Begun, Sees It Back In 'Six Figures' Within A Year"
+    },
+    {
+      "published_utc": "2026-10-19T20:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor Is Bullish on Bitcoin. Yet His Company's Money Is Going Somewhere Else."
+    },
     {
       "published_utc": "2026-10-19T17:18:13+00:00",
       "publisher": "Yahoo",
@@ -13,6 +23,11 @@
       "published_utc": "2026-10-19T16:54:59+00:00",
       "publisher": "Yahoo",
       "title": "Strategy Buys Back Their bitcoin, Closing in on 850K BTC"
+    },
+    {
+      "published_utc": "2026-10-19T16:07:21+00:00",
+      "publisher": "Benzinga",
+      "title": "Strategy (MSTR) Stock Just Flashed a Golden Cross. Bitcoin Bulls Still Have Two Problems"
     },
     {
       "published_utc": "2026-10-19T16:00:00+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-19T12:27:20+00:00",
       "publisher": "Yahoo",
       "title": "Strive and MicroStrategy Buy 1,490 Bitcoin as Market Recovers"
-    },
-    {
-      "published_utc": "2026-10-19T10:42:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Michael Saylor Calls Bitcoin Bull Market Return, While MARA Moves 1,000 BTC to Exchanges"
-    },
-    {
-      "published_utc": "2026-10-19T09:51:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin News: MARA Sent 1,000 BTC to Exchanges as Saylor Hints at Another Buy. Is the Biggest Miner Selling?"
-    },
-    {
-      "published_utc": "2026-10-19T08:54:16+00:00",
-      "publisher": "Benzinga",
-      "title": "Michael Saylor 'Found More Room for Orange' as Strategy Adds 267 Bitcoin"
     }
   ]
 }

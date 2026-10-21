@@ -1,9 +1,14 @@
 {
   "ticker": "SSNC",
-  "generated_at": "2026-10-20T08:49:29+00:00",
+  "generated_at": "2026-10-21T08:53:28+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T12:15:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Unlocking Q3 Potential of SS&C Technologies (SSNC): Exploring Wall Street Estimates for Key Metrics"
+    },
     {
       "published_utc": "2026-10-15T13:00:00+00:00",
       "publisher": "Yahoo",
@@ -33,11 +38,6 @@
       "published_utc": "2026-10-09T17:23:10+00:00",
       "publisher": "Yahoo",
       "title": "Data & Business Process Services Stocks Q2 Results: Benchmarking SS&C (NASDAQ:SSNC)"
-    },
-    {
-      "published_utc": "2026-10-06T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "SS&C to Release Third Quarter 2026 Earnings"
     }
   ]
 }

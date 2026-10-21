@@ -1,12 +1,12 @@
 {
-  "price_date": "2026-10-19",
-  "generated_at": "2026-10-20T08:49:28+00:00",
+  "price_date": "2026-10-20",
+  "generated_at": "2026-10-21T08:53:27+00:00",
   "note": "업종마다 최근 주가 흐름을 모아 세운 순서입니다. 지나온 흐름이지 앞으로 오를 업종을 맞힌다는 뜻이 아니며, 투자 권유가 아닙니다.",
   "how": "20거래일 수익 · 60거래일 수익 · 50일 평균선 위에 있는 종목 비율(시장 섹터는 50일 평균선과의 거리), 세 가지 순위의 평균으로 세웠습니다. 업종 숫자는 그 업종 종목들의 중간값입니다. 종목이 3개보다 적은 업종은 싣지 않습니다.",
   "summary": {
     "industries": 12,
-    "stocks": 307,
-    "rising": 3,
+    "stocks": 306,
+    "rising": 4,
     "falling": 7,
     "market_sectors": 11
   },
@@ -14,74 +14,74 @@
     {
       "industry": "Software - Application",
       "name": "응용 소프트웨어",
-      "count": 81,
-      "r5": 0.0,
-      "r20": 2.5,
-      "r60": 14.8,
-      "above50": 60,
+      "count": 80,
+      "r5": 2.0,
+      "r20": 6.4,
+      "r60": 13.2,
+      "above50": 69,
       "trend": "오르는 중",
       "leaders": [
         {
+          "ticker": "BRZE",
+          "r20": 78.6
+        },
+        {
           "ticker": "PTC",
-          "r20": 42.7
+          "r20": 38.1
         },
         {
-          "ticker": "TTAN",
-          "r20": 38.4
-        },
-        {
-          "ticker": "SHOP",
-          "r20": 24.0
+          "ticker": "DCBO",
+          "r20": 31.6
         }
       ],
       "rank": 1
     },
     {
-      "industry": "Electronics & Computer Distribution",
-      "name": "전자 · 컴퓨터 유통",
-      "count": 5,
-      "r5": -3.9,
-      "r20": 3.5,
-      "r60": 8.0,
-      "above50": 80,
+      "industry": "Financial Data & Stock Exchanges",
+      "name": "금융 데이터 · 거래소",
+      "count": 4,
+      "r5": 2.5,
+      "r20": 4.4,
+      "r60": 8.8,
+      "above50": 75,
       "trend": "오르는 중",
       "leaders": [
         {
-          "ticker": "CLMB",
-          "r20": 11.6
+          "ticker": "CME",
+          "r20": 10.5
         },
         {
-          "ticker": "NSIT",
-          "r20": 4.5
+          "ticker": "MORN",
+          "r20": 8.5
         },
         {
-          "ticker": "SCSC",
-          "r20": 3.5
+          "ticker": "NDAQ",
+          "r20": 0.3
         }
       ],
       "rank": 2
     },
     {
-      "industry": "Financial Data & Stock Exchanges",
-      "name": "금융 데이터 · 거래소",
-      "count": 4,
-      "r5": -0.2,
-      "r20": 0.3,
-      "r60": 10.7,
-      "above50": 50,
+      "industry": "Electronics & Computer Distribution",
+      "name": "전자 · 컴퓨터 유통",
+      "count": 5,
+      "r5": -7.4,
+      "r20": 1.5,
+      "r60": 8.3,
+      "above50": 80,
       "trend": "오르는 중",
       "leaders": [
         {
-          "ticker": "CME",
-          "r20": 6.5
+          "ticker": "NSIT",
+          "r20": 5.2
         },
         {
-          "ticker": "MORN",
-          "r20": 2.1
+          "ticker": "SCSC",
+          "r20": 4.3
         },
         {
-          "ticker": "NDAQ",
-          "r20": -1.6
+          "ticker": "CLMB",
+          "r20": 1.5
         }
       ],
       "rank": 3
@@ -90,23 +90,23 @@
       "industry": "Software - Infrastructure",
       "name": "인프라 소프트웨어",
       "count": 65,
-      "r5": -3.4,
-      "r20": -0.2,
-      "r60": 9.5,
-      "above50": 52,
-      "trend": "섞여 있음",
+      "r5": -1.7,
+      "r20": 0.1,
+      "r60": 10.8,
+      "above50": 60,
+      "trend": "오르는 중",
       "leaders": [
         {
           "ticker": "PICS",
-          "r20": 40.0
+          "r20": 47.9
         },
         {
-          "ticker": "PAYS",
-          "r20": 21.5
+          "ticker": "STNE",
+          "r20": 22.4
         },
         {
-          "ticker": "MQ",
-          "r20": 19.9
+          "ticker": "APPN",
+          "r20": 20.6
         }
       ],
       "rank": 4
@@ -115,173 +115,173 @@
       "industry": "Information Technology Services",
       "name": "IT 서비스",
       "count": 23,
-      "r5": 0.1,
-      "r20": -5.9,
-      "r60": 0.2,
+      "r5": 1.1,
+      "r20": -4.3,
+      "r60": 1.1,
       "above50": 39,
       "trend": "섞여 있음",
       "leaders": [
         {
           "ticker": "EXLS",
-          "r20": 12.8
-        },
-        {
-          "ticker": "IBEX",
-          "r20": 12.7
+          "r20": 16.7
         },
         {
           "ticker": "CTSH",
-          "r20": 12.5
+          "r20": 16.2
+        },
+        {
+          "ticker": "IBEX",
+          "r20": 10.6
         }
       ],
       "rank": 5
     },
     {
-      "industry": "Semiconductors",
-      "name": "반도체",
-      "count": 43,
-      "r5": -8.5,
-      "r20": -9.5,
-      "r60": -6.0,
-      "above50": 14,
-      "trend": "내리는 중",
-      "leaders": [
-        {
-          "ticker": "SYNA",
-          "r20": 22.7
-        },
-        {
-          "ticker": "ADI",
-          "r20": 3.0
-        },
-        {
-          "ticker": "ON",
-          "r20": 2.0
-        }
-      ],
-      "rank": 6
-    },
-    {
       "industry": "Scientific & Technical Instruments",
       "name": "과학 · 기술 계측기",
       "count": 7,
-      "r5": -4.0,
-      "r20": -6.5,
-      "r60": -7.1,
+      "r5": -2.3,
+      "r20": -6.0,
+      "r60": -3.7,
       "above50": 14,
       "trend": "내리는 중",
       "leaders": [
         {
           "ticker": "TRMB",
-          "r20": 3.8
-        },
-        {
-          "ticker": "NOVT",
-          "r20": -2.1
+          "r20": 4.8
         },
         {
           "ticker": "ITRN",
-          "r20": -4.4
+          "r20": -3.2
+        },
+        {
+          "ticker": "CGNX",
+          "r20": -3.7
         }
       ],
-      "rank": 7
+      "rank": 6
     },
     {
       "industry": "Communication Equipment",
       "name": "통신 장비",
       "count": 18,
-      "r5": -7.3,
-      "r20": -10.5,
-      "r60": -10.8,
-      "above50": 17,
+      "r5": -6.5,
+      "r20": -8.6,
+      "r60": -9.3,
+      "above50": 22,
       "trend": "내리는 중",
       "leaders": [
         {
+          "ticker": "ERIC",
+          "r20": 8.5
+        },
+        {
           "ticker": "ZBRA",
-          "r20": 7.1
+          "r20": 6.2
         },
         {
           "ticker": "NTGR",
-          "r20": 2.4
+          "r20": 2.5
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "industry": "Semiconductors",
+      "name": "반도체",
+      "count": 43,
+      "r5": -6.4,
+      "r20": -11.4,
+      "r60": -4.9,
+      "above50": 21,
+      "trend": "내리는 중",
+      "leaders": [
+        {
+          "ticker": "SYNA",
+          "r20": 20.3
         },
         {
-          "ticker": "ERIC",
-          "r20": 0.9
+          "ticker": "ON",
+          "r20": 2.7
+        },
+        {
+          "ticker": "TXN",
+          "r20": 2.3
         }
       ],
       "rank": 8
     },
     {
-      "industry": "Computer Hardware",
-      "name": "컴퓨터 하드웨어",
-      "count": 15,
-      "r5": -8.6,
-      "r20": -21.4,
-      "r60": -13.6,
-      "above50": 20,
+      "industry": "Electronic Components",
+      "name": "전자 부품",
+      "count": 16,
+      "r5": -10.8,
+      "r20": -15.2,
+      "r60": -13.0,
+      "above50": 12,
       "trend": "내리는 중",
       "leaders": [
         {
-          "ticker": "CRCT",
-          "r20": 15.8
+          "ticker": "DAKT",
+          "r20": 5.2
         },
         {
-          "ticker": "LOGI",
-          "r20": 2.1
+          "ticker": "OLED",
+          "r20": 5.1
         },
         {
-          "ticker": "CRSR",
-          "r20": -3.3
+          "ticker": "OSIS",
+          "r20": -3.0
         }
       ],
       "rank": 9
     },
     {
-      "industry": "Electronic Components",
-      "name": "전자 부품",
-      "count": 16,
-      "r5": -9.9,
-      "r20": -13.3,
-      "r60": -12.9,
+      "industry": "Semiconductor Equipment & Materials",
+      "name": "반도체 장비 · 소재",
+      "count": 22,
+      "r5": -11.6,
+      "r20": -14.4,
+      "r60": -13.7,
       "above50": 0,
       "trend": "내리는 중",
       "leaders": [
         {
-          "ticker": "DAKT",
-          "r20": 5.4
+          "ticker": "VECO",
+          "r20": 0.5
         },
         {
-          "ticker": "OLED",
-          "r20": 2.9
+          "ticker": "ACLS",
+          "r20": -2.4
         },
         {
-          "ticker": "OSIS",
-          "r20": -3.2
+          "ticker": "ENTG",
+          "r20": -5.4
         }
       ],
       "rank": 10
     },
     {
-      "industry": "Semiconductor Equipment & Materials",
-      "name": "반도체 장비 · 소재",
-      "count": 22,
-      "r5": -12.5,
-      "r20": -10.5,
-      "r60": -16.3,
-      "above50": 0,
+      "industry": "Computer Hardware",
+      "name": "컴퓨터 하드웨어",
+      "count": 15,
+      "r5": -7.9,
+      "r20": -21.8,
+      "r60": -14.1,
+      "above50": 20,
       "trend": "내리는 중",
       "leaders": [
         {
-          "ticker": "ENTG",
-          "r20": 1.0
+          "ticker": "CRCT",
+          "r20": 11.5
         },
         {
-          "ticker": "VECO",
-          "r20": -1.3
+          "ticker": "LOGI",
+          "r20": 3.3
         },
         {
-          "ticker": "ACLS",
-          "r20": -1.7
+          "ticker": "CRSR",
+          "r20": -2.9
         }
       ],
       "rank": 11
@@ -290,23 +290,23 @@
       "industry": "Solar",
       "name": "태양광",
       "count": 8,
-      "r5": -7.7,
-      "r20": -13.4,
-      "r60": -24.6,
+      "r5": -6.6,
+      "r20": -11.7,
+      "r60": -24.0,
       "above50": 0,
       "trend": "내리는 중",
       "leaders": [
         {
           "ticker": "NXT",
-          "r20": -4.1
-        },
-        {
-          "ticker": "SHLS",
-          "r20": -6.7
+          "r20": -4.2
         },
         {
           "ticker": "ENPH",
-          "r20": -11.9
+          "r20": -6.4
+        },
+        {
+          "ticker": "SHLS",
+          "r20": -8.3
         }
       ],
       "rank": 12
@@ -316,9 +316,9 @@
     {
       "ticker": "XLE",
       "name": "에너지",
-      "r5": 2.7,
-      "r20": 8.5,
-      "r60": 13.7,
+      "r5": 1.1,
+      "r20": 10.0,
+      "r60": 16.5,
       "gap50": 6.4,
       "trend": "오르는 중",
       "rank": 1
@@ -326,100 +326,100 @@
     {
       "ticker": "XLV",
       "name": "헬스케어",
-      "r5": 2.1,
-      "r20": 3.9,
-      "r60": 8.0,
-      "gap50": 3.2,
+      "r5": 6.0,
+      "r20": 5.8,
+      "r60": 10.0,
+      "gap50": 5.5,
       "trend": "오르는 중",
       "rank": 2
     },
     {
       "ticker": "XLP",
       "name": "필수소비재",
-      "r5": 3.3,
-      "r20": 6.5,
-      "r60": 3.7,
-      "gap50": 3.7,
+      "r5": 4.2,
+      "r20": 6.1,
+      "r60": 2.8,
+      "gap50": 4.2,
       "trend": "오르는 중",
       "rank": 3
     },
     {
       "ticker": "XLY",
       "name": "경기소비재",
-      "r5": 2.0,
-      "r20": 2.0,
-      "r60": 4.6,
-      "gap50": 0.6,
+      "r5": 2.8,
+      "r20": 2.8,
+      "r60": 4.2,
+      "gap50": 1.6,
       "trend": "오르는 중",
       "rank": 4
     },
     {
       "ticker": "XLB",
       "name": "소재",
-      "r5": 3.1,
-      "r20": 2.5,
-      "r60": -0.6,
-      "gap50": -0.4,
-      "trend": "섞여 있음",
+      "r5": 3.0,
+      "r20": 1.4,
+      "r60": -0.3,
+      "gap50": 0.3,
+      "trend": "오르는 중",
       "rank": 5
-    },
-    {
-      "ticker": "XLK",
-      "name": "기술",
-      "r5": -5.3,
-      "r20": -4.6,
-      "r60": 5.7,
-      "gap50": -2.1,
-      "trend": "내리는 중",
-      "rank": 6
     },
     {
       "ticker": "XLU",
       "name": "유틸리티",
-      "r5": -0.6,
+      "r5": 0.0,
+      "r20": 3.3,
+      "r60": -8.3,
+      "gap50": -0.2,
+      "trend": "섞여 있음",
+      "rank": 6
+    },
+    {
+      "ticker": "XLF",
+      "name": "금융",
+      "r5": 1.6,
       "r20": 1.7,
-      "r60": -10.7,
-      "gap50": -1.5,
+      "r60": -2.0,
+      "gap50": -0.8,
       "trend": "섞여 있음",
       "rank": 7
     },
     {
       "ticker": "XLC",
       "name": "통신서비스",
-      "r5": -1.2,
-      "r20": -4.1,
-      "r60": 3.6,
-      "gap50": -1.6,
+      "r5": -1.9,
+      "r20": -2.9,
+      "r60": 2.3,
+      "gap50": -1.5,
       "trend": "내리는 중",
       "rank": 8
     },
     {
-      "ticker": "XLF",
-      "name": "금융",
-      "r5": 0.0,
-      "r20": -1.5,
-      "r60": -2.2,
-      "gap50": -2.1,
+      "ticker": "XLK",
+      "name": "기술",
+      "r5": -5.5,
+      "r20": -5.5,
+      "r60": 6.4,
+      "gap50": -2.3,
       "trend": "내리는 중",
       "rank": 9
     },
     {
-      "ticker": "XLI",
-      "name": "산업재",
-      "r5": -1.5,
-      "r20": -1.9,
-      "r60": -8.7,
-      "gap50": -4.1,
+      "ticker": "XLRE",
+      "name": "부동산",
+      "r5": 1.3,
+      "r20": -0.3,
+      "r60": -7.4,
+      "gap50": -1.5,
       "trend": "내리는 중",
       "rank": 10
     },
     {
-      "ticker": "XLRE",
-      "name": "부동산",
-      "r5": -0.6,
-      "r20": -2.2,
-      "r60": -9.3,
-      "gap50": -3.2,
+      "ticker": "XLI",
+      "name": "산업재",
+      "r5": -1.1,
+      "r20": -2.0,
+      "r60": -9.0,
+      "gap50": -3.8,
       "trend": "내리는 중",
       "rank": 11
     }
@@ -427,9 +427,9 @@
   "reference": {
     "ticker": "SPY",
     "name": "미국 시장 전체 (S&P 500)",
-    "r5": -1.5,
-    "r20": -0.9,
-    "r60": 3.7,
-    "gap50": -0.2
+    "r5": -1.2,
+    "r20": -0.6,
+    "r60": 4.1,
+    "gap50": 0.1
   }
 }
