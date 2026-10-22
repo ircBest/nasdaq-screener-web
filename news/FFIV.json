@@ -1,9 +1,14 @@
 {
   "ticker": "FFIV",
-  "generated_at": "2026-10-21T08:53:28+00:00",
+  "generated_at": "2026-10-22T08:54:24+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-21T04:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "F5 and Telenor Partner to Build the AI Service Plane for Sovereign AI on NVIDIA-powered AI Factory Infrastructure"
+    },
     {
       "published_utc": "2026-10-16T16:45:17+00:00",
       "publisher": "Benzinga",
@@ -38,21 +43,6 @@
       "published_utc": "2026-10-08T20:05:00+00:00",
       "publisher": "Yahoo",
       "title": "F5 to Report Fourth Quarter and Fiscal Year 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-10-07T14:00:28+00:00",
-      "publisher": "Yahoo",
-      "title": "F5 Cloud-Native Network Functions Target Kubernetes Efficiency for Service Providers"
-    },
-    {
-      "published_utc": "2026-10-07T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "F5 Helps Service Providers Modernize Critical Network Services With Greater Infrastructure Efficiency and Control"
-    },
-    {
-      "published_utc": "2026-10-07T10:00:27+00:00",
-      "publisher": "Yahoo",
-      "title": "What to Expect From F5, Inc.'s Q4 2026 Earnings Report"
     }
   ]
 }

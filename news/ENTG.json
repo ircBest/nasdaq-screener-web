@@ -1,9 +1,14 @@
 {
   "ticker": "ENTG",
-  "generated_at": "2026-10-21T08:53:28+00:00",
+  "generated_at": "2026-10-22T08:54:24+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-20T15:21:41+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Entegris, Raises Price Target to $195"
+    },
     {
       "published_utc": "2026-10-20T08:28:00+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-13T00:39:03+00:00",
       "publisher": "Yahoo",
       "title": "Entegris, Intel, KLA Corporation, Lam Research, and Microchip Technology Shares Are Falling, What You Need To Know"
-    },
-    {
-      "published_utc": "2026-10-11T14:35:26+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Entegris: The Recovery Is Real, But The Price Needs It To Last"
     }
   ]
 }

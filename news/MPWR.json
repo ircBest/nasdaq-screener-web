@@ -1,9 +1,24 @@
 {
   "ticker": "MPWR",
-  "generated_at": "2026-10-21T08:53:28+00:00",
+  "generated_at": "2026-10-22T08:54:24+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-21T13:13:16+00:00",
+      "publisher": "Yahoo",
+      "title": "If Monolithic Power Systems Stock Looks Expensive, You Need To Read This"
+    },
+    {
+      "published_utc": "2026-10-20T22:45:25+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Monolithic Power Systems: Rating Upgrade On Stronger Growth"
+    },
+    {
+      "published_utc": "2026-10-20T10:12:36+00:00",
+      "publisher": "Benzinga",
+      "title": "Wells Fargo Maintains Overweight on Monolithic Power Systems, Lowers Price Target to $1550"
+    },
     {
       "published_utc": "2026-10-16T11:30:03+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-09T10:33:14+00:00",
       "publisher": "Yahoo",
       "title": "Record Revenue Boosts Monolithic Power Systems"
-    },
-    {
-      "published_utc": "2026-10-08T20:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Monolithic Power Systems to Report Third Quarter 2026 Results on October 29, 2026"
-    },
-    {
-      "published_utc": "2026-10-08T15:45:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Monolithic Power Systems Stock Passes Early Entry Amid High Demand For AI Tech"
-    },
-    {
-      "published_utc": "2026-10-07T20:54:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Does Monolithic Power Systems Stock's Valuation Make Sense?"
     }
   ]
 }

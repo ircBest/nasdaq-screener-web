@@ -1,9 +1,14 @@
 {
   "ticker": "APPF",
-  "generated_at": "2026-10-21T08:53:28+00:00",
+  "generated_at": "2026-10-22T08:54:24+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-21T00:15:53+00:00",
+      "publisher": "Yahoo",
+      "title": "AppFolio Stock In Focus Before Earnings Forecasts Point To Higher Service Revenue"
+    },
     {
       "published_utc": "2026-10-19T12:15:08+00:00",
       "publisher": "Yahoo",
@@ -33,26 +38,6 @@
       "published_utc": "2026-10-08T20:05:00+00:00",
       "publisher": "Yahoo",
       "title": "AppFolio, Inc. Announces Date of Third Quarter 2026 Financial Results Conference Call"
-    },
-    {
-      "published_utc": "2026-10-07T21:15:03+00:00",
-      "publisher": "Yahoo",
-      "title": "AppFolio (APPF) Suffers a Larger Drop Than the General Market: Key Insights"
-    },
-    {
-      "published_utc": "2026-10-07T17:45:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AppFolio downgraded by UBS as share recovery leaves less upside"
-    },
-    {
-      "published_utc": "2026-10-07T16:24:31+00:00",
-      "publisher": "Benzinga",
-      "title": "UBS Downgrades AppFolio to Neutral, Raises Price Target to $220"
-    },
-    {
-      "published_utc": "2026-10-07T11:59:32+00:00",
-      "publisher": "Yahoo",
-      "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: Abbott Laboratories, AppFolio, Delek US Holdings, Flutter Entertainment, Honeywell Aerospace,  Intuitive Surgical, Marvell, NetApp, and More"
     }
   ]
 }

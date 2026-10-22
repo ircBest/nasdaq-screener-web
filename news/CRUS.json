@@ -1,9 +1,24 @@
 {
   "ticker": "CRUS",
-  "generated_at": "2026-10-21T08:53:28+00:00",
+  "generated_at": "2026-10-22T08:54:24+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-21T12:02:22+00:00",
+      "publisher": "Yahoo",
+      "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: Applied Digital, Chipotle Mexican Grill, Cirrus Logic, Costco, Digital Realty Trust, Intuitive Surgical, Netflix, Robinhood Markets, Zscaler, and More"
+    },
+    {
+      "published_utc": "2026-10-21T08:43:58+00:00",
+      "publisher": "Benzinga",
+      "title": "Susquehanna Maintains Positive on Cirrus Logic, Lowers Price Target to $170"
+    },
+    {
+      "published_utc": "2026-10-21T08:24:47+00:00",
+      "publisher": "Benzinga",
+      "title": "Barclays Downgrades Cirrus Logic to Underweight, Lowers Price Target to $95"
+    },
     {
       "published_utc": "2026-10-15T12:10:11+00:00",
       "publisher": "Yahoo",

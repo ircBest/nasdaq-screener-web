@@ -1,9 +1,24 @@
 {
   "ticker": "INTU",
-  "generated_at": "2026-10-21T08:53:28+00:00",
+  "generated_at": "2026-10-22T08:54:24+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-21T19:33:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Top Analyst Reports for Salesforce, S&P & Intuit"
+    },
+    {
+      "published_utc": "2026-10-21T18:14:39+00:00",
+      "publisher": "Yahoo",
+      "title": "3 Reasons to Sell INTU and 1 Stock to Buy Instead"
+    },
+    {
+      "published_utc": "2026-10-20T20:50:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Intuit (INTU) Outperforms Broader Market: What You Need to Know"
+    },
     {
       "published_utc": "2026-10-20T14:40:03+00:00",
       "publisher": "Yahoo",
@@ -30,6 +45,11 @@
       "title": "Wall Street Analysts Think Intuit (INTU) Could Surge 26.36%: Read This Before Placing a Bet"
     },
     {
+      "published_utc": "2026-10-20T12:42:14+00:00",
+      "publisher": "Benzinga",
+      "title": "What's Going On With Intuit Stock Tuesday?"
+    },
+    {
       "published_utc": "2026-10-20T09:32:40+00:00",
       "publisher": "Benzinga",
       "title": "Intuit Launches Credit Karma Tax With $0 Federal Filing, Flat-Rate $15 State Returns"
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-19T12:20:00+00:00",
       "publisher": "Yahoo",
       "title": "Intuit to Acquire Sequence to Boost AI-Powered Mid-Market Offerings"
-    },
-    {
-      "published_utc": "2026-10-16T12:00:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Intuit Inc. (INTU) is Attracting Investor Attention: Here is What You Should Know"
-    },
-    {
-      "published_utc": "2026-10-15T20:07:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Intuit Stock Pops on Sequence Acquisition News"
-    },
-    {
-      "published_utc": "2026-10-15T19:57:30+00:00",
-      "publisher": "Yahoo",
-      "title": "Intuit deal signals bet on AI demand in revenue management"
-    },
-    {
-      "published_utc": "2026-10-15T19:39:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Intuit (INTU) Stock Is Trading Up Today"
     }
   ]
 }

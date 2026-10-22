@@ -1,9 +1,19 @@
 {
   "ticker": "TEAM",
-  "generated_at": "2026-10-21T08:53:28+00:00",
+  "generated_at": "2026-10-22T08:54:24+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-21T09:29:47+00:00",
+      "publisher": "Benzinga",
+      "title": "Truist Securities Maintains Buy on Atlassian, Raises Price Target to $250"
+    },
+    {
+      "published_utc": "2026-10-20T15:04:53+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Atlassian, Raises Price Target to $245"
+    },
     {
       "published_utc": "2026-10-20T06:26:12+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-14T19:00:25+00:00",
       "publisher": "Yahoo",
       "title": "Will Atlassian Stock Ever Get Back To Its Old High?"
-    },
-    {
-      "published_utc": "2026-10-14T11:16:51+00:00",
-      "publisher": "Benzinga",
-      "title": "Wells Fargo Maintains Overweight on Atlassian, Raises Price Target to $230"
-    },
-    {
-      "published_utc": "2026-10-13T17:43:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Atlassian (TEAM): Can AI Deliver Enough to Justify Its Valuation?"
     }
   ]
 }
