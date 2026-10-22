@@ -88,6 +88,40 @@
     rel="stylesheet"
     href="./css/style.css?v=20260903a"
   >
+  <style>
+    /* VIX 카드 (vix.json) — 숫자와 흐름만 싣는다 */
+    .vix-card { margin-bottom: 14px; padding: 13px 14px 10px;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+    .vix-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+    .vix-name { font-size: 13px; font-weight: 700; }
+    .vix-date { color: var(--text-faint); font-size: 10.5px; }
+    .vix-main { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+    .vix-val { font-size: 32px; font-weight: 700; line-height: 1.1; color: var(--text); }
+    .vix-chg { color: var(--text-dim); font-size: 12.5px; }
+    .vix-row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 4px;
+      color: var(--text-faint); font-size: 11px; }
+    .vix-row b { color: var(--text-dim); font-weight: 600; }
+    .vix-chart { position: relative; margin-top: 10px; height: 120px; touch-action: pan-y; }
+    .vix-chart svg { display: block; width: 100%; height: 100%; overflow: visible; }
+    .vix-tip { position: absolute; top: 0; pointer-events: none; padding: 5px 8px;
+      background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
+      font-size: 11px; white-space: nowrap; color: var(--text-dim); }
+    .vix-tip b { display: block; color: var(--text); font-size: 13px; }
+    .vix-range { margin-top: 10px; }
+    .vix-range-bar { position: relative; height: 6px; border-radius: 3px; background: var(--border); }
+    .vix-range-dot { position: absolute; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px;
+      border-radius: 50%; background: #4F8FEF; box-shadow: 0 0 0 2px var(--surface); }
+    .vix-range-lbl { display: flex; justify-content: space-between; margin-top: 5px;
+      color: var(--text-faint); font-size: 10.5px; }
+    .vix-range-lbl b { color: var(--text-dim); font-weight: 600; }
+    .vix-card details { margin-top: 8px; }
+    .vix-card summary { cursor: pointer; color: var(--text-faint); font-size: 11px; }
+    .vix-card table { width: 100%; margin-top: 6px; border-collapse: collapse; font-size: 11.5px; }
+    .vix-card td { padding: 3px 0; border-top: 1px solid var(--border); color: var(--text-dim);
+      font-variant-numeric: tabular-nums; }
+    .vix-card td:last-child { text-align: right; color: var(--text); }
+  </style>
+
 </head>
 
 <body>
@@ -229,6 +263,41 @@
     </div>
 
   </div>
+
+
+  <!-- =====================================================
+       VIX (vix.json — 매일 스캔이 만든다)
+       ===================================================== -->
+
+  <section class="vix-card" id="vixCard" hidden>
+    <div class="vix-head">
+      <span class="vix-name">VIX</span>
+      <span class="vix-date mono" id="vixDate"></span>
+    </div>
+    <div class="vix-main">
+      <span class="vix-val" id="vixClose">-</span>
+      <span class="vix-chg mono" id="vixChg1"></span>
+    </div>
+    <div class="vix-row mono">
+      <span>5일 <b id="vixChg5">-</b></span>
+      <span>20일 <b id="vixChg20">-</b></span>
+    </div>
+    <div class="vix-chart" id="vixChart">
+      <svg id="vixSvg" role="img" aria-label="VIX 최근 1년"></svg>
+      <div class="vix-tip" id="vixTip" hidden></div>
+    </div>
+    <div class="vix-range">
+      <div class="vix-range-bar"><span class="vix-range-dot" id="vixRangeDot"></span></div>
+      <div class="vix-range-lbl mono">
+        <span>1년 최저 <b id="vixLow">-</b></span>
+        <span>1년 최고 <b id="vixHigh">-</b></span>
+      </div>
+    </div>
+    <details>
+      <summary>최근 20일</summary>
+      <table><tbody id="vixTable"></tbody></table>
+    </details>
+  </section>
 
 
   <div class="meta-line">
@@ -599,6 +668,115 @@
 <script src="./js/data.js?v=20260903a"></script>
 <script src="./js/ui.js?v=20260903a"></script>
 <script src="./js/main.js?v=20260903a"></script>
+
+<script>
+// VIX 카드 — vix.json 을 읽어 숫자 · 1년 흐름 · 최근 20일 표를 그린다.
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const LINE = "#4F8FEF";
+  const NS = "http://www.w3.org/2000/svg";
+  const fmt = (v) => (v == null ? "-" : v.toFixed(2));
+  const sign = (v) => (v > 0 ? "+" : v < 0 ? "−" : "");
+  const chg = (pt, pct) => pt == null ? "-" :
+    sign(pt) + Math.abs(pt).toFixed(2) + (pct == null ? "" : " (" + sign(pct) + Math.abs(pct).toFixed(1) + "%)");
+
+  function el(name, attrs) {
+    const e = document.createElementNS(NS, name);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+
+  function draw(hist) {
+    const svg = $("vixSvg"), box = $("vixChart"), tip = $("vixTip");
+    const W = box.clientWidth, H = box.clientHeight;
+    if (!W || hist.length < 2) return;
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+    const padL = 24, padR = 6, padT = 6, padB = 16;
+    const vals = hist.map((r) => r[1]);
+    const lo = Math.floor(Math.min(...vals) / 5) * 5, hi = Math.ceil(Math.max(...vals) / 5) * 5;
+    const x = (i) => padL + (i / (hist.length - 1)) * (W - padL - padR);
+    const y = (v) => padT + (1 - (v - lo) / (hi - lo || 1)) * (H - padT - padB);
+    const step = hi - lo > 30 ? 10 : 5;
+    for (let t = lo; t <= hi; t += step) {
+      svg.appendChild(el("line", { x1: padL, x2: W - padR, y1: y(t), y2: y(t),
+        stroke: "var(--border)", "stroke-width": 1 }));
+      const lab = el("text", { x: padL - 5, y: y(t) + 3, "text-anchor": "end",
+        fill: "var(--text-faint)", "font-size": 9.5 });
+      lab.textContent = t;
+      svg.appendChild(lab);
+    }
+    [[0, "start"], [hist.length - 1, "end"]].forEach(([i, a]) => {
+      const t = el("text", { x: x(i), y: H - 3, "text-anchor": a, fill: "var(--text-faint)", "font-size": 9.5 });
+      t.textContent = hist[i][0].slice(0, 7);
+      svg.appendChild(t);
+    });
+    const d = hist.map((r, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(r[1]).toFixed(1)).join(" ");
+    svg.appendChild(el("path", { d, fill: "none", stroke: LINE, "stroke-width": 2,
+      "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    const last = hist.length - 1;
+    svg.appendChild(el("circle", { cx: x(last), cy: y(hist[last][1]), r: 4, fill: LINE,
+      stroke: "var(--surface)", "stroke-width": 2 }));
+    const cross = el("line", { y1: padT, y2: H - padB, stroke: "var(--text-faint)", "stroke-width": 1, visibility: "hidden" });
+    const dot = el("circle", { r: 4, fill: LINE, stroke: "var(--surface)", "stroke-width": 2, visibility: "hidden" });
+    svg.appendChild(cross);
+    svg.appendChild(dot);
+
+    function show(clientX) {
+      const r = svg.getBoundingClientRect();
+      const px = clientX - r.left;
+      const i = Math.max(0, Math.min(last, Math.round((px - padL) / (W - padL - padR) * last)));
+      const cx = x(i), cy = y(hist[i][1]);
+      cross.setAttribute("x1", cx); cross.setAttribute("x2", cx); cross.setAttribute("visibility", "visible");
+      dot.setAttribute("cx", cx); dot.setAttribute("cy", cy); dot.setAttribute("visibility", "visible");
+      tip.textContent = "";
+      const b = document.createElement("b");
+      b.textContent = fmt(hist[i][1]);
+      tip.appendChild(b);
+      tip.appendChild(document.createTextNode(hist[i][0]));
+      tip.hidden = false;
+      const tw = tip.offsetWidth;
+      tip.style.left = Math.max(0, Math.min(W - tw, cx - tw / 2)) + "px";
+    }
+    function hide() {
+      cross.setAttribute("visibility", "hidden");
+      dot.setAttribute("visibility", "hidden");
+      tip.hidden = true;
+    }
+    svg.onpointermove = (e) => show(e.clientX);
+    svg.onpointerdown = (e) => show(e.clientX);
+    svg.onpointerleave = hide;
+  }
+
+  fetch("vix.json", { cache: "no-cache" })
+    .then((r) => (r.ok ? r.json() : null))
+    .then((v) => {
+      if (!v || v.close == null) return;
+      $("vixDate").textContent = v.date;
+      $("vixClose").textContent = fmt(v.close);
+      $("vixChg1").textContent = "전일 대비 " + chg(v.chg1, v.chg1_pct);
+      $("vixChg5").textContent = chg(v.chg5, v.chg5_pct);
+      $("vixChg20").textContent = chg(v.chg20, v.chg20_pct);
+      $("vixLow").textContent = fmt(v.low_1y);
+      $("vixHigh").textContent = fmt(v.high_1y);
+      const span = (v.high_1y - v.low_1y) || 1;
+      $("vixRangeDot").style.left = Math.max(0, Math.min(100, (v.close - v.low_1y) / span * 100)) + "%";
+      const tb = $("vixTable");
+      (v.history || []).slice(-20).reverse().forEach((r) => {
+        const tr = document.createElement("tr");
+        const a = document.createElement("td"); a.textContent = r[0];
+        const b = document.createElement("td"); b.textContent = fmt(r[1]);
+        tr.appendChild(a); tr.appendChild(b); tb.appendChild(tr);
+      });
+      $("vixCard").hidden = false;
+      const hist = v.history || [];
+      draw(hist);
+      let t;
+      window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => draw(hist), 150); });
+    })
+    .catch(() => {});
+})();
+</script>
 
 </body>
 </html>
