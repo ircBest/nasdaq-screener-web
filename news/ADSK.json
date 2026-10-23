@@ -1,9 +1,24 @@
 {
   "ticker": "ADSK",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T14:13:53+00:00",
+      "publisher": "Yahoo",
+      "title": "3 Reasons to sell ADSK and 1 stock to buy instead"
+    },
+    {
+      "published_utc": "2026-10-22T11:08:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Autodesk Stock Bounce Off The Current Support?"
+    },
+    {
+      "published_utc": "2026-10-22T08:11:28+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Autodesk (ADSK) Stay Below Fair Value As Cash Flow Grows?"
+    },
     {
       "published_utc": "2026-10-21T17:10:57+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-14T16:43:38+00:00",
       "publisher": "Yahoo",
       "title": "Autodesk (ADSK) vs. PTC and TRMB: Can Cloud and AI Investments Drive Faster Earnings Growth?"
-    },
-    {
-      "published_utc": "2026-10-09T05:32:27+00:00",
-      "publisher": "Yahoo",
-      "title": "Are SaaS Stocks Making A Comeback? Autodesk, Intuit Outperform In Tough Week For Tech"
-    },
-    {
-      "published_utc": "2026-10-09T04:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "PTC (PTC) vs Autodesk (ADSK): Which is a Better Stock to Buy?"
-    },
-    {
-      "published_utc": "2026-10-09T00:25:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Autodesk (ADSK) Below Fair Value As Its New AEC Chief Pushes AI And Cloud?"
     }
   ]
 }

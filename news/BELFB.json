@@ -1,9 +1,14 @@
 {
   "ticker": "BELFB",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-21T13:00:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Bel Fuse (BELFB) Earnings Expected to Grow: Should You Buy?"
+    },
     {
       "published_utc": "2026-10-19T12:35:03+00:00",
       "publisher": "Yahoo",
@@ -23,11 +28,6 @@
       "published_utc": "2026-10-13T14:15:41+00:00",
       "publisher": "Benzinga",
       "title": "JP Morgan Maintains Overweight on Bel Fuse, Lowers Price Target to $330"
-    },
-    {
-      "published_utc": "2026-10-08T14:40:02+00:00",
-      "publisher": "Yahoo",
-      "title": "APELY or BELFB: Which Is the Better Value Stock Right Now?"
     }
   ]
 }

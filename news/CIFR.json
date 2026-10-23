@@ -1,9 +1,24 @@
 {
   "ticker": "CIFR",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T02:51:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Should You Wait Before Buying Cipher Digital Stock?"
+    },
+    {
+      "published_utc": "2026-10-21T21:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Cipher Digital Inc. (CIFR) Rises Higher Than Market: Key Facts"
+    },
+    {
+      "published_utc": "2026-10-21T13:42:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Data Center Stocks Rise as IREN Plans 300MW AI Campus in Spain: IREN and Cipher Digital Gain 4%, Core Scientific Climbs 3%"
+    },
     {
       "published_utc": "2026-10-17T08:57:14+00:00",
       "publisher": "SeekingAlpha",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-14T17:15:53+00:00",
       "publisher": "Yahoo",
       "title": "Cipher Digital (CIFR) Prices $850 Million Convertible Notes As Dilution Questions Grow"
-    },
-    {
-      "published_utc": "2026-10-14T14:07:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital Prices $850M Zero-Coupon Convertible Notes – Here’s How It Intends To Use The Proceeds"
-    },
-    {
-      "published_utc": "2026-10-14T13:39:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital Falls 5% as $850M Zero-Coupon Note Pricing Extends Slide; Applied Digital Declines 6%, IREN Drops 4%"
-    },
-    {
-      "published_utc": "2026-10-14T12:24:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital Prices $850 Million Zero-Interest Convertible Notes Offering"
     }
   ]
 }

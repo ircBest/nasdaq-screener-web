@@ -1,9 +1,29 @@
 {
   "ticker": "ZS",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T11:13:22+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is Zscaler Stock Going Up?"
+    },
+    {
+      "published_utc": "2026-10-21T20:46:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Zscaler and Tenable shares are soaring, what you need to know"
+    },
+    {
+      "published_utc": "2026-10-21T13:37:33+00:00",
+      "publisher": "Benzinga",
+      "title": "What's Driving Zscaler Stock Higher Wednesday?"
+    },
+    {
+      "published_utc": "2026-10-21T12:02:22+00:00",
+      "publisher": "Yahoo",
+      "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: Applied Digital, Chipotle Mexican Grill, Cirrus Logic, Costco, Digital Realty Trust, Intuitive Surgical, Netflix, Robinhood Markets, Zscaler, and More"
+    },
     {
       "published_utc": "2026-10-21T08:16:42+00:00",
       "publisher": "Benzinga",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-16T18:18:01+00:00",
       "publisher": "Yahoo",
       "title": "Zscaler (ZS) Draws Pomerantz Probe After Fraud Claims Stir Governance Questions"
-    },
-    {
-      "published_utc": "2026-10-16T16:56:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Cybersecurity Stocks Slide as AI Financing Jitters Spread: Palo Alto Falls 7%, SentinelOne Sinks 9%, Zscaler Drops 6%"
-    },
-    {
-      "published_utc": "2026-10-16T13:33:27+00:00",
-      "publisher": "Yahoo",
-      "title": "Zscaler (ZS): Capitalizing on Cybersecurity Relative Value"
-    },
-    {
-      "published_utc": "2026-10-15T15:00:26+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Maintains Buy on Zscaler, Raises Price Target to $260"
-    },
-    {
-      "published_utc": "2026-10-15T12:02:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Cybersecurity Stocks Retreat From Record Highs — Citi Raises CRWD, PANW, ZS Targets On Improving Spending Momentum"
     }
   ]
 }

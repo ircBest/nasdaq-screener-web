@@ -1,9 +1,34 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T18:04:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Financial Exchanges CME, Cboe, ICE, Nasdaq Benefiting From Sector Rotation Out Of AI Stocks"
+    },
+    {
+      "published_utc": "2026-10-22T16:13:22+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group (CME) Stock Climbs On Record Q3 Earnings And Margin Strength"
+    },
+    {
+      "published_utc": "2026-10-22T09:34:27+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Q3 deep dive: diversified volume growth and product innovation underpin results"
+    },
+    {
+      "published_utc": "2026-10-22T09:28:45+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Upgrades CME Group to Overweight, Announces $367 Price Target"
+    },
+    {
+      "published_utc": "2026-10-22T02:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CME CEO Says Crypto Perps Are Swaps While Suing CFTC Over Their Approval"
+    },
     {
       "published_utc": "2026-10-21T18:34:02+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-21T12:30:03+00:00",
       "publisher": "Yahoo",
       "title": "Compared to Estimates, CME (CME) Q3 Earnings: A Look at Key Metrics"
-    },
-    {
-      "published_utc": "2026-10-21T12:21:41+00:00",
-      "publisher": "ChartMill",
-      "title": "CME Group (NASDAQ:CME) Posts Record Q3 Revenue as Results Meet Expectations"
-    },
-    {
-      "published_utc": "2026-10-21T11:31:39+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (NASDAQ:CME) Surprises With Q3 2026 Sales"
-    },
-    {
-      "published_utc": "2026-10-21T11:15:03+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Surpasses Q3 Earnings and Revenue Estimates"
-    },
-    {
-      "published_utc": "2026-10-21T11:07:48+00:00",
-      "publisher": "Yahoo",
-      "title": "CME: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-10-21T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group Inc. Reports Highest Q3 Revenue on Record for Q3 2026"
     }
   ]
 }

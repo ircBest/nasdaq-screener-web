@@ -1,9 +1,34 @@
 {
   "ticker": "MSTR",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T13:00:14+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy (MSTR) Reports Next Week: Wall Street Expects Earnings Growth"
+    },
+    {
+      "published_utc": "2026-10-22T09:07:57+00:00",
+      "publisher": "Benzinga",
+      "title": "Why Is Strategy Stock Trading Lower on Thursday?"
+    },
+    {
+      "published_utc": "2026-10-22T02:12:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy (MSTR) Could Be 13% Overvalued As Stablecoin Rules Lift Crypto Stocks"
+    },
+    {
+      "published_utc": "2026-10-22T00:59:45+00:00",
+      "publisher": "Yahoo",
+      "title": "How Did Strategy Stock Leave Its Industry Behind?"
+    },
+    {
+      "published_utc": "2026-10-21T22:30:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Strategy (MSTR) stock is up today"
+    },
     {
       "published_utc": "2026-10-21T18:40:00+00:00",
       "publisher": "Yahoo",
@@ -13,6 +38,11 @@
       "published_utc": "2026-10-21T14:16:42+00:00",
       "publisher": "Yahoo",
       "title": "Strategy Increased Its Preferred Stock Buyback to $3 Billion and Shares Moved Higher. What This Means for MSTR"
+    },
+    {
+      "published_utc": "2026-10-21T10:38:03+00:00",
+      "publisher": "Benzinga",
+      "title": "Bitcoin Taps $84,000 but It's MSTR That's 'Massively Undervalued,' Samson Mow Argues"
     },
     {
       "published_utc": "2026-10-20T16:04:19+00:00",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-19T20:00:02+00:00",
       "publisher": "Yahoo",
       "title": "Michael Saylor Is Bullish on Bitcoin. Yet His Company's Money Is Going Somewhere Else."
-    },
-    {
-      "published_utc": "2026-10-19T17:18:13+00:00",
-      "publisher": "Yahoo",
-      "title": "Saylor’s Strategy Buy, Sell, Buy Bitcoin Flywheel Continues"
-    },
-    {
-      "published_utc": "2026-10-19T16:54:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Buys Back Their bitcoin, Closing in on 850K BTC"
-    },
-    {
-      "published_utc": "2026-10-19T16:07:21+00:00",
-      "publisher": "Benzinga",
-      "title": "Strategy (MSTR) Stock Just Flashed a Golden Cross. Bitcoin Bulls Still Have Two Problems"
-    },
-    {
-      "published_utc": "2026-10-19T16:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Michael Saylor's Strategy buys 267 bitcoin, repurchases $193M in STRC"
-    },
-    {
-      "published_utc": "2026-10-19T14:13:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Dear MicroStrategy Investors, Mark Your Calendar for November 11"
-    },
-    {
-      "published_utc": "2026-10-19T13:20:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Michael Saylor’s Strategy Boosts STRC Buyback Program To $3B, Keeps BTC Buying Muted"
     }
   ]
 }

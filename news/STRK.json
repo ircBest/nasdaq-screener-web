@@ -1,9 +1,34 @@
 {
   "ticker": "STRK",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T02:12:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy (MSTR) Could Be 13% Overvalued As Stablecoin Rules Lift Crypto Stocks"
+    },
+    {
+      "published_utc": "2026-10-22T00:59:45+00:00",
+      "publisher": "Yahoo",
+      "title": "How Did Strategy Stock Leave Its Industry Behind?"
+    },
+    {
+      "published_utc": "2026-10-21T22:30:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Strategy (MSTR) stock is up today"
+    },
+    {
+      "published_utc": "2026-10-21T18:40:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor sees something big coming for Bitcoin"
+    },
+    {
+      "published_utc": "2026-10-21T14:16:42+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Increased Its Preferred Stock Buyback to $3 Billion and Shares Moved Higher. What This Means for MSTR"
+    },
     {
       "published_utc": "2026-10-20T16:17:02+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-19T14:13:14+00:00",
       "publisher": "Yahoo",
       "title": "Dear MicroStrategy Investors, Mark Your Calendar for November 11"
-    },
-    {
-      "published_utc": "2026-10-19T07:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Saylor Blames Trade Policy, Rising Yields and AI Spending for Bitcoin’s Struggles"
-    },
-    {
-      "published_utc": "2026-10-18T12:47:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Michael Saylor Reveals Why Wall Street Prefers Cash to Bitcoin"
-    },
-    {
-      "published_utc": "2026-10-18T10:11:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Eyes 7-Day STRC Payout As Saylor Targets Lower Borrowing Costs After ASST Beat MSTR In Daily Dividends"
-    },
-    {
-      "published_utc": "2026-10-17T14:08:26+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Stock Fell Nearly 10% in a Day After MSCI’s Index Decision. Here’s What Has to Happen Before November 11"
-    },
-    {
-      "published_utc": "2026-10-16T22:15:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Nasdaq 100 Records Worst Week In 18 Months As Investors Steer Clear Of Chipmakers — AAPL, MSTR, UBER, SOXX In Focus"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T03:39:50+00:00",
+      "publisher": "Benzinga",
+      "title": "Reported Earlier, Workday Prices $2.5B Senior Notes Offering Across Four Tranches, Plans To Retire $1B Of 3.500% Notes Due 2027"
+    },
+    {
+      "published_utc": "2026-10-22T03:03:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday Announces Pricing of $2.5 Billion Senior Notes Offering"
+    },
     {
       "published_utc": "2026-10-21T14:03:13+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-17T10:31:33+00:00",
       "publisher": "ChartMill",
       "title": "Workday (NASDAQ:WDAY) Combines Strong Growth With a Constructive Breakout Setup"
-    },
-    {
-      "published_utc": "2026-10-16T18:24:13+00:00",
-      "publisher": "Yahoo",
-      "title": "KeyBanc Just Downgraded Workday Stock. Here's Why."
-    },
-    {
-      "published_utc": "2026-10-16T16:03:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday's AI Revenue Boost May Take Time as HR Tech Budgets Fund Wider AI Push, KeyBanc Says"
     }
   ]
 }

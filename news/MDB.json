@@ -1,9 +1,14 @@
 {
   "ticker": "MDB",
-  "generated_at": "2026-10-22T08:54:24+00:00",
+  "generated_at": "2026-10-23T08:53:10+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-21T12:22:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Can MongoDB's Subscription Model Drive Sustainable Long-Term Growth?"
+    },
     {
       "published_utc": "2026-10-20T14:50:42+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-09T21:18:50+00:00",
       "publisher": "Yahoo",
       "title": "Snowflake vs. MongoDB: Does Faster Growth Justify Twice the Cash-Flow Price?"
-    },
-    {
-      "published_utc": "2026-10-09T05:13:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Is MongoDB (MDB) Fully Priced After Raised Growth Targets?"
     }
   ]
 }
