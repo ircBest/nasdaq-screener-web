@@ -428,8 +428,37 @@ function outlookSection(o){
     </section>`;
 }
 
+/* 흔들림 — shake.py 가 매긴 단계. 단계마다 과거에 4주 뒤 크게 빠진 비율과 크게 오른 비율을 함께 보인다. */
+function shakeSection(sh){
+  const s = sh && sh.tickers && sh.tickers[TICKER];
+  if(!s) return "";
+  const tier = (sh.tiers || []).find(x => x.key === s.tier) || {};
+  const all = (sh.history && sh.history.all) || {};
+  const pctv = v => v!=null ? `${Number(v).toFixed(1)}%` : "-";
+  return `
+    <section>
+      <div class="section-title">
+        <div class="title">흔들림</div>
+        <div class="hint">${escapeHTML(sh.date || "")} 종가 기준 · 살펴본 ${Object.keys(sh.tickers).length}개 종목 안에서</div>
+      </div>
+      <div class="kv">
+        <div><div class="k">단계</div>
+          <div class="v">${escapeHTML(tier.name || s.tier)}</div>
+          <div class="n">하루에 보통 ±${escapeHTML(s.daily_move_pct)}% 움직임</div></div>
+        <div><div class="k">4주 뒤 20% 넘게 빠져 있던 비율</div>
+          <div class="v mono">${pctv(tier.down_pct)}</div>
+          <div class="n">모든 종목 평균 ${pctv(all.down_pct)}</div></div>
+        <div><div class="k">4주 뒤 20% 넘게 올라 있던 비율</div>
+          <div class="v mono">${pctv(tier.up_pct)}</div>
+          <div class="n">모든 종목 평균 ${pctv(all.up_pct)}</div></div>
+      </div>
+      <div class="news-note">${escapeHTML(sh.note || "")}</div>
+      <div class="news-note">${escapeHTML(sh.history_note || "")}</div>
+    </section>`;
+}
+
 function render(info){
-  const {signal, history, series, latest, news} = info;
+  const {signal, history, series, latest, news, shake} = info;
 
   /* 오늘 신호가 없는 종목은 latest 가 없다 — 옛 신호의 진입가 대신 차트 요약의 마지막 종가를 쓴다. */
   const price = latest?.price ?? series?.chart?.close ?? signal?.entry_price;
@@ -452,6 +481,8 @@ function render(info){
         </div>
       </div>
     </div>
+
+    ${shakeSection(shake)}
 
     <section>
       <div class="section-title"><div class="title">가격</div></div>
@@ -637,11 +668,12 @@ function fmtCompact(v){
   /* performance.json 은 더 이상 받지 않는다.
      거기 들어 있는 것은 고정 기간(5일·10일·30일) 성과뿐이고,
      이 화면은 그 틀로 승패를 표시하지 않는다. */
-  const [signalsPayload, series, scan, news] = await Promise.all([
+  const [signalsPayload, series, scan, news, shake] = await Promise.all([
     getJSON("signals.json"),
     getJSON(`tickers/${encodeURIComponent(TICKER)}.json`),
     getJSON("latest_signals.json"),
-    getJSON(`news/${encodeURIComponent(TICKER)}.json`)
+    getJSON(`news/${encodeURIComponent(TICKER)}.json`),
+    getJSON("shake.json")
   ]);
 
   const signals = (signalsPayload?.signals || [])
@@ -670,7 +702,8 @@ function fmtCompact(v){
     history,
     series,
     latest,
-    news
+    news,
+    shake
   });
 })();
 </script>
