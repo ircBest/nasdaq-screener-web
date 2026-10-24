@@ -56,6 +56,8 @@ table.rk th.num,table.rk td.num{text-align:right}
 table.rk td{padding:9px 12px;border-bottom:1px solid var(--border);
   white-space:nowrap;font-variant-numeric:tabular-nums}
 table.rk tr:last-child td{border-bottom:none}
+table.rk td.shake{white-space:nowrap;color:var(--text-dim);font-size:12px}
+table.rk td.shake small{display:block;font-size:10px;color:var(--text-faint)}
 table.rk td.rank{font-weight:700;color:var(--text-dim)}
 table.rk td.rank small{display:block;font-size:10px;font-weight:500;
   color:var(--text-faint)}
@@ -161,6 +163,7 @@ const VIEWS = {
 };
 
 let DATA = null;
+let SHAKE = null;   /* shake.json — 종목별 흔들림 단계 (없으면 칸을 비운다) */
 let view = "all";
 let query = "";
 
@@ -173,6 +176,13 @@ function rows() {
     .filter(VIEWS[view].keep)
     .filter(r => !q || String(r.ticker).toUpperCase().includes(q)
                     || String(r.name || "").toUpperCase().includes(q));
+}
+
+function shakeCell(t) {
+  const s = SHAKE && SHAKE.tickers && SHAKE.tickers[t];
+  if (!s) return '<td class="shake">—</td>';
+  const tier = (SHAKE.tiers || []).find(x => x.key === s.tier);
+  return `<td class="shake">${esc(tier ? tier.name : s.tier)}<small>하루 ±${esc(s.daily_move_pct)}%</small></td>`;
 }
 
 function table(list) {
@@ -194,6 +204,7 @@ function table(list) {
       <td>${fact(r.cash, "유입", "유출")}</td>
       <td>${fact(r.growth, "성장", "감소", r.revenue_growth_pct)}</td>
       <td class="num">${cap(r.market_cap_b)}</td>
+      ${shakeCell(r.ticker)}
     </tr>`).join("");
 
   return `<div class="wrap"><table class="rk">
@@ -203,6 +214,7 @@ function table(list) {
         <th class="num">60일 고점 대비</th>
         <th>순이익</th><th>영업현금</th><th>매출</th>
         <th class="num">시총</th>
+        <th>흔들림</th>
       </tr></thead>
       <tbody>${body}</tbody>
     </table></div>`;
@@ -278,8 +290,12 @@ function render(d) {
 
 (async () => {
   try {
-    const r = await fetch("rankings.json", {cache: "no-cache"});
+    const [r, s] = await Promise.all([
+      fetch("rankings.json", {cache: "no-cache"}),
+      fetch("shake.json", {cache: "no-cache"}).catch(() => null),
+    ]);
     if (!r.ok) throw new Error(r.status);
+    try { SHAKE = s && s.ok ? await s.json() : null; } catch (e) { SHAKE = null; }
     render(await r.json());
   } catch (e) {
     $("#content").innerHTML =
