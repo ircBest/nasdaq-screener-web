@@ -1,9 +1,19 @@
 {
   "ticker": "SOUN",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T20:09:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SoundHound AI to Announce Third Quarter 2026 Financial Results on November 5th"
+    },
+    {
+      "published_utc": "2026-10-22T09:09:07+00:00",
+      "publisher": "Yahoo",
+      "title": "SoundHound Slips 57% This Year as LivePerson Deal Adds 25 Fortune 100 Brands"
+    },
     {
       "published_utc": "2026-10-20T20:45:03+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-14T15:17:51+00:00",
       "publisher": "Yahoo",
       "title": "What Could SoundHound AI (SOUN) First In Car AI Launch Mean For Investors?"
-    },
-    {
-      "published_utc": "2026-10-14T13:34:00+00:00",
-      "publisher": "Yahoo",
-      "title": "SoundHound Stock Trades at a Discount: A Bargain or a Warning Sign?"
-    },
-    {
-      "published_utc": "2026-10-13T21:31:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Innodata vs. SoundHound AI: Which Technology Stock Is a Better Buy in 2026?"
     }
   ]
 }

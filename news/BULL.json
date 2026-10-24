@@ -1,9 +1,14 @@
 {
   "ticker": "BULL",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull to Introduce Extended-Hours Options Trading, Expanding Access Beyond the Regular Market Session"
+    },
     {
       "published_utc": "2026-10-22T09:11:50+00:00",
       "publisher": "Benzinga",
@@ -43,26 +48,6 @@
       "published_utc": "2026-10-13T13:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Webull Canada Launches Paper Trading Competition"
-    },
-    {
-      "published_utc": "2026-10-09T16:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Webull Shares Got Slammed This Week. Why This Analyst Says It’s Time to Buy."
-    },
-    {
-      "published_utc": "2026-10-09T13:06:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Analysts view Webull selloff as overdone following House panel report; shares rise"
-    },
-    {
-      "published_utc": "2026-10-09T12:07:16+00:00",
-      "publisher": "Benzinga",
-      "title": "Webull Stock Rises: What's Going On?"
-    },
-    {
-      "published_utc": "2026-10-09T11:09:00+00:00",
-      "publisher": "Benzinga",
-      "title": "Webull Decides To Engage With White House Committee, SEC, FINRA To Enhance Its U.S. Financial Regulatory Frameworks"
     }
   ]
 }

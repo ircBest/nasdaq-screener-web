@@ -1,9 +1,19 @@
 {
   "ticker": "AMKR",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T00:05:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Allegro MicroSystems, Lattice Semiconductor, Amkor, Teradyne, and Entegris shares plummet, what you need to know"
+    },
+    {
+      "published_utc": "2026-10-22T23:09:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocks making big moves yesterday: Dell, Chipotle, Amkor, Super Micro, and United Airlines"
+    },
     {
       "published_utc": "2026-10-22T21:00:03+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-21T11:15:08+00:00",
       "publisher": "Benzinga",
       "title": "Amkor Secures $1.3 Billion NVIDIA Deal To Expand AI Packaging"
-    },
-    {
-      "published_utc": "2026-10-21T10:34:30+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Amkor Technology: A Steady Compounder In The AI Space"
-    },
-    {
-      "published_utc": "2026-10-21T06:40:43+00:00",
-      "publisher": "Benzinga",
-      "title": "NVIDIA And Amkor Plan To Expand Advanced Packaging Capacity In South Korea, Targeting Greater Than 300% Increase In Interposer Wafer Capacity By End Of 2028"
     }
   ]
 }

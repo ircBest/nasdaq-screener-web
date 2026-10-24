@@ -1,9 +1,24 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T11:46:22+00:00",
+      "publisher": "Yahoo",
+      "title": "As the Order Book Swells, Akamai Stock Is Positioned for Growth Acceleration"
+    },
+    {
+      "published_utc": "2026-10-23T07:15:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Akamai Technologies (AKAM) Stock A Bargain Or Fully Priced?"
+    },
+    {
+      "published_utc": "2026-10-22T15:58:53+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Neutral on Akamai Technologies, Lowers Price Target to $100"
+    },
     {
       "published_utc": "2026-10-21T07:44:42+00:00",
       "publisher": "Benzinga",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-20T11:57:53+00:00",
       "publisher": "Yahoo",
       "title": "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Akamai Technolgies, Apple, Blackrock, Ford Motor, Healthcare Realty Trust, Noble, Sunoco LP, Venture Global, Western Midstream Partners, Zoetis, and More"
-    },
-    {
-      "published_utc": "2026-10-20T06:23:15+00:00",
-      "publisher": "Benzinga",
-      "title": "Raymond James Upgrades Akamai Technologies to Strong Buy, Maintains Price Target to $170"
-    },
-    {
-      "published_utc": "2026-10-17T07:16:42+00:00",
-      "publisher": "Yahoo",
-      "title": "What Akamai Technologies (AKAM)'s Cloud Customer Wins Mean For Shareholders"
-    },
-    {
-      "published_utc": "2026-10-16T14:14:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AKAM vs. ANET: Which AI Infrastructure Stock is the Better Buy Now?"
     }
   ]
 }

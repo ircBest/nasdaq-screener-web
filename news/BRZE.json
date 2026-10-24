@@ -1,9 +1,19 @@
 {
   "ticker": "BRZE",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T22:04:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Salesforce to Buy Braze for $5.66B, Betting Big on Real-Time AI Marketing"
+    },
+    {
+      "published_utc": "2026-10-22T16:16:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Braze (BRZE) Stock Still Looks Undervalued Following Its 80% Run"
+    },
     {
       "published_utc": "2026-10-22T08:15:05+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-21T08:07:51+00:00",
       "publisher": "Benzinga",
       "title": "Raymond James Downgrades Braze to Market Perform"
-    },
-    {
-      "published_utc": "2026-10-21T08:00:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Salesforce Acquires Braze: Upside Case Is Becoming Clearer"
-    },
-    {
-      "published_utc": "2026-10-21T07:21:15+00:00",
-      "publisher": "Yahoo",
-      "title": "CRM Stock In Focus: Jefferies Says Salesforce’s Braze Deal Could Spark More Software Takeovers"
     }
   ]
 }

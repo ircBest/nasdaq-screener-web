@@ -1,9 +1,24 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T15:17:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Fortinet growth outlook for 2027 becomes key test for investors, says Jefferies"
+    },
+    {
+      "published_utc": "2026-10-23T12:21:11+00:00",
+      "publisher": "ChartMill",
+      "title": "Fortinet (NASDAQ:FTNT): High-Growth Cybersecurity Leadership With Strong Momentum"
+    },
+    {
+      "published_utc": "2026-10-23T12:15:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Exploring Analyst Estimates for Fortinet (FTNT) Q3 Earnings, Beyond Revenue and EPS"
+    },
     {
       "published_utc": "2026-10-22T20:46:18+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-19T12:00:46+00:00",
       "publisher": "ChartMill",
       "title": "Fortinet (NASDAQ:FTNT): A High-Quality Stock with Strong Fundamentals and a Premium Price"
-    },
-    {
-      "published_utc": "2026-10-16T15:45:03+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Reasons Why Growth Investors Shouldn't Overlook Fortinet (FTNT)"
-    },
-    {
-      "published_utc": "2026-10-15T20:50:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet (FTNT) Stock Dips While Market Gains: Key Facts"
-    },
-    {
-      "published_utc": "2026-10-15T16:15:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet (FTNT) Expands Global Cybersecurity Framework For Hybrid And Multi Cloud Security"
     }
   ]
 }

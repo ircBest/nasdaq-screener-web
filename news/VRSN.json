@@ -1,9 +1,19 @@
 {
   "ticker": "VRSN",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T00:43:27+00:00",
+      "publisher": "Yahoo",
+      "title": "VeriSign, Inc. Q3 2026 Earnings Call Summary"
+    },
+    {
+      "published_utc": "2026-10-22T23:04:09+00:00",
+      "publisher": "Yahoo",
+      "title": "What VeriSign (VRSN) Said on Its Q3 Earnings Call"
+    },
     {
       "published_utc": "2026-10-22T20:55:56+00:00",
       "publisher": "ChartMill",
@@ -30,6 +40,21 @@
       "title": "Verisign Reports Third Quarter 2026 Results"
     },
     {
+      "published_utc": "2026-10-22T17:18:20+00:00",
+      "publisher": "Benzinga",
+      "title": "VeriSign Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-22T17:07:15+00:00",
+      "publisher": "Benzinga",
+      "title": "Conference call:\nVeriSign Raises FY2026 Sales Guidance from $1.745B-$1.755B to $1.755B-$1.760B vs $1.754B Est"
+    },
+    {
+      "published_utc": "2026-10-22T16:05:34+00:00",
+      "publisher": "Benzinga",
+      "title": "VeriSign Q3 EPS $2.35 Misses $2.41 Estimate, Sales $443.000M Beat $440.573M Estimate"
+    },
+    {
       "published_utc": "2026-10-19T09:25:20+00:00",
       "publisher": "Benzinga",
       "title": "Wedbush Maintains Outperform on VeriSign, Raises Price Target to $351"
@@ -38,11 +63,6 @@
       "published_utc": "2026-10-17T04:20:23+00:00",
       "publisher": "SeekingAlpha",
       "title": "VeriSign: A Recovering Domain Base Adds Weight To The Pricing Engine"
-    },
-    {
-      "published_utc": "2026-10-12T12:20:01+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "VeriSign Looks Too Expensive Despite Its Monopoly"
     }
   ]
 }

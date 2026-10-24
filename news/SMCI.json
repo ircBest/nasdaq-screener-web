@@ -1,13 +1,48 @@
 {
   "ticker": "SMCI",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-23T17:30:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Credo Soars 7% as Super Micro’s $4 Billion Forecast Hike Signals “Increased Demand for AI Platforms”"
+    },
+    {
+      "published_utc": "2026-10-23T17:09:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Hewlett Packard Enterprise Climbs 4% While AI Server Peers Lag; Dell Rises 2%, Super Micro Unchanged"
+    },
+    {
+      "published_utc": "2026-10-23T15:10:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Will Super Micro (SMCI) Beat Estimates Again in Its Next Earnings Report?"
+    },
+    {
+      "published_utc": "2026-10-23T14:18:34+00:00",
+      "publisher": "Yahoo",
+      "title": "A $4 Billion Reason to Take Another Look at Supermicro Stock"
+    },
+    {
+      "published_utc": "2026-10-23T00:03:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Has Lost 60.86% Since It Was Tapped for the S&P 500. Index Funds Like VOO Had to Buy It Anyway"
+    },
+    {
+      "published_utc": "2026-10-22T23:09:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocks making big moves yesterday: Dell, Chipotle, Amkor, Super Micro, and United Airlines"
+    },
+    {
       "published_utc": "2026-10-22T18:06:11+00:00",
       "publisher": "ChartMill",
       "title": "Most Active S&P 500 Stocks on Oct. 22: Netflix, Super Micro, Moderna"
+    },
+    {
+      "published_utc": "2026-10-22T12:38:30+00:00",
+      "publisher": "Benzinga",
+      "title": "Stock Drops 5% After Big Rally: Super Micro Computer Pulls Back During AI Supply Fears"
     },
     {
       "published_utc": "2026-10-22T11:15:32+00:00",
@@ -28,41 +63,6 @@
       "published_utc": "2026-10-22T07:32:01+00:00",
       "publisher": "Yahoo",
       "title": "Does Super Micro's Big Quarter Make Nvidia Stock a Buy?"
-    },
-    {
-      "published_utc": "2026-10-22T07:14:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Supermicro Stock Is Up 9.5% And What's Next"
-    },
-    {
-      "published_utc": "2026-10-22T06:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Supermicro Introduces the NVIDIA Vera CPU Rack, a 256 CPU, 100% Liquid-Cooled Rack-Scale Solution, Complementing the NVIDIA Vera Rubin Platform, for Agentic AI at Scale"
-    },
-    {
-      "published_utc": "2026-10-22T02:55:52+00:00",
-      "publisher": "Benzinga",
-      "title": "Supermicro Launches NVIDIA Vera CPU Rack With 256 Liquid-Cooled CPUs, Supporting Up To 22,500 Agent Sandboxes Per Rack For Agentic AI"
-    },
-    {
-      "published_utc": "2026-10-21T21:53:23+00:00",
-      "publisher": "Yahoo",
-      "title": "Dow Jones Futures: Meta, Tesla Are Earnings Movers After SpaceX, Super Micro Lead Bullish Nasdaq Move"
-    },
-    {
-      "published_utc": "2026-10-21T21:39:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Update: US Equity Indexes Rise as Blockbuster SpaceX Results, Super Micro Computer's Fiscal Q1 Update Boosts AI Trade"
-    },
-    {
-      "published_utc": "2026-10-21T21:21:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Oct. 21: Super Micro Computer Raises Full-Year Revenue Guidance on Strong AI Demand"
-    },
-    {
-      "published_utc": "2026-10-21T20:42:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Analysts revamp Super Micro stock price targets after 10% surge on revenue boost"
     }
   ]
 }

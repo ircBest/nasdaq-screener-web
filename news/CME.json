@@ -1,9 +1,14 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T16:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Crypto Derivatives Trading Volume Reaches $469.5B in Q3"
+    },
     {
       "published_utc": "2026-10-22T18:04:09+00:00",
       "publisher": "Yahoo",
@@ -13,6 +18,36 @@
       "published_utc": "2026-10-22T16:13:22+00:00",
       "publisher": "Yahoo",
       "title": "CME Group (CME) Stock Climbs On Record Q3 Earnings And Margin Strength"
+    },
+    {
+      "published_utc": "2026-10-22T15:38:50+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Neutral on CME Group, Raises Price Target to $310"
+    },
+    {
+      "published_utc": "2026-10-22T13:36:43+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Overweight on CME Group, Raises Price Target to $359"
+    },
+    {
+      "published_utc": "2026-10-22T12:34:44+00:00",
+      "publisher": "Benzinga",
+      "title": "This CME Group Analyst Turns Bullish; Here Are Top 4 Upgrades For Thursday"
+    },
+    {
+      "published_utc": "2026-10-22T11:47:41+00:00",
+      "publisher": "Benzinga",
+      "title": "Barclays Maintains Equal-Weight on CME Group, Raises Price Target to $321"
+    },
+    {
+      "published_utc": "2026-10-22T11:11:18+00:00",
+      "publisher": "Benzinga",
+      "title": "Wells Fargo Maintains Overweight on CME Group, Raises Price Target to $333"
+    },
+    {
+      "published_utc": "2026-10-22T10:01:45+00:00",
+      "publisher": "Benzinga",
+      "title": "Piper Sandler Reiterates Overweight on CME Group, Raises Price Target to $330"
     },
     {
       "published_utc": "2026-10-22T09:34:27+00:00",
@@ -28,41 +63,6 @@
       "published_utc": "2026-10-22T02:05:00+00:00",
       "publisher": "Yahoo",
       "title": "CME CEO Says Crypto Perps Are Swaps While Suing CFTC Over Their Approval"
-    },
-    {
-      "published_utc": "2026-10-21T18:34:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group: 3 Key Takeaways for Long-Term Investors"
-    },
-    {
-      "published_utc": "2026-10-21T18:13:45+00:00",
-      "publisher": "Yahoo",
-      "title": "CME (CME) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-21T17:00:25+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group Inc. Q3 2026 Earnings Call Summary"
-    },
-    {
-      "published_utc": "2026-10-21T16:04:39+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group Q3 Earnings Call Highlights"
-    },
-    {
-      "published_utc": "2026-10-21T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group Disciplinary Activity Remained Steady in 2025 with Lower Aggregate Monetary Penalties"
-    },
-    {
-      "published_utc": "2026-10-21T12:59:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group Q3 Earnings Surpass Estimates, Revenues Rise Y/Y"
-    },
-    {
-      "published_utc": "2026-10-21T12:30:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Compared to Estimates, CME (CME) Q3 Earnings: A Look at Key Metrics"
     }
   ]
 }

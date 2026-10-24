@@ -1,9 +1,34 @@
 {
   "ticker": "RGTI",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T09:02:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is Rigetti Computing Stock Falling?"
+    },
+    {
+      "published_utc": "2026-10-23T04:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "IonQ vs. Rigetti Computing: Which Quantum Computing Stock Is the Better Buy?"
+    },
+    {
+      "published_utc": "2026-10-22T21:00:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Rigetti Computing, Inc. (RGTI) Falls More Steeply Than Broader Market: What Investors Need to Know"
+    },
+    {
+      "published_utc": "2026-10-22T20:12:09+00:00",
+      "publisher": "Yahoo",
+      "title": "IonQ Sinks 3%, Rigetti Down 5%, D-Wave Down 4% as Quantum Stocks Slide Again in Tech Selloff"
+    },
+    {
+      "published_utc": "2026-10-22T19:12:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Rigetti (RGTI) Stock Still Looks Stretched On Fresh Commerce Funding News"
+    },
     {
       "published_utc": "2026-10-21T15:14:03+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-16T05:24:01+00:00",
       "publisher": "SeekingAlpha",
       "title": "Rigetti: No Commercial Traction, No Premium Valuation"
-    },
-    {
-      "published_utc": "2026-10-15T15:46:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Quantum Computing Stocks Rebound After Dilution Scare: IonQ and Rigetti Climb 3%, D-Wave Advances 2%"
-    },
-    {
-      "published_utc": "2026-10-15T13:00:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Should You Trim Or Add To Your RGTI Stock Position Now?"
-    },
-    {
-      "published_utc": "2026-10-14T21:11:54+00:00",
-      "publisher": "Yahoo",
-      "title": "Rigetti Computing (RGTI) Loss Concerns Put Its Undervalued Narrative Back In Focus"
-    },
-    {
-      "published_utc": "2026-10-14T18:50:45+00:00",
-      "publisher": "Yahoo",
-      "title": "BigBear.ai vs. Rigetti Computing: Which Technology Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-10-14T13:44:08+00:00",
-      "publisher": "Yahoo",
-      "title": "IonQ Falls 6% as $2B Equity Offering Follows $1.3B Elisity Stock Deal; D-Wave and Rigetti Retreat 4%"
     }
   ]
 }

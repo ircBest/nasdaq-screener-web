@@ -1,9 +1,19 @@
 {
   "ticker": "ENTG",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T00:05:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Allegro MicroSystems, Lattice Semiconductor, Amkor, Teradyne, and Entegris shares plummet, what you need to know"
+    },
+    {
+      "published_utc": "2026-10-22T17:45:19+00:00",
+      "publisher": "Benzinga",
+      "title": "$100 Invested In Entegris 15 Years Ago Would Be Worth This Much Today"
+    },
     {
       "published_utc": "2026-10-22T13:00:09+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-14T11:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Entegris Declares Quarterly Cash Dividend"
-    },
-    {
-      "published_utc": "2026-10-14T08:30:11+00:00",
-      "publisher": "Benzinga",
-      "title": "This Entegris Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday"
-    },
-    {
-      "published_utc": "2026-10-14T06:33:52+00:00",
-      "publisher": "Benzinga",
-      "title": "Truist Securities Initiates Coverage On Entegris with Buy Rating, Announces Price Target of $190"
     }
   ]
 }

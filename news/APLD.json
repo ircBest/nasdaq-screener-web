@@ -1,9 +1,24 @@
 {
   "ticker": "APLD",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-22T16:01:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Rosenblatt cuts Soluna target to $2, keeps Buy after Applied Digital joint venture"
+    },
+    {
+      "published_utc": "2026-10-22T11:31:28+00:00",
+      "publisher": "Yahoo",
+      "title": "What Changed For Applied Digital Stock, And What Did Not?"
+    },
+    {
+      "published_utc": "2026-10-22T09:29:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Digital Jumps 8.5% After Soluna Joint Venture for a 50 MW Wind-Powered AI Data Center"
+    },
     {
       "published_utc": "2026-10-21T22:42:47+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-21T11:53:34+00:00",
       "publisher": "Benzinga",
       "title": "Why Is Applied Digital Stock Surging on Wednesday?"
-    },
-    {
-      "published_utc": "2026-10-21T11:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Soluna Agrees to Form Strategic Partnership with Applied Digital to Develop Wind-Powered AI Data Center in Texas"
-    },
-    {
-      "published_utc": "2026-10-21T06:24:40+00:00",
-      "publisher": "Benzinga",
-      "title": "Roth Capital Reinstates Buy on Applied Digital, Announces $35 Price Target"
-    },
-    {
-      "published_utc": "2026-10-20T14:39:12+00:00",
-      "publisher": "Yahoo",
-      "title": "IREN Sinks 6%, Then Recovers After Co-CEO’s No-Debt Reassurance as Neocloud Worries Persist; TeraWulf and Applied Digital Rise 3%"
     }
   ]
 }

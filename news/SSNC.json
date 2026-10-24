@@ -1,58 +1,68 @@
 {
   "ticker": "SSNC",
-  "generated_at": "2026-10-23T08:53:10+00:00",
+  "generated_at": "2026-10-24T08:26:06+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T06:09:36+00:00",
+      "publisher": "Benzinga",
+      "title": "Needham Maintains Buy on SS&C Technologies Hldgs, Raises Price Target to $105"
+    },
+    {
+      "published_utc": "2026-10-23T00:04:16+00:00",
+      "publisher": "Yahoo",
+      "title": "SS&C Technologies Q3 Earnings Call Highlights"
+    },
     {
       "published_utc": "2026-10-22T21:09:23+00:00",
       "publisher": "ChartMill",
       "title": "SS&C Technologies (NASDAQ:SSNC) Falls After In-Line Q3 Results on Soft Revenue Guidance"
     },
     {
-      "published_utc": "2026-10-21T11:00:00+00:00",
+      "published_utc": "2026-10-22T21:00:08+00:00",
       "publisher": "Yahoo",
-      "title": "SS&C GlobeOp Forward Redemption Indicator: October Notifications 1.62%"
+      "title": "SS&C Technologies (SSNC) Q3 Earnings Top Estimates"
     },
     {
-      "published_utc": "2026-10-21T07:18:39+00:00",
+      "published_utc": "2026-10-22T21:00:02+00:00",
       "publisher": "Yahoo",
-      "title": "Earnings To Watch: SS&C (SSNC) Reports Q3 Results Tomorrow"
+      "title": "SS&C Technologies (SSNC) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates"
     },
     {
-      "published_utc": "2026-10-20T12:15:03+00:00",
+      "published_utc": "2026-10-22T20:53:58+00:00",
       "publisher": "Yahoo",
-      "title": "Unlocking Q3 Potential of SS&C Technologies (SSNC): Exploring Wall Street Estimates for Key Metrics"
+      "title": "SS&C’s (NASDAQ:SSNC) Q3 2026 earnings results: revenue in line with expectations but stock drops on weak guidance"
     },
     {
-      "published_utc": "2026-10-15T13:00:00+00:00",
+      "published_utc": "2026-10-22T20:36:34+00:00",
       "publisher": "Yahoo",
-      "title": "As Execution Costs Rise, Faster, Better Due Diligence Is Key to PE Deals: SS&C Intralinks Report"
+      "title": "SS&C Technologies: Q3 Earnings Snapshot"
     },
     {
-      "published_utc": "2026-10-14T13:00:00+00:00",
+      "published_utc": "2026-10-22T20:05:00+00:00",
       "publisher": "Yahoo",
-      "title": "As Enterprises Implement AI to Gain Productivity, Governance and Performance Measurement Present Scaling Opportunities: SS&C Survey"
+      "title": "SS&C Technologies Releases Q3 2026 Financial Results"
     },
     {
-      "published_utc": "2026-10-13T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Thornburg Selects SS&C to Support Its ETF Share Class Structure"
-    },
-    {
-      "published_utc": "2026-10-13T12:30:25+00:00",
+      "published_utc": "2026-10-22T17:48:09+00:00",
       "publisher": "Benzinga",
-      "title": "If You Invested $1000 In SS&C Technologies Hldgs Stock 15 Years Ago, You Would Have This Much Today"
+      "title": "SS&C Technologies Hldgs Q3 2026 Earnings Call Transcript"
     },
     {
-      "published_utc": "2026-10-13T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "SS&C GlobeOp Hedge Fund Performance Index and Capital Movement Index"
+      "published_utc": "2026-10-22T16:08:43+00:00",
+      "publisher": "Benzinga",
+      "title": "SS&C Technologies Hldgs Narrows FY2026 Adj EPS Guidance from $6.93-$7.25 to $7.11-$7.17 vs $7.06 Est; Narrows FY2026 Sales Guidance from $6.672B-$6.832B to $6.736B-$6.776B vs $6.770B Est"
     },
     {
-      "published_utc": "2026-10-09T17:23:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Data & Business Process Services Stocks Q2 Results: Benchmarking SS&C (NASDAQ:SSNC)"
+      "published_utc": "2026-10-22T16:08:14+00:00",
+      "publisher": "Benzinga",
+      "title": "SS&C Technologies Hldgs Sees Q4 Adj EPS $1.88-$1.94 vs $1.90 Est; Sees Sales $1.700B-$1.740B vs $1.748B Est"
+    },
+    {
+      "published_utc": "2026-10-22T16:06:02+00:00",
+      "publisher": "Benzinga",
+      "title": "SS&C Techs Hldgs Q3 Adj. EPS $1.78 Beats $1.77 Estimate, Adj. Sales $1.691B Beat $1.686B Estimate"
     }
   ]
 }
