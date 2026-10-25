@@ -1,9 +1,39 @@
 {
   "ticker": "MSFT",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-24T20:30:22+00:00",
+      "publisher": "Yahoo",
+      "title": "How much MSFT stock does former CEO Steve Ballmer actually own?"
+    },
+    {
+      "published_utc": "2026-10-24T15:44:52+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft’s $50 Billion Gamble: Can Microsoft’s Azure Growth Justify Its Exploding AI Budget?"
+    },
+    {
+      "published_utc": "2026-10-24T15:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft May Be the Only Hyperscaler to Stay Cash-Flow Positive. What It Means for MSFT Stock"
+    },
+    {
+      "published_utc": "2026-10-24T14:21:24+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Microsoft Q1: A $744 Billion AI Reckoning Is Coming"
+    },
+    {
+      "published_utc": "2026-10-24T12:09:54+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft Stock And 2 Other Best Defensive Stocks"
+    },
+    {
+      "published_utc": "2026-10-24T12:00:47+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Fed Decision, Microsoft, Alphabet Earnings Highlight Blockbuster Week"
+    },
     {
       "published_utc": "2026-10-23T20:49:37+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-23T15:11:46+00:00",
       "publisher": "Yahoo",
       "title": "Hyperscalers Microsoft, Amazon Line Up With Earnings, Along With ServiceNow, Intel"
-    },
-    {
-      "published_utc": "2026-10-23T14:45:13+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft Azure Growth, Copilot Monetization in Focus Ahead of Earnings, BofA Says"
-    },
-    {
-      "published_utc": "2026-10-23T14:07:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft Earnings Report To Focus On AI Momentum, Capex"
-    },
-    {
-      "published_utc": "2026-10-23T14:07:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft wants to keep more of its AI billions from Nvidia"
-    },
-    {
-      "published_utc": "2026-10-23T12:15:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Seeking Clues to Microsoft (MSFT) Q1 Earnings? A Peek Into Wall Street Projections for Key Metrics"
-    },
-    {
-      "published_utc": "2026-10-23T11:15:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight"
-    },
-    {
-      "published_utc": "2026-10-23T10:32:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Boehringer and Microsoft collaborate to explore AI in clinical research"
     }
   ]
 }

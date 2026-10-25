@@ -1,9 +1,19 @@
 {
   "ticker": "BRZE",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-24T03:04:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocks making big moves this week: Braze, Amkor, Oceaneering, Arhaus, and Silgan Holdings"
+    },
+    {
+      "published_utc": "2026-10-23T15:09:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Braze Stock Soared This Week"
+    },
     {
       "published_utc": "2026-10-22T22:04:19+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-21T08:47:48+00:00",
       "publisher": "Benzinga",
       "title": "Barclays Downgrades Braze to Equal-Weight, Raises Price Target to $48"
-    },
-    {
-      "published_utc": "2026-10-21T08:10:27+00:00",
-      "publisher": "Benzinga",
-      "title": "DA Davidson Downgrades Braze to Neutral, Raises Price Target to $47.5"
-    },
-    {
-      "published_utc": "2026-10-21T08:07:51+00:00",
-      "publisher": "Benzinga",
-      "title": "Raymond James Downgrades Braze to Market Perform"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "AVGO",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-24T17:54:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Broadcom Stock Is Down 7% in a Year. Cheap for a Reason or Too Cheap to Ignore?"
+    },
+    {
+      "published_utc": "2026-10-24T17:40:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Broadcom vs. Dell Technologies: Which Stock Is AI Powering to Be a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-24T14:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia vs. Broadcom: One Grew AI Revenue 221% Last Quarter. The Other Grew 117%."
+    },
+    {
+      "published_utc": "2026-10-24T03:33:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Broadcom stock gets massive $600 call even as AI fears grow"
+    },
     {
       "published_utc": "2026-10-23T21:05:01+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-22T16:00:47+00:00",
       "publisher": "Yahoo",
       "title": "Prediction: Broadcom Stock Could Crush the S&P 500 Through 2030"
-    },
-    {
-      "published_utc": "2026-10-22T15:20:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom Has Lost 35% From Its High: Tigress Sees 83% Upside"
-    },
-    {
-      "published_utc": "2026-10-22T14:06:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Snowflake vs. Broadcom: Which Enterprise AI Stock Is the Smarter Buy?"
-    },
-    {
-      "published_utc": "2026-10-22T11:03:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom’s Hock Tan Says AI’s Next Bottleneck Isn’t Chips, Power, or Memory. It’s Not a Tech Problem at All."
-    },
-    {
-      "published_utc": "2026-10-22T09:16:49+00:00",
-      "publisher": "Benzinga",
-      "title": "Tigress Financial Initiates Coverage On Broadcom with Buy Rating, Announces Price Target of $600"
     }
   ]
 }

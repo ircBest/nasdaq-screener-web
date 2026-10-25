@@ -1,9 +1,24 @@
 {
   "ticker": "MDB",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-24T08:10:22+00:00",
+      "publisher": "Yahoo",
+      "title": "MongoDB (MDB) Stock May Be Fully Priced Despite Fiduciary Duty Probe"
+    },
+    {
+      "published_utc": "2026-10-23T21:15:04+00:00",
+      "publisher": "Yahoo",
+      "title": "MongoDB (MDB) Advances While Market Declines: Some Information for Investors"
+    },
+    {
+      "published_utc": "2026-10-23T08:09:02+00:00",
+      "publisher": "Yahoo",
+      "title": "MongoDB (MDB) Could Be 20% Undervalued On Its Agentic AI Foundation Move"
+    },
     {
       "published_utc": "2026-10-21T12:22:00+00:00",
       "publisher": "Yahoo",
@@ -48,16 +63,6 @@
       "published_utc": "2026-10-13T17:39:00+00:00",
       "publisher": "Yahoo",
       "title": "MongoDB wins Bank of America backing on AI growth prospects"
-    },
-    {
-      "published_utc": "2026-10-13T16:43:08+00:00",
-      "publisher": "Yahoo",
-      "title": "MongoDB gains as BofA highlights long-term AI strategy potential"
-    },
-    {
-      "published_utc": "2026-10-13T06:27:07+00:00",
-      "publisher": "Benzinga",
-      "title": "Needham Reiterates Buy on MongoDB, Maintains $430 Price Target"
     }
   ]
 }

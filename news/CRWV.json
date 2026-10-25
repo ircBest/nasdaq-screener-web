@@ -1,13 +1,33 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-23T23:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "A Surprising New Rival Is Threatening CoreWeave (and It's Not Best Known as an AI Cloud Company)"
+    },
+    {
+      "published_utc": "2026-10-23T22:33:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave appears to have a lender problem, not a customer one"
+    },
+    {
+      "published_utc": "2026-10-23T22:02:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Anthropic IPO Watch, SpaceX’s Soaring Compute Pricing, Wall Street’s Takes on CoreWeave vs. Nebius"
+    },
+    {
       "published_utc": "2026-10-23T19:44:00+00:00",
       "publisher": "Yahoo",
       "title": "CoreWeave Heads for Third Weekly Loss, Weighing on Stocks and Bitcoin Over AI Financing Fears"
+    },
+    {
+      "published_utc": "2026-10-23T19:25:19+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "CoreWeave: Backlog Alone Isn't Enough"
     },
     {
       "published_utc": "2026-10-23T17:30:16+00:00",
@@ -30,6 +50,11 @@
       "title": "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom"
     },
     {
+      "published_utc": "2026-10-23T15:36:17+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Buy on CoreWeave, Lowers Price Target to $105"
+    },
+    {
       "published_utc": "2026-10-23T15:11:50+00:00",
       "publisher": "Yahoo",
       "title": "CoreWeave (CRWV) Launches New AI Tools Following A Sharp Selloff But Is It A Bargain"
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-23T15:10:09+00:00",
       "publisher": "Yahoo",
       "title": "CoreWeave's Rising Financing Uncertainty Reduces Visibility, Morgan Stanley Says"
-    },
-    {
-      "published_utc": "2026-10-23T14:50:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy Today for $8."
-    },
-    {
-      "published_utc": "2026-10-23T13:00:58+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave Has a $100 Billion AI Opportunity, but Investors Face One Big Question"
-    },
-    {
-      "published_utc": "2026-10-23T10:45:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Moderna, Meta, SpaceX, AT&T, CoreWeave, Sandisk, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "published_utc": "2026-10-23T10:13:48+00:00",
-      "publisher": "Yahoo",
-      "title": "Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus"
-    },
-    {
-      "published_utc": "2026-10-23T07:53:58+00:00",
-      "publisher": "Benzinga",
-      "title": "Morgan Stanley Maintains Equal-Weight on CoreWeave, Lowers Price Target to $70"
     }
   ]
 }

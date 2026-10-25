@@ -1,9 +1,19 @@
 {
   "ticker": "INTC",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-24T18:42:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel Stock Is Up 121% This Year. Here’s the Number to Watch on October 29"
+    },
+    {
+      "published_utc": "2026-10-24T14:10:28+00:00",
+      "publisher": "Yahoo",
+      "title": "What Investors Overlooked Before Intel's 127% Run"
+    },
     {
       "published_utc": "2026-10-23T19:37:02+00:00",
       "publisher": "Yahoo",
@@ -18,6 +28,11 @@
       "published_utc": "2026-10-23T14:50:00+00:00",
       "publisher": "Yahoo",
       "title": "Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy Today for $8."
+    },
+    {
+      "published_utc": "2026-10-23T12:15:59+00:00",
+      "publisher": "Benzinga",
+      "title": "What's Going on With Intel Stock on Friday?"
     },
     {
       "published_utc": "2026-10-23T11:15:58+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-22T17:03:45+00:00",
       "publisher": "Benzinga",
       "title": "The Federal Communications Commission Said On Thursday It Has Granted A Waiver To Intel From Its Ban On Some Foreign-Made Advanced Robotics; FCC Said It Would Grant A One-Year Waiver Of Its Rules In Order To Prevent \"Potential Disruptions In The Availability Of Domestic Semiconductor Manufacturing S"
-    },
-    {
-      "published_utc": "2026-10-22T15:45:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Chip Stocks Fall as Supply Warning Deepens AI Selloff: Marvell and AMD Sink 8%, Intel Drops 7%"
-    },
-    {
-      "published_utc": "2026-10-22T14:48:12+00:00",
-      "publisher": "Yahoo",
-      "title": "INTC Stock Alert: What to Know as Intel Hits Construction Milestone at Ohio Fab"
-    },
-    {
-      "published_utc": "2026-10-22T14:30:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel Stock Could Have a Turnaround Opportunity if These 3 Catalysts Deliver"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "CRWD",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-24T13:45:42+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike’s CEO Says a Wave of Cyber Attacks Are Coming"
+    },
+    {
+      "published_utc": "2026-10-24T06:32:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Qualys, Tenable, Cloudflare, CrowdStrike, and Okta shares skyrocket, what you need to know"
+    },
     {
       "published_utc": "2026-10-23T18:16:29+00:00",
       "publisher": "Yahoo",
@@ -35,6 +45,11 @@
       "title": "CrowdStrike vs. SentinelOne: Which Cybersecurity Stock Is a Better Buy in 2026?"
     },
     {
+      "published_utc": "2026-10-23T11:42:04+00:00",
+      "publisher": "CNBC",
+      "title": "CrowdStrike CEO George Kurtz: Will see a lot of breaches in coming months from PHP vulnerability"
+    },
+    {
       "published_utc": "2026-10-22T19:57:38+00:00",
       "publisher": "Yahoo",
       "title": "CrowdStrike Stock Rose 5% as It Expanded Its NVIDIA AI Security Deal. Here’s Where the Stock Could Go by 2031"
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-22T07:57:14+00:00",
       "publisher": "Benzinga",
       "title": "Mizuho Maintains Outperform on CrowdStrike Holdings, Raises Price Target to $275"
-    },
-    {
-      "published_utc": "2026-10-22T07:19:45+00:00",
-      "publisher": "Yahoo",
-      "title": "CrowdStrike Stock Has The Bull Case Changed After AI Security Partnership Expansion"
-    },
-    {
-      "published_utc": "2026-10-22T01:57:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-10-21T20:38:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Rapid7, CrowdStrike, Cloudflare, Okta, and JFrog shares skyrocket, what you need to know"
     }
   ]
 }

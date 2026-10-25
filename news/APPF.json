@@ -1,9 +1,29 @@
 {
   "ticker": "APPF",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T17:55:42+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "AppFolio: Tailwinds Are Now Priced In After Recent Rebound (Downgrade)"
+    },
+    {
+      "published_utc": "2026-10-23T17:17:09+00:00",
+      "publisher": "Benzinga",
+      "title": "DA Davidson Maintains Buy on AppFolio, Raises Price Target to $250"
+    },
+    {
+      "published_utc": "2026-10-23T15:46:06+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Neutral on AppFolio, Raises Price Target to $240"
+    },
+    {
+      "published_utc": "2026-10-23T11:11:06+00:00",
+      "publisher": "Benzinga",
+      "title": "Guggenheim Maintains Buy on AppFolio, Raises Price Target to $239"
+    },
     {
       "published_utc": "2026-10-23T00:58:31+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-22T17:43:11+00:00",
       "publisher": "Benzinga",
       "title": "AppFolio Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-22T16:09:28+00:00",
-      "publisher": "Benzinga",
-      "title": "AppFolio Raises FY2026 Sales Guidance from $1.117B-$1.127B to $1.122B-$1.127B vs $1.124B Est"
-    },
-    {
-      "published_utc": "2026-10-22T16:04:43+00:00",
-      "publisher": "Benzinga",
-      "title": "AppFolio Q3 Adj. EPS $1.82 Beats $1.79 Estimate, Sales $295.691M Beat $294.414M Estimate"
-    },
-    {
-      "published_utc": "2026-10-21T13:42:59+00:00",
-      "publisher": "Benzinga",
-      "title": "Keefe, Bruyette & Woods Maintains Outperform on AppFolio, Raises Price Target to $255"
-    },
-    {
-      "published_utc": "2026-10-21T00:15:53+00:00",
-      "publisher": "Yahoo",
-      "title": "AppFolio Stock In Focus Before Earnings Forecasts Point To Higher Service Revenue"
     }
   ]
 }

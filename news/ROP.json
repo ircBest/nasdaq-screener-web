@@ -1,9 +1,29 @@
 {
   "ticker": "ROP",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-23T16:48:01+00:00",
+      "publisher": "Benzinga",
+      "title": "Jefferies Maintains Buy on Roper Technologies, Raises Price Target to $540"
+    },
+    {
+      "published_utc": "2026-10-23T14:40:09+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Roper Technologies, Raises Price Target to $525"
+    },
+    {
+      "published_utc": "2026-10-23T13:53:27+00:00",
+      "publisher": "Benzinga",
+      "title": "Truist Securities Maintains Buy on Roper Technologies, Raises Price Target to $500"
+    },
+    {
+      "published_utc": "2026-10-23T10:26:17+00:00",
+      "publisher": "Benzinga",
+      "title": "RBC Capital Maintains Sector Perform on Roper Technologies, Raises Price Target to $450"
+    },
     {
       "published_utc": "2026-10-22T23:13:56+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-22T12:30:04+00:00",
       "publisher": "Yahoo",
       "title": "Roper Technologies (ROP) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates"
-    },
-    {
-      "published_utc": "2026-10-22T12:27:47+00:00",
-      "publisher": "ChartMill",
-      "title": "Roper Technologies (NASDAQ:ROP) Q3 2026: In-Line Results and Raised EPS Guidance Meet a Muted Market Reaction"
-    },
-    {
-      "published_utc": "2026-10-22T11:15:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Roper Technologies (ROP) Q3 Earnings Beat Estimates"
-    },
-    {
-      "published_utc": "2026-10-22T11:04:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Roper Technologies: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-10-22T11:00:38+00:00",
-      "publisher": "ChartMill",
-      "title": "Roper Technologies (NASDAQ:ROP): A Quality Investing Candidate With Strong Margins and Balance-Sheet Watch Items"
     }
   ]
 }

@@ -1,9 +1,14 @@
 {
   "ticker": "TENB",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-24T06:32:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Qualys, Tenable, Cloudflare, CrowdStrike, and Okta shares skyrocket, what you need to know"
+    },
     {
       "published_utc": "2026-10-21T20:46:39+00:00",
       "publisher": "Yahoo",
@@ -43,11 +48,6 @@
       "published_utc": "2026-10-12T18:15:03+00:00",
       "publisher": "Yahoo",
       "title": "Tenable (TENB): Buy, Sell, or Hold Post Q2 Earnings?"
-    },
-    {
-      "published_utc": "2026-10-11T03:17:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Tenable Holdings (TENB) Fully Valued Following Its AI Security Launch And Board Addition?"
     }
   ]
 }

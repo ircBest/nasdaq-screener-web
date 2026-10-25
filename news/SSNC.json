@@ -1,9 +1,29 @@
 {
   "ticker": "SSNC",
-  "generated_at": "2026-10-24T08:26:06+00:00",
+  "generated_at": "2026-10-25T09:24:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-24T04:22:26+00:00",
+      "publisher": "Yahoo",
+      "title": "SS&C Stock Gets An Earnings Beat But Revenue Outlook Stays Cautious"
+    },
+    {
+      "published_utc": "2026-10-24T04:08:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Why SS&C (SSNC) shares are plunging today"
+    },
+    {
+      "published_utc": "2026-10-23T21:16:45+00:00",
+      "publisher": "Yahoo",
+      "title": "SS&C Technologies (SSNC) Stock Looks Reasonable After An 89% Run"
+    },
+    {
+      "published_utc": "2026-10-23T12:56:39+00:00",
+      "publisher": "Yahoo",
+      "title": "SSNC Q3 deep dive: AI, automation, and M&A in focus as growth moderates"
+    },
     {
       "published_utc": "2026-10-23T06:09:36+00:00",
       "publisher": "Benzinga",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-22T20:05:00+00:00",
       "publisher": "Yahoo",
       "title": "SS&C Technologies Releases Q3 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-10-22T17:48:09+00:00",
-      "publisher": "Benzinga",
-      "title": "SS&C Technologies Hldgs Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-22T16:08:43+00:00",
-      "publisher": "Benzinga",
-      "title": "SS&C Technologies Hldgs Narrows FY2026 Adj EPS Guidance from $6.93-$7.25 to $7.11-$7.17 vs $7.06 Est; Narrows FY2026 Sales Guidance from $6.672B-$6.832B to $6.736B-$6.776B vs $6.770B Est"
-    },
-    {
-      "published_utc": "2026-10-22T16:08:14+00:00",
-      "publisher": "Benzinga",
-      "title": "SS&C Technologies Hldgs Sees Q4 Adj EPS $1.88-$1.94 vs $1.90 Est; Sees Sales $1.700B-$1.740B vs $1.748B Est"
-    },
-    {
-      "published_utc": "2026-10-22T16:06:02+00:00",
-      "publisher": "Benzinga",
-      "title": "SS&C Techs Hldgs Q3 Adj. EPS $1.78 Beats $1.77 Estimate, Adj. Sales $1.691B Beat $1.686B Estimate"
     }
   ]
 }
