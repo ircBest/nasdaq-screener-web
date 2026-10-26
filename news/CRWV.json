@@ -1,9 +1,24 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-10-25T09:24:19+00:00",
+  "generated_at": "2026-10-26T09:33:14+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-25T13:15:59+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave Slides 11% Toward a 52-Week Low as a $640 Million Interest Bill Rattles Investors"
+    },
+    {
+      "published_utc": "2026-10-25T11:24:37+00:00",
+      "publisher": "Yahoo",
+      "title": "AI Debt Has Exploded 4X To Nearly $500 Billion: What It Means For NVDA, ORCL And CRWV, According To IO Fund"
+    },
+    {
+      "published_utc": "2026-10-24T18:33:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Piper Sandler Says Financing Concerns for CoreWeave Are Overblown. Not Everyone Is Convinced."
+    },
     {
       "published_utc": "2026-10-23T23:20:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-23T15:36:27+00:00",
       "publisher": "Yahoo",
       "title": "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom"
-    },
-    {
-      "published_utc": "2026-10-23T15:36:17+00:00",
-      "publisher": "Benzinga",
-      "title": "UBS Maintains Buy on CoreWeave, Lowers Price Target to $105"
-    },
-    {
-      "published_utc": "2026-10-23T15:11:50+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave (CRWV) Launches New AI Tools Following A Sharp Selloff But Is It A Bargain"
-    },
-    {
-      "published_utc": "2026-10-23T15:10:09+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave's Rising Financing Uncertainty Reduces Visibility, Morgan Stanley Says"
     }
   ]
 }

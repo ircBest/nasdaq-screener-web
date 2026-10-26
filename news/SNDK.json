@@ -1,9 +1,29 @@
 {
   "ticker": "SNDK",
-  "generated_at": "2026-10-25T09:24:19+00:00",
+  "generated_at": "2026-10-26T09:33:14+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-25T21:49:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Stock-Split Watch: Is Sandisk Next?"
+    },
+    {
+      "published_utc": "2026-10-25T15:26:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Is the AI Storage Boom Over? Why SanDisk’s Oct. 29 Earnings Could Prove the Doubters Wrong"
+    },
+    {
+      "published_utc": "2026-10-25T15:09:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Sandisk (SNDK) Flags Industry Supply Chain Constraints As Memory Production Timelines Tighten"
+    },
+    {
+      "published_utc": "2026-10-25T08:30:19+00:00",
+      "publisher": "Benzinga",
+      "title": "Earnings Volatility Watch: SanDisk and 11 Other Stocks Are Priced for at Least 10% Swings This Week"
+    },
     {
       "published_utc": "2026-10-24T15:05:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-23T12:01:35+00:00",
       "publisher": "Yahoo",
       "title": "MU, SNDK, SKHY Stocks Bounce After Thursday’s Markdown, But Strategists Split: ‘Great Buying Opportunity’ Versus ‘The Kospi Has Peaked’"
-    },
-    {
-      "published_utc": "2026-10-23T10:45:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Moderna, Meta, SpaceX, AT&T, CoreWeave, Sandisk, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "published_utc": "2026-10-23T09:04:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Better Memory Stock: Micron vs. Sandisk"
-    },
-    {
-      "published_utc": "2026-10-22T21:50:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Up 3,700%, Should You Buy Sandisk Right Now?"
-    },
-    {
-      "published_utc": "2026-10-22T19:28:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Does SanDisk Stock's High Cash Yield Get So Little Credit?"
     }
   ]
 }

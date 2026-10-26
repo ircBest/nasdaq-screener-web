@@ -1,9 +1,29 @@
 {
   "ticker": "INTC",
-  "generated_at": "2026-10-25T09:24:19+00:00",
+  "generated_at": "2026-10-26T09:33:14+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-25T17:25:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel vs. SK Hynix: Revenue Trends to Help Investors Weigh Which Artificial Intelligence Stock to Buy"
+    },
+    {
+      "published_utc": "2026-10-25T15:33:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel’s Make-or-Break Margin Test Is Arriving on Oct. 29"
+    },
+    {
+      "published_utc": "2026-10-25T15:27:00+00:00",
+      "publisher": "Yahoo",
+      "title": "What To Expect In Markets This Week: GOOGL, MSFT, AMZN, INTC, HOOD, LLY Earnings, Fed Meeting And More"
+    },
+    {
+      "published_utc": "2026-10-25T14:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Intel Stock a Buy Right Now?"
+    },
     {
       "published_utc": "2026-10-24T18:42:48+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-23T10:20:02+00:00",
       "publisher": "Yahoo",
       "title": "Prediction: Intel Stock Will Take Off After Oct. 29"
-    },
-    {
-      "published_utc": "2026-10-22T20:45:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel vs. Qualcomm: A Widening Gap in Revenue"
-    },
-    {
-      "published_utc": "2026-10-22T18:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "What Does an AI Agent Need a CPU For? Why Nvidia Wants In on the Business Dominated by AMD and Intel"
-    },
-    {
-      "published_utc": "2026-10-22T17:25:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Could Intel be the next trillion-dollar company?"
-    },
-    {
-      "published_utc": "2026-10-22T17:03:45+00:00",
-      "publisher": "Benzinga",
-      "title": "The Federal Communications Commission Said On Thursday It Has Granted A Waiver To Intel From Its Ban On Some Foreign-Made Advanced Robotics; FCC Said It Would Grant A One-Year Waiver Of Its Rules In Order To Prevent \"Potential Disruptions In The Availability Of Domestic Semiconductor Manufacturing S"
     }
   ]
 }
