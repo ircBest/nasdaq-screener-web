@@ -1,9 +1,34 @@
 {
   "ticker": "AMAT",
-  "generated_at": "2026-10-26T09:33:14+00:00",
+  "generated_at": "2026-10-27T09:17:58+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-26T21:40:32+00:00",
+      "publisher": "Yahoo",
+      "title": "KLA Corporation (KLAC) vs. AMAT and LRCX: Can Rising Semiconductor Complexity Create Another Growth Cycle?"
+    },
+    {
+      "published_utc": "2026-10-26T20:45:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Materials (AMAT) Surpasses Market Returns: Some Facts Worth Knowing"
+    },
+    {
+      "published_utc": "2026-10-26T20:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Materials to Increase its Strategic Investment in BE Semiconductor Industries"
+    },
+    {
+      "published_utc": "2026-10-26T15:23:17+00:00",
+      "publisher": "Yahoo",
+      "title": "Lam Research (LRCX) vs. AMAT and KLAC: Can Strong Cash Flow and AI Demand Support Further Upside?"
+    },
+    {
+      "published_utc": "2026-10-26T08:33:46+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Applied Materials' Meltdown Is A Gift As Durable Capex Meets Cooling AI Sentiments"
+    },
     {
       "published_utc": "2026-10-25T09:40:00+00:00",
       "publisher": "SeekingAlpha",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-23T15:09:00+00:00",
       "publisher": "Yahoo",
       "title": "The Trouble for Lam Research, Applied Materials, and KLA Stock Could Be Just Getting Started"
-    },
-    {
-      "published_utc": "2026-10-23T13:07:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AMAT vs. LRCX: Which Stock Has an Edge in the WFE Space?"
-    },
-    {
-      "published_utc": "2026-10-23T00:13:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Materials, Lam Research, KLA Corporation, FormFactor, and Penguin Solutions shares plummet, what you need to know"
-    },
-    {
-      "published_utc": "2026-10-22T15:32:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Materials Sinks 7% on Lam’s Outlook: “A Bit Higher” Wasn’t Enough"
-    },
-    {
-      "published_utc": "2026-10-22T14:44:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Lam Research Sinks 9% as Supply Constraints Cap Outlook; Applied Materials Drops 6%, ASML Holding Falls 4%"
-    },
-    {
-      "published_utc": "2026-10-22T13:56:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Semiconductor Systems Drive AMAT's Next Growth Phase?"
     }
   ]
 }

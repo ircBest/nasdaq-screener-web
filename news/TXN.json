@@ -1,9 +1,24 @@
 {
   "ticker": "TXN",
-  "generated_at": "2026-10-26T09:33:14+00:00",
+  "generated_at": "2026-10-27T09:17:58+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-26T12:15:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Don't Overlook Texas Instruments (TXN) International Revenue Trends While Assessing the Stock"
+    },
+    {
+      "published_utc": "2026-10-26T11:45:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Texas Instruments Raised Its Dividend Again. Can Analog Chips Keep Funding It?"
+    },
+    {
+      "published_utc": "2026-10-26T09:20:53+00:00",
+      "publisher": "ChartMill",
+      "title": "Texas Instruments (NASDAQ:TXN): High Growth Momentum Meets Breakout Setup"
+    },
     {
       "published_utc": "2026-10-23T15:16:39+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-22T15:15:17+00:00",
       "publisher": "Yahoo",
       "title": "Tesla Will Make Millions of Optimus Robots. Texas Instruments Can Get Paid on Every One"
-    },
-    {
-      "published_utc": "2026-10-22T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Texas Instruments Announces the TI-Rover BT: Bringing Math to Life with a Calculator-Controlled Robotic Vehicle"
-    },
-    {
-      "published_utc": "2026-10-22T13:40:36+00:00",
-      "publisher": "Benzinga",
-      "title": "Morgan Stanley Maintains Underweight on Texas Instruments, Raises Price Target to $278"
-    },
-    {
-      "published_utc": "2026-10-22T13:17:00+00:00",
-      "publisher": "Yahoo",
-      "title": "TXN Q3 Earnings Beat Estimates on Strong Analog, Data Center Demand"
     }
   ]
 }

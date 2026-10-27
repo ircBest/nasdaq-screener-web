@@ -1,9 +1,19 @@
 {
   "ticker": "ZS",
-  "generated_at": "2026-10-26T09:33:14+00:00",
+  "generated_at": "2026-10-27T09:17:58+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-26T10:24:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Zscaler Stock Rose 23% in Five Trading Days as Cybersecurity Stocks Rallied on AI-Found PHP Flaws. Here’s Where It Could Go by 2031"
+    },
+    {
+      "published_utc": "2026-10-26T05:06:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Now The Right Time For Zscaler Stock?"
+    },
     {
       "published_utc": "2026-10-24T06:00:39+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-21T20:46:39+00:00",
       "publisher": "Yahoo",
       "title": "Zscaler and Tenable shares are soaring, what you need to know"
-    },
-    {
-      "published_utc": "2026-10-21T13:37:33+00:00",
-      "publisher": "Benzinga",
-      "title": "What's Driving Zscaler Stock Higher Wednesday?"
-    },
-    {
-      "published_utc": "2026-10-21T12:02:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: Applied Digital, Chipotle Mexican Grill, Cirrus Logic, Costco, Digital Realty Trust, Intuitive Surgical, Netflix, Robinhood Markets, Zscaler, and More"
     }
   ]
 }

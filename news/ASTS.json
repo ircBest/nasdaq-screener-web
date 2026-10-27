@@ -1,9 +1,24 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-10-26T09:33:14+00:00",
+  "generated_at": "2026-10-27T09:17:58+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-26T11:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile Advances Brazil Expansion with Anatel’s Approval for S-band Spectrum and Secondary Use of the 700 MHz Band, Agreements with Four Regional Operators and Planned Ground Infrastructure"
+    },
+    {
+      "published_utc": "2026-10-26T07:33:23+00:00",
+      "publisher": "Benzinga",
+      "title": "AST SpaceMobile Receives Brazil’s National Telecommunications Agency Authorization For Secondary Use Of Spectrum In 700 MHz Band"
+    },
+    {
+      "published_utc": "2026-10-26T03:05:11+00:00",
+      "publisher": "Yahoo",
+      "title": "ASTS Stock Slips Overnight: AST Seeks More Spectrum For Broadband Expansion — Market Veteran Flags ‘Sky-High’ Valuation"
+    },
     {
       "published_utc": "2026-10-23T23:33:55+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-22T14:39:59+00:00",
       "publisher": "Benzinga",
       "title": "What's Going On with AST SpaceMobile Shares On Thursday?"
-    },
-    {
-      "published_utc": "2026-10-21T21:55:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Should You Sell Your AST SpaceMobile Stock Now?"
-    },
-    {
-      "published_utc": "2026-10-21T19:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Hit a 52-Week Low Days After SpaceX Spent $8 Billion on Spectrum. That's Not a Coincidence."
-    },
-    {
-      "published_utc": "2026-10-21T14:49:21+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Stock Gets a New Catalyst. Wall Street Sees 93% Upside."
     }
   ]
 }

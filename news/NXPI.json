@@ -1,9 +1,24 @@
 {
   "ticker": "NXPI",
-  "generated_at": "2026-10-26T09:33:14+00:00",
+  "generated_at": "2026-10-27T09:17:58+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-26T10:14:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Earnings to watch: NXP Semiconductors (NXPI) reports Q3 results tomorrow"
+    },
+    {
+      "published_utc": "2026-10-26T09:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Volkswagen Group strengthens its strategic semiconductor ecosystem through partnership with NXP"
+    },
+    {
+      "published_utc": "2026-10-26T05:54:37+00:00",
+      "publisher": "Benzinga",
+      "title": "NXP Selected As Volkswagen Group Strategic Technology Partner, Supplying S32K5 Microcontrollers For Zonal Software-Defined Vehicle Architecture Across Brands; First Vehicle Planned 2027"
+    },
     {
       "published_utc": "2026-10-23T12:17:00+00:00",
       "publisher": "Yahoo",
@@ -48,11 +63,6 @@
       "published_utc": "2026-10-15T16:09:34+00:00",
       "publisher": "Yahoo",
       "title": "Guinness Sustainable Energy Fund Sees Improving Demand Indicators for NXP Semiconductors N.V. (NXPI)"
-    },
-    {
-      "published_utc": "2026-10-12T11:45:32+00:00",
-      "publisher": "Benzinga",
-      "title": "If You Invested $1000 In NXP Semiconductors Stock 15 Years Ago, You Would Have This Much Today"
     }
   ]
 }

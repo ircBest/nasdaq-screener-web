@@ -1,9 +1,14 @@
 {
   "ticker": "VRSN",
-  "generated_at": "2026-10-26T09:33:14+00:00",
+  "generated_at": "2026-10-27T09:17:58+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-26T09:17:01+00:00",
+      "publisher": "Benzinga",
+      "title": "Wedbush Maintains Outperform on VeriSign, Raises Price Target to $367"
+    },
     {
       "published_utc": "2026-10-25T20:30:24+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-22T16:05:34+00:00",
       "publisher": "Benzinga",
       "title": "VeriSign Q3 EPS $2.35 Misses $2.41 Estimate, Sales $443.000M Beat $440.573M Estimate"
-    },
-    {
-      "published_utc": "2026-10-19T09:25:20+00:00",
-      "publisher": "Benzinga",
-      "title": "Wedbush Maintains Outperform on VeriSign, Raises Price Target to $351"
     }
   ]
 }
