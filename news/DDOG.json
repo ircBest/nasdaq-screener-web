@@ -1,9 +1,24 @@
 {
   "ticker": "DDOG",
-  "generated_at": "2026-10-27T09:17:58+00:00",
+  "generated_at": "2026-10-28T09:57:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-27T17:55:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog valuation in focus as UBS lifts price target ahead of Q3 results"
+    },
+    {
+      "published_utc": "2026-10-27T09:55:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Here's What to Expect From Datadog's Next Earnings Report"
+    },
+    {
+      "published_utc": "2026-10-27T08:41:04+00:00",
+      "publisher": "Yahoo",
+      "title": "DDOG Stock Has Doubled This Year: Analysts Still See Upside, List AI Catalysts"
+    },
     {
       "published_utc": "2026-10-26T16:41:43+00:00",
       "publisher": "Yahoo",
@@ -13,6 +28,11 @@
       "published_utc": "2026-10-26T14:50:02+00:00",
       "publisher": "Yahoo",
       "title": "Adobe vs. Datadog: Which Technology Stock Is a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-26T13:46:32+00:00",
+      "publisher": "Benzinga",
+      "title": "Oppenheimer Maintains Outperform on Datadog, Raises Price Target to $330"
     },
     {
       "published_utc": "2026-10-25T16:35:42+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-22T19:53:39+00:00",
       "publisher": "Yahoo",
       "title": "Datadog Reportedly Bids Nearly $4B For Cloud Security Startup Upwind To Fortify AI Defenses"
-    },
-    {
-      "published_utc": "2026-10-22T13:30:40+00:00",
-      "publisher": "Benzinga",
-      "title": "'Datadog Recently Offered To Buy Cloud Cybersecurity Startup Upwind Security For Nearly $4 Billion; Upwind, Which Hasn’t Accepted The Offer, Is Finalizing A $300 Million Funding Round At A Roughly $3.8 Billion Valuation' - The Information"
-    },
-    {
-      "published_utc": "2026-10-21T18:54:39+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Big Reasons to Love Datadog (DDOG)"
-    },
-    {
-      "published_utc": "2026-10-21T14:40:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-10-20T20:45:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Datadog (DDOG) Stock Falls Amid Market Uptick: What Investors Need to Know"
     }
   ]
 }

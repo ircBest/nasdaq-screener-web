@@ -1,9 +1,19 @@
 {
   "ticker": "ALAB",
-  "generated_at": "2026-10-27T09:17:58+00:00",
+  "generated_at": "2026-10-28T09:57:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-27T13:00:14+00:00",
+      "publisher": "Yahoo",
+      "title": "Astera Labs, Inc. (ALAB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release"
+    },
+    {
+      "published_utc": "2026-10-27T11:20:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Astera Labs (ALAB) Detracts Despite Strong Core Business"
+    },
     {
       "published_utc": "2026-10-24T19:09:56+00:00",
       "publisher": "Yahoo",
@@ -53,11 +63,6 @@
       "published_utc": "2026-10-15T15:55:33+00:00",
       "publisher": "Yahoo",
       "title": "Better Artificial Intelligence Stock for 2026: Astera Labs vs. Marvell Technology"
-    },
-    {
-      "published_utc": "2026-10-14T16:43:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Astera Labs (ALAB) vs. CRDO and MRVL: Can Surging AI Demand Outpace Valuation Risks?"
     }
   ]
 }

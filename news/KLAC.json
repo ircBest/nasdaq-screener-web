@@ -1,9 +1,24 @@
 {
   "ticker": "KLAC",
-  "generated_at": "2026-10-27T09:17:58+00:00",
+  "generated_at": "2026-10-28T09:57:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-27T15:18:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Earnings to watch: KLA Corporation (KLAC) reports Q3 results tomorrow"
+    },
+    {
+      "published_utc": "2026-10-27T12:07:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Market Rotation Overshadows KLA Corp’s (KLAC) Solid Results and Guidance"
+    },
+    {
+      "published_utc": "2026-10-27T11:50:18+00:00",
+      "publisher": "Yahoo",
+      "title": "What Equinix, KLA, and Vertiv Earnings Could Signal About Data Center Demand"
+    },
     {
       "published_utc": "2026-10-26T21:40:32+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-23T12:35:02+00:00",
       "publisher": "Yahoo",
       "title": "Down 21.0% in 4 Weeks, Here's Why KLA (KLAC) Looks Ripe for a Turnaround"
-    },
-    {
-      "published_utc": "2026-10-23T12:15:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Insights Into KLA (KLAC) Q1: Wall Street Projections for Key Metrics"
-    },
-    {
-      "published_utc": "2026-10-23T01:14:17+00:00",
-      "publisher": "Yahoo",
-      "title": "KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case"
-    },
-    {
-      "published_utc": "2026-10-23T00:13:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Materials, Lam Research, KLA Corporation, FormFactor, and Penguin Solutions shares plummet, what you need to know"
     }
   ]
 }

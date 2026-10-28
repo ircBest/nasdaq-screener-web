@@ -1,9 +1,29 @@
 {
   "ticker": "STRC",
-  "generated_at": "2026-10-27T09:17:58+00:00",
+  "generated_at": "2026-10-28T09:57:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-26T18:21:47+00:00",
+      "publisher": "Yahoo",
+      "title": "The Bitcoin Bull Market Is Finally Here, According to Strategy's Michael Saylor. Could Bitcoin Hit a Price of $100,000 in 2027?"
+    },
+    {
+      "published_utc": "2026-10-26T17:22:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Tom Lee Says Crypto Faced Same ‘Risk Off’ Forces Behind AI Sell-Off: BMNR, ASST Add To Crypto Treasuries As MSTR Skips Bitcoin Buys"
+    },
+    {
+      "published_utc": "2026-10-26T16:59:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy’s Weekly STRC Buyback Climbs to $205 Million While Its Bitcoin Stack Stays Put"
+    },
+    {
+      "published_utc": "2026-10-26T15:13:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Kyndryl the next MicroStrategy? Why this IBM spinoff is now surging"
+    },
     {
       "published_utc": "2026-10-26T13:38:58+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-22T02:12:51+00:00",
       "publisher": "Yahoo",
       "title": "Strategy (MSTR) Could Be 13% Overvalued As Stablecoin Rules Lift Crypto Stocks"
-    },
-    {
-      "published_utc": "2026-10-22T00:59:45+00:00",
-      "publisher": "Yahoo",
-      "title": "How Did Strategy Stock Leave Its Industry Behind?"
-    },
-    {
-      "published_utc": "2026-10-21T22:30:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Strategy (MSTR) stock is up today"
-    },
-    {
-      "published_utc": "2026-10-21T18:40:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Michael Saylor sees something big coming for Bitcoin"
-    },
-    {
-      "published_utc": "2026-10-21T14:16:42+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Increased Its Preferred Stock Buyback to $3 Billion and Shares Moved Higher. What This Means for MSTR"
     }
   ]
 }

@@ -1,9 +1,14 @@
 {
   "ticker": "ERIC",
-  "generated_at": "2026-10-27T09:17:58+00:00",
+  "generated_at": "2026-10-28T09:57:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-27T08:34:04+00:00",
+      "publisher": "Benzinga",
+      "title": "Ericsson’s Vonage Launches Email API Within Vonage Messages API, Extending Its Omnichannel Communications Platform To Include Email Alongside SMS, MMS, RCS, And WhatsApp"
+    },
     {
       "published_utc": "2026-10-26T08:10:00+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-16T01:14:46+00:00",
       "publisher": "Yahoo",
       "title": "Ericsson (OM:ERIC B) Reported Strong Q3 2026 Organic Sales Growth"
-    },
-    {
-      "published_utc": "2026-10-15T18:17:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Ericsson Stock Soared Today"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "RUN",
-  "generated_at": "2026-10-27T09:17:58+00:00",
+  "generated_at": "2026-10-28T09:57:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-26T15:08:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Sunrun (RUN) Drew Fresh Attention, Is It Still A Bargain?"
+    },
+    {
+      "published_utc": "2026-10-26T14:06:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Sunrun (RUN) Stock May Be A Bargain As Revenue Growth Accelerates"
+    },
     {
       "published_utc": "2026-10-23T21:00:04+00:00",
       "publisher": "Yahoo",
@@ -48,21 +58,6 @@
       "published_utc": "2026-10-14T10:49:11+00:00",
       "publisher": "Benzinga",
       "title": "Morgan Stanley Maintains Equal-Weight on Sunrun, Lowers Price Target to $10"
-    },
-    {
-      "published_utc": "2026-10-14T08:11:32+00:00",
-      "publisher": "Benzinga",
-      "title": "Susquehanna Maintains Positive on Sunrun, Lowers Price Target to $13"
-    },
-    {
-      "published_utc": "2026-10-13T21:15:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Sunrun (RUN) Increases Despite Market Slip: Here's What You Need to Know"
-    },
-    {
-      "published_utc": "2026-10-13T18:03:38+00:00",
-      "publisher": "Yahoo",
-      "title": "First Solar Climbs 4% as Truist Buy Call and December Tariff Floor Reset Panel Pricing Outlook; Enphase Energy and Sunrun Hold Flat"
     }
   ]
 }

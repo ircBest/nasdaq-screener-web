@@ -1,9 +1,24 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-10-27T09:17:58+00:00",
+  "generated_at": "2026-10-28T09:57:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-27T15:53:06+00:00",
+      "publisher": "Yahoo",
+      "title": "What to Expect From Akamai Technologies' Q3 2026 Earnings Report"
+    },
+    {
+      "published_utc": "2026-10-27T12:38:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Cloud AI Today - Akamai Expands AI Capabilities with New Cloud Solutions"
+    },
+    {
+      "published_utc": "2026-10-27T10:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Akamai Launches AI Inference Service and Agent Execution Environment"
+    },
     {
       "published_utc": "2026-10-26T14:42:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-20T18:15:00+00:00",
       "publisher": "Yahoo",
       "title": "Akamai Stock Got Whacked, Too. Why This AI Cloud Provider Is Feelin’ the Love."
-    },
-    {
-      "published_utc": "2026-10-20T13:42:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Raymond James lifts Akamai to Strong Buy after ‘AI Is Dead’ selloff"
-    },
-    {
-      "published_utc": "2026-10-20T13:35:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple downgraded, Akamai upgraded: Wall Street's top analyst calls"
-    },
-    {
-      "published_utc": "2026-10-20T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "FireMon Extends Policy Control Plane for Microsegmentation with Akamai Guardicore Integration"
     }
   ]
 }

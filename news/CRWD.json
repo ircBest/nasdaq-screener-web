@@ -1,9 +1,24 @@
 {
   "ticker": "CRWD",
-  "generated_at": "2026-10-27T09:17:58+00:00",
+  "generated_at": "2026-10-28T09:57:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-27T18:45:07+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike vs. Fastly: Which Technology Stock Is a Better Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-27T11:15:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Crowdstrike’s Rally a Sign of a Sustainable Shift Toward Increased AI Cybersecurity?"
+    },
+    {
+      "published_utc": "2026-10-27T10:39:06+00:00",
+      "publisher": "Yahoo",
+      "title": "How Bad Would Cooling AI Security Demand Be For CrowdStrike Stock?"
+    },
     {
       "published_utc": "2026-10-26T20:45:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-25T19:02:00+00:00",
       "publisher": "Yahoo",
       "title": "Up Over 100% in 2026, Is CrowdStrike Still a Buy?"
-    },
-    {
-      "published_utc": "2026-10-24T13:45:42+00:00",
-      "publisher": "Yahoo",
-      "title": "CrowdStrike’s CEO Says a Wave of Cyber Attacks Are Coming"
-    },
-    {
-      "published_utc": "2026-10-24T06:32:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Qualys, Tenable, Cloudflare, CrowdStrike, and Okta shares skyrocket, what you need to know"
-    },
-    {
-      "published_utc": "2026-10-23T18:16:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto and Crowdstrike Jumped 6%, and Okta Up 5% as Evercore Survey Flags Stronger Cyber Demand"
     }
   ]
 }
