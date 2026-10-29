@@ -1,13 +1,48 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-10-28T09:57:44+00:00",
+  "generated_at": "2026-10-29T10:15:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-28T10:04:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Gains 10% on Oracle Cloud Deal as “AI Inference Demands Choice”"
+    },
+    {
+      "published_utc": "2026-10-27T22:06:54+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Cerebras Systems Stock Jumped on Tuesday"
+    },
+    {
+      "published_utc": "2026-10-27T19:01:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Oracle Expands Cloud Infrastructure Arsenal With Google, OpenAI, And Cerebras Partnerships"
+    },
+    {
+      "published_utc": "2026-10-27T16:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras and Oracle Team Up to Bring Cerebras AI Inference to Oracle Cloud Infrastructure"
+    },
+    {
+      "published_utc": "2026-10-27T16:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Oracle, in effort to reduce reliance on Nvidia, adds AI chips from Google, Cerebras, and SambaNova"
+    },
+    {
       "published_utc": "2026-10-27T15:09:47+00:00",
       "publisher": "SeekingAlpha",
       "title": "Cerebras: The Ultrafast AI Play Trading At A Discount"
+    },
+    {
+      "published_utc": "2026-10-27T13:24:32+00:00",
+      "publisher": "Benzinga",
+      "title": "Cerebras Stock Surges on Oracle Cloud Partnership"
+    },
+    {
+      "published_utc": "2026-10-27T12:01:13+00:00",
+      "publisher": "Benzinga",
+      "title": "Cerebras Systems And Oracle Partner To Bring High-Speed AI Inference To Oracle Cloud Infrastructure, Targeting AI Labs, Enterprises And Developers Building Interactive AI Applications"
     },
     {
       "published_utc": "2026-10-26T08:09:09+00:00",
@@ -28,31 +63,6 @@
       "published_utc": "2026-10-21T06:30:07+00:00",
       "publisher": "Benzinga",
       "title": "SpaceX, Cerebras IPOs Couldn't Keep the Private Market Boom Going, Forge Says"
-    },
-    {
-      "published_utc": "2026-10-20T20:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Systems Announces Date of Third-Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-10-19T07:47:54+00:00",
-      "publisher": "Benzinga",
-      "title": "What's Going On With Cerebras Stock on Monday?"
-    },
-    {
-      "published_utc": "2026-10-18T10:00:54+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cerebras Systems: Beaten To A Pulp On Irrational Fears (Rating Upgrade)"
-    },
-    {
-      "published_utc": "2026-10-16T17:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Should You Hold on to Cerebras Stock Despite Its 25% One-Month Dip?"
-    },
-    {
-      "published_utc": "2026-10-16T06:11:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Systems (CBRS) Stock Looks Stretched Following Its 54% Slump"
     }
   ]
 }

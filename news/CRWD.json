@@ -1,9 +1,19 @@
 {
   "ticker": "CRWD",
-  "generated_at": "2026-10-28T09:57:44+00:00",
+  "generated_at": "2026-10-29T10:15:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T15:15:00+00:00",
+      "publisher": "Yahoo",
+      "title": "BB vs. CRWD: Which Cybersecurity Stock Is the Smarter Buy Now?"
+    },
+    {
+      "published_utc": "2026-10-28T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike 2026 Legal Threat Landscape Report: Cybercriminals Blur Digital and Physical Lines in Attacks on U.S. Law Firms"
+    },
     {
       "published_utc": "2026-10-27T18:45:07+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-26T10:52:35+00:00",
       "publisher": "Yahoo",
       "title": "Altman Says, “I No Longer Think We’re Gonna Be Able To Just Patch All The Bugs.” CrowdStrike Is Already Up 120% This Year"
-    },
-    {
-      "published_utc": "2026-10-26T09:24:21+00:00",
-      "publisher": "Benzinga",
-      "title": "CrowdStrike Stock Rose Friday Amid Cyber Rally. Here's a Look at the Week"
-    },
-    {
-      "published_utc": "2026-10-25T19:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Up Over 100% in 2026, Is CrowdStrike Still a Buy?"
     }
   ]
 }

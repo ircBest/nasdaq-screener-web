@@ -1,9 +1,34 @@
 {
   "ticker": "TTMI",
-  "generated_at": "2026-10-28T09:57:44+00:00",
+  "generated_at": "2026-10-29T10:15:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T15:06:34+00:00",
+      "publisher": "Yahoo",
+      "title": "Vicor Soars 11%, TTM Up [10%] as Meta’s $95 Billion AI Raise Lifts Hardware Stocks"
+    },
+    {
+      "published_utc": "2026-10-28T10:42:00+00:00",
+      "publisher": "Yahoo",
+      "title": "TTMI vs. AXTI: Which AI Infrastructure Stock Is the Better Pick?"
+    },
+    {
+      "published_utc": "2026-10-28T10:30:11+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "TTM Technologies: PCB Commodity To AI Backbone - Meltdown Triggers Dip Buying Opportunity"
+    },
+    {
+      "published_utc": "2026-10-28T09:31:50+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "TTM Technologies: The Market Is Punishing The Cash Flow, But The Stock Is In An Interesting Zone"
+    },
+    {
+      "published_utc": "2026-10-28T05:22:29+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "TTM Technologies: Acquisitive As Some Skepticism Arrives"
+    },
     {
       "published_utc": "2026-10-27T21:36:00+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-23T13:51:00+00:00",
       "publisher": "Yahoo",
       "title": "TTMI Q3 Earnings & Revenues Surpass Estimates, Both Surge Y/Y"
-    },
-    {
-      "published_utc": "2026-10-23T09:50:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Why TTM Technologies Stock Plunged This Week"
-    },
-    {
-      "published_utc": "2026-10-23T09:13:32+00:00",
-      "publisher": "Benzinga",
-      "title": "TTM Technologies Analysts Cut Their Forecasts Following Q3 Results"
-    },
-    {
-      "published_utc": "2026-10-23T08:38:26+00:00",
-      "publisher": "Benzinga",
-      "title": "Stifel Maintains Buy on TTM Technologies, Lowers Price Target to $165"
-    },
-    {
-      "published_utc": "2026-10-23T08:25:23+00:00",
-      "publisher": "Yahoo",
-      "title": "TTM Technologies Sinks 28% Despite “Quarterly Records” as Q4 Outlook Only Matches Estimates"
-    },
-    {
-      "published_utc": "2026-10-23T06:31:43+00:00",
-      "publisher": "Benzinga",
-      "title": "Why Is TTM Technologies Stock Gaining Friday?"
     }
   ]
 }

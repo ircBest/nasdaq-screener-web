@@ -1,9 +1,24 @@
 {
   "ticker": "QBTS",
-  "generated_at": "2026-10-28T09:57:44+00:00",
+  "generated_at": "2026-10-29T10:15:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T07:07:45+00:00",
+      "publisher": "Benzinga",
+      "title": "D-Wave Quantum And LG CNS Sign MoU To Advance Adoption Of Quantum Computing For Enterprise Optimization"
+    },
+    {
+      "published_utc": "2026-10-27T14:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave Quantum to Report Third Quarter 2026 Financial Results on November 10, 2026"
+    },
+    {
+      "published_utc": "2026-10-27T13:29:21+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave Extends SkyWater Pact and Lands a $100 Million CHIPS Award as Losses Widen"
+    },
     {
       "published_utc": "2026-10-26T18:00:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-21T11:15:07+00:00",
       "publisher": "Yahoo",
       "title": "D-Wave Quantum Vs. IonQ: Tech Differences Dictate Investment Strategy"
-    },
-    {
-      "published_utc": "2026-10-21T01:16:35+00:00",
-      "publisher": "Yahoo",
-      "title": "What Needs To Be True To Buy QBTS Stock Now?"
-    },
-    {
-      "published_utc": "2026-10-20T21:11:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Italy System Deployment Altering The Investment Case For D Wave Quantum (QBTS)?"
-    },
-    {
-      "published_utc": "2026-10-20T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's How QBTS' Liquidity Supports Expansion Despite Rising Cash Burn"
     }
   ]
 }

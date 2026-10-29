@@ -1,9 +1,24 @@
 {
   "ticker": "NXT",
-  "generated_at": "2026-10-28T09:57:44+00:00",
+  "generated_at": "2026-10-29T10:15:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T21:49:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Nextpower (NASDAQ:NXT) beats expectations in strong Q3 CY2026"
+    },
+    {
+      "published_utc": "2026-10-28T20:59:52+00:00",
+      "publisher": "Yahoo",
+      "title": "Nextpower: Fiscal Q2 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-10-28T20:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nextpower Reports Q2 Fiscal Year 2027 Financial Results"
+    },
     {
       "published_utc": "2026-10-27T09:42:47+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-16T12:30:05+00:00",
       "publisher": "Yahoo",
       "title": "Wall Street Bulls Look Optimistic About Nextpower (NXT): Should You Buy?"
-    },
-    {
-      "published_utc": "2026-10-15T13:51:54+00:00",
-      "publisher": "Benzinga",
-      "title": "Mizuho Maintains Neutral on Nextpower, Lowers Price Target to $101"
-    },
-    {
-      "published_utc": "2026-10-14T13:32:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can NXT's Raised Guidance Outweigh Rising Platform Investment Costs?"
-    },
-    {
-      "published_utc": "2026-10-14T13:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Is NXT Worth Buying as Growth Broadens but Execution Risks Build?"
     }
   ]
 }

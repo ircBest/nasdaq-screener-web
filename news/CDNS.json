@@ -1,9 +1,19 @@
 {
   "ticker": "CDNS",
-  "generated_at": "2026-10-28T09:57:44+00:00",
+  "generated_at": "2026-10-29T10:15:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-27T15:56:15+00:00",
+      "publisher": "Benzinga",
+      "title": "Rosenblatt Maintains Buy on Cadence Design Systems, Raises Price Target to $425"
+    },
+    {
+      "published_utc": "2026-10-27T15:22:11+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Maintains Overweight on Cadence Design Systems, Raises Price Target to $420"
+    },
     {
       "published_utc": "2026-10-27T14:14:47+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-27T00:04:15+00:00",
       "publisher": "Yahoo",
       "title": "What Cadence Design Systems (CDNS) Said on Its Q3 Earnings Call"
-    },
-    {
-      "published_utc": "2026-10-26T22:29:52+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cadence Design Systems, Inc. (CDNS) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-26T22:04:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cadence Design Systems Raises Guidance on Agentic AI Opportunities"
     }
   ]
 }

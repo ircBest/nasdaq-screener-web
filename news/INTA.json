@@ -1,28 +1,68 @@
 {
   "ticker": "INTA",
-  "generated_at": "2026-10-28T09:57:44+00:00",
+  "generated_at": "2026-10-29T10:15:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T05:45:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Intapp: Misunderstood Quarter, The Dip Is A Great Time To 'Buy'"
+    },
+    {
+      "published_utc": "2026-10-27T21:59:54+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Intapp, Inc. (INTA) Q1 2027 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-27T21:30:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Here's What Key Metrics Tell Us About Intapp (INTA) Q1 Earnings"
+    },
     {
       "published_utc": "2026-10-27T21:25:04+00:00",
       "publisher": "ChartMill",
       "title": "Intapp (NASDAQ:INTA) Falls After Q2 Guidance Disappoints Despite In-Line Quarterly Results"
     },
     {
+      "published_utc": "2026-10-27T21:20:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Intapp (INTA) Surpasses Q1 Earnings and Revenue Estimates"
+    },
+    {
+      "published_utc": "2026-10-27T20:43:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Intapp shares tumble 9% on weak second quarter guidance"
+    },
+    {
+      "published_utc": "2026-10-27T20:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Intapp announces first quarter fiscal year 2027 financial results"
+    },
+    {
+      "published_utc": "2026-10-27T18:06:24+00:00",
+      "publisher": "Benzinga",
+      "title": "Intapp Q1 2027 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-27T16:07:37+00:00",
+      "publisher": "Benzinga",
+      "title": "Intapp Raises FY2027 Adj EPS Guidance from $1.58-$1.62 to $1.64-$1.68 vs $1.60 Est; Raises FY2027 Sales Guidance from $656.500M-$660.500M to $658.200M-$662.200M vs $659.026M Est"
+    },
+    {
+      "published_utc": "2026-10-27T16:07:33+00:00",
+      "publisher": "Benzinga",
+      "title": "Intapp Sees Q2 Adj EPS $0.37-$0.39 vs $0.40 Est; Sees Sales $158.800M-$159.800M vs $160.798M Est"
+    },
+    {
+      "published_utc": "2026-10-27T16:06:43+00:00",
+      "publisher": "Benzinga",
+      "title": "Intapp Q1 Adj. EPS $0.44 Beats $0.40 Estimate, Sales $161.262M Beat $159.652M Estimate"
+    },
+    {
       "published_utc": "2026-10-20T12:45:00+00:00",
       "publisher": "Yahoo",
       "title": "Carr, Riggs & Ingram M&A Advisors selects Intapp DealCloud with Celeste to power its AI strategy for deal origination and relationship management"
-    },
-    {
-      "published_utc": "2026-10-20T08:46:51+00:00",
-      "publisher": "Benzinga",
-      "title": "Carr, Riggs & Ingram M&A Advisors Taps Intapp DealCloud With Celeste As Its Platform For Relationship Management And Deal Tracking"
-    },
-    {
-      "published_utc": "2026-10-16T00:26:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Intapp’s (INTA) Mauldin & Jenkins Win Quietly Strengthen Its AI Workflow Credibility?"
     }
   ]
 }

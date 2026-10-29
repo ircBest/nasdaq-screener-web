@@ -1,13 +1,53 @@
 {
   "ticker": "UCTT",
-  "generated_at": "2026-10-28T09:57:44+00:00",
+  "generated_at": "2026-10-29T10:15:56+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-28T06:20:12+00:00",
+      "publisher": "Benzinga",
+      "title": "Needham Maintains Buy on Ultra Clean Hldgs, Lowers Price Target to $80"
+    },
+    {
+      "published_utc": "2026-10-28T04:48:16+00:00",
+      "publisher": "Benzinga",
+      "title": "Why Ultra Clean Shares Are Trading Higher By Around 15%; Here Are 20 Stocks Moving Premarket"
+    },
+    {
+      "published_utc": "2026-10-27T23:04:17+00:00",
+      "publisher": "Yahoo",
+      "title": "What Ultra Clean (UCTT) Said on Its Q3 Earnings Call"
+    },
+    {
+      "published_utc": "2026-10-27T22:19:54+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Ultra Clean Holdings, Inc. (UCTT) Q3 2026 Earnings Call Transcript"
+    },
+    {
       "published_utc": "2026-10-27T21:38:24+00:00",
       "publisher": "ChartMill",
       "title": "Ultra Clean Holdings (NASDAQ:UCTT) Q3 Earnings Beat Estimates as Shares Rise After-Hours"
+    },
+    {
+      "published_utc": "2026-10-27T21:23:57+00:00",
+      "publisher": "Yahoo",
+      "title": "Ultra Clean Holdings soars 11% on strong Q3 beat, upbeat outlook"
+    },
+    {
+      "published_utc": "2026-10-27T21:20:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Ultra Clean Holdings (UCTT) Surpasses Q3 Earnings and Revenue Estimates"
+    },
+    {
+      "published_utc": "2026-10-27T20:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ultra Clean Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-10-27T16:09:26+00:00",
+      "publisher": "Benzinga",
+      "title": "Ultra Clean Hldgs Q3 Adj. EPS $1.15 Beats $0.94 Estimate, Sales $759.000M Beat $728.066M Estimate"
     },
     {
       "published_utc": "2026-10-26T04:11:19+00:00",
@@ -23,11 +63,6 @@
       "published_utc": "2026-10-21T15:23:25+00:00",
       "publisher": "Yahoo",
       "title": "Is Ultra Clean Holdings (UCTT) Positioned for a Semiconductor Rebound?"
-    },
-    {
-      "published_utc": "2026-10-20T02:13:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Ultra Clean Holdings (UCTT) Stock May Be Undervalued On Its Sales Profile"
     }
   ]
 }
