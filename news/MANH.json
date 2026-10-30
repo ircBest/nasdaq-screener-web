@@ -1,13 +1,43 @@
 {
   "ticker": "MANH",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-28T22:12:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Manhattan Associates (MANH) Stock Sees Modest Fair Value Lift On Cloud Growth Optimism"
+    },
+    {
       "published_utc": "2026-10-28T18:34:22+00:00",
       "publisher": "Yahoo",
       "title": "Manhattan Associates: Q3 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-10-28T16:07:28+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Manhattan Associates, Raises Price Target to $280"
+    },
+    {
+      "published_utc": "2026-10-28T14:59:42+00:00",
+      "publisher": "Benzinga",
+      "title": "DA Davidson Maintains Neutral on Manhattan Associates, Raises Price Target to $230"
+    },
+    {
+      "published_utc": "2026-10-28T13:05:15+00:00",
+      "publisher": "Benzinga",
+      "title": "Truist Securities Reiterates Buy on Manhattan Associates, Raises Price Target to $305"
+    },
+    {
+      "published_utc": "2026-10-28T12:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Manhattan Associates, Inc. Q3 2026 Earnings Call Summary"
+    },
+    {
+      "published_utc": "2026-10-28T12:27:00+00:00",
+      "publisher": "Benzinga",
+      "title": "Stifel Maintains Buy on Manhattan Associates, Raises Price Target to $300"
     },
     {
       "published_utc": "2026-10-27T23:04:15+00:00",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-27T21:20:08+00:00",
       "publisher": "Yahoo",
       "title": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates"
-    },
-    {
-      "published_utc": "2026-10-27T21:19:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Manhattan Associates soars 11% on strong earnings beat"
-    },
-    {
-      "published_utc": "2026-10-27T20:46:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Manhattan Associates’s (NASDAQ:MANH) Q3 2026 sales beat estimates, stock jumps 11.3%"
-    },
-    {
-      "published_utc": "2026-10-27T20:09:53+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Manhattan Associates, Inc. (MANH) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-27T20:06:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Manhattan Associates Elects Juan Perez to its Board of Directors"
-    },
-    {
-      "published_utc": "2026-10-27T20:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Manhattan Associates Reports Third Quarter Results"
-    },
-    {
-      "published_utc": "2026-10-27T17:24:08+00:00",
-      "publisher": "Benzinga",
-      "title": "Manhattan Associates Q3 2026 Earnings Call Transcript"
     }
   ]
 }

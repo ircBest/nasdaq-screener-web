@@ -1,18 +1,38 @@
 {
   "ticker": "BLKB",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T18:36:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Blackbaud: Q3 Earnings Snapshot"
+    },
     {
       "published_utc": "2026-10-28T17:32:36+00:00",
       "publisher": "SeekingAlpha",
       "title": "Blackbaud, Inc. 2026 Q3 - Results - Earnings Call Presentation"
     },
     {
+      "published_utc": "2026-10-28T17:19:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Blackbaud, Inc. Q3 2026 Earnings Call Summary"
+    },
+    {
+      "published_utc": "2026-10-28T15:58:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Blackbaud (BLKB) Q3 2026 Earnings Call Transcript"
+    },
+    {
       "published_utc": "2026-10-28T15:40:10+00:00",
       "publisher": "SeekingAlpha",
       "title": "Blackbaud, Inc. (BLKB) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-28T14:04:53+00:00",
+      "publisher": "Yahoo",
+      "title": "What Blackbaud (BLKB) Said on Its Q3 Earnings Call"
     },
     {
       "published_utc": "2026-10-28T12:25:55+00:00",
@@ -25,6 +45,16 @@
       "title": "Blackbaud: Underwhelming Sales Meets A Tough Macro (Downgrade)"
     },
     {
+      "published_utc": "2026-10-28T11:35:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Blackbaud (BLKB) Tops Q3 Earnings Estimates"
+    },
+    {
+      "published_utc": "2026-10-28T11:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Blackbaud Announces 2026 Third Quarter Financial Results"
+    },
+    {
       "published_utc": "2026-10-28T09:02:56+00:00",
       "publisher": "Benzinga",
       "title": "Blackbaud Q3 2026 Earnings Call Transcript"
@@ -33,21 +63,6 @@
       "published_utc": "2026-10-28T07:03:19+00:00",
       "publisher": "Benzinga",
       "title": "Blackbaud Affirms FY2026 Adj EPS Guidance of $5.15-$5.25 vs $5.25 Est; Affirms FY2026 Sales Guidance of $1.173B-$1.179B vs $1.177B Est"
-    },
-    {
-      "published_utc": "2026-10-27T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Blackbaud Recognized by the Responsible AI Institute for Commitment to Ethical Standards in Agentic AI, Generative AI, and Machine Learning"
-    },
-    {
-      "published_utc": "2026-10-22T22:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Blackbaud Expands AI-Powered Innovation for Social Impact at bbcon Sydney"
-    },
-    {
-      "published_utc": "2026-10-17T14:14:57+00:00",
-      "publisher": "Yahoo",
-      "title": "Blackbaud (BLKB) Stock May Be A Bargain On Earnings"
     }
   ]
 }

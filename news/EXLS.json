@@ -1,9 +1,24 @@
 {
   "ticker": "EXLS",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T15:17:21+00:00",
+      "publisher": "Yahoo",
+      "title": "ExlService Holdings (EXLS) Debuts iMerit Scholars For Regulated AI Work"
+    },
+    {
+      "published_utc": "2026-10-29T08:42:59+00:00",
+      "publisher": "Benzinga",
+      "title": "Stifel Maintains Buy on ExlService Hldgs, Raises Price Target to $48"
+    },
+    {
+      "published_utc": "2026-10-29T03:51:18+00:00",
+      "publisher": "Yahoo",
+      "title": "ExlService: 3 Key Takeaways for Long-Term Investors"
+    },
     {
       "published_utc": "2026-10-28T21:04:22+00:00",
       "publisher": "Yahoo",
@@ -30,6 +45,11 @@
       "title": "ExlService Holdings, Inc. (EXLS) Q3 2026 Earnings Call Transcript"
     },
     {
+      "published_utc": "2026-10-28T14:13:32+00:00",
+      "publisher": "Benzinga",
+      "title": "Needham Maintains Buy on ExlService Hldgs, Raises Price Target to $50"
+    },
+    {
       "published_utc": "2026-10-28T12:30:00+00:00",
       "publisher": "Yahoo",
       "title": "ExlService Holdings, Inc. Q3 2026 Earnings Call Summary"
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-27T20:25:02+00:00",
       "publisher": "Yahoo",
       "title": "ExlService Holdings (EXLS) Q3 Earnings and Revenues Top Estimates"
-    },
-    {
-      "published_utc": "2026-10-27T20:15:07+00:00",
-      "publisher": "Yahoo",
-      "title": "EXL (NASDAQ:EXLS) delivers strong Q3 2026 numbers, full-year outlook slightly exceeds expectations"
-    },
-    {
-      "published_utc": "2026-10-27T16:02:19+00:00",
-      "publisher": "Benzinga",
-      "title": "ExlService Holdings Q3 Adj. EPS $0.62 Beats $0.56 Estimate, Sales $634.000M Beat $615.431M Estimate"
-    },
-    {
-      "published_utc": "2026-10-27T16:02:16+00:00",
-      "publisher": "Benzinga",
-      "title": "ExlService Hldgs Raises FY2026 Adj EPS Guidance from $2.25-$2.29 to $2.34-$2.36 vs $2.29 Est; Raises FY2026 Sales Guidance from $2.390B-$2.415B to $2.430B-$2.440B vs $2.410B Est"
-    },
-    {
-      "published_utc": "2026-10-26T15:26:47+00:00",
-      "publisher": "Yahoo",
-      "title": "EXL (EXLS) reports Q3: everything you need to know ahead of earnings"
     }
   ]
 }

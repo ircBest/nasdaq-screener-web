@@ -1,9 +1,19 @@
 {
   "ticker": "MCHP",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T13:00:33+00:00",
+      "publisher": "Yahoo",
+      "title": "Microchip Technology (MCHP) Earnings Expected to Grow: What to Know Ahead of Next Week's Release"
+    },
+    {
+      "published_utc": "2026-10-29T06:23:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Microchip Technology (MCHP) Marks PIC64 HPSC Space Computing Milestones"
+    },
     {
       "published_utc": "2026-10-28T21:14:12+00:00",
       "publisher": "Yahoo",

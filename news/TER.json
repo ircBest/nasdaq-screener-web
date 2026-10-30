@@ -1,9 +1,29 @@
 {
   "ticker": "TER",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T16:18:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne Q3 Earnings Call Highlights AI Demand and 2027 Growth Plans"
+    },
+    {
+      "published_utc": "2026-10-29T12:16:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne (TER) Dropped, So What Is Behind The Latest Attention?"
+    },
+    {
+      "published_utc": "2026-10-29T10:45:35+00:00",
+      "publisher": "Benzinga",
+      "title": "Here's How Much $1000 Invested In Teradyne 10 Years Ago Would Be Worth Today"
+    },
+    {
+      "published_utc": "2026-10-29T08:24:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne (TER) Stock May Be Above Fair Value Despite Record AI Demand"
+    },
     {
       "published_utc": "2026-10-28T18:36:12+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-28T09:05:41+00:00",
       "publisher": "SeekingAlpha",
       "title": "Teradyne, Inc. 2026 Q3 - Results - Earnings Call Presentation"
-    },
-    {
-      "published_utc": "2026-10-28T07:50:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Zacks Investment Ideas feature highlights: Teradyne, Lam Research and ATI"
-    },
-    {
-      "published_utc": "2026-10-27T22:30:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Teradyne (TER) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates"
-    },
-    {
-      "published_utc": "2026-10-27T22:14:47+00:00",
-      "publisher": "Yahoo",
-      "title": "Western Digital, Allegro MicroSystems, Amtech, and Teradyne shares skyrocket, what you need to know"
-    },
-    {
-      "published_utc": "2026-10-27T21:37:19+00:00",
-      "publisher": "ChartMill",
-      "title": "Teradyne (NASDAQ:TER) Falls After Hours Despite Q3 Beat as AI Expectations Remain High"
     }
   ]
 }

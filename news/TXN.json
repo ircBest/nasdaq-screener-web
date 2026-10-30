@@ -1,9 +1,24 @@
 {
   "ticker": "TXN",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T18:47:31+00:00",
+      "publisher": "Yahoo",
+      "title": "Texas Instruments Pays $1.52 a Quarter, Analog Devices $1.10. Which Dividend Is Stronger?"
+    },
+    {
+      "published_utc": "2026-10-29T18:15:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Texas Instruments (TXN) Justify Its Price On Future Cash Flow?"
+    },
+    {
+      "published_utc": "2026-10-29T12:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Brokers Suggest Investing in Texas Instruments (TXN): Read This Before Placing a Bet"
+    },
     {
       "published_utc": "2026-10-28T17:20:17+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-27T11:30:02+00:00",
       "publisher": "Yahoo",
       "title": "Here's How Much a $1000 Investment in Texas Instruments Made 10 Years Ago Would Be Worth Today"
-    },
-    {
-      "published_utc": "2026-10-27T01:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Texas Instruments prices $2.0 billion of investment grade notes"
-    },
-    {
-      "published_utc": "2026-10-26T12:15:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Don't Overlook Texas Instruments (TXN) International Revenue Trends While Assessing the Stock"
-    },
-    {
-      "published_utc": "2026-10-26T11:45:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Texas Instruments Raised Its Dividend Again. Can Analog Chips Keep Funding It?"
     }
   ]
 }

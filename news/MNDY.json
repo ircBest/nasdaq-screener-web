@@ -1,9 +1,34 @@
 {
   "ticker": "MNDY",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T06:26:10+00:00",
+      "publisher": "Benzinga",
+      "title": "BTIG Reiterates Buy on Monday.Com, Maintains $105 Price Target"
+    },
+    {
+      "published_utc": "2026-10-29T05:09:14+00:00",
+      "publisher": "Benzinga",
+      "title": "Piper Sandler Maintains Neutral on Monday.Com, Maintains $90 Price Target"
+    },
+    {
+      "published_utc": "2026-10-28T22:04:24+00:00",
+      "publisher": "Yahoo",
+      "title": "monday.com Unveils Frontier to Drive Enterprise AI Deployment and Consumption Growth"
+    },
+    {
+      "published_utc": "2026-10-28T19:39:54+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "monday.com Ltd. (MNDY) Investor Q&A: AI Agent Adoption and Services Strategy Transcript"
+    },
+    {
+      "published_utc": "2026-10-28T13:55:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Monday.com vs. Okta: Which Technology Stock Is a Better Buy in 2027?"
+    },
     {
       "published_utc": "2026-10-27T06:37:57+00:00",
       "publisher": "Benzinga",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-21T18:38:39+00:00",
       "publisher": "Yahoo",
       "title": "monday.com (MNDY): 3 Reasons We Love This Stock"
-    },
-    {
-      "published_utc": "2026-10-21T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "83% of Leaders Are Satisfied With Their AI Setup, but 7 in 10 Say Their Company Hasn't Fully Integrated It, monday.com Research Reveals"
-    },
-    {
-      "published_utc": "2026-10-19T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "monday.com to Announce Third Quarter 2026 Financial Results on Monday, November 9, 2026"
-    },
-    {
-      "published_utc": "2026-10-16T20:50:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Monday.com (MNDY) Declines More Than Market: Some Information for Investors"
-    },
-    {
-      "published_utc": "2026-10-15T19:55:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Commerce, monday.com, DigitalOcean, Sprinklr, and Fastly Shares Are Soaring and Falling, What You Need To Know"
-    },
-    {
-      "published_utc": "2026-10-15T12:12:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Monday.com and Evercore have been highlighted as Zacks Bull and Bear of the Day"
     }
   ]
 }

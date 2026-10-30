@@ -1,9 +1,19 @@
 {
   "ticker": "LYFT",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T14:19:03+00:00",
+      "publisher": "Benzinga",
+      "title": "'U.S. Federal Trade Commission Is Demanding Information On Personalized Pricing And Wage Setting Strategies From Walmart, Target, Uber, Lyft, DoorDash, Instacart, Delta, United And JetBlue' - Reuters Exclusive"
+    },
+    {
+      "published_utc": "2026-10-28T13:12:54+00:00",
+      "publisher": "Yahoo",
+      "title": "Lyft (LYFT) vs. UBER and DASH: Can Record Riders and Margin Expansion Close the Gap With Larger Rivals?"
+    },
     {
       "published_utc": "2026-10-27T09:19:26+00:00",
       "publisher": "SeekingAlpha",
@@ -38,16 +48,6 @@
       "published_utc": "2026-10-16T21:15:03+00:00",
       "publisher": "Yahoo",
       "title": "Lyft (LYFT) Declines More Than Market: Some Information for Investors"
-    },
-    {
-      "published_utc": "2026-10-15T20:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Lyft To Announce Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-10-15T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Lyft, Inc. Introduces Alcove, a New Global Brand for Its Chauffeur Network"
     }
   ]
 }

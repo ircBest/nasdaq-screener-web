@@ -1,9 +1,19 @@
 {
   "ticker": "MSTR",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T21:39:31+00:00",
+      "publisher": "ChartMill",
+      "title": "Strategy (NASDAQ:MSTR) Q3 Profit Powered by Bitcoin Gain Masks Negative BTC Yield"
+    },
+    {
+      "published_utc": "2026-10-29T21:11:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy (MSTR) Shareholders Approved Daily Dividends On Four Preferred Stocks"
+    },
     {
       "published_utc": "2026-10-28T20:00:39+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-26T18:21:47+00:00",
       "publisher": "Yahoo",
       "title": "The Bitcoin Bull Market Is Finally Here, According to Strategy's Michael Saylor. Could Bitcoin Hit a Price of $100,000 in 2027?"
-    },
-    {
-      "published_utc": "2026-10-26T17:22:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Tom Lee Says Crypto Faced Same ‘Risk Off’ Forces Behind AI Sell-Off: BMNR, ASST Add To Crypto Treasuries As MSTR Skips Bitcoin Buys"
-    },
-    {
-      "published_utc": "2026-10-26T15:13:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Kyndryl the next MicroStrategy? Why this IBM spinoff is now surging"
     }
   ]
 }

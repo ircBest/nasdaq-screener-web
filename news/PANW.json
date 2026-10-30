@@ -1,9 +1,24 @@
 {
   "ticker": "PANW",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T02:13:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Palo Alto Networks (PANW) Stock May Be Fully Priced After Its 379% Run"
+    },
+    {
+      "published_utc": "2026-10-29T01:59:54+00:00",
+      "publisher": "Yahoo",
+      "title": "ServiceNow, Fortinet Results Dent SaaS Sentiment: CRM, PANW, INTU, ADBE Slide In Sympathy"
+    },
+    {
+      "published_utc": "2026-10-29T01:27:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Oracle vs. Palo Alto Networks: Which Tech Stock Is the Better Buy in 2026?"
+    },
     {
       "published_utc": "2026-10-28T12:40:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-23T17:15:30+00:00",
       "publisher": "Benzinga",
       "title": "Here’s How Much You Would Have Made Owning Palo Alto Networks Stock In The Last 10 Years"
-    },
-    {
-      "published_utc": "2026-10-23T12:30:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto Networks Fuels Resilience With Cybersecurity Tools"
-    },
-    {
-      "published_utc": "2026-10-22T20:46:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet (FTNT) vs. CSCO and PANW: Can Its Hardware-Software Advantage Support Long-Term Growth?"
-    },
-    {
-      "published_utc": "2026-10-20T20:45:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto Networks (PANW) Stock Dips While Market Gains: Key Facts"
     }
   ]
 }

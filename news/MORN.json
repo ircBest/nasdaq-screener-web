@@ -1,9 +1,19 @@
 {
   "ticker": "MORN",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T21:21:34+00:00",
+      "publisher": "Yahoo",
+      "title": "Morningstar Releases New Details On Over 350K SF In Q3 Office Leases"
+    },
+    {
+      "published_utc": "2026-10-29T14:34:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Steve Eisman Says AI Giants Have 'No Moats.' Morningstar's $57 Billion Math Says Otherwise"
+    },
     {
       "published_utc": "2026-10-28T21:38:24+00:00",
       "publisher": "ChartMill",
@@ -23,6 +33,11 @@
       "published_utc": "2026-10-28T20:15:00+00:00",
       "publisher": "Yahoo",
       "title": "Morningstar, Inc. Reports Third-Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-10-28T16:19:10+00:00",
+      "publisher": "Benzinga",
+      "title": "Morningstar Q3 Adj. EPS $3.48 Beats $3.04 Estimate, Sales $672.100M Beat $664.750M Estimate"
     },
     {
       "published_utc": "2026-10-28T02:13:48+00:00",
@@ -48,16 +63,6 @@
       "published_utc": "2026-10-24T15:21:45+00:00",
       "publisher": "Yahoo",
       "title": "Morningstar Raised Its SpaceX Fair Value After the Beat. It’s Still Less Than Half the Stock Price."
-    },
-    {
-      "published_utc": "2026-10-22T10:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "This 1 retirement expense has a ‘really, really big impact,’ according to a Morningstar researcher. Are you at risk?"
-    },
-    {
-      "published_utc": "2026-10-21T08:09:15+00:00",
-      "publisher": "Yahoo",
-      "title": "NFLX Stock Slips More Than 6% Premarket: Morningstar Sees 'Best Buying Opportunity' For Netflix Amid Negative Sentiment"
     }
   ]
 }

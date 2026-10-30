@@ -1,9 +1,29 @@
 {
   "ticker": "RGTI",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T16:45:00+00:00",
+      "publisher": "Yahoo",
+      "title": "What to Expect From Rigetti Computing's Q3 2026 Earnings Results"
+    },
+    {
+      "published_utc": "2026-10-28T11:26:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Rigetti Computing a Top Quantum Computing Stock to Buy Now?"
+    },
+    {
+      "published_utc": "2026-10-28T07:32:00+00:00",
+      "publisher": "Yahoo",
+      "title": "The Zacks Analyst Blog Highlights IonQ, Rigetti Computing, QTUM, WQTM, CHPX and Micron Technology"
+    },
+    {
+      "published_utc": "2026-10-28T05:11:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Rigetti Stock In Focus Ahead Of Earnings And CHIPS Act Backing"
+    },
     {
       "published_utc": "2026-10-27T20:05:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-22T21:00:04+00:00",
       "publisher": "Yahoo",
       "title": "Rigetti Computing, Inc. (RGTI) Falls More Steeply Than Broader Market: What Investors Need to Know"
-    },
-    {
-      "published_utc": "2026-10-22T20:12:09+00:00",
-      "publisher": "Yahoo",
-      "title": "IonQ Sinks 3%, Rigetti Down 5%, D-Wave Down 4% as Quantum Stocks Slide Again in Tech Selloff"
-    },
-    {
-      "published_utc": "2026-10-22T19:12:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Rigetti (RGTI) Stock Still Looks Stretched On Fresh Commerce Funding News"
-    },
-    {
-      "published_utc": "2026-10-21T15:14:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Rigetti Computing Stock's Drop A Chance To Buy?"
-    },
-    {
-      "published_utc": "2026-10-20T18:20:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Not IonQ. Not Rigetti Computing. This Quantum Computing Stock Is the One I'd Buy and Hold Through 2030."
     }
   ]
 }

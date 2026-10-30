@@ -1,9 +1,34 @@
 {
   "ticker": "PGY",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T15:09:10+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Pagaya Technologies Ltd. (PGY) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-29T09:47:59+00:00",
+      "publisher": "Benzinga",
+      "title": "Pagaya Techs Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-29T07:12:58+00:00",
+      "publisher": "Benzinga",
+      "title": "Pagaya Technologies Narrows FY2026 Sales Guidance from $1.425B-$1.525B to $1.450B-$1.500B vs $1.464B Est"
+    },
+    {
+      "published_utc": "2026-10-29T07:12:32+00:00",
+      "publisher": "Benzinga",
+      "title": "Pagaya Techs Sees Q4 Sales $355.000M-$405.000M vs $378.060M Est"
+    },
+    {
+      "published_utc": "2026-10-29T07:09:52+00:00",
+      "publisher": "Benzinga",
+      "title": "Pagaya Technologies Q3 Adj. EPS $1.07 Beats $0.97 Estimate, Sales $362.155M Miss $382.063M Estimate"
+    },
     {
       "published_utc": "2026-10-27T14:11:00+00:00",
       "publisher": "Yahoo",
@@ -28,11 +53,6 @@
       "published_utc": "2026-10-16T21:15:06+00:00",
       "publisher": "Yahoo",
       "title": "Pagaya Technologies Ltd. (PGY) Registers a Bigger Fall Than the Market: Important Facts to Note"
-    },
-    {
-      "published_utc": "2026-10-15T15:47:00+00:00",
-      "publisher": "Yahoo",
-      "title": "PGY vs. OMF: Which Consumer Lending Stock Has Better Growth Potential?"
     }
   ]
 }

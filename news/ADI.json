@@ -1,9 +1,29 @@
 {
   "ticker": "ADI",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T18:47:31+00:00",
+      "publisher": "Yahoo",
+      "title": "Texas Instruments Pays $1.52 a Quarter, Analog Devices $1.10. Which Dividend Is Stronger?"
+    },
+    {
+      "published_utc": "2026-10-29T11:30:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Living On The Edge With Nvidia, AI Enabler Analog Devices Tickles New Buy Zone"
+    },
+    {
+      "published_utc": "2026-10-29T01:12:35+00:00",
+      "publisher": "Yahoo",
+      "title": "What’s Going On With Analog Devices (ADI)?"
+    },
+    {
+      "published_utc": "2026-10-29T00:19:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Analog Devices (ADI) Stock Looks Rich Following A 182% Three Year Run"
+    },
     {
       "published_utc": "2026-10-28T14:36:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-22T02:13:24+00:00",
       "publisher": "Yahoo",
       "title": "Analog Devices (ADI) Is A Key Competitor In Digital Power ICs"
-    },
-    {
-      "published_utc": "2026-10-21T21:00:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Analog Devices (ADI) Rises Higher Than Market: Key Facts"
-    },
-    {
-      "published_utc": "2026-10-21T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Analog Devices Recommends Shareholders Reject \"Mini-Tender\" Offer by Tutanota LLC"
-    },
-    {
-      "published_utc": "2026-10-21T09:08:11+00:00",
-      "publisher": "Benzinga",
-      "title": "Analog Devices Recommends That Shareholders Reject Tutanota's Unsolicited Mini Tender Offer To Purchase Up To 100K Shares At $525/Share In Cash"
-    },
-    {
-      "published_utc": "2026-10-21T08:30:57+00:00",
-      "publisher": "ChartMill",
-      "title": "Analog Devices (NASDAQ:ADI): Strong Growth Backed by a Constructive Technical Setup"
     }
   ]
 }

@@ -1,9 +1,39 @@
 {
   "ticker": "SIMO",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T09:28:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Silicon Motion Technology Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-28T22:16:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Silicon Motion: Q3 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-10-28T22:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Silicon Motion Announces Results for the Quarterly Period Ended September 30, 2026"
+    },
+    {
+      "published_utc": "2026-10-28T18:07:09+00:00",
+      "publisher": "Benzinga",
+      "title": "Silicon Motion Tech Sees Q4 Sales $588.000M-$616.000M vs $549.676M Est"
+    },
+    {
+      "published_utc": "2026-10-28T18:03:57+00:00",
+      "publisher": "Benzinga",
+      "title": "Silicon Motion Technology Q3 Adj. EPS $4.35 Beats $3.33 Estimate, Sales $560.200M Beat $529.103M Estimate"
+    },
+    {
+      "published_utc": "2026-10-28T11:58:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: Enphase Energy, F5, Marvell Technology, MSG Rangers, Pentair, Silicon Motion Technology, Spotify Technology, Texas Instruments, Whirlpool, and More"
+    },
     {
       "published_utc": "2026-10-26T18:10:38+00:00",
       "publisher": "Yahoo",
@@ -33,26 +63,6 @@
       "published_utc": "2026-10-19T20:59:36+00:00",
       "publisher": "SeekingAlpha",
       "title": "Silicon Motion: A Steep Pullback, But 2026 Expectations Look Too Low"
-    },
-    {
-      "published_utc": "2026-10-16T12:53:00+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Reasons to Buy Silicon Motion Technology Before the End of 2026"
-    },
-    {
-      "published_utc": "2026-10-16T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Silicon Motion Announces Annual Dividend Increase"
-    },
-    {
-      "published_utc": "2026-10-16T08:01:33+00:00",
-      "publisher": "Benzinga",
-      "title": "Silicon Motion Technology Raises Annual Dividend From $2 To $2.30 Per ADS"
-    },
-    {
-      "published_utc": "2026-10-15T13:58:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Silicon Motion Capitalize on Rising Demand for Smartphone Storage?"
     }
   ]
 }

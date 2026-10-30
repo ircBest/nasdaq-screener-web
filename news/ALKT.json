@@ -1,38 +1,68 @@
 {
   "ticker": "ALKT",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T08:22:30+00:00",
+      "publisher": "Benzinga",
+      "title": "Keybanc Downgrades Alkami Technology to Sector Weight"
+    },
+    {
+      "published_utc": "2026-10-29T07:13:39+00:00",
+      "publisher": "Benzinga",
+      "title": "Needham Maintains Buy on Alkami Technology, Lowers Price Target to $20"
+    },
+    {
+      "published_utc": "2026-10-28T22:40:07+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Alkami Technology, Inc. (ALKT) Q3 2026 Earnings Call Transcript"
+    },
     {
       "published_utc": "2026-10-28T21:12:41+00:00",
       "publisher": "ChartMill",
       "title": "Alkami Technology (NASDAQ:ALKT) Posts Mixed Q3 2026 Results as EPS Misses Estimates"
     },
     {
+      "published_utc": "2026-10-28T20:45:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Alkami Technology (ALKT) Q3 Earnings Lag Estimates"
+    },
+    {
+      "published_utc": "2026-10-28T20:34:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Alkami: Q3 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-10-28T20:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Alkami Announces Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-10-28T16:32:38+00:00",
+      "publisher": "Benzinga",
+      "title": "Alkami Technology Raises FY2026 Sales Guidance from $528.000M-$531.000M to $530.500M-$532.000M vs $529.810M Est"
+    },
+    {
+      "published_utc": "2026-10-28T16:32:16+00:00",
+      "publisher": "Benzinga",
+      "title": "Alkami Technology Sees Q4 Sales $139.700M-$141.200M vs $140.292M Est"
+    },
+    {
+      "published_utc": "2026-10-28T16:13:59+00:00",
+      "publisher": "Benzinga",
+      "title": "Alkami Technology Q3 EPS $(0.06) Misses $(0.04) Estimate, Sales $134.900M Beat $133.481M Estimate"
+    },
+    {
+      "published_utc": "2026-10-28T13:05:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Alkami (ALKT) Stock May Look Fully Priced As Digital Banking Partnership Expands"
+    },
+    {
       "published_utc": "2026-10-27T14:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Connexus Credit Union Renews and Expands Longstanding Partnership with Alkami to Advance Digital Banking and Grow Member Relationships"
-    },
-    {
-      "published_utc": "2026-10-26T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Alkami to Host Webinar with Thomaston Savings Bank on Using Predictive AI to Deliver Data-Driven Guidance and Accelerate Growth"
-    },
-    {
-      "published_utc": "2026-10-23T04:28:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Alkami Technology (ALKT) Adds Carleton To MANTL As Fair Value Stays In Focus"
-    },
-    {
-      "published_utc": "2026-10-22T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Alkami Recognizes 2026 Hackathon Winners, Showcasing Innovation Across Its Platform"
-    },
-    {
-      "published_utc": "2026-10-21T10:02:41+00:00",
-      "publisher": "Benzinga",
-      "title": "Alkami Technology Announces Integration Between MANTL, Carleton To Bring Automated Loan Calculations, Amortization, Compliance Validation Into MANTL Loan Origination"
     }
   ]
 }

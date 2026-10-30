@@ -1,13 +1,38 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-29T16:38:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Scott Bessent Brushes Off Concerns Over AI Debt Amid CoreWeave Slump, Calls Neoclouds a ‘Small Component’"
+    },
+    {
+      "published_utc": "2026-10-29T12:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CRWV vs. MSFT: Which AI Cloud Stock Offers Better Upside Potential?"
+    },
+    {
+      "published_utc": "2026-10-29T08:10:58+00:00",
+      "publisher": "Benzinga",
+      "title": "GOOGL, MSFT AI Capex Worries Hammer Neocloud Stocks: CRWV, NBIS, IREN, APLD Give Up Best Week in Over 2 Months"
+    },
+    {
+      "published_utc": "2026-10-29T03:35:48+00:00",
+      "publisher": "Yahoo",
+      "title": "CRWV, NBIS, IREN, APLD Stocks Drop After Microsoft Capex Falls Short On Delayed Third-Party Capacity"
+    },
+    {
       "published_utc": "2026-10-28T21:35:02+00:00",
       "publisher": "Yahoo",
       "title": "Stock Market Today, Oct. 28: CoreWeave Surges on Denmark AI Capacity Going Live"
+    },
+    {
+      "published_utc": "2026-10-28T18:55:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Jensen Huang Goes to Bat for Neoclouds, Citing Funding Gap. What This Means for Hard-Hit CoreWeave Stock."
     },
     {
       "published_utc": "2026-10-28T18:03:41+00:00",
@@ -18,6 +43,11 @@
       "published_utc": "2026-10-28T16:45:39+00:00",
       "publisher": "Yahoo",
       "title": "CoreWeave’s Debt Service is The True Neocloud Litmus Test"
+    },
+    {
+      "published_utc": "2026-10-28T16:27:30+00:00",
+      "publisher": "Benzinga",
+      "title": "QUICK SPARK: CoreWeave Stock Soars 7% as Fed Holds Rates Steady, Warsh Fails to Signal a December Hike"
     },
     {
       "published_utc": "2026-10-28T15:35:41+00:00",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-28T14:00:00+00:00",
       "publisher": "Yahoo",
       "title": "CoreWeave Is Steadying After Debt Scare. The Case for Buying the Dip."
-    },
-    {
-      "published_utc": "2026-10-28T12:18:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave Expands AI Cloud Infrastructure Footprint at a Global Scale"
-    },
-    {
-      "published_utc": "2026-10-28T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Goldman Sachs says CoreWeave could rack up $100B in debt by 2028"
-    },
-    {
-      "published_utc": "2026-10-28T09:55:43+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "CoreWeave: The Market Isn't Wrong"
-    },
-    {
-      "published_utc": "2026-10-28T03:04:57+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "CoreWeave: The Warning Sign AI Investors Shouldn't Ignore"
-    },
-    {
-      "published_utc": "2026-10-27T22:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave Stock Surges 6%, But Investors Are Still Worried"
-    },
-    {
-      "published_utc": "2026-10-27T21:23:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Oct. 27: CoreWeave Surges on Denmark Data Center Launch"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "BULL",
-  "generated_at": "2026-10-29T10:15:56+00:00",
+  "generated_at": "2026-10-30T10:19:17+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-28T17:11:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull and Sentinel AI Launch Pilot Program Bringing Public Companies to Retail Investors at the Point of Trade"
+    },
+    {
+      "published_utc": "2026-10-28T13:19:41+00:00",
+      "publisher": "Yahoo",
+      "title": "Robinhood Sinks 7% as Crypto Slump and Tighter Spreads Overshadow Record Prediction Markets Quarter; Interactive Brokers Edges Higher, Webull Barely Budges"
+    },
     {
       "published_utc": "2026-10-27T13:00:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-20T11:49:28+00:00",
       "publisher": "Benzinga",
       "title": "Why Is Webull Stock Climbing on Tuesday?"
-    },
-    {
-      "published_utc": "2026-10-20T09:13:42+00:00",
-      "publisher": "Benzinga",
-      "title": "Webull Says Perpetual Futures To Be Listed On KalshiEX And Cleared Through Kalshi Klear; Perpetual Futures Broader Availability Expected Before Year-End"
-    },
-    {
-      "published_utc": "2026-10-20T09:11:46+00:00",
-      "publisher": "Benzinga",
-      "title": "'Webull to Offer Perpetual Futures Starting Next Month' - The Wall Street Journal"
     }
   ]
 }
