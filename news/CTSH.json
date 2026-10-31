@@ -1,9 +1,29 @@
 {
   "ticker": "CTSH",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T17:10:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Cognizant (CTSH) Stock Jumps As Q3 Results Cement Margin Gains"
+    },
+    {
+      "published_utc": "2026-10-30T10:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cognizant commits more than 25,000 professionals to OpenAI delivery as enterprises move frontier AI into production"
+    },
+    {
+      "published_utc": "2026-10-30T06:08:14+00:00",
+      "publisher": "Benzinga",
+      "title": "Cognizant Forms OpenAI Frontier Capability Group Of 25K+ Professionals To Deliver OpenAI Products For Clients"
+    },
+    {
+      "published_utc": "2026-10-29T22:09:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Cognizant Technology Solutions (CTSH) Secures Multiple AI Partnership Wins"
+    },
     {
       "published_utc": "2026-10-29T19:30:16+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-29T11:20:21+00:00",
       "publisher": "Yahoo",
       "title": "Cognizant shares down 8% in premarket trade as Q3 bookings drop"
-    },
-    {
-      "published_utc": "2026-10-29T11:03:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cognizant: The Q3'26 Drop Does Not Faze Me"
-    },
-    {
-      "published_utc": "2026-10-29T10:45:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Cognizant (CTSH) Beats Q3 Earnings and Revenue Estimates"
-    },
-    {
-      "published_utc": "2026-10-29T10:39:35+00:00",
-      "publisher": "Yahoo",
-      "title": "Cognizant: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-10-29T10:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cognizant Reports Third Quarter 2026 Results"
     }
   ]
 }

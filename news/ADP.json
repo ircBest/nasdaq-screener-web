@@ -1,9 +1,34 @@
 {
   "ticker": "ADP",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T17:40:52+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Automatic Data Processing: Not Too Late To 'Buy' Now"
+    },
+    {
+      "published_utc": "2026-10-30T08:45:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Automatic Data Processing: Love The Dividend Growth, But Don't Chase The Rally"
+    },
+    {
+      "published_utc": "2026-10-29T15:26:57+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Neutral on Automatic Data Processing, Raises Price Target to $295"
+    },
+    {
+      "published_utc": "2026-10-29T15:10:55+00:00",
+      "publisher": "Benzinga",
+      "title": "RBC Capital Reiterates Sector Perform on Automatic Data Processing, Maintains $290 Price Target"
+    },
+    {
+      "published_utc": "2026-10-29T13:27:23+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Equal-Weight on Automatic Data Processing, Raises Price Target to $288"
+    },
     {
       "published_utc": "2026-10-29T13:13:01+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-28T16:54:35+00:00",
       "publisher": "Yahoo",
       "title": "Automatic Data Processing, Inc. Q1 2027 Earnings Call Summary"
-    },
-    {
-      "published_utc": "2026-10-28T16:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "PNC Bank and ADP Announce Embedded Payroll Solution for Small Businesses"
-    },
-    {
-      "published_utc": "2026-10-28T14:22:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ADP Q1 Earnings Beat Estimates, Revenues Increase Marginally Y/Y"
-    },
-    {
-      "published_utc": "2026-10-28T13:00:17+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Automatic Data Processing, Inc. (ADP) Q1 2027 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-28T12:30:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's What Key Metrics Tell Us About ADP (ADP) Q1 Earnings"
-    },
-    {
-      "published_utc": "2026-10-28T12:21:16+00:00",
-      "publisher": "ChartMill",
-      "title": "Automatic Data Processing (NASDAQ:ADP) Q1 Fiscal 2027 Results In Line, Stock Slips on Revised Outlook"
     }
   ]
 }

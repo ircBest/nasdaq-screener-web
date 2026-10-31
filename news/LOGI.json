@@ -1,9 +1,14 @@
 {
   "ticker": "LOGI",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T07:15:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Logitech (SWX:LOGN) Stock Drifts After Q2 Results Expose Supply Snag"
+    },
     {
       "published_utc": "2026-10-29T00:21:41+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-28T00:04:20+00:00",
       "publisher": "Yahoo",
       "title": "What Logitech International (LOGI) Said on Its Q2 Earnings Call"
-    },
-    {
-      "published_utc": "2026-10-27T23:50:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Logitech Beats September-Quarter Views, Guides Higher For Holiday Period"
     }
   ]
 }

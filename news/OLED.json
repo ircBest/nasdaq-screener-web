@@ -1,13 +1,33 @@
 {
   "ticker": "OLED",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-30T17:11:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Universal Display (OLED) Guides To Low End, Is It A Bargain?"
+    },
+    {
+      "published_utc": "2026-10-30T09:14:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Universal Display (OLED) Stock Slides After Q3 Earnings Despite Profit Jump"
+    },
+    {
+      "published_utc": "2026-10-30T08:07:14+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Universal Display: The Sell-Off Has Not Made It Cheap - Sell"
+    },
+    {
       "published_utc": "2026-10-29T20:56:34+00:00",
       "publisher": "Yahoo",
       "title": "Universal Display (OLED) stock trades down, here is why"
+    },
+    {
+      "published_utc": "2026-10-29T12:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Universal Display Corporation Q3 2026 Earnings Call Summary"
     },
     {
       "published_utc": "2026-10-29T09:29:36+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-28T20:45:07+00:00",
       "publisher": "Yahoo",
       "title": "Universal Display Corp. (OLED) Q3 Earnings Surpass Estimates"
-    },
-    {
-      "published_utc": "2026-10-28T20:44:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Universal Display (NASDAQ:OLED) misses Q3 sales targets"
-    },
-    {
-      "published_utc": "2026-10-28T20:31:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Universal Display: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-10-28T20:22:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Universal Display Corporation Announces Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-10-28T20:06:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Universal Display Corporation Announces Quarterly Cash Dividend of $0.50 per Share"
     }
   ]
 }

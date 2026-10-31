@@ -1,9 +1,14 @@
 {
   "ticker": "ASML",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T02:43:02+00:00",
+      "publisher": "Yahoo",
+      "title": "ASML vs. Nvidia: Who Really Captures the AI Chip Boom?"
+    },
     {
       "published_utc": "2026-10-29T13:08:42+00:00",
       "publisher": "SeekingAlpha",
@@ -13,6 +18,11 @@
       "published_utc": "2026-10-29T12:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Is the Options Market Predicting a Spike in ASML Holding Stock?"
+    },
+    {
+      "published_utc": "2026-10-29T11:00:14+00:00",
+      "publisher": "Benzinga",
+      "title": "Rep. Kevin Hern Has Sold Up to $150K Worth Of ASML Holding Stock: Here’s What You Should Know"
     },
     {
       "published_utc": "2026-10-28T03:02:51+00:00",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-23T09:21:00+00:00",
       "publisher": "Yahoo",
       "title": "Stock-Split Watch: Is ASML Next?"
-    },
-    {
-      "published_utc": "2026-10-22T18:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Taiwan Semiconductor and ASML Are Incredible, but 1 of These Monopoly Chip Stocks Is Far Safer."
-    },
-    {
-      "published_utc": "2026-10-22T16:45:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Chinese Competitors Aren’t Eroding ASML’s EUV Core Monopoly"
     }
   ]
 }

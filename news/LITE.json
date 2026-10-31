@@ -1,9 +1,29 @@
 {
   "ticker": "LITE",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T16:57:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10%"
+    },
+    {
+      "published_utc": "2026-10-30T14:10:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Marvell Technology (MRVL) Cheap After Its Lumentum Deal Talks Sent Shares Lower?"
+    },
+    {
+      "published_utc": "2026-10-30T11:12:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Marvell in advanced talks to buy Nvidia-backed Lumentum – report"
+    },
+    {
+      "published_utc": "2026-10-30T10:10:07+00:00",
+      "publisher": "Benzinga",
+      "title": "Marvell Rumored to Buy Lumentum in Major Challenge to Broadcom: Counterpoint"
+    },
     {
       "published_utc": "2026-10-29T21:43:30+00:00",
       "publisher": "Yahoo",
@@ -20,9 +40,19 @@
       "title": "Nvidia-Backed Marvell, Lumentum Could Be Nearing a Deal"
     },
     {
+      "published_utc": "2026-10-29T18:43:04+00:00",
+      "publisher": "Yahoo",
+      "title": "MRVL Stock Sinks as Marvell Technology Reportedly Considers Acquiring Lumentum"
+    },
+    {
       "published_utc": "2026-10-29T15:56:00+00:00",
       "publisher": "Yahoo",
       "title": "Marvell shares slide on reported Lumentum deal talks"
+    },
+    {
+      "published_utc": "2026-10-29T14:39:06+00:00",
+      "publisher": "Benzinga",
+      "title": "Marvell Stock Tumbles Amid Lumentum Bid Talks"
     },
     {
       "published_utc": "2026-10-29T14:17:42+00:00",
@@ -33,36 +63,6 @@
       "published_utc": "2026-10-29T14:02:41+00:00",
       "publisher": "Yahoo",
       "title": "Marvell Sinks 12% as Investors Balk at Reported Lumentum Megadeal Talks"
-    },
-    {
-      "published_utc": "2026-10-29T13:11:35+00:00",
-      "publisher": "Yahoo",
-      "title": "Marvell Sinks 13%, Lumentum Jumps 6% on Reported Acquisition Talks; Coherent Holds Flat, Applied Optoelectronics Drops 3%"
-    },
-    {
-      "published_utc": "2026-10-29T13:01:47+00:00",
-      "publisher": "Yahoo",
-      "title": "Marvell shares sink as Alphabet miss and Lumentum deal reports weigh on sentiment"
-    },
-    {
-      "published_utc": "2026-10-29T13:00:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Lumentum (LITE) Earnings Expected to Grow: Should You Buy?"
-    },
-    {
-      "published_utc": "2026-10-29T12:08:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Lumentum stock rises on report of possible merger with Marvell"
-    },
-    {
-      "published_utc": "2026-10-29T11:47:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is Lumentum Stock Rising 5.6% in Premarket Trading?"
-    },
-    {
-      "published_utc": "2026-10-29T11:02:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Marvell’s Lumentum Bid Is a Bet That Light, Not Copper, Wins the AI Data Center"
     }
   ]
 }

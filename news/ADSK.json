@@ -1,9 +1,24 @@
 {
   "ticker": "ADSK",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T13:04:18+00:00",
+      "publisher": "Yahoo",
+      "title": "If Autodesk Stock Looks Expensive, You Need To Read This"
+    },
+    {
+      "published_utc": "2026-10-30T12:07:28+00:00",
+      "publisher": "Yahoo",
+      "title": "What Does Autodesk (ADSK) IDC Leader Status Mean For Its Construction Software Push?"
+    },
+    {
+      "published_utc": "2026-10-30T06:56:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Here’s What to Expect From Autodesk’s Next Earnings Report"
+    },
     {
       "published_utc": "2026-10-29T16:36:46+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-21T17:10:57+00:00",
       "publisher": "Yahoo",
       "title": "Autodesk Well Positioned to Capitalize on Construction Market Digitization, Oppenheimer Says"
-    },
-    {
-      "published_utc": "2026-10-21T14:40:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CRM vs. ADSK: Which Stock Is the Better Value Option?"
-    },
-    {
-      "published_utc": "2026-10-21T14:03:13+00:00",
-      "publisher": "Yahoo",
-      "title": "Which Gives You More Of The AI Software Bet, Workday Or Autodesk?"
-    },
-    {
-      "published_utc": "2026-10-20T16:02:41+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Autodesk: Discounted Market Leader With Rich Cash Flows And Capital Appreciation Prospects"
     }
   ]
 }

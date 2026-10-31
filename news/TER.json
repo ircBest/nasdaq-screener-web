@@ -1,6 +1,6 @@
 {
   "ticker": "TER",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
@@ -8,6 +8,11 @@
       "published_utc": "2026-10-29T16:18:00+00:00",
       "publisher": "Yahoo",
       "title": "Teradyne Q3 Earnings Call Highlights AI Demand and 2027 Growth Plans"
+    },
+    {
+      "published_utc": "2026-10-29T14:46:45+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Buy on Teradyne, Lowers Price Target to $430"
     },
     {
       "published_utc": "2026-10-29T12:16:21+00:00",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-28T09:43:38+00:00",
       "publisher": "Benzinga",
       "title": "Teradyne Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-28T09:05:41+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Teradyne, Inc. 2026 Q3 - Results - Earnings Call Presentation"
     }
   ]
 }

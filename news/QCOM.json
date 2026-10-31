@@ -1,9 +1,24 @@
 {
   "ticker": "QCOM",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T14:56:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Broadcom Falls 5% Despite DA Davidson Upgrade on Anthropic and OpenAI IPO Hopes; Arm and Qualcomm Sink 10%, Marvell Drops 8%"
+    },
+    {
+      "published_utc": "2026-10-30T12:21:02+00:00",
+      "publisher": "ChartMill",
+      "title": "QUALCOMM INC (NASDAQ:QCOM): A Growth at a Reasonable Price Candidate"
+    },
+    {
+      "published_utc": "2026-10-30T12:15:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Curious about Qualcomm (QCOM) Q4 Performance? Explore Wall Street Estimates for Key Metrics"
+    },
     {
       "published_utc": "2026-10-29T16:55:10+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-27T18:00:43+00:00",
       "publisher": "Yahoo",
       "title": "Qualcomm’s Layoff Notices Start in November. A 2026 Bonus Paid in January Shouldn’t Count Against His $25,560 Social Security Earnings Limit"
-    },
-    {
-      "published_utc": "2026-10-27T15:04:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Anduril and Qualcomm launch BlueChip to onshore computer manufacturing"
-    },
-    {
-      "published_utc": "2026-10-27T13:59:30+00:00",
-      "publisher": "Benzinga",
-      "title": "Anduril, Qualcomm Team Up on U.S.-Built Laptops for Defense, Government Amid Supply Chain Risks"
-    },
-    {
-      "published_utc": "2026-10-27T13:02:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Qualcomm Pledges Global Layoffs as Handset Revenue Falls 20%: “Stronger Performance Culture”"
     }
   ]
 }

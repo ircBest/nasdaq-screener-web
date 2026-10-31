@@ -1,13 +1,48 @@
 {
   "ticker": "TENB",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-29T18:07:02+00:00",
+      "publisher": "Benzinga",
+      "title": "Canaccord Genuity Maintains Buy on Tenable Holdings, Raises Price Target to $54"
+    },
+    {
+      "published_utc": "2026-10-29T17:23:23+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Maintains Overweight on Tenable Holdings, Raises Price Target to $41"
+    },
+    {
+      "published_utc": "2026-10-29T13:51:45+00:00",
+      "publisher": "Benzinga",
+      "title": "TD Cowen Maintains Buy on Tenable Holdings, Raises Price Target to $50"
+    },
+    {
       "published_utc": "2026-10-29T12:47:16+00:00",
       "publisher": "SeekingAlpha",
       "title": "Tenable: One Of The Best Deals In Cybersecurity"
+    },
+    {
+      "published_utc": "2026-10-29T11:53:46+00:00",
+      "publisher": "Benzinga",
+      "title": "Truist Securities Reiterates Hold on Tenable Holdings, Raises Price Target to $45"
+    },
+    {
+      "published_utc": "2026-10-29T11:35:27+00:00",
+      "publisher": "Benzinga",
+      "title": "Barclays Maintains Equal-Weight on Tenable Holdings, Raises Price Target to $54"
+    },
+    {
+      "published_utc": "2026-10-29T11:10:37+00:00",
+      "publisher": "Benzinga",
+      "title": "Wedbush Maintains Underperform on Tenable Holdings, Raises Price Target to $35"
+    },
+    {
+      "published_utc": "2026-10-29T10:12:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Tenable Holdings (TENB) Stay Cheap After Its 114% Run?"
     },
     {
       "published_utc": "2026-10-29T10:11:57+00:00",
@@ -28,41 +63,6 @@
       "published_utc": "2026-10-29T08:58:22+00:00",
       "publisher": "Benzinga",
       "title": "Stifel Maintains Hold on Tenable Holdings, Raises Price Target to $48"
-    },
-    {
-      "published_utc": "2026-10-29T07:53:42+00:00",
-      "publisher": "Benzinga",
-      "title": "Cantor Fitzgerald Maintains Overweight on Tenable Holdings, Raises Price Target to $53"
-    },
-    {
-      "published_utc": "2026-10-29T07:22:58+00:00",
-      "publisher": "Benzinga",
-      "title": "Needham Maintains Buy on Tenable Holdings, Raises Price Target to $55"
-    },
-    {
-      "published_utc": "2026-10-28T22:30:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Tenable (TENB) Q3 Earnings and Revenues Surpass Estimates"
-    },
-    {
-      "published_utc": "2026-10-28T22:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Compared to Estimates, Tenable (TENB) Q3 Earnings: A Look at Key Metrics"
-    },
-    {
-      "published_utc": "2026-10-28T21:50:35+00:00",
-      "publisher": "ChartMill",
-      "title": "Tenable Holdings (NASDAQ:TENB) Slides as Soft Revenue Guide Overshadows Earnings Beat"
-    },
-    {
-      "published_utc": "2026-10-28T20:47:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Tenable: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-10-28T20:30:13+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Tenable Holdings, Inc. (TENB) Q3 2026 Earnings Call Transcript"
     }
   ]
 }

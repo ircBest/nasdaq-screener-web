@@ -1,9 +1,34 @@
 {
   "ticker": "PI",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T08:14:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Impinj (PI) Stock Price Faces A Q3 Earnings Valuation Check"
+    },
+    {
+      "published_utc": "2026-10-30T05:05:05+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Impinj: I Was Wrong, And Standing By It Would Only Service My Ego (Rating Upgrade)"
+    },
+    {
+      "published_utc": "2026-10-30T05:05:05+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Impinj: I Was Wrong, And Standing By It Would Only Serve My Ego (Rating Upgrade)"
+    },
+    {
+      "published_utc": "2026-10-29T18:29:00+00:00",
+      "publisher": "Benzinga",
+      "title": "Jefferies Maintains Buy on Impinj, Raises Price Target to $220"
+    },
+    {
+      "published_utc": "2026-10-29T14:02:21+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Neutral on Impinj, Raises Price Target to $180"
+    },
     {
       "published_utc": "2026-10-29T09:08:02+00:00",
       "publisher": "Benzinga",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-28T20:45:07+00:00",
       "publisher": "Yahoo",
       "title": "Impinj (PI) Q3 Earnings and Revenues Beat Estimates"
-    },
-    {
-      "published_utc": "2026-10-28T20:26:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Impinj: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-10-28T20:19:53+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Impinj, Inc. (PI) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-28T20:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Impinj Reports Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-10-28T17:46:55+00:00",
-      "publisher": "Benzinga",
-      "title": "Impinj Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-28T16:20:18+00:00",
-      "publisher": "Benzinga",
-      "title": "Impinj Sees Q4 GAAP EPS $0.04-$0.08 vs $(0.07) Est"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T22:09:41+00:00",
+      "publisher": "Benzinga",
+      "title": "Cathie Wood Isn’t Done: Ark Adds Joby Aviation For 4th Day, Buys Cerebras Stock After Short Report"
+    },
+    {
+      "published_utc": "2026-10-29T17:31:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Sinks 10% as Short Seller Culper Claims Its Wafers “Break Down After Just ~2 Years”"
+    },
+    {
+      "published_utc": "2026-10-29T16:41:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Expands AI Footprint With Oracle: Can It Outpace NVDA & AMD?"
+    },
     {
       "published_utc": "2026-10-28T16:41:18+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-27T15:09:47+00:00",
       "publisher": "SeekingAlpha",
       "title": "Cerebras: The Ultrafast AI Play Trading At A Discount"
-    },
-    {
-      "published_utc": "2026-10-27T13:24:32+00:00",
-      "publisher": "Benzinga",
-      "title": "Cerebras Stock Surges on Oracle Cloud Partnership"
-    },
-    {
-      "published_utc": "2026-10-27T12:01:13+00:00",
-      "publisher": "Benzinga",
-      "title": "Cerebras Systems And Oracle Partner To Bring High-Speed AI Inference To Oracle Cloud Infrastructure, Targeting AI Labs, Enterprises And Developers Building Interactive AI Applications"
-    },
-    {
-      "published_utc": "2026-10-26T08:09:09+00:00",
-      "publisher": "Yahoo",
-      "title": "SPCX Stock Slips Premarket: Retail Speculates Elon Musk Could Snap Up Cerebras After Chipmaker’s Slump"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "NTNX",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T20:45:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Nutanix (NTNX) Registers a Bigger Fall Than the Market: Important Facts to Note"
+    },
+    {
+      "published_utc": "2026-10-30T14:40:02+00:00",
+      "publisher": "Yahoo",
+      "title": "EXLS vs. NTNX: Which Stock Is the Better Value Option?"
+    },
     {
       "published_utc": "2026-10-29T20:50:04+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-26T23:58:47+00:00",
       "publisher": "Yahoo",
       "title": "Cloud monitoring stocks Q2 teardown: Nutanix (NASDAQ:NTNX) vs the rest"
-    },
-    {
-      "published_utc": "2026-10-26T16:49:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Nutanix gains as Guggenheim starts coverage at Buy amid VMware share gains"
-    },
-    {
-      "published_utc": "2026-10-26T14:43:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Global Converged Infrastructure Market Report 2026 | Capitalize on 13.9% CAGR Through 2030 as Dell, Cisco, Huawei, HPE and Nutanix Accelerate Hybrid Cloud and AI Infrastructure"
     }
   ]
 }

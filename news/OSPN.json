@@ -1,13 +1,53 @@
 {
   "ticker": "OSPN",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-30T09:29:50+00:00",
+      "publisher": "Benzinga",
+      "title": "B. Riley Securities Maintains Buy on OneSpan, Raises Price Target to $32"
+    },
+    {
+      "published_utc": "2026-10-30T01:14:07+00:00",
+      "publisher": "Yahoo",
+      "title": "What Onespan (OSPN) Said on Its Q3 Earnings Call"
+    },
+    {
+      "published_utc": "2026-10-29T22:05:09+00:00",
+      "publisher": "Yahoo",
+      "title": "OneSpan (OSPN) Q3 Earnings and Revenues Surpass Estimates"
+    },
+    {
+      "published_utc": "2026-10-29T21:58:52+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "OneSpan Inc. (OSPN) Q3 2026 Earnings Call Transcript"
+    },
+    {
       "published_utc": "2026-10-29T21:43:40+00:00",
       "publisher": "ChartMill",
       "title": "OneSpan (NASDAQ:OSPN) Posts Strong Q3 Beat and Raises Outlook, but Shares Stay Flat"
+    },
+    {
+      "published_utc": "2026-10-29T20:37:55+00:00",
+      "publisher": "Yahoo",
+      "title": "OneSpan: Q3 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-10-29T20:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "OneSpan Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-10-29T16:04:28+00:00",
+      "publisher": "Benzinga",
+      "title": "OneSpan Raises FY2026 Sales Guidance from $248.000M-$252.000M to $254.000M-$258.000M vs $250.247M Est"
+    },
+    {
+      "published_utc": "2026-10-29T16:02:01+00:00",
+      "publisher": "Benzinga",
+      "title": "OneSpan Q3 Adj. EPS $0.35 Beats $0.24 Estimate, Sales $63.885M Beat $57.434M Estimate"
     },
     {
       "published_utc": "2026-10-27T16:14:48+00:00",
@@ -23,16 +63,6 @@
       "published_utc": "2026-10-22T20:50:02+00:00",
       "publisher": "Yahoo",
       "title": "OneSpan (OSPN) Advances While Market Declines: Some Information for Investors"
-    },
-    {
-      "published_utc": "2026-10-22T12:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "ONESPAN INC (OSPN) Is a Trending Stock: Facts to Know Before Betting on It"
-    },
-    {
-      "published_utc": "2026-10-19T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "OneSpan Advances DigipassONE to Help Organizations Put Modern Authentication into Practice"
     }
   ]
 }

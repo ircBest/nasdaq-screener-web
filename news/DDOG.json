@@ -1,9 +1,24 @@
 {
   "ticker": "DDOG",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T16:17:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%"
+    },
+    {
+      "published_utc": "2026-10-30T14:49:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Axon Enterprise vs. Datadog: Does Physical Security or Cyber Security Make for a Better Stock Buy in 2026?"
+    },
+    {
+      "published_utc": "2026-10-30T12:15:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Seeking Clues to Datadog (DDOG) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics"
+    },
     {
       "published_utc": "2026-10-29T20:45:03+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-27T16:44:17+00:00",
       "publisher": "Benzinga",
       "title": "UBS Maintains Buy on Datadog, Raises Price Target to $320"
-    },
-    {
-      "published_utc": "2026-10-27T09:55:23+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's What to Expect From Datadog's Next Earnings Report"
-    },
-    {
-      "published_utc": "2026-10-27T08:41:04+00:00",
-      "publisher": "Yahoo",
-      "title": "DDOG Stock Has Doubled This Year: Analysts Still See Upside, List AI Catalysts"
-    },
-    {
-      "published_utc": "2026-10-26T16:41:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Datadog Soars 4% as Oppenheimer Lifts Price Target to $330 Ahead of Nov. 4 Earnings"
     }
   ]
 }

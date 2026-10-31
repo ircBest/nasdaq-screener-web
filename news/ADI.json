@@ -1,13 +1,28 @@
 {
   "ticker": "ADI",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-30T12:49:45+00:00",
+      "publisher": "Yahoo",
+      "title": "What to Expect From Analog Devices’ Q4 2026 Earnings Report"
+    },
+    {
+      "published_utc": "2026-10-29T21:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Analog Devices (ADI) Rises As Market Takes a Dip: Key Facts"
+    },
+    {
       "published_utc": "2026-10-29T18:47:31+00:00",
       "publisher": "Yahoo",
       "title": "Texas Instruments Pays $1.52 a Quarter, Analog Devices $1.10. Which Dividend Is Stronger?"
+    },
+    {
+      "published_utc": "2026-10-29T16:15:24+00:00",
+      "publisher": "Benzinga",
+      "title": "If You Invested $1000 In Analog Devices Stock 5 Years Ago, You Would Have This Much Today"
     },
     {
       "published_utc": "2026-10-29T11:30:49+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-23T12:00:03+00:00",
       "publisher": "Yahoo",
       "title": "Is Trending Stock Analog Devices, Inc. (ADI) a Buy Now?"
-    },
-    {
-      "published_utc": "2026-10-22T20:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Analog Devices to Report Fourth Quarter Fiscal Year 2026 Financial Results on Tuesday, November 24, 2026"
-    },
-    {
-      "published_utc": "2026-10-22T05:59:15+00:00",
-      "publisher": "Benzinga",
-      "title": "Industry Comparison: Evaluating Analog Devices Against Competitors In Semiconductors &amp; Semiconductor Equipment Industry"
-    },
-    {
-      "published_utc": "2026-10-22T02:13:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Analog Devices (ADI) Is A Key Competitor In Digital Power ICs"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "CIFR",
-  "generated_at": "2026-10-30T10:19:17+00:00",
+  "generated_at": "2026-10-31T09:55:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-29T23:19:42+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Cipher Digital Stock Fall 50%?"
+    },
+    {
+      "published_utc": "2026-10-29T21:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Cipher Digital Inc. (CIFR) Registers a Bigger Fall Than the Market: Important Facts to Note"
+    },
+    {
+      "published_utc": "2026-10-29T15:04:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cipher Digital Gears Up to Report Q3 Earnings: What's in Store?"
+    },
     {
       "published_utc": "2026-10-27T12:04:16+00:00",
       "publisher": "Benzinga",
@@ -38,26 +53,6 @@
       "published_utc": "2026-10-21T13:42:21+00:00",
       "publisher": "Yahoo",
       "title": "Data Center Stocks Rise as IREN Plans 300MW AI Campus in Spain: IREN and Cipher Digital Gain 4%, Core Scientific Climbs 3%"
-    },
-    {
-      "published_utc": "2026-10-17T08:57:14+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cipher Digital: After The 70% Wipeout"
-    },
-    {
-      "published_utc": "2026-10-16T13:43:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy and Riot Fall 4%, Cipher Digital Declines 3% as MSCI Index Rules and Convertible Sale Weigh"
-    },
-    {
-      "published_utc": "2026-10-16T13:16:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Cipher Digital Stock Plunged 26% This Week"
-    },
-    {
-      "published_utc": "2026-10-16T12:41:03+00:00",
-      "publisher": "Benzinga",
-      "title": "Why Is Cipher Digital Stock Falling on Friday?"
     }
   ]
 }
