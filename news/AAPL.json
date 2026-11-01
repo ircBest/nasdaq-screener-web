@@ -1,9 +1,34 @@
 {
   "ticker": "AAPL",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T17:50:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Apple a Top Tech Stock to Buy Now?"
+    },
+    {
+      "published_utc": "2026-10-31T15:17:00+00:00",
+      "publisher": "Yahoo",
+      "title": "MKBHD drops a blunt verdict on Apple's touchscreen MacBook Pro"
+    },
+    {
+      "published_utc": "2026-10-31T11:00:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Apple Leads Packed Earnings Calendar As Investors Eye Tech, Pharma Results"
+    },
+    {
+      "published_utc": "2026-10-31T08:08:21+00:00",
+      "publisher": "Yahoo",
+      "title": "What Apple Doubters Got Wrong"
+    },
+    {
+      "published_utc": "2026-10-31T07:15:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Apple’s Biggest Threat Isn’t Android — It’s AAPL's Own Devices, Analyst Says Ahead Of Q4 Earnings"
+    },
     {
       "published_utc": "2026-10-30T21:47:53+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-30T18:48:22+00:00",
       "publisher": "Yahoo",
       "title": "Apple Set to Dethrone Nvidia as Largest Company by Market Cap"
-    },
-    {
-      "published_utc": "2026-10-30T17:44:47+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple, Super Micro, AMD, Palantir Step Up To Earnings Plate After Tech Sell-Off"
-    },
-    {
-      "published_utc": "2026-10-30T17:15:13+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple iPhone Duo Wait Times Trend Lower But Remain Elevated, UBS Says"
-    },
-    {
-      "published_utc": "2026-10-30T17:10:27+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple (AAPL) Fined In South Korea Over Unfair App Store Practices"
-    },
-    {
-      "published_utc": "2026-10-30T16:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple faces margin pressure and uneven iPhone demand as launch schedule shifts, Bank of America says"
-    },
-    {
-      "published_utc": "2026-10-30T15:19:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple Sentiment Cautious On December-Ending Quarter Outlook"
     }
   ]
 }

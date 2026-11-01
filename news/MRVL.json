@@ -1,9 +1,24 @@
 {
   "ticker": "MRVL",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T14:34:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Lumentum Jumped on Reports Marvell Is in Late-Stage Talks to Acquire the Company. LITE Stock Is a Buy No Matter What."
+    },
+    {
+      "published_utc": "2026-10-31T14:24:30+00:00",
+      "publisher": "Yahoo",
+      "title": "Piper Sandler’s $400 Target Says Marvell’s Selloff Went Too Far"
+    },
+    {
+      "published_utc": "2026-10-31T14:07:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Marvell Sinks 14% in a Week on Lumentum Talks: Chipmakers Like It “Don’t Have a Choice”"
+    },
     {
       "published_utc": "2026-10-30T20:17:36+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-30T11:12:02+00:00",
       "publisher": "Yahoo",
       "title": "Marvell in advanced talks to buy Nvidia-backed Lumentum – report"
-    },
-    {
-      "published_utc": "2026-10-30T10:10:07+00:00",
-      "publisher": "Benzinga",
-      "title": "Marvell Rumored to Buy Lumentum in Major Challenge to Broadcom: Counterpoint"
-    },
-    {
-      "published_utc": "2026-10-29T21:43:30+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Oct. 29: Marvell Falls on Lumentum Acquisition Talks"
-    },
-    {
-      "published_utc": "2026-10-29T20:45:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Marvell Technology (MRVL) Sees a More Significant Dip Than Broader Market: Some Facts to Know"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "SIMO",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T18:17:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Silicon Motion (SIMO) Stock Could Be 26% Overvalued Following AI Storage Optimism"
+    },
+    {
+      "published_utc": "2026-10-30T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SIMO Q3 Earnings Call Highlights AI and Enterprise Growth Outlook"
+    },
     {
       "published_utc": "2026-10-30T09:46:21+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-28T22:16:19+00:00",
       "publisher": "Yahoo",
       "title": "Silicon Motion: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-10-28T22:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Silicon Motion Announces Results for the Quarterly Period Ended September 30, 2026"
-    },
-    {
-      "published_utc": "2026-10-28T18:07:09+00:00",
-      "publisher": "Benzinga",
-      "title": "Silicon Motion Tech Sees Q4 Sales $588.000M-$616.000M vs $549.676M Est"
     }
   ]
 }

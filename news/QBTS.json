@@ -1,9 +1,24 @@
 {
   "ticker": "QBTS",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T20:15:36+00:00",
+      "publisher": "Yahoo",
+      "title": "IonQ Sinks 8%, D-Wave Down 7%, Rigetti Down 7% as Intel and Amazon Earnings Extend Tech Selloff"
+    },
+    {
+      "published_utc": "2026-10-30T18:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "IonQ vs. D-Wave: Which Quantum Stock to Buy Ahead of Q3 Earnings?"
+    },
+    {
+      "published_utc": "2026-10-30T12:59:17+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Should You Pay Attention To QBTS Stock?"
+    },
     {
       "published_utc": "2026-10-28T20:41:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-27T13:29:21+00:00",
       "publisher": "Yahoo",
       "title": "D-Wave Extends SkyWater Pact and Lands a $100 Million CHIPS Award as Losses Widen"
-    },
-    {
-      "published_utc": "2026-10-26T18:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "QBTS Stock Slides Ahead of Q3 Earnings: Is It Time to Sell or Hold?"
-    },
-    {
-      "published_utc": "2026-10-26T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "D-Wave Quantum to Participate in Upcoming Investor Conferences"
-    },
-    {
-      "published_utc": "2026-10-24T17:25:16+00:00",
-      "publisher": "Yahoo",
-      "title": "D-Wave Just Hit a New 52-Week Low, Down 62% in a Year. Is the Selling Overdone?"
     }
   ]
 }

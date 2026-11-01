@@ -1,9 +1,24 @@
 {
   "ticker": "NVDA",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T19:37:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft just gave Nvidia shareholders a reason to pay attention"
+    },
+    {
+      "published_utc": "2026-10-31T01:20:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia"
+    },
+    {
+      "published_utc": "2026-10-30T22:33:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia has a stake in SpaceX that came from an unexpected place"
+    },
     {
       "published_utc": "2026-10-30T21:47:53+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-30T14:33:54+00:00",
       "publisher": "Yahoo",
       "title": "AMD Is Chasing Nvidia in AI, but Investors Could Win Either Way"
-    },
-    {
-      "published_utc": "2026-10-30T13:42:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Can You Make Money Off NVIDIA Stock Now?"
-    },
-    {
-      "published_utc": "2026-10-30T13:09:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel Plunges 25% as Weak Outlook and PC Slump Overshadow Earnings Beat; Dell Tumbles 13%, AMD Sinks 10%, NVIDIA Falls 3%"
-    },
-    {
-      "published_utc": "2026-10-30T12:52:20+00:00",
-      "publisher": "CNBC",
-      "title": "Trade Tracker: Steve Weiss sells most of his Nvidia position"
     }
   ]
 }

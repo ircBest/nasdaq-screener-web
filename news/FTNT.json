@@ -1,9 +1,19 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T19:07:24+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Fortinet, Inc. 2026 Q3 - Results - Earnings Call Presentation"
+    },
+    {
+      "published_utc": "2026-10-30T22:16:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Fortinet (FTNT) Stock Price Drops After Q3 Results Miss Services Mark"
+    },
     {
       "published_utc": "2026-10-30T16:17:38+00:00",
       "publisher": "Yahoo",
@@ -18,6 +28,11 @@
       "published_utc": "2026-10-30T14:55:32+00:00",
       "publisher": "Yahoo",
       "title": "Darktrace and Fortinet Strengthen Climb Global’s (CLMB) Growth Profile"
+    },
+    {
+      "published_utc": "2026-10-30T14:37:16+00:00",
+      "publisher": "Benzinga",
+      "title": "Wells Fargo Maintains Underweight on Fortinet, Lowers Price Target to $115"
     },
     {
       "published_utc": "2026-10-30T13:40:58+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-30T09:49:00+00:00",
       "publisher": "Yahoo",
       "title": "Zacks Investment Ideas feature highlights: Fortinet, Palo Alto Networks and CrowdStrike"
-    },
-    {
-      "published_utc": "2026-10-30T09:02:50+00:00",
-      "publisher": "Benzinga",
-      "title": "Susquehanna Maintains Neutral on Fortinet, Lowers Price Target to $145"
-    },
-    {
-      "published_utc": "2026-10-30T02:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NEC Corporation Achieves Fortinet's Engage Preferred Services Partner Designation"
-    },
-    {
-      "published_utc": "2026-10-30T01:49:26+00:00",
-      "publisher": "Yahoo",
-      "title": "Dow Jones Futures Fall, Nasdaq Futures Plunge 2% On Amazon, Intel After Google, ServiceNow, Fortinet Dive"
     }
   ]
 }

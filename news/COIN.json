@@ -1,13 +1,43 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-10-31T15:31:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Coinbase (COIN) shares are falling today"
+    },
+    {
+      "published_utc": "2026-10-31T13:38:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Slips 11% as a $6.3 Billion Binance Heist Rattles Crypto Stocks"
+    },
+    {
+      "published_utc": "2026-10-31T00:46:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase and Kraken Ramp Up Security After Massive Binance Hack"
+    },
+    {
+      "published_utc": "2026-10-31T00:44:55+00:00",
+      "publisher": "Yahoo",
+      "title": "7 Banks Change Their Coinbase Stock Price Targets After Q3 Earnings"
+    },
+    {
+      "published_utc": "2026-10-30T21:03:06+00:00",
+      "publisher": "Benzinga",
+      "title": "Rosenblatt Maintains Buy on Coinbase Global, Lowers Price Target to $185"
+    },
+    {
       "published_utc": "2026-10-30T20:33:19+00:00",
       "publisher": "Yahoo",
       "title": "Could Coinbase Actually Climb 94%? Or Is Canaccord Totally Wrong?"
+    },
+    {
+      "published_utc": "2026-10-30T20:32:48+00:00",
+      "publisher": "Benzinga",
+      "title": "Canaccord Genuity Maintains Buy on Coinbase Global, Lowers Price Target to $275"
     },
     {
       "published_utc": "2026-10-30T19:17:54+00:00",
@@ -20,6 +50,11 @@
       "title": "Coinbase Is Down 26% in October: Hold On to COIN Stock, or Drop It Like a Hot Potato?"
     },
     {
+      "published_utc": "2026-10-30T18:16:23+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Maintains Overweight on Coinbase Global, Lowers Price Target to $187"
+    },
+    {
       "published_utc": "2026-10-30T17:06:26+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase, MicroStrategy, Robinhood tumble after largest crypto hack ever"
@@ -28,41 +63,6 @@
       "published_utc": "2026-10-30T16:17:01+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase: 3 Key Takeaways for Long-Term Investors"
-    },
-    {
-      "published_utc": "2026-10-30T15:51:36+00:00",
-      "publisher": "Yahoo",
-      "title": "After Q3 2026, What Coinbase’s Revenue Mix Says About Its Valuation"
-    },
-    {
-      "published_utc": "2026-10-30T14:44:30+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase (COIN) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-30T14:13:27+00:00",
-      "publisher": "Yahoo",
-      "title": "What Does Coinbase Global (COIN) Joining The RLUSD Rollout Mean For Users?"
-    },
-    {
-      "published_utc": "2026-10-30T14:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase shares slide 11% despite earnings beat as Binance hack weighs on crypto stocks"
-    },
-    {
-      "published_utc": "2026-10-30T13:54:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Tumbles 11% as Record Binance Hack Hits Crypto and Trading Revenue Slides; Strategy Sinks 12%, Robinhood Plunges 10%, Circle Drops 9%"
-    },
-    {
-      "published_utc": "2026-10-30T13:47:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Q3 Earnings Call Highlights Push Beyond Crypto Trading"
-    },
-    {
-      "published_utc": "2026-10-30T12:35:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global vs. Morningstar: Which Financial Stock Is a Better Buy in 2026?"
     }
   ]
 }

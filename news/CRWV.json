@@ -1,9 +1,19 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T09:05:13+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cipher Digital And TeraWulf Vs. CoreWeave: Less Debt, More Upside"
+    },
+    {
+      "published_utc": "2026-10-31T05:12:52+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave And 2 Other Top Growth Stocks With Insider Buying"
+    },
     {
       "published_utc": "2026-10-30T13:13:38+00:00",
       "publisher": "Yahoo",
@@ -23,6 +33,11 @@
       "published_utc": "2026-10-30T11:47:06+00:00",
       "publisher": "Yahoo",
       "title": "Satya Nadella Just Took a Shot at Oracle and CoreWeave"
+    },
+    {
+      "published_utc": "2026-10-30T11:15:07+00:00",
+      "publisher": "Benzinga",
+      "title": "Why Is CoreWeave Stock Falling on Friday?"
     },
     {
       "published_utc": "2026-10-30T09:57:04+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-29T12:07:00+00:00",
       "publisher": "Yahoo",
       "title": "CRWV vs. MSFT: Which AI Cloud Stock Offers Better Upside Potential?"
-    },
-    {
-      "published_utc": "2026-10-29T08:10:58+00:00",
-      "publisher": "Benzinga",
-      "title": "GOOGL, MSFT AI Capex Worries Hammer Neocloud Stocks: CRWV, NBIS, IREN, APLD Give Up Best Week in Over 2 Months"
-    },
-    {
-      "published_utc": "2026-10-29T03:35:48+00:00",
-      "publisher": "Yahoo",
-      "title": "CRWV, NBIS, IREN, APLD Stocks Drop After Microsoft Capex Falls Short On Delayed Third-Party Capacity"
-    },
-    {
-      "published_utc": "2026-10-28T21:35:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Oct. 28: CoreWeave Surges on Denmark AI Capacity Going Live"
     }
   ]
 }

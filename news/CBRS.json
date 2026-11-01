@@ -1,9 +1,19 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-30T15:57:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Cerebras Stock Dropped Today"
+    },
+    {
+      "published_utc": "2026-10-30T11:30:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Fell After Culper Research Issued a Short Call. What This Means for CBRS Stock."
+    },
     {
       "published_utc": "2026-10-29T22:09:41+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-27T16:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Cerebras and Oracle Team Up to Bring Cerebras AI Inference to Oracle Cloud Infrastructure"
-    },
-    {
-      "published_utc": "2026-10-27T16:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Oracle, in effort to reduce reliance on Nvidia, adds AI chips from Google, Cerebras, and SambaNova"
-    },
-    {
-      "published_utc": "2026-10-27T15:09:47+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cerebras: The Ultrafast AI Play Trading At A Discount"
     }
   ]
 }

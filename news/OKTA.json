@@ -1,9 +1,19 @@
 {
   "ticker": "OKTA",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T09:23:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Cloudflare, Fastly, Oracle, JFrog, and Okta shares plummet, what you need to know"
+    },
+    {
+      "published_utc": "2026-10-30T22:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Okta Stock Can Find More Buyers as It Joins the S&P 500"
+    },
     {
       "published_utc": "2026-10-30T21:59:08+00:00",
       "publisher": "Yahoo",
@@ -18,6 +28,11 @@
       "published_utc": "2026-10-30T17:58:00+00:00",
       "publisher": "Yahoo",
       "title": "OKTA vs. S: Which Enterprise Cybersecurity Stock Has an Edge Now?"
+    },
+    {
+      "published_utc": "2026-10-30T17:18:52+00:00",
+      "publisher": "Benzinga",
+      "title": "Okta Set To Join The S&P 500"
     },
     {
       "published_utc": "2026-10-30T12:00:03+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-27T20:50:03+00:00",
       "publisher": "Yahoo",
       "title": "Okta (OKTA) Beats Stock Market Upswing: What Investors Need to Know"
-    },
-    {
-      "published_utc": "2026-10-24T06:32:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Qualys, Tenable, Cloudflare, CrowdStrike, and Okta shares skyrocket, what you need to know"
-    },
-    {
-      "published_utc": "2026-10-23T18:16:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto and Crowdstrike Jumped 6%, and Okta Up 5% as Evercore Survey Flags Stronger Cyber Demand"
-    },
-    {
-      "published_utc": "2026-10-23T14:53:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Cybersecurity Stocks Rise as Evercore Survey Flags Strengthening Demand: Okta, CrowdStrike and Palo Alto Climb 4%"
     }
   ]
 }

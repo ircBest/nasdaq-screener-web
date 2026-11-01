@@ -1,9 +1,34 @@
 {
   "ticker": "STRF",
-  "generated_at": "2026-10-31T09:55:52+00:00",
+  "generated_at": "2026-11-01T11:07:35+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T05:18:25+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Strategy Inc (MSTR) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-30T19:41:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor’s Strategy CFO resigns"
+    },
+    {
+      "published_utc": "2026-10-30T17:06:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase, MicroStrategy, Robinhood tumble after largest crypto hack ever"
+    },
+    {
+      "published_utc": "2026-10-30T16:49:40+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy (MSTR) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-10-30T14:53:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Saylor Says Strategy Could Create Up to $30 Billion of Digital Credit to Fund More Bitcoin"
+    },
     {
       "published_utc": "2026-10-30T06:36:58+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-29T22:05:08+00:00",
       "publisher": "Yahoo",
       "title": "Strategy (MSTR) Beats Q3 Earnings Estimates"
-    },
-    {
-      "published_utc": "2026-10-29T21:57:27+00:00",
-      "publisher": "Yahoo",
-      "title": "MicroStrategy Posts Record $21B Operating Income on Bitcoin Gain, but BTC-Per-Share Falls"
-    },
-    {
-      "published_utc": "2026-10-29T21:30:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's What Key Metrics Tell Us About Strategy (MSTR) Q3 Earnings"
-    },
-    {
-      "published_utc": "2026-10-29T21:11:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy (MSTR) Shareholders Approved Daily Dividends On Four Preferred Stocks"
-    },
-    {
-      "published_utc": "2026-10-28T20:00:39+00:00",
-      "publisher": "Yahoo",
-      "title": "MicroStrategy Approves Daily Dividends. Will Bitcoin Buying Return?"
-    },
-    {
-      "published_utc": "2026-10-28T17:04:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Stockholders Approve Daily Dividends for Four Preferred Stock Series"
     }
   ]
 }
