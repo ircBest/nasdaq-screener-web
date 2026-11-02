@@ -1,9 +1,19 @@
 {
   "ticker": "ENPH",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-01T01:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "ENPH Q3 deep dive: management outlines new growth levers as core markets remain pressured"
+    },
+    {
+      "published_utc": "2026-10-31T13:40:37+00:00",
+      "publisher": "Yahoo",
+      "title": "How to Play the Nasty Post-Earnings Selloff in Enphase Stock"
+    },
     {
       "published_utc": "2026-10-30T21:23:29+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-28T17:47:07+00:00",
       "publisher": "Yahoo",
       "title": "ENPH Stock Tumbles To Six-Year Lows Over Multiple Price Cuts On Poor Results And Guidance"
-    },
-    {
-      "published_utc": "2026-10-28T16:47:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Enphase Shares Tumble as Quarterly Earnings Fall Short of Expectations"
-    },
-    {
-      "published_utc": "2026-10-28T15:46:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Enphase Stock Sinks. It Will Have to Grow Its Way Out of a Bleak Residential Solar Market."
     }
   ]
 }

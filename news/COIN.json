@@ -1,13 +1,33 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-01T17:54:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Coinbase Safe After the $6 Billion Binance Hack?"
+    },
+    {
+      "published_utc": "2026-11-01T10:11:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Stock Faces Revenue Test After Q3 Earnings"
+    },
+    {
+      "published_utc": "2026-11-01T05:11:20+00:00",
+      "publisher": "Yahoo",
+      "title": "Binance Hack Puts Coinbase Stock And Crypto Custody Firms Back In Focus"
+    },
+    {
       "published_utc": "2026-10-31T15:31:29+00:00",
       "publisher": "Yahoo",
       "title": "Why Coinbase (COIN) shares are falling today"
+    },
+    {
+      "published_utc": "2026-10-31T13:45:06+00:00",
+      "publisher": "Benzinga",
+      "title": "Coinbase, Robinhood and Other Crypto Exchange Stocks Tumble as Binance Hack Exposes Vulnerabilities"
     },
     {
       "published_utc": "2026-10-31T13:38:16+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-30T19:17:54+00:00",
       "publisher": "SeekingAlpha",
       "title": "Coinbase Q3: The Cybersecurity Scare May Be Hiding An Opportunity (Rating Upgrade)"
-    },
-    {
-      "published_utc": "2026-10-30T18:51:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Is Down 26% in October: Hold On to COIN Stock, or Drop It Like a Hot Potato?"
-    },
-    {
-      "published_utc": "2026-10-30T18:16:23+00:00",
-      "publisher": "Benzinga",
-      "title": "JP Morgan Maintains Overweight on Coinbase Global, Lowers Price Target to $187"
-    },
-    {
-      "published_utc": "2026-10-30T17:06:26+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase, MicroStrategy, Robinhood tumble after largest crypto hack ever"
-    },
-    {
-      "published_utc": "2026-10-30T16:17:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase: 3 Key Takeaways for Long-Term Investors"
     }
   ]
 }

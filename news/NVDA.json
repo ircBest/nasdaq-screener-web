@@ -1,9 +1,29 @@
 {
   "ticker": "NVDA",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-01T20:49:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Prediction: Nvidia Stock Is Going to Soar After Nov. 17"
+    },
+    {
+      "published_utc": "2026-11-01T16:57:37+00:00",
+      "publisher": "Yahoo",
+      "title": "ICE And OKX's Tokenized Stock Venue Hits A Wall As Nvidia, Nike Join Growing List Of Objectors"
+    },
+    {
+      "published_utc": "2026-11-01T16:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "History Says Now Is the Perfect Time to Buy Nvidia Stock"
+    },
+    {
+      "published_utc": "2026-10-31T22:08:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia (NVDA) CEO Jensen Huang Reportedly Targeted In Chinese Espionage Plot"
+    },
     {
       "published_utc": "2026-10-31T19:37:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-30T18:12:00+00:00",
       "publisher": "Yahoo",
       "title": "Nvidia Stock Is Set for Its Worst Month in a Year. Time to Buy the Dip."
-    },
-    {
-      "published_utc": "2026-10-30T18:08:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Nvidia Stock a Trick or Treat?"
-    },
-    {
-      "published_utc": "2026-10-30T15:34:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Nvidia to prop up British AI giant as data centre boom unwinds"
-    },
-    {
-      "published_utc": "2026-10-30T15:14:46+00:00",
-      "publisher": "Yahoo",
-      "title": "This Little-Known ETF Owns QQQ’s Stocks Without the Big Bet on Nvidia"
-    },
-    {
-      "published_utc": "2026-10-30T14:33:54+00:00",
-      "publisher": "Yahoo",
-      "title": "AMD Is Chasing Nvidia in AI, but Investors Could Win Either Way"
     }
   ]
 }

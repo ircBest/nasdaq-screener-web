@@ -1,9 +1,19 @@
 {
   "ticker": "CRDO",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T23:32:16+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Credo Stock: A $600 Million Opportunity With Something To Prove"
+    },
+    {
+      "published_utc": "2026-10-31T15:33:50+00:00",
+      "publisher": "Yahoo",
+      "title": "Wall Street Is Getting More Interested in Credo. Here’s My Price Prediction"
+    },
     {
       "published_utc": "2026-10-28T15:55:26+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-23T15:09:00+00:00",
       "publisher": "Yahoo",
       "title": "CRDO Stock Hits 6-Month Low After MaxLinear Targets Credo-Dominated Cable Market"
-    },
-    {
-      "published_utc": "2026-10-23T14:08:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Credo slides 7.5% as competition, slower 1.6T rollout weigh"
-    },
-    {
-      "published_utc": "2026-10-22T13:42:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Credo Technology Group Holding Ltd. (CRDO) Faces High Expectations Despite Strong Growth"
     }
   ]
 }

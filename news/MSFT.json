@@ -1,9 +1,34 @@
 {
   "ticker": "MSFT",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-01T18:03:00+00:00",
+      "publisher": "Yahoo",
+      "title": "1 Reason to Buy Microsoft Stock for 10 Years"
+    },
+    {
+      "published_utc": "2026-11-01T15:30:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft Delivered a Beat on Both Earnings and Revenue. Here’s How to Think About MSFT Stock Now."
+    },
+    {
+      "published_utc": "2026-11-01T08:11:12+00:00",
+      "publisher": "Yahoo",
+      "title": "3 Growth Stocks Facing A Fed Rate Test Including Microsoft Stock"
+    },
+    {
+      "published_utc": "2026-11-01T01:46:01+00:00",
+      "publisher": "Yahoo",
+      "title": "I Graded Microsoft's Latest Report on 3 Things. Here's My Verdict on the Stock."
+    },
+    {
+      "published_utc": "2026-11-01T01:10:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft (MSFT) Lands $25 Billion Bond Deal As AI Push Deepens"
+    },
     {
       "published_utc": "2026-10-31T19:37:00+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-31T08:00:00+00:00",
       "publisher": "SeekingAlpha",
       "title": "Microsoft: Cash Is King - Rich AI SaaS/Cloud Monetization Prospects"
-    },
-    {
-      "published_utc": "2026-10-30T21:08:39+00:00",
-      "publisher": "Yahoo",
-      "title": "The Trump Trade Is Over? Plus, Microsoft vs. Google, and Nebius’ Capex Guidance"
-    },
-    {
-      "published_utc": "2026-10-30T20:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Leaders from Wolters Kluwer, Microsoft, Salesforce, and McKinsey challenge accounting firms to make one AI move in the next 90 days"
-    },
-    {
-      "published_utc": "2026-10-30T18:31:12+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Microsoft: 48% Azure Growth And Still Not Enough Capacity"
-    },
-    {
-      "published_utc": "2026-10-30T16:12:45+00:00",
-      "publisher": "Yahoo",
-      "title": "Estée Lauder Expands Microsoft AI Partnership As It Targets Productivity, Personalized Experiences"
-    },
-    {
-      "published_utc": "2026-10-30T16:02:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft Copilot AI Predicts an Unbelievable Price for XRP"
     }
   ]
 }

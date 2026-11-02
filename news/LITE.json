@@ -1,9 +1,19 @@
 {
   "ticker": "LITE",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-01T11:40:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Lumentum Earnings Preview: The AI Boom Is Already Priced In"
+    },
+    {
+      "published_utc": "2026-10-31T18:04:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Lumentum Is Up 11% in a Week. Will Marvell Pay “Close to $100 Billion”?"
+    },
     {
       "published_utc": "2026-10-31T14:34:56+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-29T19:13:29+00:00",
       "publisher": "Yahoo",
       "title": "Nvidia-Backed Marvell, Lumentum Could Be Nearing a Deal"
-    },
-    {
-      "published_utc": "2026-10-29T18:43:04+00:00",
-      "publisher": "Yahoo",
-      "title": "MRVL Stock Sinks as Marvell Technology Reportedly Considers Acquiring Lumentum"
-    },
-    {
-      "published_utc": "2026-10-29T15:56:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Marvell shares slide on reported Lumentum deal talks"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "PANW",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-01T14:44:15+00:00",
+      "publisher": "Yahoo",
+      "title": "CRWD, PANW, OKTA Stocks Have Doubled This Year — Here’s What’s Driving The Cybersecurity Rally"
+    },
+    {
+      "published_utc": "2026-11-01T12:27:00+00:00",
+      "publisher": "Yahoo",
+      "title": "1 Magnificent Cybersecurity Stock That Might be a Better Value Than CrowdStrike and Palo Alto Networks"
+    },
     {
       "published_utc": "2026-10-30T12:00:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-26T20:45:03+00:00",
       "publisher": "Yahoo",
       "title": "Palo Alto Networks (PANW) Laps the Stock Market: Here's Why"
-    },
-    {
-      "published_utc": "2026-10-26T19:09:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto Networks (PANW) Jumped, What Is Behind The Fresh Attention?"
-    },
-    {
-      "published_utc": "2026-10-26T12:00:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Investors Heavily Search Palo Alto Networks, Inc. (PANW): Here is What You Need to Know"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "NXT",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-01T18:15:29+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Nextpower Inc. 2027 Q2 - Results - Earnings Call Presentation"
+    },
+    {
+      "published_utc": "2026-11-01T00:51:00+00:00",
+      "publisher": "Yahoo",
+      "title": "NXT Q3 deep dive: product expansion and M&A drive growth amid cost pressures"
+    },
     {
       "published_utc": "2026-10-30T12:08:53+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-28T21:49:24+00:00",
       "publisher": "Yahoo",
       "title": "Nextpower (NASDAQ:NXT) beats expectations in strong Q3 CY2026"
-    },
-    {
-      "published_utc": "2026-10-28T21:30:32+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Nextpower Inc. (NXT) Q2 2027 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-28T20:59:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Nextpower: Fiscal Q2 Earnings Snapshot"
     }
   ]
 }

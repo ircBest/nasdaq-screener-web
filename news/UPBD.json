@@ -1,9 +1,14 @@
 {
   "ticker": "UPBD",
-  "generated_at": "2026-11-01T11:07:35+00:00",
+  "generated_at": "2026-11-02T11:16:30+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-10-31T20:13:04+00:00",
+      "publisher": "Yahoo",
+      "title": "How Earnings Beat Will Impact Upbound Group (UPBD) Investors"
+    },
     {
       "published_utc": "2026-10-30T16:29:19+00:00",
       "publisher": "Benzinga",
@@ -58,11 +63,6 @@
       "published_utc": "2026-10-29T10:18:13+00:00",
       "publisher": "Benzinga",
       "title": "Upbound Group Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-29T07:03:34+00:00",
-      "publisher": "Benzinga",
-      "title": "Upbound Group Sees Q4 Adj EPS $1.00-$1.10 vs $1.10 Est; Sees Sales $1.150B-$1.250B vs $1.226B Est"
     }
   ]
 }
