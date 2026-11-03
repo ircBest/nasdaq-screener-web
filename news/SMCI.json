@@ -1,9 +1,29 @@
 {
   "ticker": "SMCI",
-  "generated_at": "2026-11-02T11:16:30+00:00",
+  "generated_at": "2026-11-03T11:08:39+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-02T18:51:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Drops 5% Ahead of Earnings as AI Server Selloff Extends; Dell Falls 4%, HPE Slides 3%"
+    },
+    {
+      "published_utc": "2026-11-02T16:09:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro's AI Boom Faces a Margin Test in Q1"
+    },
+    {
+      "published_utc": "2026-11-02T13:05:20+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Stock Has Given Back Nearly All of Its October 21 Rally. Here’s Where the Stock Could Go"
+    },
+    {
+      "published_utc": "2026-11-02T12:20:21+00:00",
+      "publisher": "Yahoo",
+      "title": "AMD, Arista, Supermicro Earnings Previews: Can AI Infrastructure Shake Off Friday’s Rout?"
+    },
     {
       "published_utc": "2026-11-01T14:06:16+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-29T12:03:50+00:00",
       "publisher": "Yahoo",
       "title": "Supermicro Has Already Survived the AI Hype Cycle. What Comes Next?"
-    },
-    {
-      "published_utc": "2026-10-28T20:45:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Computer (SMCI) Rises Higher Than Market: Key Facts"
-    },
-    {
-      "published_utc": "2026-10-28T10:45:41+00:00",
-      "publisher": "Benzinga",
-      "title": "Super Micro Earnings Due Next Week: Here's What to Watch"
-    },
-    {
-      "published_utc": "2026-10-28T10:35:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Is Down 32% in a Year. Is It Time to Sell, or Load Up?"
-    },
-    {
-      "published_utc": "2026-10-28T01:13:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Does Super Micro Computer (SMCI) Have A Bigger AI Infrastructure Story Now?"
     }
   ]
 }

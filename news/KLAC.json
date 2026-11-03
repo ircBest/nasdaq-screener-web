@@ -1,9 +1,34 @@
 {
   "ticker": "KLAC",
-  "generated_at": "2026-11-02T11:16:30+00:00",
+  "generated_at": "2026-11-03T11:08:39+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-02T18:44:04+00:00",
+      "publisher": "Yahoo",
+      "title": "KLA Stocks Rise 1.42% With Target Cut Contrasting Its December Growth Plan"
+    },
+    {
+      "published_utc": "2026-11-02T14:39:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Valuation Compression Pulls Down KLA (KLAC) Despite Raised Outlook"
+    },
+    {
+      "published_utc": "2026-11-02T13:15:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Deciphering KLA (KLAC) International Revenue Trends"
+    },
+    {
+      "published_utc": "2026-11-02T12:13:12+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "KLA Q1: The More Complex Chips Become, The More Valuable KLA Gets (Upgrade)"
+    },
+    {
+      "published_utc": "2026-11-02T08:35:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Can KLA Stock Jump 40%?"
+    },
     {
       "published_utc": "2026-10-31T14:03:29+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-10-30T08:19:18+00:00",
       "publisher": "Yahoo",
       "title": "KLA (KLAC) Stock Gains Attention As Q1 Earnings Meet Valuation Doubts"
-    },
-    {
-      "published_utc": "2026-10-29T22:11:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Is KLA (KLAC) Undervalued On Its Earnings Beat And AI Driven Guidance?"
-    },
-    {
-      "published_utc": "2026-10-29T19:22:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Why KLA Corporation Rallied Today"
-    },
-    {
-      "published_utc": "2026-10-29T17:18:38+00:00",
-      "publisher": "Benzinga",
-      "title": "JP Morgan Maintains Overweight on KLA, Raises Price Target to $240"
-    },
-    {
-      "published_utc": "2026-10-29T17:16:00+00:00",
-      "publisher": "Yahoo",
-      "title": "KLAC Q1 Earnings Beat Estimates, Revenues Rise on AI Demand"
-    },
-    {
-      "published_utc": "2026-10-29T15:13:41+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Maintains Buy on KLA, Lowers Price Target to $275"
     }
   ]
 }

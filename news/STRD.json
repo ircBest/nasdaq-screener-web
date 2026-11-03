@@ -1,9 +1,49 @@
 {
   "ticker": "STRD",
-  "generated_at": "2026-11-02T11:16:30+00:00",
+  "generated_at": "2026-11-03T11:08:39+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-02T20:04:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Stock Fell 15% in October: Is MSTR Crashing or Just Finding a Bottom?"
+    },
+    {
+      "published_utc": "2026-11-02T17:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor keeps buying bitcoin. Here's how Strategy funds it"
+    },
+    {
+      "published_utc": "2026-11-02T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "MSTR Q3 Earnings Call Highlights Digital Credit Expansion"
+    },
+    {
+      "published_utc": "2026-11-02T13:57:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Adds 811 BTC With MSTR Sales as STRC Buybacks Top $400 Million in Two Weeks"
+    },
+    {
+      "published_utc": "2026-11-02T13:46:09+00:00",
+      "publisher": "Yahoo",
+      "title": "MicroStrategy and Strive Buy More Bitcoin, but Shareholders Could Feel the Pain"
+    },
+    {
+      "published_utc": "2026-11-02T11:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy's Michael Saylor Blames These 3 Factors for Bitcoin's Recent Sluggish Performance. The Most Important Is Treasury Yields."
+    },
+    {
+      "published_utc": "2026-11-01T18:01:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Saylor Is Hinting at Another Bitcoin Buy Before MSCI Rules on Strategy. What Happens to BTC if Strategy Has to Sell Instead?"
+    },
+    {
+      "published_utc": "2026-11-01T17:23:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Oil, Inflation, and Fed Risk. Why MicroStrategy Still Wants More Bitcoin Now?"
+    },
     {
       "published_utc": "2026-10-31T14:20:07+00:00",
       "publisher": "Yahoo",
@@ -23,46 +63,6 @@
       "published_utc": "2026-10-30T16:49:40+00:00",
       "publisher": "Yahoo",
       "title": "Strategy (MSTR) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-30T14:53:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Saylor Says Strategy Could Create Up to $30 Billion of Digital Credit to Fund More Bitcoin"
-    },
-    {
-      "published_utc": "2026-10-30T01:20:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is MSTR Stock Falling More Than 6% Overnight?"
-    },
-    {
-      "published_utc": "2026-10-30T01:14:05+00:00",
-      "publisher": "Yahoo",
-      "title": "What Strategy (MSTR) Said on Its Q3 Earnings Call"
-    },
-    {
-      "published_utc": "2026-10-29T23:22:25+00:00",
-      "publisher": "Yahoo",
-      "title": "LIVE: MicroStrategy Q3 2026 earnings call"
-    },
-    {
-      "published_utc": "2026-10-29T23:18:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Posts $21 Billion Bitcoin Gain. Investors Have Bigger Concerns."
-    },
-    {
-      "published_utc": "2026-10-29T22:05:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy (MSTR) Beats Q3 Earnings Estimates"
-    },
-    {
-      "published_utc": "2026-10-29T21:57:27+00:00",
-      "publisher": "Yahoo",
-      "title": "MicroStrategy Posts Record $21B Operating Income on Bitcoin Gain, but BTC-Per-Share Falls"
-    },
-    {
-      "published_utc": "2026-10-29T21:30:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's What Key Metrics Tell Us About Strategy (MSTR) Q3 Earnings"
     }
   ]
 }

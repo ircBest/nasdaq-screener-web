@@ -1,9 +1,24 @@
 {
   "ticker": "CDW",
-  "generated_at": "2026-11-02T11:16:30+00:00",
+  "generated_at": "2026-11-03T11:08:39+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-02T16:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Interlock Equity Completes Sale of Lovelytics to CDW"
+    },
+    {
+      "published_utc": "2026-11-02T14:51:39+00:00",
+      "publisher": "Yahoo",
+      "title": "CDW Corp. (CDW): Positioned to Enable the AI Infrastructure Boom"
+    },
+    {
+      "published_utc": "2026-11-02T12:11:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CDW Ahead of Q3 Earnings: Key Factors Investors Should Watch"
+    },
     {
       "published_utc": "2026-10-27T18:47:23+00:00",
       "publisher": "Yahoo",
@@ -18,16 +33,6 @@
       "published_utc": "2026-10-21T11:00:00+00:00",
       "publisher": "Yahoo",
       "title": "CDW to Announce Third Quarter 2026 Results on November 4"
-    },
-    {
-      "published_utc": "2026-10-19T20:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CDW Appoints Sam Balaji to Board of Directors"
-    },
-    {
-      "published_utc": "2026-10-19T13:32:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Earnings Preview: What to Expect From CDW Corporation’s Report"
     }
   ]
 }

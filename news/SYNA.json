@@ -1,9 +1,14 @@
 {
   "ticker": "SYNA",
-  "generated_at": "2026-11-02T11:16:30+00:00",
+  "generated_at": "2026-11-03T11:08:39+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-02T19:45:54+00:00",
+      "publisher": "Yahoo",
+      "title": "FPA Queens Road Small Cap Value Fund Reduces Its Stake in Synaptics (SYNA) Following Onsemi Acquisition Deal"
+    },
     {
       "published_utc": "2026-10-27T19:04:24+00:00",
       "publisher": "Yahoo",
@@ -18,16 +23,6 @@
       "published_utc": "2026-10-20T12:25:00+00:00",
       "publisher": "Yahoo",
       "title": "Synaptics and Google Research Expand the Coralboard™ Ecosystem"
-    },
-    {
-      "published_utc": "2026-10-20T11:05:13+00:00",
-      "publisher": "Yahoo",
-      "title": "SPDR S&P Semiconductor ETF (XSD) Sells Synaptics, Analog Devices on Friday"
-    },
-    {
-      "published_utc": "2026-10-20T08:30:33+00:00",
-      "publisher": "Benzinga",
-      "title": "Synaptics Announces Availability Of Its Synaptics Coralboard For Purchase Through DigiKey"
     }
   ]
 }
