@@ -1,9 +1,24 @@
 {
   "ticker": "TER",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T20:20:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne Lost 17% in a Week. UBS Still Sees 61% Upside"
+    },
+    {
+      "published_utc": "2026-11-03T16:45:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne (TER) is an Incredible Growth Stock: 3 Reasons Why"
+    },
+    {
+      "published_utc": "2026-11-03T15:40:02+00:00",
+      "publisher": "Yahoo",
+      "title": "FLEX or TER: Which Is the Better Value Stock Right Now?"
+    },
     {
       "published_utc": "2026-11-02T13:35:01+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-28T17:03:00+00:00",
       "publisher": "Yahoo",
       "title": "Teradyne Q3 Earnings Beat Estimates, Revenues Increase Year over Year"
-    },
-    {
-      "published_utc": "2026-10-28T16:04:46+00:00",
-      "publisher": "Yahoo",
-      "title": "What Teradyne (TER) Said on Its Q3 Earnings Call"
-    },
-    {
-      "published_utc": "2026-10-28T14:40:28+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Teradyne, Inc. (TER) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-28T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Teradyne, Inc. Q3 2026 Earnings Call Summary"
     }
   ]
 }

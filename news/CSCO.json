@@ -1,9 +1,34 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T21:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Logicalis strengthens global managed services with Cisco Secure Networking Specialization"
+    },
+    {
+      "published_utc": "2026-11-03T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Schedules Conference Call for Q1 Fiscal Year 2027 Financial Results"
+    },
+    {
+      "published_utc": "2026-11-03T20:12:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Top Analyst Reports for Eli Lilly, Cisco & KLA"
+    },
+    {
+      "published_utc": "2026-11-03T18:11:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco AI backlog and core demand underpin Bank of America’s bullish outlook"
+    },
+    {
+      "published_utc": "2026-11-03T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "LOGICALIS BECOMES FIRST CISCO GLOBAL PARTNER TO ACHIEVE SECURE NETWORKING SPECIALISATION ACROSS FIVE COUNTRIES"
+    },
     {
       "published_utc": "2026-11-02T15:25:29+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-02T08:35:16+00:00",
       "publisher": "Yahoo",
       "title": "The Dates That Matter Most For Cisco Stock"
-    },
-    {
-      "published_utc": "2026-10-31T21:08:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco Systems (CSCO) Became A Founding Member Of An Enterprise AI Governance Alliance"
-    },
-    {
-      "published_utc": "2026-10-30T15:22:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Mobile Virtualization - Global Strategic Business Report 2026 | Secure Your Share of a US$21 Billion Market by 2032 | Microsoft, VMware, Cisco, Google, and IBM Dominate"
-    },
-    {
-      "published_utc": "2026-10-30T15:17:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Virtualization Security - Capitalize on a 16.5% CAGR to Secure the US$4.9 Billion 2032 Market as Cisco, Fortinet, Checkpoint, Dell EMC, and Huawei Disrupt Defenses"
-    },
-    {
-      "published_utc": "2026-10-30T14:48:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Desktop Virtualization - Global Strategic Business Report: Capitalize on the $26.2 Billion Market by 2030 as Microsoft, Citrix, VMware, Cisco, and Dell Accelerate DaaS Disruption"
-    },
-    {
-      "published_utc": "2026-10-30T09:42:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Zacks Industry Outlook Highlights Cisco Systems, Digi International and Lantronix"
     }
   ]
 }

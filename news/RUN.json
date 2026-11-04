@@ -1,9 +1,34 @@
 {
   "ticker": "RUN",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T18:50:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Enphase Surges 9%, Sunrun Climbs 7%, SolarEdge Rallies 6% as Solar Rebound Extends Into Earnings"
+    },
+    {
+      "published_utc": "2026-11-03T13:15:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Curious about Sunrun (RUN) Q3 Performance? Explore Wall Street Estimates for Key Metrics"
+    },
+    {
+      "published_utc": "2026-11-03T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Sunrun Doubles Puerto Rico Distributed Power Plant Participation as Grid Operator Calls on Home Batteries to Help Prevent Outages"
+    },
+    {
+      "published_utc": "2026-11-03T09:02:55+00:00",
+      "publisher": "Benzinga",
+      "title": "Sunrun Announces Its Puerto Rico Distributed Power Plant Participation Doubles To Over 60K Clients"
+    },
+    {
+      "published_utc": "2026-11-03T03:57:52+00:00",
+      "publisher": "Yahoo",
+      "title": "Sunrun (RUN) Heads Into Q3 Earnings With Shares Up 10.3%: What to Expect"
+    },
     {
       "published_utc": "2026-10-29T21:00:03+00:00",
       "publisher": "Yahoo",
@@ -38,16 +63,6 @@
       "published_utc": "2026-10-23T21:00:04+00:00",
       "publisher": "Yahoo",
       "title": "Sunrun (RUN) Falls More Steeply Than Broader Market: What Investors Need to Know"
-    },
-    {
-      "published_utc": "2026-10-22T23:21:42+00:00",
-      "publisher": "Yahoo",
-      "title": "Cash Burn Concerns Could Reshape The Case For Sunrun Stock (RUN)"
-    },
-    {
-      "published_utc": "2026-10-20T16:52:46+00:00",
-      "publisher": "Yahoo",
-      "title": "Solar Stocks Rebound as Selloff Reverses: Sunrun Surges 10%, SolarEdge and Enphase Energy Climb 5%"
     }
   ]
 }

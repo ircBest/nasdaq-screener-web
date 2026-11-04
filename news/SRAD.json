@@ -1,9 +1,24 @@
 {
   "ticker": "SRAD",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T16:45:56+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Sportradar Group AG (SRAD) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-03T08:04:44+00:00",
+      "publisher": "Benzinga",
+      "title": "Sportradar Gr Sees Revenue Growth of 19%-21% on a Constant Currency Basis; Expects Revenue of €1.518B-€1.533B at Current FX Rates"
+    },
+    {
+      "published_utc": "2026-11-03T08:02:36+00:00",
+      "publisher": "Benzinga",
+      "title": "Sportradar Gr Q3 EPS $0.10 Beats $0.09 Estimate, Sales $417.213M Beat $403.900M Estimate"
+    },
     {
       "published_utc": "2026-11-02T22:12:20+00:00",
       "publisher": "Yahoo",
@@ -28,11 +43,6 @@
       "published_utc": "2026-10-22T12:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Sportradar to Release Third Quarter 2026 Financial and Operating Results on November 3, 2026"
-    },
-    {
-      "published_utc": "2026-10-20T14:13:07+00:00",
-      "publisher": "Benzinga",
-      "title": "JP Morgan Maintains Neutral on Sportradar Gr, Lowers Price Target to $13"
     }
   ]
 }

@@ -1,9 +1,39 @@
 {
   "ticker": "CIFR",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T09:41:19+00:00",
+      "publisher": "Benzinga",
+      "title": "Cipher Digital Analysts Cut Their Forecasts After Q3 Results"
+    },
+    {
+      "published_utc": "2026-11-03T08:49:02+00:00",
+      "publisher": "Benzinga",
+      "title": "Rosenblatt Maintains Buy on Cipher Digital, Lowers Price Target to $19"
+    },
+    {
+      "published_utc": "2026-11-03T07:58:33+00:00",
+      "publisher": "Benzinga",
+      "title": "Cantor Fitzgerald Maintains Overweight on Cipher Digital, Lowers Price Target to $15"
+    },
+    {
+      "published_utc": "2026-11-03T03:01:59+00:00",
+      "publisher": "Yahoo",
+      "title": "Cipher Digital Inc (CIFR) (Q3 2026) Earnings Call Highlights: $16. ..."
+    },
+    {
+      "published_utc": "2026-11-02T22:23:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Did Cipher Digital Just Turn It Around? KBW Sees 50% Upside"
+    },
+    {
+      "published_utc": "2026-11-02T22:06:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Will US Elections Gut AI Stocks? Plus, Cipher Digital’s Earnings & SpaceX’s Lawsuit"
+    },
     {
       "published_utc": "2026-11-02T18:28:43+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-11-02T15:41:22+00:00",
       "publisher": "Yahoo",
       "title": "CIFR Stock Drops After Q3 Revenue Miss: CEO Says Company Is Not A ‘Neocloud’"
-    },
-    {
-      "published_utc": "2026-11-02T15:20:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital Inc. (CIFR) Reports Q3 Loss, Lags Revenue Estimates"
-    },
-    {
-      "published_utc": "2026-11-02T14:55:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital Falls 5% on Revenue Miss and Keefe Bruyette Target Cut; TeraWulf and IREN Drop 4%"
-    },
-    {
-      "published_utc": "2026-11-02T14:16:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital misses on Q3 revenue as first HPC lease income arrives"
-    },
-    {
-      "published_utc": "2026-11-02T13:36:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital Reports $27 Million in Q3 Revenue as HPC Leasing Begins and Contracted Revenue Reaches $9.1 Billion at Barber Lake"
-    },
-    {
-      "published_utc": "2026-11-02T13:31:17+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cipher Digital Inc. 2026 Q3 - Results - Earnings Call Presentation"
-    },
-    {
-      "published_utc": "2026-11-02T12:18:26+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Cipher Digital Inc. (CIFR) Q3 2026 Earnings Call Transcript"
     }
   ]
 }

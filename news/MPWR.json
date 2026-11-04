@@ -1,9 +1,29 @@
 {
   "ticker": "MPWR",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T15:12:00+00:00",
+      "publisher": "Yahoo",
+      "title": "MPWR Fell 15.9% in the Past Month. Is the Weakness a Buying Chance?"
+    },
+    {
+      "published_utc": "2026-11-03T15:06:00+00:00",
+      "publisher": "Yahoo",
+      "title": "MPWR's AI Power Boom Accelerates as Enterprise Data Sales Surge 164.6%"
+    },
+    {
+      "published_utc": "2026-11-03T15:04:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is MPWR Worth Buying as AI Growth Collides With a Premium Valuation?"
+    },
+    {
+      "published_utc": "2026-11-03T12:27:00+00:00",
+      "publisher": "Yahoo",
+      "title": "MPWR Q3 Earnings Beat on AI Infrastructure and Communications Demand"
+    },
     {
       "published_utc": "2026-10-31T22:35:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-30T13:50:00+00:00",
       "publisher": "Yahoo",
       "title": "MPWR Q3 Earnings Surpass Estimates on Enterprise Data Strength"
-    },
-    {
-      "published_utc": "2026-10-30T12:48:02+00:00",
-      "publisher": "Benzinga",
-      "title": "Truist Securities Maintains Buy on Monolithic Power Systems, Raises Price Target to $1906"
-    },
-    {
-      "published_utc": "2026-10-30T10:30:39+00:00",
-      "publisher": "Benzinga",
-      "title": "This Monolithic Power Analyst Turns Bullish; Here Are Top 4 Upgrades For Friday"
-    },
-    {
-      "published_utc": "2026-10-30T08:19:37+00:00",
-      "publisher": "Benzinga",
-      "title": "Rosenblatt Upgrades Monolithic Power Systems to Buy, Raises Price Target to $1700"
-    },
-    {
-      "published_utc": "2026-10-30T01:14:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Monolithic Power Systems Q3 Earnings Call Highlights"
     }
   ]
 }

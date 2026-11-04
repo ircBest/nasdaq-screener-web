@@ -1,9 +1,24 @@
 {
   "ticker": "AMAT",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T20:05:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?"
+    },
+    {
+      "published_utc": "2026-11-03T12:17:21+00:00",
+      "publisher": "Yahoo",
+      "title": "What Does Applied Materials Stock's Winning Streak Really Prove?"
+    },
+    {
+      "published_utc": "2026-11-03T02:10:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?"
+    },
     {
       "published_utc": "2026-11-02T21:45:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-30T12:00:04+00:00",
       "publisher": "Yahoo",
       "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know"
-    },
-    {
-      "published_utc": "2026-10-30T07:11:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Materials vs. Taiwan Semiconductor Manufacturing: Comparing Revenue Growth Trends Between These Artificial Intelligence Companies"
-    },
-    {
-      "published_utc": "2026-10-30T05:58:09+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Applied Materials: A 51% Growth Quarter At 23x Forward Earnings"
-    },
-    {
-      "published_utc": "2026-10-29T13:21:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Applied Materials Still The Company You Bought?"
     }
   ]
 }

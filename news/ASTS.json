@@ -1,9 +1,19 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T03:30:48+00:00",
+      "publisher": "Yahoo",
+      "title": "ASTS Stock Climbs From 16-Month Low: Boost Mobile Founder Urges AST To ‘Pivot FAST’ As SpaceX Eyes Bigger Wireless Push"
+    },
+    {
+      "published_utc": "2026-11-03T03:03:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Did ASTS, CRWV, RGTI Stocks Tumble To 52-Week Lows Today?"
+    },
     {
       "published_utc": "2026-11-02T20:48:05+00:00",
       "publisher": "Yahoo",
@@ -30,6 +40,11 @@
       "title": "Will AST SpaceMobile, Inc. (ASTS) Report Negative Earnings Next Week? What You Should Know"
     },
     {
+      "published_utc": "2026-11-02T13:01:49+00:00",
+      "publisher": "Benzinga",
+      "title": "AT&T And AST SpaceMobile Achieve Seamless Handoff Between Ground-Based Cellular And Direct-To-Device Satellite Networks"
+    },
+    {
       "published_utc": "2026-11-02T04:57:11+00:00",
       "publisher": "Yahoo",
       "title": "ASTS Stock Jumps Overnight: Vanguard, Rakuten Unit Boost Holdings — Why Are Retail Traders Still Bearish?"
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-30T01:34:25+00:00",
       "publisher": "Yahoo",
       "title": "SPCX, ASTS, RKLB Slide Overnight: Amazon Reaffirms 2026 Satellite Service Debut — Retail Weighs Competitive Threat"
-    },
-    {
-      "published_utc": "2026-10-29T23:54:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Nasdaq 100 Futures Dip On Weak Intel, Amazon Earnings With Bloated Capex Worries Weighing On Sentiment —  AMZN, INTC, SBUX, PLTR, ASTS In Focus"
-    },
-    {
-      "published_utc": "2026-10-29T21:08:25+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile (ASTS) Secures Brazil Spectrum Authorizations And Four Operator Agreements"
-    },
-    {
-      "published_utc": "2026-10-29T19:39:07+00:00",
-      "publisher": "Yahoo",
-      "title": "ASTS Stock Gains On FCC Plan To Expand Direct-To-Phone Spectrum"
     }
   ]
 }

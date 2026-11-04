@@ -1,9 +1,24 @@
 {
   "ticker": "WDC",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T18:57:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Western Digital’s (WDC) Massive Quarter Is Only the Beginning (ready)"
+    },
+    {
+      "published_utc": "2026-11-03T02:47:20+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Ignore The Noise And Buy Western Digital"
+    },
+    {
+      "published_utc": "2026-11-02T19:56:57+00:00",
+      "publisher": "CNBC",
+      "title": "Lightning Round: I like Micron more than Western Digital, says Jim Cramer"
+    },
     {
       "published_utc": "2026-11-02T18:53:55+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-29T22:36:08+00:00",
       "publisher": "Yahoo",
       "title": "Seagate vs. Western Digital: Which AI Storage Stock Wins?"
-    },
-    {
-      "published_utc": "2026-10-29T19:09:32+00:00",
-      "publisher": "Yahoo",
-      "title": "Sandisk and Micron Slide 5% as Samsung Miss Cools Memory Rally Ahead of Sandisk Earnings; SK Hynix Falls 3%, Western Digital Dips"
-    },
-    {
-      "published_utc": "2026-10-29T18:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Western Digital vs. Seagate: Best AI Stock to Buy After Earnings"
-    },
-    {
-      "published_utc": "2026-10-29T11:44:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Western Digital Stock Tripled: What Changed And What Did Not?"
     }
   ]
 }

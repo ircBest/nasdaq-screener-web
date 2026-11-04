@@ -1,9 +1,19 @@
 {
   "ticker": "DBX",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T17:47:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Dropbox files new WARN as it cuts 9% of workforce"
+    },
+    {
+      "published_utc": "2026-11-03T09:51:33+00:00",
+      "publisher": "Benzinga",
+      "title": "Stephens & Co. Initiates Coverage On Dropbox with Equal-Weight Rating, Announces Price Target of $39"
+    },
     {
       "published_utc": "2026-10-28T18:58:05+00:00",
       "publisher": "Yahoo",

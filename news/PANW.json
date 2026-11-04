@@ -1,9 +1,29 @@
 {
   "ticker": "PANW",
-  "generated_at": "2026-11-03T11:08:39+00:00",
+  "generated_at": "2026-11-04T11:12:54+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T17:20:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Intuit vs. Palo Alto Networks: Which Technology Stock Is a Better Buy in 2027?"
+    },
+    {
+      "published_utc": "2026-11-03T13:36:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Palo Alto Networks Surges 92% YTD: Time to Hold or Fold the Stock?"
+    },
+    {
+      "published_utc": "2026-11-03T13:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Palo Alto Networks to Announce Fiscal First Quarter 2027 Financial Results on Wednesday, November 18, 2026"
+    },
+    {
+      "published_utc": "2026-11-03T13:15:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Palo Alto Networks vs. Atlassian: Which Tech Stock Is a Better Buy for 2027?"
+    },
     {
       "published_utc": "2026-11-02T21:45:01+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-10-30T09:49:00+00:00",
       "publisher": "Yahoo",
       "title": "Zacks Investment Ideas feature highlights: Fortinet, Palo Alto Networks and CrowdStrike"
-    },
-    {
-      "published_utc": "2026-10-29T02:13:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto Networks (PANW) Stock May Be Fully Priced After Its 379% Run"
-    },
-    {
-      "published_utc": "2026-10-29T01:59:54+00:00",
-      "publisher": "Yahoo",
-      "title": "ServiceNow, Fortinet Results Dent SaaS Sentiment: CRM, PANW, INTU, ADBE Slide In Sympathy"
-    },
-    {
-      "published_utc": "2026-10-29T01:27:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Oracle vs. Palo Alto Networks: Which Tech Stock Is the Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-10-28T12:40:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Palo Alto Networks' Quarterly Earnings Preview: What You Need to Know"
     }
   ]
 }
