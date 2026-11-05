@@ -1,13 +1,38 @@
 {
   "ticker": "KLAC",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-04T20:50:05+00:00",
+      "publisher": "Yahoo",
+      "title": "S&P upgrades KLA to ’A’ as AI chip demand bolsters scale and balance sheet"
+    },
+    {
+      "published_utc": "2026-11-04T17:21:00+00:00",
+      "publisher": "Yahoo",
+      "title": "KLAC Q1 Earnings Call Highlights AI Demand and 2027 Growth Outlook"
+    },
+    {
+      "published_utc": "2026-11-04T11:06:53+00:00",
+      "publisher": "Yahoo",
+      "title": "What Could Derail KLA Stock?"
+    },
+    {
+      "published_utc": "2026-11-04T07:24:00+00:00",
+      "publisher": "Yahoo",
+      "title": "The Zacks Analyst Blog Highlights Lilly, Cisco, KLA, Oil-Dri Corp. of America and NVE"
+    },
+    {
       "published_utc": "2026-11-03T20:12:00+00:00",
       "publisher": "Yahoo",
       "title": "Top Analyst Reports for Eli Lilly, Cisco & KLA"
+    },
+    {
+      "published_utc": "2026-11-03T12:01:14+00:00",
+      "publisher": "Benzinga",
+      "title": "What Is Going On With KLA Stock on Tuesday?"
     },
     {
       "published_utc": "2026-11-03T07:17:36+00:00",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-02T08:35:13+00:00",
       "publisher": "Yahoo",
       "title": "Can KLA Stock Jump 40%?"
-    },
-    {
-      "published_utc": "2026-10-31T14:03:29+00:00",
-      "publisher": "Yahoo",
-      "title": "5 revealing analyst questions from KLA Corporation’s Q3 earnings call"
-    },
-    {
-      "published_utc": "2026-10-31T10:50:43+00:00",
-      "publisher": "ChartMill",
-      "title": "KLA (NASDAQ:KLAC): A High-Quality Stock for Long-Term Compounding"
-    },
-    {
-      "published_utc": "2026-10-30T16:30:02+00:00",
-      "publisher": "Yahoo",
-      "title": "KLA (KLAC) Q1 Earnings: How Key Metrics Compare to Wall Street Estimates"
-    },
-    {
-      "published_utc": "2026-10-30T13:29:52+00:00",
-      "publisher": "Benzinga",
-      "title": "KLA Sees AI Demand Driving Growth as Semiconductor Shares Weaken"
-    },
-    {
-      "published_utc": "2026-10-30T12:54:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Advanced Packaging Demand Drive KLAC's Next Growth Phase?"
     }
   ]
 }

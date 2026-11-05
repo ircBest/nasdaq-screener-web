@@ -1,9 +1,24 @@
 {
   "ticker": "VECO",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T22:07:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Veeco: Q3 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-11-04T21:02:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Veeco Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-11-03T16:11:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Veeco Instruments’ (VECO) Business Outlook Strengthens Despite a Sharp Share-Price Reversal"
+    },
     {
       "published_utc": "2026-11-02T13:00:00+00:00",
       "publisher": "Yahoo",
@@ -13,11 +28,6 @@
       "published_utc": "2026-10-31T17:13:11+00:00",
       "publisher": "Yahoo",
       "title": "What Veeco Instruments Buyers Were Betting On"
-    },
-    {
-      "published_utc": "2026-10-21T12:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Veeco Announces Date for Third Quarter 2026 Financial Results and Conference Call"
     }
   ]
 }

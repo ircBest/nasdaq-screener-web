@@ -1,13 +1,28 @@
 {
   "ticker": "AMAT",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-04T11:04:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Capital Group Dividend Value (CGDV) Buys $146.3 Million More AMAT on Nov. 2"
+    },
+    {
+      "published_utc": "2026-11-04T11:01:35+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Bought $237.0 Million of Applied Materials (AMAT) on Nov. 2"
+    },
+    {
       "published_utc": "2026-11-03T20:05:44+00:00",
       "publisher": "Yahoo",
       "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?"
+    },
+    {
+      "published_utc": "2026-11-03T13:19:02+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Equal-Weight on Applied Materials, Lowers Price Target to $538"
     },
     {
       "published_utc": "2026-11-03T12:17:21+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-31T15:13:45+00:00",
       "publisher": "Yahoo",
       "title": "What Applied Materials Holders Got Right"
-    },
-    {
-      "published_utc": "2026-10-30T23:00:03+00:00",
-      "publisher": "Yahoo",
-      "title": "ASML vs. Applied Materials: One Is Growing Twice as Fast, but I’d Buy The Other Instead"
-    },
-    {
-      "published_utc": "2026-10-30T13:23:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Materials Is Up Nearly 9% Since Moving to Lift Its Besi Stake to 20%. Here’s What Hybrid Bonding Could Mean for the Stock by 2030"
-    },
-    {
-      "published_utc": "2026-10-30T12:00:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know"
     }
   ]
 }

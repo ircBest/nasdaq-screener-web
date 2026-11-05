@@ -1,48 +1,68 @@
 {
   "ticker": "SRAD",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T10:13:36+00:00",
+      "publisher": "Benzinga",
+      "title": "StoneX Maintains Buy on Sportradar Gr, Raises Price Target to $16"
+    },
+    {
+      "published_utc": "2026-11-04T09:55:14+00:00",
+      "publisher": "Benzinga",
+      "title": "Citizens Maintains Market Outperform on Sportradar Gr, Lowers Price Target to $19"
+    },
+    {
+      "published_utc": "2026-11-04T08:47:08+00:00",
+      "publisher": "Benzinga",
+      "title": "Needham Maintains Buy on Sportradar Gr, Raises Price Target to $20"
+    },
+    {
+      "published_utc": "2026-11-04T04:34:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Sportradar: 3 Key Takeaways for Long-Term Investors"
+    },
+    {
+      "published_utc": "2026-11-03T20:40:22+00:00",
+      "publisher": "Yahoo",
+      "title": "Sportradar (SRAD) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-03T19:14:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Sportradar Group Q3 Earnings Call Highlights"
+    },
+    {
+      "published_utc": "2026-11-03T18:17:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Sportradar Group AG Q3 2026 Earnings Call Summary"
+    },
     {
       "published_utc": "2026-11-03T16:45:56+00:00",
       "publisher": "SeekingAlpha",
       "title": "Sportradar Group AG (SRAD) Q3 2026 Earnings Call Transcript"
     },
     {
+      "published_utc": "2026-11-03T12:40:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Sportradar Group AG (SRAD) Q3 Earnings and Revenues Top Estimates"
+    },
+    {
+      "published_utc": "2026-11-03T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Sportradar Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-11-03T10:35:09+00:00",
+      "publisher": "Benzinga",
+      "title": "Sportradar Gr Q3 2026 Earnings Call Transcript"
+    },
+    {
       "published_utc": "2026-11-03T08:04:44+00:00",
       "publisher": "Benzinga",
       "title": "Sportradar Gr Sees Revenue Growth of 19%-21% on a Constant Currency Basis; Expects Revenue of €1.518B-€1.533B at Current FX Rates"
-    },
-    {
-      "published_utc": "2026-11-03T08:02:36+00:00",
-      "publisher": "Benzinga",
-      "title": "Sportradar Gr Q3 EPS $0.10 Beats $0.09 Estimate, Sales $417.213M Beat $403.900M Estimate"
-    },
-    {
-      "published_utc": "2026-11-02T22:12:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Sportradar (SRAD) Stock Looks Rich Against Its Sales Base"
-    },
-    {
-      "published_utc": "2026-10-27T13:00:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Sportradar Group AG (SRAD) Earnings Expected to Grow: What to Know Ahead of Next Week's Release"
-    },
-    {
-      "published_utc": "2026-10-26T12:48:05+00:00",
-      "publisher": "Benzinga",
-      "title": "Stifel Maintains Buy on Sportradar Gr, Lowers Price Target to $17"
-    },
-    {
-      "published_utc": "2026-10-23T14:20:14+00:00",
-      "publisher": "Benzinga",
-      "title": "Canaccord Genuity Maintains Buy on Sportradar Gr, Lowers Price Target to $22"
-    },
-    {
-      "published_utc": "2026-10-22T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Sportradar to Release Third Quarter 2026 Financial and Operating Results on November 3, 2026"
     }
   ]
 }

@@ -1,9 +1,34 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T22:47:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase gets downgraded for a breach that happened elsewhere"
+    },
+    {
+      "published_utc": "2026-11-04T20:46:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Says 99% of Customer Crypto Is Offline and Out of Hackers’ Reach"
+    },
+    {
+      "published_utc": "2026-11-04T14:32:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Second Circuit Won’t Pause New York, Connecticut Actions Against Kalshi and Coinbase"
+    },
+    {
+      "published_utc": "2026-11-04T13:03:31+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Stock Could Be Getting Ready for Its Next Big Move"
+    },
+    {
+      "published_utc": "2026-11-04T10:12:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Coinbase Stock Fall Another 40%?"
+    },
     {
       "published_utc": "2026-11-03T17:40:05+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-03T14:37:55+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase Has Lost 57% in a Year. Keefe, Bruyette & Woods Still Sees $221"
-    },
-    {
-      "published_utc": "2026-11-03T13:29:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cathie Wood’s ARK Adds Coinbase, Circle and Robinhood, Trims Bullish, After Crypto Stock Slide"
-    },
-    {
-      "published_utc": "2026-11-03T13:12:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is Coinbase Global (COIN) Spending $200 Million On The 2026 Midterms?"
-    },
-    {
-      "published_utc": "2026-11-03T09:15:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Says New Jersey Users Can Resume Staking as Regulator Rescinds 2023 Cease-and-Desist Order"
-    },
-    {
-      "published_utc": "2026-11-03T08:34:03+00:00",
-      "publisher": "Benzinga",
-      "title": "Keefe, Bruyette & Woods Maintains Outperform on Coinbase Global, Lowers Price Target to $221"
-    },
-    {
-      "published_utc": "2026-11-03T04:30:39+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Circle: Coinbase Confirmed Where Hyperliquid's Yield Went"
     }
   ]
 }

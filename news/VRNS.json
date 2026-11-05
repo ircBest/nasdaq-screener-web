@@ -1,9 +1,44 @@
 {
   "ticker": "VRNS",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T07:56:32+00:00",
+      "publisher": "Benzinga",
+      "title": "Cantor Fitzgerald Maintains Overweight on Varonis Systems, Lowers Price Target to $49.75"
+    },
+    {
+      "published_utc": "2026-11-03T22:30:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Varonis (VRNS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates"
+    },
+    {
+      "published_utc": "2026-11-03T22:16:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Varonis Systems (NASDAQ:VRNS) beats Q3 2026 sales expectations"
+    },
+    {
+      "published_utc": "2026-11-03T21:50:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Varonis Systems (VRNS) Q3 Earnings and Revenues Surpass Estimates"
+    },
+    {
+      "published_utc": "2026-11-03T21:47:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Varonis: Q3 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-11-03T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Varonis Announces Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-11-03T17:08:48+00:00",
+      "publisher": "Benzinga",
+      "title": "Varonis Systems Q3 Adj. EPS $0.09 Beats $0.03 Estimate, Sales $181.461M Miss $186.879M Estimate"
+    },
     {
       "published_utc": "2026-11-02T15:31:39+00:00",
       "publisher": "Yahoo",

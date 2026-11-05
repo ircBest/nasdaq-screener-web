@@ -1,9 +1,34 @@
 {
   "ticker": "RPD",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T23:52:54+00:00",
+      "publisher": "ChartMill",
+      "title": "Rapid7 (NASDAQ:RPD) Profit Beat Fuels Relief Rally as Revenue Growth Remains Elusive"
+    },
+    {
+      "published_utc": "2026-11-04T22:36:17+00:00",
+      "publisher": "Yahoo",
+      "title": "Rapid7: Q3 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-11-04T21:20:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Rapid7 (NASDAQ:RPD) surprises with Q3 2026 sales, stock jumps 17%"
+    },
+    {
+      "published_utc": "2026-11-04T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Rapid7 Announces Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-11-04T18:44:36+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Rapid7, Inc. (RPD) Q3 2026 Earnings Call Transcript"
+    },
     {
       "published_utc": "2026-10-26T22:16:18+00:00",
       "publisher": "Yahoo",
@@ -13,16 +38,6 @@
       "published_utc": "2026-10-24T05:20:29+00:00",
       "publisher": "Yahoo",
       "title": "Rapid7 (RPD) Stock Could Be 50% Undervalued After AI Security News"
-    },
-    {
-      "published_utc": "2026-10-21T20:38:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Rapid7, CrowdStrike, Cloudflare, Okta, and JFrog shares skyrocket, what you need to know"
-    },
-    {
-      "published_utc": "2026-10-21T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Rapid7 Report: Human Operators Still Drive Most of Tracked Cyberattacks, but Exploitation Windows Are Narrow"
     }
   ]
 }

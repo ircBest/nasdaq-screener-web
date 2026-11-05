@@ -1,9 +1,29 @@
 {
   "ticker": "TSEM",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T20:42:20+00:00",
+      "publisher": "Yahoo",
+      "title": "Tower Semiconductor Sinks 14% in a Week Despite “The Strongest Growth Phase in Our History”"
+    },
+    {
+      "published_utc": "2026-11-03T18:13:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Tower Semiconductor and Innolight Advance High-Performance Near-Package Optics for AI Infrastructure"
+    },
+    {
+      "published_utc": "2026-11-03T12:10:45+00:00",
+      "publisher": "Benzinga",
+      "title": "Wedbush Maintains Neutral on Tower Semiconductor, Lowers Price Target to $190"
+    },
+    {
+      "published_utc": "2026-11-03T10:14:23+00:00",
+      "publisher": "Benzinga",
+      "title": "Susquehanna Maintains Positive on Tower Semiconductor, Lowers Price Target to $305"
+    },
     {
       "published_utc": "2026-11-03T09:07:33+00:00",
       "publisher": "Benzinga",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-02T13:40:24+00:00",
       "publisher": "Yahoo",
       "title": "Tower Semiconductor Shares Rise 4.5% as Q4 Revenue Forecast Exceeds Expectations"
-    },
-    {
-      "published_utc": "2026-11-02T13:01:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Tower Semiconductor rises on strong Q4 revenue guidance"
-    },
-    {
-      "published_utc": "2026-11-02T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "TSEM: Tower Semiconductor is Ahead of Schedule on Capacity Expansion"
-    },
-    {
-      "published_utc": "2026-11-02T12:29:58+00:00",
-      "publisher": "Benzinga",
-      "title": "Tower Semiconductor Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-02T12:10:45+00:00",
-      "publisher": "Yahoo",
-      "title": "Tower Semiconductor: Q3 Earnings Snapshot"
     }
   ]
 }

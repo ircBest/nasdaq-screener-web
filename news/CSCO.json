@@ -1,9 +1,29 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T15:10:33+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Systems Stock Outlook: Is Wall Street Bullish or Bearish?"
+    },
+    {
+      "published_utc": "2026-11-04T14:48:00+00:00",
+      "publisher": "Yahoo",
+      "title": "All in One Infrastructure - Global Strategic Business Report 2026-2032: Capitalize on a $32.5 Billion Market Led by AWS, Cisco, Dell, HPE, and Huawei"
+    },
+    {
+      "published_utc": "2026-11-04T09:43:06+00:00",
+      "publisher": "Yahoo",
+      "title": "How Low Can Cisco Stock Go?"
+    },
+    {
+      "published_utc": "2026-11-04T07:24:00+00:00",
+      "publisher": "Yahoo",
+      "title": "The Zacks Analyst Blog Highlights Lilly, Cisco, KLA, Oil-Dri Corp. of America and NVE"
+    },
     {
       "published_utc": "2026-11-03T21:14:00+00:00",
       "publisher": "Yahoo",
@@ -25,6 +45,11 @@
       "title": "Cisco AI backlog and core demand underpin Bank of America’s bullish outlook"
     },
     {
+      "published_utc": "2026-11-03T16:11:09+00:00",
+      "publisher": "Benzinga",
+      "title": "Cisco Partners With OpenAI To Integrate Frontier AI Reasoning Into Networking And Security Infrastructure, Strengthening Enterprise Cybersecurity And Threat Detection"
+    },
+    {
       "published_utc": "2026-11-03T14:00:00+00:00",
       "publisher": "Yahoo",
       "title": "LOGICALIS BECOMES FIRST CISCO GLOBAL PARTNER TO ACHIEVE SECURE NETWORKING SPECIALISATION ACROSS FIVE COUNTRIES"
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-02T14:48:00+00:00",
       "publisher": "Yahoo",
       "title": "Small and Medium-Sized Businesses (SMBs) IT Spending Market Report 2026 | Capture $1.10T by 2030 as Microsoft, Amazon, Google, Dell, and Cisco Scale Cloud and Cybersecurity"
-    },
-    {
-      "published_utc": "2026-11-02T14:45:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Global Intelligent Edge Computing Module Market Report 2026 | NVIDIA, Dell, Siemens, Cisco and Intel Capitalize on Edge AI as Market Hits $12.35 Billion by 2030"
-    },
-    {
-      "published_utc": "2026-11-02T14:44:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Global Enterprise Information Technology (IT) Management Tools Market 2026 | Capitalize on AI and Cloud Growth to $88.59B by 2030 with ServiceNow, Atlassian, Cisco and Datadog"
-    },
-    {
-      "published_utc": "2026-11-02T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Former Microsoft and Cisco Security Executive Edna Conway Joins Known Advisory Council"
-    },
-    {
-      "published_utc": "2026-11-02T11:03:15+00:00",
-      "publisher": "Yahoo",
-      "title": "ETFs Are Net Sellers of Cisco (CSCO) on Oct. 29"
-    },
-    {
-      "published_utc": "2026-11-02T08:35:16+00:00",
-      "publisher": "Yahoo",
-      "title": "The Dates That Matter Most For Cisco Stock"
     }
   ]
 }

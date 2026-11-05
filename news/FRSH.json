@@ -1,43 +1,68 @@
 {
   "ticker": "FRSH",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T16:17:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Freshworks (FRSH) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-04T07:51:09+00:00",
+      "publisher": "Benzinga",
+      "title": "Cantor Fitzgerald Maintains Overweight on Freshworks, Raises Price Target to $20"
+    },
+    {
+      "published_utc": "2026-11-04T05:12:26+00:00",
+      "publisher": "Benzinga",
+      "title": "Piper Sandler Maintains Neutral on Freshworks, Raises Price Target to $15"
+    },
+    {
+      "published_utc": "2026-11-04T05:09:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Freshworks Inc (FRSH) Q3 2026 Earnings Call Highlights: Total ARR Tops $1 Billion as Margins ..."
+    },
+    {
+      "published_utc": "2026-11-04T01:14:10+00:00",
+      "publisher": "Yahoo",
+      "title": "What Freshworks (FRSH) Said on Its Q3 Earnings Call"
+    },
+    {
+      "published_utc": "2026-11-03T23:55:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Freshworks Inc. (FRSH) Beats Q3 Earnings and Revenue Estimates"
+    },
     {
       "published_utc": "2026-11-03T23:27:30+00:00",
       "publisher": "ChartMill",
       "title": "Freshworks (NASDAQ:FRSH) Slides as Soft Q4 Guidance Overshadows Q3 Earnings Beat"
     },
     {
-      "published_utc": "2026-11-02T11:33:36+00:00",
+      "published_utc": "2026-11-03T21:30:25+00:00",
       "publisher": "Yahoo",
-      "title": "Freshworks (FRSH) reports Q3: everything you need to know ahead of earnings"
+      "title": "Freshworks (NASDAQ:FRSH) posts Q3 2026 sales in line with estimates but stock drops"
     },
     {
-      "published_utc": "2026-10-28T10:50:44+00:00",
+      "published_utc": "2026-11-03T21:10:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Freshworks Reports Record Third Quarter 2026 Results"
+    },
+    {
+      "published_utc": "2026-11-03T20:45:58+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Freshworks Inc. (FRSH) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-03T19:10:52+00:00",
       "publisher": "Benzinga",
-      "title": "Wells Fargo Maintains Equal-Weight on Freshworks, Raises Price Target to $15"
+      "title": "Freshworks Q3 2026 Earnings Call Transcript"
     },
     {
-      "published_utc": "2026-10-26T21:58:47+00:00",
-      "publisher": "Yahoo",
-      "title": "2 Reasons to like FRSH (and 1 not so much)"
-    },
-    {
-      "published_utc": "2026-10-26T16:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Freshworks and Carahsoft Announce Freshworks’ Achievement of FedRAMP® In-Process Authorization for Its AI-Powered Unified Service Operations Platform, Freshservice"
-    },
-    {
-      "published_utc": "2026-10-26T12:40:13+00:00",
+      "published_utc": "2026-11-03T17:18:57+00:00",
       "publisher": "Benzinga",
-      "title": "Freshworks Achieves FedRAMP In-Process Status For Class A Certification For Its Freshservice Platform"
-    },
-    {
-      "published_utc": "2026-10-24T22:08:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Freshworks (FRSH) Stock May Be Overvalued Following AI Spend Governance Deal"
+      "title": "Freshworks Raises FY2026 Adj EPS Guidance from $0.66-$0.68 to $0.71 vs $0.67 Est; Narrows FY2026 Sales Guidance from $963.500M-$966.500M to $965.000M-$966.000M vs $965.037M Est"
     }
   ]
 }

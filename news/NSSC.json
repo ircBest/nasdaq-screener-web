@@ -1,9 +1,24 @@
 {
   "ticker": "NSSC",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T23:25:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Napco Security Technologies (NSSC) Q1 Results Turn On Recurring Revenue Strength"
+    },
+    {
+      "published_utc": "2026-11-03T16:25:27+00:00",
+      "publisher": "Benzinga",
+      "title": "Lake Street Maintains Buy on NAPCO Security Techs, Lowers Price Target to $46"
+    },
+    {
+      "published_utc": "2026-11-03T11:53:35+00:00",
+      "publisher": "Benzinga",
+      "title": "TD Cowen Maintains Buy on NAPCO Security Techs, Lowers Price Target to $45"
+    },
     {
       "published_utc": "2026-11-03T03:17:03+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-02T13:22:51+00:00",
       "publisher": "ChartMill",
       "title": "NAPCO Security Technologies (NASDAQ:NSSC) Stock Falls After Fiscal Q1 Revenue and EPS Miss"
-    },
-    {
-      "published_utc": "2026-11-02T13:20:50+00:00",
-      "publisher": "Yahoo",
-      "title": "NAPCO Security stock tumbles 20% after fiscal Q1 revenue miss"
-    },
-    {
-      "published_utc": "2026-11-02T12:11:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Napco (NASDAQ:NSSC) misses Q3 CY2026 revenue estimates, stock drops 15%"
-    },
-    {
-      "published_utc": "2026-11-02T12:06:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Napco: Fiscal Q1 Earnings Snapshot"
     }
   ]
 }

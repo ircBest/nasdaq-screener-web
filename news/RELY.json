@@ -1,9 +1,34 @@
 {
   "ticker": "RELY",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T21:38:34+00:00",
+      "publisher": "Yahoo",
+      "title": "Remitly (NASDAQ:RELY) posts Q3 2026 sales in line with estimates but stock drops"
+    },
+    {
+      "published_utc": "2026-11-04T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Remitly Reports Record Third Quarter Results and Raises Full Year 2026 Outlook"
+    },
+    {
+      "published_utc": "2026-11-04T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Remitly Global Card Expands Nationwide, Adds Ability to Send and Request Money Across the U.S."
+    },
+    {
+      "published_utc": "2026-11-04T10:12:42+00:00",
+      "publisher": "Benzinga",
+      "title": "Remitly Global Card Clients Have Now Access To Sending, Requesting Money Across U.S."
+    },
+    {
+      "published_utc": "2026-11-03T16:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Remitly Set to Report Q3 Earnings: What's in Store for the Stock?"
+    },
     {
       "published_utc": "2026-10-26T12:01:25+00:00",
       "publisher": "ChartMill",
@@ -13,11 +38,6 @@
       "published_utc": "2026-10-23T09:10:37+00:00",
       "publisher": "ChartMill",
       "title": "Remitly Global Inc (NASDAQ:RELY): Strong Growth Meets a High-Quality Technical Setup"
-    },
-    {
-      "published_utc": "2026-10-21T20:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Remitly to Report Third Quarter Financial Results on November 4, 2026"
     }
   ]
 }

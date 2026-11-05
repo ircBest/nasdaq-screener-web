@@ -1,9 +1,14 @@
 {
   "ticker": "BRZE",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-03T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Braze To Report Fiscal Third Quarter 2027 Results"
+    },
     {
       "published_utc": "2026-10-29T18:13:54+00:00",
       "publisher": "Yahoo",
@@ -38,26 +43,6 @@
       "published_utc": "2026-10-22T16:16:51+00:00",
       "publisher": "Yahoo",
       "title": "Braze (BRZE) Stock Still Looks Undervalued Following Its 80% Run"
-    },
-    {
-      "published_utc": "2026-10-22T08:15:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Braze (BRZE) Stock Sees Fair Value Lift After Salesforce Deal Set A Ceiling"
-    },
-    {
-      "published_utc": "2026-10-21T19:20:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Salesforce’s Braze deal wins UBS backing on strategy, but growth concerns remain"
-    },
-    {
-      "published_utc": "2026-10-21T15:28:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Did Braze Stock Jump?"
-    },
-    {
-      "published_utc": "2026-10-21T11:44:06+00:00",
-      "publisher": "Benzinga",
-      "title": "Stephens & Co. Downgrades Braze to Equal-Weight, Raises Price Target to $47.5"
     }
   ]
 }

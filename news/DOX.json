@@ -1,13 +1,68 @@
 {
   "ticker": "DOX",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
-      "published_utc": "2026-11-02T03:09:36+00:00",
+      "published_utc": "2026-11-04T09:02:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Amdocs Posts Downbeat Q4 Earnings, Joins Skyworks Solutions, Tesla And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session"
+    },
+    {
+      "published_utc": "2026-11-04T07:53:07+00:00",
+      "publisher": "Benzinga",
+      "title": "Stifel Maintains Buy on Amdocs, Lowers Price Target to $46"
+    },
+    {
+      "published_utc": "2026-11-04T06:39:39+00:00",
+      "publisher": "Benzinga",
+      "title": "Amdocs CEO Refuses to Detail T-Mobile Revenue Exposure As Dispute Rocks Outlook"
+    },
+    {
+      "published_utc": "2026-11-04T05:50:31+00:00",
+      "publisher": "Benzinga",
+      "title": "Oppenheimer Downgrades Amdocs to Perform"
+    },
+    {
+      "published_utc": "2026-11-04T00:14:03+00:00",
       "publisher": "Yahoo",
-      "title": "Amdocs (DOX) reports Q3: everything you need to know ahead of earnings"
+      "title": "What Amdocs (DOX) Said on Its Q4 Earnings Call"
+    },
+    {
+      "published_utc": "2026-11-03T23:55:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Amdocs (DOX) Meets Q4 Earnings Estimates"
+    },
+    {
+      "published_utc": "2026-11-03T22:50:41+00:00",
+      "publisher": "Yahoo",
+      "title": "Amdocs: Fiscal Q4 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-11-03T22:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "AT&T and Amdocs Expand Collaboration, Bringing Together Amdocs aOS and AT&T's AI-Enabled Framework to Simplify Operations and Improve Customer Experiences"
+    },
+    {
+      "published_utc": "2026-11-03T22:23:40+00:00",
+      "publisher": "Yahoo",
+      "title": "Amdocs (NASDAQ:DOX) posts Q3 CY2026 sales in line with estimates but stock drops 40.3%"
+    },
+    {
+      "published_utc": "2026-11-03T21:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Amdocs Limited Reports Fourth Quarter Fiscal 2026 Results & Full Year Fiscal 2026 Results"
+    },
+    {
+      "published_utc": "2026-11-03T21:25:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Globe Takes Major Step Toward AI-Driven Services with Amdocs Data Modernization Program"
+    },
+    {
+      "published_utc": "2026-11-03T21:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Magyar Telekom Selects Amdocs to Deliver Billing Transformation and Catalog Modernization"
     }
   ]
 }

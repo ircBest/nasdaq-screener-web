@@ -1,9 +1,39 @@
 {
   "ticker": "SEDG",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T14:04:37+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "SolarEdge Technologies, Inc. (SEDG) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-04T13:45:07+00:00",
+      "publisher": "ChartMill",
+      "title": "SolarEdge Technologies (NASDAQ:SEDG) Slides on Weak Q4 Guidance Despite EPS Beat"
+    },
+    {
+      "published_utc": "2026-11-04T10:09:18+00:00",
+      "publisher": "Benzinga",
+      "title": "SolarEdge Technologies Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-04T07:56:21+00:00",
+      "publisher": "Benzinga",
+      "title": "SolarEdge Technologies Sees Q4 Sales $245.000M-$275.000M vs $315.971M Est"
+    },
+    {
+      "published_utc": "2026-11-04T07:56:04+00:00",
+      "publisher": "Benzinga",
+      "title": "SolarEdge Technologies Q3 Adj. EPS $0.29 Beats $0.04 Estimate, Sales $326.076M Miss $326.597M Estimate"
+    },
+    {
+      "published_utc": "2026-11-03T18:50:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Enphase Surges 9%, Sunrun Climbs 7%, SolarEdge Rallies 6% as Solar Rebound Extends Into Earnings"
+    },
     {
       "published_utc": "2026-11-02T14:34:00+00:00",
       "publisher": "Yahoo",
@@ -33,21 +63,6 @@
       "published_utc": "2026-10-26T13:55:00+00:00",
       "publisher": "Yahoo",
       "title": "Are Options Traders Betting on a Big Move in SolarEdge Technologies Stock?"
-    },
-    {
-      "published_utc": "2026-10-22T08:19:30+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Is SolarEdge Technologies (SEDG) Turning To A New North America Leader?"
-    },
-    {
-      "published_utc": "2026-10-21T21:15:03+00:00",
-      "publisher": "Yahoo",
-      "title": "SolarEdge Technologies (SEDG) Rises Higher Than Market: Key Facts"
-    },
-    {
-      "published_utc": "2026-10-21T13:33:50+00:00",
-      "publisher": "Benzinga",
-      "title": "BMO Capital Maintains Underperform on SolarEdge Technologies, Lowers Price Target to $28"
     }
   ]
 }

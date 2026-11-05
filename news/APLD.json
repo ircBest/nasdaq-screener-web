@@ -1,9 +1,24 @@
 {
   "ticker": "APLD",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T07:36:18+00:00",
+      "publisher": "Benzinga",
+      "title": "CRWV, APLD, IREN Stocks Slip as Brad Gerstner Warns Democratic Midterm Gains Could Put 10–15 GW of AI Data Center Capacity at Risk"
+    },
+    {
+      "published_utc": "2026-11-03T17:53:59+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Digital Surges 9% as AI Data Center Stocks Rebound From Financing Jitters; IREN Jumps 9%, Nebius Climbs 7%"
+    },
+    {
+      "published_utc": "2026-11-03T14:38:25+00:00",
+      "publisher": "Benzinga",
+      "title": "Applied Digital Stock Jumps: What's Going On?"
+    },
     {
       "published_utc": "2026-11-02T22:12:08+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-28T23:11:54+00:00",
       "publisher": "Yahoo",
       "title": "Applied Digital (APLD) Shares Climbed, What Is Behind The Latest Attention?"
-    },
-    {
-      "published_utc": "2026-10-28T17:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Digital Insiders Just Bought More Shares. Should You Join Them?"
-    },
-    {
-      "published_utc": "2026-10-28T09:26:08+00:00",
-      "publisher": "Yahoo",
-      "title": "How Did Applied Digital Stock Leave Its Industry Behind?"
-    },
-    {
-      "published_utc": "2026-10-27T18:02:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Digital Jumps 10% as Data Center Stocks Rebound; Riot Climbs 7%, Core Scientific Gains 4%"
     }
   ]
 }

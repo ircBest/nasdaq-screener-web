@@ -1,9 +1,34 @@
 {
   "ticker": "ON",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T12:13:10+00:00",
+      "publisher": "Yahoo",
+      "title": "ON Semiconductor Stock Outlook: Is Wall Street Bullish or Bearish?"
+    },
+    {
+      "published_utc": "2026-11-04T11:25:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "ON Semiconductor Q3 Earnings: A Potential 12.7% FCF Yield If Management Delivers"
+    },
+    {
+      "published_utc": "2026-11-04T10:12:42+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "ON Semiconductor: AI-Driven Content Growth And Marquee Cloud Customers - Dip Buying Opportunity"
+    },
+    {
+      "published_utc": "2026-11-04T05:03:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Onsemi delays auto restocking as AI sales jump 175%"
+    },
+    {
+      "published_utc": "2026-11-04T01:33:05+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "ON Semiconductor Corporation 2026 Q3 - Results - Earnings Call Presentation"
+    },
     {
       "published_utc": "2026-11-03T19:50:20+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-03T13:30:03+00:00",
       "publisher": "Yahoo",
       "title": "Compared to Estimates, ON Semiconductor Corp. (ON) Q3 Earnings: A Look at Key Metrics"
-    },
-    {
-      "published_utc": "2026-11-03T11:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple, Palantir, AMD, Sandisk, Onsemi, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "published_utc": "2026-11-03T08:47:09+00:00",
-      "publisher": "Benzinga",
-      "title": "Rosenblatt Maintains Neutral on ON Semiconductor, Lowers Price Target to $80"
-    },
-    {
-      "published_utc": "2026-11-03T08:28:34+00:00",
-      "publisher": "Benzinga",
-      "title": "Why Is ON Semiconductor Stock Gaining Tuesday?"
-    },
-    {
-      "published_utc": "2026-11-03T08:18:27+00:00",
-      "publisher": "Benzinga",
-      "title": "Needham Reiterates Buy on ON Semiconductor, Maintains $116 Price Target"
-    },
-    {
-      "published_utc": "2026-11-03T07:36:37+00:00",
-      "publisher": "Benzinga",
-      "title": "Cantor Fitzgerald Reiterates Neutral on ON Semiconductor, Maintains $90 Price Target"
     }
   ]
 }

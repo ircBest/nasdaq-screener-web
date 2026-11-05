@@ -1,9 +1,19 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-11-04T11:12:54+00:00",
+  "generated_at": "2026-11-05T11:08:44+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-04T14:14:10+00:00",
+      "publisher": "Yahoo",
+      "title": "How Investors Are Reacting To CME Group (CME) Record Trading Volumes"
+    },
+    {
+      "published_utc": "2026-11-04T12:50:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CME vs. Nu: Which Financial Stock Is a Better Buy for 2027?"
+    },
     {
       "published_utc": "2026-11-03T13:25:02+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-27T15:00:05+00:00",
       "publisher": "Yahoo",
       "title": "CME (CME) Upgraded to Buy: Here's Why"
-    },
-    {
-      "published_utc": "2026-10-27T14:50:01+00:00",
-      "publisher": "Yahoo",
-      "title": "CME vs. Mastercard: Which Financial Stock Is a Better Buy in 2026?"
-    },
-    {
-      "published_utc": "2026-10-27T05:13:59+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Eyes European Dairy With New Futures And Options"
     }
   ]
 }
