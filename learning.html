@@ -3,60 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>학습 현황 · NASDAQ IT 스크리너</title>
+<title>연구 현황 · NASDAQ Research</title>
 <meta name="description" content="스크리너가 지금 무엇을 공부하고 있고, 무엇을 배웠고, 무엇이 아직 안 되는지.">
 <link rel="icon" href="icon.svg">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="css/style.css?v=20261107b">
+<link rel="stylesheet" href="css/terminal.css?v=20261107f">
 <style>
-/* 학습 현황 전용 */
-.q-card{background:var(--surface-2);border:1px solid var(--border);
-  border-radius:var(--radius);padding:18px 20px;margin-bottom:18px}
-.q-card .q{font-size:19px;font-weight:700;letter-spacing:-.02em;
-  margin-bottom:8px;text-wrap:balance}
-.q-card .s{display:inline-block;padding:3px 10px;border-radius:999px;
-  font-size:11px;font-weight:700;background:rgba(48,93,220,.15);
-  color:#305DDC;margin-bottom:10px}
-.q-card .d{color:var(--text-dim);font-size:13px;line-height:1.7}
-
-.bars{display:grid;gap:14px;margin-bottom:6px}
-.bar-row .top{display:flex;justify-content:space-between;
-  align-items:baseline;margin-bottom:6px;gap:10px}
-.bar-row .lab{font-size:13px;color:var(--text-dim)}
-.bar-row .num{font-size:14px;font-weight:700;letter-spacing:-.01em}
-.track{height:8px;border-radius:999px;background:var(--border);
-  overflow:hidden}
-.fill{height:100%;border-radius:999px;background:#305DDC;
-  min-width:2px;transition:width .4s ease}
-
-.learn-list{display:grid;gap:12px}
-.learn-item{background:var(--surface-2);border:1px solid var(--border);
-  border-left:3px solid #168264;border-radius:var(--radius);
-  padding:14px 16px}
-.learn-item .w{font-weight:700;font-size:14px;margin-bottom:6px}
-.learn-item .why{color:var(--text-dim);font-size:13px;line-height:1.7;
-  margin-bottom:8px}
-.learn-item .res{font-size:12px;color:var(--text-faint)}
-.learn-item .res::before{content:"→ ";color:#168264}
-
-.ask-list{display:grid;gap:10px}
-.ask{background:var(--surface-2);border:1px solid var(--border);
-  border-left:3px solid #305DDC;border-radius:var(--radius);
-  padding:13px 16px}
-.ask.muted{border-left-color:var(--text-faint);opacity:.72}
-.ask .qq{font-weight:700;font-size:14px;margin-bottom:6px;
-  letter-spacing:-.01em;text-wrap:balance}
-.ask .aa{color:var(--text-dim);font-size:13px;line-height:1.7}
-.ask .nn{margin-top:6px;font-size:11px;color:var(--text-faint)}
-.bar-row .nn{margin-top:6px;font-size:11px;color:var(--text-faint)}
-
-.gap-list{display:grid;gap:9px}
-.gap-item{background:var(--surface-2);border:1px solid var(--border);
-  border-left:3px solid #A96C15;border-radius:var(--radius);
-  padding:12px 15px;font-size:13px;color:var(--text-dim);line-height:1.6}
+/* 연구 현황 전용 — 공통 모양은 css/terminal.css */
+.jump { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.jump a { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 12px;
+  border: 1px solid var(--border); border-radius: 17px; background: var(--bg);
+  color: var(--text-dim); text-decoration: none; font-size: 12.5px; font-weight: 600; }
+.jump a:hover { border-color: var(--brand); color: var(--brand); }
+.jump b { color: var(--text-faint); font-weight: 600; }
+.lr-top { display: grid; grid-template-columns: 1.1fr 1fr; gap: 12px; margin-bottom: 14px; }
+.lr-prog { padding: 16px 18px; }
+.lr-prog .big { display: flex; align-items: baseline; gap: 10px; }
+.lr-prog .big b { font-size: 34px; font-weight: 700; color: var(--brand); font-variant-numeric: tabular-nums; }
+.lr-prog .big span { font-size: 13px; color: var(--text-dim); }
+.bar-row { margin-top: 14px; }
+.bar-row .top { display: flex; justify-content: space-between; gap: 8px; font-size: 12.5px; }
+.bar-row .lab { color: var(--text-dim); font-weight: 600; }
+.bar-row .num { font-variant-numeric: tabular-nums; font-weight: 700; }
+.bar-row .track { height: 8px; margin-top: 6px; border-radius: 4px; background: var(--surface-3); overflow: hidden; }
+.bar-row .fill { height: 100%; background: var(--brand); }
+.bar-row .nn { margin-top: 5px; font-size: 11px; color: var(--text-faint); }
+.lr-now { padding: 16px 18px; }
+.lr-now .s { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; background: #E8EEFC; color: var(--brand); }
+.lr-now .q { margin-top: 8px; font-size: 16px; font-weight: 700; line-height: 1.45; }
+.lr-now .d { margin-top: 6px; font-size: 12.5px; line-height: 1.7; color: var(--text-dim); }
+.lr-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 12px; align-items: start; }
+.lr-sec { margin-bottom: 12px; scroll-margin-top: 16px; }
+@media (max-width: 1023px) { .lr-sec { scroll-margin-top: 72px; } }
+.lr-sec .card-head h2 b { margin-left: 6px; font-size: 12px; font-weight: 600; color: var(--text-faint); }
+.qlist { list-style: none; margin: 0; padding: 0 16px 6px; }
+.qlist li { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; padding: 10px 0; border-top: 1px solid var(--border); }
+.qlist .qq { font-size: 13px; font-weight: 600; line-height: 1.5; }
+.qlist .aa { grid-column: 1 / -1; font-size: 12.5px; line-height: 1.6; color: var(--text-dim); }
+.qlist .nn { grid-column: 1 / -1; font-size: 11px; color: var(--text-faint); }
+.qlist li.muted .qq { color: var(--text-dim); }
+.facts { list-style: none; margin: 0; padding: 0 16px 6px; }
+.facts li { padding: 10px 0; border-top: 1px solid var(--border); }
+.facts .w { font-size: 13px; font-weight: 700; line-height: 1.5; }
+.facts .why { margin-top: 3px; font-size: 12px; line-height: 1.6; color: var(--text-dim); }
+.facts .res { margin-top: 4px; font-size: 12.5px; line-height: 1.6; color: var(--text); }
+.gaps { list-style: none; margin: 0; padding: 0 16px 8px; }
+.gaps li { position: relative; padding: 9px 0 9px 16px; border-top: 1px solid var(--border); font-size: 12.5px; line-height: 1.6; color: var(--text-dim); }
+.gaps li::before { content: ""; position: absolute; left: 2px; top: 16px; width: 6px; height: 6px; border-radius: 50%; background: var(--amber); }
+.collect { padding: 0 16px 12px; }
+.collect .kpis { margin: 0; }
+.lr-note { padding: 10px 16px 14px; font-size: 11.5px; line-height: 1.6; color: var(--text-faint); }
+@media (max-width: 1023px) { .lr-top, .lr-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
-<body>
+<body class="wide">
 <script src="js/shell.js?v=20261107c"></script>
 
 <main>
@@ -67,24 +68,10 @@
      &larr; 목록으로</a>
 
   <header>
-    <div class="eyebrow"><span class="dot"></span>학습 현황</div>
+    <div class="eyebrow"><span class="dot"></span>연구 현황</div>
     <h1>지금 무엇을 배우고 있는가</h1>
     <div class="sub">
       공부하는 과정과 틀린 것까지 그대로 적습니다
-    </div>
-    <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
-      <a href="positions.html" style="display:inline-flex;align-items:center;
-         gap:6px;font-size:13px;color:#305DDC;text-decoration:none;
-         border:1px solid var(--border);border-radius:999px;
-         padding:6px 14px">
-        높게 본 것이 정말 올랐는가 &rarr;
-      </a>
-      <a href="rankings.html" style="display:inline-flex;align-items:center;
-         gap:6px;font-size:13px;color:#305DDC;text-decoration:none;
-         border:1px solid var(--border);border-radius:999px;
-         padding:6px 14px">
-        오늘의 순위 &rarr;
-      </a>
     </div>
   </header>
 
@@ -110,26 +97,20 @@
 const $ = id => document.getElementById(id);
 
 function bar(label, have, need, note){
-  const pct = need > 0
-    ? Math.min(100, Math.round(have / need * 100))
-    : 0;
-
+  const pct = need > 0 ? Math.min(100, have / need * 100) : 0;
   return `
     <div class="bar-row">
-      <div class="top">
-        <span class="lab">${escapeHTML(label)}</span>
-        <span class="num mono">${have} / ${need}</span>
-      </div>
-      <div class="track"><div class="fill" style="width:${pct}%"></div></div>
+      <div class="top"><span class="lab">${escapeHTML(label)}</span>
+        <span class="num mono">${have} / ${need}</span></div>
+      <div class="track" role="progressbar" aria-label="${escapeHTML(label)}" aria-valuemin="0" aria-valuemax="${need}" aria-valuenow="${have}">
+        <div class="fill" style="width:${pct.toFixed(1)}%"></div></div>
       ${note ? `<div class="nn">${escapeHTML(note)}</div>` : ""}
     </div>`;
 }
-
-function cell(k, v){
-  return `<div><div class="k">${escapeHTML(k)}</div>
-    <div class="v mono">${escapeHTML(String(v ?? "-"))}</div></div>`;
+function stateChip(st){
+  const cls = st === "답을 냈습니다" ? "up" : st === "아직 못 잽니다" ? "mix" : "";
+  return `<span class="chip ${cls}">${escapeHTML(st || "-")}</span>`;
 }
-
 function render(d){
   const now = d["지금 하고 있는 것"] || {};
   const col = d["모으고 있는 것"] || {};
@@ -138,88 +119,90 @@ function render(d){
   const gaps = d["아직 안 되는 것"] || [];
   const asking = d["지금 연구 중인 질문"] || [];
 
+  /* 진행률은 '채점까지 끝난' 판단 수로 낸다. 봉인 수로 내면 채점 0건인데도 가득 찬 것처럼 보였다 (2026-10-03). */
+  const scored = "채점까지 끝난 판단" in gate;
+  const have = scored ? (gate["채점까지 끝난 판단"] ?? 0) : (gate["봉인된 판단"] ?? 0);
+  const need = gate["필요한 판단"] ?? 0;
+  const ratio = need > 0 ? Math.min(100, have / need * 100) : 0;
+
   $("content").innerHTML = `
+    <nav class="jump" aria-label="이 페이지 안에서 이동">
+      <a href="#ask">연구 질문 <b>${asking.length}</b></a>
+      <a href="#collect">수집 중인 정보</a>
+      <a href="#gate">검증 진행</a>
+      <a href="#learned">확인된 사실 <b>${learned.length}</b></a>
+      <a href="#gaps">아직 검증할 수 없는 것 <b>${gaps.length}</b></a>
+    </nav>
 
-    <div class="q-card">
-      <div class="s">${escapeHTML(now["상태"] || "-")}</div>
-      <div class="q">${escapeHTML(now["질문"] || "-")}</div>
-      <div class="d">${escapeHTML(now["설명"] || "")}</div>
-    </div>
-
-    ${asking.length ? `<section>
-      <div class="section-title"><div class="title">지금 연구 중인 질문</div></div>
-      <div class="ask-list">
-        ${asking.map(q => `<div class="ask${
-            q["상태"] === "아직 못 잽니다" ? " muted" : ""}">
-          <div class="qq">${escapeHTML(q["질문"] || "")}</div>
-          <div class="aa">${escapeHTML(q["지금까지"] || q["왜"] || "")}</div>
-          ${q["못 잰 기간"] ? `<div class="nn">못 잰 기간 · ${
-            escapeHTML(q["못 잰 기간"])}</div>` : ""}
-        </div>`).join("")}
-      </div>
-      <div class="notice-box" style="margin-top:14px">
-        질문은 결과를 보기 전에 먼저 적어 둡니다.
-        답이 마음에 안 든다고 질문을 고치지 않습니다.
-      </div>
-    </section>` : ""}
-
-    <section>
-      <div class="section-title"><div class="title">판정까지</div></div>
-      <div class="bars">
-        ${/* 막대는 '채점까지 끝난' 수로 채운다. 봉인 수로 채우면 채점 0건인데도
-             '4761 / 200' 으로 가득 찬 것처럼 보였다 (2026-10-03 내실 점검).
-             봉인 수는 아래에 작게 적는다. 옛 learning.json 이면 봉인 수로 그린다. */""}
+    <div class="lr-top">
+      <section class="card lr-prog" id="gate" aria-label="검증 진행">
+        <div class="section-title" style="margin:0"><div class="title">검증 진행</div><div class="hint">채점까지 끝난 판단 기준</div></div>
+        <div class="big"><b>${ratio.toFixed(1)}%</b><span>${scored ? "채점 끝난 판단" : "봉인된 판단"} ${have} / ${need}</span></div>
         ${"채점까지 끝난 날" in gate
           ? bar("채점까지 끝난 날", gate["채점까지 끝난 날"] ?? 0, gate["필요한 날"] ?? 0,
                 `결정을 봉인한 날 ${gate["결정을 봉인한 날"] ?? 0}일 — 봉인 뒤 60거래일이 지나야 채점합니다`)
           : bar("결정을 봉인한 날", gate["결정을 봉인한 날"] ?? 0, gate["필요한 날"] ?? 0)}
-        ${"채점까지 끝난 판단" in gate
-          ? bar("채점까지 끝난 판단", gate["채점까지 끝난 판단"] ?? 0, gate["필요한 판단"] ?? 0,
-                `봉인된 판단 ${gate["봉인된 판단"] ?? 0}건`)
-          : bar("봉인된 판단", gate["봉인된 판단"] ?? 0, gate["필요한 판단"] ?? 0)}
-      </div>
-      <div class="notice-box" style="margin-top:14px">
-        ${escapeHTML(gate["설명"] || "")}
-      </div>
-    </section>
+        ${scored
+          ? bar("채점까지 끝난 판단", gate["채점까지 끝난 판단"] ?? 0, need, `봉인된 판단 ${gate["봉인된 판단"] ?? 0}건`)
+          : bar("봉인된 판단", gate["봉인된 판단"] ?? 0, need)}
+        <div class="bar-row"><div class="nn">${escapeHTML(gate["설명"] || "")}</div></div>
+      </section>
+      <section class="card lr-now" aria-label="지금 하고 있는 것">
+        <div class="section-title" style="margin:0 0 8px"><div class="title">지금 하고 있는 것</div></div>
+        <span class="s">${escapeHTML(now["상태"] || "-")}</span>
+        <div class="q">${escapeHTML(now["질문"] || "-")}</div>
+        <div class="d">${escapeHTML(now["설명"] || "")}</div>
+      </section>
+    </div>
 
-    <section>
-      <div class="section-title"><div class="title">모으고 있는 것</div></div>
-      <div class="kv">
-        ${Object.entries(col).map(([k, v]) => cell(k, v)).join("")}
-      </div>
-    </section>
+    <div class="lr-grid">
+      <div>
+        <section class="card lr-sec" id="ask">
+          <div class="card-head"><h2>연구 질문 <b>${asking.length}</b></h2></div>
+          <div class="card-sub">질문은 결과를 보기 전에 먼저 적어 둡니다. 답이 마음에 안 든다고 질문을 고치지 않습니다.</div>
+          <ul class="qlist">
+            ${asking.map(q => `<li${q["상태"] === "아직 못 잽니다" ? ' class="muted"' : ""}>
+              <div class="qq">${escapeHTML(q["질문"] || "")}</div>${stateChip(q["상태"])}
+              <div class="aa">${escapeHTML(q["지금까지"] || q["왜"] || "")}</div>
+              ${q["답을 낸 날"] ? `<div class="nn">답을 낸 날 ${escapeHTML(q["답을 낸 날"])}</div>` : ""}
+              ${q["못 잰 기간"] ? `<div class="nn">못 잰 기간 · ${escapeHTML(q["못 잰 기간"])}</div>` : ""}
+            </li>`).join("")}
+          </ul>
+        </section>
 
-    <section>
-      <div class="section-title">
-        <div class="title">지금까지 배운 것</div>
+        <section class="card lr-sec" id="learned">
+          <div class="card-head"><h2>지금까지 확인된 사실 <b>${learned.length}</b></h2></div>
+          <ul class="facts">
+            ${learned.map(x => `<li>
+              <div class="w">${escapeHTML(x["무엇"] || "")}</div>
+              <div class="why">${escapeHTML(x["왜"] || "")}</div>
+              <div class="res">${escapeHTML(x["결과"] || "")}</div>
+            </li>`).join("")}
+          </ul>
+        </section>
       </div>
-      <div class="learn-list">
-        ${learned.map(x => `
-          <div class="learn-item">
-            <div class="w">${escapeHTML(x["무엇"] || "")}</div>
-            <div class="why">${escapeHTML(x["왜"] || "")}</div>
-            <div class="res">${escapeHTML(x["결과"] || "")}</div>
-          </div>`).join("")}
-      </div>
-    </section>
 
-    <section>
-      <div class="section-title">
-        <div class="title">아직 안 되는 것</div>
-      </div>
-      <div class="gap-list">
-        ${gaps.map(x => `
-          <div class="gap-item">${escapeHTML(x)}</div>`).join("")}
-      </div>
-    </section>
+      <div>
+        <section class="card lr-sec" id="collect">
+          <div class="card-head"><h2>수집 중인 정보</h2></div>
+          <div class="collect"><div class="kpis">
+            ${Object.entries(col).map(([k, v]) => `<div class="st"><div class="st-k">${escapeHTML(k)}</div>
+              <div class="st-v">${escapeHTML(String(v ?? "-"))}</div></div>`).join("")}
+          </div></div>
+        </section>
 
-    <div class="notice-box" style="margin-top:18px">
-      ${escapeHTML(d["안내"] || "")}
+        <section class="card lr-sec" id="gaps">
+          <div class="card-head"><h2>아직 검증할 수 없는 것 <b>${gaps.length}</b></h2></div>
+          <ul class="gaps">${gaps.map(x => `<li>${escapeHTML(x)}</li>`).join("")}</ul>
+        </section>
+
+        <section class="card lr-sec">
+          <div class="lr-note">${escapeHTML(d["안내"] || "")}</div>
+        </section>
+      </div>
     </div>
   `;
 }
-
 (async function(){
   try{
     const r = await fetch("learning.json", {cache:"no-cache"});
@@ -229,12 +212,7 @@ function render(d){
     render(await r.json());
 
   }catch(e){
-    $("content").innerHTML = `
-      <div class="state" style="padding:26px;text-align:center;
-        color:var(--text-dim);background:var(--surface-2);
-        border:1px dashed var(--border);border-radius:var(--radius)">
-        학습 현황을 아직 불러올 수 없습니다.
-      </div>`;
+    $("content").innerHTML = '<div class="state">연구 현황을 아직 불러올 수 없습니다.</div>';
   }
 })();
 </script>
