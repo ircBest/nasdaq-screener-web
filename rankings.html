@@ -6,87 +6,18 @@
 <title>오늘의 순위 · NASDAQ IT 스크리너</title>
 <meta name="description" content="그날 살펴본 종목 전체를 어떤 순서로 세웠는지. 흑자 · 영업현금 · 매출 성장을 함께 적습니다.">
 <link rel="icon" href="icon.svg">
-<link rel="stylesheet" href="css/style.css?v=20260903a">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="css/style.css?v=20261107b">
+<link rel="stylesheet" href="css/terminal.css?v=20261107f">
 <style>
-/* 오늘의 순위 전용 — 판단 장부(positions.html)와 같은 틀 */
-.note{background:var(--surface-2);border:1px solid var(--border);
-  border-left:3px solid var(--amber);border-radius:var(--radius);
-  padding:14px 16px;margin-bottom:22px;font-size:13px;
-  color:var(--text-dim);line-height:1.7}
-
-.how{background:var(--surface-2);border:1px solid var(--border);
-  border-radius:var(--radius);padding:15px 18px;margin-bottom:22px;
-  font-size:13px;line-height:1.75;color:var(--text-dim)}
-.how b{color:var(--text)}
-.how p{margin:8px 0 0}
-
-.tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
-  gap:10px;margin-bottom:22px}
-.tally > div{background:var(--surface-2);border:1px solid var(--border);
-  border-radius:var(--radius);padding:13px 15px}
-.tally .k{font-size:11px;color:var(--text-faint);letter-spacing:.04em;
-  margin-bottom:5px}
-.tally .v{font-size:21px;font-weight:700;letter-spacing:-.02em;
-  font-variant-numeric:tabular-nums}
-
-.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
-  margin-bottom:12px}
-.bar button{font:inherit;font-size:12px;font-weight:600;
-  color:var(--text-dim);background:var(--surface-2);
-  border:1px solid var(--border);border-radius:999px;
-  padding:6px 13px;cursor:pointer}
-.bar button[aria-pressed="true"]{color:var(--bg);background:var(--blue);
-  border-color:var(--blue)}
-.bar button:focus-visible,.bar input:focus-visible{outline:2px solid var(--blue);
-  outline-offset:2px}
-.bar input{font:inherit;font-size:13px;color:var(--text);
-  background:var(--surface-2);border:1px solid var(--border);
-  border-radius:999px;padding:6px 13px;min-width:0;flex:1 1 140px;
-  max-width:220px}
-.bar .count{font-size:12px;color:var(--text-faint);margin-left:auto;
-  font-variant-numeric:tabular-nums}
-
-.wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;
-  border:1px solid var(--border);border-radius:var(--radius)}
-table.rk{width:100%;border-collapse:collapse;font-size:13px;min-width:760px}
-table.rk th{background:var(--surface-3);color:var(--text-dim);
-  font-size:11px;font-weight:600;letter-spacing:.04em;text-align:left;
-  padding:9px 12px;white-space:nowrap;border-bottom:1px solid var(--border)}
-table.rk th.num,table.rk td.num{text-align:right}
-table.rk td{padding:9px 12px;border-bottom:1px solid var(--border);
-  white-space:nowrap;font-variant-numeric:tabular-nums}
-table.rk tr:last-child td{border-bottom:none}
-table.rk td.shake{white-space:nowrap;color:var(--text-dim);font-size:12px}
-table.rk td.shake small{display:block;font-size:10px;color:var(--text-faint)}
-table.rk td.rank{font-weight:700;color:var(--text-dim)}
-table.rk td.rank small{display:block;font-size:10px;font-weight:500;
-  color:var(--text-faint)}
-table.rk td.sym a{font-weight:700;color:var(--text);text-decoration:none;
-  letter-spacing:-.01em}
-table.rk td.sym a:hover{color:var(--blue)}
-table.rk td.name{color:var(--text-dim);max-width:220px;overflow:hidden;
-  text-overflow:ellipsis}
-table.rk td.name small{display:block;font-size:10px;color:var(--text-faint)}
-
-.plus{color:var(--green)}
-.minus{color:var(--red)}
-.dim{color:var(--text-faint)}
-
-.fact{display:inline-block;padding:2px 8px;border-radius:999px;
-  font-size:10px;font-weight:700;white-space:nowrap}
-.fact.yes{background:rgba(62,207,142,.14);color:var(--green)}
-.fact.no{background:rgba(255,92,92,.14);color:var(--red)}
-.fact.na{background:var(--surface-3);color:var(--text-faint)}
-
-.empty{padding:26px;text-align:center;color:var(--text-dim);
-  background:var(--surface-2);border:1px dashed var(--border);
-  border-radius:var(--radius)}
-
-.foot{margin-top:28px;padding-top:18px;border-top:1px solid var(--border);
-  font-size:12px;color:var(--text-faint);line-height:1.8}
+/* 오늘의 순위 전용 — 공통 표 모양은 css/terminal.css (table.scr) */
+table.rk { min-width: 980px; }
+table.rk .name { max-width: 260px; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 767px) { table.rk { min-width: 0; } table.rk .name { display: none; } }
 </style>
 </head>
-<body>
+<body class="wide">
+<script src="js/shell.js?v=20261107c"></script>
 
 <main>
 
@@ -100,20 +31,6 @@ table.rk td.name small{display:block;font-size:10px;color:var(--text-faint)}
     <h1>그날 무엇을 앞에 세웠나</h1>
     <div class="sub">
       살펴본 종목 전체의 순서와 재무 사실을 같이 적습니다
-    </div>
-    <div style="margin-top:12px">
-      <a href="positions.html" style="display:inline-flex;align-items:center;
-         gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
-         border:1px solid var(--border);border-radius:999px;
-         padding:6px 14px">
-        높게 본 것이 정말 올랐는가 &rarr;
-      </a>
-      <a href="sectors.html" style="margin-left:6px;display:inline-flex;align-items:center;
-         gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
-         border:1px solid var(--border);border-radius:999px;
-         padding:6px 14px">
-        업종 순위 &rarr;
-      </a>
     </div>
   </header>
 
@@ -180,41 +97,45 @@ function rows() {
 
 function shakeCell(t) {
   const s = SHAKE && SHAKE.tickers && SHAKE.tickers[t];
-  if (!s) return '<td class="shake">—</td>';
+  if (!s) return '<td class="m-hide">—</td>';
   const tier = (SHAKE.tiers || []).find(x => x.key === s.tier);
-  return `<td class="shake">${esc(tier ? tier.name : s.tier)}<small>하루 ±${esc(s.daily_move_pct)}%</small></td>`;
+  return `<td class="m-hide"><span class="tier tier-${esc(s.tier)}">${esc(tier ? tier.name : s.tier)}</span><small class="sub">하루 ±${esc(s.daily_move_pct)}%</small></td>`;
 }
 
 function table(list) {
   if (!list.length) {
-    return '<div class="empty">조건에 맞는 종목이 없습니다.</div>';
+    return '<div class="state">조건에 맞는 종목이 없습니다.</div>';
   }
 
-  const filtered = view !== "all";
+  const filtered = view !== "all" || query.trim() !== "";
 
-  const body = list.map((r, i) => `<tr>
-      <td class="rank">${filtered ? i + 1 : r.rank}${
+  const body = list.map((r, i) => {
+    const href = "stock.html?ticker=" + encodeURIComponent(r.ticker);
+    return `<tr data-href="${href}">
+      <td class="rk-cell num">${filtered ? i + 1 : r.rank}${
         filtered ? `<small>전체 ${r.rank}위</small>` : ""}</td>
-      <td class="sym"><a href="stock.html?ticker=${encodeURIComponent(r.ticker)}">${esc(r.ticker)}</a></td>
-      <td class="name" title="${esc(r.name)}">${esc(r.name || "—")}<small>${esc(r.industry || "")}</small></td>
+      <td class="c-tk"><a href="${href}">${esc(r.ticker)}</a><span class="m-name">${esc(r.name || "")}</span></td>
+      <td class="name c-name" title="${esc(r.name)}"><span>${esc(r.name || "—")}</span><small>${esc(r.industry || "")}</small></td>
       <td class="num">${money(r.price)}</td>
       <td class="num">${pct(r.day_change_pct)}</td>
-      <td class="num">${pct(r.from_high60_pct)}</td>
+      <td class="num m-hide">${pct(r.from_high60_pct)}</td>
       <td>${fact(r.profit, "흑자", "적자")}</td>
-      <td>${fact(r.cash, "유입", "유출")}</td>
-      <td>${fact(r.growth, "성장", "감소", r.revenue_growth_pct)}</td>
-      <td class="num">${cap(r.market_cap_b)}</td>
+      <td class="m-hide">${fact(r.cash, "유입", "유출")}</td>
+      <td class="m-hide">${fact(r.growth, "성장", "감소", r.revenue_growth_pct)}</td>
+      <td class="num m-hide">${cap(r.market_cap_b)}</td>
       ${shakeCell(r.ticker)}
-    </tr>`).join("");
+    </tr>`;
+  }).join("");
 
-  return `<div class="wrap"><table class="rk">
+  return `<div class="tbl-wrap"><table class="scr rk">
+      <caption class="sr-only">오늘의 순위. 필터를 걸면 왼쪽 숫자는 표시 순서이고, 아래 작은 글씨가 원래 순위입니다.</caption>
       <thead><tr>
-        <th>순위</th><th>종목</th><th>이름</th>
-        <th class="num">가격</th><th class="num">전일 대비</th>
-        <th class="num">60일 고점 대비</th>
-        <th>순이익</th><th>영업현금</th><th>매출</th>
-        <th class="num">시총</th>
-        <th>흔들림</th>
+        <th class="num" scope="col">${filtered ? "표시 순서" : "순위"}</th><th scope="col">티커</th><th class="c-name" scope="col">기업명</th>
+        <th class="num" scope="col">가격</th><th class="num" scope="col">전일 대비</th>
+        <th class="num m-hide" scope="col">60일 고점 대비</th>
+        <th scope="col">순이익</th><th class="m-hide" scope="col">영업현금</th><th class="m-hide" scope="col">매출</th>
+        <th class="num m-hide" scope="col">시가총액</th>
+        <th class="m-hide" scope="col">흔들림</th>
       </tr></thead>
       <tbody>${body}</tbody>
     </table></div>`;
@@ -224,7 +145,7 @@ function paint() {
   const list = rows();
   $("#list").innerHTML = table(list);
   $("#count").textContent = `${list.length}종목`;
-  document.querySelectorAll(".bar button").forEach(b =>
+  document.querySelectorAll(".seg button").forEach(b =>
     b.setAttribute("aria-pressed", String(b.dataset.view === view)));
 }
 
@@ -233,14 +154,15 @@ function render(d) {
   const s = d.summary || {};
 
   $("#content").innerHTML = `
-    <div class="note">${esc(d.note || "")}</div>
+    <div class="notice-line">${esc(d.note || "")}</div>
 
-    <div class="how">
-      <b>어떻게 읽나요</b>
+    <details class="how">
+      <summary>어떻게 읽나요</summary>
+      <div>
       <p>${esc(d.observation_date)} 에 살펴본 종목 전체를 기대되는 순서대로
          세웠습니다. <b>1위가 사야 할 종목이라는 뜻이 아닙니다.</b>
          앞쪽과 뒤쪽을 나눠 그 뒤 어떻게 됐는지는
-         <a href="positions.html" style="color:var(--blue)">판단 장부</a>에
+         <a href="positions.html" style="color:var(--blue)">연구 장부</a>에
          따로 적습니다.</p>
       <p>순서는 가격 흐름만 보고 정합니다. 회사가 돈을 버는지는 모릅니다.
          그래서 옆에 <b>재무 사실</b>을 붙였습니다 — 최근 4분기 순이익 합,
@@ -249,41 +171,54 @@ function render(d) {
       <p><b>자료 없음</b>은 외국 회사나 새로 상장한 회사라 분기 재무가
          없는 경우입니다. 적자라는 뜻이 아닙니다.
          흑자만 걸러 보는 것이 더 낫다는 것도 아직 증명되지 않았습니다.</p>
-    </div>
+      </div>
+    </details>
 
-    <div class="tally">
-      <div><div class="k">줄 세운 종목</div><div class="v">${s.ranked ?? "—"}</div></div>
-      <div><div class="k">흑자</div><div class="v">${s.profit ?? "—"}</div></div>
-      <div><div class="k">적자</div><div class="v">${s.loss ?? "—"}</div></div>
-      <div><div class="k">재무 자료 없음</div><div class="v">${s.unknown ?? "—"}</div></div>
-      <div><div class="k">흑자 · 현금 · 성장 모두</div><div class="v">${s.all_three ?? "—"}</div></div>
-    </div>
+    <section class="kpis" aria-label="요약 숫자">
+      <div class="st"><div class="st-k">줄 세운 종목</div><div class="st-v">${s.ranked ?? "—"}</div></div>
+      <div class="st"><div class="st-k">흑자</div><div class="st-v up">${s.profit ?? "—"}</div></div>
+      <div class="st"><div class="st-k">적자</div><div class="st-v down">${s.loss ?? "—"}</div></div>
+      <div class="st"><div class="st-k">재무 자료 없음</div><div class="st-v">${s.unknown ?? "—"}</div><div class="st-s">적자로 세지 않음</div></div>
+      <div class="st"><div class="st-k">흑자 · 현금 · 성장 모두</div><div class="st-v">${s.all_three ?? "—"}</div></div>
+    </section>
 
-    <div class="bar" role="group" aria-label="보기">
-      ${Object.entries(VIEWS).map(([k, v]) =>
-        `<button type="button" data-view="${k}" aria-pressed="false">${v.label}</button>`
-      ).join("")}
-      <input id="q" type="search" placeholder="종목 찾기" aria-label="종목 찾기">
-      <span class="count" id="count"></span>
-    </div>
+    <section class="card tbl-card">
+      <div class="toolbar">
+        <div class="seg" role="group" aria-label="보기">
+          ${Object.entries(VIEWS).map(([k, v]) =>
+            `<button type="button" data-view="${k}" aria-pressed="false">${v.label}</button>`
+          ).join("")}
+        </div>
+        <input id="q" type="search" placeholder="티커 · 기업명 찾기" aria-label="종목 찾기" autocomplete="off">
+        <span class="count" id="count"></span>
+      </div>
+      <div id="list"></div>
+    </section>
 
-    <div id="list"></div>
-
-    <div class="foot">
+    <div class="page-foot">
       가격은 ${esc(d.price_date || "—")} 종가입니다. 60일 고점 대비는 그날까지
       60거래일 중 가장 높은 종가와 비교한 것입니다.<br>
       이 순서는 투자 권유가 아닙니다. 맞는지는 아직 증명되지 않았습니다.<br>
-      갱신 ${esc((d.generated_at || "").slice(0, 16).replace("T", " "))} UTC
+      관측일 ${esc(d.observation_date || "—")} · 갱신 ${esc((d.generated_at || "").slice(0, 16).replace("T", " "))} UTC
     </div>`;
 
-  document.querySelectorAll(".bar button").forEach(b =>
+  $("#list").addEventListener("click", e => {
+    if (e.target.closest("a")) return;
+    const tr = e.target.closest("tr[data-href]");
+    if (tr && !window.getSelection().toString()) location.href = tr.dataset.href;
+  });
+
+  document.querySelectorAll(".seg button").forEach(b =>
     b.addEventListener("click", () => {
       view = b.dataset.view;
       try { localStorage.setItem("rankings.view", view); } catch (e) {}
       paint();
     }));
 
-  $("#q").addEventListener("input", e => { query = e.target.value; paint(); });
+  let t = null;
+  $("#q").addEventListener("input", e => {
+    clearTimeout(t); t = setTimeout(() => { query = e.target.value; paint(); }, 150);
+  });
 
   paint();
 }
@@ -299,7 +234,7 @@ function render(d) {
     render(await r.json());
   } catch (e) {
     $("#content").innerHTML =
-      '<div class="empty">아직 순위가 없습니다. 다음 갱신에 생깁니다.</div>';
+      '<div class="state">아직 순위가 없습니다. 다음 갱신에 생깁니다.</div>';
   }
 })();
 </script>

@@ -1,22 +1,28 @@
 :root {
-  --bg: #0A0C10;
-  --surface: #12151B;
-  --surface-2: #171C24;
-  --surface-3: #1C222C;
-  --border: #232833;
+  /* White Professional Financial Research Terminal (2026-11-07 리뉴얼 1단계)
+     이름은 그대로 두고 값만 바꿨다 — 페이지 · 스크립트가 이 이름으로 색을 쓴다. */
+  --bg: #FFFFFF;          /* 기본 배경 */
+  --surface: #FFFFFF;     /* 카드 */
+  --surface-2: #F7F9FC;   /* 보조 배경 */
+  --surface-3: #EEF2F7;   /* 표 머리 · 눌린 칸 */
+  --border: #E2E8F0;      /* 구분선 */
 
-  --text: #E7EAF0;
-  --text-dim: #8A93A6;
-  --text-faint: #565E6E;
+  --text: #182235;        /* 주요 텍스트 */
+  --text-dim: #617085;    /* 보조 텍스트 */
+  --text-faint: #7A8699;  /* 흐린 텍스트 (흰 바탕 대비 3.6:1) */
 
-  --amber: #FFB020;
-  --amber-dim: #8A6620;
+  --amber: #A96C15;       /* 경고 */
+  --amber-dim: #E7D3B0;
 
-  --green: #3ECF8E;
-  --red: #FF5C5C;
-  --blue: #6EA8FE;
+  --green: #168264;       /* 상승 · 긍정 */
+  --red: #C95359;         /* 하락 · 부정 */
+  --blue: #305DDC;        /* 브랜드 */
+  --brand: #305DDC;
 
-  --radius: 10px;
+  --radius: 8px;
+
+  --side-w: 232px;        /* 왼쪽 메뉴 폭 (1280px 이상) */
+  --rail-w: 76px;         /* 줄인 메뉴 폭 (1024 ~ 1279px) */
 }
 
 * {
@@ -49,6 +55,8 @@ body {
   color: var(--text);
 
   font-family:
+    "Pretendard Variable",
+    Pretendard,
     "Inter",
     -apple-system,
     BlinkMacSystemFont,
@@ -109,7 +117,7 @@ header {
   top: 0;
   z-index: 10;
 
-  background: rgba(10, 12, 16, 0.94);
+  background: rgba(255,255,255, 0.94);
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -148,8 +156,7 @@ header {
 
   background: var(--green);
 
-  box-shadow:
-    0 0 8px var(--green);
+  box-shadow: none;
 }
 
 h1 {
@@ -611,7 +618,7 @@ input:checked + .slider-toggle::before {
 
   color: var(--amber);
 
-  background: rgba(255, 176, 32, 0.1);
+  background: rgba(169,108,21, 0.1);
 
   border-radius: 3px;
 
@@ -859,7 +866,7 @@ input:checked + .slider-toggle::before {
   color: var(--red);
 
   border-color:
-    rgba(255, 92, 92, 0.35);
+    rgba(201,83,89, 0.35);
 }
 
 .loading-state {
@@ -992,7 +999,7 @@ input:checked + .slider-toggle::before {
   color: var(--green);
 
   border-color:
-    rgba(62, 207, 142, 0.35);
+    rgba(22,130,100, 0.35);
 }
 
 .badge.profit {
@@ -1007,7 +1014,7 @@ input:checked + .slider-toggle::before {
   color: var(--amber);
 
   border-color:
-    rgba(255, 176, 32, 0.35);
+    rgba(169,108,21, 0.35);
 }
 
 /* =========================================================
@@ -1219,7 +1226,7 @@ input:checked + .slider-toggle::before {
 
   color: var(--amber);
 
-  background: rgba(255, 176, 32, 0.08);
+  background: rgba(169,108,21, 0.08);
 
   border: 1px solid var(--amber-dim);
   border-radius: var(--radius);
@@ -1445,7 +1452,7 @@ input:checked + .slider-toggle::before {
 
   color: var(--amber);
 
-  background: rgba(255, 176, 32, 0.1);
+  background: rgba(169,108,21, 0.1);
 
   border-radius: 3px;
 
@@ -1583,3 +1590,137 @@ input:checked + .slider-toggle::before {
   }
 
 }
+
+/* =========================================================
+   공통 화면 틀 — 왼쪽 메뉴 · 상단 메뉴 (리뉴얼 1단계 · 2026-11-07)
+   js/shell.js 가 body 맨 앞에 끼워 넣는다.
+   ========================================================= */
+
+.shell-skip {
+  position: absolute; left: -9999px; top: 0;
+}
+.shell-skip:focus {
+  left: 12px; top: 12px; z-index: 100;
+  background: var(--bg); color: var(--text);
+  padding: 8px 12px; border: 1px solid var(--border); border-radius: var(--radius);
+}
+
+.shell-side {
+  position: fixed; top: 0; bottom: 0; left: 0; z-index: 30;
+  width: var(--side-w);
+  display: flex; flex-direction: column; gap: 16px;
+  padding: max(env(safe-area-inset-top), 18px) 12px 18px;
+  background: var(--surface-2);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+}
+
+.shell-brand {
+  display: flex; align-items: center; gap: 9px;
+  padding: 4px 10px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 12.5px; font-weight: 700; letter-spacing: 0.12em;
+  color: var(--text); text-decoration: none; white-space: nowrap;
+}
+.shell-mark {
+  width: 10px; height: 10px; flex: 0 0 auto;
+  border-radius: 2px; background: var(--brand);
+}
+
+.shell-nav { display: flex; flex-direction: column; gap: 2px; }
+
+.shell-link {
+  display: flex; align-items: center; gap: 11px;
+  min-height: 44px; padding: 8px 10px;
+  border-radius: var(--radius);
+  color: var(--text-dim); text-decoration: none;
+  font-size: 13.5px; font-weight: 600;
+}
+.shell-link svg {
+  width: 18px; height: 18px; flex: 0 0 auto;
+  fill: none; stroke: currentColor; stroke-width: 1.8;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.shell-link:hover { background: var(--surface-3); color: var(--text); }
+.shell-link[aria-current="page"] { background: #E8EEFC; color: var(--brand); }
+.shell-link:focus-visible,
+.shell-menu:focus-visible,
+.shell-brand:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.shell-short { display: none; }
+
+.shell-top { display: none; }
+
+.shell-scrim {
+  position: fixed; inset: 0; z-index: 25;
+  background: rgba(24, 34, 53, 0.32);
+}
+
+html.has-shell body { padding-left: var(--side-w); }
+
+/* 스크리너로 바로 갈 때 고정 머리말 밑에 숨지 않게 */
+#screener { scroll-margin-top: 140px; }
+
+/* 1024 ~ 1279px — 줄인 메뉴 */
+@media (max-width: 1279px) and (min-width: 1024px) {
+  html.has-shell body { padding-left: var(--rail-w); }
+  .shell-side { width: var(--rail-w); padding-inline: 8px; }
+  .shell-side .shell-brand { justify-content: center; padding: 4px 0; }
+  .shell-side .shell-brand .shell-label { display: none; }
+  .shell-link {
+    flex-direction: column; justify-content: center; gap: 4px;
+    padding: 9px 2px; text-align: center; font-size: 10.5px;
+  }
+  .shell-link .shell-label { display: none; }
+  .shell-link .shell-short { display: block; }
+}
+
+/* 1024px 미만 — 상단 바 + 접는 메뉴 */
+@media (max-width: 1023px) {
+  html.has-shell body { padding-left: 0; }
+
+  .shell-top {
+    display: flex; align-items: center; gap: 10px;
+    position: sticky; top: 0; z-index: 20;
+    min-height: 56px;
+    padding: env(safe-area-inset-top) 12px 0;
+    background: rgba(255, 255, 255, 0.96);
+    border-bottom: 1px solid var(--border);
+  }
+  .shell-menu {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 44px; height: 44px; padding: 0;
+    color: var(--text); background: var(--bg);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    cursor: pointer;
+  }
+  .shell-menu svg {
+    width: 22px; height: 22px;
+    fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round;
+  }
+
+  /* 페이지 머리말은 상단 바 밑에 붙는다 */
+  html.has-shell header { top: calc(56px + env(safe-area-inset-top)); padding-top: 14px; }
+
+  .shell-side {
+    width: min(280px, 84vw);
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition: transform 0.18s ease, visibility 0.18s;
+  }
+  .shell-side.open { transform: none; visibility: visible; }
+  html.shell-locked { overflow: hidden; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shell-side { transition: none; }
+}
+
+.shell-foot {
+  margin-top: auto; padding: 10px 10px 2px;
+  border-top: 1px solid var(--border);
+  font-size: 11.5px; color: var(--text-dim); line-height: 1.7;
+}
+.shell-foot .dot { display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: var(--green); }
+.shell-foot a { color: var(--text-faint); text-decoration: none; }
+.shell-foot a:hover { color: var(--brand); }
+@media (max-width: 1279px) and (min-width: 1024px) { .shell-foot { display: none; } }

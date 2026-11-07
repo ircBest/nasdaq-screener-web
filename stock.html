@@ -3,9 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>종목 상세 · NASDAQ IT 스크리너</title>
+<title>종목 상세 · NASDAQ Research</title>
 <link rel="icon" href="icon.svg">
-<link rel="stylesheet" href="css/style.css?v=20260903a">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="css/style.css?v=20261107b">
+<link rel="stylesheet" href="css/terminal.css?v=20261107f">
 <style>
 /* 상세 페이지 전용 */
 .detail-head{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;margin-bottom:6px}
@@ -38,9 +40,9 @@
 .kv .n{font-size:11px;color:var(--text-dim);margin-top:2px}
 
 .tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;
-  font-weight:700;background:rgba(138,147,166,.14);color:var(--text-dim)}
-.tag.up{background:rgba(62,207,142,.16);color:var(--green)}
-.tag.down{background:rgba(255,92,92,.14);color:var(--red)}
+  font-weight:700;background:rgba(97,112,133,.14);color:var(--text-dim)}
+.tag.up{background:rgba(22,130,100,.16);color:var(--green)}
+.tag.down{background:rgba(201,83,89,.14);color:var(--red)}
 .state{padding:26px;text-align:center;color:var(--text-dim);
   background:var(--surface-2);border:1px dashed var(--border);border-radius:var(--radius)}
 
@@ -67,7 +69,8 @@
   .news .when span{display:inline;margin-left:6px}}
 </style>
 </head>
-<body>
+<body class="wide">
+<script src="js/shell.js?v=20261107c"></script>
 
 <main>
 
@@ -79,7 +82,7 @@
 
 </main>
 
-<script src="js/utils.js?v=20260903a"></script>
+<script src="js/utils.js?v=20261107b"></script>
 <script>
 /* =========================================================
    종목 상세
@@ -102,6 +105,24 @@ async function getJSON(path){
     if(!r.ok) return null;
     return await r.json();
   }catch(e){ return null; }
+}
+
+/* 메뉴의 '종목 상세' 로 종목 없이 들어왔을 때 — 티커를 받아 그 종목으로 간다 */
+function pickTicker(){
+  $("content").innerHTML = `<form class="state" id="pick" style="display:flex;gap:8px;flex-wrap:wrap;
+      justify-content:center;align-items:center">
+    <label for="pickInput" style="width:100%;margin-bottom:4px">볼 종목의 티커를 넣으세요 (예: NVDA)</label>
+    <input id="pickInput" name="ticker" autocomplete="off" autocapitalize="characters" spellcheck="false"
+      style="font:inherit;font-size:15px;padding:10px 12px;min-height:44px;width:160px;border:1px solid var(--border);
+      border-radius:var(--radius);background:var(--bg);color:var(--text);text-transform:uppercase">
+    <button type="submit" style="font:inherit;font-size:14px;font-weight:600;min-height:44px;padding:0 18px;
+      border:0;border-radius:var(--radius);background:var(--brand);color:#fff;cursor:pointer">보기</button>
+  </form>`;
+  $("pick").addEventListener("submit", e=>{
+    e.preventDefault();
+    const t = ($("pickInput").value||"").toUpperCase().replace(/[^A-Z0-9.\-]/g,"").trim();
+    if(t) location.href = "stock.html?ticker=" + encodeURIComponent(t);
+  });
 }
 
 function fail(message){
@@ -137,8 +158,8 @@ function scales(points, w, h, lo, hi){
 }
 
 function axis(ctx, w, h, lo, hi, fmt){
-  ctx.strokeStyle = "rgba(138,147,166,.14)";
-  ctx.fillStyle = "#565E6E";
+  ctx.strokeStyle = "rgba(97,112,133,.14)";
+  ctx.fillStyle = "#7A8699";
   ctx.font = "10px -apple-system,sans-serif";
   ctx.textAlign = "right";
   ctx.textBaseline = "middle";
@@ -179,7 +200,7 @@ function drawPrice(series, marks){
 
   /* 목표가 / 손절가 */
   if(last){
-    [["target","#3ECF8E"],["stop","#FF5C5C"]].forEach(([key,color])=>{
+    [["target","#168264"],["stop","#C95359"]].forEach(([key,color])=>{
       if(last[key]==null) return;
       ctx.strokeStyle = color; ctx.globalAlpha=.55;
       ctx.setLineDash([4,4]); ctx.lineWidth=1;
@@ -190,7 +211,7 @@ function drawPrice(series, marks){
   }
 
   /* 종가 */
-  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.8;
+  ctx.strokeStyle = "#A96C15"; ctx.lineWidth = 1.8;
   ctx.beginPath();
   let started = false;
   points.forEach((p,i)=>{
@@ -227,8 +248,8 @@ function drawPrice(series, marks){
     drawn.add(i);
     ctx.beginPath();
     ctx.arc(s.x(i), s.y(points[i].c), 4, 0, Math.PI*2);
-    ctx.fillStyle = "#6EA8FE"; ctx.fill();
-    ctx.strokeStyle = "#0A0C10"; ctx.lineWidth=1.5; ctx.stroke();
+    ctx.fillStyle = "#305DDC"; ctx.fill();
+    ctx.strokeStyle = "#FFFFFF"; ctx.lineWidth=1.5; ctx.stroke();
   });
 }
 
@@ -288,19 +309,19 @@ function drawVolume(series, marks){
     const y = s.y(p.v);
     const avg = avgAt[i];
     ctx.fillStyle = (avg != null && p.v >= avg)
-      ? "rgba(110,168,254,.85)"
-      : "rgba(110,168,254,.28)";
+      ? "rgba(48,93,220,.85)"
+      : "rgba(48,93,220,.28)";
     ctx.fillRect(s.x(i)-bw/2, y, bw, s.y(0)-y);
   });
 
   /* 신호 발생일 표시 */
   signalBars.forEach(i=>{
-    ctx.fillStyle = "rgba(185,138,255,.85)";
+    ctx.fillStyle = "rgba(124,77,204,.85)";
     ctx.fillRect(s.x(i)-1.5, PAD.t, 3, h-PAD.t-PAD.b);
   });
 
   /* 20일 이동평균선 */
-  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.6;
+  ctx.strokeStyle = "#A96C15"; ctx.lineWidth = 1.6;
   ctx.beginPath();
   let started=false;
   for(let i=0;i<points.length;i++){
@@ -457,158 +478,241 @@ function shakeSection(sh){
     </section>`;
 }
 
+const TABS = [["summary","요약"],["chart","차트"],["indicators","지표"],["signals","신호 이력"],["similar","유사 흐름"],["news","뉴스"]];
+const WATCH_KEY = "nr.watchlist.v1";
+function watchSet(){ try { return new Set(JSON.parse(localStorage.getItem(WATCH_KEY) || "[]")); } catch(e){ return new Set(); } }
+function watchSave(set){ try { localStorage.setItem(WATCH_KEY, JSON.stringify([...set])); } catch(e){} }
+
+/* 요약 탭의 가벼운 종가 선 (SVG). 자세한 차트는 '차트' 탭의 캔버스. */
+function sparkSVG(points, target, stop){
+  const pts = (points || []).filter(p=>p && p.c!=null);
+  if(pts.length < 2) return '<div class="state">시세가 아직 모자랍니다.</div>';
+  const W = 600, H = 200, T = 8, B = 8;
+  const vals = pts.map(p=>p.c).concat([target, stop].filter(v=>v!=null));
+  const lo = Math.min(...vals), hi = Math.max(...vals), pad = (hi-lo)*0.06 || 1;
+  const y = v => T + (1 - (v-(lo-pad))/((hi+pad)-(lo-pad))) * (H-T-B);
+  const x = i => (i/(pts.length-1))*W;
+  const line = pts.map((p,i)=>`${x(i).toFixed(1)},${y(p.c).toFixed(1)}`).join(" ");
+  const area = `0,${H} ${line} ${W},${H}`;
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="최근 ${pts.length}거래일 종가">
+      <polygon class="ar" points="${area}"/>
+      ${target!=null?`<line class="tg" x1="0" x2="${W}" y1="${y(target)}" y2="${y(target)}"/>`:""}
+      ${stop!=null?`<line class="sl" x1="0" x2="${W}" y1="${y(stop)}" y2="${y(stop)}"/>`:""}
+      <polyline class="ln" points="${line}"/>
+    </svg>
+    <div class="lbl"><span>${escapeHTML(pts[0].d)}</span><span>${escapeHTML(pts[pts.length-1].d)}</span></div>
+    <div class="legend"><span><i style="border-color:var(--brand)"></i>종가</span>
+      ${target!=null?`<span><i style="border-color:var(--green);border-top-style:dashed"></i>목표가</span>`:""}
+      ${stop!=null?`<span><i style="border-color:var(--red);border-top-style:dashed"></i>손절가</span>`:""}</div>`;
+}
+
 function render(info){
   const {signal, history, series, latest, news, shake} = info;
 
   /* 오늘 신호가 없는 종목은 latest 가 없다 — 옛 신호의 진입가 대신 차트 요약의 마지막 종가를 쓴다. */
   const price = latest?.price ?? series?.chart?.close ?? signal?.entry_price;
   const change = latest?.day_change_pct;
-
+  const asOf = latest?.price_date || series?.chart?.as_of || "";
   const volAvailable = series && series.volume && series.volume.available;
+  const risk = latest?.risk || {};
+  const tech = latest?.technical || {};
+  const sh = shake && shake.tickers && shake.tickers[TICKER];
+  const tierName = sh ? ((shake.tiers || []).find(t=>t.key===sh.tier)?.name || sh.tier) : null;
+  const rsi = tech.rsi ?? series?.chart?.rsi ?? null;
+  const items = (news && news.articles) || [];
+  const watching = watchSet().has(TICKER);
+  const name = latest?.name || signal?.name || "";
 
+  const basisBox = `
+    <aside class="card sd-box" aria-label="연구 기준">
+      <h2>연구 기준</h2>
+      <dl>
+        <div><dt>목표가</dt><dd>${risk.target_price!=null?fmtPrice(risk.target_price):"—"}${
+          risk.expected_gain_pct!=null?`<small>${fmtPctShort(risk.expected_gain_pct)}</small>`:""}</dd></div>
+        <div><dt>손절가</dt><dd>${risk.stop_loss!=null?fmtPrice(risk.stop_loss):"—"}${
+          risk.expected_loss_pct!=null?`<small>−${Math.abs(risk.expected_loss_pct).toFixed(1)}%</small>`:""}</dd></div>
+        <div><dt>Risk/Reward</dt><dd>${risk.risk_reward!=null?Number(risk.risk_reward).toFixed(2):"—"}</dd></div>
+        <div><dt>RSI (14)</dt><dd>${rsi!=null?Number(rsi).toFixed(1):"—"}</dd></div>
+        <div><dt>흔들림 단계</dt><dd>${tierName?`<span class="tier tier-${escapeHTML(sh.tier)}">${escapeHTML(tierName)}</span><small>하루 보통 ±${escapeHTML(sh.daily_move_pct)}%</small>`:"—"}</dd></div>
+      </dl>
+      <div class="basis">${latest
+        ? `기준: ${escapeHTML(latest.observation_date||"")} 신호 · ${escapeHTML(latest.price_date||"")} 종가. 목표가 · 손절가는 그날 변동폭(ATR)으로 정한 기계적 값이며 오른다는 뜻이 아닙니다.`
+        : `오늘은 이 종목에 신호가 없습니다. 목표가 · 손절가는 신호가 난 날에만 정합니다.${history.length?` 마지막 신호 ${escapeHTML(history[0].observation_date||"")}.`:""}`}</div>
+    </aside>`;
 
-  $("content").innerHTML = `
-    <div class="detail-head">
-      <div>
-        <div class="tk">${escapeHTML(TICKER)}</div>
-        <div class="nm">${escapeHTML(latest?.name || signal?.name || "")}</div>
-      </div>
-      <div class="px">
-        <div class="v mono">${price!=null?fmtPrice(price):"-"}</div>
-        <div class="mono ${change!=null?changeClass(change):""}"
-             style="font-size:13px">
-          ${change!=null?fmtPctShort(change):""}
+  const panels = {
+    summary: `
+      <div class="sd-sum">
+        <div>
+          <section class="card sd-spark">
+            <div class="section-title" style="margin:0 0 6px"><div class="title">종가 흐름</div><div class="hint">최근 ${(series?.points||[]).length}거래일</div></div>
+            ${sparkSVG(series?.points, risk.target_price, risk.stop_loss)}
+          </section>
+          ${shakeSection(shake)}
+          ${items.length ? `<section class="card sd-box"><h2>최근 뉴스</h2><ul class="sd-news-mini">
+            ${items.slice(0,3).map(a=>`<li>${escapeHTML(a.title)}<small>${escapeHTML(a.publisher||"")} · ${escapeHTML((a.published_utc||"").slice(0,10))}</small></li>`).join("")}
+            </ul><button type="button" class="sd-more" data-go="news">뉴스 ${items.length}건 모두 보기 →</button></section>` : ""}
         </div>
-      </div>
-    </div>
-
-    ${shakeSection(shake)}
-
-    <section>
-      <div class="section-title"><div class="title">가격</div></div>
-      <div class="chart-box">
-        <canvas id="priceChart"></canvas>
-        <div class="chart-legend">
-          <span><i class="swatch" style="background:#FFB020"></i> 종가</span>
-          <span><i class="swatch" style="background:#6EA8FE;height:9px;width:9px;border-radius:50%"></i> 신호 발생일</span>
-          <span><i class="swatch" style="background:#3ECF8E"></i> 목표가</span>
-          <span><i class="swatch" style="background:#FF5C5C"></i> 손절가</span>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-title"><div class="title">거래량</div></div>
-
-      ${volAvailable ? `
+        ${basisBox}
+      </div>`,
+    chart: `
+      <section>
+        <div class="section-title"><div class="title">가격</div><div class="hint">${escapeHTML(asOf)} 종가까지</div></div>
         <div class="chart-box">
-          <canvas id="volChart"></canvas>
+          <canvas id="priceChart"></canvas>
           <div class="chart-legend">
-            <span><i class="swatch" style="background:#6EA8FE"></i> 평균 이상</span>
-            <span><i class="swatch" style="background:rgba(110,168,254,.28)"></i> 평균 미만</span>
-            <span><i class="swatch" style="background:#FFB020"></i> 20일 평균</span>
-            <span><i class="swatch" style="background:#B98AFF;height:9px;width:3px"></i> 신호 발생일</span>
+            <span><i class="swatch" style="background:#A96C15"></i> 종가</span>
+            <span><i class="swatch" style="background:#305DDC;height:9px;width:9px;border-radius:50%"></i> 신호 발생일</span>
+            <span><i class="swatch" style="background:#168264"></i> 목표가</span>
+            <span><i class="swatch" style="background:#C95359"></i> 손절가</span>
           </div>
         </div>
-
+      </section>
+      <section>
+        <div class="section-title"><div class="title">거래량</div></div>
+        ${volAvailable ? `
+          <div class="chart-box">
+            <canvas id="volChart"></canvas>
+            <div class="chart-legend">
+              <span><i class="swatch" style="background:#305DDC"></i> 평균 이상</span>
+              <span><i class="swatch" style="background:rgba(48,93,220,.28)"></i> 평균 미만</span>
+              <span><i class="swatch" style="background:#A96C15"></i> 20일 평균</span>
+              <span><i class="swatch" style="background:#7C4DCC;height:9px;width:3px"></i> 신호 발생일</span>
+            </div>
+          </div>
+          <div class="kv">
+            <div><div class="k">최근 거래량</div><div class="v mono">${fmtCompact(series.volume.latest)}</div></div>
+            <div><div class="k">20일 평균</div><div class="v mono">${fmtCompact(series.volume.average)}</div></div>
+            <div><div class="k">평균 대비</div>
+              <div class="v mono ${volTone(series.volume.ratio)}">${series.volume.ratio!=null?series.volume.ratio.toFixed(2)+"배":"-"}</div>
+              <div class="n">${volLabel(series.volume.ratio)}</div></div>
+            <div><div class="k">급증일</div><div class="v mono">${spikes(series)}</div>
+              <div class="n">평균의 2배 이상 · 최근 ${series.volume.days}일</div></div>
+          </div>` : `
+          <div class="state">${escapeHTML(series?.volume?.reason || "거래량 데이터가 아직 없습니다. 다음 스캔에서 채워집니다.")}</div>`}
+      </section>`,
+    indicators: chartSection(series && series.chart) || '<div class="state">차트 요약이 아직 없습니다.</div>',
+    signals: `
+      ${signal ? `
+      <section>
+        <div class="section-title"><div class="title">최근 신호</div></div>
         <div class="kv">
-          <div><div class="k">최근 거래량</div>
-            <div class="v mono">${fmtCompact(series.volume.latest)}</div></div>
-          <div><div class="k">20일 평균</div>
-            <div class="v mono">${fmtCompact(series.volume.average)}</div></div>
-          <div><div class="k">평균 대비</div>
-            <div class="v mono ${volTone(series.volume.ratio)}">${
-              series.volume.ratio!=null?series.volume.ratio.toFixed(2)+"배":"-"}</div>
-            <div class="n">${volLabel(series.volume.ratio)}</div></div>
-          <div><div class="k">급증일</div>
-            <div class="v mono">${spikes(series)}</div>
-            <div class="n">평균의 2배 이상 · 최근 ${series.volume.days}일</div></div>
+          <div><div class="k">발생일</div><div class="v mono">${escapeHTML(signal.observation_date||"-")}</div></div>
+          <div><div class="k">진입가</div><div class="v mono">${fmtPrice(signal.entry_price)}</div></div>
+          <div><div class="k">목표가</div><div class="v mono">${fmtPrice(signal.target_price)}</div>
+            <div class="n">${signal.entry_price?fmtPctShort((signal.target_price/signal.entry_price-1)*100):""}</div></div>
+          <div><div class="k">손절가</div><div class="v mono">${fmtPrice(signal.stop_price)}</div>
+            <div class="n">${signal.entry_price?fmtPctShort((signal.stop_price/signal.entry_price-1)*100):""}</div></div>
+          <div><div class="k">RSI</div><div class="v mono">${signal.rsi!=null?signal.rsi.toFixed(1):"-"}</div></div>
+          <div><div class="k">거래량 비율</div><div class="v mono">${signal.volume_ratio!=null?signal.volume_ratio.toFixed(2)+"배":"-"}</div></div>
+          <div><div class="k">최근 분기</div><div class="v">${signal.profitable===true?"흑자":signal.profitable===false?"적자":"-"}</div></div>
+          <div><div class="k">매출 성장</div>
+            <div class="v mono ${signal.revenue_growth_pct!=null?changeClass(signal.revenue_growth_pct):""}">
+              ${signal.revenue_growth_pct!=null?fmtPctShort(signal.revenue_growth_pct):"-"}</div></div>
         </div>
-      ` : `
-        <div class="state">
-          ${escapeHTML(series?.volume?.reason ||
-            "거래량 데이터가 아직 없습니다. 다음 스캔에서 채워집니다.")}
-        </div>
-      `}
-    </section>
+      </section>` : ""}
+      <section>
+        <div class="section-title"><div class="title">이 종목의 신호 이력</div></div>
+        ${history.length ? `
+          <div class="kv" style="margin-bottom:12px">
+            <div><div class="k">신호 횟수</div><div class="v mono">${history.length}</div></div>
+            <div><div class="k">관측 기간</div>
+              <div class="v mono">${escapeHTML(history[history.length-1]?.observation_date||"-")}</div>
+              <div class="n">~ ${escapeHTML(history[0]?.observation_date||"-")}</div></div>
+          </div>
+          <div class="notice-box" style="margin-bottom:12px">
+            <strong>고정 기간 승패 표시를 내렸습니다.</strong>
+            여기에는 5일 뒤 수익률과 그에 따른 이김 / 짐이 있었습니다.
+            5일 · 10일 · 30일은 원래 시장 지수 대비를 재는 눈금이었는데,
+            그것이 어느새 투자 판단의 정답처럼 쓰이고 있었습니다.
+            같은 신호가 5일과 10일에 승패가 반대로 나오는 경우가
+            네 건 중 하나였습니다. 눈금을 목표로 착각한 것입니다.
+            지금은 보유 기간을 미리 정하지 않고 종목마다 언제 나갈지를
+            스스로 정하는 방식을 검증하는 중이며, 검증이 끝나기 전에는
+            성과를 표시하지 않습니다.
+          </div>
+          <div class="table-scroll">
+          <table class="research-table">
+            <thead><tr><th>발생일</th><th class="num">진입</th></tr></thead>
+            <tbody>
+              ${history.map(h=>`<tr><td class="mono">${escapeHTML(h.observation_date||"-")}</td>
+                <td class="num mono">${fmtPrice(h.entry_price)}</td></tr>`).join("")}
+            </tbody>
+          </table>
+          </div>
+        ` : `<div class="state">이 종목의 신호 기록이 없습니다.</div>`}
+      </section>`,
+    similar: outlookSection(series && series.outlook) || '<div class="state">비슷한 흐름 통계가 아직 없습니다.</div>',
+    news: newsSection(news)
+  };
 
-    ${chartSection(series && series.chart)}
-
-    ${outlookSection(series && series.outlook)}
-
-    ${newsSection(news)}
-
-    ${signal ? `
-    <section>
-      <div class="section-title"><div class="title">최근 신호</div></div>
-      <div class="kv">
-        <div><div class="k">발생일</div><div class="v mono">${escapeHTML(signal.observation_date||"-")}</div></div>
-        <div><div class="k">진입가</div><div class="v mono">${fmtPrice(signal.entry_price)}</div></div>
-        <div><div class="k">목표가</div><div class="v mono">${fmtPrice(signal.target_price)}</div>
-          <div class="n">${signal.entry_price?fmtPctShort((signal.target_price/signal.entry_price-1)*100):""}</div></div>
-        <div><div class="k">손절가</div><div class="v mono">${fmtPrice(signal.stop_price)}</div>
-          <div class="n">${signal.entry_price?fmtPctShort((signal.stop_price/signal.entry_price-1)*100):""}</div></div>
-        <div><div class="k">RSI</div><div class="v mono">${signal.rsi!=null?signal.rsi.toFixed(1):"-"}</div></div>
-        <div><div class="k">거래량 비율</div><div class="v mono">${signal.volume_ratio!=null?signal.volume_ratio.toFixed(2)+"배":"-"}</div></div>
-        <div><div class="k">최근 분기</div><div class="v">${signal.profitable===true?"흑자":signal.profitable===false?"적자":"-"}</div></div>
-        <div><div class="k">매출 성장</div>
-          <div class="v mono ${signal.revenue_growth_pct!=null?changeClass(signal.revenue_growth_pct):""}">
-            ${signal.revenue_growth_pct!=null?fmtPctShort(signal.revenue_growth_pct):"-"}</div></div>
+  $("content").innerHTML = `
+    <section class="card sd-head">
+      <div class="sd-id">
+        <div class="sd-tk">${escapeHTML(TICKER)}
+          <button type="button" class="star" id="watchBtn" aria-pressed="${watching}"
+            aria-label="${escapeHTML(TICKER)} 관심 종목 ${watching?"빼기":"담기"}">${watching?"★":"☆"}</button></div>
+        <div class="sd-nm">${escapeHTML(name)}</div>
+        <div class="sd-ind">${escapeHTML([latest?.industry, latest?.market_cap_b!=null?"시가총액 "+(latest.market_cap_b>=1000?"$"+(latest.market_cap_b/1000).toFixed(2)+"T":"$"+Number(latest.market_cap_b).toFixed(1)+"B"):null].filter(Boolean).join(" · "))}</div>
       </div>
-    </section>` : ""}
-
-    <section>
-      <div class="section-title"><div class="title">이 종목의 신호 이력</div></div>
-      ${history.length ? `
-        <div class="kv" style="margin-bottom:12px">
-          <div><div class="k">신호 횟수</div><div class="v mono">${history.length}</div></div>
-          <div><div class="k">관측 기간</div>
-            <div class="v mono">${escapeHTML(history[history.length-1]?.observation_date||"-")}</div>
-            <div class="n">~ ${escapeHTML(history[0]?.observation_date||"-")}</div></div>
-        </div>
-
-        <div class="notice-box" style="margin-bottom:12px">
-          <strong>고정 기간 승패 표시를 내렸습니다.</strong>
-          여기에는 5일 뒤 수익률과 그에 따른 이김 / 짐이 있었습니다.
-          5일 · 10일 · 30일은 원래 시장 지수 대비를 재는 눈금이었는데,
-          그것이 어느새 투자 판단의 정답처럼 쓰이고 있었습니다.
-          같은 신호가 5일과 10일에 승패가 반대로 나오는 경우가
-          네 건 중 하나였습니다. 눈금을 목표로 착각한 것입니다.
-          지금은 보유 기간을 미리 정하지 않고 종목마다 언제 나갈지를
-          스스로 정하는 방식을 검증하는 중이며, 검증이 끝나기 전에는
-          성과를 표시하지 않습니다.
-        </div>
-
-        <div class="table-scroll">
-        <table class="research-table">
-          <thead><tr>
-            <th>발생일</th><th class="num">진입</th>
-          </tr></thead>
-          <tbody>
-            ${history.map(h=>`
-              <tr>
-                <td class="mono">${escapeHTML(h.observation_date||"-")}</td>
-                <td class="num mono">${fmtPrice(h.entry_price)}</td>
-              </tr>`).join("")}
-          </tbody>
-        </table>
-        </div>
-      ` : `<div class="state">이 종목의 신호 기록이 없습니다.</div>`}
+      <div class="sd-px">
+        <div class="v mono">${price!=null?fmtPrice(price):"-"}</div>
+        <div class="chg mono ${change!=null?changeClass(change):""}">${change!=null?fmtPctShort(change)+" 전일 대비":""}</div>
+        <div class="asof">${asOf?escapeHTML(asOf)+" 종가 기준":""}${latest?" · 오늘 신호 종목":""}</div>
+      </div>
     </section>
+
+    <div class="sd-tabs" role="tablist" aria-label="종목 상세">
+      ${TABS.map(([k,l])=>`<button type="button" role="tab" id="tab-${k}" aria-controls="panel-${k}" aria-selected="false" tabindex="-1" data-tab="${k}">${l}${k==="news"&&items.length?` <span class="badge">${items.length}</span>`:""}</button>`).join("")}
+    </div>
+
+    ${TABS.map(([k])=>`<div class="sd-panel" role="tabpanel" id="panel-${k}" aria-labelledby="tab-${k}" hidden>${panels[k]}</div>`).join("")}
   `;
 
-  if(series && series.points.length >= 2){
+  const drawn = {};
+  function drawCharts(){
+    if(!series || series.points.length < 2) return;
     drawPrice(series, series.signals || []);
     if(volAvailable) drawVolume(series, series.signals || []);
   }
+  function show(k, focus){
+    if(!TABS.some(t=>t[0]===k)) k = "summary";
+    TABS.forEach(([t])=>{
+      const on = t===k, b = $("tab-"+t);
+      b.setAttribute("aria-selected", String(on)); b.tabIndex = on ? 0 : -1;
+      $("panel-"+t).hidden = !on;
+    });
+    if(focus) $("tab-"+k).focus();
+    if(k==="chart"){ drawCharts(); drawn.chart = true; }
+    if(location.hash.slice(1)!==k) window.history.replaceState(null, "", k==="summary" ? location.pathname+location.search : "#"+k);
+  }
+  document.querySelector(".sd-tabs").addEventListener("click", e=>{
+    const b = e.target.closest("[role=tab]"); if(b) show(b.dataset.tab);
+  });
+  document.querySelector(".sd-tabs").addEventListener("keydown", e=>{
+    if(e.key!=="ArrowRight" && e.key!=="ArrowLeft" && e.key!=="Home" && e.key!=="End") return;
+    const i = TABS.findIndex(([t])=>$("tab-"+t).getAttribute("aria-selected")==="true");
+    const n = e.key==="Home" ? 0 : e.key==="End" ? TABS.length-1 : (i + (e.key==="ArrowRight"?1:-1) + TABS.length) % TABS.length;
+    e.preventDefault(); show(TABS[n][0], true);
+  });
+  $("content").addEventListener("click", e=>{
+    const g = e.target.closest("[data-go]"); if(g) { show(g.dataset.go); window.scrollTo({top:0}); }
+  });
+  $("watchBtn").addEventListener("click", ()=>{
+    const set = watchSet(), on = !set.has(TICKER);
+    if(on) set.add(TICKER); else set.delete(TICKER);
+    watchSave(set);
+    $("watchBtn").setAttribute("aria-pressed", String(on));
+    $("watchBtn").textContent = on ? "★" : "☆";
+    $("watchBtn").setAttribute("aria-label", `${TICKER} 관심 종목 ${on?"빼기":"담기"}`);
+  });
+  show(location.hash.slice(1) || "summary");
+  window.addEventListener("hashchange", ()=>show(location.hash.slice(1) || "summary"));
 
   window.addEventListener("resize", ()=>{
-    if(!series || series.points.length < 2) return;
+    if($("panel-chart").hidden) return;
     clearTimeout(window.__rt);
-    window.__rt = setTimeout(()=>{
-      drawPrice(series, series.signals || []);
-      if(volAvailable) drawVolume(series, series.signals || []);
-    }, 150);
+    window.__rt = setTimeout(drawCharts, 150);
   });
 }
 
@@ -662,8 +766,8 @@ function fmtCompact(v){
 }
 
 (async function(){
-  if(!TICKER){ fail("종목이 지정되지 않았습니다."); return; }
-  document.title = TICKER + " · NASDAQ IT 스크리너";
+  if(!TICKER){ pickTicker(); return; }
+  document.title = TICKER + " · NASDAQ Research";
 
   /* performance.json 은 더 이상 받지 않는다.
      거기 들어 있는 것은 고정 기간(5일·10일·30일) 성과뿐이고,

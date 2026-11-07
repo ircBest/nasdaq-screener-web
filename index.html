@@ -15,7 +15,7 @@
 
   <meta
     name="apple-mobile-web-app-status-bar-style"
-    content="black-translucent"
+    content="default"
   >
 
   <meta
@@ -25,15 +25,15 @@
 
   <meta
     name="theme-color"
-    content="#0A0C10"
+    content="#FFFFFF"
   >
 
   <meta
     name="description"
-    content="NASDAQ IT 종목 자동 스크리닝과 Signal 사후 성과 추적 대시보드"
+    content="나스닥 IT 종목 스크리너 · 시장 개요 · 연구 검증 현황"
   >
 
-  <title>NASDAQ IT 스크리너</title>
+  <title>NASDAQ Research</title>
 
   <link
     rel="manifest"
@@ -86,7 +86,17 @@
 
   <link
     rel="stylesheet"
-    href="./css/style.css?v=20260903a"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="./css/style.css?v=20261107b"
+  >
+
+  <link
+    rel="stylesheet"
+    href="./css/terminal.css?v=20261107f"
   >
   <style>
     /* VIX 카드 (vix.json) — 숫자와 흐름만 싣는다 */
@@ -110,7 +120,7 @@
     .vix-range { margin-top: 10px; }
     .vix-range-bar { position: relative; height: 6px; border-radius: 3px; background: var(--border); }
     .vix-range-dot { position: absolute; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px;
-      border-radius: 50%; background: #4F8FEF; box-shadow: 0 0 0 2px var(--surface); }
+      border-radius: 50%; background: #305DDC; box-shadow: 0 0 0 2px var(--surface); }
     .vix-range-lbl { display: flex; justify-content: space-between; margin-top: 5px;
       color: var(--text-faint); font-size: 10.5px; }
     .vix-range-lbl b { color: var(--text-dim); font-weight: 600; }
@@ -124,556 +134,151 @@
 
 </head>
 
-<body>
+<body class="home">
+<script src="./js/shell.js?v=20261107c"></script>
 
-<header>
+<main class="home-main">
 
-  <div class="eyebrow">
-    <span class="dot"></span>
-    AUTO SCREENER · 매일 아침 자동 스캔
+  <!-- 상단: 검색 · 갱신 시각 -->
+  <div class="topbar">
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <span class="sr-only">티커 또는 기업명 검색</span>
+      <input id="q" type="search" placeholder="티커 또는 기업명 검색 (예: NVDA, Microsoft)"
+        autocomplete="off" autocapitalize="characters" spellcheck="false" enterkeyhint="search">
+    </label>
+    <div class="top-meta">
+      <span class="upd" id="updated">불러오는 중…</span>
+      <a class="top-btn" href="learning.html">연구 현황</a>
+    </div>
   </div>
 
-  <h1>
-    NASDAQ IT 스크리너
-  </h1>
+  <div class="stale-warning" id="staleWarning" hidden></div>
 
-  <div class="sub">
-    RSI 과매도 · 재무 데이터 · 거래량 · 위험관리 · Research
+  <!-- 시장 개요 -->
+  <div class="sec-head">
+    <h1 class="h">시장 개요</h1>
+    <span class="hint" id="mktDate"></span>
   </div>
-
-  <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
-    <a href="learning.html" style="display:inline-flex;align-items:center;
-       gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
-       border:1px solid var(--border);border-radius:999px;
-       padding:6px 14px">
-      지금 무엇을 배우고 있는가 &rarr;
-    </a>
-    <a href="positions.html" style="display:inline-flex;align-items:center;
-       gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
-       border:1px solid var(--border);border-radius:999px;
-       padding:6px 14px">
-      높게 본 것이 정말 올랐는가 &rarr;
-    </a>
-    <a href="rankings.html" style="display:inline-flex;align-items:center;
-       gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
-       border:1px solid var(--border);border-radius:999px;
-       padding:6px 14px">
-      오늘의 순위 &rarr;
-    </a>
-    <a href="sectors.html" style="display:inline-flex;align-items:center;
-       gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
-       border:1px solid var(--border);border-radius:999px;
-       padding:6px 14px">
-      업종 순위 &rarr;
-    </a>
-  </div>
-
-</header>
-
-<main>
-
-  <!-- =====================================================
-       STATUS
-       ===================================================== -->
-
-  <div class="status-strip">
-
-    <div class="status-cell">
-
-      <div
-        class="val mono"
-        id="scannedCount"
-      >
-        -
-      </div>
-
-      <div class="lbl">
-        전체 스캔 종목
-      </div>
-
-    </div>
-
-    <div class="status-cell">
-
-      <div
-        class="val mono"
-        id="observationCount"
-      >
-        -
-      </div>
-
-      <div class="lbl">
-        Observation
-      </div>
-
-    </div>
-
-    <div class="status-cell">
-
-      <div
-        class="val mono"
-        id="foundCount"
-      >
-        -
-      </div>
-
-      <div class="lbl">
-        Signal
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <!-- =====================================================
-       RESEARCH STATUS
-       ===================================================== -->
-
-  <div class="research-status">
-
-    <div class="research-status-card">
-
-      <div class="k">
-        Research 완료
-      </div>
-
-      <div
-        class="v green"
-        id="researchCompleted"
-      >
-        -
-      </div>
-
-    </div>
-
-    <div class="research-status-card">
-
-      <div class="k">
-        Research 대기
-      </div>
-
-      <div
-        class="v amber"
-        id="researchPending"
-      >
-        -
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <!-- =====================================================
-       VIX (vix.json — 매일 스캔이 만든다)
-       ===================================================== -->
-
-  <section class="vix-card" id="vixCard" hidden>
-    <div class="vix-head">
-      <span class="vix-name">VIX</span>
-      <span class="vix-date mono" id="vixDate"></span>
-    </div>
-    <div class="vix-main">
-      <span class="vix-val" id="vixClose">-</span>
-      <span class="vix-chg mono" id="vixChg1"></span>
-    </div>
-    <div class="vix-row mono">
-      <span>5일 <b id="vixChg5">-</b></span>
-      <span>20일 <b id="vixChg20">-</b></span>
-    </div>
-    <div class="vix-chart" id="vixChart">
-      <svg id="vixSvg" role="img" aria-label="VIX 최근 1년"></svg>
-      <div class="vix-tip" id="vixTip" hidden></div>
-    </div>
-    <div class="vix-range">
-      <div class="vix-range-bar"><span class="vix-range-dot" id="vixRangeDot"></span></div>
-      <div class="vix-range-lbl mono">
-        <span>1년 최저 <b id="vixLow">-</b></span>
-        <span>1년 최고 <b id="vixHigh">-</b></span>
-      </div>
-    </div>
-    <details>
-      <summary>최근 20일</summary>
-      <table><tbody id="vixTable"></tbody></table>
-    </details>
+  <section class="mkt" id="mkt" aria-label="시장 개요">
+    <div class="state">불러오는 중…</div>
   </section>
 
+  <section class="stats" id="stats" aria-label="요약 숫자"></section>
 
-  <div class="meta-line">
-
-    <span id="lastUpdated">
-      마지막 스캔: 불러오는 중...
-    </span>
-
-  </div>
-
-
-  <!-- 데이터가 오래됐을 때만 나타난다 -->
-  <div
-    class="stale-warning"
-    id="staleWarning"
-    hidden
-  ></div>
-
-
-
-  <!-- =====================================================
-       은퇴한 판정 — 고정 기간(5·10·30일) 성과 표시
-       =====================================================
-
-       전략 비교 · Research Performance · Research 상세 ·
-       Research Statistics 네 구역이 여기 있었다.
-
-       전부 고정 기간 승패를 보여주고 있었다. 5일·10일·30일은
-       원래 시장 지수 대비를 재는 눈금이었는데 투자 판단의
-       정답처럼 쓰이고 있었다. 같은 신호가 5일과 10일에 승패가
-       반대인 경우가 네 건 중 하나였다.
-
-       지금은 보유 기간을 미리 정하지 않는 방식을 검증하는
-       중이고, 검증 전의 성과는 표시하지 않는다.
-       ===================================================== -->
-
-  <div class="section-title">
-    <div class="title">Research</div>
-  </div>
-
-  <div class="notice-box">
-    <strong>고정 기간 성과 표시를 내렸습니다.</strong>
-    여기에는 5일 · 10일 · 30일 기준의 승률과 전략 비교가
-    있었습니다. 그 기간들은 원래 시장 지수 대비를 재는
-    눈금이었는데 어느새 투자 판단의 정답처럼 쓰이고
-    있었습니다. 같은 신호가 5일과 10일에 승패가 반대로
-    나오는 경우가 네 건 중 하나였습니다.
-    지금은 보유 기간을 미리 정하지 않고 종목마다 언제 나갈지를
-    스스로 정하는 방식을 검증하는 중이며, 검증이 끝나기 전에는
-    성과를 표시하지 않습니다.
-    <div style="margin-top:10px">
-      <a href="learning.html" style="color:#6EA8FE;
-         text-decoration:none;font-size:13px">
-        지금 무엇을 배우고 있는가 &rarr;
-      </a>
-    </div>
-  </div>
-
-  <!-- =====================================================
-       BSI
-       ===================================================== -->
-
-  <div class="section-title">
-
-    <div class="title">
-      BSI · Backtest Signal Index
+  <!-- 종목 스크리너 -->
+  <section class="card screener" id="screener" aria-label="종목 스크리너">
+    <div class="tabs" role="tablist" aria-label="목록 고르기">
+      <button type="button" role="tab" aria-selected="true" data-tab="all">종목 스크리너</button>
+      <button type="button" role="tab" aria-selected="false" data-tab="watch">관심 종목 <span class="badge" id="watchCount"></span></button>
+      <span class="asof" id="asof"></span>
     </div>
 
-    <div
-      class="hint"
-      id="bsiUpdated"
-    >
-      -
+    <div class="filters" role="group" aria-label="필터">
+      <label><span class="sr-only">RSI 기준</span><select id="fRsi"></select></label>
+      <label><span class="sr-only">재무</span><select id="fProfit">
+        <option value="all">재무 전체</option><option value="profit">최근 분기 흑자만</option></select></label>
+      <label><span class="sr-only">시가총액</span><select id="fCap">
+        <option value="all">시가총액 전체</option><option value="large">$100억 이상</option>
+        <option value="mid">$20억 ~ 100억</option><option value="small">$20억 미만</option></select></label>
+      <label><span class="sr-only">업종</span><select id="fInd"><option value="all">업종 전체</option></select></label>
+      <label><span class="sr-only">흔들림</span><select id="fTier">
+        <option value="all">흔들림 전체</option><option value="calm">낮음 · 보통만</option><option value="wild">높음 · 매우 높음만</option></select></label>
+      <label class="sort"><span>정렬</span><select id="fSort"></select></label>
     </div>
 
-  </div>
-
-
-  <!-- 아래 BSI / Statistics를 어느 전략 기준으로 볼지 -->
-  <div
-    class="strategy-switch"
-    id="strategySwitch"
-    hidden
-  >
-
-    <label
-      class="sr-only"
-      for="strategySelect"
-    >
-      기준 전략 선택
-    </label>
-
-    <select id="strategySelect"></select>
-
-    <div class="strategy-switch-note">
-      아래 BSI와 Statistics가 선택한 전략 기준으로 바뀝니다.
+    <div class="result-meta">
+      <span id="resultCount">-</span>
+      <button type="button" class="link-btn" id="resetFilters">필터 초기화</button>
     </div>
 
-  </div>
+    <div class="tbl-wrap">
+      <table class="scr">
+        <caption class="sr-only">그날 신호 종목. 머리를 눌러 정렬합니다.</caption>
+        <thead>
+          <tr>
+            <th class="c-star" scope="col"><span class="sr-only">관심</span></th>
+            <th class="c-idx num" scope="col">#</th>
+            <th class="c-tk" scope="col" data-sort="ticker"><button type="button">티커</button></th>
+            <th class="c-name" scope="col">기업명</th>
+            <th class="num" scope="col" data-sort="price"><button type="button">가격</button></th>
+            <th class="num" scope="col" data-sort="change"><button type="button">등락률</button></th>
+            <th class="num" scope="col" data-sort="rsi"><button type="button">RSI</button></th>
+            <th class="num c-opt" scope="col" data-sort="cap"><button type="button">시가총액</button></th>
+            <th class="num c-opt" scope="col" data-sort="rr"><button type="button">Risk/Reward</button></th>
+            <th class="num c-opt" scope="col" data-sort="volume"><button type="button">거래량 배수</button></th>
+            <th class="c-opt" scope="col" data-sort="tier"><button type="button">흔들림</button></th>
+            <th class="c-opt" scope="col">메모</th>
+          </tr>
+        </thead>
+        <tbody id="rows"><tr><td colspan="12" class="empty">불러오는 중…</td></tr></tbody>
+      </table>
+    </div>
+    <div class="more"><button type="button" class="btn-sec" id="moreBtn" hidden>25개 더 보기</button></div>
+    <p class="tbl-note">메모는 사실만 적습니다 (RSI 30 아래 · 거래량이 20일 평균의 2배 이상 · 최근 분기 흑자/적자).
+      재무 자료가 없는 기업은 적자로 치지 않습니다. 투자 판단의 근거가 아니라 정량 조건으로 고른 목록입니다.</p>
+  </section>
 
+  <!-- 아래 패널 -->
+  <section class="panels" aria-label="보조 패널">
+    <div class="card panel">
+      <div class="panel-head"><h2>신호 뒤 평균 수익 · QQQ 비교</h2><span class="hint">사후 기록</span></div>
+      <div id="bsiBody"><div class="state">불러오는 중…</div></div>
+      <p class="panel-note">신호가 난 날을 0 으로 두고, 그 뒤 거래일마다 신호 종목의 평균 수익과 같은 구간 QQQ 수익을 견줍니다.
+        고정 기간 승률은 검증이 끝나기 전까지 표시하지 않습니다.</p>
+    </div>
 
-  <div class="bsi-card">
-
-    <div
-      class="bsi-grid"
-      id="bsiGrid"
-    >
-
-      <div
-        class="empty-state loading-state"
-        style="grid-column:1/-1;"
-      >
-        BSI 데이터를 불러오는 중...
+    <section class="vix-card card panel" id="vixCard" hidden>
+      <div class="vix-head">
+        <span class="vix-name">VIX 추이</span>
+        <span class="vix-date mono" id="vixDate"></span>
       </div>
-
-    </div>
-
-
-    <div class="curve-wrap">
-
-      <div class="curve-header">
-
-        <div class="curve-title">
-          Signal 발생 이후 평균 수익률 Curve
-        </div>
-
-        <div
-          class="curve-value"
-          id="curveLatest"
-        >
-          -
-        </div>
-
+      <div class="vix-main">
+        <span class="vix-val" id="vixClose">-</span>
+        <span class="vix-chg mono" id="vixChg1"></span>
       </div>
+      <div class="vix-row mono">
+        <span>5일 <b id="vixChg5">-</b></span>
+        <span>20일 <b id="vixChg20">-</b></span>
+      </div>
+      <div class="vix-chart" id="vixChart">
+        <svg id="vixSvg" role="img" aria-label="VIX 최근 1년"></svg>
+        <div class="vix-tip" id="vixTip" hidden></div>
+      </div>
+      <div class="vix-range">
+        <div class="vix-range-bar"><span class="vix-range-dot" id="vixRangeDot"></span></div>
+        <div class="vix-range-lbl mono">
+          <span>1년 최저 <b id="vixLow">-</b></span>
+          <span>1년 최고 <b id="vixHigh">-</b></span>
+        </div>
+      </div>
+      <details>
+        <summary>최근 20일</summary>
+        <table><tbody id="vixTable"></tbody></table>
+      </details>
+    </section>
 
-      <canvas
-        id="bsiCanvas"
-      ></canvas>
-
-      <div
-        class="curve-note"
-        id="curveNote"
-      ></div>
-
+    <div class="card panel">
+      <div class="panel-head"><h2>연구 검증 현황</h2><span class="hint">채점 끝난 판단 기준</span></div>
+      <div id="researchBody"><div class="state">불러오는 중…</div></div>
     </div>
-
-  </div>
-
-
-  <!-- =====================================================
-       SIGNAL RESULTS
-       ===================================================== -->
-
-  <div class="section-title">
-
-    <div class="title">
-      Signal Results
-    </div>
-
-    <div
-      class="hint"
-      id="resultCount"
-    >
-      -
-    </div>
-
-  </div>
-
-
-  <!-- 필터 -->
-
-  <button
-    class="settings-toggle"
-    id="settingsToggle"
-    type="button"
-    aria-expanded="false"
-    aria-controls="settingsPanel"
-  >
-
-    <span>
-      필터 조정
-    </span>
-
-    <span id="settingsCaret">
-      ▾
-    </span>
-
-  </button>
-
-
-  <div
-    class="settings-panel"
-    id="settingsPanel"
-  >
-
-    <div class="field">
-
-      <label for="tickerSearch">
-
-        <span>
-          티커 / 종목명 검색
-        </span>
-
-      </label>
-
-      <input
-        type="search"
-        id="tickerSearch"
-        class="text-input"
-        placeholder="예: NVDA"
-        autocomplete="off"
-        autocapitalize="characters"
-        spellcheck="false"
-      >
-
-    </div>
-
-
-    <div class="field">
-
-      <label for="rsiRange">
-
-        <span>
-          RSI 기준 (이하)
-        </span>
-
-        <span
-          class="v"
-          id="rsiVal"
-        >
-          40
-        </span>
-
-      </label>
-
-      <input
-        type="range"
-        id="rsiRange"
-        min="10"
-        max="40"
-        value="40"
-      >
-
-    </div>
-
-
-    <div class="field">
-
-      <label for="sortSelect">
-
-        <span>
-          정렬
-        </span>
-
-      </label>
-
-      <select id="sortSelect">
-
-        <option value="rsi">
-          RSI 낮은 순
-        </option>
-
-        <option value="change">
-          등락률 높은 순
-        </option>
-
-        <option value="cap">
-          시가총액 큰 순
-        </option>
-
-        <option value="rr">
-          Risk / Reward 높은 순
-        </option>
-
-        <option value="volume">
-          거래량 비율 높은 순
-        </option>
-
-      </select>
-
-    </div>
-
-
-    <div class="field toggle-row">
-
-      <label
-        for="reqProfit"
-        style="margin:0;"
-      >
-        최근 분기 흑자 기업만
-      </label>
-
-      <label class="switch">
-
-        <input
-          type="checkbox"
-          id="reqProfit"
-        >
-
-        <span class="slider-toggle"></span>
-
-      </label>
-
-    </div>
-
-  </div>
-
-
-  <div id="resultsContainer">
-
-    <div class="empty-state loading-state">
-      데이터를 불러오는 중입니다...
-    </div>
-
-  </div>
-
-
-  <!-- =====================================================
-       NOTICE
-       ===================================================== -->
-
-  <div class="notice-box">
-
-    이 페이지는
-    매일 아침(한국시간)
-    GitHub Actions가 자동으로 스캔한 결과를 표시합니다.
-
-    <br><br>
-
-    Research Performance와 BSI는
-    과거 Signal의 성과가 충분히 누적된 경우에만
-    해당 기간의 값을 표시합니다.
-
-    <br><br>
-
-    투자 판단의 근거가 아니라
-    정량 조건의 사후 검증 기록입니다.
-
-  </div>
-
-
-  <!-- =====================================================
-       FOOTER
-       ===================================================== -->
-
-  <div class="footer-note">
-
-    Safari 공유 버튼 →
-    “홈 화면에 추가”를 선택하면
-    앱처럼 사용할 수 있습니다.
-
-    <br><br>
-
-    Research 데이터는
-    충분한 거래일이 축적된 이후 자동으로 갱신됩니다.
-
-  </div>
+  </section>
+
+  <footer class="home-foot">
+    매일 아침(한국 시간) GitHub Actions 가 자동으로 스캔한 결과입니다. 투자 판단의 근거가 아니라 정량 조건의 사후 검증 기록입니다.
+    · Safari 공유 버튼 → "홈 화면에 추가" 로 앱처럼 쓸 수 있습니다.
+  </footer>
 
 </main>
 
-
-<!-- =========================================================
-     JAVASCRIPT MODULES
-     ========================================================= -->
-
-<!-- v 값은 위 스타일시트와 항상 함께 올린다 -->
-<script src="./js/utils.js?v=20260903a"></script>
-<script src="./js/data.js?v=20260903a"></script>
-<script src="./js/ui.js?v=20260903a"></script>
-<script src="./js/main.js?v=20260903a"></script>
-
+<script src="./js/utils.js?v=20261107b"></script>
+<script src="./js/data.js?v=20261107b"></script>
+<script src="./js/home.js?v=20261107b"></script>
 <script>
 // VIX 카드 — vix.json 을 읽어 숫자 · 1년 흐름 · 최근 20일 표를 그린다.
 (function () {
   const $ = (id) => document.getElementById(id);
-  const LINE = "#4F8FEF";
+  const LINE = "#305DDC";
   const NS = "http://www.w3.org/2000/svg";
   const fmt = (v) => (v == null ? "-" : v.toFixed(2));
   const sign = (v) => (v > 0 ? "+" : v < 0 ? "−" : "");
@@ -748,8 +353,8 @@
     svg.onpointerleave = hide;
   }
 
-  fetch("vix.json", { cache: "no-cache" })
-    .then((r) => (r.ok ? r.json() : null))
+  (window.NR_JSON ? window.NR_JSON("vix.json")
+    : fetch("vix.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)))
     .then((v) => {
       if (!v || v.close == null) return;
       $("vixDate").textContent = v.date;

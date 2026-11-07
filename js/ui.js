@@ -544,7 +544,7 @@ function renderBSICurve(
   ) {
 
     ctx.fillStyle =
-      "#565E6E";
+      "#7A8699";
 
     ctx.font =
       "12px IBM Plex Mono";
@@ -580,7 +580,7 @@ function renderBSICurve(
   ) {
 
     ctx.fillStyle =
-      "#565E6E";
+      "#7A8699";
 
     ctx.font =
       "12px IBM Plex Mono";
@@ -722,7 +722,7 @@ function renderBSICurve(
   );
 
   ctx.strokeStyle =
-    "#232833";
+    "#E2E8F0";
 
   ctx.lineWidth = 1;
 
@@ -768,7 +768,7 @@ function renderBSICurve(
       }
     );
 
-    ctx.strokeStyle = "#6E7787";
+    ctx.strokeStyle = "#94A0B2";
 
     ctx.lineWidth = 1.5;
 
@@ -836,8 +836,8 @@ function renderBSICurve(
 
   const lineColor =
     lastValue >= 0
-      ? "#3ECF8E"
-      : "#FF5C5C";
+      ? "#168264"
+      : "#C95359";
 
   function drawSegment(
     fromIndex,

@@ -3,97 +3,67 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>판단 장부 · NASDAQ IT 스크리너</title>
+<title>연구 장부 · NASDAQ Research</title>
 <meta name="description" content="어느 날 무엇을 높게 봤고, 그 뒤 얼마가 됐는지. 맞은 날과 틀린 날을 같이 적습니다.">
 <link rel="icon" href="icon.svg">
-<link rel="stylesheet" href="css/style.css?v=20260903a">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="css/style.css?v=20261107b">
+<link rel="stylesheet" href="css/terminal.css?v=20261107f">
 <style>
-/* 판단 장부 전용 */
-.note{background:var(--surface-2);border:1px solid var(--border);
-  border-left:3px solid var(--amber);border-radius:var(--radius);
-  padding:14px 16px;margin-bottom:22px;font-size:13px;
-  color:var(--text-dim);line-height:1.7}
+/* 연구 장부 전용 — 공통 모양은 css/terminal.css */
+.ret { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+.ret small { margin-left: 4px; padding: 1px 5px; border-radius: 4px; font-size: 10px; font-weight: 600;
+  background: var(--surface-3); color: var(--text-dim); }
+.tag { margin-left: 4px; padding: 1px 5px; border-radius: 4px; font-size: 10px; background: var(--surface-3); color: var(--text-dim); }
+.state { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 600;
+  background: #E8EEFC; color: var(--brand); }
+.state.out { background: var(--surface-3); color: var(--text-dim); }
+.state.wait, .state.blind { background: #FBF0E1; color: var(--amber); }
+.hold { display: flex; align-items: center; gap: 6px; }
+.hold .track { width: 44px; height: 5px; border-radius: 3px; background: var(--surface-3); overflow: hidden; }
+.hold .fill { height: 100%; background: var(--brand); }
+.hold .n { font-size: 11px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.alarm { margin-bottom: 14px; padding: 11px 14px; border: 1px solid #F0D7A8; border-radius: var(--radius);
+  background: #FBF4E6; font-size: 12.5px; line-height: 1.7; color: var(--text-dim); }
+.alarm b { color: var(--text); }
 
-.how{background:var(--surface-2);border:1px solid var(--border);
-  border-radius:var(--radius);padding:15px 18px;margin-bottom:22px;
-  font-size:13px;line-height:1.75;color:var(--text-dim)}
-.how b{color:var(--text)}
-.how p{margin:8px 0 0}
-.how .band{margin:0 2px}
+/* 날마다 줄이 맞았나 */
+.gapchart { padding: 6px 16px 14px; }
+.gap-row { display: grid; grid-template-columns: 86px 1fr 74px; align-items: center; gap: 10px; min-height: 22px; font-size: 12px; }
+.gap-row .d { color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.gap-row .t { position: relative; height: 10px; background: var(--surface-2); border-radius: 2px; }
+.gap-row .t::after { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: #C3CBD8; }
+.gap-row .t i { position: absolute; top: 0; bottom: 0; border-radius: 2px; }
+.gap-row .v { text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+.gap-legend { display: flex; flex-wrap: wrap; gap: 14px; padding: 0 16px 12px; font-size: 11.5px; color: var(--text-faint); }
 
-.tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
-  gap:10px;margin-bottom:26px}
-.tally div{background:var(--surface-2);border:1px solid var(--border);
-  border-radius:var(--radius);padding:13px 15px}
-.tally .k{font-size:11px;color:var(--text-faint);letter-spacing:.04em;
-  margin-bottom:5px}
-.tally .v{font-size:21px;font-weight:700;letter-spacing:-.02em;
-  font-variant-numeric:tabular-nums}
-
-.day{margin-bottom:30px}
-.day > h2{font-size:17px;font-weight:700;letter-spacing:-.02em;
-  margin:0 0 4px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-.day > h2 .when{font-size:12px;font-weight:500;color:var(--text-faint)}
-
-.verdict{font-size:13px;color:var(--text-dim);margin-bottom:12px;
-  line-height:1.6}
-.verdict b{font-variant-numeric:tabular-nums}
-.verdict .right{color:var(--green)}
-.verdict .wrong{color:var(--red)}
-
-.wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;
-  border:1px solid var(--border);border-radius:var(--radius)}
-table.led{width:100%;border-collapse:collapse;font-size:13px;
-  min-width:660px}
-table.led th{background:var(--surface-3);color:var(--text-dim);
-  font-size:11px;font-weight:600;letter-spacing:.04em;text-align:left;
-  padding:9px 12px;white-space:nowrap;
-  border-bottom:1px solid var(--border)}
-table.led td{padding:9px 12px;border-bottom:1px solid var(--border);
-  white-space:nowrap;font-variant-numeric:tabular-nums}
-table.led tr:last-child td{border-bottom:none}
-table.led td.sym{font-weight:700;letter-spacing:-.01em}
-table.led td.dim{color:var(--text-faint)}
-
-.band{display:inline-block;padding:2px 8px;border-radius:999px;
-  font-size:10px;font-weight:700;white-space:nowrap}
-.band.up{background:rgba(110,168,254,.15);color:var(--blue)}
-.band.down{background:rgba(138,147,166,.15);color:var(--text-dim)}
-
-.ret{font-weight:700}
-.ret.plus{color:var(--green)}
-.ret.minus{color:var(--red)}
-.ret.flat{color:var(--text-dim)}
-.ret small{font-weight:500;color:var(--text-faint);margin-left:5px}
-small.tag{font-size:10px;color:var(--text-faint);margin-left:5px;
-  font-variant-numeric:normal}
-
-.state{display:inline-block;padding:2px 8px;border-radius:999px;
-  font-size:10px;font-weight:700;white-space:nowrap;
-  background:var(--surface-3);color:var(--text-dim)}
-.state.out{background:rgba(62,207,142,.14);color:var(--green)}
-.state.wait{background:rgba(255,176,32,.14);color:var(--amber)}
-.state.blind{background:rgba(255,92,92,.14);color:var(--red)}
-
-.alarm{background:rgba(255,92,92,.08);border:1px solid rgba(255,92,92,.3);
-  border-left:3px solid var(--red);border-radius:var(--radius);
-  padding:14px 16px;margin-bottom:22px;font-size:13px;
-  color:var(--text-dim);line-height:1.7}
-.alarm b{color:var(--red)}
-
-.hold{display:flex;align-items:center;gap:7px;min-width:92px}
-.hold .track{flex:1;height:5px;border-radius:999px;
-  background:var(--border);overflow:hidden}
-.hold .fill{height:100%;background:var(--blue);border-radius:999px;
-  min-width:2px}
-.hold .n{font-size:11px;color:var(--text-faint)}
-
-.foot{margin-top:28px;padding-top:18px;
-  border-top:1px solid var(--border);font-size:12px;
-  color:var(--text-faint);line-height:1.8}
+/* 날짜별 접기 */
+details.day { margin-bottom: 10px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+details.day > summary { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 12px 16px; cursor: pointer; list-style: none; }
+details.day > summary::-webkit-details-marker { display: none; }
+details.day > summary::before { content: "▸"; color: var(--text-faint); font-size: 12px; }
+details.day[open] > summary::before { content: "▾"; }
+details.day > summary:focus-visible { outline: 2px solid var(--brand); outline-offset: -2px; border-radius: var(--radius); }
+.day-date { font-weight: 700; font-variant-numeric: tabular-nums; }
+.day-meta { font-size: 12px; color: var(--text-faint); }
+.day-verdict { margin-left: auto; font-size: 12.5px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.day-verdict b.right { color: var(--green); }
+.day-verdict b.wrong { color: var(--red); }
+.bands { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid var(--border); }
+.band-col + .band-col { border-left: 1px solid var(--border); }
+.band-col h3 { margin: 0; padding: 10px 14px; font-size: 13px; font-weight: 700; display: flex; justify-content: space-between; gap: 8px; }
+.band-col h3 small { font-weight: 500; color: var(--text-faint); }
+.band-col h3.up { color: var(--green); }
+.band-col h3.down { color: var(--red); }
+table.led { min-width: 0; }
+table.led td, table.led th { padding: 0 8px; }
+.day-tools { display: flex; gap: 8px; margin: 0 0 10px; }
+@media (max-width: 1100px) { .bands { grid-template-columns: 1fr; } .band-col + .band-col { border-left: 0; border-top: 1px solid var(--border); } }
+@media (max-width: 767px) { .day-verdict { margin-left: 0; width: 100%; } .gap-row { grid-template-columns: 74px 1fr 64px; } }
 </style>
 </head>
-<body>
+<body class="wide">
+<script src="js/shell.js?v=20261107c"></script>
 
 <main>
 
@@ -103,18 +73,10 @@ small.tag{font-size:10px;color:var(--text-faint);margin-left:5px;
      &larr; 목록으로</a>
 
   <header>
-    <div class="eyebrow"><span class="dot"></span>판단 장부</div>
+    <div class="eyebrow"><span class="dot"></span>연구 장부</div>
     <h1>높게 본 것이 정말 올랐는가</h1>
     <div class="sub">
       맞은 날과 틀린 날을 같이 적습니다
-    </div>
-    <div style="margin-top:12px">
-      <a href="rankings.html" style="display:inline-flex;align-items:center;
-         gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
-         border:1px solid var(--border);border-radius:999px;
-         padding:6px 14px">
-        오늘의 순위 &rarr;
-      </a>
     </div>
   </header>
 
@@ -217,62 +179,103 @@ function verdict(rows) {
     </div>`;
 }
 
-function table(rows) {
-  const body = rows.map(r => `<tr>
-      <td class="sym">${esc(r.ticker)}</td>
-      <td><span class="band ${r.band === "높게 본 20" ? "up" : "down"}">${esc(r.band)}</span></td>
-      <td class="dim">${esc(r.entry_date || "—")}</td>
-      <td>${money(r.entry_price)}</td>
-      <td class="dim">${asof(r)}</td>
-      <td>${money(r.exit_price != null ? r.exit_price : r.last_price)}</td>
-      <td>${ret(r)}</td>
-      <td>${held(r)}</td>
+function rowsHTML(rows) {
+  return rows.map(r => {
+    const href = "stock.html?ticker=" + encodeURIComponent(r.ticker);
+    return `<tr data-href="${href}">
+      <td class="c-tk"><a href="${href}">${esc(r.ticker)}</a></td>
+      <td class="num">${money(r.entry_price)}<small class="sub">${esc(r.entry_date || "—")}</small></td>
+      <td class="num">${money(r.exit_price != null ? r.exit_price : r.last_price)}<small class="sub">${asof(r)}</small></td>
+      <td class="num">${ret(r)}</td>
+      <td class="m-hide">${held(r)}</td>
       <td>${state(r)}</td>
-    </tr>`).join("");
+    </tr>`;
+  }).join("");
+}
 
-  return `<div class="wrap"><table class="led">
+function bandTable(rows) {
+  if (!rows.length) return '<div class="state">진입한 종목이 없습니다.</div>';
+  return `<div class="tbl-wrap"><table class="scr led">
       <thead><tr>
-        <th>종목</th><th>판단</th>
-        <th>진입일</th><th>진입가</th>
-        <th>기준일</th><th>기준가</th>
-        <th>수익률</th><th>보유</th><th>상태</th>
+        <th scope="col">종목</th><th class="num" scope="col">진입가 · 진입일</th>
+        <th class="num" scope="col">기준가 · 기준일</th><th class="num" scope="col">수익률</th>
+        <th class="m-hide" scope="col">보유</th><th scope="col">상태</th>
       </tr></thead>
-      <tbody>${body}</tbody>
+      <tbody>${rowsHTML(rows)}</tbody>
     </table></div>`;
 }
+
+function med(rows) {
+  return median(rows.filter(r => r.return_pct != null).map(r => r.return_pct));
+}
+
+function daySummary(rows) {
+  const up = med(rows.filter(r => r.band === "높게 본 20"));
+  const down = med(rows.filter(r => r.band === "낮게 본 20"));
+  if (up == null || down == null) return {html: "아직 셀 수 있는 자리가 없습니다", gap: null};
+  const gap = up - down, f = v => (v > 0 ? "+" : "") + v.toFixed(2) + "%";
+  /* 소수 둘째 자리까지 같으면 '차이 없음' — 진입한 날 바로 (평가 0%) 를 뒤집혔다고 세지 않는다 */
+  const same = Math.abs(gap) < 0.005;
+  const word = same ? "차이 없음" : gap > 0 ? "줄이 맞음" : "줄이 뒤집힘";
+  return {gap, same, html: `높게 본 쪽 ${f(up)} · 낮게 본 쪽 ${f(down)} → <b class="${same ? "" : gap > 0 ? "right" : "wrong"}">${(gap > 0 ? "+" : "") + gap.toFixed(2)}%p ${word}</b>`};
+}
+
+function dayBody(seal) {
+  const rows = (seal.positions || []).filter(r => r.entry_date)
+    .sort((a, b) => (b.return_pct ?? -1e9) - (a.return_pct ?? -1e9));
+  const up = rows.filter(r => r.band === "높게 본 20"), down = rows.filter(r => r.band === "낮게 본 20");
+  return `<div class="bands">
+      <div class="band-col"><h3 class="up">높게 본 20 <small>중앙값 ${med(up) == null ? "—" : (med(up) > 0 ? "+" : "") + med(up).toFixed(2) + "%"}</small></h3>${bandTable(up)}</div>
+      <div class="band-col"><h3 class="down">낮게 본 20 <small>중앙값 ${med(down) == null ? "—" : (med(down) > 0 ? "+" : "") + med(down).toFixed(2) + "%"}</small></h3>${bandTable(down)}</div>
+    </div>`;
+}
+
+let SEALS = [];
 
 function render(d) {
   const s = d.summary || {};
 
-  const seals = (d.seals || [])
+  SEALS = (d.seals || [])
     .slice()
     .sort((a, b) => String(b.observation_date)
                       .localeCompare(String(a.observation_date)));
 
-  const html = `
-    <div class="note">${esc(d.note || "")}</div>
+  const days = SEALS.map(seal => {
+    const rows = (seal.positions || []).filter(r => r.entry_date);
+    return {seal, rows, waiting: (seal.positions || []).length - rows.length, sum: daySummary(rows)};
+  });
+  const firstOpen = days.findIndex(x => x.rows.length);   /* 진입한 종목이 있는 가장 최근 날을 펼쳐 둔다 */
+  const counted = days.filter(x => x.sum.gap != null);
+  const right = counted.filter(x => !x.sum.same && x.sum.gap > 0).length;
+  const flat = counted.filter(x => x.sum.same).length;
+  const span = Math.max(1, ...counted.map(x => Math.abs(x.sum.gap)));
 
-    <div class="how">
-      <b>어떻게 읽나요</b>
+  const html = `
+    <div class="notice-line"><b>실제 투자 계좌가 아닙니다.</b> 가상 판단을 먼저 적어 두고 그 뒤를 따라가는 사후 기록입니다.
+      실제 주문이 나간 적이 없습니다. ${esc(d.note || "")}</div>
+
+    <details class="how">
+      <summary>어떻게 읽나요</summary>
+      <div>
       <p>그날 살펴본 300여 종목을 기대되는 순서대로 줄 세웁니다.
-         그중 <span class="band up">높게 본 20</span> 은 맨 앞 스무 개,
-         <span class="band down">낮게 본 20</span> 은 맨 뒤 스무 개입니다.
+         그중 <b>높게 본 20</b> 은 맨 앞 스무 개, <b>낮게 본 20</b> 은 맨 뒤 스무 개입니다.
          "사라 / 사지 마라" 로 가른 것이 아니라 <b>순서</b>입니다.</p>
       <p>낮게 본 쪽을 굳이 같이 싣는 이유는, 오르는 장에서는 무엇을
          골라도 오르기 때문입니다. 높게 본 것이 올랐는지보다
          <b>높게 본 것이 낮게 본 것보다 나았는지</b>가 진짜 물음입니다.
          그래서 날마다 두 쪽을 견줘 줄이 맞았는지 적습니다.</p>
       <p>아직 아무것도 팔지 않았습니다. <b>기준일</b>은 청산된 것은
-         청산일이고, 들고 있는 것은 마지막 거래일입니다 —
-         칸 안에 어느 쪽인지 적혀 있습니다.</p>
-    </div>
+         청산일이고, 들고 있는 것은 마지막 거래일입니다 — 칸 안에 어느 쪽인지 적혀 있습니다.</p>
+      </div>
+    </details>
 
-    <div class="tally">
-      <div><div class="k">판단한 날</div><div class="v">${s.seals ?? "—"}</div></div>
-      <div><div class="k">따라가는 종목</div><div class="v">${s.positions ?? "—"}</div></div>
-      <div><div class="k">보유 중</div><div class="v">${s.holding ?? "—"}</div></div>
-      <div><div class="k">청산됨</div><div class="v">${s.closed ?? "—"}</div></div>
-    </div>
+    <section class="kpis" aria-label="장부 요약">
+      <div class="st"><div class="st-k">판단한 날</div><div class="st-v">${s.seals ?? "—"}</div></div>
+      <div class="st"><div class="st-k">따라가는 종목</div><div class="st-v">${s.positions ?? "—"}</div></div>
+      <div class="st"><div class="st-k">보유 중</div><div class="st-v">${s.holding ?? "—"}</div><div class="st-s">수익률은 평가 (확정 아님)</div></div>
+      <div class="st"><div class="st-k">청산됨</div><div class="st-v">${s.closed ?? "—"}</div></div>
+      <div class="st"><div class="st-k">줄이 맞은 날 (평가 포함)</div><div class="st-v">${right} <small>/ ${counted.length}</small></div><div class="st-s">뒤집힌 날 ${counted.length - right - flat}${flat ? ` · 차이 없음 ${flat}` : ""}</div></div>
+    </section>
 
     ${s.unjudged ? `<div class="alarm">
       <b>지금 ${s.unjudged}건은 팔지 말지를 한 번도 판단하지 못했습니다.</b>
@@ -281,40 +284,58 @@ function render(d) {
       그대로 적어 둡니다. 자료가 채워지면 저절로 풀립니다.
     </div>` : ""}
 
-    ${seals.map(seal => {
-      const rows = (seal.positions || []).filter(r => r.entry_date);
+    <section class="card tbl-card">
+      <div class="card-head"><h2>날마다 줄이 맞았나</h2><span class="hint">높게 본 20 중앙값 − 낮게 본 20 중앙값</span></div>
+      <div class="gap-legend"><span><b class="plus">초록</b> 높게 본 쪽이 나았음</span><span><b class="minus">빨강</b> 뒤집힘</span>
+        <span>보유 중인 것은 평가 손익이라 날마다 바뀝니다</span></div>
+      <div class="gapchart" role="list">
+        ${days.map(x => {
+          const g = x.sum.gap;
+          const w = g == null ? 0 : Math.min(50, Math.abs(g) / span * 50);
+          const left = g == null ? 50 : g >= 0 ? 50 : 50 - w;
+          return `<div class="gap-row" role="listitem"><span class="d">${esc(x.seal.observation_date)}</span>
+            <span class="t" aria-hidden="true">${g == null ? "" : `<i style="left:${left}%;width:${w}%;background:${g >= 0 ? "var(--green)" : "var(--red)"}"></i>`}</span>
+            <span class="v ${g == null ? "dim" : g > 0 ? "plus" : "minus"}">${g == null ? "—" : (g > 0 ? "+" : "") + g.toFixed(2) + "%p"}</span></div>`;
+        }).join("")}
+      </div>
+    </section>
 
-      const waiting = (seal.positions || []).length - rows.length;
+    <div class="day-tools">
+      <button type="button" class="btn-sec" id="openAll">모두 펼치기</button>
+      <button type="button" class="btn-sec" id="closeAll">모두 접기</button>
+    </div>
 
-      if (!rows.length) {
-        return `<section class="day">
-            <h2>${esc(seal.observation_date)}
-              <span class="when">아직 진입할 다음 거래일이 오지 않았습니다</span>
-            </h2>
-          </section>`;
-      }
+    ${days.map((x, i) => x.rows.length ? `
+      <details class="day" data-i="${i}"${i === firstOpen ? " open" : ""}>
+        <summary><span class="day-date">${esc(x.seal.observation_date)} 판단</span>
+          <span class="day-meta">${x.rows.length}종목 따라가는 중${x.waiting ? ` · ${x.waiting}종목 대기` : ""}</span>
+          <span class="day-verdict">${x.sum.html}</span></summary>
+        <div class="day-body">${i === firstOpen ? dayBody(x.seal) : ""}</div>
+      </details>` : `
+      <details class="day"><summary><span class="day-date">${esc(x.seal.observation_date)}</span>
+        <span class="day-meta">아직 진입할 다음 거래일이 오지 않았습니다</span></summary></details>`).join("")}
 
-      rows.sort((a, b) => (b.return_pct ?? -1e9) - (a.return_pct ?? -1e9));
-
-      return `<section class="day">
-          <h2>${esc(seal.observation_date)} 판단
-            <span class="when">${rows.length}종목 따라가는 중${
-              waiting ? ` · ${waiting}종목 대기` : ""}</span>
-          </h2>
-          ${verdict(rows)}
-          ${table(rows)}
-        </section>`;
-    }).join("")}
-
-    <div class="foot">
+    <div class="page-foot">
       수익률은 진입일 종가 대비입니다.
       <b>평가</b> 표시가 붙은 것은 아직 보유 중이라 확정된 손익이 아닙니다 —
       관찰 기간(${d.window || 60}거래일)이 끝날 때까지 계속 바뀝니다.<br>
-
       갱신 ${esc((d.generated_at || "").slice(0, 16).replace("T", " "))} UTC
     </div>`;
 
   $("#content").innerHTML = html;
+
+  /* 펼칠 때만 표를 그린다 (1,400여 줄을 한 번에 그리지 않는다) */
+  document.querySelectorAll("details.day[data-i]").forEach(el => el.addEventListener("toggle", () => {
+    const body = el.querySelector(".day-body");
+    if (el.open && !body.innerHTML) body.innerHTML = dayBody(days[Number(el.dataset.i)].seal);
+  }));
+  $("#openAll").addEventListener("click", () => document.querySelectorAll("details.day[data-i]").forEach(el => { el.open = true; }));
+  $("#closeAll").addEventListener("click", () => document.querySelectorAll("details.day").forEach(el => { el.open = false; }));
+  $("#content").addEventListener("click", e => {
+    if (e.target.closest("a, summary, button")) return;
+    const tr = e.target.closest("tr[data-href]");
+    if (tr && !window.getSelection().toString()) location.href = tr.dataset.href;
+  });
 }
 
 (async () => {
@@ -323,10 +344,7 @@ function render(d) {
     if (!r.ok) throw new Error(r.status);
     render(await r.json());
   } catch (e) {
-    $("#content").innerHTML = `<div style="padding:26px;text-align:center;
-      color:var(--text-dim);background:var(--surface-2);
-      border:1px dashed var(--border);border-radius:var(--radius)">
-      아직 장부가 없습니다. 다음 갱신에 생깁니다.</div>`;
+    $("#content").innerHTML = '<div class="state">아직 장부가 없습니다. 다음 갱신에 생깁니다.</div>';
   }
 })();
 </script>
