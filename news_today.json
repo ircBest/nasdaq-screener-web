@@ -1,1778 +1,1776 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-11-07T13:19:05+00:00",
-  "latest_hours": 36,
-  "good_hours": 72,
-  "note": "좋은 소식은 제목에 정해진 말 (예: 실적이 예상보다 좋았다 · 목표가를 올렸다) 이 있는 기사를 기계가 골라 묶은 것입니다. 사라는 뜻이 아니고, 검증된 신호도 아닙니다. 우리 모의 매매 기록에서 '큰 좋은 소식이 난 다음 날 사기' 는 판정 전이지만 지금까지 기대와 반대로 가고 있습니다. 기사는 뉴스 공급자가 종목에 연결한 것이라 다른 회사 이야기가 섞일 수 있어, 제목에 그 회사가 나오는 기사만 실었습니다.",
-  "rules": [
-    {
-      "key": "approval",
-      "label": "승인을 받았다",
-      "example": "FDA approval · receives clearance"
-    },
-    {
-      "key": "offer",
-      "label": "인수 제안을 받았다",
-      "example": "to be acquired · buyout offer"
-    },
-    {
-      "key": "beat",
-      "label": "실적이 예상보다 좋았다",
-      "example": "beats estimates · record revenue"
-    },
-    {
-      "key": "guide",
-      "label": "전망을 올렸다",
-      "example": "raises guidance · lifts outlook"
-    },
-    {
-      "key": "target",
-      "label": "목표가 · 의견을 올렸다",
-      "example": "price target raised · upgraded to buy"
-    },
-    {
-      "key": "deal",
-      "label": "계약 · 주문을 땄다",
-      "example": "wins contract · secures order"
-    },
-    {
-      "key": "return",
-      "label": "자사주 매입 · 배당을 늘렸다",
-      "example": "buyback · raises dividend"
-    }
-  ],
-  "counts": {
-    "latest": 80,
-    "good": 60,
-    "dropped": {
-      "forbidden": 0,
-      "unrelated": 2704,
-      "old": 2591,
-      "no_time": 0
-    }
+ "schema_version": 1,
+ "generated_at": "2026-11-07T23:19:25+00:00",
+ "latest_hours": 36,
+ "good_hours": 72,
+ "note": "좋은 소식은 제목에 정해진 말 (예: 실적이 예상보다 좋았다 · 목표가를 올렸다) 이 있는 기사를 기계가 골라 묶은 것입니다. 사라는 뜻이 아니고, 검증된 신호도 아닙니다. 우리 모의 매매 기록에서 '큰 좋은 소식이 난 다음 날 사기' 는 판정 전이지만 지금까지 기대와 반대로 가고 있습니다. 기사는 뉴스 공급자가 종목에 연결한 것이라 다른 회사 이야기가 섞일 수 있어, 제목에 그 회사가 나오는 기사만 실었습니다.",
+ "rules": [
+  {
+   "key": "approval",
+   "label": "승인을 받았다",
+   "example": "FDA approval · receives clearance"
   },
-  "latest": [
-    {
-      "time": "2026-11-07T06:00:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Cathie Wood-Led Ark Loads Up On GOOG, AMD, NVDA And Biotech Stocks — But Sells CRWV, AVGO, LLY",
-      "t": [
-        "AMD",
-        "CRWV"
-      ],
-      "names": [
-        "Advanced Micro Devices, Inc.",
-        "CoreWeave, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T05:21:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Paylocity Holding (PCTY) Undervalued As Cash Flow Tops The Price?",
-      "t": [
-        "PCTY"
-      ],
-      "names": [
-        "Paylocity Holding Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T05:20:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Better Stock Split to Buy: Meta Platforms vs. Sandisk",
-      "t": [
-        "SNDK"
-      ],
-      "names": [
-        "Sandisk Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T05:16:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Is SK hynix (KOSE:A000660) Trading At A Discount After Record Earnings?",
-      "t": [
-        "SKHY"
-      ],
-      "names": [
-        "SK hynix Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T05:14:32+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global (COIN) Loses Bid To Pause State Actions In Prediction Markets Case",
-      "t": [
-        "COIN"
-      ],
-      "names": [
-        "Coinbase Global, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T05:06:52+00:00",
-      "publisher": "Yahoo",
-      "title": "A Retiree Who Bought 1,000 Nvidia Shares at $122 Just Watched Chips Have Their Worst Day Since 2020",
-      "t": [
-        "NVDA"
-      ],
-      "names": [
-        "NVIDIA Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T04:28:13+00:00",
-      "publisher": "Yahoo",
-      "title": "Keel Infrastructure (KEEL) Leaves Bitcoin Behind As AI Data Center Permits Move Ahead",
-      "t": [
-        "KEEL"
-      ],
-      "names": [
-        "Keel Infrastructure Corp."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T04:25:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Lam Research (LRCX) Authorizes $25 Billion Share Repurchase Program",
-      "t": [
-        "LRCX"
-      ],
-      "names": [
-        "Lam Research Corporation"
-      ],
-      "good": "return"
-    },
-    {
-      "time": "2026-11-07T04:25:13+00:00",
-      "publisher": "Yahoo",
-      "title": "Microchip Technology (MCHP) Added AI And Space Chips As Q2 Hit $1,621.5 Million",
-      "t": [
-        "MCHP"
-      ],
-      "names": [
-        "Microchip Technology Incorporat"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T03:19:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft (MSFT) Is Pulling Back From Key Neocloud Data Center Deals",
-      "t": [
-        "MSFT"
-      ],
-      "names": [
-        "Microsoft Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T03:17:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Camtek Ltd (CAMT) Q3 2026 Earnings Call Highlights: Record Revenue of $161. ...",
-      "t": [
-        "CAMT"
-      ],
-      "names": [
-        "Camtek Ltd."
-      ],
-      "good": "beat"
-    },
-    {
-      "time": "2026-11-07T03:16:46+00:00",
-      "publisher": "Yahoo",
-      "title": "Is DocuSign (DOCU) Fully Valued As SAP Branded Deal Expands Its Reach?",
-      "t": [
-        "DOCU"
-      ],
-      "names": [
-        "DocuSign, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T03:16:15+00:00",
-      "publisher": "Yahoo",
-      "title": "monday.com (MNDY) Stock May Trade At A Discount To Earnings",
-      "t": [
-        "MNDY"
-      ],
-      "names": [
-        "monday.com Ltd."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T02:47:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Micron stock flashes bargain pricing signal with costly catch",
-      "t": [
-        "MU"
-      ],
-      "names": [
-        "Micron Technology, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T02:17:02+00:00",
-      "publisher": "Yahoo",
-      "title": "SK Hynix (KOSE:A000660) Unveils Cooler AI Memory As Data Center Scrutiny Grows",
-      "t": [
-        "SKHY"
-      ],
-      "names": [
-        "SK hynix Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T02:16:20+00:00",
-      "publisher": "Yahoo",
-      "title": "What Is Palo Alto Networks (PANW) Signaling With A Seventh AI Security Deal?",
-      "t": [
-        "PANW"
-      ],
-      "names": [
-        "Palo Alto Networks, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T02:15:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave (CRWV) Shares Just Moved, So What Is Going On?",
-      "t": [
-        "CRWV"
-      ],
-      "names": [
-        "CoreWeave, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T02:14:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Why ePlus (PLUS) Is Up 11.7% And What's Next",
-      "t": [
-        "PLUS"
-      ],
-      "names": [
-        "ePlus inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T02:10:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Bentley Systems (BSY) Fully Valued On Its Q3 Earnings Beat And Raised ARR Guidance?",
-      "t": [
-        "BSY"
-      ],
-      "names": [
-        "Bentley Systems, Incorporated"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T02:01:57+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "IBEX Limited 2027 Q1 - Results - Earnings Call Presentation",
-      "t": [
-        "IBEX"
-      ],
-      "names": [
-        "IBEX Limited"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T01:34:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Inc. (ONDS) Key Business Updates Expected Next Week, Shares Climb 18%",
-      "t": [
-        "ONDS"
-      ],
-      "names": [
-        "Ondas Inc"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T01:30:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Nvidia-backed Groq seeks $8 billion valuation in new funding round - Bloomberg",
-      "t": [
-        "NVDA"
-      ],
-      "names": [
-        "NVIDIA Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T00:15:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Nvidia (NVDA) Tightens Chip Tracking In Southeast Asia",
-      "t": [
-        "NVDA"
-      ],
-      "names": [
-        "NVIDIA Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T00:14:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Viasat Q2 Earnings Call Highlights",
-      "t": [
-        "VSAT"
-      ],
-      "names": [
-        "ViaSat, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-07T00:06:55+00:00",
-      "publisher": "Yahoo",
-      "title": "“Already Popping”: CoreWeave Is Down 30% in 2026. Dead Money, or Due for a Bounce?",
-      "t": [
-        "CRWV"
-      ],
-      "names": [
-        "CoreWeave, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T23:42:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Dell Sinks 16% in a Week on Intel’s PC Warning. Its CFO Already Saw “Minus Double Digit”",
-      "t": [
-        "INTC"
-      ],
-      "names": [
-        "Intel Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T23:39:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Alkami Technology (ALKT): Recurring Banking Revenue at a Value Multiple",
-      "t": [
-        "ALKT"
-      ],
-      "names": [
-        "Alkami Technology, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T23:36:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Does The Fall In Cipher Digital Stock Change Anything?",
-      "t": [
-        "CIFR"
-      ],
-      "names": [
-        "Cipher Digital Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T23:33:35+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Computer (SMCI) Makes the List of the Cheapest AI Data Center Stocks",
-      "t": [
-        "SMCI"
-      ],
-      "names": [
-        "Super Micro Computer, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T23:33:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Morgan Stanley resets Cisco stock price target before earnings",
-      "t": [
-        "CSCO"
-      ],
-      "names": [
-        "Cisco Systems, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T23:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CarMax Strategy Shows Promise, but Don’t Buy the Stock Yes, Says Analyst. Plus, Datadog and 3 More.",
-      "t": [
-        "DDOG"
-      ],
-      "names": [
-        "Datadog, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T23:14:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Okta (OKTA) Stock May Be 12% Undervalued After DHS Data Leak Concerns",
-      "t": [
-        "OKTA"
-      ],
-      "names": [
-        "Okta, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:56:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout",
-      "t": [
-        "MU"
-      ],
-      "names": [
-        "Micron Technology, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:56:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Shopify: A $185B E-Commerce Empire Growing 30%+ Annually",
-      "t": [
-        "SHOP"
-      ],
-      "names": [
-        "Shopify Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:48:41+00:00",
-      "publisher": "Yahoo",
-      "title": "A Retiree Who Bought 1,000 Oracle Shares at $39 Just Watched Microsoft Walk Away",
-      "t": [
-        "MSFT"
-      ],
-      "names": [
-        "Microsoft Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:35:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase has news for gold holders",
-      "t": [
-        "COIN"
-      ],
-      "names": [
-        "Coinbase Global, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:34:36+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Quantinuum Inc. (QNT) Q3 2026 Earnings Call Transcript",
-      "t": [
-        "QNT"
-      ],
-      "names": [
-        "Quantinuum Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:25:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook",
-      "t": [
-        "AMD"
-      ],
-      "names": [
-        "Advanced Micro Devices, Inc."
-      ],
-      "good": "beat"
-    },
-    {
-      "time": "2026-11-06T22:16:54+00:00",
-      "publisher": "Yahoo",
-      "title": "What NetScout Systems (NTCT)'s Earnings Beat Means For Shareholders",
-      "t": [
-        "NTCT"
-      ],
-      "names": [
-        "NetScout Systems, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:12:54+00:00",
-      "publisher": "Yahoo",
-      "title": "FormFactor Stock Gains Focus After Earnings Beat And Strong Q4 Outlook",
-      "t": [
-        "FORM"
-      ],
-      "names": [
-        "FormFactor, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:06:22+00:00",
-      "publisher": "Yahoo",
-      "title": "How a Slowdown in Commercial Bookings Is Rocking Palantir Stock",
-      "t": [
-        "PLTR"
-      ],
-      "names": [
-        "Palantir Technologies Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T22:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cognizant Completes Acquisition of Wizeline",
-      "t": [
-        "CTSH"
-      ],
-      "names": [
-        "Cognizant Technology Solutions "
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:52:00+00:00",
-      "publisher": "Yahoo",
-      "title": "SovAI Joins NVIDIA Inception to Build Behind-the-Meter AI Factories to the NVIDIA DSX Reference Architecture",
-      "t": [
-        "NVDA"
-      ],
-      "names": [
-        "NVIDIA Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:45:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Dow Jones Futures: Market Needs Repair But Sandisk, Micron Broken; Apple, Amazon, Microsoft Strong",
-      "t": [
-        "AAPL",
-        "MSFT",
-        "MU",
-        "SNDK"
-      ],
-      "names": [
-        "Apple Inc.",
-        "Microsoft Corporation",
-        "Micron Technology, Inc.",
-        "Sandisk Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:45:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Intuit (INTU) Stock Drops Despite Market Gains: Important Facts to Note",
-      "t": [
-        "INTU"
-      ],
-      "names": [
-        "Intuit Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:33:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel Stock’s (INTC) Deep Sell-Off Shows Signs of an Overreaction",
-      "t": [
-        "INTC"
-      ],
-      "names": [
-        "Intel Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:18:48+00:00",
-      "publisher": "Yahoo",
-      "title": "GlobalFoundries (GFS) Sees AI Photonics Booked Through 2028 As New Fabs Advance",
-      "t": [
-        "GFS"
-      ],
-      "names": [
-        "GlobalFoundries Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:18:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Advanced Micro Devices (AMD) Joined A Quantum Error Correction Platform Launch",
-      "t": [
-        "AMD"
-      ],
-      "names": [
-        "Advanced Micro Devices, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:17:36+00:00",
-      "publisher": "Yahoo",
-      "title": "Onsemi and Czech ministry cancel $2 billion chip facility expansion",
-      "t": [
-        "ON"
-      ],
-      "names": [
-        "ON Semiconductor Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:15:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Datadog And 2 Top Cybersecurity Stocks",
-      "t": [
-        "DDOG"
-      ],
-      "names": [
-        "Datadog, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:13:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Alarm.com Holdings Inc (ALRM) Q3 2026 Earnings Call Highlights: Revenue Tops $279 Million as ...",
-      "t": [
-        "ALRM"
-      ],
-      "names": [
-        "Alarm.com Holdings, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:12:42+00:00",
-      "publisher": "Yahoo",
-      "title": "Micron vs. Nvidia: Which AI Stock Is a Better Buy for 2027?",
-      "t": [
-        "MU",
-        "NVDA"
-      ],
-      "names": [
-        "Micron Technology, Inc.",
-        "NVIDIA Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:11:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Keel Infrastructure (KEEL) Could Be 73% Undervalued After Third Quarter Results",
-      "t": [
-        "KEEL"
-      ],
-      "names": [
-        "Keel Infrastructure Corp."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:09:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Core Scientific Inc (CORZ) (Q3 2026) Earnings Call Highlights: Colocation Revenue Surges 60% as ...",
-      "t": [
-        "CORZ"
-      ],
-      "names": [
-        "Core Scientific, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:07:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Sandisk Stock Has Lost About 64% Since June. Here's the Price at Which I'd Buy It.",
-      "t": [
-        "SNDK"
-      ],
-      "names": [
-        "Sandisk Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:07:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft and Oracle's AI ambitions are suddenly a lot more expensive",
-      "t": [
-        "MSFT"
-      ],
-      "names": [
-        "Microsoft Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom's AI Revenue Is Exploding. Here's What Investors Should Watch Next.",
-      "t": [
-        "AVGO"
-      ],
-      "names": [
-        "Broadcom Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:02:17+00:00",
-      "publisher": "Yahoo",
-      "title": "ADI Stock Couldn't Defy Gravity Of Chip Sector For Long",
-      "t": [
-        "ADI"
-      ],
-      "names": [
-        "Analog Devices, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T21:00:02+00:00",
-      "publisher": "Yahoo",
-      "title": "SolarEdge (SEDG) Reports Q3 Earnings: What Key Metrics Have to Say",
-      "t": [
-        "SEDG"
-      ],
-      "names": [
-        "SolarEdge Technologies, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:34:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Palantir Stock Slips Despite Beating Revenue and Earnings Estimates in Q3. What Investors Should Watch Next.",
-      "t": [
-        "PLTR"
-      ],
-      "names": [
-        "Palantir Technologies Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:30:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
-      "t": [
-        "NVDA"
-      ],
-      "names": [
-        "NVIDIA Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:15:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Earnings Beat Tests The Case For KLA Stock",
-      "t": [
-        "KLAC"
-      ],
-      "names": [
-        "KLA Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:13:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Anthropic’s “Down Quarter” Highlights Broadcom’s $161 Billion Risk",
-      "t": [
-        "AVGO"
-      ],
-      "names": [
-        "Broadcom Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:13:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Lumentum Holdings (LITE) Could Be 90% Undervalued Following The Marvell Deal",
-      "t": [
-        "LITE",
-        "MRVL"
-      ],
-      "names": [
-        "Lumentum Holdings Inc.",
-        "Marvell Technology, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:10:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Earnings Beat Altering The Investment Case For SolarEdge Stock?",
-      "t": [
-        "SEDG"
-      ],
-      "names": [
-        "SolarEdge Technologies, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:05:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Firefly Aerospace Skyrockets 30% on $1.3 Billion Deal With AST SpaceMobile",
-      "t": [
-        "ASTS"
-      ],
-      "names": [
-        "AST SpaceMobile, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "SK Hynix Just Announced Huge News for Micron Shareholders",
-      "t": [
-        "MU",
-        "SKHY"
-      ],
-      "names": [
-        "Micron Technology, Inc.",
-        "SK hynix Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:04:33+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Paylocity Holding Corporation (PCTY) Q1 2027 Earnings Call Transcript",
-      "t": [
-        "PCTY"
-      ],
-      "names": [
-        "Paylocity Holding Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:03:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Broadcom Is Still Down 22% in the Past Month: Is AVGO Stock Really on a Road to Recovery?",
-      "t": [
-        "AVGO"
-      ],
-      "names": [
-        "Broadcom Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:03:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Digital Is Still Down 39% in the Past Month: Is APLD Stock Hopeless or Ready for a Rebound?",
-      "t": [
-        "APLD"
-      ],
-      "names": [
-        "Applied Digital Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T20:03:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Own a Semiconductor ETF? Lam Research’s Buyback Move Affects You",
-      "t": [
-        "LRCX"
-      ],
-      "names": [
-        "Lam Research Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:50:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Dell vs. Nvidia: Chip Stocks Just Suffered Their Worst Sell-Off Since 2020. Which Is the Better Buy for 2027?",
-      "t": [
-        "NVDA"
-      ],
-      "names": [
-        "NVIDIA Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:45:45+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Duolingo: Q3 Strengthens My Thesis",
-      "t": [
-        "DUOL"
-      ],
-      "names": [
-        "Duolingo, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:35:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft and Google Face a New Bill as Data Centers “Have to Pay Their Own Costs”",
-      "t": [
-        "MSFT"
-      ],
-      "names": [
-        "Microsoft Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:30:32+00:00",
-      "publisher": "Yahoo",
-      "title": "A $25 Billion Reason Why LRCX Stock Is Up Today",
-      "t": [
-        "LRCX"
-      ],
-      "names": [
-        "Lam Research Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:27:22+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Soars 7% on $1.3 Billion Rocket Plan Promising “Unconstrained Access to Orbit”",
-      "t": [
-        "ASTS"
-      ],
-      "names": [
-        "AST SpaceMobile, Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:26:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Dan Ives: “20% of the World” Will Access AI Through an Apple Device",
-      "t": [
-        "AAPL"
-      ],
-      "names": [
-        "Apple Inc."
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:25:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Qualcomm CEO: Its Data Center Ramp Is “All Supply Bound,” Not Demand Bound",
-      "t": [
-        "QCOM"
-      ],
-      "names": [
-        "QUALCOMM Incorporated"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:20:42+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel and AMD in Focus as Tech Stocks Seek Rebound",
-      "t": [
-        "AMD",
-        "INTC"
-      ],
-      "names": [
-        "Advanced Micro Devices, Inc.",
-        "Intel Corporation"
-      ],
-      "good": null
-    },
-    {
-      "time": "2026-11-06T19:17:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday (WDAY) Stock Trades Below Fair Value As Cash Flow Grows",
-      "t": [
-        "WDAY"
-      ],
-      "names": [
-        "Workday, Inc."
-      ],
-      "good": null
+  {
+   "key": "offer",
+   "label": "인수 제안을 받았다",
+   "example": "to be acquired · buyout offer"
+  },
+  {
+   "key": "beat",
+   "label": "실적이 예상보다 좋았다",
+   "example": "beats estimates · record revenue"
+  },
+  {
+   "key": "guide",
+   "label": "전망을 올렸다",
+   "example": "raises guidance · lifts outlook"
+  },
+  {
+   "key": "target",
+   "label": "목표가 · 의견을 올렸다",
+   "example": "price target raised · upgraded to buy"
+  },
+  {
+   "key": "deal",
+   "label": "계약 · 주문을 땄다",
+   "example": "wins contract · secures order"
+  },
+  {
+   "key": "return",
+   "label": "자사주 매입 · 배당을 늘렸다",
+   "example": "buyback · raises dividend"
+  }
+ ],
+ "counts": {
+  "latest": 80,
+  "good": 60,
+  "dropped": {
+   "forbidden": 0,
+   "unrelated": 2447,
+   "old": 3892,
+   "no_time": 0
+  }
+ },
+ "latest": [
+  {
+   "time": "2026-11-07T21:29:29+00:00",
+   "publisher": "Yahoo",
+   "title": "CoreWeave seeks truce with Texas Governor-elect Hinojosa",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T21:29:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Bitcoin Has Traded at a Discount on Coinbase for 61 Straight Days. Have U.S. Investors Stopped Buying BTC?",
+   "t": [
+    "COIN"
+   ],
+   "names": [
+    "Coinbase Global, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T19:56:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Palantir Stock Just Fell 8 Days in a Row. History Says What Followed Its Only 2 Longer Losing Streaks.",
+   "t": [
+    "PLTR"
+   ],
+   "names": [
+    "Palantir Technologies Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T19:23:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Did Apple Just Get a Boost From Democrats? Data Center Moratoriums Could Benefit the iPhone Maker",
+   "t": [
+    "AAPL"
+   ],
+   "names": [
+    "Apple Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T19:18:22+00:00",
+   "publisher": "Yahoo",
+   "title": "FormFactor’s $300 Million Vote of Confidence from Teradyne Suggests Billionaires Are Right",
+   "t": [
+    "FORM",
+    "TER"
+   ],
+   "names": [
+    "FormFactor, Inc.",
+    "Teradyne, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T19:17:39+00:00",
+   "publisher": "Yahoo",
+   "title": "The AI Memory Boom Isn’t Over: Why Billionaires Are Backing Western Digital (WDC)",
+   "t": [
+    "WDC"
+   ],
+   "names": [
+    "Western Digital Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:43:37+00:00",
+   "publisher": "Yahoo",
+   "title": "Here’s Why Bank of America and TD Cowen Backed Away From Marvell (MRVL)",
+   "t": [
+    "MRVL"
+   ],
+   "names": [
+    "Marvell Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:42:15+00:00",
+   "publisher": "Yahoo",
+   "title": "Here’s Why Morgan Stanley Analyst Meta Marshall Trimmed Cisco (CSCO) to Equal-weight",
+   "t": [
+    "CSCO"
+   ],
+   "names": [
+    "Cisco Systems, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:40:16+00:00",
+   "publisher": "Yahoo",
+   "title": "Here’s Why Lumentum (LITE) Was Downgraded",
+   "t": [
+    "LITE"
+   ],
+   "names": [
+    "Lumentum Holdings Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:20:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia Stock Has More Than 60% Upside According to Analysts' Average Price Target. Should You Buy While the AI Trade Wobbles?",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:17:39+00:00",
+   "publisher": "Yahoo",
+   "title": "Paylocity (PCTY) Q1 2027 Earnings Call Transcript",
+   "t": [
+    "PCTY"
+   ],
+   "names": [
+    "Paylocity Holding Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:08:44+00:00",
+   "publisher": "Yahoo",
+   "title": "Older Nvidia Chips Just Cost Oracle Its Microsoft AI Deal",
+   "t": [
+    "MSFT",
+    "NVDA"
+   ],
+   "names": [
+    "Microsoft Corporation",
+    "NVIDIA Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T17:50:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Micron and Sandisk Lead the Memory Market. 1 Stock Has Far Greater Upside.",
+   "t": [
+    "MU",
+    "SNDK"
+   ],
+   "names": [
+    "Micron Technology, Inc.",
+    "Sandisk Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T17:22:15+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Applied Materials: A Consequential Earnings Preview For The Whole Market (Rating Upgrade)",
+   "t": [
+    "AMAT"
+   ],
+   "names": [
+    "Applied Materials, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T17:20:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Euronet: 3 Key Takeaways for Long-Term Investors",
+   "t": [
+    "EEFT"
+   ],
+   "names": [
+    "Euronet Worldwide, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T17:17:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Jim Cramer sends a strong signal to Nvidia stock investors",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T17:16:13+00:00",
+   "publisher": "Yahoo",
+   "title": "Cirrus Logic (CRUS) Shares Climbed, So What Is Driving Attention Today?",
+   "t": [
+    "CRUS"
+   ],
+   "names": [
+    "Cirrus Logic, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T17:12:55+00:00",
+   "publisher": "Yahoo",
+   "title": "Earnings Estimate Upgrade Could Be A Game Changer For Skyworks Solutions (SWKS)",
+   "t": [
+    "SWKS"
+   ],
+   "names": [
+    "Skyworks Solutions, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T17:01:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
+   "t": [
+    "AAPL"
+   ],
+   "names": [
+    "Apple Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T16:57:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Arista Networks vs. Okta: Which Technology Stock Is a Better Buy for 2027?",
+   "t": [
+    "OKTA"
+   ],
+   "names": [
+    "Okta, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T16:49:42+00:00",
+   "publisher": "Yahoo",
+   "title": "AST SpaceMobile Is Building Its Own Reusable Rocket to Rely Less on SpaceX",
+   "t": [
+    "ASTS"
+   ],
+   "names": [
+    "AST SpaceMobile, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T16:10:34+00:00",
+   "publisher": "Yahoo",
+   "title": "Cirrus Logic (CRUS) Stock May Be 14% Undervalued On Soft Q3 Guidance",
+   "t": [
+    "CRUS"
+   ],
+   "names": [
+    "Cirrus Logic, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T16:02:56+00:00",
+   "publisher": "Yahoo",
+   "title": "Onsemi Is Walking Away From a $2 Billion Chip Bet It Made in 2024",
+   "t": [
+    "ON"
+   ],
+   "names": [
+    "ON Semiconductor Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T15:57:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Docusign vs. Monday.com: Absolute Scale vs. Faster Growth in Tech Revenues",
+   "t": [
+    "DOCU"
+   ],
+   "names": [
+    "DocuSign, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T15:37:53+00:00",
+   "publisher": "Yahoo",
+   "title": "CoreWeave’s Bonds Now Yield More Than 16%, Days Before Earnings",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T15:30:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Why AGI’s Fuzzy Definition Matters for Investors Betting on Google, Meta, and Microsoft",
+   "t": [
+    "MSFT"
+   ],
+   "names": [
+    "Microsoft Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T15:27:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Datadog vs. Docusign: Which Technology Stock Is a Better Buy for 2027?",
+   "t": [
+    "DDOG",
+    "DOCU"
+   ],
+   "names": [
+    "Datadog, Inc.",
+    "DocuSign, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T15:23:00+00:00",
+   "publisher": "Yahoo",
+   "title": "AMD Stock Popped After Earnings, Then Gave It All Back. Is It a Buy Now?",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T15:19:56+00:00",
+   "publisher": "Yahoo",
+   "title": "Learn Why The Bull Case For Cirrus Logic Stock Could Change Following Buyback Expansion",
+   "t": [
+    "CRUS"
+   ],
+   "names": [
+    "Cirrus Logic, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T15:17:24+00:00",
+   "publisher": "Yahoo",
+   "title": "Why Marvell Technology Stock Plunged 28.1% This Week",
+   "t": [
+    "MRVL"
+   ],
+   "names": [
+    "Marvell Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T15:13:51+00:00",
+   "publisher": "Yahoo",
+   "title": "TSMC Jumped 6% on a Report It Could Make Memory Chips for Nvidia",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T14:36:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Not Nvidia. Not Micron. After the Chip Sell-Off, I'd Buy This AI Stock and Hold It Forever.",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T14:14:56+00:00",
+   "publisher": "Yahoo",
+   "title": "Anthropic Deal Could Reshape The Case For Akamai Stock",
+   "t": [
+    "AKAM"
+   ],
+   "names": [
+    "Akamai Technologies, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T14:12:36+00:00",
+   "publisher": "Yahoo",
+   "title": "Nasdaq (NDAQ) Stock May Trade At A Premium As Board Changes Loom",
+   "t": [
+    "NDAQ"
+   ],
+   "names": [
+    "Nasdaq, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T14:06:18+00:00",
+   "publisher": "Yahoo",
+   "title": "Cerebras Sinks 18% in a Week, CoreWeave Down 16% as AI Stocks Slide: Buy Before Earnings?",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T13:30:55+00:00",
+   "publisher": "ChartMill",
+   "title": "Automatic Data Processing (NASDAQ:ADP) Combines Technical Strength With a Breakout Setup",
+   "t": [
+    "ADP"
+   ],
+   "names": [
+    "Automatic Data Processing, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T13:27:20+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Super Micro Computer: My Sell Call Worked, Now I'm Buying (Rating Upgrade)",
+   "t": [
+    "SMCI"
+   ],
+   "names": [
+    "Super Micro Computer, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T13:11:06+00:00",
+   "publisher": "Yahoo",
+   "title": "Marvell and Western Digital Just Had Their Worst Week Since 2001",
+   "t": [
+    "MRVL",
+    "WDC"
+   ],
+   "names": [
+    "Marvell Technology, Inc.",
+    "Western Digital Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T13:09:39+00:00",
+   "publisher": "Yahoo",
+   "title": "Akamai (AKAM) Stock May Be 23% Undervalued Despite Cloud Delays",
+   "t": [
+    "AKAM"
+   ],
+   "names": [
+    "Akamai Technologies, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T12:49:52+00:00",
+   "publisher": "Yahoo",
+   "title": "What Just Lifted Lam Research Stock?",
+   "t": [
+    "LRCX"
+   ],
+   "names": [
+    "Lam Research Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T12:49:50+00:00",
+   "publisher": "Yahoo",
+   "title": "What Is Behind The Rebound In Qualcomm Stock?",
+   "t": [
+    "QCOM"
+   ],
+   "names": [
+    "QUALCOMM Incorporated"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T12:41:40+00:00",
+   "publisher": "Yahoo",
+   "title": "ON Semiconductor (ON) Is Jeff Brown’s Chip Play on Tesla’s Optimus Robot",
+   "t": [
+    "ON"
+   ],
+   "names": [
+    "ON Semiconductor Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T12:31:29+00:00",
+   "publisher": "ChartMill",
+   "title": "Quality Investing Case Study: SS&C Technologies Holdings (NASDAQ:SSNC)",
+   "t": [
+    "SSNC"
+   ],
+   "names": [
+    "SS&C Technologies Holdings, Inc"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T12:29:00+00:00",
+   "publisher": "Yahoo",
+   "title": "George Kurtz Just Announced Incredible News for CrowdStrike Investors and the Artificial Intelligence (AI) Industry",
+   "t": [
+    "CRWD"
+   ],
+   "names": [
+    "CrowdStrike Holdings, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T12:12:29+00:00",
+   "publisher": "Yahoo",
+   "title": "Akamai Technologies (AKAM) Could Be 46% Undervalued After Third Quarter 2026 Results",
+   "t": [
+    "AKAM"
+   ],
+   "names": [
+    "Akamai Technologies, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T12:00:00+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "AMD: AI Panic Meets Outsized CPU/GPU Gains - Upgrade To Buy",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "good": "target"
+  },
+  {
+   "time": "2026-11-07T11:14:36+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "NetScout Systems, Inc. (NTCT) Q2 2027 Earnings Call Transcript",
+   "t": [
+    "NTCT"
+   ],
+   "names": [
+    "NetScout Systems, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T11:03:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Donald Trump's Investment Team Sold Micron. Here's What Investors Should Know Before Following the Money.",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T10:53:34+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Micron: Market Mistook A Slowdown For A Total Collapse",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T10:51:35+00:00",
+   "publisher": "ChartMill",
+   "title": "Workday (NASDAQ:WDAY) Combines Strong Growth With a Constructive Technical Setup",
+   "t": [
+    "WDAY"
+   ],
+   "names": [
+    "Workday, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T10:48:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Advanced Micro Devices (AMD) Recently Crashed Out of the $1 Trillion Club. Should You Buy the Dip?",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T10:27:26+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Applied Optoelectronics: The Selloff Changed My 2027 Playbook (Rating Upgrade)",
+   "t": [
+    "AAOI"
+   ],
+   "names": [
+    "Applied Optoelectronics, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T10:17:15+00:00",
+   "publisher": "Yahoo",
+   "title": "SiTime (SITM) Stock Looks Above Fair Value On Strong Q3 Results",
+   "t": [
+    "SITM"
+   ],
+   "names": [
+    "SiTime Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T10:09:05+00:00",
+   "publisher": "Yahoo",
+   "title": "What Is Driving The Fall In Amkor Stock?",
+   "t": [
+    "AMKR"
+   ],
+   "names": [
+    "Amkor Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T10:08:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Palantir Stock Investors Just Got Great News From a Wall Street Analyst (Hint: The Stock Could Soar)",
+   "t": [
+    "PLTR"
+   ],
+   "names": [
+    "Palantir Technologies Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:51:46+00:00",
+   "publisher": "ChartMill",
+   "title": "Broadcom (NASDAQ:AVGO): Affordable Growth With a Reasonable Forward Valuation",
+   "t": [
+    "AVGO"
+   ],
+   "names": [
+    "Broadcom Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:30:06+00:00",
+   "publisher": "Benzinga",
+   "title": "TSLA, AMD, MU and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+   "t": [
+    "AMD",
+    "MU"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc.",
+    "Micron Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:25:00+00:00",
+   "publisher": "Yahoo",
+   "title": "1 Reason to Buy AMD Stock Before 2027",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:20:52+00:00",
+   "publisher": "ChartMill",
+   "title": "Remitly Global (NASDAQ:RELY): High Growth and Improving Fundamentals Check the Eight Rules",
+   "t": [
+    "RELY"
+   ],
+   "names": [
+    "Remitly Global, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:19:13+00:00",
+   "publisher": "Yahoo",
+   "title": "What Changed For KLA Stock, And What Did Not?",
+   "t": [
+    "KLAC"
+   ],
+   "names": [
+    "KLA Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:19:03+00:00",
+   "publisher": "Yahoo",
+   "title": "NVIDIA Or Micron: Where Each Leads In The AI Buildout",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:13:35+00:00",
+   "publisher": "Yahoo",
+   "title": "Western Digital (WDC) Falls With AI Hardware Selloff On An Undervalued Narrative",
+   "t": [
+    "WDC"
+   ],
+   "names": [
+    "Western Digital Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:12:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Here's Where I Think Intel Stock Will Be at the End of 2030",
+   "t": [
+    "INTC"
+   ],
+   "names": [
+    "Intel Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:10:48+00:00",
+   "publisher": "Yahoo",
+   "title": "TTM Technologies (TTMI) Stock May Be Undervalued As Fresh Buybacks Begin",
+   "t": [
+    "TTMI"
+   ],
+   "names": [
+    "TTM Technologies, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:00:27+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "NICE Ltd. Is Growing While The Market Stays Skeptical",
+   "t": [
+    "NICE"
+   ],
+   "names": [
+    "NICE Ltd"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T09:00:07+00:00",
+   "publisher": "Benzinga",
+   "title": "Benzinga Bulls and Bears: Palantir, IonQ, DraftKings",
+   "t": [
+    "PLTR"
+   ],
+   "names": [
+    "Palantir Technologies Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T08:50:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Here's What a $10,000 Investment in Micron Stock Could Be Worth in 2028 (Hint: Big Gains Ahead)",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T08:25:00+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "JFrog: Clear AI Tailwinds Offset By Massive Valuation",
+   "t": [
+    "FROG"
+   ],
+   "names": [
+    "JFrog Ltd."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T08:16:10+00:00",
+   "publisher": "Yahoo",
+   "title": "Why Ichor Holdings Stock Is Up 10.5% And What's Next",
+   "t": [
+    "ICHR"
+   ],
+   "names": [
+    "Ichor Holdings"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T08:14:09+00:00",
+   "publisher": "Yahoo",
+   "title": "What Paylocity Holding (PCTY)'s Raised Outlook Means For Shareholders",
+   "t": [
+    "PCTY"
+   ],
+   "names": [
+    "Paylocity Holding Corporation"
+   ],
+   "good": "guide"
+  },
+  {
+   "time": "2026-11-07T08:12:31+00:00",
+   "publisher": "Yahoo",
+   "title": "AST SpaceMobile (ASTS) Bets On Reusable Blacklift Rocket To Control 2028 Launches",
+   "t": [
+    "ASTS"
+   ],
+   "names": [
+    "AST SpaceMobile, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T08:00:00+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Sandisk: Generational Buying Opportunity - Bullish AI Tailwinds Through 2030",
+   "t": [
+    "SNDK"
+   ],
+   "names": [
+    "Sandisk Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T07:38:39+00:00",
+   "publisher": "Yahoo",
+   "title": "Mark Gurman Expects “More Price Increases” on Apple Hardware Through 2027",
+   "t": [
+    "AAPL"
+   ],
+   "names": [
+    "Apple Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T07:15:04+00:00",
+   "publisher": "Yahoo",
+   "title": "AI Wants “Every Scrap of RAM.” Qualcomm and Arm Just Showed Who Pays the Bill",
+   "t": [
+    "QCOM"
+   ],
+   "names": [
+    "QUALCOMM Incorporated"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T07:09:46+00:00",
+   "publisher": "Yahoo",
+   "title": "Adeia (ADEA) Cuts Guidance, Is The Stock Now A Bargain?",
+   "t": [
+    "ADEA"
+   ],
+   "names": [
+    "Adeia Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T07:07:11+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Microsoft Stock: Azure Drives Growth",
+   "t": [
+    "MSFT"
+   ],
+   "names": [
+    "Microsoft Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T07:04:01+00:00",
+   "publisher": "Yahoo",
+   "title": "CoreWeave Bonds Now Yield “Over 17%.” Lenders Are Pricing a Neocloud in Distress",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T06:38:13+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Palantir: Great Business, Wrong Time (Rating Downgrade)",
+   "t": [
+    "PLTR"
+   ],
+   "names": [
+    "Palantir Technologies Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T06:24:50+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Sabre Corporation 2026 Q3 - Results - Earnings Call Presentation",
+   "t": [
+    "SABR"
+   ],
+   "names": [
+    "Sabre Corporation"
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T06:24:33+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Sabre Corporation (SABR) Q3 2026 Earnings Call Transcript",
+   "t": [
+    "SABR"
+   ],
+   "names": [
+    "Sabre Corporation"
+   ],
+   "good": null
+  }
+ ],
+ "good": [
+  {
+   "key": "beat",
+   "label": "실적이 예상보다 좋았다",
+   "items": [
+    {
+     "time": "2026-11-07T03:17:49+00:00",
+     "publisher": "Yahoo",
+     "title": "Camtek Ltd (CAMT) Q3 2026 Earnings Call Highlights: Record Revenue of $161. ...",
+     "t": [
+      "CAMT"
+     ],
+     "names": [
+      "Camtek Ltd."
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T22:25:02+00:00",
+     "publisher": "Yahoo",
+     "title": "Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook",
+     "t": [
+      "AMD"
+     ],
+     "names": [
+      "Advanced Micro Devices, Inc."
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T18:11:41+00:00",
+     "publisher": "Yahoo",
+     "title": "SoundHound AI's Record Quarter Comes With a Big Catch",
+     "t": [
+      "SOUN"
+     ],
+     "names": [
+      "SoundHound AI, Inc."
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T15:35:00+00:00",
+     "publisher": "Yahoo",
+     "title": "FIVN Q3 Earnings & Revenues Surpass Estimates, Both Increase Y/Y",
+     "t": [
+      "FIVN"
+     ],
+     "names": [
+      "Five9, Inc."
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T15:24:00+00:00",
+     "publisher": "Yahoo",
+     "title": "MCHP Q2 Earnings Beat Estimates, Revenues Rise on Demand Recovery",
+     "t": [
+      "MCHP"
+     ],
+     "names": [
+      "Microchip Technology Incorporat"
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T15:21:00+00:00",
+     "publisher": "Yahoo",
+     "title": "Appian Q3 Earnings Beat Estimates, Revenues Increase Y/Y",
+     "t": [
+      "APPN"
+     ],
+     "names": [
+      "Appian Corporation"
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T15:15:00+00:00",
+     "publisher": "Yahoo",
+     "title": "AAOI Q3 Earnings Beat Estimates on Strong Datacenter and CATV Sales",
+     "t": [
+      "AAOI"
+     ],
+     "names": [
+      "Applied Optoelectronics, Inc."
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T15:12:00+00:00",
+     "publisher": "Yahoo",
+     "title": "Akamai Q3 Earnings Beat Estimates on Security and Cloud Growth",
+     "t": [
+      "AKAM"
+     ],
+     "names": [
+      "Akamai Technologies, Inc."
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T15:09:00+00:00",
+     "publisher": "Yahoo",
+     "title": "ACMR Q3 Earnings Beat Estimates on ECP Growth, Revenues Rise Y/Y",
+     "t": [
+      "ACMR"
+     ],
+     "names": [
+      "ACM Research, Inc."
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T14:44:00+00:00",
+     "publisher": "Yahoo",
+     "title": "MTSI Q4 Earnings Surpass Estimates on Data Center Strength",
+     "t": [
+      "MTSI"
+     ],
+     "names": [
+      "MACOM Technology Solutions Hold"
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T13:19:01+00:00",
+     "publisher": "Yahoo",
+     "title": "Why MACOM Stock Is In Focus After Record Earnings And Strong 2027 Guidance",
+     "t": [
+      "MTSI"
+     ],
+     "names": [
+      "MACOM Technology Solutions Hold"
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T11:17:22+00:00",
+     "publisher": "Yahoo",
+     "title": "Arteris Inc (AIP) (Q3 2026) Earnings Call Highlights: Record Revenue and ACV Growth Fuel Raised ...",
+     "t": [
+      "AIP"
+     ],
+     "names": [
+      "Arteris, Inc."
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T09:18:27+00:00",
+     "publisher": "Yahoo",
+     "title": "Microchip Technology Inc (MCHP) (Q2 2027) Earnings Call Highlights: Record Sales and 42% Growth ...",
+     "t": [
+      "MCHP"
+     ],
+     "names": [
+      "Microchip Technology Incorporat"
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T07:21:18+00:00",
+     "publisher": "Yahoo",
+     "title": "Diodes Inc (DIOD) (Q3 2026) Earnings Call Highlights: Record Revenue and 36% Growth Propel ...",
+     "t": [
+      "DIOD"
+     ],
+     "names": [
+      "Diodes Incorporated"
+     ],
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-06T07:21:01+00:00",
+     "publisher": "Yahoo",
+     "title": "PDF Solutions Inc (PDFS) (Q3 2026) Earnings Call Highlights: Record Revenue, Expanding Margins, ...",
+     "t": [
+      "PDFS"
+     ],
+     "names": [
+      "PDF Solutions, Inc."
+     ],
+     "good": "beat"
     }
-  ],
-  "good": [
+   ]
+  },
+  {
+   "key": "guide",
+   "label": "전망을 올렸다",
+   "items": [
     {
-      "key": "beat",
-      "label": "실적이 예상보다 좋았다",
-      "items": [
-        {
-          "time": "2026-11-07T03:17:49+00:00",
-          "publisher": "Yahoo",
-          "title": "Camtek Ltd (CAMT) Q3 2026 Earnings Call Highlights: Record Revenue of $161. ...",
-          "t": [
-            "CAMT"
-          ],
-          "names": [
-            "Camtek Ltd."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T22:25:02+00:00",
-          "publisher": "Yahoo",
-          "title": "Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook",
-          "t": [
-            "AMD"
-          ],
-          "names": [
-            "Advanced Micro Devices, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T15:24:00+00:00",
-          "publisher": "Yahoo",
-          "title": "MCHP Q2 Earnings Beat Estimates, Revenues Rise on Demand Recovery",
-          "t": [
-            "MCHP"
-          ],
-          "names": [
-            "Microchip Technology Incorporat"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T15:21:00+00:00",
-          "publisher": "Yahoo",
-          "title": "Appian Q3 Earnings Beat Estimates, Revenues Increase Y/Y",
-          "t": [
-            "APPN"
-          ],
-          "names": [
-            "Appian Corporation"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T15:15:00+00:00",
-          "publisher": "Yahoo",
-          "title": "AAOI Q3 Earnings Beat Estimates on Strong Datacenter and CATV Sales",
-          "t": [
-            "AAOI"
-          ],
-          "names": [
-            "Applied Optoelectronics, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T15:12:00+00:00",
-          "publisher": "Yahoo",
-          "title": "Akamai Q3 Earnings Beat Estimates on Security and Cloud Growth",
-          "t": [
-            "AKAM"
-          ],
-          "names": [
-            "Akamai Technologies, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T15:09:00+00:00",
-          "publisher": "Yahoo",
-          "title": "ACMR Q3 Earnings Beat Estimates on ECP Growth, Revenues Rise Y/Y",
-          "t": [
-            "ACMR"
-          ],
-          "names": [
-            "ACM Research, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T14:44:00+00:00",
-          "publisher": "Yahoo",
-          "title": "MTSI Q4 Earnings Surpass Estimates on Data Center Strength",
-          "t": [
-            "MTSI"
-          ],
-          "names": [
-            "MACOM Technology Solutions Hold"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T13:19:01+00:00",
-          "publisher": "Yahoo",
-          "title": "Why MACOM Stock Is In Focus After Record Earnings And Strong 2027 Guidance",
-          "t": [
-            "MTSI"
-          ],
-          "names": [
-            "MACOM Technology Solutions Hold"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T11:17:22+00:00",
-          "publisher": "Yahoo",
-          "title": "Arteris Inc (AIP) (Q3 2026) Earnings Call Highlights: Record Revenue and ACV Growth Fuel Raised ...",
-          "t": [
-            "AIP"
-          ],
-          "names": [
-            "Arteris, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T09:18:27+00:00",
-          "publisher": "Yahoo",
-          "title": "Microchip Technology Inc (MCHP) (Q2 2027) Earnings Call Highlights: Record Sales and 42% Growth ...",
-          "t": [
-            "MCHP"
-          ],
-          "names": [
-            "Microchip Technology Incorporat"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T05:25:57+00:00",
-          "publisher": "Yahoo",
-          "title": "IBEX Ltd (IBEX) (Q1 2027) Earnings Call Highlights: Record Revenue, Raised Guidance and AI ...",
-          "t": [
-            "IBEX"
-          ],
-          "names": [
-            "IBEX Limited"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T05:24:00+00:00",
-          "publisher": "Yahoo",
-          "title": "Innodata Inc (INOD) (Q3 2026) Earnings Call Highlights: Record Revenue Growth and Strategic ...",
-          "t": [
-            "INOD"
-          ],
-          "names": [
-            "Innodata Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T03:02:17+00:00",
-          "publisher": "Yahoo",
-          "title": "Tower Semiconductor Ltd (TSEM) Q3 2026 Earnings Call Highlights: Record Revenue of $526 Million ...",
-          "t": [
-            "TSEM"
-          ],
-          "names": [
-            "Tower Semiconductor Ltd."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T01:14:34+00:00",
-          "publisher": "Yahoo",
-          "title": "Nova Ltd (NVMI) Q3 2026 Earnings Call Highlights: Record Revenue, $1 Billion Milestone Reached ...",
-          "t": [
-            "NVMI"
-          ],
-          "names": [
-            "Nova Ltd."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T00:31:44+00:00",
-          "publisher": "ChartMill",
-          "title": "ePlus (NASDAQ:PLUS) Beats Q2 Estimates and Raises Fiscal 2027 Outlook",
-          "t": [
-            "PLUS"
-          ],
-          "names": [
-            "ePlus inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T00:07:40+00:00",
-          "publisher": "ChartMill",
-          "title": "nLIGHT (NASDAQ:LASR) Q3 2026 Results Beat Estimates, Q4 Guidance Tops Consensus Despite Supply Delays",
-          "t": [
-            "LASR"
-          ],
-          "names": [
-            "nLIGHT, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T00:00:20+00:00",
-          "publisher": "Yahoo",
-          "title": "Paylocity (PCTY) Tops Q1 Earnings and Revenue Estimates",
-          "t": [
-            "PCTY"
-          ],
-          "names": [
-            "Paylocity Holding Corporation"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T00:00:20+00:00",
-          "publisher": "Yahoo",
-          "title": "AvePoint, Inc. (AVPT) Q3 Earnings and Revenues Surpass Estimates",
-          "t": [
-            "AVPT"
-          ],
-          "names": [
-            "AvePoint, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T00:00:19+00:00",
-          "publisher": "Yahoo",
-          "title": "Arteris, Inc. (AIP) Reports Q3 Loss, Tops Revenue Estimates",
-          "t": [
-            "AIP"
-          ],
-          "names": [
-            "Arteris, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T00:00:14+00:00",
-          "publisher": "Yahoo",
-          "title": "nLight (LASR) Beats Q3 Earnings and Revenue Estimates",
-          "t": [
-            "LASR"
-          ],
-          "names": [
-            "nLIGHT, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T00:00:14+00:00",
-          "publisher": "Yahoo",
-          "title": "Atlassian (TEAM) Surpasses Q1 Earnings and Revenue Estimates",
-          "t": [
-            "TEAM"
-          ],
-          "names": [
-            "Atlassian Corporation"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-06T00:00:13+00:00",
-          "publisher": "Yahoo",
-          "title": "Synaptics (SYNA) Tops Q1 Earnings Estimates",
-          "t": [
-            "SYNA"
-          ],
-          "names": [
-            "Synaptics Incorporated"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T23:46:56+00:00",
-          "publisher": "ChartMill",
-          "title": "JFrog (NASDAQ:FROG) Jumps as Q3 Results and Guidance Beat Expectations",
-          "t": [
-            "FROG"
-          ],
-          "names": [
-            "JFrog Ltd."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T23:24:37+00:00",
-          "publisher": "ChartMill",
-          "title": "Consensus Cloud Solutions (NASDAQ:CCSI) Posts In-Line Q3 Revenue and Beats Adjusted EPS Estimates",
-          "t": [
-            "CCSI"
-          ],
-          "names": [
-            "Consensus Cloud Solutions, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T23:19:53+00:00",
-          "publisher": "Yahoo",
-          "title": "GigaCloud Technology Inc (GCT) (Q3 2026) Earnings Call Highlights: Record Revenue of $424 ...",
-          "t": [
-            "GCT"
-          ],
-          "names": [
-            "GigaCloud Technology Inc"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T23:19:15+00:00",
-          "publisher": "Yahoo",
-          "title": "Cognex Corp (CGNX) (Q3 2026) Earnings Call Highlights: Record Revenue, 1,340 Basis Point Margin ...",
-          "t": [
-            "CGNX"
-          ],
-          "names": [
-            "Cognex Corporation"
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T23:11:57+00:00",
-          "publisher": "Yahoo",
-          "title": "Allient Inc (ALNT) (Q3 2026) Earnings Call Highlights: Record Revenue, Surging Orders and ...",
-          "t": [
-            "ALNT"
-          ],
-          "names": [
-            "Allient Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T21:47:02+00:00",
-          "publisher": "Yahoo",
-          "title": "Dropbox (NASDAQ:DBX) exceeds Q3 2026 expectations",
-          "t": [
-            "DBX"
-          ],
-          "names": [
-            "Dropbox, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T21:45:15+00:00",
-          "publisher": "Yahoo",
-          "title": "Akamai Technologies (AKAM) Q3 Earnings and Revenues Surpass Estimates",
-          "t": [
-            "AKAM"
-          ],
-          "names": [
-            "Akamai Technologies, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T21:45:14+00:00",
-          "publisher": "Yahoo",
-          "title": "Applied Optoelectronics (AAOI) Surpasses Q3 Earnings and Revenue Estimates",
-          "t": [
-            "AAOI"
-          ],
-          "names": [
-            "Applied Optoelectronics, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T21:45:14+00:00",
-          "publisher": "Yahoo",
-          "title": "Innodata Inc (INOD) Tops Q3 Earnings and Revenue Estimates",
-          "t": [
-            "INOD"
-          ],
-          "names": [
-            "Innodata Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T21:45:13+00:00",
-          "publisher": "Yahoo",
-          "title": "PDF Solutions (PDFS) Tops Q3 Earnings Estimates",
-          "t": [
-            "PDFS"
-          ],
-          "names": [
-            "PDF Solutions, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T21:45:08+00:00",
-          "publisher": "Yahoo",
-          "title": "Five9 (FIVN) Surpasses Q3 Earnings and Revenue Estimates",
-          "t": [
-            "FIVN"
-          ],
-          "names": [
-            "Five9, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T21:45:07+00:00",
-          "publisher": "Yahoo",
-          "title": "Consensus Cloud Solutions, Inc. (CCSI) Beats Q3 Earnings and Revenue Estimates",
-          "t": [
-            "CCSI"
-          ],
-          "names": [
-            "Consensus Cloud Solutions, Inc."
-          ],
-          "good": "beat"
-        },
-        {
-          "time": "2026-11-05T21:45:04+00:00",
-          "publisher": "Yahoo",
-          "title": "Alarm.com Holdings (ALRM) Surpasses Q3 Earnings and Revenue Estimates",
-          "t": [
-            "ALRM"
-          ],
-          "names": [
-            "Alarm.com Holdings, Inc."
-          ],
-          "good": "beat"
-        }
-      ]
+     "time": "2026-11-07T08:14:09+00:00",
+     "publisher": "Yahoo",
+     "title": "What Paylocity Holding (PCTY)'s Raised Outlook Means For Shareholders",
+     "t": [
+      "PCTY"
+     ],
+     "names": [
+      "Paylocity Holding Corporation"
+     ],
+     "good": "guide"
     },
     {
-      "key": "guide",
-      "label": "전망을 올렸다",
-      "items": [
-        {
-          "time": "2026-11-06T18:14:48+00:00",
-          "publisher": "Yahoo",
-          "title": "What Flywire (FLYW)'s Raised Full Year Guidance Means For Shareholders",
-          "t": [
-            "FLYW"
-          ],
-          "names": [
-            "Flywire Corporation - Voting"
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-06T14:10:00+00:00",
-          "publisher": "Yahoo",
-          "title": "ACMR Q3 Earnings Call Highlights Raised Outlook and Backlog Growth",
-          "t": [
-            "ACMR"
-          ],
-          "names": [
-            "ACM Research, Inc."
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-06T07:06:04+00:00",
-          "publisher": "Benzinga",
-          "title": "Docebo Raises FY2026 Sales Guidance from $274.500M-$276.500M to $276.700M vs $275.629M Est",
-          "t": [
-            "DCBO"
-          ],
-          "names": [
-            "Docebo Inc."
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-06T06:13:05+00:00",
-          "publisher": "Yahoo",
-          "title": "ACM Research Stock Gets A Lift From Raised Revenue Outlook",
-          "t": [
-            "ACMR"
-          ],
-          "names": [
-            "ACM Research, Inc."
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-06T04:28:59+00:00",
-          "publisher": "Yahoo",
-          "title": "Tenable Stock Is Raising Guidance After Earnings Beat And Atos Client Win",
-          "t": [
-            "TENB"
-          ],
-          "names": [
-            "Tenable Holdings, Inc."
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-06T01:19:39+00:00",
-          "publisher": "Yahoo",
-          "title": "ScanSource Inc (SCSC) Q1 2027 Earnings Call Highlights: 30% Sales Surge, Raised Outlook, and ...",
-          "t": [
-            "SCSC"
-          ],
-          "names": [
-            "ScanSource, Inc."
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-06T01:15:48+00:00",
-          "publisher": "Yahoo",
-          "title": "ACM Research Inc (ACMR) (Q3 2026) Earnings Call Highlights: Record Backlog and Raised Outlook ...",
-          "t": [
-            "ACMR"
-          ],
-          "names": [
-            "ACM Research, Inc."
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-06T00:36:07+00:00",
-          "publisher": "ChartMill",
-          "title": "Quantinuum Inc-A (NASDAQ:QNT) Q3 Beat and Raised 2026 Outlook Lift Shares in Relief Bounce",
-          "t": [
-            "QNT"
-          ],
-          "names": [
-            "Quantinuum Inc."
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-06T00:00:44+00:00",
-          "publisher": "ChartMill",
-          "title": "Innodata (NASDAQ:INOD) Posts Wide Q3 Beat and Lifts 2026 Growth Guidance",
-          "t": [
-            "INOD"
-          ],
-          "names": [
-            "Innodata Inc."
-          ],
-          "good": "guide"
-        },
-        {
-          "time": "2026-11-05T23:57:34+00:00",
-          "publisher": "ChartMill",
-          "title": "IBEX (NASDAQ:IBEX) Profit Beat and Raised Guidance Fuel After-Hours Rally",
-          "t": [
-            "IBEX"
-          ],
-          "names": [
-            "IBEX Limited"
-          ],
-          "good": "guide"
-        }
-      ]
+     "time": "2026-11-07T03:15:19+00:00",
+     "publisher": "Yahoo",
+     "title": "What ZoomInfo Stock's Raised Outlook Means For Shareholders",
+     "t": [
+      "GTM"
+     ],
+     "names": [
+      "ZoomInfo Technologies Inc."
+     ],
+     "good": "guide"
     },
     {
-      "key": "target",
-      "label": "목표가 · 의견을 올렸다",
-      "items": [
-        {
-          "time": "2026-11-06T17:38:40+00:00",
-          "publisher": "Yahoo",
-          "title": "SiTime shares surge 16% as Seaport upgrades to Buy following post-earnings dip",
-          "t": [
-            "SITM"
-          ],
-          "names": [
-            "SiTime Corporation"
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T10:32:32+00:00",
-          "publisher": "Benzinga",
-          "title": "Piper Sandler Maintains Neutral on JFrog, Raises Price Target to $95",
-          "t": [
-            "FROG"
-          ],
-          "names": [
-            "JFrog Ltd."
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T10:25:48+00:00",
-          "publisher": "Benzinga",
-          "title": "Keybanc Maintains Overweight on JFrog, Raises Price Target to $118",
-          "t": [
-            "FROG"
-          ],
-          "names": [
-            "JFrog Ltd."
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T09:34:30+00:00",
-          "publisher": "Benzinga",
-          "title": "Susquehanna Maintains Neutral on Rapid7, Raises Price Target to $16",
-          "t": [
-            "RPD"
-          ],
-          "names": [
-            "Rapid7, Inc."
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T09:13:36+00:00",
-          "publisher": "Benzinga",
-          "title": "Cantor Fitzgerald Maintains Overweight on Bentley Systems, Raises Price Target to $55",
-          "t": [
-            "BSY"
-          ],
-          "names": [
-            "Bentley Systems, Incorporated"
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T08:44:15+00:00",
-          "publisher": "Benzinga",
-          "title": "Cantor Fitzgerald Maintains Overweight on AvePoint, Raises Price Target to $19",
-          "t": [
-            "AVPT"
-          ],
-          "names": [
-            "AvePoint, Inc."
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T08:27:27+00:00",
-          "publisher": "Benzinga",
-          "title": "Rosenblatt Maintains Buy on Bentley Systems, Raises Price Target to $53",
-          "t": [
-            "BSY"
-          ],
-          "names": [
-            "Bentley Systems, Incorporated"
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T08:24:28+00:00",
-          "publisher": "Benzinga",
-          "title": "Piper Sandler Maintains Overweight on Atlassian, Raises Price Target to $190",
-          "t": [
-            "TEAM"
-          ],
-          "names": [
-            "Atlassian Corporation"
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T08:16:49+00:00",
-          "publisher": "Benzinga",
-          "title": "Freedom Capital Markets Maintains Buy on Chime Financial, Raises Price Target to $40",
-          "t": [
-            "CHYM"
-          ],
-          "names": [
-            "Chime Financial, Inc."
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T07:37:32+00:00",
-          "publisher": "Benzinga",
-          "title": "BTIG Maintains Buy on Paylocity Holding, Raises Price Target to $210",
-          "t": [
-            "PCTY"
-          ],
-          "names": [
-            "Paylocity Holding Corporation"
-          ],
-          "good": "target"
-        },
-        {
-          "time": "2026-11-06T06:42:18+00:00",
-          "publisher": "Benzinga",
-          "title": "Seaport Global Upgrades SiTime to Buy, Announces $425 Price Target",
-          "t": [
-            "SITM"
-          ],
-          "names": [
-            "SiTime Corporation"
-          ],
-          "good": "target"
-        }
-      ]
+     "time": "2026-11-06T18:36:47+00:00",
+     "publisher": "Yahoo",
+     "title": "Rigetti Soars 17%, D-Wave Up 17% as IonQ Raises Guidance to “An Industry Record”",
+     "t": [
+      "QBTS",
+      "RGTI"
+     ],
+     "names": [
+      "D-Wave Quantum Inc.",
+      "Rigetti Computing, Inc."
+     ],
+     "good": "guide"
     },
     {
-      "key": "return",
-      "label": "자사주 매입 · 배당을 늘렸다",
-      "items": [
-        {
-          "time": "2026-11-07T04:25:52+00:00",
-          "publisher": "Yahoo",
-          "title": "Lam Research (LRCX) Authorizes $25 Billion Share Repurchase Program",
-          "t": [
-            "LRCX"
-          ],
-          "names": [
-            "Lam Research Corporation"
-          ],
-          "good": "return"
-        },
-        {
-          "time": "2026-11-06T15:10:09+00:00",
-          "publisher": "Yahoo",
-          "title": "Lam Research Soars 9% on $25 Billion Buyback as Chip Stocks Rebound From Rout",
-          "t": [
-            "LRCX"
-          ],
-          "names": [
-            "Lam Research Corporation"
-          ],
-          "good": "return"
-        },
-        {
-          "time": "2026-11-06T09:58:56+00:00",
-          "publisher": "Benzinga",
-          "title": "Lam Research Unleashes $25 Billion Stock Buyback",
-          "t": [
-            "LRCX"
-          ],
-          "names": [
-            "Lam Research Corporation"
-          ],
-          "good": "return"
-        }
-      ]
+     "time": "2026-11-06T18:14:48+00:00",
+     "publisher": "Yahoo",
+     "title": "What Flywire (FLYW)'s Raised Full Year Guidance Means For Shareholders",
+     "t": [
+      "FLYW"
+     ],
+     "names": [
+      "Flywire Corporation - Voting"
+     ],
+     "good": "guide"
+    },
+    {
+     "time": "2026-11-06T14:10:00+00:00",
+     "publisher": "Yahoo",
+     "title": "ACMR Q3 Earnings Call Highlights Raised Outlook and Backlog Growth",
+     "t": [
+      "ACMR"
+     ],
+     "names": [
+      "ACM Research, Inc."
+     ],
+     "good": "guide"
+    },
+    {
+     "time": "2026-11-06T12:57:02+00:00",
+     "publisher": "Yahoo",
+     "title": "AvePoint’s Higher Software Sales, Raised Guidance Help Shares Rise",
+     "t": [
+      "AVPT"
+     ],
+     "names": [
+      "AvePoint, Inc."
+     ],
+     "good": "guide"
+    },
+    {
+     "time": "2026-11-06T07:06:04+00:00",
+     "publisher": "Benzinga",
+     "title": "Docebo Raises FY2026 Sales Guidance from $274.500M-$276.500M to $276.700M vs $275.629M Est",
+     "t": [
+      "DCBO"
+     ],
+     "names": [
+      "Docebo Inc."
+     ],
+     "good": "guide"
+    },
+    {
+     "time": "2026-11-06T06:13:05+00:00",
+     "publisher": "Yahoo",
+     "title": "ACM Research Stock Gets A Lift From Raised Revenue Outlook",
+     "t": [
+      "ACMR"
+     ],
+     "names": [
+      "ACM Research, Inc."
+     ],
+     "good": "guide"
     }
-  ]
+   ]
+  },
+  {
+   "key": "target",
+   "label": "목표가 · 의견을 올렸다",
+   "items": [
+    {
+     "time": "2026-11-07T12:00:00+00:00",
+     "publisher": "SeekingAlpha",
+     "title": "AMD: AI Panic Meets Outsized CPU/GPU Gains - Upgrade To Buy",
+     "t": [
+      "AMD"
+     ],
+     "names": [
+      "Advanced Micro Devices, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T19:24:14+00:00",
+     "publisher": "Benzinga",
+     "title": "UBS Maintains Sell on Dropbox, Raises Price Target to $26",
+     "t": [
+      "DBX"
+     ],
+     "names": [
+      "Dropbox, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T17:38:40+00:00",
+     "publisher": "Yahoo",
+     "title": "SiTime shares surge 16% as Seaport upgrades to Buy following post-earnings dip",
+     "t": [
+      "SITM"
+     ],
+     "names": [
+      "SiTime Corporation"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T17:09:00+00:00",
+     "publisher": "Benzinga",
+     "title": "Citigroup Maintains Buy on Appian, Raises Price Target to $69",
+     "t": [
+      "APPN"
+     ],
+     "names": [
+      "Appian Corporation"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T16:25:55+00:00",
+     "publisher": "Benzinga",
+     "title": "DA Davidson Maintains Neutral on Appian, Raises Price Target to $60",
+     "t": [
+      "APPN"
+     ],
+     "names": [
+      "Appian Corporation"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T16:20:07+00:00",
+     "publisher": "Benzinga",
+     "title": "DA Davidson Maintains Buy on Jack Henry & Associates, Raises Price Target to $212",
+     "t": [
+      "JKHY"
+     ],
+     "names": [
+      "Jack Henry & Associates, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T16:17:34+00:00",
+     "publisher": "Benzinga",
+     "title": "Needham Maintains Buy on Docebo, Raises Price Target to $42",
+     "t": [
+      "DCBO"
+     ],
+     "names": [
+      "Docebo Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T15:38:57+00:00",
+     "publisher": "Benzinga",
+     "title": "Canaccord Genuity Maintains Buy on JFrog, Raises Price Target to $110",
+     "t": [
+      "FROG"
+     ],
+     "names": [
+      "JFrog Ltd."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T15:23:15+00:00",
+     "publisher": "Benzinga",
+     "title": "Canaccord Genuity Maintains Hold on Insight Enterprises, Raises Price Target to $175",
+     "t": [
+      "NSIT"
+     ],
+     "names": [
+      "Insight Enterprises, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T14:35:00+00:00",
+     "publisher": "Benzinga",
+     "title": "RBC Capital Maintains Outperform on JFrog, Raises Price Target to $121",
+     "t": [
+      "FROG"
+     ],
+     "names": [
+      "JFrog Ltd."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T14:19:54+00:00",
+     "publisher": "Benzinga",
+     "title": "RBC Capital Maintains Outperform on Dropbox, Raises Price Target to $48",
+     "t": [
+      "DBX"
+     ],
+     "names": [
+      "Dropbox, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T14:15:38+00:00",
+     "publisher": "Benzinga",
+     "title": "Truist Securities Maintains Hold on Lyft, Raises Price Target to $18",
+     "t": [
+      "LYFT"
+     ],
+     "names": [
+      "Lyft, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T14:12:43+00:00",
+     "publisher": "Benzinga",
+     "title": "Scotiabank Maintains Sector Outperform on AvePoint, Raises Price Target to $20",
+     "t": [
+      "AVPT"
+     ],
+     "names": [
+      "AvePoint, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T14:11:16+00:00",
+     "publisher": "Benzinga",
+     "title": "Truist Securities Maintains Buy on JFrog, Raises Price Target to $120",
+     "t": [
+      "FROG"
+     ],
+     "names": [
+      "JFrog Ltd."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T14:01:44+00:00",
+     "publisher": "Benzinga",
+     "title": "RBC Capital Maintains Outperform on Bentley Systems, Raises Price Target to $52",
+     "t": [
+      "BSY"
+     ],
+     "names": [
+      "Bentley Systems, Incorporated"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T13:13:53+00:00",
+     "publisher": "Benzinga",
+     "title": "Oppenheimer Maintains Outperform on Bentley Systems, Raises Price Target to $52",
+     "t": [
+      "BSY"
+     ],
+     "names": [
+      "Bentley Systems, Incorporated"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T12:30:10+00:00",
+     "publisher": "Benzinga",
+     "title": "Barclays Maintains Equal-Weight on Paylocity Holding, Raises Price Target to $176",
+     "t": [
+      "PCTY"
+     ],
+     "names": [
+      "Paylocity Holding Corporation"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T12:28:24+00:00",
+     "publisher": "Benzinga",
+     "title": "Barclays Maintains Equal-Weight on Open Text, Raises Price Target to $29",
+     "t": [
+      "OTEX"
+     ],
+     "names": [
+      "Open Text Corporation"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T12:14:32+00:00",
+     "publisher": "Benzinga",
+     "title": "Guggenheim Maintains Buy on JFrog, Raises Price Target to $125",
+     "t": [
+      "FROG"
+     ],
+     "names": [
+      "JFrog Ltd."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T12:01:32+00:00",
+     "publisher": "Benzinga",
+     "title": "Barclays Maintains Equal-Weight on Alarm.com Holdings, Raises Price Target to $70",
+     "t": [
+      "ALRM"
+     ],
+     "names": [
+      "Alarm.com Holdings, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T11:35:44+00:00",
+     "publisher": "Benzinga",
+     "title": "Citizens Maintains Market Outperform on Paylocity Holding, Raises Price Target to $200",
+     "t": [
+      "PCTY"
+     ],
+     "names": [
+      "Paylocity Holding Corporation"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T10:37:12+00:00",
+     "publisher": "Benzinga",
+     "title": "Evercore ISI Group Maintains Outperform on AvePoint, Raises Price Target to $20",
+     "t": [
+      "AVPT"
+     ],
+     "names": [
+      "AvePoint, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T10:32:32+00:00",
+     "publisher": "Benzinga",
+     "title": "Piper Sandler Maintains Neutral on JFrog, Raises Price Target to $95",
+     "t": [
+      "FROG"
+     ],
+     "names": [
+      "JFrog Ltd."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T10:25:48+00:00",
+     "publisher": "Benzinga",
+     "title": "Keybanc Maintains Overweight on JFrog, Raises Price Target to $118",
+     "t": [
+      "FROG"
+     ],
+     "names": [
+      "JFrog Ltd."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T10:22:43+00:00",
+     "publisher": "Benzinga",
+     "title": "Keybanc Maintains Overweight on Five9, Raises Price Target to $34",
+     "t": [
+      "FIVN"
+     ],
+     "names": [
+      "Five9, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T10:14:57+00:00",
+     "publisher": "Yahoo",
+     "title": "D-Wave Quantum (QBTS) Unveils Solver Upgrade as Investors Weigh Whether The Stock Is Undervalued",
+     "t": [
+      "QBTS"
+     ],
+     "names": [
+      "D-Wave Quantum Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T09:34:30+00:00",
+     "publisher": "Benzinga",
+     "title": "Susquehanna Maintains Neutral on Rapid7, Raises Price Target to $16",
+     "t": [
+      "RPD"
+     ],
+     "names": [
+      "Rapid7, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T09:13:36+00:00",
+     "publisher": "Benzinga",
+     "title": "Cantor Fitzgerald Maintains Overweight on Bentley Systems, Raises Price Target to $55",
+     "t": [
+      "BSY"
+     ],
+     "names": [
+      "Bentley Systems, Incorporated"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T08:44:15+00:00",
+     "publisher": "Benzinga",
+     "title": "Cantor Fitzgerald Maintains Overweight on AvePoint, Raises Price Target to $19",
+     "t": [
+      "AVPT"
+     ],
+     "names": [
+      "AvePoint, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T08:27:27+00:00",
+     "publisher": "Benzinga",
+     "title": "Rosenblatt Maintains Buy on Bentley Systems, Raises Price Target to $53",
+     "t": [
+      "BSY"
+     ],
+     "names": [
+      "Bentley Systems, Incorporated"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T08:24:28+00:00",
+     "publisher": "Benzinga",
+     "title": "Piper Sandler Maintains Overweight on Atlassian, Raises Price Target to $190",
+     "t": [
+      "TEAM"
+     ],
+     "names": [
+      "Atlassian Corporation"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T08:16:49+00:00",
+     "publisher": "Benzinga",
+     "title": "Freedom Capital Markets Maintains Buy on Chime Financial, Raises Price Target to $40",
+     "t": [
+      "CHYM"
+     ],
+     "names": [
+      "Chime Financial, Inc."
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T07:37:32+00:00",
+     "publisher": "Benzinga",
+     "title": "BTIG Maintains Buy on Paylocity Holding, Raises Price Target to $210",
+     "t": [
+      "PCTY"
+     ],
+     "names": [
+      "Paylocity Holding Corporation"
+     ],
+     "good": "target"
+    },
+    {
+     "time": "2026-11-06T06:42:18+00:00",
+     "publisher": "Benzinga",
+     "title": "Seaport Global Upgrades SiTime to Buy, Announces $425 Price Target",
+     "t": [
+      "SITM"
+     ],
+     "names": [
+      "SiTime Corporation"
+     ],
+     "good": "target"
+    }
+   ]
+  },
+  {
+   "key": "return",
+   "label": "자사주 매입 · 배당을 늘렸다",
+   "items": [
+    {
+     "time": "2026-11-07T04:25:52+00:00",
+     "publisher": "Yahoo",
+     "title": "Lam Research (LRCX) Authorizes $25 Billion Share Repurchase Program",
+     "t": [
+      "LRCX"
+     ],
+     "names": [
+      "Lam Research Corporation"
+     ],
+     "good": "return"
+    },
+    {
+     "time": "2026-11-06T15:10:09+00:00",
+     "publisher": "Yahoo",
+     "title": "Lam Research Soars 9% on $25 Billion Buyback as Chip Stocks Rebound From Rout",
+     "t": [
+      "LRCX"
+     ],
+     "names": [
+      "Lam Research Corporation"
+     ],
+     "good": "return"
+    },
+    {
+     "time": "2026-11-06T09:58:56+00:00",
+     "publisher": "Benzinga",
+     "title": "Lam Research Unleashes $25 Billion Stock Buyback",
+     "t": [
+      "LRCX"
+     ],
+     "names": [
+      "Lam Research Corporation"
+     ],
+     "good": "return"
+    }
+   ]
+  }
+ ]
 }
