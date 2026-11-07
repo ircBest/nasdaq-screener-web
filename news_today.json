@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T23:19:25+00:00",
+ "generated_at": "2026-11-07T23:50:07+00:00",
  "latest_hours": 36,
  "good_hours": 72,
  "note": "좋은 소식은 제목에 정해진 말 (예: 실적이 예상보다 좋았다 · 목표가를 올렸다) 이 있는 기사를 기계가 골라 묶은 것입니다. 사라는 뜻이 아니고, 검증된 신호도 아닙니다. 우리 모의 매매 기록에서 '큰 좋은 소식이 난 다음 날 사기' 는 판정 전이지만 지금까지 기대와 반대로 가고 있습니다. 기사는 뉴스 공급자가 종목에 연결한 것이라 다른 회사 이야기가 섞일 수 있어, 제목에 그 회사가 나오는 기사만 실었습니다.",
@@ -46,8 +46,8 @@
   "good": 60,
   "dropped": {
    "forbidden": 0,
-   "unrelated": 2447,
-   "old": 3892,
+   "unrelated": 2417,
+   "old": 3952,
    "no_time": 0
   }
  },
@@ -159,6 +159,54 @@
    ],
    "names": [
     "Lumentum Holdings Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:27:14+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Rapid7, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+   "t": [
+    "RPD"
+   ],
+   "names": [
+    "Rapid7, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:25:06+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Amplitude, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+   "t": [
+    "AMPL"
+   ],
+   "names": [
+    "Amplitude, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:24:19+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Aeva Technologies, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+   "t": [
+    "AEVA"
+   ],
+   "names": [
+    "Aeva Technologies, Inc."
+   ],
+   "good": null
+  },
+  {
+   "time": "2026-11-07T18:21:00+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Fastly, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+   "t": [
+    "FSLY"
+   ],
+   "names": [
+    "Fastly, Inc."
    ],
    "good": null
   },
@@ -973,54 +1021,6 @@
    ],
    "names": [
     "Microsoft Corporation"
-   ],
-   "good": null
-  },
-  {
-   "time": "2026-11-07T07:04:01+00:00",
-   "publisher": "Yahoo",
-   "title": "CoreWeave Bonds Now Yield “Over 17%.” Lenders Are Pricing a Neocloud in Distress",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "good": null
-  },
-  {
-   "time": "2026-11-07T06:38:13+00:00",
-   "publisher": "SeekingAlpha",
-   "title": "Palantir: Great Business, Wrong Time (Rating Downgrade)",
-   "t": [
-    "PLTR"
-   ],
-   "names": [
-    "Palantir Technologies Inc."
-   ],
-   "good": null
-  },
-  {
-   "time": "2026-11-07T06:24:50+00:00",
-   "publisher": "SeekingAlpha",
-   "title": "Sabre Corporation 2026 Q3 - Results - Earnings Call Presentation",
-   "t": [
-    "SABR"
-   ],
-   "names": [
-    "Sabre Corporation"
-   ],
-   "good": null
-  },
-  {
-   "time": "2026-11-07T06:24:33+00:00",
-   "publisher": "SeekingAlpha",
-   "title": "Sabre Corporation (SABR) Q3 2026 Earnings Call Transcript",
-   "t": [
-    "SABR"
-   ],
-   "names": [
-    "Sabre Corporation"
    ],
    "good": null
   }
