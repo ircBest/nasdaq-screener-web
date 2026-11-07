@@ -450,3 +450,9 @@ table.sx td.leaders { white-space: normal; min-width: 220px; line-height: 1.9; }
   .sd-tabs [role=tab] { padding: 0 9px; font-size: 13.5px; }
   .sd-tabs .badge { display: none; }
 }
+
+/* 예전 목록 카드의 누름 · 올림 효과 (style.css .card:hover · :active) 를 끈다.
+   카드 안 버튼을 누를 때 카드 전체가 줄어들어 클릭이 흔들렸다 (3단계 시험에서 찾음). */
+.card:hover { border-color: var(--border); }
+.card:active { transform: none; }
+.card:focus-visible { outline: none; }
