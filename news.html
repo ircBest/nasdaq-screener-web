@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>오늘의 뉴스 · NASDAQ IT 스크리너</title>
+<meta name="description" content="관측 종목에 나온 최신 뉴스와, 제목에 좋은 소식이 담긴 기사를 모아 봤습니다.">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="css/style.css?v=20261107b">
+<link rel="stylesheet" href="css/terminal.css?v=20261107f">
+<style>
+/* 오늘의 뉴스 전용 (2026-11-07) — 공통 모양은 css/terminal.css */
+.nw-note { margin: 0 0 14px; padding: 11px 14px; border: 1px solid var(--amber-dim); border-radius: var(--radius);
+  background: #FBF6EC; font-size: 12.5px; line-height: 1.7; color: #6B4A12; }
+.nw-tabs { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 16px 12px; }
+.nw-tabs button { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 12px;
+  border: 1px solid var(--border); border-radius: 17px; background: var(--bg); color: var(--text-dim);
+  font: inherit; font-size: 12.5px; font-weight: 600; cursor: pointer; }
+.nw-tabs button b { color: var(--text-faint); font-weight: 600; }
+.nw-tabs button[aria-pressed="true"] { border-color: var(--brand); color: var(--brand); background: #EEF3FD; }
+.nw-tabs button:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.nw-list { list-style: none; margin: 0; padding: 0 16px 8px; }
+.nw-list li { display: grid; grid-template-columns: 92px 1fr; gap: 2px 12px; padding: 11px 0; border-top: 1px solid var(--border); }
+.nw-time { font-size: 12px; color: var(--text-faint); font-variant-numeric: tabular-nums; padding-top: 2px; }
+.nw-body { min-width: 0; }
+.nw-tks { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 3px; }
+.nw-tk { display: inline-block; padding: 1px 7px; border-radius: 4px; background: var(--surface-3); color: var(--text);
+  font-size: 11.5px; font-weight: 700; text-decoration: none; }
+.nw-tk:hover { background: #E8EEFC; color: var(--brand); }
+.nw-nm { font-size: 12px; color: var(--text-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 260px; }
+.nw-title { font-size: 13.5px; line-height: 1.55; color: var(--text); overflow-wrap: anywhere; }
+.nw-pub { margin-top: 2px; font-size: 11px; color: var(--text-faint); }
+.nw-find { display: flex; gap: 8px; padding: 2px 16px 12px; }
+.nw-find input { flex: 1; min-width: 0; min-height: 38px; padding: 0 12px; border: 1px solid var(--border);
+  border-radius: var(--radius); font: inherit; font-size: 13px; background: var(--bg); color: var(--text); }
+.nw-find input:focus-visible { outline: 2px solid var(--brand); outline-offset: 1px; }
+.nw-rules { padding: 0 16px 14px; font-size: 12px; color: var(--text-dim); }
+.nw-rules summary { cursor: pointer; color: var(--brand); font-weight: 600; min-height: 32px; display: flex; align-items: center; }
+.nw-rules ul { margin: 6px 0 0; padding-left: 18px; line-height: 1.8; }
+.nw-rules code { font-size: 11.5px; color: var(--text-faint); }
+.nw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+.nw-grid > section { margin-bottom: 12px; }
+@media (max-width: 1023px) { .nw-grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .nw-list li { grid-template-columns: 1fr; } .nw-nm { max-width: 180px; } }
+</style>
+</head>
+<body class="wide">
+<script src="js/shell.js?v=20261107d"></script>
+
+<main>
+
+  <a class="back" href="index.html" style="display:inline-flex;
+     align-items:center;gap:6px;color:var(--text-dim);
+     text-decoration:none;font-size:13px;margin-bottom:16px">
+     &larr; 목록으로</a>
+
+  <header>
+    <div class="eyebrow"><span class="dot"></span>오늘의 뉴스</div>
+    <h1>오늘 나온 뉴스 · 좋은 소식 모아보기</h1>
+    <div class="sub" id="asof">관측 종목에 붙은 기사 제목을 모았습니다</div>
+  </header>
+
+  <div id="content">
+    <div class="state">불러오는 중…</div>
+  </div>
+
+</main>
+
+<script>
+const $ = (s, r) => (r || document).querySelector(s);
+
+function esc(v) {
+  return String(v == null ? "" : v).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+/* 한국 시간 "11/07 13:17" */
+function kst(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  const k = new Date(d.getTime() + 9 * 3600 * 1000);
+  const p = n => String(n).padStart(2, "0");
+  return `${p(k.getUTCMonth() + 1)}/${p(k.getUTCDate())} ${p(k.getUTCHours())}:${p(k.getUTCMinutes())}`;
+}
+
+function item(it, labels) {
+  const tks = (it.t || []).map((t, i) => `<a class="nw-tk" href="stock.html?ticker=${encodeURIComponent(t)}"
+      title="${esc((it.names || [])[i] || t)} 상세">${esc(t)}</a>`).join("");
+  const nm = (it.names || []).find(Boolean) || "";
+  const tag = it.good && labels ? `<span class="chip up">${esc(labels[it.good] || "좋은 소식")}</span>` : "";
+  return `<li>
+    <div class="nw-time">${esc(kst(it.time))}</div>
+    <div class="nw-body">
+      <div class="nw-tks">${tks}<span class="nw-nm">${esc(nm)}</span>${tag}</div>
+      <div class="nw-title" lang="en">${esc(it.title)}</div>
+      <div class="nw-pub">${esc(it.publisher || "")}</div>
+    </div>
+  </li>`;
+}
+
+function render(d) {
+  const labels = Object.fromEntries((d.rules || []).map(r => [r.key, r.label]));
+  const groups = d.good || [];
+  const allGood = groups.flatMap(g => g.items.map(it => it)).sort((a, b) => b.time.localeCompare(a.time));
+  const latest = d.latest || [];
+
+  $("#asof").textContent = `마지막 갱신 ${kst(d.generated_at)} (한국 시간) · 평일 다섯 번, 주말 한 번 새로 모읍니다`;
+
+  $("#content").innerHTML = `
+    <div class="nw-note" role="note">${esc(d.note || "")}</div>
+
+    <div class="nw-grid">
+      <section class="card" id="good" aria-label="좋은 소식 모아보기">
+        <div class="card-head"><h2>좋은 소식 모아보기</h2><span class="hint">지난 ${esc(d.good_hours)}시간 · ${allGood.length}건</span></div>
+        <div class="card-sub">제목에 정해진 말이 있는 기사만 골랐습니다. 아래 칸을 누르면 그 종류만 봅니다.</div>
+        <div class="nw-tabs" role="group" aria-label="좋은 소식 종류">
+          <button type="button" data-k="" aria-pressed="true">전체 <b>${allGood.length}</b></button>
+          ${groups.map(g => `<button type="button" data-k="${esc(g.key)}" aria-pressed="false">${esc(g.label)} <b>${g.items.length}</b></button>`).join("")}
+        </div>
+        <ul class="nw-list" id="goodList"></ul>
+        <details class="nw-rules">
+          <summary>어떻게 고르나요?</summary>
+          <ul>
+            ${(d.rules || []).map(r => `<li>${esc(r.label)} <code>${esc(r.example)}</code></li>`).join("")}
+            <li>'예상을 밑돌았다 · 내렸다 · 경고 · 소송' 같은 말이 같이 있거나, 물음표로 끝나는 제목 (의견 글),
+              아직 일어나지 않은 일 ('~할 수도') 은 뺐습니다.</li>
+            <li>기계는 기사 본문을 읽지 않습니다. 제목만 봅니다.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section class="card" id="latest" aria-label="최신 뉴스">
+        <div class="card-head"><h2>최신 뉴스</h2><span class="hint">지난 ${esc(d.latest_hours)}시간 · ${latest.length}건</span></div>
+        <div class="nw-find">
+          <input id="find" type="search" placeholder="종목 · 회사 · 단어로 찾기 (예: NVDA)" aria-label="최신 뉴스 찾기" autocomplete="off">
+        </div>
+        <ul class="nw-list" id="latestList"></ul>
+      </section>
+    </div>
+
+    <p class="page-foot">기사는 뉴스 공급자가 종목에 연결한 것이고, 제목에 그 회사가 나오는 기사만 실었습니다. 본문과 링크는 저장하지 않습니다.
+      프로그램의 매매 판단에는 이 목록을 쓰지 않습니다. 투자 권유가 아닙니다.</p>
+  `;
+
+  let key = "";
+  const goodList = $("#goodList");
+  function showGood() {
+    const rows = key ? (groups.find(g => g.key === key) || { items: [] }).items : allGood;
+    goodList.innerHTML = rows.length ? rows.map(it => item(it, key ? null : labels)).join("")
+      : '<li><div></div><div class="state" style="text-align:left;padding:4px 0">지금은 고른 기사가 없습니다.</div></li>';
+  }
+  document.querySelectorAll(".nw-tabs button").forEach(b => b.addEventListener("click", () => {
+    key = b.dataset.k;
+    document.querySelectorAll(".nw-tabs button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    showGood();
+  }));
+  showGood();
+
+  const latestList = $("#latestList");
+  function showLatest(q) {
+    q = (q || "").trim().toLowerCase();
+    const rows = q ? latest.filter(it => (it.title + " " + (it.t || []).join(" ") + " " + (it.names || []).join(" "))
+      .toLowerCase().includes(q)) : latest;
+    latestList.innerHTML = rows.length ? rows.map(it => item(it, labels)).join("")
+      : '<li><div></div><div class="state" style="text-align:left;padding:4px 0">맞는 기사가 없습니다.</div></li>';
+  }
+  $("#find").addEventListener("input", e => showLatest(e.target.value));
+  showLatest("");
+}
+
+(async function () {
+  try {
+    const r = await fetch("news_today.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error("not ok");
+    render(await r.json());
+  } catch (e) {
+    $("#content").innerHTML = '<div class="state">오늘의 뉴스를 아직 불러올 수 없습니다.</div>';
+  }
+})();
+</script>
+
+</body>
+</html>
