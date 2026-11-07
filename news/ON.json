@@ -1,9 +1,24 @@
 {
   "ticker": "ON",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T21:17:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Onsemi and Czech ministry cancel $2 billion chip facility expansion"
+    },
+    {
+      "published_utc": "2026-11-05T18:33:34+00:00",
+      "publisher": "Yahoo",
+      "title": "Onsemi’s AI Data Center Sales Reportedly Grew 175%. Is That the Chip Stock’s New Story?"
+    },
+    {
+      "published_utc": "2026-11-04T17:25:49+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Neutral on ON Semiconductor, Lowers Price Target to $80"
+    },
     {
       "published_utc": "2026-11-04T12:13:10+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-03T15:39:00+00:00",
       "publisher": "Yahoo",
       "title": "ON Semiconductor beats earnings estimates as AI revenue surges"
-    },
-    {
-      "published_utc": "2026-11-03T15:15:05+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor (ON) Beat Expectations, Is The Stock Still Cheap?"
-    },
-    {
-      "published_utc": "2026-11-03T13:51:35+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor Shares Rise 3% as Q3 Earnings Beat Forecasts and AI Data Centre Outlook Strengthens"
-    },
-    {
-      "published_utc": "2026-11-03T13:30:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Compared to Estimates, ON Semiconductor Corp. (ON) Q3 Earnings: A Look at Key Metrics"
     }
   ]
 }

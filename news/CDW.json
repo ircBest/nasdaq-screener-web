@@ -1,9 +1,49 @@
 {
   "ticker": "CDW",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-05T20:18:22+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Buy on CDW, Raises Price Target to $195"
+    },
+    {
+      "published_utc": "2026-11-05T19:25:53+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Maintains Overweight on CDW, Raises Price Target to $195"
+    },
+    {
+      "published_utc": "2026-11-05T17:39:27+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Neutral on CDW, Raises Price Target to $170"
+    },
+    {
+      "published_utc": "2026-11-05T15:49:21+00:00",
+      "publisher": "Yahoo",
+      "title": "What Just Happened To CDW Stock?"
+    },
+    {
+      "published_utc": "2026-11-05T12:18:52+00:00",
+      "publisher": "Yahoo",
+      "title": "CDW Stock Earnings Beat Has The Bull Case Changed?"
+    },
+    {
+      "published_utc": "2026-11-05T11:47:14+00:00",
+      "publisher": "Yahoo",
+      "title": "CDW Just Raised Its Dividend 8%. Is This Tech Stock a Hidden Gem?"
+    },
+    {
+      "published_utc": "2026-11-05T04:40:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Is CDW (CDW) Fully Valued After Strong Results, Higher Guidance, And The Lovelytics Deal?"
+    },
+    {
+      "published_utc": "2026-11-05T01:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CDW (CDW) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates"
+    },
     {
       "published_utc": "2026-11-04T21:11:56+00:00",
       "publisher": "Yahoo",
@@ -23,46 +63,6 @@
       "published_utc": "2026-11-04T16:30:51+00:00",
       "publisher": "Yahoo",
       "title": "Reevaluating CDW Corp. (CDW): Moving On from a “Good But Not Great” Business"
-    },
-    {
-      "published_utc": "2026-11-04T16:14:45+00:00",
-      "publisher": "Yahoo",
-      "title": "CDW Q3 Earnings Call Highlights"
-    },
-    {
-      "published_utc": "2026-11-04T16:01:44+00:00",
-      "publisher": "Yahoo",
-      "title": "CDW Stock Returns To Buy Zone After Earnings Beat"
-    },
-    {
-      "published_utc": "2026-11-04T15:14:37+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "CDW Corporation (CDW) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-04T13:32:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CDW Q3 Earnings Beat, Revenues Jump 18% Y/Y Despite Margin Compression"
-    },
-    {
-      "published_utc": "2026-11-04T13:25:53+00:00",
-      "publisher": "ChartMill",
-      "title": "CDW (NASDAQ:CDW) Delivers Strong Q3 2026 Revenue and EPS Beat"
-    },
-    {
-      "published_utc": "2026-11-04T12:26:37+00:00",
-      "publisher": "Yahoo",
-      "title": "CDW (NASDAQ:CDW) surprises with strong Q3 2026"
-    },
-    {
-      "published_utc": "2026-11-04T12:10:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CDW (CDW) Q3 Earnings and Revenues Beat Estimates"
-    },
-    {
-      "published_utc": "2026-11-04T12:07:28+00:00",
-      "publisher": "Yahoo",
-      "title": "CDW: Q3 Earnings Snapshot"
     }
   ]
 }

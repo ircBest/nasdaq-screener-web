@@ -1,9 +1,24 @@
 {
   "ticker": "SANM",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T16:12:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Learn Why The Bull Case For Sanmina (SANM) Could Change Following Strong Quarterly Results"
+    },
+    {
+      "published_utc": "2026-11-05T14:55:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SANM Q4 Earnings Coming Up: How Should You Play the Stock?"
+    },
+    {
+      "published_utc": "2026-11-05T14:52:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is the Options Market Predicting a Spike in Sanmina Stock?"
+    },
     {
       "published_utc": "2026-11-04T14:17:00+00:00",
       "publisher": "Yahoo",
@@ -18,16 +33,6 @@
       "published_utc": "2026-11-02T14:00:08+00:00",
       "publisher": "Yahoo",
       "title": "Sanmina (SANM) Reports Next Week: Wall Street Expects Earnings Growth"
-    },
-    {
-      "published_utc": "2026-10-23T12:35:02+00:00",
-      "publisher": "Yahoo",
-      "title": "After Plunging 30.4% in 4 Weeks, Here's Why the Trend Might Reverse for Sanmina (SANM)"
-    },
-    {
-      "published_utc": "2026-10-22T11:13:54+00:00",
-      "publisher": "Yahoo",
-      "title": "Sanmina (SANM) Stock May Still Look Reasonable On Earnings Strength"
     }
   ]
 }

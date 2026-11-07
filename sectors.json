@@ -1,13 +1,13 @@
 {
-  "price_date": "2026-11-04",
-  "generated_at": "2026-11-05T11:08:39+00:00",
+  "price_date": "2026-11-06",
+  "generated_at": "2026-11-07T04:15:53+00:00",
   "note": "업종마다 최근 주가 흐름을 모아 세운 순서입니다. 지나온 흐름이지 앞으로 오를 업종을 맞힌다는 뜻이 아니며, 투자 권유가 아닙니다.",
   "how": "20거래일 수익 · 60거래일 수익 · 50일 평균선 위에 있는 종목 비율(시장 섹터는 50일 평균선과의 거리), 세 가지 순위의 평균으로 세웠습니다. 업종 숫자는 그 업종 종목들의 중간값입니다. 종목이 3개보다 적은 업종은 싣지 않습니다.",
   "summary": {
     "industries": 13,
-    "stocks": 306,
-    "rising": 4,
-    "falling": 5,
+    "stocks": 302,
+    "rising": 2,
+    "falling": 7,
     "market_sectors": 11
   },
   "industries": [
@@ -15,98 +15,952 @@
       "industry": "Financial Data & Stock Exchanges",
       "name": "금융 데이터 · 거래소",
       "count": 4,
-      "r5": 4.4,
-      "r20": 16.7,
-      "r60": 17.2,
+      "r5": 0.9,
+      "r20": 11.7,
+      "r60": 12.1,
       "above50": 75,
       "trend": "오르는 중",
       "leaders": [
         {
           "ticker": "MORN",
-          "r20": 21.7
+          "r20": 19.4
         },
         {
           "ticker": "NDAQ",
-          "r20": 19.3
+          "r20": 14.4
         },
         {
           "ticker": "CME",
-          "r20": 14.1
+          "r20": 9.0
+        }
+      ],
+      "members": [
+        {
+          "ticker": "MORN",
+          "name": "Morningstar, Inc.",
+          "r5": 7.9,
+          "r20": 19.4,
+          "r60": 18.0,
+          "gap50": 17.1,
+          "rank": 1
+        },
+        {
+          "ticker": "NDAQ",
+          "name": "Nasdaq, Inc.",
+          "r5": 0.8,
+          "r20": 14.4,
+          "r60": 9.8,
+          "gap50": 10.9,
+          "rank": 2
+        },
+        {
+          "ticker": "CME",
+          "name": "CME Group Inc.",
+          "r5": 0.9,
+          "r20": 9.0,
+          "r60": 14.5,
+          "gap50": 8.1,
+          "rank": 3
+        },
+        {
+          "ticker": "COIN",
+          "name": "Coinbase Global, Inc.",
+          "r5": -6.1,
+          "r20": -24.9,
+          "r60": -12.4,
+          "gap50": -23.1,
+          "rank": 4
         }
       ],
       "rank": 1
     },
     {
-      "industry": "Consumer Electronics",
-      "name": "소비자 전자",
-      "count": 3,
-      "r5": -5.5,
-      "r20": -1.2,
-      "r60": 11.3,
-      "above50": 67,
+      "industry": "Software - Application",
+      "name": "응용 소프트웨어",
+      "count": 79,
+      "r5": -0.2,
+      "r20": 0.0,
+      "r60": -0.3,
+      "above50": 56,
       "trend": "섞여 있음",
       "leaders": [
         {
-          "ticker": "AAPL",
-          "r20": 3.8
+          "ticker": "BRZE",
+          "r20": 57.6
         },
         {
-          "ticker": "SONO",
-          "r20": -1.2
+          "ticker": "UPBD",
+          "r20": 57.4
         },
         {
-          "ticker": "GMEX",
-          "r20": -80.9
+          "ticker": "VERX",
+          "r20": 31.9
+        }
+      ],
+      "members": [
+        {
+          "ticker": "BRZE",
+          "name": "Braze, Inc.",
+          "r5": 0.1,
+          "r20": 57.6,
+          "r60": 53.3,
+          "gap50": 40.3,
+          "rank": 1
+        },
+        {
+          "ticker": "VERX",
+          "name": "Vertex, Inc.",
+          "r5": 11.5,
+          "r20": 31.9,
+          "r60": 28.9,
+          "gap50": 27.3,
+          "rank": 2
+        },
+        {
+          "ticker": "UPBD",
+          "name": "Upbound Group, Inc.",
+          "r5": 17.1,
+          "r20": 57.4,
+          "r60": 23.2,
+          "gap50": 37.1,
+          "rank": 3
+        },
+        {
+          "ticker": "BSY",
+          "name": "Bentley Systems, Incorporated",
+          "r5": 9.2,
+          "r20": 27.7,
+          "r60": 22.1,
+          "gap50": 25.4,
+          "rank": 4
+        },
+        {
+          "ticker": "MANH",
+          "name": "Manhattan Associates, Inc.",
+          "r5": 1.8,
+          "r20": 23.4,
+          "r60": 25.8,
+          "gap50": 14.6,
+          "rank": 5
+        },
+        {
+          "ticker": "ROP",
+          "name": "Roper Technologies, Inc.",
+          "r5": 2.1,
+          "r20": 30.9,
+          "r60": 19.9,
+          "gap50": 19.4,
+          "rank": 6
+        },
+        {
+          "ticker": "BLKB",
+          "name": "Blackbaud, Inc.",
+          "r5": 1.1,
+          "r20": 19.0,
+          "r60": 17.1,
+          "gap50": 13.0,
+          "rank": 7
+        },
+        {
+          "ticker": "DCBO",
+          "name": "Docebo Inc.",
+          "r5": -2.4,
+          "r20": 13.7,
+          "r60": 23.7,
+          "gap50": 11.1,
+          "rank": 8
+        },
+        {
+          "ticker": "ALRM",
+          "name": "Alarm.com Holdings, Inc.",
+          "r5": 0.3,
+          "r20": 16.9,
+          "r60": 16.6,
+          "gap50": 12.3,
+          "rank": 9
+        },
+        {
+          "ticker": "DSGX",
+          "name": "The Descartes Systems Group Inc",
+          "r5": 3.7,
+          "r20": 13.5,
+          "r60": 21.7,
+          "gap50": 12.2,
+          "rank": 10
+        },
+        {
+          "ticker": "AMPL",
+          "name": "Amplitude, Inc.",
+          "r5": -2.2,
+          "r20": 6.6,
+          "r60": 25.6,
+          "gap50": 12.8,
+          "rank": 11
+        },
+        {
+          "ticker": "APPF",
+          "name": "AppFolio, Inc.",
+          "r5": 8.2,
+          "r20": 14.1,
+          "r60": 13.1,
+          "gap50": 8.5,
+          "rank": 12
+        },
+        {
+          "ticker": "PCTY",
+          "name": "Paylocity Holding Corporation",
+          "r5": 1.3,
+          "r20": 12.5,
+          "r60": 13.4,
+          "gap50": 10.9,
+          "rank": 13
+        },
+        {
+          "ticker": "PTC",
+          "name": "PTC Inc.",
+          "r5": -0.2,
+          "r20": 0.3,
+          "r60": 26.8,
+          "gap50": 16.8,
+          "rank": 14
+        },
+        {
+          "ticker": "AGYS",
+          "name": "Agilysys, Inc.",
+          "r5": 4.6,
+          "r20": 15.3,
+          "r60": 5.1,
+          "gap50": 11.1,
+          "rank": 15
+        },
+        {
+          "ticker": "ADP",
+          "name": "Automatic Data Processing, Inc.",
+          "r5": 3.2,
+          "r20": 12.0,
+          "r60": 9.8,
+          "gap50": 8.7,
+          "rank": 16
+        },
+        {
+          "ticker": "NCNO",
+          "name": "nCino, Inc.",
+          "r5": -0.0,
+          "r20": 14.9,
+          "r60": 9.7,
+          "gap50": 6.8,
+          "rank": 17
+        },
+        {
+          "ticker": "DOCU",
+          "name": "DocuSign, Inc.",
+          "r5": -5.5,
+          "r20": 9.2,
+          "r60": 21.1,
+          "gap50": 6.9,
+          "rank": 18
+        },
+        {
+          "ticker": "DUOL",
+          "name": "Duolingo, Inc.",
+          "r5": 21.9,
+          "r20": 7.0,
+          "r60": 11.3,
+          "gap50": 10.2,
+          "rank": 19
+        },
+        {
+          "ticker": "ADSK",
+          "name": "Autodesk, Inc.",
+          "r5": 4.9,
+          "r20": 11.2,
+          "r60": 1.5,
+          "gap50": 12.3,
+          "rank": 20
+        },
+        {
+          "ticker": "INTA",
+          "name": "Intapp, Inc.",
+          "r5": 3.6,
+          "r20": 10.4,
+          "r60": 6.6,
+          "gap50": 8.3,
+          "rank": 21
+        },
+        {
+          "ticker": "CCC",
+          "name": "CCC Intelligent Solutions Holdi",
+          "r5": 0.4,
+          "r20": 9.4,
+          "r60": 7.9,
+          "gap50": 7.3,
+          "rank": 22
+        },
+        {
+          "ticker": "BSP",
+          "name": "Bending Spoons S.p.A.",
+          "r5": -6.8,
+          "r20": 11.6,
+          "r60": 3.6,
+          "gap50": 4.3,
+          "rank": 23
+        },
+        {
+          "ticker": "INTU",
+          "name": "Intuit Inc.",
+          "r5": 0.1,
+          "r20": 12.8,
+          "r60": -4.7,
+          "gap50": 7.2,
+          "rank": 24
+        },
+        {
+          "ticker": "OCTV",
+          "name": "Octave Intelligence plc",
+          "r5": -4.0,
+          "r20": 1.6,
+          "r60": 10.3,
+          "gap50": 5.0,
+          "rank": 25
+        },
+        {
+          "ticker": "SRAD",
+          "name": "Sportradar Group AG",
+          "r5": 12.6,
+          "r20": 8.4,
+          "r60": -0.3,
+          "gap50": 7.6,
+          "rank": 26
+        },
+        {
+          "ticker": "TTAN",
+          "name": "ServiceTitan, Inc.",
+          "r5": -3.0,
+          "r20": 12.6,
+          "r60": -12.7,
+          "gap50": 10.8,
+          "rank": 27
+        },
+        {
+          "ticker": "LIF",
+          "name": "Life360, Inc.",
+          "r5": 6.6,
+          "r20": 8.3,
+          "r60": -5.7,
+          "gap50": 10.6,
+          "rank": 28
+        },
+        {
+          "ticker": "FROG",
+          "name": "JFrog Ltd.",
+          "r5": 7.0,
+          "r20": -1.2,
+          "r60": 6.1,
+          "gap50": 8.1,
+          "rank": 29
+        },
+        {
+          "ticker": "CVLT",
+          "name": "Commvault Systems, Inc.",
+          "r5": -4.1,
+          "r20": 0.7,
+          "r60": 4.8,
+          "gap50": 5.1,
+          "rank": 30
+        },
+        {
+          "ticker": "GRAB",
+          "name": "Grab Holdings Limited",
+          "r5": 25.8,
+          "r20": 6.9,
+          "r60": -7.8,
+          "gap50": 11.1,
+          "rank": 31
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft, Inc.",
+          "r5": 5.8,
+          "r20": 5.4,
+          "r60": -0.2,
+          "gap50": 5.5,
+          "rank": 32
+        },
+        {
+          "ticker": "WLTH",
+          "name": "Wealthfront Corporation",
+          "r5": 3.5,
+          "r20": -1.8,
+          "r60": 12.5,
+          "gap50": 3.1,
+          "rank": 33
+        },
+        {
+          "ticker": "SPT",
+          "name": "Sprout Social, Inc",
+          "r5": -8.2,
+          "r20": 0.5,
+          "r60": 10.9,
+          "gap50": -0.3,
+          "rank": 34
+        },
+        {
+          "ticker": "PAYX",
+          "name": "Paychex, Inc.",
+          "r5": 4.4,
+          "r20": 12.6,
+          "r60": -6.7,
+          "gap50": 4.5,
+          "rank": 35
+        },
+        {
+          "ticker": "DJCO",
+          "name": "Daily Journal Corp. (S.C.)",
+          "r5": 2.1,
+          "r20": 0.0,
+          "r60": 6.8,
+          "gap50": 1.1,
+          "rank": 36
+        },
+        {
+          "ticker": "STRF",
+          "name": "Strategy Inc - 10.00% Series A ",
+          "r5": 1.8,
+          "r20": -0.0,
+          "r60": 7.2,
+          "gap50": 0.1,
+          "rank": 37
+        },
+        {
+          "ticker": "OTEX",
+          "name": "Open Text Corporation",
+          "r5": -6.5,
+          "r20": 4.9,
+          "r60": -0.1,
+          "gap50": 1.7,
+          "rank": 38
+        },
+        {
+          "ticker": "CHYM",
+          "name": "Chime Financial, Inc.",
+          "r5": 12.1,
+          "r20": 4.2,
+          "r60": -2.6,
+          "gap50": 4.6,
+          "rank": 39
+        },
+        {
+          "ticker": "STRC",
+          "name": "Strategy Inc - Variable Rate Se",
+          "r5": 0.7,
+          "r20": 0.2,
+          "r60": 4.2,
+          "gap50": 1.0,
+          "rank": 40
+        },
+        {
+          "ticker": "NAVN",
+          "name": "Navan, Inc.",
+          "r5": -2.4,
+          "r20": 7.8,
+          "r60": -14.2,
+          "gap50": 5.8,
+          "rank": 41
+        },
+        {
+          "ticker": "PLUS",
+          "name": "ePlus inc.",
+          "r5": -0.9,
+          "r20": -1.3,
+          "r60": 3.8,
+          "gap50": 0.2,
+          "rank": 42
+        },
+        {
+          "ticker": "KARO",
+          "name": "Karooooo Ltd.",
+          "r5": -4.1,
+          "r20": 3.1,
+          "r60": -1.4,
+          "gap50": -1.0,
+          "rank": 43
+        },
+        {
+          "ticker": "PUBM",
+          "name": "PubMatic, Inc.",
+          "r5": 12.1,
+          "r20": -4.5,
+          "r60": 3.1,
+          "gap50": 2.4,
+          "rank": 44
+        },
+        {
+          "ticker": "WDAY",
+          "name": "Workday, Inc.",
+          "r5": -2.5,
+          "r20": 3.4,
+          "r60": -6.6,
+          "gap50": -0.7,
+          "rank": 45
+        },
+        {
+          "ticker": "SPSC",
+          "name": "SPS Commerce, Inc.",
+          "r5": -1.3,
+          "r20": -3.2,
+          "r60": 3.2,
+          "gap50": -2.1,
+          "rank": 46
+        },
+        {
+          "ticker": "DSP",
+          "name": "Viant Technology Inc.",
+          "r5": 0.1,
+          "r20": -2.2,
+          "r60": -1.0,
+          "gap50": 0.0,
+          "rank": 47
+        },
+        {
+          "ticker": "MSTR",
+          "name": "Strategy Inc",
+          "r5": -1.2,
+          "r20": -16.5,
+          "r60": 32.8,
+          "gap50": -10.7,
+          "rank": 48
+        },
+        {
+          "ticker": "STRD",
+          "name": "Strategy Inc - 10.00% Series A ",
+          "r5": 0.8,
+          "r20": -3.5,
+          "r60": 2.4,
+          "gap50": -2.8,
+          "rank": 49
+        },
+        {
+          "ticker": "CDNS",
+          "name": "Cadence Design Systems, Inc.",
+          "r5": -2.4,
+          "r20": -9.3,
+          "r60": -1.2,
+          "gap50": 0.0,
+          "rank": 50
+        },
+        {
+          "ticker": "MNDY",
+          "name": "monday.com Ltd.",
+          "r5": -8.0,
+          "r20": -1.2,
+          "r60": -6.7,
+          "gap50": -3.1,
+          "rank": 51
+        },
+        {
+          "ticker": "APPS",
+          "name": "Digital Turbine, Inc.",
+          "r5": 17.0,
+          "r20": -0.5,
+          "r60": -17.7,
+          "gap50": -1.9,
+          "rank": 52
+        },
+        {
+          "ticker": "SSNC",
+          "name": "SS&C Technologies Holdings, Inc",
+          "r5": -3.3,
+          "r20": -4.1,
+          "r60": -5.3,
+          "gap50": -4.1,
+          "rank": 53
+        },
+        {
+          "ticker": "MITK",
+          "name": "Mitek Systems, Inc.",
+          "r5": -4.6,
+          "r20": -2.6,
+          "r60": -8.8,
+          "gap50": -2.3,
+          "rank": 54
+        },
+        {
+          "ticker": "ADBE",
+          "name": "Adobe Inc.",
+          "r5": -4.4,
+          "r20": -1.2,
+          "r60": -11.5,
+          "gap50": -4.8,
+          "rank": 55
+        },
+        {
+          "ticker": "STRK",
+          "name": "Strategy Inc - 8.00% Series A P",
+          "r5": 0.0,
+          "r20": -11.0,
+          "r60": 1.4,
+          "gap50": -7.2,
+          "rank": 56
+        },
+        {
+          "ticker": "PEGA",
+          "name": "Pegasystems Inc.",
+          "r5": -4.5,
+          "r20": -9.1,
+          "r60": -3.3,
+          "gap50": -8.1,
+          "rank": 57
+        },
+        {
+          "ticker": "SHOP",
+          "name": "Shopify Inc.",
+          "r5": -5.4,
+          "r20": -12.8,
+          "r60": -6.1,
+          "gap50": -2.4,
+          "rank": 58
+        },
+        {
+          "ticker": "RDVT",
+          "name": "Red Violet, Inc.",
+          "r5": -12.4,
+          "r20": -12.1,
+          "r60": -4.9,
+          "gap50": -9.2,
+          "rank": 59
+        },
+        {
+          "ticker": "FRSH",
+          "name": "Freshworks Inc.",
+          "r5": -17.7,
+          "r20": -13.0,
+          "r60": -4.5,
+          "gap50": -9.9,
+          "rank": 60
+        },
+        {
+          "ticker": "ZM",
+          "name": "Zoom Communications, Inc.",
+          "r5": -5.9,
+          "r20": -8.0,
+          "r60": -18.2,
+          "gap50": -4.9,
+          "rank": 61
+        },
+        {
+          "ticker": "EVCM",
+          "name": "EverCommerce Inc.",
+          "r5": -10.3,
+          "r20": -10.1,
+          "r60": -18.7,
+          "gap50": -4.0,
+          "rank": 62
+        },
+        {
+          "ticker": "KC",
+          "name": "Kingsoft Cloud Holdings Limited",
+          "r5": 9.7,
+          "r20": -8.0,
+          "r60": -25.3,
+          "gap50": -7.7,
+          "rank": 63
+        },
+        {
+          "ticker": "WRD",
+          "name": "WERIDE INC.",
+          "r5": 7.7,
+          "r20": -7.3,
+          "r60": -25.0,
+          "gap50": -11.5,
+          "rank": 64
+        },
+        {
+          "ticker": "GTM",
+          "name": "ZoomInfo Technologies Inc.",
+          "r5": -19.7,
+          "r20": -9.8,
+          "r60": -18.8,
+          "gap50": -12.2,
+          "rank": 65
+        },
+        {
+          "ticker": "NICE",
+          "name": "NICE Ltd",
+          "r5": -15.5,
+          "r20": -18.2,
+          "r60": -8.6,
+          "gap50": -13.2,
+          "rank": 66
+        },
+        {
+          "ticker": "IDCC",
+          "name": "InterDigital, Inc.",
+          "r5": -8.4,
+          "r20": -13.9,
+          "r60": -17.1,
+          "gap50": -13.0,
+          "rank": 67
+        },
+        {
+          "ticker": "ALKT",
+          "name": "Alkami Technology, Inc.",
+          "r5": 8.1,
+          "r20": -6.2,
+          "r60": -35.5,
+          "gap50": -15.8,
+          "rank": 68
+        },
+        {
+          "ticker": "BL",
+          "name": "BlackLine, Inc.",
+          "r5": -23.4,
+          "r20": -13.0,
+          "r60": -17.4,
+          "gap50": -14.7,
+          "rank": 69
+        },
+        {
+          "ticker": "TEAM",
+          "name": "Atlassian Corporation",
+          "r5": -19.8,
+          "r20": -25.7,
+          "r60": -7.4,
+          "gap50": -21.6,
+          "rank": 70
+        },
+        {
+          "ticker": "QNT",
+          "name": "Quantinuum Inc.",
+          "r5": 11.8,
+          "r20": -9.0,
+          "r60": -45.2,
+          "gap50": -13.4,
+          "rank": 71
+        },
+        {
+          "ticker": "DAVE",
+          "name": "Dave Inc.",
+          "r5": -12.1,
+          "r20": -24.4,
+          "r60": -16.5,
+          "gap50": -19.9,
+          "rank": 72
+        },
+        {
+          "ticker": "PDFS",
+          "name": "PDF Solutions, Inc.",
+          "r5": -8.3,
+          "r20": -30.9,
+          "r60": -25.3,
+          "gap50": -17.4,
+          "rank": 73
+        },
+        {
+          "ticker": "BULL",
+          "name": "Webull Corporation",
+          "r5": -4.8,
+          "r20": -22.0,
+          "r60": -38.1,
+          "gap50": -30.8,
+          "rank": 74
+        },
+        {
+          "ticker": "SOUN",
+          "name": "SoundHound AI, Inc.",
+          "r5": -2.6,
+          "r20": -23.7,
+          "r60": -45.1,
+          "gap50": -25.3,
+          "rank": 75
+        },
+        {
+          "ticker": "DDOG",
+          "name": "Datadog, Inc.",
+          "r5": -23.9,
+          "r20": -38.9,
+          "r60": -29.0,
+          "gap50": -27.7,
+          "rank": 76
+        },
+        {
+          "ticker": "BTDR",
+          "name": "Bitdeer Technologies Group",
+          "r5": -10.4,
+          "r20": -37.5,
+          "r60": -31.3,
+          "gap50": -38.5,
+          "rank": 77
+        },
+        {
+          "ticker": "ADEA",
+          "name": "Adeia Inc.",
+          "r5": -27.7,
+          "r20": -35.1,
+          "r60": -46.0,
+          "gap50": -34.0,
+          "rank": 78
+        },
+        {
+          "ticker": "FSLY",
+          "name": "Fastly, Inc.",
+          "r5": -31.4,
+          "r20": -45.9,
+          "r60": -47.2,
+          "gap50": -33.9,
+          "rank": 79
         }
       ],
       "rank": 2
     },
     {
-      "industry": "Software - Application",
-      "name": "응용 소프트웨어",
-      "count": 80,
-      "r5": -0.5,
-      "r20": 6.5,
-      "r60": 6.4,
-      "above50": 60,
-      "trend": "오르는 중",
-      "leaders": [
-        {
-          "ticker": "BRZE",
-          "r20": 62.0
-        },
-        {
-          "ticker": "UPBD",
-          "r20": 54.5
-        },
-        {
-          "ticker": "ROP",
-          "r20": 37.3
-        }
-      ],
-      "rank": 3
-    },
-    {
       "industry": "Solar",
       "name": "태양광",
       "count": 8,
-      "r5": 19.8,
-      "r20": 8.6,
-      "r60": -11.1,
+      "r5": 26.2,
+      "r20": 14.2,
+      "r60": -4.9,
       "above50": 62,
       "trend": "오르는 중",
       "leaders": [
         {
           "ticker": "ARRY",
-          "r20": 39.5
-        },
-        {
-          "ticker": "NXT",
-          "r20": 24.0
+          "r20": 59.1
         },
         {
           "ticker": "RUN",
-          "r20": 15.5
+          "r20": 30.6
+        },
+        {
+          "ticker": "NXT",
+          "r20": 21.8
+        }
+      ],
+      "members": [
+        {
+          "ticker": "ARRY",
+          "name": "Array Technologies, Inc.",
+          "r5": 72.7,
+          "r20": 59.1,
+          "r60": 13.2,
+          "gap50": 45.2,
+          "rank": 1
+        },
+        {
+          "ticker": "SHLS",
+          "name": "Shoals Technologies Group, Inc.",
+          "r5": 40.0,
+          "r20": 15.3,
+          "r60": 23.8,
+          "gap50": 30.3,
+          "rank": 2
+        },
+        {
+          "ticker": "RUN",
+          "name": "Sunrun Inc.",
+          "r5": 33.4,
+          "r20": 30.6,
+          "r60": 1.2,
+          "gap50": 22.8,
+          "rank": 3
+        },
+        {
+          "ticker": "NXT",
+          "name": "Nextpower Inc.",
+          "r5": 32.2,
+          "r20": 21.8,
+          "r60": 0.3,
+          "gap50": 25.3,
+          "rank": 4
+        },
+        {
+          "ticker": "FSLR",
+          "name": "First Solar, Inc.",
+          "r5": 15.3,
+          "r20": 13.1,
+          "r60": -10.1,
+          "gap50": 7.6,
+          "rank": 5
+        },
+        {
+          "ticker": "CSIQ",
+          "name": "Canadian Solar Inc.",
+          "r5": 20.1,
+          "r20": -2.3,
+          "r60": -27.4,
+          "gap50": -0.5,
+          "rank": 6
+        },
+        {
+          "ticker": "ENPH",
+          "name": "Enphase Energy, Inc.",
+          "r5": 11.0,
+          "r20": -13.2,
+          "r60": -30.2,
+          "gap50": -13.1,
+          "rank": 7
+        },
+        {
+          "ticker": "SEDG",
+          "name": "SolarEdge Technologies, Inc.",
+          "r5": -8.5,
+          "r20": -14.6,
+          "r60": -14.5,
+          "gap50": -15.8,
+          "rank": 8
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "industry": "Consumer Electronics",
+      "name": "소비자 전자",
+      "count": 3,
+      "r5": -0.7,
+      "r20": -4.9,
+      "r60": -1.1,
+      "above50": 33,
+      "trend": "섞여 있음",
+      "leaders": [
+        {
+          "ticker": "AAPL",
+          "r20": 1.7
+        },
+        {
+          "ticker": "SONO",
+          "r20": -4.9
+        },
+        {
+          "ticker": "GMEX",
+          "r20": -72.5
+        }
+      ],
+      "members": [
+        {
+          "ticker": "AAPL",
+          "name": "Apple Inc.",
+          "r5": -0.7,
+          "r20": 1.7,
+          "r60": 12.2,
+          "gap50": 1.9,
+          "rank": 1
+        },
+        {
+          "ticker": "SONO",
+          "name": "Sonos, Inc.",
+          "r5": 1.5,
+          "r20": -4.9,
+          "r60": -1.1,
+          "gap50": -1.8,
+          "rank": 2
+        },
+        {
+          "ticker": "GMEX",
+          "name": "GMEX ROBOTICS CORPORATION",
+          "r5": -43.8,
+          "r20": -72.5,
+          "r60": -95.5,
+          "gap50": -84.0,
+          "rank": 3
         }
       ],
       "rank": 4
@@ -114,74 +968,899 @@
     {
       "industry": "Software - Infrastructure",
       "name": "인프라 소프트웨어",
-      "count": 65,
-      "r5": -4.9,
-      "r20": 1.4,
-      "r60": 3.1,
-      "above50": 54,
-      "trend": "오르는 중",
+      "count": 63,
+      "r5": -5.2,
+      "r20": -5.9,
+      "r60": -3.8,
+      "above50": 41,
+      "trend": "섞여 있음",
       "leaders": [
         {
           "ticker": "KPLT",
-          "r20": 146.3
+          "r20": 135.4
+        },
+        {
+          "ticker": "APPN",
+          "r20": 28.7
         },
         {
           "ticker": "GEN",
-          "r20": 38.0
+          "r20": 28.1
+        }
+      ],
+      "members": [
+        {
+          "ticker": "KPLT",
+          "name": "Katapult Holdings, Inc.",
+          "r5": 6.6,
+          "r20": 135.4,
+          "r60": 53.3,
+          "gap50": 51.2,
+          "rank": 1
+        },
+        {
+          "ticker": "APPN",
+          "name": "Appian Corporation",
+          "r5": 5.1,
+          "r20": 28.7,
+          "r60": 39.4,
+          "gap50": 24.2,
+          "rank": 2
         },
         {
           "ticker": "OSPN",
-          "r20": 33.7
+          "name": "OneSpan Inc.",
+          "r5": -15.9,
+          "r20": 18.5,
+          "r60": 27.6,
+          "gap50": 16.2,
+          "rank": 3
+        },
+        {
+          "ticker": "IIIV",
+          "name": "i3 Verticals, Inc.",
+          "r5": 8.5,
+          "r20": 19.3,
+          "r60": 14.7,
+          "gap50": 18.4,
+          "rank": 4
+        },
+        {
+          "ticker": "FLYW",
+          "name": "Flywire Corporation - Voting",
+          "r5": 9.5,
+          "r20": 15.0,
+          "r60": 18.3,
+          "gap50": 16.9,
+          "rank": 5
+        },
+        {
+          "ticker": "AVPT",
+          "name": "AvePoint, Inc.",
+          "r5": -3.2,
+          "r20": 13.1,
+          "r60": 20.4,
+          "gap50": 13.8,
+          "rank": 6
+        },
+        {
+          "ticker": "CCSI",
+          "name": "Consensus Cloud Solutions, Inc.",
+          "r5": 15.6,
+          "r20": 17.5,
+          "r60": 10.4,
+          "gap50": 18.5,
+          "rank": 7
+        },
+        {
+          "ticker": "ACIW",
+          "name": "ACI Worldwide, Inc.",
+          "r5": 6.5,
+          "r20": 18.0,
+          "r60": 11.9,
+          "gap50": 13.9,
+          "rank": 8
+        },
+        {
+          "ticker": "NTSK",
+          "name": "Netskope, Inc.",
+          "r5": -12.3,
+          "r20": 2.6,
+          "r60": 31.6,
+          "gap50": 11.4,
+          "rank": 9
+        },
+        {
+          "ticker": "CLBT",
+          "name": "Cellebrite DI Ltd.",
+          "r5": 2.5,
+          "r20": 10.6,
+          "r60": 15.3,
+          "gap50": 7.5,
+          "rank": 10
+        },
+        {
+          "ticker": "PRTH",
+          "name": "Priority Technology Holdings, I",
+          "r5": 0.5,
+          "r20": 0.9,
+          "r60": 41.7,
+          "gap50": 10.0,
+          "rank": 11
+        },
+        {
+          "ticker": "GEN",
+          "name": "Gen Digital Inc.",
+          "r5": 2.3,
+          "r20": 28.1,
+          "r60": 0.7,
+          "gap50": 12.1,
+          "rank": 12
+        },
+        {
+          "ticker": "MQ",
+          "name": "Marqeta, Inc.",
+          "r5": 2.7,
+          "r20": 2.7,
+          "r60": 12.9,
+          "gap50": 7.4,
+          "rank": 13
+        },
+        {
+          "ticker": "RPD",
+          "name": "Rapid7, Inc.",
+          "r5": -11.4,
+          "r20": 6.8,
+          "r60": 6.5,
+          "gap50": 11.5,
+          "rank": 14
+        },
+        {
+          "ticker": "GCT",
+          "name": "GigaCloud Technology Inc",
+          "r5": -0.0,
+          "r20": 1.9,
+          "r60": 9.7,
+          "gap50": 6.0,
+          "rank": 15
+        },
+        {
+          "ticker": "CHKP",
+          "name": "Check Point Software Technologi",
+          "r5": -5.2,
+          "r20": 5.1,
+          "r60": 7.4,
+          "gap50": 3.9,
+          "rank": 16
+        },
+        {
+          "ticker": "TENB",
+          "name": "Tenable Holdings, Inc.",
+          "r5": -17.0,
+          "r20": 1.3,
+          "r60": 5.2,
+          "gap50": 7.6,
+          "rank": 17
+        },
+        {
+          "ticker": "VRSN",
+          "name": "VeriSign, Inc.",
+          "r5": 0.5,
+          "r20": 1.6,
+          "r60": 7.5,
+          "gap50": 3.5,
+          "rank": 18
+        },
+        {
+          "ticker": "PRGS",
+          "name": "Progress Software Corporation",
+          "r5": -3.6,
+          "r20": 10.6,
+          "r60": -2.7,
+          "gap50": 3.9,
+          "rank": 19
+        },
+        {
+          "ticker": "PAYS",
+          "name": "Paysign, Inc.",
+          "r5": 5.5,
+          "r20": -4.4,
+          "r60": 12.8,
+          "gap50": 5.9,
+          "rank": 20
+        },
+        {
+          "ticker": "EEFT",
+          "name": "Euronet Worldwide, Inc.",
+          "r5": 12.2,
+          "r20": 9.7,
+          "r60": -4.5,
+          "gap50": 6.5,
+          "rank": 21
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft Corporation",
+          "r5": 1.7,
+          "r20": -0.8,
+          "r60": 6.8,
+          "gap50": 2.7,
+          "rank": 22
+        },
+        {
+          "ticker": "VRNS",
+          "name": "Varonis Systems, Inc.",
+          "r5": -0.1,
+          "r20": -2.6,
+          "r60": 6.5,
+          "gap50": 2.5,
+          "rank": 23
+        },
+        {
+          "ticker": "PAYO",
+          "name": "Payoneer Global Inc.",
+          "r5": 0.0,
+          "r20": 0.1,
+          "r60": 0.1,
+          "gap50": 0.2,
+          "rank": 24
+        },
+        {
+          "ticker": "SNPS",
+          "name": "Synopsys, Inc.",
+          "r5": -3.7,
+          "r20": -11.7,
+          "r60": 9.4,
+          "gap50": 2.0,
+          "rank": 25
+        },
+        {
+          "ticker": "NYAX",
+          "name": "Nayax Ltd.",
+          "r5": -0.7,
+          "r20": 4.5,
+          "r60": -10.9,
+          "gap50": 0.2,
+          "rank": 26
+        },
+        {
+          "ticker": "DBX",
+          "name": "Dropbox, Inc.",
+          "r5": -4.4,
+          "r20": 0.9,
+          "r60": -3.5,
+          "gap50": -1.8,
+          "rank": 27
+        },
+        {
+          "ticker": "RDWR",
+          "name": "Radware Ltd.",
+          "r5": -13.7,
+          "r20": -3.7,
+          "r60": 0.5,
+          "gap50": -1.1,
+          "rank": 28
+        },
+        {
+          "ticker": "GTLB",
+          "name": "GitLab Inc.",
+          "r5": -11.1,
+          "r20": -12.7,
+          "r60": 10.9,
+          "gap50": -5.6,
+          "rank": 29
+        },
+        {
+          "ticker": "WIX",
+          "name": "Wix.com Ltd.",
+          "r5": -1.3,
+          "r20": -0.6,
+          "r60": -5.0,
+          "gap50": -2.1,
+          "rank": 30
+        },
+        {
+          "ticker": "QLYS",
+          "name": "Qualys, Inc.",
+          "r5": -15.0,
+          "r20": -5.9,
+          "r60": -2.8,
+          "gap50": -0.2,
+          "rank": 31
+        },
+        {
+          "ticker": "PAYP",
+          "name": "PayPay Corporation - American D",
+          "r5": 6.3,
+          "r20": -5.1,
+          "r60": 1.8,
+          "gap50": -6.2,
+          "rank": 32
+        },
+        {
+          "ticker": "KSPI",
+          "name": "Joint Stock Company Kaspi.kz - ",
+          "r5": 0.4,
+          "r20": -1.4,
+          "r60": -7.8,
+          "gap50": -4.6,
+          "rank": 33
+        },
+        {
+          "ticker": "ZS",
+          "name": "Zscaler, Inc.",
+          "r5": -16.9,
+          "r20": -15.4,
+          "r60": 5.0,
+          "gap50": -5.0,
+          "rank": 34
+        },
+        {
+          "ticker": "SAIL",
+          "name": "SailPoint, Inc.",
+          "r5": -8.8,
+          "r20": -7.5,
+          "r60": -3.9,
+          "gap50": -3.7,
+          "rank": 35
+        },
+        {
+          "ticker": "DLO",
+          "name": "DLocal Limited",
+          "r5": 7.6,
+          "r20": -8.4,
+          "r60": -5.5,
+          "gap50": -3.5,
+          "rank": 36
+        },
+        {
+          "ticker": "RELY",
+          "name": "Remitly Global, Inc.",
+          "r5": -7.6,
+          "r20": -7.5,
+          "r60": -12.9,
+          "gap50": -5.4,
+          "rank": 37
+        },
+        {
+          "ticker": "OKTA",
+          "name": "Okta, Inc.",
+          "r5": -19.0,
+          "r20": -27.3,
+          "r60": 8.9,
+          "gap50": -14.3,
+          "rank": 38
+        },
+        {
+          "ticker": "PGY",
+          "name": "Pagaya Technologies Ltd.",
+          "r5": -9.0,
+          "r20": -4.0,
+          "r60": -18.5,
+          "gap50": -9.4,
+          "rank": 39
+        },
+        {
+          "ticker": "CGNT",
+          "name": "Cognyte Software Ltd.",
+          "r5": -14.9,
+          "r20": -8.2,
+          "r60": -13.6,
+          "gap50": -7.7,
+          "rank": 40
+        },
+        {
+          "ticker": "CRWD",
+          "name": "CrowdStrike Holdings, Inc.",
+          "r5": -13.4,
+          "r20": -21.1,
+          "r60": -3.8,
+          "gap50": -11.0,
+          "rank": 41
+        },
+        {
+          "ticker": "SABR",
+          "name": "Sabre Corporation",
+          "r5": 4.0,
+          "r20": -11.3,
+          "r60": -23.8,
+          "gap50": -13.0,
+          "rank": 42
+        },
+        {
+          "ticker": "PLTR",
+          "name": "Palantir Technologies Inc.",
+          "r5": -12.9,
+          "r20": -23.3,
+          "r60": -10.4,
+          "gap50": -13.7,
+          "rank": 43
+        },
+        {
+          "ticker": "NTNX",
+          "name": "Nutanix, Inc.",
+          "r5": -13.2,
+          "r20": -21.8,
+          "r60": -14.1,
+          "gap50": -15.4,
+          "rank": 44
+        },
+        {
+          "ticker": "FIVN",
+          "name": "Five9, Inc.",
+          "r5": -22.6,
+          "r20": -22.7,
+          "r60": -16.8,
+          "gap50": -18.6,
+          "rank": 45
+        },
+        {
+          "ticker": "NTCT",
+          "name": "NetScout Systems, Inc.",
+          "r5": -17.9,
+          "r20": -22.6,
+          "r60": -20.7,
+          "gap50": -18.5,
+          "rank": 46
+        },
+        {
+          "ticker": "PANW",
+          "name": "Palo Alto Networks, Inc.",
+          "r5": -14.2,
+          "r20": -25.1,
+          "r60": -20.7,
+          "gap50": -15.2,
+          "rank": 47
+        },
+        {
+          "ticker": "MDB",
+          "name": "MongoDB, Inc.",
+          "r5": -11.4,
+          "r20": -18.9,
+          "r60": -33.8,
+          "gap50": -16.2,
+          "rank": 48
+        },
+        {
+          "ticker": "NTAP",
+          "name": "NetApp, Inc.",
+          "r5": -15.1,
+          "r20": -28.7,
+          "r60": -17.5,
+          "gap50": -17.1,
+          "rank": 49
+        },
+        {
+          "ticker": "AEVA",
+          "name": "Aeva Technologies, Inc.",
+          "r5": 18.7,
+          "r20": -19.5,
+          "r60": -50.9,
+          "gap50": -15.5,
+          "rank": 50
+        },
+        {
+          "ticker": "AKAM",
+          "name": "Akamai Technologies, Inc.",
+          "r5": -10.4,
+          "r20": -22.3,
+          "r60": -33.7,
+          "gap50": -18.2,
+          "rank": 51
+        },
+        {
+          "ticker": "BAND",
+          "name": "Bandwidth Inc.",
+          "r5": -14.8,
+          "r20": -24.3,
+          "r60": -25.4,
+          "gap50": -20.8,
+          "rank": 52
+        },
+        {
+          "ticker": "HQ",
+          "name": "Horizon Quantum Holdings Ltd.",
+          "r5": -18.5,
+          "r20": -29.8,
+          "r60": -31.4,
+          "gap50": -21.8,
+          "rank": 53
+        },
+        {
+          "ticker": "CORZ",
+          "name": "Core Scientific, Inc.",
+          "r5": -11.2,
+          "r20": -23.7,
+          "r60": -40.5,
+          "gap50": -25.0,
+          "rank": 54
+        },
+        {
+          "ticker": "DOX",
+          "name": "Amdocs Limited",
+          "r5": -33.0,
+          "r20": -28.5,
+          "r60": -28.2,
+          "gap50": -29.3,
+          "rank": 55
+        },
+        {
+          "ticker": "FFIV",
+          "name": "F5, Inc.",
+          "r5": -8.1,
+          "r20": -35.2,
+          "r60": -25.3,
+          "gap50": -26.3,
+          "rank": 56
+        },
+        {
+          "ticker": "STNE",
+          "name": "StoneCo Ltd.",
+          "r5": -3.1,
+          "r20": -39.7,
+          "r60": -26.6,
+          "gap50": -24.3,
+          "rank": 57
+        },
+        {
+          "ticker": "RXT",
+          "name": "Rackspace Technology, Inc.",
+          "r5": -3.4,
+          "r20": -35.1,
+          "r60": -41.2,
+          "gap50": -23.8,
+          "rank": 58
+        },
+        {
+          "ticker": "FTNT",
+          "name": "Fortinet, Inc.",
+          "r5": -12.7,
+          "r20": -39.0,
+          "r60": -28.2,
+          "gap50": -29.3,
+          "rank": 59
+        },
+        {
+          "ticker": "NN",
+          "name": "NextNav Inc.",
+          "r5": -25.3,
+          "r20": -30.3,
+          "r60": -55.9,
+          "gap50": -32.9,
+          "rank": 60
+        },
+        {
+          "ticker": "PICS",
+          "name": "PicS N.V.",
+          "r5": -3.4,
+          "r20": -49.6,
+          "r60": -39.9,
+          "gap50": -33.6,
+          "rank": 61
+        },
+        {
+          "ticker": "XNDU",
+          "name": "Xanadu Quantum Technologies Lim",
+          "r5": -7.6,
+          "r20": -31.5,
+          "r60": -75.2,
+          "gap50": -50.0,
+          "rank": 62
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave, Inc.",
+          "r5": -15.4,
+          "r20": -43.5,
+          "r60": -56.3,
+          "gap50": -38.6,
+          "rank": 63
         }
       ],
       "rank": 5
     },
     {
-      "industry": "Electronics & Computer Distribution",
-      "name": "전자 · 컴퓨터 유통",
-      "count": 5,
-      "r5": -1.2,
-      "r20": -4.5,
-      "r60": 9.9,
-      "above50": 60,
-      "trend": "섞여 있음",
-      "leaders": [
-        {
-          "ticker": "CLMB",
-          "r20": 31.4
-        },
-        {
-          "ticker": "NSIT",
-          "r20": 9.7
-        },
-        {
-          "ticker": "SCSC",
-          "r20": -4.5
-        }
-      ],
-      "rank": 6
-    },
-    {
       "industry": "Information Technology Services",
       "name": "IT 서비스",
       "count": 23,
-      "r5": -2.1,
-      "r20": -1.9,
-      "r60": -9.7,
+      "r5": -1.9,
+      "r20": -6.7,
+      "r60": -13.8,
       "above50": 43,
       "trend": "섞여 있음",
       "leaders": [
         {
           "ticker": "GDYN",
-          "r20": 79.3
+          "r20": 64.8
         },
         {
-          "ticker": "CDW",
-          "r20": 23.3
+          "ticker": "MGRT",
+          "r20": 17.9
+        },
+        {
+          "ticker": "EXLS",
+          "r20": 17.3
+        }
+      ],
+      "members": [
+        {
+          "ticker": "GDYN",
+          "name": "Grid Dynamics Holdings, Inc.",
+          "r5": -1.9,
+          "r20": 64.8,
+          "r60": 65.0,
+          "gap50": 50.8,
+          "rank": 1
+        },
+        {
+          "ticker": "EXLS",
+          "name": "ExlService Holdings, Inc.",
+          "r5": 4.2,
+          "r20": 17.3,
+          "r60": 22.0,
+          "gap50": 14.0,
+          "rank": 2
+        },
+        {
+          "ticker": "IBEX",
+          "name": "IBEX Limited",
+          "r5": 10.7,
+          "r20": 11.2,
+          "r60": 37.6,
+          "gap50": 15.2,
+          "rank": 3
+        },
+        {
+          "ticker": "TASK",
+          "name": "TaskUs, Inc.",
+          "r5": 9.5,
+          "r20": 11.7,
+          "r60": 25.0,
+          "gap50": 10.5,
+          "rank": 4
+        },
+        {
+          "ticker": "MGRT",
+          "name": "Mega Fortune Company Limited",
+          "r5": 1.4,
+          "r20": 17.9,
+          "r60": 21.5,
+          "gap50": 6.7,
+          "rank": 5
+        },
+        {
+          "ticker": "CNXC",
+          "name": "Concentrix Corporation",
+          "r5": 0.6,
+          "r20": 16.8,
+          "r60": 21.9,
+          "gap50": 5.2,
+          "rank": 6
+        },
+        {
+          "ticker": "JKHY",
+          "name": "Jack Henry & Associates, Inc.",
+          "r5": 7.4,
+          "r20": 16.0,
+          "r60": 11.1,
+          "gap50": 10.4,
+          "rank": 7
         },
         {
           "ticker": "SAIC",
-          "r20": 23.2
+          "name": "Science Applications Internatio",
+          "r5": -3.7,
+          "r20": 8.6,
+          "r60": 15.5,
+          "gap50": 8.7,
+          "rank": 8
+        },
+        {
+          "ticker": "CDW",
+          "name": "CDW Corporation",
+          "r5": 2.1,
+          "r20": 10.4,
+          "r60": 10.5,
+          "gap50": 5.6,
+          "rank": 9
+        },
+        {
+          "ticker": "CTSH",
+          "name": "Cognizant Technology Solutions ",
+          "r5": -0.6,
+          "r20": 9.3,
+          "r60": 9.2,
+          "gap50": 3.6,
+          "rank": 10
+        },
+        {
+          "ticker": "WSE",
+          "name": "Wise Group plc",
+          "r5": 4.5,
+          "r20": -6.1,
+          "r60": -13.8,
+          "gap50": -4.4,
+          "rank": 11
+        },
+        {
+          "ticker": "FORTY",
+          "name": "Formula Systems (1985) Ltd.",
+          "r5": -9.6,
+          "r20": -6.7,
+          "r60": 0.9,
+          "gap50": -7.7,
+          "rank": 12
+        },
+        {
+          "ticker": "MAAS",
+          "name": "Maase Inc.",
+          "r5": -16.8,
+          "r20": -11.9,
+          "r60": -35.4,
+          "gap50": -27.3,
+          "rank": 13
+        },
+        {
+          "ticker": "GDS",
+          "name": "GDS Holdings Limited",
+          "r5": 2.0,
+          "r20": -27.8,
+          "r60": -35.7,
+          "gap50": -21.1,
+          "rank": 14
+        },
+        {
+          "ticker": "PONY",
+          "name": "Pony AI Inc.",
+          "r5": 2.4,
+          "r20": -21.4,
+          "r60": -43.0,
+          "gap50": -21.3,
+          "rank": 15
+        },
+        {
+          "ticker": "PENG",
+          "name": "Penguin Solutions, Inc.",
+          "r5": -19.4,
+          "r20": -45.2,
+          "r60": -31.3,
+          "gap50": -24.8,
+          "rank": 16
+        },
+        {
+          "ticker": "INOD",
+          "name": "Innodata Inc.",
+          "r5": -15.5,
+          "r20": -40.3,
+          "r60": -40.4,
+          "gap50": -35.0,
+          "rank": 17
+        },
+        {
+          "ticker": "APLD",
+          "name": "Applied Digital Corporation",
+          "r5": -12.7,
+          "r20": -34.3,
+          "r60": -49.2,
+          "gap50": -32.2,
+          "rank": 18
+        },
+        {
+          "ticker": "KEEL",
+          "name": "Keel Infrastructure Corp.",
+          "r5": -9.2,
+          "r20": -38.7,
+          "r60": -43.5,
+          "gap50": -38.2,
+          "rank": 19
+        },
+        {
+          "ticker": "CHRN",
+          "name": "ChronoScale Holdings Corporatio",
+          "r5": -25.2,
+          "r20": -42.2,
+          "r60": -47.9,
+          "gap50": -39.0,
+          "rank": 20
+        },
+        {
+          "ticker": "VNET",
+          "name": "VNET Group, Inc.",
+          "r5": -1.9,
+          "r20": -42.9,
+          "r60": -57.6,
+          "gap50": -39.4,
+          "rank": 21
+        },
+        {
+          "ticker": "SHAZ",
+          "name": "SharonAI Holdings, Inc.",
+          "r5": -3.8,
+          "r20": -42.5,
+          "r60": -69.7,
+          "gap50": -48.6,
+          "rank": 22
+        },
+        {
+          "ticker": "CIFR",
+          "name": "Cipher Digital Inc.",
+          "r5": -10.2,
+          "r20": -51.6,
+          "r60": -60.6,
+          "gap50": -50.6,
+          "rank": 23
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "industry": "Electronics & Computer Distribution",
+      "name": "전자 · 컴퓨터 유통",
+      "count": 5,
+      "r5": -8.8,
+      "r20": -14.7,
+      "r60": -2.2,
+      "above50": 20,
+      "trend": "내리는 중",
+      "leaders": [
+        {
+          "ticker": "CLMB",
+          "r20": 19.4
+        },
+        {
+          "ticker": "NSIT",
+          "r20": -3.3
+        },
+        {
+          "ticker": "CNXN",
+          "r20": -14.7
+        }
+      ],
+      "members": [
+        {
+          "ticker": "CLMB",
+          "name": "Climb Global Solutions, Inc.",
+          "r5": -2.3,
+          "r20": 19.4,
+          "r60": 39.3,
+          "gap50": 23.2,
+          "rank": 1
+        },
+        {
+          "ticker": "NSIT",
+          "name": "Insight Enterprises, Inc.",
+          "r5": -8.4,
+          "r20": -3.3,
+          "r60": 1.1,
+          "gap50": -2.8,
+          "rank": 2
+        },
+        {
+          "ticker": "CNXN",
+          "name": "PC Connection, Inc.",
+          "r5": -8.8,
+          "r20": -14.7,
+          "r60": -2.2,
+          "gap50": -9.3,
+          "rank": 3
+        },
+        {
+          "ticker": "AVT",
+          "name": "Avnet, Inc.",
+          "r5": -10.1,
+          "r20": -20.2,
+          "r60": -17.4,
+          "gap50": -15.9,
+          "rank": 4
+        },
+        {
+          "ticker": "SCSC",
+          "name": "ScanSource, Inc.",
+          "r5": -25.9,
+          "r20": -29.8,
+          "r60": -18.2,
+          "gap50": -26.5,
+          "rank": 5
         }
       ],
       "rank": 7
@@ -190,48 +1869,232 @@
       "industry": "Scientific & Technical Instruments",
       "name": "과학 · 기술 계측기",
       "count": 7,
-      "r5": -3.9,
-      "r20": -2.9,
-      "r60": -6.4,
-      "above50": 43,
-      "trend": "섞여 있음",
+      "r5": -5.1,
+      "r20": -4.7,
+      "r60": -7.3,
+      "above50": 14,
+      "trend": "내리는 중",
       "leaders": [
         {
           "ticker": "ITRI",
-          "r20": 18.7
+          "r20": 15.0
         },
         {
-          "ticker": "ITRN",
-          "r20": 1.8
+          "ticker": "MLAB",
+          "r20": 0.6
         },
         {
           "ticker": "NOVT",
-          "r20": 1.1
+          "r20": -4.3
+        }
+      ],
+      "members": [
+        {
+          "ticker": "ITRI",
+          "name": "Itron, Inc.",
+          "r5": 2.7,
+          "r20": 15.0,
+          "r60": -4.2,
+          "gap50": 8.1,
+          "rank": 1
+        },
+        {
+          "ticker": "MLAB",
+          "name": "Mesa Laboratories, Inc.",
+          "r5": 0.3,
+          "r20": 0.6,
+          "r60": 13.3,
+          "gap50": -0.0,
+          "rank": 2
+        },
+        {
+          "ticker": "ITRN",
+          "name": "Ituran Location and Control Ltd",
+          "r5": -5.1,
+          "r20": -4.7,
+          "r60": -7.3,
+          "gap50": -3.5,
+          "rank": 3
+        },
+        {
+          "ticker": "NOVT",
+          "name": "Novanta Inc.",
+          "r5": -7.3,
+          "r20": -4.3,
+          "r60": -19.2,
+          "gap50": -4.9,
+          "rank": 4
+        },
+        {
+          "ticker": "TRMB",
+          "name": "Trimble Inc.",
+          "r5": -16.7,
+          "r20": -10.0,
+          "r60": -6.0,
+          "gap50": -9.3,
+          "rank": 5
+        },
+        {
+          "ticker": "CGNX",
+          "name": "Cognex Corporation",
+          "r5": -14.9,
+          "r20": -24.1,
+          "r60": -22.4,
+          "gap50": -19.1,
+          "rank": 6
+        },
+        {
+          "ticker": "MKSI",
+          "name": "MKS Inc.",
+          "r5": -4.8,
+          "r20": -27.3,
+          "r60": -37.2,
+          "gap50": -19.9,
+          "rank": 7
         }
       ],
       "rank": 8
     },
     {
-      "industry": "Semiconductors",
-      "name": "반도체",
-      "count": 43,
-      "r5": -12.5,
-      "r20": -21.0,
-      "r60": -17.6,
-      "above50": 19,
+      "industry": "Electronic Components",
+      "name": "전자 부품",
+      "count": 13,
+      "r5": -9.5,
+      "r20": -16.6,
+      "r60": -27.2,
+      "above50": 15,
       "trend": "내리는 중",
       "leaders": [
         {
-          "ticker": "NXPI",
-          "r20": 12.7
+          "ticker": "OLED",
+          "r20": 17.8
         },
         {
-          "ticker": "TXN",
+          "ticker": "DAKT",
           "r20": 7.8
         },
         {
-          "ticker": "CRUS",
-          "r20": 2.9
+          "ticker": "OSIS",
+          "r20": 0.7
+        }
+      ],
+      "members": [
+        {
+          "ticker": "OLED",
+          "name": "Universal Display Corporation",
+          "r5": 5.2,
+          "r20": 17.8,
+          "r60": -2.9,
+          "gap50": 9.0,
+          "rank": 1
+        },
+        {
+          "ticker": "DAKT",
+          "name": "Daktronics, Inc.",
+          "r5": 2.9,
+          "r20": 7.8,
+          "r60": -5.1,
+          "gap50": 4.4,
+          "rank": 2
+        },
+        {
+          "ticker": "OSIS",
+          "name": "OSI Systems, Inc.",
+          "r5": -1.5,
+          "r20": 0.7,
+          "r60": -14.1,
+          "gap50": -1.4,
+          "rank": 3
+        },
+        {
+          "ticker": "OUST",
+          "name": "Ouster, Inc.",
+          "r5": 17.0,
+          "r20": -12.8,
+          "r60": -22.9,
+          "gap50": -1.6,
+          "rank": 4
+        },
+        {
+          "ticker": "LFUS",
+          "name": "Littelfuse, Inc.",
+          "r5": -9.5,
+          "r20": -16.6,
+          "r60": -21.0,
+          "gap50": -12.5,
+          "rank": 5
+        },
+        {
+          "ticker": "BELFB",
+          "name": "Bel Fuse Inc.",
+          "r5": -12.4,
+          "r20": -15.4,
+          "r60": -27.7,
+          "gap50": -12.2,
+          "rank": 6
+        },
+        {
+          "ticker": "BELFA",
+          "name": "Bel Fuse Inc.",
+          "r5": -13.1,
+          "r20": -16.0,
+          "r60": -30.3,
+          "gap50": -14.1,
+          "rank": 7
+        },
+        {
+          "ticker": "ALNT",
+          "name": "Allient Inc.",
+          "r5": -5.0,
+          "r20": -26.0,
+          "r60": -25.9,
+          "gap50": -17.6,
+          "rank": 8
+        },
+        {
+          "ticker": "PLXS",
+          "name": "Plexus Corp.",
+          "r5": -7.6,
+          "r20": -26.8,
+          "r60": -27.2,
+          "gap50": -20.9,
+          "rank": 9
+        },
+        {
+          "ticker": "SANM",
+          "name": "Sanmina Corporation",
+          "r5": -18.7,
+          "r20": -38.1,
+          "r60": -34.8,
+          "gap50": -30.3,
+          "rank": 10
+        },
+        {
+          "ticker": "FLEX",
+          "name": "Flex Ltd.",
+          "r5": -19.3,
+          "r20": -41.8,
+          "r60": -43.9,
+          "gap50": -31.8,
+          "rank": 11
+        },
+        {
+          "ticker": "VICR",
+          "name": "Vicor Corporation",
+          "r5": -23.1,
+          "r20": -44.8,
+          "r60": -35.2,
+          "gap50": -33.5,
+          "rank": 12
+        },
+        {
+          "ticker": "TTMI",
+          "name": "TTM Technologies, Inc.",
+          "r5": -19.8,
+          "r20": -45.0,
+          "r60": -52.1,
+          "gap50": -39.0,
+          "rank": 13
         }
       ],
       "rank": 9
@@ -240,48 +2103,592 @@
       "industry": "Communication Equipment",
       "name": "통신 장비",
       "count": 17,
-      "r5": -13.4,
-      "r20": -13.9,
-      "r60": -21.0,
-      "above50": 18,
+      "r5": -11.0,
+      "r20": -19.6,
+      "r60": -25.8,
+      "above50": 12,
       "trend": "내리는 중",
       "leaders": [
         {
           "ticker": "ERIC",
-          "r20": 16.9
+          "r20": 7.3
+        },
+        {
+          "ticker": "EXTR",
+          "r20": -0.7
+        },
+        {
+          "ticker": "TSAT",
+          "r20": -9.1
+        }
+      ],
+      "members": [
+        {
+          "ticker": "ERIC",
+          "name": "Ericsson",
+          "r5": -8.2,
+          "r20": 7.3,
+          "r60": -0.1,
+          "gap50": 1.5,
+          "rank": 1
+        },
+        {
+          "ticker": "EXTR",
+          "name": "Extreme Networks, Inc.",
+          "r5": 6.3,
+          "r20": -0.7,
+          "r60": -0.1,
+          "gap50": 7.0,
+          "rank": 2
+        },
+        {
+          "ticker": "TSAT",
+          "name": "Telesat Corporation",
+          "r5": 4.2,
+          "r20": -9.1,
+          "r60": -20.6,
+          "gap50": -7.6,
+          "rank": 3
+        },
+        {
+          "ticker": "ZBRA",
+          "name": "Zebra Technologies Corporation",
+          "r5": -10.9,
+          "r20": -16.8,
+          "r60": -15.2,
+          "gap50": -11.7,
+          "rank": 4
+        },
+        {
+          "ticker": "VSAT",
+          "name": "ViaSat, Inc.",
+          "r5": -17.0,
+          "r20": -11.2,
+          "r60": -22.9,
+          "gap50": -8.3,
+          "rank": 5
+        },
+        {
+          "ticker": "HLIT",
+          "name": "Harmonic Inc.",
+          "r5": -7.0,
+          "r20": -13.5,
+          "r60": -27.3,
+          "gap50": -13.0,
+          "rank": 6
+        },
+        {
+          "ticker": "DGII",
+          "name": "Digi International Inc.",
+          "r5": -13.1,
+          "r20": -16.4,
+          "r60": -25.8,
+          "gap50": -13.4,
+          "rank": 7
         },
         {
           "ticker": "VISN",
-          "r20": 6.1
+          "name": "Vistance Networks, Inc.",
+          "r5": -16.0,
+          "r20": -9.2,
+          "r60": -51.6,
+          "gap50": -12.0,
+          "rank": 8
+        },
+        {
+          "ticker": "CSCO",
+          "name": "Cisco Systems, Inc.",
+          "r5": -10.2,
+          "r20": -20.7,
+          "r60": -17.3,
+          "gap50": -13.8,
+          "rank": 9
         },
         {
           "ticker": "NTGR",
-          "r20": -3.4
+          "name": "NETGEAR, Inc.",
+          "r5": -16.5,
+          "r20": -20.0,
+          "r60": -20.7,
+          "gap50": -14.8,
+          "rank": 10
+        },
+        {
+          "ticker": "FEIM",
+          "name": "Frequency Electronics, Inc.",
+          "r5": -11.0,
+          "r20": -19.8,
+          "r60": -22.9,
+          "gap50": -17.5,
+          "rank": 11
+        },
+        {
+          "ticker": "GILT",
+          "name": "Gilat Satellite Networks Ltd.",
+          "r5": -7.6,
+          "r20": -19.6,
+          "r60": -37.5,
+          "gap50": -19.9,
+          "rank": 12
+        },
+        {
+          "ticker": "ONDS",
+          "name": "Ondas Inc",
+          "r5": -15.6,
+          "r20": -20.7,
+          "r60": -40.1,
+          "gap50": -22.4,
+          "rank": 13
+        },
+        {
+          "ticker": "VIAV",
+          "name": "Viavi Solutions Inc.",
+          "r5": -4.8,
+          "r20": -37.4,
+          "r60": -33.8,
+          "gap50": -22.4,
+          "rank": 14
+        },
+        {
+          "ticker": "ASTS",
+          "name": "AST SpaceMobile, Inc.",
+          "r5": -21.1,
+          "r20": -36.6,
+          "r60": -54.8,
+          "gap50": -38.0,
+          "rank": 15
+        },
+        {
+          "ticker": "LITE",
+          "name": "Lumentum Holdings Inc.",
+          "r5": -35.9,
+          "r20": -51.2,
+          "r60": -38.8,
+          "gap50": -39.8,
+          "rank": 16
+        },
+        {
+          "ticker": "AAOI",
+          "name": "Applied Optoelectronics, Inc.",
+          "r5": -27.4,
+          "r20": -54.3,
+          "r60": -61.5,
+          "gap50": -46.1,
+          "rank": 17
         }
       ],
       "rank": 10
     },
     {
-      "industry": "Electronic Components",
-      "name": "전자 부품",
-      "count": 14,
-      "r5": -9.1,
-      "r20": -21.0,
-      "r60": -25.4,
-      "above50": 21,
+      "industry": "Semiconductors",
+      "name": "반도체",
+      "count": 43,
+      "r5": -8.8,
+      "r20": -20.7,
+      "r60": -24.9,
+      "above50": 9,
       "trend": "내리는 중",
       "leaders": [
         {
-          "ticker": "OLED",
-          "r20": 16.0
+          "ticker": "NXPI",
+          "r20": 9.1
         },
         {
-          "ticker": "DAKT",
-          "r20": 14.1
+          "ticker": "SWKS",
+          "r20": 7.6
         },
         {
-          "ticker": "OSIS",
-          "r20": 4.6
+          "ticker": "CRUS",
+          "r20": 6.3
+        }
+      ],
+      "members": [
+        {
+          "ticker": "NXPI",
+          "name": "NXP Semiconductors N.V.",
+          "r5": -4.4,
+          "r20": 9.1,
+          "r60": 7.1,
+          "gap50": 5.2,
+          "rank": 1
+        },
+        {
+          "ticker": "SWKS",
+          "name": "Skyworks Solutions, Inc.",
+          "r5": -6.2,
+          "r20": 7.6,
+          "r60": 17.8,
+          "gap50": 0.1,
+          "rank": 2
+        },
+        {
+          "ticker": "SYNA",
+          "name": "Synaptics Incorporated",
+          "r5": -1.0,
+          "r20": -2.6,
+          "r60": 8.8,
+          "gap50": 8.1,
+          "rank": 3
+        },
+        {
+          "ticker": "SLAB",
+          "name": "Silicon Laboratories, Inc.",
+          "r5": -0.4,
+          "r20": -0.2,
+          "r60": 1.5,
+          "gap50": 0.2,
+          "rank": 4
+        },
+        {
+          "ticker": "TXN",
+          "name": "Texas Instruments Incorporated",
+          "r5": -7.8,
+          "r20": -2.2,
+          "r60": 1.4,
+          "gap50": -0.6,
+          "rank": 5
+        },
+        {
+          "ticker": "CRUS",
+          "name": "Cirrus Logic, Inc.",
+          "r5": 3.4,
+          "r20": 6.3,
+          "r60": -6.3,
+          "gap50": -0.6,
+          "rank": 6
+        },
+        {
+          "ticker": "PI",
+          "name": "Impinj, Inc.",
+          "r5": -4.8,
+          "r20": -9.8,
+          "r60": -4.4,
+          "gap50": -4.0,
+          "rank": 7
+        },
+        {
+          "ticker": "QCOM",
+          "name": "QUALCOMM Incorporated",
+          "r5": 0.4,
+          "r20": -5.7,
+          "r60": 0.4,
+          "gap50": -7.1,
+          "rank": 8
+        },
+        {
+          "ticker": "ADI",
+          "name": "Analog Devices, Inc.",
+          "r5": -12.8,
+          "r20": -10.5,
+          "r60": -4.6,
+          "gap50": -6.9,
+          "rank": 9
+        },
+        {
+          "ticker": "MPWR",
+          "name": "Monolithic Power Systems, Inc.",
+          "r5": -1.7,
+          "r20": -14.1,
+          "r60": -12.6,
+          "gap50": -6.1,
+          "rank": 10
+        },
+        {
+          "ticker": "LASR",
+          "name": "nLIGHT, Inc.",
+          "r5": 2.4,
+          "r20": -1.2,
+          "r60": -24.5,
+          "gap50": -1.2,
+          "rank": 11
+        },
+        {
+          "ticker": "AOSL",
+          "name": "Alpha and Omega Semiconductor L",
+          "r5": 2.7,
+          "r20": -15.3,
+          "r60": -22.9,
+          "gap50": -6.1,
+          "rank": 12
+        },
+        {
+          "ticker": "LSCC",
+          "name": "Lattice Semiconductor Corporati",
+          "r5": 13.0,
+          "r20": -16.7,
+          "r60": -18.2,
+          "gap50": -7.7,
+          "rank": 13
+        },
+        {
+          "ticker": "CEVA",
+          "name": "CEVA, Inc.",
+          "r5": -8.2,
+          "r20": -19.1,
+          "r60": -10.8,
+          "gap50": -11.1,
+          "rank": 14
+        },
+        {
+          "ticker": "DIOD",
+          "name": "Diodes Incorporated",
+          "r5": -3.5,
+          "r20": -18.5,
+          "r60": -20.4,
+          "gap50": -14.1,
+          "rank": 15
+        },
+        {
+          "ticker": "ON",
+          "name": "ON Semiconductor Corporation",
+          "r5": -11.7,
+          "r20": -18.3,
+          "r60": -22.4,
+          "gap50": -14.7,
+          "rank": 16
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA Corporation",
+          "r5": -8.8,
+          "r20": -18.6,
+          "r60": -17.2,
+          "gap50": -15.1,
+          "rank": 17
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices, Inc.",
+          "r5": -11.0,
+          "r20": -26.2,
+          "r60": -7.0,
+          "gap50": -17.9,
+          "rank": 18
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom Inc.",
+          "r5": -9.9,
+          "r20": -18.8,
+          "r60": -29.7,
+          "gap50": -15.6,
+          "rank": 19
+        },
+        {
+          "ticker": "GFS",
+          "name": "GlobalFoundries Inc.",
+          "r5": -7.8,
+          "r20": -19.9,
+          "r60": -26.7,
+          "gap50": -15.7,
+          "rank": 20
+        },
+        {
+          "ticker": "POWI",
+          "name": "Power Integrations, Inc.",
+          "r5": -8.2,
+          "r20": -18.0,
+          "r60": -35.4,
+          "gap50": -17.6,
+          "rank": 21
+        },
+        {
+          "ticker": "AIP",
+          "name": "Arteris, Inc.",
+          "r5": -5.3,
+          "r20": -20.7,
+          "r60": -35.5,
+          "gap50": -16.8,
+          "rank": 22
+        },
+        {
+          "ticker": "MCHP",
+          "name": "Microchip Technology Incorporat",
+          "r5": -24.6,
+          "r20": -22.8,
+          "r60": -24.9,
+          "gap50": -22.0,
+          "rank": 23
+        },
+        {
+          "ticker": "SKHY",
+          "name": "SK hynix Inc.",
+          "r5": -14.7,
+          "r20": -24.7,
+          "r60": -23.1,
+          "gap50": -23.7,
+          "rank": 24
+        },
+        {
+          "ticker": "RMBS",
+          "name": "Rambus, Inc.",
+          "r5": -12.0,
+          "r20": -30.7,
+          "r60": -25.0,
+          "gap50": -19.7,
+          "rank": 25
+        },
+        {
+          "ticker": "NVTS",
+          "name": "Navitas Semiconductor Corporati",
+          "r5": 1.5,
+          "r20": -20.1,
+          "r60": -37.0,
+          "gap50": -17.9,
+          "rank": 26
+        },
+        {
+          "ticker": "ALGM",
+          "name": "Allegro MicroSystems, Inc.",
+          "r5": -7.7,
+          "r20": -20.8,
+          "r60": -36.2,
+          "gap50": -18.2,
+          "rank": 27
+        },
+        {
+          "ticker": "MU",
+          "name": "Micron Technology, Inc.",
+          "r5": -22.0,
+          "r20": -32.9,
+          "r60": -27.4,
+          "gap50": -28.2,
+          "rank": 28
+        },
+        {
+          "ticker": "MTSI",
+          "name": "MACOM Technology Solutions Hold",
+          "r5": -10.0,
+          "r20": -36.1,
+          "r60": -31.3,
+          "gap50": -22.1,
+          "rank": 29
+        },
+        {
+          "ticker": "IMOS",
+          "name": "ChipMOS TECHNOLOGIES INC.",
+          "r5": -19.5,
+          "r20": -43.7,
+          "r60": -24.2,
+          "gap50": -29.7,
+          "rank": 30
+        },
+        {
+          "ticker": "SMTC",
+          "name": "Semtech Corporation",
+          "r5": -19.0,
+          "r20": -44.9,
+          "r60": -22.7,
+          "gap50": -33.5,
+          "rank": 31
+        },
+        {
+          "ticker": "POET",
+          "name": "POET Technologies Inc.",
+          "r5": -2.5,
+          "r20": -27.3,
+          "r60": -43.1,
+          "gap50": -25.0,
+          "rank": 32
+        },
+        {
+          "ticker": "SITM",
+          "name": "SiTime Corporation",
+          "r5": -6.7,
+          "r20": -31.9,
+          "r60": -39.4,
+          "gap50": -25.8,
+          "rank": 33
+        },
+        {
+          "ticker": "SIMO",
+          "name": "Silicon Motion Technology Corpo",
+          "r5": -22.0,
+          "r20": -38.3,
+          "r60": -34.7,
+          "gap50": -32.6,
+          "rank": 34
+        },
+        {
+          "ticker": "ARM",
+          "name": "Arm Holdings plc",
+          "r5": -15.2,
+          "r20": -34.4,
+          "r60": -37.3,
+          "gap50": -30.9,
+          "rank": 35
+        },
+        {
+          "ticker": "HIMX",
+          "name": "Himax Technologies, Inc.",
+          "r5": -21.9,
+          "r20": -36.2,
+          "r60": -42.1,
+          "gap50": -34.2,
+          "rank": 36
+        },
+        {
+          "ticker": "TSEM",
+          "name": "Tower Semiconductor Ltd.",
+          "r5": -17.5,
+          "r20": -40.0,
+          "r60": -45.7,
+          "gap50": -33.2,
+          "rank": 37
+        },
+        {
+          "ticker": "MXL",
+          "name": "MaxLinear, Inc",
+          "r5": -27.1,
+          "r20": -48.9,
+          "r60": -35.8,
+          "gap50": -35.5,
+          "rank": 38
+        },
+        {
+          "ticker": "ALAB",
+          "name": "Astera Labs, Inc.",
+          "r5": -26.3,
+          "r20": -44.3,
+          "r60": -40.9,
+          "gap50": -36.5,
+          "rank": 39
+        },
+        {
+          "ticker": "CRDO",
+          "name": "Credo Technology Group Holding ",
+          "r5": -20.2,
+          "r20": -44.4,
+          "r60": -54.7,
+          "gap50": -32.6,
+          "rank": 40
+        },
+        {
+          "ticker": "MRVL",
+          "name": "Marvell Technology, Inc.",
+          "r5": -28.1,
+          "r20": -48.7,
+          "r60": -36.4,
+          "gap50": -39.7,
+          "rank": 41
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel Corporation",
+          "r5": -14.4,
+          "r20": -46.2,
+          "r60": -46.2,
+          "gap50": -42.5,
+          "rank": 42
+        },
+        {
+          "ticker": "CBRS",
+          "name": "Cerebras Systems Inc.",
+          "r5": -17.9,
+          "r20": -45.4,
+          "r60": -61.2,
+          "gap50": -43.7,
+          "rank": 43
         }
       ],
       "rank": 11
@@ -289,24 +2696,152 @@
     {
       "industry": "Computer Hardware",
       "name": "컴퓨터 하드웨어",
-      "count": 15,
-      "r5": -9.6,
-      "r20": -23.2,
-      "r60": -24.3,
-      "above50": 13,
+      "count": 14,
+      "r5": -7.3,
+      "r20": -25.0,
+      "r60": -33.0,
+      "above50": 7,
       "trend": "내리는 중",
       "leaders": [
         {
           "ticker": "CRCT",
-          "r20": 39.6
-        },
-        {
-          "ticker": "CRSR",
-          "r20": -2.0
+          "r20": 37.4
         },
         {
           "ticker": "LOGI",
-          "r20": -2.0
+          "r20": -2.1
+        },
+        {
+          "ticker": "CRSR",
+          "r20": -13.1
+        }
+      ],
+      "members": [
+        {
+          "ticker": "CRCT",
+          "name": "Cricut, Inc.",
+          "r5": 44.4,
+          "r20": 37.4,
+          "r60": 48.1,
+          "gap50": 40.3,
+          "rank": 1
+        },
+        {
+          "ticker": "LOGI",
+          "name": "Logitech International S.A. - R",
+          "r5": 0.8,
+          "r20": -2.1,
+          "r60": -7.9,
+          "gap50": -5.5,
+          "rank": 2
+        },
+        {
+          "ticker": "CRSR",
+          "name": "Corsair Gaming, Inc.",
+          "r5": -6.0,
+          "r20": -13.1,
+          "r60": -12.0,
+          "gap50": -10.1,
+          "rank": 3
+        },
+        {
+          "ticker": "SSYS",
+          "name": "Stratasys, Ltd.",
+          "r5": -4.5,
+          "r20": -19.5,
+          "r60": -28.4,
+          "gap50": -15.3,
+          "rank": 4
+        },
+        {
+          "ticker": "QUBT",
+          "name": "Quantum Computing Inc.",
+          "r5": -4.1,
+          "r20": -14.9,
+          "r60": -29.0,
+          "gap50": -16.2,
+          "rank": 5
+        },
+        {
+          "ticker": "RGTI",
+          "name": "Rigetti Computing, Inc.",
+          "r5": 4.4,
+          "r20": -16.3,
+          "r60": -36.9,
+          "gap50": -15.8,
+          "rank": 6
+        },
+        {
+          "ticker": "IQMX",
+          "name": "IQM Quantum Computers Oyj",
+          "r5": -8.5,
+          "r20": -23.3,
+          "r60": -20.1,
+          "gap50": -19.8,
+          "rank": 7
+        },
+        {
+          "ticker": "SMCI",
+          "name": "Super Micro Computer, Inc.",
+          "r5": -12.7,
+          "r20": -31.3,
+          "r60": -26.6,
+          "gap50": -23.2,
+          "rank": 8
+        },
+        {
+          "ticker": "QBTS",
+          "name": "D-Wave Quantum Inc.",
+          "r5": 0.3,
+          "r20": -26.7,
+          "r60": -48.9,
+          "gap50": -26.8,
+          "rank": 9
+        },
+        {
+          "ticker": "WDC",
+          "name": "Western Digital Corporation",
+          "r5": -28.0,
+          "r20": -33.6,
+          "r60": -45.9,
+          "gap50": -35.1,
+          "rank": 10
+        },
+        {
+          "ticker": "QMCO",
+          "name": "Quantum Corporation",
+          "r5": -20.8,
+          "r20": -52.4,
+          "r60": -41.4,
+          "gap50": -39.8,
+          "rank": 11
+        },
+        {
+          "ticker": "STX",
+          "name": "Seagate Technology Holdings PLC",
+          "r5": -28.5,
+          "r20": -41.1,
+          "r60": -50.0,
+          "gap50": -40.1,
+          "rank": 12
+        },
+        {
+          "ticker": "SNDK",
+          "name": "Sandisk Corporation",
+          "r5": -27.4,
+          "r20": -47.2,
+          "r60": -45.4,
+          "gap50": -44.5,
+          "rank": 13
+        },
+        {
+          "ticker": "PSQL",
+          "name": "Pasqal Holding SA",
+          "r5": -16.8,
+          "r20": -36.5,
+          "r60": -57.2,
+          "gap50": -40.5,
+          "rank": 14
         }
       ],
       "rank": 12
@@ -314,24 +2849,233 @@
     {
       "industry": "Semiconductor Equipment & Materials",
       "name": "반도체 장비 · 소재",
-      "count": 22,
-      "r5": -14.7,
-      "r20": -32.3,
-      "r60": -29.2,
+      "count": 23,
+      "r5": -12.3,
+      "r20": -34.4,
+      "r60": -37.8,
       "above50": 0,
       "trend": "내리는 중",
       "leaders": [
         {
-          "ticker": "AMBA",
-          "r20": -6.8
+          "ticker": "PLAB",
+          "r20": -7.6
         },
         {
+          "ticker": "NVMI",
+          "r20": -11.3
+        },
+        {
+          "ticker": "AMBA",
+          "r20": -13.2
+        }
+      ],
+      "members": [
+        {
           "ticker": "PLAB",
-          "r20": -9.1
+          "name": "Photronics, Inc.",
+          "r5": -0.8,
+          "r20": -7.6,
+          "r60": -18.3,
+          "gap50": -5.2,
+          "rank": 1
+        },
+        {
+          "ticker": "NVMI",
+          "name": "Nova Ltd.",
+          "r5": 0.3,
+          "r20": -11.3,
+          "r60": -23.9,
+          "gap50": -9.6,
+          "rank": 2
+        },
+        {
+          "ticker": "AMBA",
+          "name": "Ambarella, Inc.",
+          "r5": -7.2,
+          "r20": -13.2,
+          "r60": -28.6,
+          "gap50": -10.8,
+          "rank": 3
         },
         {
           "ticker": "IPGP",
-          "r20": -13.3
+          "name": "IPG Photonics Corporation",
+          "r5": -10.0,
+          "r20": -16.6,
+          "r60": -22.2,
+          "gap50": -14.0,
+          "rank": 4
+        },
+        {
+          "ticker": "ENTG",
+          "name": "Entegris, Inc.",
+          "r5": -17.1,
+          "r20": -22.8,
+          "r60": -21.9,
+          "gap50": -12.4,
+          "rank": 5
+        },
+        {
+          "ticker": "ASML",
+          "name": "ASML Holding N.V. - New York Re",
+          "r5": -9.0,
+          "r20": -20.0,
+          "r60": -22.9,
+          "gap50": -15.1,
+          "rank": 6
+        },
+        {
+          "ticker": "ACLS",
+          "name": "Axcelis Technologies, Inc.",
+          "r5": -0.8,
+          "r20": -26.3,
+          "r60": -30.6,
+          "gap50": -14.2,
+          "rank": 7
+        },
+        {
+          "ticker": "VECO",
+          "name": "Veeco Instruments Inc.",
+          "r5": -4.3,
+          "r20": -28.9,
+          "r60": -30.6,
+          "gap50": -17.4,
+          "rank": 8
+        },
+        {
+          "ticker": "KLAC",
+          "name": "KLA Corporation",
+          "r5": -12.3,
+          "r20": -29.2,
+          "r60": -33.9,
+          "gap50": -20.8,
+          "rank": 9
+        },
+        {
+          "ticker": "KLIC",
+          "name": "Kulicke and Soffa Industries, I",
+          "r5": -13.7,
+          "r20": -30.4,
+          "r60": -33.2,
+          "gap50": -22.9,
+          "rank": 10
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials, Inc.",
+          "r5": -14.7,
+          "r20": -34.4,
+          "r60": -37.8,
+          "gap50": -25.2,
+          "rank": 11
+        },
+        {
+          "ticker": "AMKR",
+          "name": "Amkor Technology, Inc.",
+          "r5": -16.9,
+          "r20": -33.2,
+          "r60": -43.2,
+          "gap50": -29.4,
+          "rank": 12
+        },
+        {
+          "ticker": "CAMT",
+          "name": "Camtek Ltd.",
+          "r5": -16.8,
+          "r20": -36.5,
+          "r60": -43.8,
+          "gap50": -29.0,
+          "rank": 13
+        },
+        {
+          "ticker": "FORM",
+          "name": "FormFactor, Inc.",
+          "r5": -7.3,
+          "r20": -41.9,
+          "r60": -38.4,
+          "gap50": -28.7,
+          "rank": 14
+        },
+        {
+          "ticker": "LRCX",
+          "name": "Lam Research Corporation",
+          "r5": -16.2,
+          "r20": -37.1,
+          "r60": -40.5,
+          "gap50": -29.5,
+          "rank": 15
+        },
+        {
+          "ticker": "COHU",
+          "name": "Cohu, Inc.",
+          "r5": -24.2,
+          "r20": -43.6,
+          "r60": -34.0,
+          "gap50": -31.4,
+          "rank": 16
+        },
+        {
+          "ticker": "ACMR",
+          "name": "ACM Research, Inc.",
+          "r5": -1.9,
+          "r20": -37.5,
+          "r60": -45.1,
+          "gap50": -31.3,
+          "rank": 17
+        },
+        {
+          "ticker": "AEHR",
+          "name": "Aehr Test Systems",
+          "r5": -2.4,
+          "r20": -36.7,
+          "r60": -56.6,
+          "gap50": -32.8,
+          "rank": 18
+        },
+        {
+          "ticker": "UCTT",
+          "name": "Ultra Clean Holdings, Inc.",
+          "r5": -17.3,
+          "r20": -40.0,
+          "r60": -55.7,
+          "gap50": -35.3,
+          "rank": 19
+        },
+        {
+          "ticker": "TER",
+          "name": "Teradyne, Inc.",
+          "r5": -20.5,
+          "r20": -45.8,
+          "r60": -46.8,
+          "gap50": -37.9,
+          "rank": 20
+        },
+        {
+          "ticker": "AXTI",
+          "name": "AXT Inc",
+          "r5": -29.4,
+          "r20": -43.2,
+          "r60": -49.8,
+          "gap50": -39.2,
+          "rank": 21
+        },
+        {
+          "ticker": "ICHR",
+          "name": "Ichor Holdings",
+          "r5": -20.4,
+          "r20": -48.3,
+          "r60": -56.5,
+          "gap50": -38.8,
+          "rank": 22
+        },
+        {
+          "ticker": "NANO",
+          "name": "Forge Nano Holdings Inc.",
+          "r5": 2.9,
+          "r20": -60.3,
+          "r60": -60.2,
+          "gap50": -53.2,
+          "rank": 23
         }
       ],
       "rank": 13
@@ -341,110 +3085,110 @@
     {
       "ticker": "XLV",
       "name": "헬스케어",
-      "r5": 5.5,
-      "r20": 12.4,
-      "r60": 12.9,
-      "gap50": 9.7,
+      "r5": -0.0,
+      "r20": 8.2,
+      "r60": 9.8,
+      "gap50": 6.6,
       "trend": "오르는 중",
       "rank": 1
     },
     {
       "ticker": "XLP",
       "name": "필수소비재",
-      "r5": 5.9,
-      "r20": 12.5,
-      "r60": 8.6,
-      "gap50": 8.4,
+      "r5": 0.7,
+      "r20": 8.0,
+      "r60": 4.7,
+      "gap50": 5.9,
       "trend": "오르는 중",
       "rank": 2
     },
     {
-      "ticker": "XLRE",
-      "name": "부동산",
-      "r5": 7.1,
-      "r20": 11.2,
-      "r60": 2.4,
-      "gap50": 6.0,
+      "ticker": "XLY",
+      "name": "경기소비재",
+      "r5": 1.9,
+      "r20": 4.2,
+      "r60": -0.7,
+      "gap50": 3.7,
       "trend": "오르는 중",
       "rank": 3
     },
     {
-      "ticker": "XLY",
-      "name": "경기소비재",
-      "r5": 6.1,
-      "r20": 9.9,
-      "r60": 2.6,
-      "gap50": 8.0,
+      "ticker": "XLRE",
+      "name": "부동산",
+      "r5": 1.9,
+      "r20": 5.7,
+      "r60": -2.5,
+      "gap50": 3.4,
       "trend": "오르는 중",
       "rank": 4
     },
     {
-      "ticker": "XLF",
-      "name": "금융",
-      "r5": 5.5,
-      "r20": 10.1,
-      "r60": 2.4,
-      "gap50": 5.8,
+      "ticker": "XLB",
+      "name": "소재",
+      "r5": -1.5,
+      "r20": 5.1,
+      "r60": -0.7,
+      "gap50": 2.0,
       "trend": "오르는 중",
       "rank": 5
     },
     {
-      "ticker": "XLB",
-      "name": "소재",
-      "r5": 3.9,
-      "r20": 10.0,
-      "r60": 1.2,
-      "gap50": 5.7,
+      "ticker": "XLF",
+      "name": "금융",
+      "r5": 1.2,
+      "r20": 4.4,
+      "r60": -1.9,
+      "gap50": 2.2,
       "trend": "오르는 중",
       "rank": 6
     },
     {
-      "ticker": "XLE",
-      "name": "에너지",
-      "r5": -7.2,
-      "r20": 0.3,
-      "r60": 4.3,
-      "gap50": -2.4,
-      "trend": "섞여 있음",
+      "ticker": "XLU",
+      "name": "유틸리티",
+      "r5": -0.7,
+      "r20": 4.2,
+      "r60": -2.1,
+      "gap50": 3.2,
+      "trend": "오르는 중",
       "rank": 7
     },
     {
-      "ticker": "XLU",
-      "name": "유틸리티",
-      "r5": 2.6,
-      "r20": 6.0,
-      "r60": -0.0,
-      "gap50": 4.4,
-      "trend": "오르는 중",
+      "ticker": "XLE",
+      "name": "에너지",
+      "r5": -12.0,
+      "r20": -5.3,
+      "r60": 0.9,
+      "gap50": -5.3,
+      "trend": "내리는 중",
       "rank": 8
     },
     {
       "ticker": "XLI",
       "name": "산업재",
-      "r5": 0.6,
-      "r20": 1.0,
-      "r60": -8.7,
-      "gap50": -0.4,
-      "trend": "섞여 있음",
+      "r5": -2.8,
+      "r20": -3.9,
+      "r60": -12.4,
+      "gap50": -4.0,
+      "trend": "내리는 중",
       "rank": 9
     },
     {
       "ticker": "XLC",
       "name": "통신서비스",
-      "r5": 1.8,
-      "r20": -5.7,
-      "r60": -5.7,
-      "gap50": -4.7,
+      "r5": 4.9,
+      "r20": -5.1,
+      "r60": -6.9,
+      "gap50": -4.6,
       "trend": "내리는 중",
       "rank": 10
     },
     {
       "ticker": "XLK",
       "name": "기술",
-      "r5": -7.6,
-      "r20": -12.4,
-      "r60": -5.2,
-      "gap50": -6.8,
+      "r5": -8.2,
+      "r20": -17.1,
+      "r60": -13.6,
+      "gap50": -12.6,
       "trend": "내리는 중",
       "rank": 11
     }
@@ -452,9 +3196,9 @@
   "reference": {
     "ticker": "SPY",
     "name": "미국 시장 전체 (S&P 500)",
-    "r5": -0.7,
-    "r20": -1.3,
-    "r60": -0.5,
-    "gap50": -0.0
+    "r5": -2.7,
+    "r20": -5.6,
+    "r60": -5.5,
+    "gap50": -4.0
   }
 }

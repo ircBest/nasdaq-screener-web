@@ -1,9 +1,29 @@
 {
   "ticker": "SSNC",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-05T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "LPs Expect Private Markets Managers to Level Up in 2027: SS&C Intralinks Survey"
+    },
+    {
+      "published_utc": "2026-11-05T11:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SS&C Announces Pricing of Upsized Offering of $1.05 Billion of 2.75% Convertible Senior Notes Due 2031"
+    },
+    {
+      "published_utc": "2026-11-05T07:42:36+00:00",
+      "publisher": "Benzinga",
+      "title": "SS&C Technologies Prices Upsized $1.05B Convertible Notes Offering Due 2031"
+    },
+    {
+      "published_utc": "2026-11-04T12:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SS&C Announces Proposed Private Placement of $1.0 Billion of Convertible Senior Notes Due 2031"
+    },
     {
       "published_utc": "2026-11-04T08:41:17+00:00",
       "publisher": "Benzinga",
@@ -33,36 +53,6 @@
       "published_utc": "2026-10-24T04:22:26+00:00",
       "publisher": "Yahoo",
       "title": "SS&C Stock Gets An Earnings Beat But Revenue Outlook Stays Cautious"
-    },
-    {
-      "published_utc": "2026-10-24T04:08:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Why SS&C (SSNC) shares are plunging today"
-    },
-    {
-      "published_utc": "2026-10-23T21:16:45+00:00",
-      "publisher": "Yahoo",
-      "title": "SS&C Technologies (SSNC) Stock Looks Reasonable After An 89% Run"
-    },
-    {
-      "published_utc": "2026-10-23T12:56:39+00:00",
-      "publisher": "Yahoo",
-      "title": "SSNC Q3 deep dive: AI, automation, and M&A in focus as growth moderates"
-    },
-    {
-      "published_utc": "2026-10-23T06:09:36+00:00",
-      "publisher": "Benzinga",
-      "title": "Needham Maintains Buy on SS&C Technologies Hldgs, Raises Price Target to $105"
-    },
-    {
-      "published_utc": "2026-10-23T00:04:16+00:00",
-      "publisher": "Yahoo",
-      "title": "SS&C Technologies Q3 Earnings Call Highlights"
-    },
-    {
-      "published_utc": "2026-10-22T21:09:23+00:00",
-      "publisher": "ChartMill",
-      "title": "SS&C Technologies (NASDAQ:SSNC) Falls After In-Line Q3 Results on Soft Revenue Guidance"
     }
   ]
 }
