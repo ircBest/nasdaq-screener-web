@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>종목 상세 · NASDAQ IT 스크리너</title>
 <link rel="icon" href="icon.svg">
-<link rel="stylesheet" href="css/style.css?v=20260903a">
+<link rel="stylesheet" href="css/style.css?v=20261107a">
 <style>
 /* 상세 페이지 전용 */
 .detail-head{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;margin-bottom:6px}
@@ -38,9 +38,9 @@
 .kv .n{font-size:11px;color:var(--text-dim);margin-top:2px}
 
 .tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;
-  font-weight:700;background:rgba(138,147,166,.14);color:var(--text-dim)}
-.tag.up{background:rgba(62,207,142,.16);color:var(--green)}
-.tag.down{background:rgba(255,92,92,.14);color:var(--red)}
+  font-weight:700;background:rgba(97,112,133,.14);color:var(--text-dim)}
+.tag.up{background:rgba(22,130,100,.16);color:var(--green)}
+.tag.down{background:rgba(201,83,89,.14);color:var(--red)}
 .state{padding:26px;text-align:center;color:var(--text-dim);
   background:var(--surface-2);border:1px dashed var(--border);border-radius:var(--radius)}
 
@@ -68,6 +68,7 @@
 </style>
 </head>
 <body>
+<script src="js/shell.js?v=20261107a"></script>
 
 <main>
 
@@ -79,7 +80,7 @@
 
 </main>
 
-<script src="js/utils.js?v=20260903a"></script>
+<script src="js/utils.js?v=20261107a"></script>
 <script>
 /* =========================================================
    종목 상세
@@ -102,6 +103,24 @@ async function getJSON(path){
     if(!r.ok) return null;
     return await r.json();
   }catch(e){ return null; }
+}
+
+/* 메뉴의 '종목 상세' 로 종목 없이 들어왔을 때 — 티커를 받아 그 종목으로 간다 */
+function pickTicker(){
+  $("content").innerHTML = `<form class="state" id="pick" style="display:flex;gap:8px;flex-wrap:wrap;
+      justify-content:center;align-items:center">
+    <label for="pickInput" style="width:100%;margin-bottom:4px">볼 종목의 티커를 넣으세요 (예: NVDA)</label>
+    <input id="pickInput" name="ticker" autocomplete="off" autocapitalize="characters" spellcheck="false"
+      style="font:inherit;font-size:15px;padding:10px 12px;min-height:44px;width:160px;border:1px solid var(--border);
+      border-radius:var(--radius);background:var(--bg);color:var(--text);text-transform:uppercase">
+    <button type="submit" style="font:inherit;font-size:14px;font-weight:600;min-height:44px;padding:0 18px;
+      border:0;border-radius:var(--radius);background:var(--brand);color:#fff;cursor:pointer">보기</button>
+  </form>`;
+  $("pick").addEventListener("submit", e=>{
+    e.preventDefault();
+    const t = ($("pickInput").value||"").toUpperCase().replace(/[^A-Z0-9.\-]/g,"").trim();
+    if(t) location.href = "stock.html?ticker=" + encodeURIComponent(t);
+  });
 }
 
 function fail(message){
@@ -137,8 +156,8 @@ function scales(points, w, h, lo, hi){
 }
 
 function axis(ctx, w, h, lo, hi, fmt){
-  ctx.strokeStyle = "rgba(138,147,166,.14)";
-  ctx.fillStyle = "#565E6E";
+  ctx.strokeStyle = "rgba(97,112,133,.14)";
+  ctx.fillStyle = "#7A8699";
   ctx.font = "10px -apple-system,sans-serif";
   ctx.textAlign = "right";
   ctx.textBaseline = "middle";
@@ -179,7 +198,7 @@ function drawPrice(series, marks){
 
   /* 목표가 / 손절가 */
   if(last){
-    [["target","#3ECF8E"],["stop","#FF5C5C"]].forEach(([key,color])=>{
+    [["target","#168264"],["stop","#C95359"]].forEach(([key,color])=>{
       if(last[key]==null) return;
       ctx.strokeStyle = color; ctx.globalAlpha=.55;
       ctx.setLineDash([4,4]); ctx.lineWidth=1;
@@ -190,7 +209,7 @@ function drawPrice(series, marks){
   }
 
   /* 종가 */
-  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.8;
+  ctx.strokeStyle = "#A96C15"; ctx.lineWidth = 1.8;
   ctx.beginPath();
   let started = false;
   points.forEach((p,i)=>{
@@ -227,8 +246,8 @@ function drawPrice(series, marks){
     drawn.add(i);
     ctx.beginPath();
     ctx.arc(s.x(i), s.y(points[i].c), 4, 0, Math.PI*2);
-    ctx.fillStyle = "#6EA8FE"; ctx.fill();
-    ctx.strokeStyle = "#0A0C10"; ctx.lineWidth=1.5; ctx.stroke();
+    ctx.fillStyle = "#305DDC"; ctx.fill();
+    ctx.strokeStyle = "#FFFFFF"; ctx.lineWidth=1.5; ctx.stroke();
   });
 }
 
@@ -288,19 +307,19 @@ function drawVolume(series, marks){
     const y = s.y(p.v);
     const avg = avgAt[i];
     ctx.fillStyle = (avg != null && p.v >= avg)
-      ? "rgba(110,168,254,.85)"
-      : "rgba(110,168,254,.28)";
+      ? "rgba(48,93,220,.85)"
+      : "rgba(48,93,220,.28)";
     ctx.fillRect(s.x(i)-bw/2, y, bw, s.y(0)-y);
   });
 
   /* 신호 발생일 표시 */
   signalBars.forEach(i=>{
-    ctx.fillStyle = "rgba(185,138,255,.85)";
+    ctx.fillStyle = "rgba(124,77,204,.85)";
     ctx.fillRect(s.x(i)-1.5, PAD.t, 3, h-PAD.t-PAD.b);
   });
 
   /* 20일 이동평균선 */
-  ctx.strokeStyle = "#FFB020"; ctx.lineWidth = 1.6;
+  ctx.strokeStyle = "#A96C15"; ctx.lineWidth = 1.6;
   ctx.beginPath();
   let started=false;
   for(let i=0;i<points.length;i++){
@@ -489,10 +508,10 @@ function render(info){
       <div class="chart-box">
         <canvas id="priceChart"></canvas>
         <div class="chart-legend">
-          <span><i class="swatch" style="background:#FFB020"></i> 종가</span>
-          <span><i class="swatch" style="background:#6EA8FE;height:9px;width:9px;border-radius:50%"></i> 신호 발생일</span>
-          <span><i class="swatch" style="background:#3ECF8E"></i> 목표가</span>
-          <span><i class="swatch" style="background:#FF5C5C"></i> 손절가</span>
+          <span><i class="swatch" style="background:#A96C15"></i> 종가</span>
+          <span><i class="swatch" style="background:#305DDC;height:9px;width:9px;border-radius:50%"></i> 신호 발생일</span>
+          <span><i class="swatch" style="background:#168264"></i> 목표가</span>
+          <span><i class="swatch" style="background:#C95359"></i> 손절가</span>
         </div>
       </div>
     </section>
@@ -504,10 +523,10 @@ function render(info){
         <div class="chart-box">
           <canvas id="volChart"></canvas>
           <div class="chart-legend">
-            <span><i class="swatch" style="background:#6EA8FE"></i> 평균 이상</span>
-            <span><i class="swatch" style="background:rgba(110,168,254,.28)"></i> 평균 미만</span>
-            <span><i class="swatch" style="background:#FFB020"></i> 20일 평균</span>
-            <span><i class="swatch" style="background:#B98AFF;height:9px;width:3px"></i> 신호 발생일</span>
+            <span><i class="swatch" style="background:#305DDC"></i> 평균 이상</span>
+            <span><i class="swatch" style="background:rgba(48,93,220,.28)"></i> 평균 미만</span>
+            <span><i class="swatch" style="background:#A96C15"></i> 20일 평균</span>
+            <span><i class="swatch" style="background:#7C4DCC;height:9px;width:3px"></i> 신호 발생일</span>
           </div>
         </div>
 
@@ -662,7 +681,7 @@ function fmtCompact(v){
 }
 
 (async function(){
-  if(!TICKER){ fail("종목이 지정되지 않았습니다."); return; }
+  if(!TICKER){ pickTicker(); return; }
   document.title = TICKER + " · NASDAQ IT 스크리너";
 
   /* performance.json 은 더 이상 받지 않는다.

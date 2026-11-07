@@ -15,7 +15,7 @@
 
   <meta
     name="apple-mobile-web-app-status-bar-style"
-    content="black-translucent"
+    content="default"
   >
 
   <meta
@@ -25,7 +25,7 @@
 
   <meta
     name="theme-color"
-    content="#0A0C10"
+    content="#FFFFFF"
   >
 
   <meta
@@ -86,7 +86,7 @@
 
   <link
     rel="stylesheet"
-    href="./css/style.css?v=20260903a"
+    href="./css/style.css?v=20261107a"
   >
   <style>
     /* VIX 카드 (vix.json) — 숫자와 흐름만 싣는다 */
@@ -110,7 +110,7 @@
     .vix-range { margin-top: 10px; }
     .vix-range-bar { position: relative; height: 6px; border-radius: 3px; background: var(--border); }
     .vix-range-dot { position: absolute; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px;
-      border-radius: 50%; background: #4F8FEF; box-shadow: 0 0 0 2px var(--surface); }
+      border-radius: 50%; background: #305DDC; box-shadow: 0 0 0 2px var(--surface); }
     .vix-range-lbl { display: flex; justify-content: space-between; margin-top: 5px;
       color: var(--text-faint); font-size: 10.5px; }
     .vix-range-lbl b { color: var(--text-dim); font-weight: 600; }
@@ -125,6 +125,7 @@
 </head>
 
 <body>
+<script src="./js/shell.js?v=20261107a"></script>
 
 <header>
 
@@ -143,25 +144,25 @@
 
   <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
     <a href="learning.html" style="display:inline-flex;align-items:center;
-       gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
+       gap:6px;font-size:13px;color:#305DDC;text-decoration:none;
        border:1px solid var(--border);border-radius:999px;
        padding:6px 14px">
       지금 무엇을 배우고 있는가 &rarr;
     </a>
     <a href="positions.html" style="display:inline-flex;align-items:center;
-       gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
+       gap:6px;font-size:13px;color:#305DDC;text-decoration:none;
        border:1px solid var(--border);border-radius:999px;
        padding:6px 14px">
       높게 본 것이 정말 올랐는가 &rarr;
     </a>
     <a href="rankings.html" style="display:inline-flex;align-items:center;
-       gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
+       gap:6px;font-size:13px;color:#305DDC;text-decoration:none;
        border:1px solid var(--border);border-radius:999px;
        padding:6px 14px">
       오늘의 순위 &rarr;
     </a>
     <a href="sectors.html" style="display:inline-flex;align-items:center;
-       gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
+       gap:6px;font-size:13px;color:#305DDC;text-decoration:none;
        border:1px solid var(--border);border-radius:999px;
        padding:6px 14px">
       업종 순위 &rarr;
@@ -349,7 +350,7 @@
     스스로 정하는 방식을 검증하는 중이며, 검증이 끝나기 전에는
     성과를 표시하지 않습니다.
     <div style="margin-top:10px">
-      <a href="learning.html" style="color:#6EA8FE;
+      <a href="learning.html" style="color:#305DDC;
          text-decoration:none;font-size:13px">
         지금 무엇을 배우고 있는가 &rarr;
       </a>
@@ -451,7 +452,7 @@
        SIGNAL RESULTS
        ===================================================== -->
 
-  <div class="section-title">
+  <div class="section-title" id="screener">
 
     <div class="title">
       Signal Results
@@ -664,16 +665,16 @@
      ========================================================= -->
 
 <!-- v 값은 위 스타일시트와 항상 함께 올린다 -->
-<script src="./js/utils.js?v=20260903a"></script>
-<script src="./js/data.js?v=20260903a"></script>
-<script src="./js/ui.js?v=20260903a"></script>
-<script src="./js/main.js?v=20260903a"></script>
+<script src="./js/utils.js?v=20261107a"></script>
+<script src="./js/data.js?v=20261107a"></script>
+<script src="./js/ui.js?v=20261107a"></script>
+<script src="./js/main.js?v=20261107a"></script>
 
 <script>
 // VIX 카드 — vix.json 을 읽어 숫자 · 1년 흐름 · 최근 20일 표를 그린다.
 (function () {
   const $ = (id) => document.getElementById(id);
-  const LINE = "#4F8FEF";
+  const LINE = "#305DDC";
   const NS = "http://www.w3.org/2000/svg";
   const fmt = (v) => (v == null ? "-" : v.toFixed(2));
   const sign = (v) => (v > 0 ? "+" : v < 0 ? "−" : "");

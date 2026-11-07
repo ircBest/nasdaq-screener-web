@@ -6,7 +6,7 @@
 <title>판단 장부 · NASDAQ IT 스크리너</title>
 <meta name="description" content="어느 날 무엇을 높게 봤고, 그 뒤 얼마가 됐는지. 맞은 날과 틀린 날을 같이 적습니다.">
 <link rel="icon" href="icon.svg">
-<link rel="stylesheet" href="css/style.css?v=20260903a">
+<link rel="stylesheet" href="css/style.css?v=20261107a">
 <style>
 /* 판단 장부 전용 */
 .note{background:var(--surface-2);border:1px solid var(--border);
@@ -57,8 +57,8 @@ table.led td.dim{color:var(--text-faint)}
 
 .band{display:inline-block;padding:2px 8px;border-radius:999px;
   font-size:10px;font-weight:700;white-space:nowrap}
-.band.up{background:rgba(110,168,254,.15);color:var(--blue)}
-.band.down{background:rgba(138,147,166,.15);color:var(--text-dim)}
+.band.up{background:rgba(48,93,220,.15);color:var(--blue)}
+.band.down{background:rgba(97,112,133,.15);color:var(--text-dim)}
 
 .ret{font-weight:700}
 .ret.plus{color:var(--green)}
@@ -71,11 +71,11 @@ small.tag{font-size:10px;color:var(--text-faint);margin-left:5px;
 .state{display:inline-block;padding:2px 8px;border-radius:999px;
   font-size:10px;font-weight:700;white-space:nowrap;
   background:var(--surface-3);color:var(--text-dim)}
-.state.out{background:rgba(62,207,142,.14);color:var(--green)}
-.state.wait{background:rgba(255,176,32,.14);color:var(--amber)}
-.state.blind{background:rgba(255,92,92,.14);color:var(--red)}
+.state.out{background:rgba(22,130,100,.14);color:var(--green)}
+.state.wait{background:rgba(169,108,21,.14);color:var(--amber)}
+.state.blind{background:rgba(201,83,89,.14);color:var(--red)}
 
-.alarm{background:rgba(255,92,92,.08);border:1px solid rgba(255,92,92,.3);
+.alarm{background:rgba(201,83,89,.08);border:1px solid rgba(201,83,89,.3);
   border-left:3px solid var(--red);border-radius:var(--radius);
   padding:14px 16px;margin-bottom:22px;font-size:13px;
   color:var(--text-dim);line-height:1.7}
@@ -94,6 +94,7 @@ small.tag{font-size:10px;color:var(--text-faint);margin-left:5px;
 </style>
 </head>
 <body>
+<script src="js/shell.js?v=20261107a"></script>
 
 <main>
 
@@ -110,7 +111,7 @@ small.tag{font-size:10px;color:var(--text-faint);margin-left:5px;
     </div>
     <div style="margin-top:12px">
       <a href="rankings.html" style="display:inline-flex;align-items:center;
-         gap:6px;font-size:13px;color:#6EA8FE;text-decoration:none;
+         gap:6px;font-size:13px;color:#305DDC;text-decoration:none;
          border:1px solid var(--border);border-radius:999px;
          padding:6px 14px">
         오늘의 순위 &rarr;
