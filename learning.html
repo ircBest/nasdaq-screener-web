@@ -54,11 +54,21 @@
 .collect { padding: 0 16px 12px; }
 .collect .kpis { margin: 0; }
 .lr-note { padding: 10px 16px 14px; font-size: 11.5px; line-height: 1.6; color: var(--text-faint); }
+/* 함께 진행 중인 연구 (2026-11-07) */
+.others { list-style: none; margin: 0; padding: 0 16px 8px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; }
+.others li { padding: 12px 0; border-top: 1px solid var(--border); min-width: 0; }
+.others .h { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.others .nm { font-size: 13.5px; font-weight: 700; line-height: 1.45; }
+.others .ds { margin-top: 5px; font-size: 12.5px; line-height: 1.7; color: var(--text-dim); }
+.others .nx { margin-top: 6px; font-size: 11px; color: var(--text-faint); }
+.others .bar-row { margin-top: 10px; }
+.facts .when { display: inline-block; margin-bottom: 2px; font-size: 11px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+@media (max-width: 1023px) { .others { grid-template-columns: 1fr; } }
 @media (max-width: 1023px) { .lr-top, .lr-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body class="wide">
-<script src="js/shell.js?v=20261107c"></script>
+<script src="js/shell.js?v=20261107d"></script>
 
 <main>
 
@@ -118,6 +128,9 @@ function render(d){
   const learned = d["지금까지 배운 것"] || [];
   const gaps = d["아직 안 되는 것"] || [];
   const asking = d["지금 연구 중인 질문"] || [];
+  const others = d["함께 진행 중인 연구"] || [];
+  /* 날짜가 있는 사실 (새로 확인한 것) 을 먼저, 그다음 예전 것 — 둘 다 최근 것부터 */
+  const facts = learned.filter(x => x["언제"]).reverse().concat(learned.filter(x => !x["언제"]).reverse());
 
   /* 진행률은 '채점까지 끝난' 판단 수로 낸다. 봉인 수로 내면 채점 0건인데도 가득 찬 것처럼 보였다 (2026-10-03). */
   const scored = "채점까지 끝난 판단" in gate;
@@ -127,6 +140,7 @@ function render(d){
 
   $("content").innerHTML = `
     <nav class="jump" aria-label="이 페이지 안에서 이동">
+      ${others.length ? `<a href="#others">함께 진행 중인 연구 <b>${others.length}</b></a>` : ""}
       <a href="#ask">연구 질문 <b>${asking.length}</b></a>
       <a href="#collect">수집 중인 정보</a>
       <a href="#gate">검증 진행</a>
@@ -155,6 +169,23 @@ function render(d){
       </section>
     </div>
 
+    ${others.length ? `<section class="card lr-sec" id="others">
+      <div class="card-head"><h2>함께 진행 중인 연구 <b>${others.length}</b></h2></div>
+      <div class="card-sub">매매 판단 말고 같이 돌고 있는 연구입니다. 개수와 날짜만 싣고, 판정 전 성적은 싣지 않습니다 — 중간에 보고 멈추면 우연이 합격으로 보이기 쉽습니다.</div>
+      <ul class="others">
+        ${others.map(o => {
+          const prog = o["진행"];
+          const rows = Array.isArray(prog) ? prog : (prog ? [prog] : []);
+          return `<li>
+            <div class="h"><div class="nm">${escapeHTML(o["이름"] || "")}</div>${stateChip(o["상태"])}</div>
+            <div class="ds">${escapeHTML(o["설명"] || "")}</div>
+            ${rows.map(r => bar(r["이름"] || "", r["지금"] ?? 0, r["필요"] ?? 0)).join("")}
+            ${o["다음"] ? `<div class="nx">다음 · ${escapeHTML(o["다음"])}</div>` : ""}
+          </li>`;
+        }).join("")}
+      </ul>
+    </section>` : ""}
+
     <div class="lr-grid">
       <div>
         <section class="card lr-sec" id="ask">
@@ -173,7 +204,8 @@ function render(d){
         <section class="card lr-sec" id="learned">
           <div class="card-head"><h2>지금까지 확인된 사실 <b>${learned.length}</b></h2></div>
           <ul class="facts">
-            ${learned.map(x => `<li>
+            ${facts.map(x => `<li>
+              ${x["언제"] ? `<span class="when">${escapeHTML(x["언제"])}</span>` : ""}
               <div class="w">${escapeHTML(x["무엇"] || "")}</div>
               <div class="why">${escapeHTML(x["왜"] || "")}</div>
               <div class="res">${escapeHTML(x["결과"] || "")}</div>
