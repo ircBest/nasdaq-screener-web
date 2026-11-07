@@ -1,9 +1,39 @@
 {
   "ticker": "KLAC",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T20:15:52+00:00",
+      "publisher": "Yahoo",
+      "title": "Earnings Beat Tests The Case For KLA Stock"
+    },
+    {
+      "published_utc": "2026-11-05T21:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "KLA Declares Regular Cash Dividend"
+    },
+    {
+      "published_utc": "2026-11-05T19:31:33+00:00",
+      "publisher": "Yahoo",
+      "title": "KLA Stocks Drop 12.18% as Investors Reprice Semiconductor Equipment Growth"
+    },
+    {
+      "published_utc": "2026-11-05T11:01:51+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Bought $52.3 Million of Kla-Tencor (KLAC) on Nov. 3"
+    },
+    {
+      "published_utc": "2026-11-05T09:53:49+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "KLA: Unfairly Caught Up In The Tech Carnage"
+    },
+    {
+      "published_utc": "2026-11-05T08:53:07+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "KLA: Down By 49.3%, But Earnings Are Rising"
+    },
     {
       "published_utc": "2026-11-04T20:50:05+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-11-03T12:01:14+00:00",
       "publisher": "Benzinga",
       "title": "What Is Going On With KLA Stock on Tuesday?"
-    },
-    {
-      "published_utc": "2026-11-03T07:17:36+00:00",
-      "publisher": "Yahoo",
-      "title": "KLAC Q3 deep dive: AI and advanced packaging drive growth, supply chain remains in focus"
-    },
-    {
-      "published_utc": "2026-11-02T18:44:04+00:00",
-      "publisher": "Yahoo",
-      "title": "KLA Stocks Rise 1.42% With Target Cut Contrasting Its December Growth Plan"
-    },
-    {
-      "published_utc": "2026-11-02T14:39:32+00:00",
-      "publisher": "Yahoo",
-      "title": "Valuation Compression Pulls Down KLA (KLAC) Despite Raised Outlook"
-    },
-    {
-      "published_utc": "2026-11-02T13:15:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Deciphering KLA (KLAC) International Revenue Trends"
-    },
-    {
-      "published_utc": "2026-11-02T12:13:12+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "KLA Q1: The More Complex Chips Become, The More Valuable KLA Gets (Upgrade)"
-    },
-    {
-      "published_utc": "2026-11-02T08:35:13+00:00",
-      "publisher": "Yahoo",
-      "title": "Can KLA Stock Jump 40%?"
     }
   ]
 }

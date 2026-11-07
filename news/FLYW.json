@@ -1,13 +1,48 @@
 {
   "ticker": "FLYW",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-05T18:04:08+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Neutral on Flywire, Raises Price Target to $23"
+    },
+    {
+      "published_utc": "2026-11-04T18:49:34+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Neutral on Flywire, Raises Price Target to $21.5"
+    },
+    {
+      "published_utc": "2026-11-04T16:37:22+00:00",
+      "publisher": "Yahoo",
+      "title": "Flywire Expected to Deliver High-Teens RLAS Growth in 2027, Morgan Stanley Says"
+    },
+    {
+      "published_utc": "2026-11-04T15:48:32+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Maintains Neutral on Flywire, Raises Price Target to $23"
+    },
+    {
+      "published_utc": "2026-11-04T15:29:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Flywire (FLYW) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-04T14:10:20+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Overweight on Flywire, Raises Price Target to $26"
+    },
+    {
       "published_utc": "2026-11-04T13:01:45+00:00",
       "publisher": "SeekingAlpha",
       "title": "Flywire: Q3 Settled The Margin Debate, And 2027 Looks Reachable"
+    },
+    {
+      "published_utc": "2026-11-04T10:48:03+00:00",
+      "publisher": "Benzinga",
+      "title": "B. Riley Securities Reiterates Buy on Flywire, Raises Price Target to $25"
     },
     {
       "published_utc": "2026-11-04T07:08:59+00:00",
@@ -28,41 +63,6 @@
       "published_utc": "2026-11-03T23:55:04+00:00",
       "publisher": "Yahoo",
       "title": "Flywire (FLYW) Q3 Earnings and Revenues Surpass Estimates"
-    },
-    {
-      "published_utc": "2026-11-03T23:30:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Compared to Estimates, Flywire (FLYW) Q3 Earnings: A Look at Key Metrics"
-    },
-    {
-      "published_utc": "2026-11-03T23:16:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Flywire: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-11-03T22:55:53+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Flywire Corporation (FLYW) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-03T22:08:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Flywire soars 11% on earnings beat and raised guidance"
-    },
-    {
-      "published_utc": "2026-11-03T21:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Flywire Reports Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-11-03T19:18:27+00:00",
-      "publisher": "Benzinga",
-      "title": "Flywire Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-03T17:28:23+00:00",
-      "publisher": "Benzinga",
-      "title": "Flywire Sees Q4 Sales $179.600M-$189.053M vs $179.828M Est"
     }
   ]
 }

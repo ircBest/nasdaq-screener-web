@@ -1,13 +1,38 @@
 {
   "ticker": "SPT",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-06T18:08:53+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Sprout Social, Inc. 2026 Q3 - Results - Earnings Call Presentation"
+    },
+    {
+      "published_utc": "2026-11-05T15:09:28+00:00",
+      "publisher": "Benzinga",
+      "title": "Barclays Maintains Overweight on Sprout Social, Raises Price Target to $14"
+    },
+    {
+      "published_utc": "2026-11-05T09:04:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Sprout Social Inc (SPT) (Q3 2026) Earnings Call Highlights: Record Margins, First GAAP Profit ..."
+    },
+    {
+      "published_utc": "2026-11-04T19:46:51+00:00",
+      "publisher": "Benzinga",
+      "title": "Canaccord Genuity Maintains Hold on Sprout Social, Raises Price Target to $13.5"
+    },
+    {
       "published_utc": "2026-11-04T16:16:53+00:00",
       "publisher": "Yahoo",
       "title": "Sprout Social (SPT) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-04T13:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Sprout Social, Inc. Q3 2026 Earnings Call Summary"
     },
     {
       "published_utc": "2026-11-04T09:35:22+00:00",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-03T22:08:23+00:00",
       "publisher": "Yahoo",
       "title": "Sprout Social’s (NASDAQ:SPT) Q3 2026: beats on revenue but quarterly revenue guidance slightly misses expectations"
-    },
-    {
-      "published_utc": "2026-11-03T22:00:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Sprout Social: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-11-03T21:25:53+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Sprout Social, Inc. (SPT) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-03T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Sprout Social Announces Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-11-03T18:30:13+00:00",
-      "publisher": "Benzinga",
-      "title": "Sprout Social Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-03T17:07:03+00:00",
-      "publisher": "Benzinga",
-      "title": "Sprout Social Raises FY2026 Adj EPS Guidance from $1.11-$1.15 to $1.29-$1.31 vs $1.13 Est; Raises FY2026 Sales Guidance from $493.000M-$495.600M to $494.700M-$495.700M vs $494.451M Est"
     }
   ]
 }

@@ -1,9 +1,39 @@
 {
   "ticker": "VECO",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-05T17:13:45+00:00",
+      "publisher": "Yahoo",
+      "title": "Veeco (VECO) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-05T09:14:27+00:00",
+      "publisher": "Yahoo",
+      "title": "What Veeco Instruments (VECO) Said on Its Q3 Earnings Call"
+    },
+    {
+      "published_utc": "2026-11-05T07:13:28+00:00",
+      "publisher": "Yahoo",
+      "title": "Veeco Instruments Inc (VECO) (Q3 2026) Earnings Call Highlights: AI-Driven Growth, $1 Billion ..."
+    },
+    {
+      "published_utc": "2026-11-05T06:34:35+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Veeco Instruments Inc. (VECO) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-05T00:05:01+00:00",
+      "publisher": "ChartMill",
+      "title": "Veeco Instruments (NASDAQ:VECO) Q3 Earnings Miss and Mixed Guidance Keep $1B 2027 Target in Focus"
+    },
+    {
+      "published_utc": "2026-11-04T23:45:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Veeco Instruments (VECO) Q3 Earnings and Revenues Miss Estimates"
+    },
     {
       "published_utc": "2026-11-04T22:07:23+00:00",
       "publisher": "Yahoo",
@@ -15,19 +45,24 @@
       "title": "Veeco Reports Third Quarter 2026 Financial Results"
     },
     {
-      "published_utc": "2026-11-03T16:11:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Veeco Instruments’ (VECO) Business Outlook Strengthens Despite a Sharp Share-Price Reversal"
+      "published_utc": "2026-11-04T18:48:10+00:00",
+      "publisher": "Benzinga",
+      "title": "Veeco Instruments Q3 2026 Earnings Call Transcript"
     },
     {
-      "published_utc": "2026-11-02T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Axcelis Technologies and Veeco Instruments Provide Update on Expected Timing of Merger Closing"
+      "published_utc": "2026-11-04T17:24:04+00:00",
+      "publisher": "Benzinga",
+      "title": "Veeco Instruments Lowers FY2026 GAAP EPS Guidance from $0.78-$1.02 to $0.72-$0.92 vs $0.90 Est"
     },
     {
-      "published_utc": "2026-10-31T17:13:11+00:00",
-      "publisher": "Yahoo",
-      "title": "What Veeco Instruments Buyers Were Betting On"
+      "published_utc": "2026-11-04T17:23:44+00:00",
+      "publisher": "Benzinga",
+      "title": "Veeco Instruments Lowers FY2026 Adj EPS Guidance from $1.36-$1.61 to $1.32-$1.52 vs $1.51 Est; Raises FY2026 Sales Guidance from $780.000M-$810.000M to $790.000M-$820.000M vs $777.047M Est"
+    },
+    {
+      "published_utc": "2026-11-04T17:23:13+00:00",
+      "publisher": "Benzinga",
+      "title": "Veeco Instruments Sees Q4 GAAP EPS $0.34-$0.53 vs $0.43 Est"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-05T20:14:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Fortinet (FTNT) Unveiled Two New Security Services"
+    },
+    {
+      "published_utc": "2026-11-05T14:12:33+00:00",
+      "publisher": "Yahoo",
+      "title": "Fortinet (FTNT) Stock May Be 11% Undervalued Following Service Outlook Cut"
+    },
+    {
+      "published_utc": "2026-11-05T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Fortinet and Equinix Secure Distributed AI at Scale"
+    },
+    {
+      "published_utc": "2026-11-05T11:02:58+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Are Net Sellers of Fortinet (FTNT) on Nov. 3"
+    },
     {
       "published_utc": "2026-11-04T20:00:18+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-02T14:40:29+00:00",
       "publisher": "Yahoo",
       "title": "Is Wall Street Bullish or Bearish on Fortinet Stock?"
-    },
-    {
-      "published_utc": "2026-11-02T14:00:36+00:00",
-      "publisher": "Benzinga",
-      "title": "Amerx Maintains Overweight on Fortinet, Lowers Price Target to $173"
-    },
-    {
-      "published_utc": "2026-11-02T13:15:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Don't Overlook Fortinet (FTNT) International Revenue Trends While Assessing the Stock"
-    },
-    {
-      "published_utc": "2026-11-01T01:46:27+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet: 3 Key Takeaways for Long-Term Investors"
-    },
-    {
-      "published_utc": "2026-10-31T19:07:24+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Fortinet, Inc. 2026 Q3 - Results - Earnings Call Presentation"
     }
   ]
 }

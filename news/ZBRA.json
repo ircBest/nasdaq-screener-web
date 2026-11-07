@@ -1,13 +1,33 @@
 {
   "ticker": "ZBRA",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-05T13:35:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Down 13.9% in 4 Weeks, Here's Why Zebra (ZBRA) Looks Ripe for a Turnaround"
+    },
+    {
+      "published_utc": "2026-11-04T17:05:04+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Neutral on Zebra Technologies, Lowers Price Target to $398"
+    },
+    {
+      "published_utc": "2026-11-04T15:06:06+00:00",
+      "publisher": "Benzinga",
+      "title": "Barclays Maintains Overweight on Zebra Technologies, Raises Price Target to $432"
+    },
+    {
       "published_utc": "2026-11-04T14:00:00+00:00",
       "publisher": "Yahoo",
       "title": "ZBRA Q3 Earnings Call Highlights Strong Demand and Raised Outlook"
+    },
+    {
+      "published_utc": "2026-11-04T13:50:49+00:00",
+      "publisher": "Benzinga",
+      "title": "BNP Paribas Maintains Outperform on Zebra Technologies, Lowers Price Target to $455"
     },
     {
       "published_utc": "2026-11-04T09:16:40+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-03T20:14:26+00:00",
       "publisher": "Yahoo",
       "title": "Zebra Technologies Q3 Earnings Call Highlights"
-    },
-    {
-      "published_utc": "2026-11-03T19:01:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Zebra Technologies’ Record Quarter Came With a 2027 Margin Warning"
-    },
-    {
-      "published_utc": "2026-11-03T15:45:58+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Zebra Technologies Corporation (ZBRA) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-03T15:45:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Zebra Technologies Stock Tanks. It’s Memory Chips."
-    },
-    {
-      "published_utc": "2026-11-03T14:49:19+00:00",
-      "publisher": "Benzinga",
-      "title": "Zebra Technologies Warns Memory Prices Will Keep Rising Into 2027"
     }
   ]
 }

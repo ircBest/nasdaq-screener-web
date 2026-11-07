@@ -1,9 +1,39 @@
 {
   "ticker": "QBTS",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T12:50:09+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "D-Wave Quantum Earnings Preview: Real Customers, But Bull Case Still Priced In"
+    },
+    {
+      "published_utc": "2026-11-05T20:18:13+00:00",
+      "publisher": "Yahoo",
+      "title": "D Wave Quantum (QBTS) Upgraded Its Stride Hybrid Solver"
+    },
+    {
+      "published_utc": "2026-11-05T15:54:29+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave Sinks 8%, Rigetti Down 8%, IonQ Down 8% as Quantum Stocks Slide Again"
+    },
+    {
+      "published_utc": "2026-11-05T13:12:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Can D-Wave Quantum Stock Fall 50%?"
+    },
+    {
+      "published_utc": "2026-11-04T21:07:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Why D-Wave Quantum Stock Led a Quantum Computing Crash in October"
+    },
+    {
+      "published_utc": "2026-11-04T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave Boosts Stride Hybrid Solver Performance, Launches Developer Training to Accelerate Quantum Optimization Adoption"
+    },
     {
       "published_utc": "2026-11-04T02:23:28+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-11-02T06:37:20+00:00",
       "publisher": "Yahoo",
       "title": "D-Wave Quantum vs. Rigetti Computing: Which Quantum Computing Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-10-30T20:15:36+00:00",
-      "publisher": "Yahoo",
-      "title": "IonQ Sinks 8%, D-Wave Down 7%, Rigetti Down 7% as Intel and Amazon Earnings Extend Tech Selloff"
-    },
-    {
-      "published_utc": "2026-10-30T18:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "IonQ vs. D-Wave: Which Quantum Stock to Buy Ahead of Q3 Earnings?"
-    },
-    {
-      "published_utc": "2026-10-30T12:59:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Should You Pay Attention To QBTS Stock?"
-    },
-    {
-      "published_utc": "2026-10-28T20:41:00+00:00",
-      "publisher": "Yahoo",
-      "title": "$1,000 Split Between IonQ and D-Wave Today Could Be Worth This Much by 2029."
-    },
-    {
-      "published_utc": "2026-10-28T18:11:26+00:00",
-      "publisher": "Yahoo",
-      "title": "D-Wave Quantum (QBTS) Stock Looks Fully Priced After Its Huge Run"
-    },
-    {
-      "published_utc": "2026-10-28T13:33:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Did D-Wave Quantum Stock Fall?"
     }
   ]
 }

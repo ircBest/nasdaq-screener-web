@@ -1,9 +1,24 @@
 {
   "ticker": "VRNS",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-05T10:01:17+00:00",
+      "publisher": "Benzinga",
+      "title": "Susquehanna Downgrades Varonis Systems to Neutral, Lowers Price Target to $49.75"
+    },
+    {
+      "published_utc": "2026-11-04T20:12:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Varonis Systems (VRNS) Posts Mixed Q3 Results, Is The Stock Fully Valued?"
+    },
+    {
+      "published_utc": "2026-11-04T18:15:28+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Varonis Systems (VRNS) Still Cheap After Its $6.3b Deal?"
+    },
     {
       "published_utc": "2026-11-04T07:56:32+00:00",
       "publisher": "Benzinga",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-28T23:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Varonis Systems jumps 52 places on the Roundtable 100"
-    },
-    {
-      "published_utc": "2026-10-28T12:10:36+00:00",
-      "publisher": "ChartMill",
-      "title": "Varonis Systems (NASDAQ:VRNS) Forms Breakout Setup With Strong Technical Strength"
-    },
-    {
-      "published_utc": "2026-10-27T13:22:41+00:00",
-      "publisher": "Benzinga",
-      "title": "Stephens & Co. Downgrades Varonis Systems to Equal-Weight"
-    },
-    {
-      "published_utc": "2026-10-27T13:00:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Varonis Systems (VRNS) Expected to Beat Earnings Estimates: Should You Buy?"
     }
   ]
 }

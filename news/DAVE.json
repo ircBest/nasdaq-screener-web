@@ -1,9 +1,19 @@
 {
   "ticker": "DAVE",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-05T05:17:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Dave Inc (DAVE) (Q3 2026) Earnings Call Highlights: Record Member Growth and Accelerating ..."
+    },
+    {
+      "published_utc": "2026-11-05T02:14:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Dave Q3 Earnings Call Highlights"
+    },
     {
       "published_utc": "2026-11-04T21:50:04+00:00",
       "publisher": "Yahoo",
@@ -13,6 +23,21 @@
       "published_utc": "2026-11-04T21:15:00+00:00",
       "publisher": "Yahoo",
       "title": "Dave Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "published_utc": "2026-11-04T20:44:38+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Dave Inc. (DAVE) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-04T18:40:53+00:00",
+      "publisher": "Benzinga",
+      "title": "Dave Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-04T17:56:46+00:00",
+      "publisher": "Benzinga",
+      "title": "Dave Raises FY2026 Adj EPS Guidance from $17.00-$17.50 to $17.45-$17.65 vs $14.54 Est; Raises FY2026 Sales Guidance from $725.000M-$735.000M to $746.000M-$750.000M vs $730.508M Est"
     },
     {
       "published_utc": "2026-11-03T15:24:00+00:00",

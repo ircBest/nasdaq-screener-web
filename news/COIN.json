@@ -1,9 +1,54 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-05T11:08:44+00:00",
+  "generated_at": "2026-11-07T04:15:59+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T16:34:43+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Enables Borrowing Against Gold via Morpho"
+    },
+    {
+      "published_utc": "2026-11-06T16:21:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Coinbase Building a More Resilient and Profitable Business?"
+    },
+    {
+      "published_utc": "2026-11-05T20:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Hackers beware: Coinbase says 99% of customer crypto is kept offline"
+    },
+    {
+      "published_utc": "2026-11-05T20:14:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Sinks 9% as Bitcoin Falls Below $76,000"
+    },
+    {
+      "published_utc": "2026-11-05T19:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase makes a bigger push into crypto derivatives"
+    },
+    {
+      "published_utc": "2026-11-05T17:31:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase vs. Cboe Global: Which Exchange Stock Offers More Upside?"
+    },
+    {
+      "published_utc": "2026-11-05T14:28:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Seeks To Reassure Investors After Binance Hack"
+    },
+    {
+      "published_utc": "2026-11-05T10:45:28+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Lays Out Hot Wallet Controls as Customers Ask if a Binance-Style Hack Could Hit It"
+    },
+    {
+      "published_utc": "2026-11-05T06:03:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Wall Street Bullish or Bearish on Coinbase Stock?"
+    },
     {
       "published_utc": "2026-11-04T22:47:00+00:00",
       "publisher": "Yahoo",
@@ -15,54 +60,9 @@
       "title": "Coinbase Says 99% of Customer Crypto Is Offline and Out of Hackers’ Reach"
     },
     {
-      "published_utc": "2026-11-04T14:32:23+00:00",
+      "published_utc": "2026-11-04T15:15:42+00:00",
       "publisher": "Yahoo",
-      "title": "Second Circuit Won’t Pause New York, Connecticut Actions Against Kalshi and Coinbase"
-    },
-    {
-      "published_utc": "2026-11-04T13:03:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Stock Could Be Getting Ready for Its Next Big Move"
-    },
-    {
-      "published_utc": "2026-11-04T10:12:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Coinbase Stock Fall Another 40%?"
-    },
-    {
-      "published_utc": "2026-11-03T17:40:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase gets New Jersey's staking brakes lifted: What it means for investors"
-    },
-    {
-      "published_utc": "2026-11-03T17:30:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Falls 4% as Morgan Stanley Downgrades, Says “Confidence in the Earnings Recovery Has Deteriorated”"
-    },
-    {
-      "published_utc": "2026-11-03T16:43:45+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Stock Rallies Again. Here’s How Much Crypto Risk Is Hiding in Your ETFs"
-    },
-    {
-      "published_utc": "2026-11-03T16:17:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Coinbase Successfully Reducing Its Dependence on Bitcoin Trading?"
-    },
-    {
-      "published_utc": "2026-11-03T16:14:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Rebounds 9% as Goldman Calls It “Best-Positioned” for the Binance Exodus"
-    },
-    {
-      "published_utc": "2026-11-03T15:14:29+00:00",
-      "publisher": "Yahoo",
-      "title": "What Mattered Most In Coinbase's Latest Quarter?"
-    },
-    {
-      "published_utc": "2026-11-03T14:37:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Has Lost 57% in a Year. Keefe, Bruyette & Woods Still Sees $221"
+      "title": "After the Binance Hack, Coinbase Reveals How It Protects $377 Billion in Crypto"
     }
   ]
 }
