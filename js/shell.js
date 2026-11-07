@@ -34,6 +34,9 @@
 
   var page = (location.pathname.split("/").pop() || "index.html").toLowerCase();
   if (page === "") page = "index.html";
+  /* 메뉴에 없는 하위 페이지는 부모 메뉴를 켠다 */
+  var PARENT = { "industry.html": "sectors.html" };
+  if (PARENT[page]) page = PARENT[page];
 
   function current(item) {
     var file = item.href.split("#")[0];

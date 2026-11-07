@@ -15,13 +15,15 @@ table.sx { min-width: 860px; }
 table.sx .leaders a { margin-right: 8px; color: var(--brand); text-decoration: none; font-size: 12px; }
 table.sx .leaders a:hover { text-decoration: underline; }
 table.sx td.nm { max-width: 230px; overflow: hidden; text-overflow: ellipsis; }
+table.sx a.ind-link { color: var(--brand); font-weight: 700; text-decoration: none; }
+table.sx a.ind-link:hover { text-decoration: underline; }
 .ref-line { padding: 0 16px 10px; font-size: 12.5px; color: var(--text-dim); }
 .sx-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
 @media (max-width: 767px) { table.sx { min-width: 0; } }
 </style>
 </head>
 <body class="wide">
-<script src="js/shell.js?v=20261107b"></script>
+<script src="js/shell.js?v=20261107c"></script>
 
 <main>
 
@@ -112,9 +114,9 @@ function industryTable(list) {
       <th class="num" scope="col">5일</th><th class="num" scope="col">20일</th><th class="num" scope="col">60일</th>
       <th class="num m-hide" scope="col">50일선 위</th><th scope="col">추세</th><th class="m-hide" scope="col">20일 상위 종목</th>
     </tr></thead>
-    <tbody>${sorted(list).map(r => `<tr>
+    <tbody>${sorted(list).map(r => { const href = "industry.html?industry=" + encodeURIComponent(r.industry); return `<tr data-href="${href}">
       <td class="num rk-cell">${r.rank}</td>
-      <td class="nm" title="${esc(r.industry)}">${esc(r.name)}<small class="sub">${r.count}종목 · ${esc(r.industry)}</small></td>
+      <td class="nm" title="${esc(r.industry)}"><a class="ind-link" href="${href}">${esc(r.name)}</a><small class="sub">${r.count}종목 · ${esc(r.industry)}</small></td>
       <td class="num">${vbar(r.r5, sp.r5)}</td>
       <td class="num">${vbar(r.r20, sp.r20)}</td>
       <td class="num">${vbar(r.r60, sp.r60)}</td>
@@ -122,7 +124,7 @@ function industryTable(list) {
       <td>${chip(r.trend)}</td>
       <td class="m-hide leaders">${(r.leaders || []).map(x =>
         `<a href="stock.html?ticker=${encodeURIComponent(x.ticker)}">${esc(x.ticker)} ${pct(x.r20)}</a>`).join("")}</td>
-    </tr>`).join("")}</tbody></table></div>`;
+    </tr>`; }).join("")}</tbody></table></div>`;
 }
 
 function marketTable(list) {
@@ -187,7 +189,7 @@ function render(d) {
           ).join("")}
         </div>
       </div>
-      <div class="card-sub">업종 숫자는 그 업종 종목들의 중간값입니다. 막대는 가운데가 0 입니다.</div>
+      <div class="card-sub">업종 숫자는 그 업종 종목들의 중간값입니다. 막대는 가운데가 0 입니다. 업종을 누르면 그 업종 종목의 순위가 나옵니다.</div>
       <div id="industries"></div>
     </section>
     <section class="card tbl-card">
@@ -200,6 +202,12 @@ function render(d) {
       지나온 흐름을 모은 순서이며, 앞으로 오를 업종을 맞힌다는 뜻이 아닙니다. 투자 권유가 아닙니다.<br>
       갱신 ${esc((d.generated_at || "").slice(0, 16).replace("T", " "))} UTC
     </div>`;
+  $("#industries").addEventListener("click", e => {
+    if (e.target.closest("a")) return;
+    const tr = e.target.closest("tr[data-href]");
+    if (tr && !window.getSelection().toString()) location.href = tr.dataset.href;
+  });
+
   document.querySelectorAll(".seg button").forEach(b =>
     b.addEventListener("click", () => {
       sort = b.dataset.sort;

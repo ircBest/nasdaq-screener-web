@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>업종 상세 · NASDAQ Research</title>
+<meta name="description" content="업종 하나에 속한 종목들을 같은 방식으로 줄 세웁니다. 지나온 흐름의 순서이지 앞으로 오를 순서가 아닙니다.">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="css/style.css?v=20261107b">
+<link rel="stylesheet" href="css/terminal.css?v=20261107f">
+<style>
+/* 업종 상세 전용 — 공통 표 모양은 css/terminal.css (table.scr) */
+table.ix { min-width: 960px; }
+table.ix .vbar .track { width: 40px; }
+table.ix .vbar .n { min-width: 50px; }
+table.ix td, table.ix th { padding: 0 8px; }
+table.ix .c-name { max-width: 240px; }
+.ind-switch { display: flex; flex-wrap: wrap; gap: 6px; padding: 12px 16px 14px; }
+.ind-switch a {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 12px;
+  border: 1px solid var(--border); border-radius: 17px; background: var(--bg);
+  color: var(--text-dim); text-decoration: none; font-size: 12.5px; font-weight: 600;
+}
+.ind-switch a:hover { border-color: var(--brand); color: var(--brand); }
+.ind-switch a[aria-current=page] { background: #E8EEFC; border-color: #C9D6F7; color: var(--brand); }
+.ind-switch small { color: var(--text-faint); font-weight: 500; }
+@media (max-width: 767px) { table.ix { min-width: 0; } }
+</style>
+</head>
+<body class="wide">
+<script src="js/shell.js?v=20261107c"></script>
+
+<main>
+
+  <a class="back" href="sectors.html">&larr; 업종 모니터</a>
+
+  <header>
+    <div class="eyebrow"><span class="dot"></span>업종 상세</div>
+    <h1 id="title">업종</h1>
+    <div class="sub" id="sub">불러오는 중…</div>
+  </header>
+
+  <div id="content">
+    <div class="state">불러오는 중…</div>
+  </div>
+
+</main>
+
+<script src="js/utils.js?v=20261107b"></script>
+<script>
+"use strict";
+const $ = (s, r) => (r || document).querySelector(s);
+const esc = v => String(v == null ? "" : v).replace(/[&<>"']/g, c => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const IND = (new URLSearchParams(location.search).get("industry") || "").trim();
+
+function pct(v) {
+  if (v == null) return '<span class="dim">—</span>';
+  const cls = v > 0 ? "plus" : (v < 0 ? "minus" : "");
+  return `<span class="${cls}">${v > 0 ? "+" : ""}${Number(v).toFixed(1)}%</span>`;
+}
+function vbar(v, span) {
+  if (v == null || !span) return '<span class="dim">—</span>';
+  const w = Math.min(50, Math.abs(v) / span * 50);
+  const left = v >= 0 ? 50 : 50 - w;
+  const color = v >= 0 ? "var(--green)" : "var(--red)";
+  return `<span class="vbar"><span class="track" aria-hidden="true"><i style="left:${left}%;width:${w}%;background:${color}"></i></span><span class="n">${pct(v)}</span></span>`;
+}
+function chip(t) {
+  const cls = t === "오르는 중" ? "up" : (t === "내리는 중" ? "down" : "mix");
+  return `<span class="chip ${cls}">${esc(t || "—")}</span>`;
+}
+function fact(v, yes, no) {
+  if (v == null) return '<span class="fact na">자료 없음</span>';
+  return v ? `<span class="fact yes">${yes}</span>` : `<span class="fact no">${no}</span>`;
+}
+function money(v) { return v == null ? '<span class="dim">—</span>' : "$" + Number(v).toFixed(2); }
+async function get(path) {
+  try { const r = await fetch(path, {cache: "no-cache"}); return r.ok ? await r.json() : null; }
+  catch (e) { return null; }
+}
+
+const SORTS = {
+  rank: {label: "업종 안 순위", key: r => r.rank, asc: true},
+  r20:  {label: "20일", key: r => r.r20, asc: false},
+  r60:  {label: "60일", key: r => r.r60, asc: false},
+  r5:   {label: "5일",  key: r => r.r5,  asc: false},
+};
+let sort = "rank", ROWS = [], SPAN = {}, RANK = {}, SHAKE = {};
+
+function sorted(list) {
+  const s = SORTS[sort];
+  return list.slice().sort((a, b) => {
+    const x = s.key(a), y = s.key(b);
+    if (x == null && y == null) return (a.rank || 0) - (b.rank || 0);
+    if (x == null) return 1;
+    if (y == null) return -1;
+    return s.asc ? x - y : y - x;
+  });
+}
+
+function table() {
+  const list = sorted(ROWS);
+  return `<div class="tbl-wrap"><table class="scr ix">
+    <caption class="sr-only">이 업종 종목의 순위. 업종 안 순위는 20일 · 60일 수익과 50일선 거리 각각의 순위 평균입니다.</caption>
+    <thead><tr>
+      <th class="num" scope="col">업종 안</th><th scope="col">티커</th><th class="c-name" scope="col">기업명</th>
+      <th class="num" scope="col">5일</th><th class="num" scope="col">20일</th><th class="num" scope="col">60일</th>
+      <th class="num m-hide" scope="col">50일선 대비</th>
+      <th class="num m-hide" scope="col">가격</th><th class="num m-hide" scope="col">전일 대비</th>
+      <th class="m-hide" scope="col">순이익</th><th class="m-hide" scope="col">흔들림</th>
+      <th class="num m-hide" scope="col">오늘의 순위</th>
+    </tr></thead>
+    <tbody>${list.map(r => {
+      const href = "stock.html?ticker=" + encodeURIComponent(r.ticker);
+      const k = RANK[r.ticker] || {}, sh = SHAKE[r.ticker];
+      return `<tr data-href="${href}">
+        <td class="num rk-cell">${r.rank ?? "—"}</td>
+        <td class="c-tk"><a href="${href}">${esc(r.ticker)}</a><span class="m-name">${esc(r.name || k.name || "")}</span></td>
+        <td class="c-name"><span>${esc(r.name || k.name || "—")}</span></td>
+        <td class="num">${vbar(r.r5, SPAN.r5)}</td>
+        <td class="num">${vbar(r.r20, SPAN.r20)}</td>
+        <td class="num">${vbar(r.r60, SPAN.r60)}</td>
+        <td class="num m-hide">${pct(r.gap50)}</td>
+        <td class="num m-hide">${money(k.price)}</td>
+        <td class="num m-hide">${pct(k.day_change_pct)}</td>
+        <td class="m-hide">${fact(k.profit, "흑자", "적자")}</td>
+        <td class="m-hide">${sh ? `<span class="tier tier-${esc(sh.tier)}">${esc(({low:"낮음",mid:"보통",high:"높음",very_high:"매우 높음"})[sh.tier] || sh.tier)}</span>` : '<span class="dim">—</span>'}</td>
+        <td class="num m-hide">${k.rank != null ? k.rank + "위" : '<span class="dim">—</span>'}</td>
+      </tr>`;
+    }).join("")}</tbody></table></div>`;
+}
+
+function paint() {
+  $("#list").innerHTML = table();
+  document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.sort === sort)));
+}
+
+function switcher(industries, current) {
+  return `<nav class="ind-switch" aria-label="다른 업종">${industries.map(i =>
+    `<a href="industry.html?industry=${encodeURIComponent(i.industry)}"${i.industry === current ? ' aria-current="page"' : ""}>${esc(i.rank)}. ${esc(i.name)} <small>${pct(i.r20)}</small></a>`
+  ).join("")}</nav>`;
+}
+
+(async () => {
+  const [sec, rk, sh] = await Promise.all([get("sectors.json"), get("rankings.json"), get("shake.json")]);
+  SHAKE = (sh && sh.tickers) || {};
+  (rk && rk.rows || []).forEach(r => { RANK[r.ticker] = r; });
+  const inds = (sec && sec.industries) || [];
+  const ind = inds.find(i => i.industry === IND);
+
+  if (!ind) {
+    $("#title").textContent = IND ? "업종을 찾지 못했습니다" : "업종을 고르세요";
+    $("#sub").textContent = "아래에서 업종을 누르면 그 업종의 종목 순위가 나옵니다.";
+    $("#content").innerHTML = inds.length
+      ? `<section class="card tbl-card">${switcher(inds, null)}</section>`
+      : '<div class="state">업종 자료가 아직 없습니다.</div>';
+    return;
+  }
+
+  document.title = `${ind.name} · 업종 상세 · NASDAQ Research`;
+  $("#title").textContent = ind.name;
+  $("#sub").textContent = `${ind.industry} · ${ind.count}종목 · 업종 모니터 ${ind.rank}위 / ${inds.length}`;
+
+  /* 업종 안 순위 (sectors.json members) — 아직 없는 자료면 오늘의 순위에서 이 업종만 거른다 */
+  const hasMembers = Array.isArray(ind.members) && ind.members.length;
+  ROWS = hasMembers ? ind.members
+    : (rk && rk.rows || []).filter(r => r.industry === IND)
+        .sort((a, b) => a.rank - b.rank)
+        .map((r, i) => ({ticker: r.ticker, name: r.name, rank: i + 1, r5: null, r20: null, r60: null, gap50: null}));
+  const span = k => Math.max(1, ...ROWS.map(r => Math.abs(r[k] || 0)));
+  SPAN = {r5: span("r5"), r20: span("r20"), r60: span("r60")};
+
+  $("#content").innerHTML = `
+    <section class="kpis" aria-label="이 업종 요약">
+      <div class="st"><div class="st-k">업종 모니터 순위</div><div class="st-v">${ind.rank} <small>/ ${inds.length}</small></div><div class="st-s">${chip(ind.trend)}</div></div>
+      <div class="st"><div class="st-k">5일 (중간값)</div><div class="st-v ${ind.r5 > 0 ? "up" : ind.r5 < 0 ? "down" : ""}">${pct(ind.r5)}</div></div>
+      <div class="st"><div class="st-k">20일 (중간값)</div><div class="st-v ${ind.r20 > 0 ? "up" : ind.r20 < 0 ? "down" : ""}">${pct(ind.r20)}</div></div>
+      <div class="st"><div class="st-k">60일 (중간값)</div><div class="st-v ${ind.r60 > 0 ? "up" : ind.r60 < 0 ? "down" : ""}">${pct(ind.r60)}</div></div>
+      <div class="st"><div class="st-k">50일선 위 종목</div><div class="st-v">${ind.above50 == null ? "—" : ind.above50 + "%"}</div><div class="st-s">${ind.count}종목 중</div></div>
+    </section>
+
+    <section class="card tbl-card">
+      <div class="card-head"><h2>이 업종 종목 순위</h2>
+        ${hasMembers ? `<div class="seg" role="group" aria-label="정렬">${Object.entries(SORTS).map(([k, v]) =>
+          `<button type="button" data-sort="${k}" aria-pressed="false">${v.label}</button>`).join("")}</div>` : ""}
+      </div>
+      <div class="card-sub">${hasMembers
+        ? "업종 안 순위는 업종 모니터와 같은 방식입니다 — 20일 수익 · 60일 수익 · 50일선 대비 각각의 순위를 평균했습니다. 지나온 흐름의 순서이지 앞으로 오를 순서가 아닙니다. '오늘의 순위' 는 전체 종목을 따로 줄 세운 순서입니다."
+        : "업종 안 흐름 순위는 다음 갱신부터 실립니다. 지금은 오늘의 순위에서 이 업종 종목만 골라 그 순서대로 보여 줍니다."}</div>
+      <div id="list"></div>
+    </section>
+
+    <section class="card tbl-card">
+      <div class="card-head"><h2>다른 업종</h2></div>
+      ${switcher(inds, IND)}
+    </section>
+
+    <div class="page-foot">
+      가격은 ${esc(sec.price_date || "—")} 종가입니다. 5 · 20 · 60일은 거래일 기준입니다. 투자 권유가 아닙니다.<br>
+      갱신 ${esc((sec.generated_at || "").slice(0, 16).replace("T", " "))} UTC
+    </div>`;
+
+  document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { sort = b.dataset.sort; paint(); }));
+  $("#list").addEventListener("click", e => {
+    if (e.target.closest("a")) return;
+    const tr = e.target.closest("tr[data-href]");
+    if (tr && !window.getSelection().toString()) location.href = tr.dataset.href;
+  });
+  paint();
+})();
+</script>
+</body>
+</html>
