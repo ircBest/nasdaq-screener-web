@@ -28,7 +28,7 @@
     { key: "rankings", href: "rankings.html", label: "오늘의 순위", short: "순위" },
     { key: "sectors", href: "sectors.html", label: "업종 모니터", short: "업종" },
     { key: "stock", href: "stock.html", label: "종목 상세", short: "종목" },
-    { key: "positions", href: "positions.html", label: "검증 장부", short: "장부" },
+    { key: "positions", href: "positions.html", label: "연구 장부", short: "장부" },
     { key: "learning", href: "learning.html", label: "연구 현황", short: "연구" }
   ];
 
@@ -66,6 +66,8 @@
     '<aside class="shell-side" id="shell-side" aria-label="주 메뉴">' +
       '<a class="shell-brand" href="index.html"><span class="shell-mark"></span><span class="shell-label">NASDAQ RESEARCH</span></a>' +
       '<nav class="shell-nav">' + links + "</nav>" +
+      '<div class="shell-foot"><div id="shellDateRow" hidden><span class="dot"></span>데이터 <span id="shellDate"></span></div>' +
+        '<a href="https://github.com/ircBest/nasdaq-screener-web" rel="noopener">GitHub</a> · <a href="learning.html">도움말</a></div>' +
     "</aside>" +
     '<div class="shell-scrim" hidden></div>' +
     '<span id="shell-content" tabindex="-1"></span>';

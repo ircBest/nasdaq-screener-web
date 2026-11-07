@@ -55,6 +55,8 @@ body {
   color: var(--text);
 
   font-family:
+    "Pretendard Variable",
+    Pretendard,
     "Inter",
     -apple-system,
     BlinkMacSystemFont,
@@ -1712,3 +1714,13 @@ html.has-shell body { padding-left: var(--side-w); }
 @media (prefers-reduced-motion: reduce) {
   .shell-side { transition: none; }
 }
+
+.shell-foot {
+  margin-top: auto; padding: 10px 10px 2px;
+  border-top: 1px solid var(--border);
+  font-size: 11.5px; color: var(--text-dim); line-height: 1.7;
+}
+.shell-foot .dot { display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: var(--green); }
+.shell-foot a { color: var(--text-faint); text-decoration: none; }
+.shell-foot a:hover { color: var(--brand); }
+@media (max-width: 1279px) and (min-width: 1024px) { .shell-foot { display: none; } }
