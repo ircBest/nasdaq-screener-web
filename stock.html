@@ -65,6 +65,20 @@
   border:1px solid var(--border);color:var(--text-dim);margin-left:6px}
 .trend-chip.up{color:var(--green);border-color:var(--green)}
 .trend-chip.down{color:var(--red);border-color:var(--red)}
+/* 임원 거래 — SEC Form 4 장내 매수 · 매도 */
+.ins-seg{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}
+.ins-seg button{font:inherit;font-size:12px;font-weight:600;min-height:36px;padding:0 14px;cursor:pointer;
+  border:1px solid var(--border);border-radius:999px;background:var(--surface-2);color:var(--text-dim)}
+.ins-seg button[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:#fff}
+.ins-who{font-weight:600;color:var(--text)}
+.ins-who small{display:block;font-weight:400;font-size:11px;color:var(--text-dim);margin-top:1px}
+.tag.plan{background:rgba(97,112,133,.10);color:var(--text-faint);margin-left:4px}
+.ins-mini{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 8px}
+.ins-mini > div{background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:10px 12px}
+.ins-mini .k{font-size:11px;color:var(--text-faint)}
+.ins-mini .v{font-size:16px;font-weight:700;margin-top:2px}
+.ins-mini .v.up{color:var(--green)} .ins-mini .v.down{color:var(--red)}
+.ins-mini .n{font-size:11px;color:var(--text-dim);margin-top:2px}
 @media (max-width:480px){.news li{grid-template-columns:1fr;gap:2px}
   .news .when span{display:inline;margin-left:6px}}
 </style>
@@ -478,7 +492,89 @@ function shakeSection(sh){
     </section>`;
 }
 
-const TABS = [["summary","요약"],["chart","차트"],["indicators","지표"],["signals","신호 이력"],["similar","유사 흐름"],["news","뉴스"]];
+/* 임원 거래 — insiders/{T}.json (SEC Form 4 · 장내 매수 P · 매도 S 만 · 매주 토요일 갱신) */
+function fmtUSD(v){
+  if(v==null) return "—";
+  const a = Math.abs(v);
+  if(a >= 1e9) return "$" + (v/1e9).toFixed(2) + "B";
+  if(a >= 1e6) return "$" + (v/1e6).toFixed(1) + "M";
+  if(a >= 1e3) return "$" + Math.round(v/1e3) + "K";
+  return "$" + Math.round(v);
+}
+function fmtShares(v){ return v==null ? "—" : Number(v).toLocaleString("en-US"); }
+function insWho(r){
+  const role = [r.title, r.role].filter(Boolean);
+  const uniq = role.filter((x,i)=>role.indexOf(x)===i);
+  return `<span class="ins-who">${escapeHTML(r.who || "이름 없음")}${r.joint?` 외 ${r.joint}명`:""}
+    ${uniq.length?`<small>${escapeHTML(uniq.join(" · "))}</small>`:""}</span>`;
+}
+function insKind(r){
+  return (r.kind==="buy" ? '<span class="tag up">매수</span>' : '<span class="tag down">매도</span>')
+    + (r.plan===true ? '<span class="tag plan" title="미리 신고해 둔 일정대로 판 것">계획</span>' : "");
+}
+function insMini(ins){
+  if(!ins || !ins.summary) return "";
+  const m = ins.summary.m3 || {}, b = m.buy || {}, sl = m.sell || {};
+  return `<section class="card sd-box"><h2>임원 거래 <small style="font-weight:400;color:var(--text-dim)">최근 3개월</small></h2>
+    <div class="ins-mini">
+      <div><div class="k">장내 매수</div><div class="v ${b.filings?"up":""}">${b.filings||0}건</div>
+        <div class="n">${b.filings?`${b.people}명 · ${fmtUSD(b.value)}`:"없음"}</div></div>
+      <div><div class="k">장내 매도</div><div class="v ${sl.filings?"down":""}">${sl.filings||0}건</div>
+        <div class="n">${sl.filings?`${sl.people}명 · ${fmtUSD(sl.value)}${sl.plan_value_pct!=null?` · 계획 ${sl.plan_value_pct}%`:""}`:"없음"}</div></div>
+    </div>
+    <button type="button" class="sd-more" data-go="insiders">임원 거래 이력 모두 보기 →</button></section>`;
+}
+function insTable(rows, kind){
+  const list = rows.filter(r => kind==="all" || r.kind===kind);
+  if(!list.length) return `<div class="state">${kind==="buy"?"장내 매수":"장내 매도"} 신고가 없습니다.</div>`;
+  return `<div class="table-scroll"><table class="research-table">
+    <thead><tr><th>신고일</th><th>구분</th><th>누가</th><th class="num">금액</th>
+      <th class="num">주식 수</th><th class="num">평균 가격</th><th class="num">거래 뒤 보유</th><th>거래일</th></tr></thead>
+    <tbody>${list.map(r=>`<tr>
+      <td class="mono nowrap">${escapeHTML(r.filed||"-")}</td>
+      <td class="nowrap">${insKind(r)}</td>
+      <td>${insWho(r)}</td>
+      <td class="num mono">${fmtUSD(r.value)}</td>
+      <td class="num mono">${fmtShares(r.shares)}</td>
+      <td class="num mono">${r.price!=null?fmtPrice(r.price):"—"}</td>
+      <td class="num mono">${fmtShares(r.after)}${r.indirect?`<br><small class="faint">간접 포함</small>`:""}</td>
+      <td class="mono nowrap">${escapeHTML(r.traded||"-")}${r.traded_to?`<br><small class="faint">~ ${escapeHTML(r.traded_to)}</small>`:""}</td>
+    </tr>`).join("")}</tbody></table></div>`;
+}
+function insidersSection(ins){
+  if(!ins) return '<div class="state">임원 거래 기록이 아직 없습니다. 매주 토요일에 채워집니다.</div>';
+  const rows = ins.rows || [];
+  const sm = ins.summary || {};
+  const cell = (w, kind) => {
+    const x = ((sm[w]||{})[kind]) || {};
+    const up = kind==="buy";
+    return `<div><div class="k">${w==="m3"?"최근 3개월":"최근 1년"} ${up?"매수":"매도"}</div>
+      <div class="v mono ${x.filings?(up?"up":"down"):""}">${x.filings||0}건</div>
+      <div class="n">${x.filings?`${x.people}명 · ${fmtUSD(x.value)}${!up&&x.plan_value_pct!=null?` · 계획 매도 ${x.plan_value_pct}%`:""}`:"없음"}</div></div>`;
+  };
+  return `
+    <section>
+      <div class="section-title"><div class="title">임원 · 이사 · 대주주의 장내 거래</div>
+        <div class="hint">SEC 신고 기준 · ${escapeHTML(ins.through||"-")} 신고까지 · 매주 토요일 갱신</div></div>
+      <div class="kv" style="margin-bottom:12px">${cell("m3","buy")}${cell("m3","sell")}${cell("m12","buy")}${cell("m12","sell")}</div>
+      ${rows.length ? `
+        <div class="ins-seg" role="group" aria-label="거래 구분">
+          <button type="button" data-ins="all" aria-pressed="true">전체</button>
+          <button type="button" data-ins="buy" aria-pressed="false">매수만</button>
+          <button type="button" data-ins="sell" aria-pressed="false">매도만</button>
+        </div>
+        <div id="insTable">${insTable(rows, "all")}</div>
+        ${ins.total > rows.length ? `<div class="news-note">최근 ${rows.length}건만 보여 줍니다 (최근 ${ins.years}년 ${ins.total}건).</div>` : ""}`
+      : `<div class="state">최근 ${ins.years||3}년 동안 장내 매수 · 매도 신고가 없습니다.</div>`}
+      <div class="news-note">신고 한 건을 한 줄로 묶었습니다. 같은 날 여러 가격에 나눠 사고판 것은 주식 수를 더하고 가격은 평균을 냈습니다.
+        장내 매수 · 매도만 보여 줍니다 — 스톡옵션 행사 · 세금 납부용 처분 · 증여 · 회사에서 받은 주식은 뺐습니다.</div>
+      <div class="news-note"><b>계획</b>은 미리 신고해 둔 일정대로 자동으로 판 것입니다 (2023년 4월 이후 신고부터 표시됩니다).
+        임원의 매도는 세금 · 자산 나누기 같은 이유가 많아 뜻이 약하다고 알려져 있고, 회사 사정을 잘 아는 사람이 자기 돈으로 산
+        매수가 더 눈여겨볼 만하다고 알려져 있습니다. 이 사이트에서는 그것을 아직 시험하지 않았습니다 — 사고팔 신호가 아니라 기록입니다.</div>
+    </section>`;
+}
+
+const TABS = [["summary","요약"],["chart","차트"],["indicators","지표"],["signals","신호 이력"],["similar","유사 흐름"],["news","뉴스"],["insiders","임원 거래"]];
 const WATCH_KEY = "nr.watchlist.v1";
 function watchSet(){ try { return new Set(JSON.parse(localStorage.getItem(WATCH_KEY) || "[]")); } catch(e){ return new Set(); } }
 function watchSave(set){ try { localStorage.setItem(WATCH_KEY, JSON.stringify([...set])); } catch(e){} }
@@ -507,7 +603,7 @@ function sparkSVG(points, target, stop){
 }
 
 function render(info){
-  const {signal, history, series, latest, news, shake} = info;
+  const {signal, history, series, latest, news, shake, ins} = info;
 
   /* 오늘 신호가 없는 종목은 latest 가 없다 — 옛 신호의 진입가 대신 차트 요약의 마지막 종가를 쓴다. */
   const price = latest?.price ?? series?.chart?.close ?? signal?.entry_price;
@@ -549,6 +645,7 @@ function render(info){
             ${sparkSVG(series?.points, risk.target_price, risk.stop_loss)}
           </section>
           ${shakeSection(shake)}
+          ${insMini(ins)}
           ${items.length ? `<section class="card sd-box"><h2>최근 뉴스</h2><ul class="sd-news-mini">
             ${items.slice(0,3).map(a=>`<li>${escapeHTML(a.title)}<small>${escapeHTML(a.publisher||"")} · ${escapeHTML((a.published_utc||"").slice(0,10))}</small></li>`).join("")}
             </ul><button type="button" class="sd-more" data-go="news">뉴스 ${items.length}건 모두 보기 →</button></section>` : ""}
@@ -643,7 +740,8 @@ function render(info){
         ` : `<div class="state">이 종목의 신호 기록이 없습니다.</div>`}
       </section>`,
     similar: outlookSection(series && series.outlook) || '<div class="state">비슷한 흐름 통계가 아직 없습니다.</div>',
-    news: newsSection(news)
+    news: newsSection(news),
+    insiders: insidersSection(ins)
   };
 
   $("content").innerHTML = `
@@ -663,7 +761,7 @@ function render(info){
     </section>
 
     <div class="sd-tabs" role="tablist" aria-label="종목 상세">
-      ${TABS.map(([k,l])=>`<button type="button" role="tab" id="tab-${k}" aria-controls="panel-${k}" aria-selected="false" tabindex="-1" data-tab="${k}">${l}${k==="news"&&items.length?` <span class="badge">${items.length}</span>`:""}</button>`).join("")}
+      ${TABS.map(([k,l])=>`<button type="button" role="tab" id="tab-${k}" aria-controls="panel-${k}" aria-selected="false" tabindex="-1" data-tab="${k}">${l}${k==="news"&&items.length?` <span class="badge">${items.length}</span>`:""}${k==="insiders"&&ins?.summary?.m3?.buy?.filings?` <span class="badge" title="최근 3개월 장내 매수">매수 ${ins.summary.m3.buy.filings}</span>`:""}</button>`).join("")}
     </div>
 
     ${TABS.map(([k])=>`<div class="sd-panel" role="tabpanel" id="panel-${k}" aria-labelledby="tab-${k}" hidden>${panels[k]}</div>`).join("")}
@@ -697,6 +795,11 @@ function render(info){
   });
   $("content").addEventListener("click", e=>{
     const g = e.target.closest("[data-go]"); if(g) { show(g.dataset.go); window.scrollTo({top:0}); }
+    const f = e.target.closest("[data-ins]");
+    if(f && ins){
+      document.querySelectorAll("[data-ins]").forEach(b=>b.setAttribute("aria-pressed", String(b===f)));
+      $("insTable").innerHTML = insTable(ins.rows || [], f.dataset.ins);
+    }
   });
   $("watchBtn").addEventListener("click", ()=>{
     const set = watchSet(), on = !set.has(TICKER);
@@ -772,12 +875,13 @@ function fmtCompact(v){
   /* performance.json 은 더 이상 받지 않는다.
      거기 들어 있는 것은 고정 기간(5일·10일·30일) 성과뿐이고,
      이 화면은 그 틀로 승패를 표시하지 않는다. */
-  const [signalsPayload, series, scan, news, shake] = await Promise.all([
+  const [signalsPayload, series, scan, news, shake, ins] = await Promise.all([
     getJSON("signals.json"),
     getJSON(`tickers/${encodeURIComponent(TICKER)}.json`),
     getJSON("latest_signals.json"),
     getJSON(`news/${encodeURIComponent(TICKER)}.json`),
-    getJSON("shake.json")
+    getJSON("shake.json"),
+    getJSON(`insiders/${encodeURIComponent(TICKER)}.json`)
   ]);
 
   const signals = (signalsPayload?.signals || [])
@@ -796,7 +900,7 @@ function fmtCompact(v){
 
   const latest = (scan?.signals || []).find(s=>s && s.ticker===TICKER);
 
-  if(!signals.length && !series && !news){
+  if(!signals.length && !series && !news && !ins){
     fail(`${TICKER} 의 기록을 찾을 수 없습니다.`);
     return;
   }
@@ -807,7 +911,8 @@ function fmtCompact(v){
     series,
     latest,
     news,
-    shake
+    shake,
+    ins
   });
 })();
 </script>
