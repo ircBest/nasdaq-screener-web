@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>오늘의 뉴스 · NASDAQ IT 스크리너</title>
-<meta name="description" content="관측 종목에 나온 최신 뉴스와, 제목에 좋은 소식이 담긴 기사를 모아 봤습니다.">
+<meta name="description" content="관측 종목의 최신 뉴스, 회사별 좋은 소식 · 나쁜 소식, AI · IT 업계 전체 소식을 제목 규칙으로 나눠 모았습니다.">
 <link rel="icon" href="icon.svg">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="css/style.css?v=20261107b">
@@ -40,6 +40,15 @@
 .nw-rules ul { margin: 6px 0 0; padding-left: 18px; line-height: 1.8; }
 .nw-rules code { font-size: 11.5px; color: var(--text-faint); }
 .nw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+.nw-grid > #latest { grid-column: 1 / -1; }
+.nw-side { padding: 2px 16px 10px; }
+.nw-side .seg { width: 100%; }
+.nw-side .seg button { flex: 1; min-height: 38px; font-size: 13px; }
+.nw-side .seg button b { font-weight: 600; margin-left: 4px; color: var(--text-faint); }
+.nw-side .seg button[data-side="good"][aria-pressed="true"] { background: #E7F4EF; color: var(--green); }
+.nw-side .seg button[data-side="bad"][aria-pressed="true"] { background: #FBE9EA; color: var(--red); }
+.chip.mix { background: var(--surface-3); color: var(--text-dim); }
+.nw-rate { font-size: 11px; color: var(--text-faint); }
 .nw-grid > section { margin-bottom: 12px; }
 @media (max-width: 1023px) { .nw-grid { grid-template-columns: 1fr; } }
 @media (max-width: 480px) { .nw-list li { grid-template-columns: 1fr; } .nw-nm { max-width: 180px; } }
@@ -57,7 +66,7 @@
 
   <header>
     <div class="eyebrow"><span class="dot"></span>오늘의 뉴스</div>
-    <h1>오늘 나온 뉴스 · 좋은 소식 모아보기</h1>
+    <h1>오늘 나온 뉴스 · 좋은 소식 · 나쁜 소식</h1>
     <div class="sub" id="asof">관측 종목에 붙은 기사 제목을 모았습니다</div>
   </header>
 
@@ -85,25 +94,93 @@ function kst(iso) {
   return `${p(k.getUTCMonth() + 1)}/${p(k.getUTCDate())} ${p(k.getUTCHours())}:${p(k.getUTCMinutes())}`;
 }
 
-function item(it, labels) {
+const TONE_CLASS = { good: "up", bad: "down", mixed: "mix" };
+const MIXED_LABEL = "좋은 말 · 나쁜 말이 같이";
+
+function chip(it, labels) {
+  if (!it.tone) return "";
+  const lb = it.tone === "mixed" ? MIXED_LABEL : (labels[it.kind] || "");
+  const rate = it.rating ? ` <span class="nw-rate">의견 ${esc(it.rating)} 유지</span>` : "";
+  return `<span class="chip ${TONE_CLASS[it.tone] || ""}">${esc(lb)}</span>${rate}`;
+}
+
+function item(it, labels, showChip) {
   const tks = (it.t || []).map((t, i) => `<a class="nw-tk" href="stock.html?ticker=${encodeURIComponent(t)}"
       title="${esc((it.names || [])[i] || t)} 상세">${esc(t)}</a>`).join("");
   const nm = (it.names || []).find(Boolean) || "";
-  const tag = it.good && labels ? `<span class="chip up">${esc(labels[it.good] || "좋은 소식")}</span>` : "";
   return `<li>
     <div class="nw-time">${esc(kst(it.time))}</div>
     <div class="nw-body">
-      <div class="nw-tks">${tks}<span class="nw-nm">${esc(nm)}</span>${tag}</div>
+      <div class="nw-tks">${tks}${nm ? `<span class="nw-nm">${esc(nm)}</span>` : ""}${showChip ? chip(it, labels) : ""}</div>
       <div class="nw-title" lang="en">${esc(it.title)}</div>
       <div class="nw-pub">${esc(it.publisher || "")}</div>
     </div>
   </li>`;
 }
 
+const EMPTY = '<li><div></div><div class="state" style="text-align:left;padding:4px 0">지금은 고른 기사가 없습니다.</div></li>';
+
+/* 좋은 · 나쁜 · 섞임 고르기 + 종류 칸 + 목록 — 회사 소식 · 업계 소식이 같은 틀을 쓴다 */
+function board(root, sides, labels) {
+  let side = sides.good.total ? "good" : (sides.bad.total ? "bad" : "good");
+  let key = "";
+  const tabs = $(".nw-tabs", root), list = $(".nw-list", root);
+  function paintTabs() {
+    const groups = sides[side].groups;
+    tabs.innerHTML = side === "mixed" ? "" :
+      `<button type="button" data-k="" aria-pressed="${key === ""}">전체 <b>${sides[side].total}</b></button>` +
+      groups.map(g => `<button type="button" data-k="${esc(g.key)}" aria-pressed="${key === g.key}">${esc(g.label)} <b>${g.items.length}</b></button>`).join("");
+  }
+  function paintList() {
+    const all = sides[side].all;
+    const rows = key ? (sides[side].groups.find(g => g.key === key) || { items: [] }).items : all;
+    list.innerHTML = rows.length ? rows.map(it => item(it, labels, !key)).join("") : EMPTY;
+  }
+  root.querySelectorAll(".nw-side button").forEach(b => {
+    b.setAttribute("aria-pressed", String(b.dataset.side === side));
+    b.addEventListener("click", () => {
+      side = b.dataset.side; key = "";
+      root.querySelectorAll(".nw-side button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+      paintTabs(); paintList();
+    });
+  });
+  tabs.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    key = b.dataset.k; paintTabs(); paintList();
+  });
+  paintTabs(); paintList();
+}
+
+function sideOf(groups, mixed) {
+  const tag = (g, tone) => g.items.map(it => Object.assign({ tone: it.tone || tone, kind: it.kind || g.key }, it));
+  const mk = (gs, tone) => {
+    const gg = (gs || []).map(g => ({ key: g.key, label: g.label, items: tag(g, tone) }));
+    const all = gg.flatMap(g => g.items).sort((a, b) => b.time.localeCompare(a.time));
+    return { groups: gg, all, total: all.length };
+  };
+  const mixAll = (mixed || []).map(it => Object.assign({ tone: "mixed", kind: "mixed" }, it));
+  return { good: mk(groups.good, "good"), bad: mk(groups.bad, "bad"),
+           mixed: { groups: [], all: mixAll, total: mixAll.length } };
+}
+
+function segHtml(sides) {
+  return `<div class="nw-side"><div class="seg" role="group" aria-label="좋은 · 나쁜 소식 고르기">
+    <button type="button" data-side="good">좋은 소식<b>${sides.good.total}</b></button>
+    <button type="button" data-side="bad">나쁜 소식<b>${sides.bad.total}</b></button>
+    <button type="button" data-side="mixed">섞임<b>${sides.mixed.total}</b></button></div></div>`;
+}
+
+function ruleList(rules) {
+  return (rules || []).map(r => `<li>${esc(r.label)} <code>${esc(r.example)}</code></li>`).join("");
+}
+
 function render(d) {
-  const labels = Object.fromEntries((d.rules || []).map(r => [r.key, r.label]));
-  const groups = d.good || [];
-  const allGood = groups.flatMap(g => g.items.map(it => it)).sort((a, b) => b.time.localeCompare(a.time));
+  const sr = d.sector_rules || { good: [], bad: [] };
+  const labels = Object.fromEntries([].concat(d.rules || [], d.bad_rules || [], sr.good || [], sr.bad || [])
+    .map(r => [r.key, r.label]));
+  const company = sideOf({ good: d.good, bad: d.bad }, d.mixed);
+  const sec = d.sector || {};
+  const sector = sideOf({ good: sec.good, bad: sec.bad }, sec.mixed);
   const latest = d.latest || [];
 
   $("#asof").textContent = `마지막 갱신 ${kst(d.generated_at)} (한국 시간) · 평일 다섯 번, 주말 한 번 새로 모읍니다`;
@@ -112,21 +189,40 @@ function render(d) {
     <div class="nw-note" role="note">${esc(d.note || "")}</div>
 
     <div class="nw-grid">
-      <section class="card" id="good" aria-label="좋은 소식 모아보기">
-        <div class="card-head"><h2>좋은 소식 모아보기</h2><span class="hint">지난 ${esc(d.good_hours)}시간 · ${allGood.length}건</span></div>
-        <div class="card-sub">제목에 정해진 말이 있는 기사만 골랐습니다. 아래 칸을 누르면 그 종류만 봅니다.</div>
-        <div class="nw-tabs" role="group" aria-label="좋은 소식 종류">
-          <button type="button" data-k="" aria-pressed="true">전체 <b>${allGood.length}</b></button>
-          ${groups.map(g => `<button type="button" data-k="${esc(g.key)}" aria-pressed="false">${esc(g.label)} <b>${g.items.length}</b></button>`).join("")}
-        </div>
-        <ul class="nw-list" id="goodList"></ul>
+      <section class="card" id="company" aria-label="회사 소식">
+        <div class="card-head"><h2>회사 소식</h2><span class="hint">지난 ${esc(d.good_hours)}시간</span></div>
+        <div class="card-sub">제목에 그 회사가 나오는 기사 가운데, 정해진 말이 있는 것만 골라 나눴습니다.</div>
+        ${segHtml(company)}
+        <div class="nw-tabs" role="group" aria-label="소식 종류"></div>
+        <ul class="nw-list"></ul>
         <details class="nw-rules">
-          <summary>어떻게 고르나요?</summary>
+          <summary>어떻게 나누나요?</summary>
           <ul>
-            ${(d.rules || []).map(r => `<li>${esc(r.label)} <code>${esc(r.example)}</code></li>`).join("")}
-            <li>'예상을 밑돌았다 · 내렸다 · 경고 · 소송' 같은 말이 같이 있거나, 물음표로 끝나는 제목 (의견 글),
-              아직 일어나지 않은 일 ('~할 수도') 은 뺐습니다.</li>
+            <li><b>좋은 소식</b></li>${ruleList(d.rules)}
+            <li><b>나쁜 소식</b></li>${ruleList(d.bad_rules)}
+            <li><b>섞임</b> — 좋은 말과 나쁜 말이 같이 있거나 '하지만 · 그런데도' 가 붙은 제목 (예: 실적은 넘었지만 전망이 모자랐다).</li>
+            <li>'목표가를 올렸다 · 내렸다 (의견은 그대로)' 는 증권사가 매수 · 중립 의견을 그대로 두고 목표 가격만 바꾼 것입니다.
+              의견 자체를 바꾼 '의견을 올렸다 · 내렸다' 보다 약한 소식입니다. '매도' 의견을 유지하며 목표가만 올린 것은 좋은 소식으로 치지 않습니다.</li>
+            <li>물음표로 끝나는 제목 (의견 글), 아직 일어나지 않은 일 ('~할 수도'), 개인 기고의 평가 꼬리표,
+              법률사무소 광고, 여러 회사를 묶은 시황 정리는 어느 칸에도 넣지 않습니다. 하루 5% 아래 움직임은 소식으로 치지 않습니다.</li>
             <li>기계는 기사 본문을 읽지 않습니다. 제목만 봅니다.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section class="card" id="sector" aria-label="AI · IT 업계 전체 소식">
+        <div class="card-head"><h2>AI · IT 업계 전체</h2><span class="hint">한 회사가 아니라 업계 이야기</span></div>
+        <div class="card-sub">AI · 반도체 · 데이터센터 · 클라우드 · 나스닥 전체를 말하는 제목만 모았습니다.</div>
+        ${segHtml(sector)}
+        <div class="nw-tabs" role="group" aria-label="업계 소식 종류"></div>
+        <ul class="nw-list"></ul>
+        <details class="nw-rules">
+          <summary>어떻게 나누나요?</summary>
+          <ul>
+            <li><b>좋은 소식</b></li>${ruleList(sr.good)}
+            <li><b>나쁜 소식</b></li>${ruleList(sr.bad)}
+            <li>'AI stocks · chip stocks' 처럼 업계가 주어인 제목만 넣습니다. 한 회사 이야기 ('○○ AI Stock Rallies') ·
+              목록 기사 ('사야 할 AI 주식 3개') · 1인칭 의견 글은 뺍니다. 폭락 뒤 반등은 반등 소식으로 칩니다.</li>
           </ul>
         </details>
       </section>
@@ -140,30 +236,19 @@ function render(d) {
       </section>
     </div>
 
-    <p class="page-foot">기사는 뉴스 공급자가 종목에 연결한 것이고, 제목에 그 회사가 나오는 기사만 실었습니다. 본문과 링크는 저장하지 않습니다.
+    <p class="page-foot">회사 기사는 뉴스 공급자가 종목에 연결한 것 가운데 제목에 그 회사가 나오는 것만 실었습니다. 본문과 링크는 저장하지 않습니다.
       프로그램의 매매 판단에는 이 목록을 쓰지 않습니다. 투자 권유가 아닙니다.</p>
   `;
 
-  let key = "";
-  const goodList = $("#goodList");
-  function showGood() {
-    const rows = key ? (groups.find(g => g.key === key) || { items: [] }).items : allGood;
-    goodList.innerHTML = rows.length ? rows.map(it => item(it, key ? null : labels)).join("")
-      : '<li><div></div><div class="state" style="text-align:left;padding:4px 0">지금은 고른 기사가 없습니다.</div></li>';
-  }
-  document.querySelectorAll(".nw-tabs button").forEach(b => b.addEventListener("click", () => {
-    key = b.dataset.k;
-    document.querySelectorAll(".nw-tabs button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
-    showGood();
-  }));
-  showGood();
+  board($("#company"), company, labels);
+  board($("#sector"), sector, labels);
 
   const latestList = $("#latestList");
   function showLatest(q) {
     q = (q || "").trim().toLowerCase();
     const rows = q ? latest.filter(it => (it.title + " " + (it.t || []).join(" ") + " " + (it.names || []).join(" "))
       .toLowerCase().includes(q)) : latest;
-    latestList.innerHTML = rows.length ? rows.map(it => item(it, labels)).join("")
+    latestList.innerHTML = rows.length ? rows.map(it => item(it, labels, true)).join("")
       : '<li><div></div><div class="state" style="text-align:left;padding:4px 0">맞는 기사가 없습니다.</div></li>';
   }
   $("#find").addEventListener("input", e => showLatest(e.target.value));
