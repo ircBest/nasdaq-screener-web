@@ -131,6 +131,7 @@
     .nw-mini .tk { display: inline-block; margin-right: 6px; padding: 0 6px; border-radius: 4px; background: var(--surface-3);
       color: var(--text); font-size: 11px; font-weight: 700; text-decoration: none; }
     .nw-mini .lb { color: var(--green); font-size: 11px; font-weight: 600; margin-right: 6px; }
+    .nw-mini .lb.bad { color: var(--red); }
     .nw-mini .tt { color: var(--text); overflow-wrap: anywhere; }
     @media (max-width: 767px) { .nw-mini { grid-template-columns: 1fr; } }
     .vix-card summary { cursor: pointer; color: var(--text-faint); font-size: 11px; }
@@ -272,9 +273,9 @@
     </div>
 
     <div class="card panel nw-panel" id="newsPanel" hidden>
-      <div class="panel-head"><h2>오늘의 좋은 소식</h2><span class="hint" id="newsAsof"></span></div>
+      <div class="panel-head"><h2>오늘의 좋은 · 나쁜 소식</h2><span class="hint" id="newsAsof"></span></div>
       <ul class="nw-mini" id="newsMini"></ul>
-      <p class="panel-note">제목에 정해진 말 (실적이 예상보다 좋았다 · 목표가를 올렸다 …) 이 있는 기사를 모은 것입니다. 사라는 뜻이 아니고 검증된 신호도 아닙니다.</p>
+      <p class="panel-note">제목에 정해진 말 (실적이 예상보다 좋았다 · 전망을 내렸다 …) 이 있는 기사를 나눠 모은 것입니다. 사라 · 팔라는 뜻이 아니고 검증된 신호도 아닙니다.</p>
       <a class="panel-link" href="news.html">오늘의 뉴스 전체 보기 →</a>
     </div>
   </section>
@@ -296,8 +297,12 @@
     const r = await fetch("news_today.json", { cache: "no-cache" });
     if (!r.ok) return;
     const d = await r.json();
-    const labels = Object.fromEntries((d.rules || []).map(x => [x.key, x.label]));
-    const rows = (d.good || []).flatMap(g => g.items).sort((a, b) => b.time.localeCompare(a.time)).slice(0, 6);
+    const labels = Object.fromEntries([].concat(d.rules || [], d.bad_rules || []).map(x => [x.key, x.label]));
+    const pick = (gs, tone, n) => (gs || []).flatMap(g => g.items.map(it => Object.assign({ tone, kind: g.key }, it)))
+      .sort((a, b) => b.time.localeCompare(a.time)).slice(0, n);
+    // 목표가만 바꾼 것 (의견 그대로) 은 첫 화면에서 뺀다 — 수가 많고 약한 소식이다
+    const strong = gs => (gs || []).filter(g => g.key !== "target" && g.key !== "target_cut");
+    const rows = pick(strong(d.good), "good", 4).concat(pick(strong(d.bad), "bad", 4));
     if (!rows.length) return;
     const esc = v => String(v == null ? "" : v).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     const k = new Date(new Date(d.generated_at).getTime() + 9 * 3600 * 1000);
@@ -305,7 +310,7 @@
     document.getElementById("newsAsof").textContent = `${p(k.getUTCMonth() + 1)}/${p(k.getUTCDate())} ${p(k.getUTCHours())}:${p(k.getUTCMinutes())} 갱신`;
     document.getElementById("newsMini").innerHTML = rows.map(it => `<li>
       ${(it.t || []).slice(0, 2).map(t => `<a class="tk" href="stock.html?ticker=${encodeURIComponent(t)}">${esc(t)}</a>`).join("")}
-      <span class="lb">${esc(labels[it.good] || "")}</span><span class="tt" lang="en">${esc(it.title)}</span></li>`).join("");
+      <span class="lb${it.tone === "bad" ? " bad" : ""}">${esc(labels[it.kind] || labels[it.good] || "")}</span><span class="tt" lang="en">${esc(it.title)}</span></li>`).join("");
     document.getElementById("newsPanel").hidden = false;
   } catch (e) { /* 없으면 숨긴 채 */ }
 })();
