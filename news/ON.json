@@ -1,13 +1,28 @@
 {
   "ticker": "ON",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-07T16:02:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Onsemi Is Walking Away From a $2 Billion Chip Bet It Made in 2024"
+    },
+    {
+      "published_utc": "2026-11-07T12:41:40+00:00",
+      "publisher": "Yahoo",
+      "title": "ON Semiconductor (ON) Is Jeff Brown’s Chip Play on Tesla’s Optimus Robot"
+    },
+    {
       "published_utc": "2026-11-06T21:17:36+00:00",
       "publisher": "Yahoo",
       "title": "Onsemi and Czech ministry cancel $2 billion chip facility expansion"
+    },
+    {
+      "published_utc": "2026-11-06T16:25:11+00:00",
+      "publisher": "Benzinga",
+      "title": "ON Semiconductor Plans To Cancel Its Planned Semiconductor Expansion At Its Roznov Pod Radhostem Facility In Czech Republic"
     },
     {
       "published_utc": "2026-11-05T18:33:34+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-03T19:50:20+00:00",
       "publisher": "Yahoo",
       "title": "Navitas Soars 8% on onsemi’s 175% AI Data Center Jump Ahead of Its Own Report"
-    },
-    {
-      "published_utc": "2026-11-03T18:24:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor earnings analysis: questions answered and next catalysts"
-    },
-    {
-      "published_utc": "2026-11-03T17:14:22+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor (ON) Stock Looks Fairly Valued After AI Revenue News"
-    },
-    {
-      "published_utc": "2026-11-03T15:39:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor beats earnings estimates as AI revenue surges"
     }
   ]
 }

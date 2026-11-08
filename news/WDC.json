@@ -1,9 +1,24 @@
 {
   "ticker": "WDC",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-07T19:17:39+00:00",
+      "publisher": "Yahoo",
+      "title": "The AI Memory Boom Isn’t Over: Why Billionaires Are Backing Western Digital (WDC)"
+    },
+    {
+      "published_utc": "2026-11-07T13:11:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Marvell and Western Digital Just Had Their Worst Week Since 2001"
+    },
+    {
+      "published_utc": "2026-11-07T09:13:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Western Digital (WDC) Falls With AI Hardware Selloff On An Undervalued Narrative"
+    },
     {
       "published_utc": "2026-11-06T14:08:56+00:00",
       "publisher": "Yahoo",
@@ -13,6 +28,11 @@
       "published_utc": "2026-11-06T11:54:15+00:00",
       "publisher": "Yahoo",
       "title": "Western Digital Stock Outlook: Is Wall Street Bullish or Bearish?"
+    },
+    {
+      "published_utc": "2026-11-06T11:08:29+00:00",
+      "publisher": "Benzinga",
+      "title": "Western Digital Stock Rebounds as Wall Street Bets AI Storage Demand Outlasts Election Rout"
     },
     {
       "published_utc": "2026-11-06T10:37:07+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T05:19:47+00:00",
       "publisher": "Yahoo",
       "title": "Western Digital (WDC) Stock Sees Fair Value Cut As Analysts Weigh HDD Strength"
-    },
-    {
-      "published_utc": "2026-11-04T19:12:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Seagate Sinks 8%, Western Digital Down 6% on Election, Memory Price Worries"
-    },
-    {
-      "published_utc": "2026-11-04T16:02:59+00:00",
-      "publisher": "Yahoo",
-      "title": "SanDisk Retreats 9%, Micron and Western Digital Fall 7% as Election and Memory Price Worries Weigh"
-    },
-    {
-      "published_utc": "2026-11-04T15:21:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Western Digital's Q1 Beat and Q2 Outlook Signal More Margin Upside"
-    },
-    {
-      "published_utc": "2026-11-04T15:19:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Is WDC a Buy as Earnings Surge but Valuation and Execution Risks Rise?"
     }
   ]
 }

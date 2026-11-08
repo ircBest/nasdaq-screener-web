@@ -1,13 +1,28 @@
 {
   "ticker": "LRCX",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-07T12:49:52+00:00",
+      "publisher": "Yahoo",
+      "title": "What Just Lifted Lam Research Stock?"
+    },
+    {
+      "published_utc": "2026-11-07T04:25:52+00:00",
+      "publisher": "Yahoo",
+      "title": "Lam Research (LRCX) Authorizes $25 Billion Share Repurchase Program"
+    },
+    {
       "published_utc": "2026-11-06T20:03:09+00:00",
       "publisher": "Yahoo",
       "title": "Own a Semiconductor ETF? Lam Research’s Buyback Move Affects You"
+    },
+    {
+      "published_utc": "2026-11-06T19:30:32+00:00",
+      "publisher": "Yahoo",
+      "title": "A $25 Billion Reason Why LRCX Stock Is Up Today"
     },
     {
       "published_utc": "2026-11-06T17:28:00+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-06T08:41:56+00:00",
       "publisher": "Benzinga",
       "title": "Jim Cramer Picks DuPont Over Xylem, Has Cold Feet on Lam Research"
-    },
-    {
-      "published_utc": "2026-11-05T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Lam Research Corporation Announces $25 Billion Share Repurchase Authorization and Declares Quarterly Dividend"
-    },
-    {
-      "published_utc": "2026-11-05T19:31:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Lam Research Stocks Fall 13.5% as Equipment Investors Reassess AI Spending"
-    },
-    {
-      "published_utc": "2026-11-05T18:06:40+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Materials Sinks 12%, Lam Research Down 14% as Chip Stock Rout Deepens After Midterms"
     }
   ]
 }

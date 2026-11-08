@@ -1,9 +1,14 @@
 {
   "ticker": "AMAT",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-07T17:22:15+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Applied Materials: A Consequential Earnings Preview For The Whole Market (Rating Upgrade)"
+    },
     {
       "published_utc": "2026-11-06T19:03:10+00:00",
       "publisher": "Yahoo",
@@ -13,6 +18,16 @@
       "published_utc": "2026-11-06T14:41:58+00:00",
       "publisher": "Yahoo",
       "title": "Why Did Applied Materials Stock Fall?"
+    },
+    {
+      "published_utc": "2026-11-06T11:30:33+00:00",
+      "publisher": "Benzinga",
+      "title": "If You Invested $1000 In Applied Materials Stock 5 Years Ago, You Would Have This Much Today"
+    },
+    {
+      "published_utc": "2026-11-06T11:00:11+00:00",
+      "publisher": "Benzinga",
+      "title": "A Congress Member Bought Up To $30K In Applied Materials Stock: Here's What You Need To Know"
     },
     {
       "published_utc": "2026-11-05T19:31:28+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-03T20:05:44+00:00",
       "publisher": "Yahoo",
       "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?"
-    },
-    {
-      "published_utc": "2026-11-03T13:19:02+00:00",
-      "publisher": "Benzinga",
-      "title": "Morgan Stanley Maintains Equal-Weight on Applied Materials, Lowers Price Target to $538"
-    },
-    {
-      "published_utc": "2026-11-03T12:17:21+00:00",
-      "publisher": "Yahoo",
-      "title": "What Does Applied Materials Stock's Winning Streak Really Prove?"
-    },
-    {
-      "published_utc": "2026-11-03T02:10:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?"
     }
   ]
 }

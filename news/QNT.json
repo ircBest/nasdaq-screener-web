@@ -1,9 +1,39 @@
 {
   "ticker": "QNT",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T22:56:00+00:00",
+      "publisher": "Yahoo",
+      "title": "How Quantinuum Plans to Win Quantum Computing’s Long Game, According to Its CEO"
+    },
+    {
+      "published_utc": "2026-11-06T22:34:36+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Quantinuum Inc. (QNT) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-06T20:23:10+00:00",
+      "publisher": "Benzinga",
+      "title": "Jefferies Maintains Buy on Quantinuum, Lowers Price Target to $65"
+    },
+    {
+      "published_utc": "2026-11-06T18:39:45+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Maintains Overweight on Quantinuum, Lowers Price Target to $80"
+    },
+    {
+      "published_utc": "2026-11-06T14:04:19+00:00",
+      "publisher": "Benzinga",
+      "title": "Quantinuum Stock Surges After Beating Q3 Expectations"
+    },
+    {
+      "published_utc": "2026-11-06T13:07:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Quantum Computing Stocks Rally On IonQ, Quantinuum Q3 Results"
+    },
     {
       "published_utc": "2026-11-06T09:12:21+00:00",
       "publisher": "Benzinga",
@@ -33,36 +63,6 @@
       "published_utc": "2026-11-06T05:14:25+00:00",
       "publisher": "Yahoo",
       "title": "What Quantinuum (QNT) Said on Its Q3 Earnings Call"
-    },
-    {
-      "published_utc": "2026-11-06T00:36:07+00:00",
-      "publisher": "ChartMill",
-      "title": "Quantinuum Inc-A (NASDAQ:QNT) Q3 Beat and Raised 2026 Outlook Lift Shares in Relief Bounce"
-    },
-    {
-      "published_utc": "2026-11-05T22:36:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Quantinuum’s Revenue Triples. What It Really Wants Is Quantum for the Masses."
-    },
-    {
-      "published_utc": "2026-11-05T22:17:35+00:00",
-      "publisher": "Yahoo",
-      "title": "Quantum Computing Stocks: IonQ, Quantinuum Q3 Results, Guidance Top Views"
-    },
-    {
-      "published_utc": "2026-11-05T21:08:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Quantinuum: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-11-05T21:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Quantinuum Reports Third Quarter 2026 Results and Raises Full-Year Revenue Outlook"
-    },
-    {
-      "published_utc": "2026-11-05T19:35:08+00:00",
-      "publisher": "Benzinga",
-      "title": "Quantinuum Q3 2026 Earnings Call Transcript"
     }
   ]
 }

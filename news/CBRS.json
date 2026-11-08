@@ -1,9 +1,24 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-07T01:40:14+00:00",
+      "publisher": "Yahoo",
+      "title": "Cerebras Systems vs. Nebius: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?"
+    },
+    {
+      "published_utc": "2026-11-06T15:24:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Dear Cerebras Stock Fans, Mark Your Calendars for November 12"
+    },
+    {
+      "published_utc": "2026-11-06T15:07:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Dear Cerebras Stock Fans, Mark Your Calendars for November 9"
+    },
     {
       "published_utc": "2026-11-04T14:04:01+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-30T15:57:56+00:00",
       "publisher": "Yahoo",
       "title": "Why Cerebras Stock Dropped Today"
-    },
-    {
-      "published_utc": "2026-10-30T11:30:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Fell After Culper Research Issued a Short Call. What This Means for CBRS Stock."
-    },
-    {
-      "published_utc": "2026-10-29T22:09:41+00:00",
-      "publisher": "Benzinga",
-      "title": "Cathie Wood Isn’t Done: Ark Adds Joby Aviation For 4th Day, Buys Cerebras Stock After Short Report"
-    },
-    {
-      "published_utc": "2026-10-29T17:31:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Sinks 10% as Short Seller Culper Claims Its Wafers “Break Down After Just ~2 Years”"
     }
   ]
 }

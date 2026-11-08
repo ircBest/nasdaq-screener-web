@@ -1,9 +1,14 @@
 {
   "ticker": "SWKS",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-07T17:12:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Earnings Estimate Upgrade Could Be A Game Changer For Skyworks Solutions (SWKS)"
+    },
     {
       "published_utc": "2026-11-05T16:00:03+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-04T13:20:08+00:00",
       "publisher": "Benzinga",
       "title": "RBC Capital Maintains Sector Perform on Skyworks Solutions, Lowers Price Target to $80"
-    },
-    {
-      "published_utc": "2026-11-04T12:51:38+00:00",
-      "publisher": "Yahoo",
-      "title": "Buy, Sell, or Hold? Wednesday’s Top Upgrades and Downgrades: Adobe, Apple, Duolingo, Exxon Mobil, Fiserv, Fortinet, Gartner, Lockheed Martin, Skyworks Solutions, Visa and More"
     }
   ]
 }

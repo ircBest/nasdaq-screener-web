@@ -1,18 +1,43 @@
 {
   "ticker": "EVCM",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T15:41:09+00:00",
+      "publisher": "Benzinga",
+      "title": "Canaccord Genuity Maintains Buy on EverCommerce, Lowers Price Target to $9"
+    },
+    {
+      "published_utc": "2026-11-06T14:24:05+00:00",
+      "publisher": "Benzinga",
+      "title": "RBC Capital Maintains Sector Perform on EverCommerce, Lowers Price Target to $7"
+    },
     {
       "published_utc": "2026-11-06T13:32:24+00:00",
       "publisher": "SeekingAlpha",
       "title": "EverCommerce Inc. 2026 Q3 - Results - Earnings Call Presentation"
     },
     {
+      "published_utc": "2026-11-06T13:19:04+00:00",
+      "publisher": "Benzinga",
+      "title": "Oppenheimer Maintains Outperform on EverCommerce, Lowers Price Target to $11"
+    },
+    {
       "published_utc": "2026-11-06T09:24:36+00:00",
       "publisher": "SeekingAlpha",
       "title": "EverCommerce Inc. (EVCM) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-06T09:15:59+00:00",
+      "publisher": "Yahoo",
+      "title": "EverCommerce (EVCM) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-06T07:14:29+00:00",
+      "publisher": "Yahoo",
+      "title": "What EverCommerce (EVCM) Said on Its Q3 Earnings Call"
     },
     {
       "published_utc": "2026-11-06T06:42:17+00:00",
@@ -38,26 +63,6 @@
       "published_utc": "2026-11-05T22:08:59+00:00",
       "publisher": "Yahoo",
       "title": "EverCommerce: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-11-05T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "EverCommerce Announces Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-11-05T18:47:34+00:00",
-      "publisher": "Benzinga",
-      "title": "EverCommerce Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-05T17:29:31+00:00",
-      "publisher": "Benzinga",
-      "title": "EverCommerce Lowers FY2026 Sales Guidance from $612.000M-$632.000M to $600.000M vs $613.247M Est"
-    },
-    {
-      "published_utc": "2026-11-05T17:08:02+00:00",
-      "publisher": "Benzinga",
-      "title": "EverCommerce Q3 EPS $0.03 Misses $0.04 Estimate, Sales $151.445M Miss $152.923M Estimate"
     }
   ]
 }

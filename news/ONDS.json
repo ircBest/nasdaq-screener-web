@@ -1,9 +1,24 @@
 {
   "ticker": "ONDS",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-07T01:34:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Inc. (ONDS) Key Business Updates Expected Next Week, Shares Climb 18%"
+    },
+    {
+      "published_utc": "2026-11-06T18:05:30+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Surges 15% as Drone Stocks Rebound Ahead of Its Earnings Report; Red Cat Jumps 14%, AeroVironment Surges 9%"
+    },
+    {
+      "published_utc": "2026-11-06T14:56:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas to Report Q3 Earnings: Can Orders and Acquisitions Fuel Growth?"
+    },
     {
       "published_utc": "2026-11-05T19:56:54+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-30T18:14:30+00:00",
       "publisher": "SeekingAlpha",
       "title": "Ondas: I Need Proof Of Sustainable Growth"
-    },
-    {
-      "published_utc": "2026-10-30T18:11:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Unusual Machines Sinks 12%, Red Cat Tumbles 10% as High-Beta Drone Stocks Slide; Ondas Drops 9%, AeroVironment Falls 6%"
-    },
-    {
-      "published_utc": "2026-10-30T12:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Positions Field-Proven Aerial Security Portfolio to Support $250 Million FEMA Counter-Drone Grant Program"
-    },
-    {
-      "published_utc": "2026-10-30T10:04:39+00:00",
-      "publisher": "Benzinga",
-      "title": "Bears Load Up on Ondas, Dutch Bros and 8 More Stocks — Is a Squeeze Brewing?"
     }
   ]
 }

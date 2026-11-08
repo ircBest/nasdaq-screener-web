@@ -1,9 +1,24 @@
 {
   "ticker": "AAPL",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-07T19:23:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Did Apple Just Get a Boost From Democrats? Data Center Moratoriums Could Benefit the iPhone Maker"
+    },
+    {
+      "published_utc": "2026-11-07T17:01:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue"
+    },
+    {
+      "published_utc": "2026-11-07T07:38:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Mark Gurman Expects “More Price Increases” on Apple Hardware Through 2027"
+    },
     {
       "published_utc": "2026-11-06T21:45:10+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-06T14:19:27+00:00",
       "publisher": "Yahoo",
       "title": "What Will Decide Apple Stock As Memory Costs Rise?"
-    },
-    {
-      "published_utc": "2026-11-06T14:14:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Global Biohacking Wearable and Consumer Longevity Device Market Report 2026 | Capitalize on AI Biometrics as Apple, Samsung, Abbott, and Oura Drive Market to $45.03 Billion by 2030"
-    },
-    {
-      "published_utc": "2026-11-06T13:53:35+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple Is Borrowing $7.5 Billion, Its First Bond Sale Since 2025"
-    },
-    {
-      "published_utc": "2026-11-06T13:51:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple boosts purchase commitments by $33B amid memory crunch"
     }
   ]
 }

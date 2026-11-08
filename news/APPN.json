@@ -1,9 +1,39 @@
 {
   "ticker": "APPN",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T17:09:00+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Appian, Raises Price Target to $69"
+    },
+    {
+      "published_utc": "2026-11-06T16:25:55+00:00",
+      "publisher": "Benzinga",
+      "title": "DA Davidson Maintains Neutral on Appian, Raises Price Target to $60"
+    },
+    {
+      "published_utc": "2026-11-06T16:15:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Wall Street Still Thinks Appian Stock Can Gain 50% from Here"
+    },
+    {
+      "published_utc": "2026-11-06T15:21:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Appian Q3 Earnings Beat Estimates, Revenues Increase Y/Y"
+    },
+    {
+      "published_utc": "2026-11-06T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "APPN Q3 Earnings Call Highlights AI Demand and Higher Outlook"
+    },
+    {
+      "published_utc": "2026-11-06T11:12:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Appian Stock What Changed After Its Earnings Beat"
+    },
     {
       "published_utc": "2026-11-06T00:50:01+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-11-05T17:34:33+00:00",
       "publisher": "SeekingAlpha",
       "title": "Appian Corporation (APPN) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-05T15:14:27+00:00",
-      "publisher": "Yahoo",
-      "title": "Appian Q3 Earnings Call Highlights"
-    },
-    {
-      "published_utc": "2026-11-05T15:03:18+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Appian Corporation 2026 Q3 - Results - Earnings Call Presentation"
-    },
-    {
-      "published_utc": "2026-11-05T14:56:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Appian Shares Rise After Q3 Beat, 2026 Guidance Raise"
-    },
-    {
-      "published_utc": "2026-11-05T13:24:29+00:00",
-      "publisher": "ChartMill",
-      "title": "Appian (NASDAQ:APPN) Q3 Earnings Beat Estimates, Stock Jumps on Strong Full-Year Outlook"
-    },
-    {
-      "published_utc": "2026-11-05T13:17:41+00:00",
-      "publisher": "Benzinga",
-      "title": "Appian CEO Says US Government Is Embracing AI Efficiency As Federal Deals Grow"
-    },
-    {
-      "published_utc": "2026-11-05T13:06:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Appian (NASDAQ:APPN) reports strong Q3 2026 and full year guidance, stock jumps 16.6%"
     }
   ]
 }

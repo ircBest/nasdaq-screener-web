@@ -1,9 +1,14 @@
 {
   "ticker": "VECO",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-06T17:35:34+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Veeco Instruments, Lowers Price Target to $55"
+    },
     {
       "published_utc": "2026-11-05T17:13:45+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-04T17:23:44+00:00",
       "publisher": "Benzinga",
       "title": "Veeco Instruments Lowers FY2026 Adj EPS Guidance from $1.36-$1.61 to $1.32-$1.52 vs $1.51 Est; Raises FY2026 Sales Guidance from $780.000M-$810.000M to $790.000M-$820.000M vs $777.047M Est"
-    },
-    {
-      "published_utc": "2026-11-04T17:23:13+00:00",
-      "publisher": "Benzinga",
-      "title": "Veeco Instruments Sees Q4 GAAP EPS $0.34-$0.53 vs $0.43 Est"
     }
   ]
 }

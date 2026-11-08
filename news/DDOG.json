@@ -1,9 +1,19 @@
 {
   "ticker": "DDOG",
-  "generated_at": "2026-11-07T04:15:59+00:00",
+  "generated_at": "2026-11-08T10:52:04+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-07T15:27:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog vs. Docusign: Which Technology Stock Is a Better Buy for 2027?"
+    },
+    {
+      "published_utc": "2026-11-06T23:25:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CarMax Strategy Shows Promise, but Don’t Buy the Stock Yes, Says Analyst. Plus, Datadog and 3 More."
+    },
     {
       "published_utc": "2026-11-06T21:15:15+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-05T15:33:16+00:00",
       "publisher": "Benzinga",
       "title": "Rosenblatt Maintains Buy on Datadog, Lowers Price Target to $285"
-    },
-    {
-      "published_utc": "2026-11-05T15:27:44+00:00",
-      "publisher": "Benzinga",
-      "title": "DA Davidson Maintains Buy on Datadog, Lowers Price Target to $275"
-    },
-    {
-      "published_utc": "2026-11-05T15:22:52+00:00",
-      "publisher": "Benzinga",
-      "title": "Macquarie Maintains Outperform on Datadog, Lowers Price Target to $240"
     }
   ]
 }
