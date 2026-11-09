@@ -139,6 +139,40 @@
     .vix-card td { padding: 3px 0; border-top: 1px solid var(--border); color: var(--text-dim);
       font-variant-numeric: tabular-nums; }
     .vix-card td:last-child { text-align: right; color: var(--text); }
+
+    /* 뉴욕증시 탭 (us_market.json) — 숫자만 싣는다 */
+    .screener.ny-mode > .filters, .screener.ny-mode > .result-meta, .screener.ny-mode > .tbl-wrap,
+    .screener.ny-mode > .more, .screener.ny-mode > .tbl-note { display: none; }
+    .ny-box { padding: 12px 16px 4px; }
+    .ny-head { color: var(--text-faint); font-size: 12px; margin-bottom: 10px; }
+    .ny-kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
+    .ny-kpi { padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface-2); min-width: 0; }
+    .ny-kpi .k { font-size: 12px; font-weight: 700; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ny-kpi .v { margin-top: 4px; font-size: 19px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+    .ny-kpi .c { font-size: 12.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
+    .ny-grp { margin: 0 0 6px; font-size: 12.5px; font-weight: 700; color: var(--text-dim); }
+    .ny-box table.scr { margin-bottom: 14px; }
+    @media (min-width: 768px) {
+      .ny-box table.scr { table-layout: fixed; }
+      .ny-box table.scr th:nth-child(1) { width: 20%; }
+      .ny-box table.scr th:nth-child(2) { width: 11%; }
+      .ny-box table.scr th:nth-child(3) { width: 10%; }
+      .ny-box table.scr th:nth-child(4), .ny-box table.scr th:nth-child(5), .ny-box table.scr th:nth-child(6) { width: 8%; }
+      .ny-box table.scr th:nth-child(7) { width: 23%; }
+      .ny-box table.scr td.nm { overflow: hidden; text-overflow: ellipsis; }
+    }
+    .ny-box table.scr td.nm b { display: block; font-weight: 700; color: var(--text); }
+    .ny-box table.scr td.nm small { display: block; font-size: 10.5px; color: var(--text-faint); }
+    .ny-range { display: inline-flex; align-items: center; gap: 6px; font-size: 10.5px; color: var(--text-faint); }
+    .ny-range .bar { position: relative; width: 70px; height: 5px; border-radius: 3px; background: var(--border); }
+    .ny-range .dot { position: absolute; top: 50%; width: 8px; height: 8px; margin: -4px 0 0 -4px; border-radius: 50%; background: #305DDC; }
+    .ny-spark { width: 90px; height: 26px; display: block; }
+    .ny-spark polyline { fill: none; stroke: #305DDC; stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+    @media (max-width: 767px) {
+      .ny-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .ny-box { padding: 12px 12px 4px; }
+      .ny-box table.scr .ny-opt { display: none; }
+    }
   </style>
 
 </head>
@@ -180,6 +214,7 @@
     <div class="tabs" role="tablist" aria-label="목록 고르기">
       <button type="button" role="tab" aria-selected="true" data-tab="all">종목 스크리너</button>
       <button type="button" role="tab" aria-selected="false" data-tab="watch">관심 종목 <span class="badge" id="watchCount"></span></button>
+      <button type="button" role="tab" aria-selected="false" data-tab="ny">뉴욕증시</button>
       <span class="asof" id="asof"></span>
     </div>
 
@@ -226,6 +261,14 @@
     <div class="more"><button type="button" class="btn-sec" id="moreBtn" hidden>25개 더 보기</button></div>
     <p class="tbl-note">메모는 사실만 적습니다 (RSI 30 아래 · 거래량이 20일 평균의 2배 이상 · 최근 분기 흑자/적자).
       재무 자료가 없는 기업은 적자로 치지 않습니다. 투자 판단의 근거가 아니라 정량 조건으로 고른 목록입니다.</p>
+
+    <!-- 뉴욕증시 (us_market.json · 2026-11-09) — '뉴욕증시' 탭을 고르면 위 필터 · 표 대신 보인다 -->
+    <div class="ny-box" id="nyBox" hidden>
+      <div class="ny-head"><span id="nyAsof">불러오는 중…</span></div>
+      <div class="ny-kpis" id="nyKpis"></div>
+      <div id="nyGroups"></div>
+      <p class="tbl-note" id="nyNote"></p>
+    </div>
   </section>
 
   <!-- 아래 패널 -->
@@ -290,6 +333,101 @@
 <script src="./js/utils.js?v=20261107b"></script>
 <script src="./js/data.js?v=20261107b"></script>
 <script src="./js/home.js?v=20261107b"></script>
+<script>
+// 뉴욕증시 탭 (2026-11-09) — us_market.json. 탭을 처음 고를 때 한 번 받는다. 주소 끝이 #ny 면 그 탭으로 연다.
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const scr = $("screener"), box = $("nyBox");
+  if (!scr || !box) return;
+  const esc = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const sgn = (v) => (v > 0 ? "+" : v < 0 ? "−" : "");
+  const cls = (v) => (v == null ? "" : v > 0 ? "up" : v < 0 ? "down" : "");
+  const pct = (v) => (v == null ? "—" : `${sgn(v)}${Math.abs(v).toFixed(2)}%`);
+  function val(v, unit) {
+    if (v == null) return "—";
+    const big = Math.abs(v) >= 1000;
+    const n = Number(v).toLocaleString("en-US", { minimumFractionDigits: big && unit === "usd" ? 0 : 2,
+      maximumFractionDigits: big && unit === "usd" ? 0 : 2 });
+    if (unit === "pctpt") return `${Number(v).toFixed(2)}%`;
+    if (unit === "usd") return "$" + n;
+    if (unit === "krw") return n + "원";
+    return n;
+  }
+  function chg(it) {
+    if (it.chg1 == null) return "—";
+    const a = Math.abs(it.chg1);
+    const p = it.unit === "pctpt" ? `${sgn(it.chg1)}${a.toFixed(2)}%p`
+      : `${sgn(it.chg1)}${a.toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
+    return `<span class="${cls(it.chg1)}">${p}<br><small>${pct(it.chg1_pct)}</small></span>`;
+  }
+  function spark(h) {
+    if (!h || h.length < 2) return "";
+    const v = h.slice(-60).map((r) => r[1]); const lo = Math.min(...v), hi = Math.max(...v);
+    const pts = v.map((x, i) => `${(i / (v.length - 1)) * 90},${24 - ((x - lo) / (hi - lo || 1)) * 22}`).join(" ");
+    return `<svg class="ny-spark" viewBox="0 0 90 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}"/></svg>`;
+  }
+  function range(it) {
+    if (it.pos_52w == null) return "—";
+    return `<span class="ny-range">${esc(val(it.low_52w, it.unit))}<span class="bar"><span class="dot" style="left:${Math.round(it.pos_52w * 100)}%"></span></span>${esc(val(it.high_52w, it.unit))}</span>`;
+  }
+  function kst(iso) {
+    const d = new Date(iso); if (isNaN(d)) return "";
+    const k = new Date(d.getTime() + 9 * 3600 * 1000); const p = (n) => String(n).padStart(2, "0");
+    return `${p(k.getUTCMonth() + 1)}/${p(k.getUTCDate())} ${p(k.getUTCHours())}:${p(k.getUTCMinutes())}`;
+  }
+  function render(d) {
+    const groups = d.groups || [];
+    $("nyNote").textContent = d.note || "";
+    if (!groups.length) {
+      $("nyAsof").textContent = "";
+      $("nyGroups").innerHTML = '<div class="state">뉴욕증시 숫자는 매일 낮 스캔이 받아 채웁니다. 다음 스캔 뒤에 생깁니다.</div>';
+      return;
+    }
+    $("nyAsof").textContent = `${d.session_date || "-"} 뉴욕 정규장 마감 기준 · 갱신 ${kst(d.updated_utc)} (한국 시간)`;
+    const all = groups.flatMap((g) => g.items);
+    const main = ["DJI", "GSPC", "IXIC", "NDX"].map((k) => all.find((x) => x.key === k)).filter(Boolean);
+    $("nyKpis").innerHTML = main.map((it) => `<div class="ny-kpi"><div class="k">${esc(it.name)}</div>
+      <div class="v">${esc(val(it.close, it.unit))}</div><div class="c ${cls(it.chg1_pct)}">${pct(it.chg1_pct)}</div></div>`).join("");
+    $("nyGroups").innerHTML = groups.map((g) => `<div class="ny-grp">${esc(g.label)}</div>
+      <div class="tbl-wrap"><table class="scr"><caption class="sr-only">${esc(g.label)}</caption>
+        <thead><tr><th scope="col">이름</th><th class="num" scope="col">종가</th><th class="num" scope="col">전일 대비</th>
+          <th class="num ny-opt" scope="col">5일</th><th class="num ny-opt" scope="col">20일</th><th class="num" scope="col">올해</th>
+          <th class="ny-opt" scope="col">52주 범위</th><th class="ny-opt" scope="col">최근 60일</th></tr></thead>
+        <tbody>${g.items.map((it) => `<tr>
+          <td class="nm"><b>${esc(it.name)}</b><small>${esc(it.symbol)} · ${esc(it.date)}</small></td>
+          <td class="num"><b>${esc(val(it.close, it.unit))}</b></td>
+          <td class="num">${chg(it)}</td>
+          <td class="num ny-opt ${cls(it.chg5_pct)}">${pct(it.chg5_pct)}</td>
+          <td class="num ny-opt ${cls(it.chg20_pct)}">${pct(it.chg20_pct)}</td>
+          <td class="num ${cls(it.ytd_pct)}">${pct(it.ytd_pct)}</td>
+          <td class="ny-opt">${range(it)}</td>
+          <td class="ny-opt">${spark(it.history)}</td></tr>`).join("")}</tbody></table></div>`).join("");
+  }
+  let loaded = false;
+  async function load() {
+    try {
+      const r = await fetch("us_market.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error(r.status);
+      render(await r.json());
+    } catch (e) {
+      $("nyAsof").textContent = "";
+      $("nyGroups").innerHTML = '<div class="state">뉴욕증시 숫자를 아직 불러올 수 없습니다. 다음 스캔 뒤에 생깁니다.</div>';
+    }
+  }
+  function show(on) {
+    scr.classList.toggle("ny-mode", on);
+    box.hidden = !on;
+    if (on) document.querySelectorAll(".tabs [role=tab]").forEach((x) =>
+      x.setAttribute("aria-selected", String(x.dataset.tab === "ny")));
+    if (on && !loaded) { loaded = true; load(); }
+  }
+  document.querySelectorAll(".tabs [role=tab]").forEach((b) => b.addEventListener("click", () => show(b.dataset.tab === "ny")));
+  if (location.hash === "#ny") {
+    const b = document.querySelector('.tabs [data-tab="ny"]');
+    if (b) { b.click(); setTimeout(() => scr.scrollIntoView(), 0); }
+  }
+})();
+</script>
 <script>
 // 오늘의 좋은 소식 (2026-11-07) — news_today.json 의 좋은 소식 최신 6건. 파일이 없으면 칸을 숨긴 채 둔다.
 (async function () {
