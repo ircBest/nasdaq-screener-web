@@ -1,13 +1,33 @@
 {
   "ticker": "MU",
-  "generated_at": "2026-11-08T10:52:04+00:00",
+  "generated_at": "2026-11-09T11:46:33+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-08T19:06:26+00:00",
+      "publisher": "Yahoo",
+      "title": "What Does Micron Technology (MU) Taiwan Plant Halt Mean For Its Capacity Plans?"
+    },
+    {
+      "published_utc": "2026-11-08T09:30:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Micron: Why I Added $5,000 Worth Of Shares During The Selloff (Rating Downgrade)"
+    },
+    {
+      "published_utc": "2026-11-08T08:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Micron Stock a Buy Right Now?"
+    },
+    {
       "published_utc": "2026-11-07T17:50:00+00:00",
       "publisher": "Yahoo",
       "title": "Micron and Sandisk Lead the Memory Market. 1 Stock Has Far Greater Upside."
+    },
+    {
+      "published_utc": "2026-11-07T16:35:05+00:00",
+      "publisher": "Benzinga",
+      "title": "DRAM ETF: Why It’s Falling, and Outflows Are Rising Despite Strong Micron, SanDisk and Samsung Earnings"
     },
     {
       "published_utc": "2026-11-07T14:36:00+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-07T02:47:00+00:00",
       "publisher": "Yahoo",
       "title": "Micron stock flashes bargain pricing signal with costly catch"
-    },
-    {
-      "published_utc": "2026-11-06T22:56:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout"
-    },
-    {
-      "published_utc": "2026-11-06T21:45:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Dow Jones Futures: Market Needs Repair But Sandisk, Micron Broken; Apple, Amazon, Microsoft Strong"
-    },
-    {
-      "published_utc": "2026-11-06T21:12:42+00:00",
-      "publisher": "Yahoo",
-      "title": "Micron vs. Nvidia: Which AI Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-06T20:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "SK Hynix Just Announced Huge News for Micron Shareholders"
     }
   ]
 }

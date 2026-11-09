@@ -1,9 +1,34 @@
 {
   "ticker": "INTC",
-  "generated_at": "2026-11-08T10:52:04+00:00",
+  "generated_at": "2026-11-09T11:46:33+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-08T18:55:39+00:00",
+      "publisher": "Yahoo",
+      "title": "AMD Stock Dropped 11% Last Week. Is Intel’s PC Warning Really That Bad?"
+    },
+    {
+      "published_utc": "2026-11-08T16:29:58+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel Stock Has Gone Nowhere in 8 Years. Why This Time Could Be Different"
+    },
+    {
+      "published_utc": "2026-11-08T15:08:28+00:00",
+      "publisher": "Yahoo",
+      "title": "What Intel Doubters Got Wrong"
+    },
+    {
+      "published_utc": "2026-11-08T13:22:47+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Intel: The Sell-Off Has Done Most Of The Work"
+    },
+    {
+      "published_utc": "2026-11-08T08:58:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel, Arm, and Marvell Have Each Been Cut in Half Since June. Only 1 Is a Stock I'd Buy Now."
+    },
     {
       "published_utc": "2026-11-07T09:12:02+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-06T16:37:12+00:00",
       "publisher": "Yahoo",
       "title": "AMD Soars 10%, Intel Up 7% as Chip Stocks Rebound From Election Sell-Off"
-    },
-    {
-      "published_utc": "2026-11-06T14:05:02+00:00",
-      "publisher": "Yahoo",
-      "title": "AMD Jumps 8%, Intel and NVIDIA Climb 5% as Chip Stocks Rebound From Worst Sell-Off Since 2020"
-    },
-    {
-      "published_utc": "2026-11-06T11:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel, Sandisk, AMD, Airbnb, Monster, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "published_utc": "2026-11-06T10:23:29+00:00",
-      "publisher": "Benzinga",
-      "title": "Live On CNBC, Kevin Hassett, When Asked About U.S. Government Selling Intel, Says Has Been Reassuring To See Company Turn Around Sharply"
-    },
-    {
-      "published_utc": "2026-11-06T02:21:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel (INTC) Brings Hardware Backed Security To EdgeAI And Sharpens Xeon AI Case"
-    },
-    {
-      "published_utc": "2026-11-05T22:22:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Nov. 5: Intel Falls on Weak Fourth-Quarter Sales Outlook Amid Chip Selloff"
     }
   ]
 }

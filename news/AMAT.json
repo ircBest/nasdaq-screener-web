@@ -1,9 +1,24 @@
 {
   "ticker": "AMAT",
-  "generated_at": "2026-11-08T10:52:04+00:00",
+  "generated_at": "2026-11-09T11:46:33+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-08T19:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week"
+    },
+    {
+      "published_utc": "2026-11-08T12:51:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Brad Gerstner Bought Applied Materials. A $16 Billion Hedge Fund Sold Nearly All of It. Who’s Right?"
+    },
+    {
+      "published_utc": "2026-11-08T07:37:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Materials Has Ripped 30% This Year: Is It Too Late to Buy?"
+    },
     {
       "published_utc": "2026-11-07T17:22:15+00:00",
       "publisher": "SeekingAlpha",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-05T12:32:37+00:00",
       "publisher": "Yahoo",
       "title": "Was The Run In Applied Materials Stock Hiding In Plain Sight?"
-    },
-    {
-      "published_utc": "2026-11-04T11:04:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Capital Group Dividend Value (CGDV) Buys $146.3 Million More AMAT on Nov. 2"
-    },
-    {
-      "published_utc": "2026-11-04T11:01:35+00:00",
-      "publisher": "Yahoo",
-      "title": "ETFs Bought $237.0 Million of Applied Materials (AMAT) on Nov. 2"
-    },
-    {
-      "published_utc": "2026-11-03T20:05:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?"
     }
   ]
 }

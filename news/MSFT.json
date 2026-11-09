@@ -1,18 +1,43 @@
 {
   "ticker": "MSFT",
-  "generated_at": "2026-11-08T10:52:04+00:00",
+  "generated_at": "2026-11-09T11:46:33+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-08T17:58:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft Is Reportedly Getting Pickier About AI Data Center Deals. Is the Stock a Buy Now?"
+    },
+    {
+      "published_utc": "2026-11-08T17:36:28+00:00",
+      "publisher": "Yahoo",
+      "title": "Microsoft (MSFT) Makes the 10 Best Dow Stocks for 2027 List as Azure Growth Speeds Up"
+    },
+    {
+      "published_utc": "2026-11-08T14:14:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Dow Jones Futures Loom With Market Damaged, Big Winners Broken; Apple, Amazon, Microsoft Strong"
+    },
     {
       "published_utc": "2026-11-07T18:08:44+00:00",
       "publisher": "Yahoo",
       "title": "Older Nvidia Chips Just Cost Oracle Its Microsoft AI Deal"
     },
     {
+      "published_utc": "2026-11-07T16:50:06+00:00",
+      "publisher": "Benzinga",
+      "title": "CoreWeave and IREN Stocks Face Pressure as Microsoft Reassesses Its Computing Deals"
+    },
+    {
       "published_utc": "2026-11-07T15:30:03+00:00",
       "publisher": "Yahoo",
       "title": "Why AGI’s Fuzzy Definition Matters for Investors Betting on Google, Meta, and Microsoft"
+    },
+    {
+      "published_utc": "2026-11-07T14:15:35+00:00",
+      "publisher": "Benzinga",
+      "title": "Oracle Stock Nears Death Cross as Microsoft Deal Unwinding Points to More Risks"
     },
     {
       "published_utc": "2026-11-07T07:07:11+00:00",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-06T21:45:10+00:00",
       "publisher": "Yahoo",
       "title": "Dow Jones Futures: Market Needs Repair But Sandisk, Micron Broken; Apple, Amazon, Microsoft Strong"
-    },
-    {
-      "published_utc": "2026-11-06T21:07:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft and Oracle's AI ambitions are suddenly a lot more expensive"
-    },
-    {
-      "published_utc": "2026-11-06T19:35:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft and Google Face a New Bill as Data Centers “Have to Pay Their Own Costs”"
-    },
-    {
-      "published_utc": "2026-11-06T19:09:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft Stocks Move Lower 0.80% as AI Rotation Swings Back to Chipmakers"
-    },
-    {
-      "published_utc": "2026-11-06T19:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Microsoft Won’t Renew Deal for Renting AI Cloud Capacity From Oracle: Report"
-    },
-    {
-      "published_utc": "2026-11-06T18:46:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Update: Market Chatter: Microsoft to Conclude Deal With Oracle for Renting AI Compute"
     }
   ]
 }

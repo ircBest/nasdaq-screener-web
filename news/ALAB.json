@@ -1,9 +1,24 @@
 {
   "ticker": "ALAB",
-  "generated_at": "2026-11-08T10:52:04+00:00",
+  "generated_at": "2026-11-09T11:46:33+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-08T11:24:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Astera Labs Stock Drops 26% in a Week Despite Strong Earnings. Is It a Buy Now?"
+    },
+    {
+      "published_utc": "2026-11-08T06:00:44+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Astera Labs: Fairly Valued After The AI Sell-Off, But Risks Remain (Rating Upgrade)"
+    },
+    {
+      "published_utc": "2026-11-07T15:15:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Astera Labs Just Crushed Earnings—So Why Are Analysts Cutting Price Targets?"
+    },
     {
       "published_utc": "2026-11-06T19:14:30+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-05T02:11:48+00:00",
       "publisher": "Yahoo",
       "title": "Astera Labs (ALAB) Stock Drops After Q3 Results Spotlight Rich Valuation"
-    },
-    {
-      "published_utc": "2026-11-04T21:25:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Astera Labs Keeps Sliding Despite Big Beats: Why Morgan Stanley Sees 75% Upside"
-    },
-    {
-      "published_utc": "2026-11-04T18:45:55+00:00",
-      "publisher": "Benzinga",
-      "title": "UBS Maintains Neutral on Astera Labs, Lowers Price Target to $290"
-    },
-    {
-      "published_utc": "2026-11-04T18:03:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Astera Labs Plunges 27% in 3 Months: Buy, Sell, or Hold the Stock?"
     }
   ]
 }

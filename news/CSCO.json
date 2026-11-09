@@ -1,9 +1,24 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-11-08T10:52:04+00:00",
+  "generated_at": "2026-11-09T11:46:33+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-08T19:54:08+00:00",
+      "publisher": "Yahoo",
+      "title": "In March 2000, Cisco Briefly Became The World’s Most Valuable Company As Its Stock Closed At $80.06. Buyers That Day Waited More Than 25 Years For It To Close Higher. Here’s What AI Investors Need To Know"
+    },
+    {
+      "published_utc": "2026-11-08T18:06:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Systems (CSCO) Named A Leader In ABI Research Open Line Systems Ranking"
+    },
+    {
+      "published_utc": "2026-11-08T10:59:42+00:00",
+      "publisher": "Yahoo",
+      "title": "What To Expect In Markets This Week: CRWV, CSCO, NBIS, LUNR, ONDS, CBRS Earnings, CPI, Fed Speeches And More"
+    },
     {
       "published_utc": "2026-11-07T18:42:15+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-05T19:03:05+00:00",
       "publisher": "Yahoo",
       "title": "Cisco Falls 7% on Morgan Stanley Downgrade; Ciena Plunges 15%, Arista Networks Tumbles 10%"
-    },
-    {
-      "published_utc": "2026-11-05T17:02:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco Systems Has Multi-Year Growth Path But Faces Margin Concerns, Morgan Stanley Says"
-    },
-    {
-      "published_utc": "2026-11-05T14:55:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Morgan Stanley Downgrades Cisco On AI Impacting Gross Margins"
-    },
-    {
-      "published_utc": "2026-11-05T14:00:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco Systems (CSCO) Reports Next Week: Wall Street Expects Earnings Growth"
     }
   ]
 }
