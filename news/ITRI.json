@@ -1,9 +1,19 @@
 {
   "ticker": "ITRI",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T13:45:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Itron Brings Grid Edge Intelligence to EMEA to Extend Visibility Across the Low-Voltage Grid"
+    },
+    {
+      "published_utc": "2026-11-08T14:35:33+00:00",
+      "publisher": "Yahoo",
+      "title": "Morgan Stanley Sees a Big Opportunity for Itron (ITRI) in the AI Power Boom"
+    },
     {
       "published_utc": "2026-11-05T18:35:02+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-28T02:12:00+00:00",
       "publisher": "Yahoo",
       "title": "Itron reports strong Q3 earnings"
-    },
-    {
-      "published_utc": "2026-10-28T01:09:27+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Itron (ITRI) Undervalued After Strong Q3 Results And Raised Guidance?"
-    },
-    {
-      "published_utc": "2026-10-27T17:55:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Itron, Inc. Q3 2026 Earnings Call Summary"
     }
   ]
 }

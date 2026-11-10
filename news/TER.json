@@ -1,9 +1,29 @@
 {
   "ticker": "TER",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T21:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne Declares Quarterly Cash Dividend"
+    },
+    {
+      "published_utc": "2026-11-09T16:00:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne (TER) Upgraded to Strong Buy: Here's Why"
+    },
+    {
+      "published_utc": "2026-11-09T11:51:06+00:00",
+      "publisher": "ChartMill",
+      "title": "Teradyne (NASDAQ:TER): Affordable Growth at a Reasonable Valuation"
+    },
+    {
+      "published_utc": "2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Teradyne Introduces Omnyx Edge, Inline Board Test for Physical and Edge AI"
+    },
     {
       "published_utc": "2026-11-07T19:18:22+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-03T16:45:02+00:00",
       "publisher": "Yahoo",
       "title": "Teradyne (TER) is an Incredible Growth Stock: 3 Reasons Why"
-    },
-    {
-      "published_utc": "2026-11-03T15:40:02+00:00",
-      "publisher": "Yahoo",
-      "title": "FLEX or TER: Which Is the Better Value Stock Right Now?"
-    },
-    {
-      "published_utc": "2026-11-02T13:35:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Down 38.9% in 4 Weeks, Here's Why You Should You Buy the Dip in Teradyne (TER)"
-    },
-    {
-      "published_utc": "2026-10-29T16:18:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Teradyne Q3 Earnings Call Highlights AI Demand and 2027 Growth Plans"
-    },
-    {
-      "published_utc": "2026-10-29T14:46:45+00:00",
-      "publisher": "Benzinga",
-      "title": "UBS Maintains Buy on Teradyne, Lowers Price Target to $430"
     }
   ]
 }

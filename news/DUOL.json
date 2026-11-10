@@ -1,9 +1,19 @@
 {
   "ticker": "DUOL",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T13:00:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Investors Heavily Search Duolingo, Inc. (DUOL): Here is What You Need to Know"
+    },
+    {
+      "published_utc": "2026-11-09T12:16:00+00:00",
+      "publisher": "Yahoo",
+      "title": "DUOL Q3 Earnings Miss Estimates, Revenues Beat, Shares Rise 25.3%"
+    },
     {
       "published_utc": "2026-11-06T19:45:45+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-04T18:29:23+00:00",
       "publisher": "SeekingAlpha",
       "title": "Duolingo Risks Flying Into The Sun"
-    },
-    {
-      "published_utc": "2026-11-04T18:15:51+00:00",
-      "publisher": "Benzinga",
-      "title": "Scotiabank Maintains Sector Perform on Duolingo, Raises Price Target to $140"
-    },
-    {
-      "published_utc": "2026-11-04T17:13:06+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Maintains Neutral on Duolingo, Raises Price Target to $152"
     }
   ]
 }

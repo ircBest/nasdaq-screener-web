@@ -1,9 +1,19 @@
 {
   "ticker": "ENPH",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Enphase Energy Announces More Than 8 Million IQ Microinverters and Nearly 500 MWh of IQ Batteries Have Shipped from U.S. Manufacturing Facilities"
+    },
+    {
+      "published_utc": "2026-11-09T09:03:11+00:00",
+      "publisher": "Benzinga",
+      "title": "Enphase Energy Ships Over 8M IQ Microinverters, ~500 MWh Of IQ Batteries From U.S. Contract Production Sites"
+    },
     {
       "published_utc": "2026-11-05T13:12:56+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-31T13:40:37+00:00",
       "publisher": "Yahoo",
       "title": "How to Play the Nasty Post-Earnings Selloff in Enphase Stock"
-    },
-    {
-      "published_utc": "2026-10-30T21:23:29+00:00",
-      "publisher": "Yahoo",
-      "title": "The 5 most interesting analyst questions from Enphase’s Q3 earnings call"
-    },
-    {
-      "published_utc": "2026-10-30T17:17:13+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Maintains Neutral on Enphase Energy, Lowers Price Target to $25"
     }
   ]
 }

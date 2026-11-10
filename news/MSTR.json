@@ -1,9 +1,24 @@
 {
   "ticker": "MSTR",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T17:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Saylor's 'Underwater' bitcoin narrative is misleading"
+    },
+    {
+      "published_utc": "2026-11-09T14:25:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Buys 1,036 BTC but Spends More Repurchasing Its Preferred Stock Just Under $100"
+    },
+    {
+      "published_utc": "2026-11-09T13:24:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Buys $82M in Bitcoin, Buys Back $188M of STRC"
+    },
     {
       "published_utc": "2026-11-08T18:31:03+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-04T18:43:22+00:00",
       "publisher": "Yahoo",
       "title": "Michael Saylor Keeps Buying Bitcoin While ETF Investors Sell. Strategy Added 811 Coins While BlackRock’s Bitcoin ETF Saw $405.3 Million Pulled Out In A Single Day"
-    },
-    {
-      "published_utc": "2026-11-04T18:03:18+00:00",
-      "publisher": "Yahoo",
-      "title": "MicroStrategy’s 12% Dividend Stock Rebounds 34%: Will It Hold This Time?"
-    },
-    {
-      "published_utc": "2026-11-04T16:44:42+00:00",
-      "publisher": "Yahoo",
-      "title": "How to Play MSTR Stock as the CFO Leaves MicroStrategy"
-    },
-    {
-      "published_utc": "2026-11-04T16:03:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy CEO puts his Bitcoin firm alongside SpaceX, Alphabet"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "FIVN",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T09:17:36+00:00",
+      "publisher": "Yahoo",
+      "title": "FIVN Q3 2026 deep dive: AI growth accelerates, Level AI acquisition signals strategic shift"
+    },
+    {
+      "published_utc": "2026-11-08T20:28:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Five9 (FIVN): Evercore ISI Downgraded the Stock Despite AI Revenue Growth Rate of 91%"
+    },
     {
       "published_utc": "2026-11-08T06:16:36+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-06T12:27:36+00:00",
       "publisher": "Yahoo",
       "title": "Premarket movers: Airbnb, Cloudflare, IREN rally; Atlassian, Five9 tumble"
-    },
-    {
-      "published_utc": "2026-11-06T12:12:35+00:00",
-      "publisher": "Benzinga",
-      "title": "Barclays Maintains Overweight on Five9, Lowers Price Target to $38"
-    },
-    {
-      "published_utc": "2026-11-06T11:59:36+00:00",
-      "publisher": "Benzinga",
-      "title": "Five9 Slides as CEO Sees AI Momentum but 2026 Profit View Gets Cut"
     }
   ]
 }

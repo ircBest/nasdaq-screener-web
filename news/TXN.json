@@ -1,9 +1,34 @@
 {
   "ticker": "TXN",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T20:07:07+00:00",
+      "publisher": "Yahoo",
+      "title": "What Is Texas Instruments (TXN) Launching For Factory Automation And IIoT?"
+    },
+    {
+      "published_utc": "2026-11-09T18:23:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Verizon vs. Texas Instruments: Which Dividend Stock Pays You More in 10 Years?"
+    },
+    {
+      "published_utc": "2026-11-09T16:04:51+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Texas Instruments: Resurrected Growth And Cash Generation"
+    },
+    {
+      "published_utc": "2026-11-09T12:46:06+00:00",
+      "publisher": "Yahoo",
+      "title": "What Could Send Texas Instruments Stock Soaring?"
+    },
+    {
+      "published_utc": "2026-11-09T11:01:11+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Are Buying Texas Instruments (TXN) on Nov. 5"
+    },
     {
       "published_utc": "2026-11-06T21:52:39+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-05T07:00:00+00:00",
       "publisher": "Yahoo",
       "title": "The Zacks Analyst Blog Highlights Analog Devices, Taiwan Semiconductor Manufacturing, Texas Instruments and NVIDIA"
-    },
-    {
-      "published_utc": "2026-11-05T04:11:38+00:00",
-      "publisher": "Benzinga",
-      "title": "Texas Instruments Launches TICS100MOD, Industry’s Smallest Fully Featured Multiprotocol Module, And TIOM2212 IO-Link Master To Simplify Industrial Ethernet Integration For Connected Factories"
-    },
-    {
-      "published_utc": "2026-11-04T12:43:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Bull of the Day: Texas Instruments (TXN)"
-    },
-    {
-      "published_utc": "2026-11-04T11:01:51+00:00",
-      "publisher": "Yahoo",
-      "title": "46 ETFs Add to Texas Instruments (TXN) on Nov. 2"
-    },
-    {
-      "published_utc": "2026-11-04T08:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Bull of the Day: Texas Instrument (TXN)"
-    },
-    {
-      "published_utc": "2026-11-04T07:28:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Texas Instruments and KimberlyClark have been highlighted as Zacks Bull and Bear of the Day"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "RGTI",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T13:28:33+00:00",
+      "publisher": "Yahoo",
+      "title": "Rigetti Q3 Earnings Preview: What To Expect From Upcoming Report"
+    },
+    {
+      "published_utc": "2026-11-09T13:06:32+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave and Rigetti Are Down Big This Year. Their Q3 Reports Must Answer the Cash Burn Question"
+    },
+    {
+      "published_utc": "2026-11-09T11:54:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Rigetti Stock Jumped 17% on IonQ’s Guidance Raise. Here’s What Its November 10 Report Has to Show"
+    },
+    {
+      "published_utc": "2026-11-08T20:50:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Rigetti Gained 19% Friday. Its $100 Million CHIPS Award Hasn’t Reached Revenue Yet"
+    },
     {
       "published_utc": "2026-11-07T18:57:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T15:54:29+00:00",
       "publisher": "Yahoo",
       "title": "D-Wave Sinks 8%, Rigetti Down 8%, IonQ Down 8% as Quantum Stocks Slide Again"
-    },
-    {
-      "published_utc": "2026-11-05T15:23:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Rigetti Computing (RGTI) Powered A Quantum Forecasting Breakthrough In Finance"
-    },
-    {
-      "published_utc": "2026-11-04T21:50:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Rigetti Computing, Inc. (RGTI) Ascends But Remains Behind Market: Some Facts to Note"
-    },
-    {
-      "published_utc": "2026-11-04T14:33:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Rigetti Computing Slipped 23.4% Last Month"
-    },
-    {
-      "published_utc": "2026-11-04T06:20:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Not IonQ. Not Rigetti. This Quantum Computing Stock Could Be the Next to Soar."
     }
   ]
 }

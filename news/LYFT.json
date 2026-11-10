@@ -1,9 +1,14 @@
 {
   "ticker": "LYFT",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T02:38:17+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Lyft: Strong Bookings Underscore Dirt-Cheap FCF Multiples"
+    },
     {
       "published_utc": "2026-11-07T21:12:45+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-06T06:27:04+00:00",
       "publisher": "Yahoo",
       "title": "Robotaxis Aren't Killing Lyft's Business: CEO Says Company Is Growing in AV Markets, Details Waymo Partnership"
-    },
-    {
-      "published_utc": "2026-11-06T05:22:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Lyft Inc (LYFT) Q3 2026 Earnings Call Highlights: Record Bookings, Surging EBITDA and a ..."
     }
   ]
 }

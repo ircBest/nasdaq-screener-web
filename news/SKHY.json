@@ -1,9 +1,29 @@
 {
   "ticker": "SKHY",
-  "generated_at": "2026-11-09T11:46:33+00:00",
+  "generated_at": "2026-11-10T11:26:46+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T09:30:45+00:00",
+      "publisher": "ChartMill",
+      "title": "SK hynix (NASDAQ:SKHY) Offers Affordable Growth at a Reasonable Valuation"
+    },
+    {
+      "published_utc": "2026-11-09T08:35:20+00:00",
+      "publisher": "Yahoo",
+      "title": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence"
+    },
+    {
+      "published_utc": "2026-11-09T03:13:17+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "SK Hynix Profit Tanks 58%, Buy Now At 5x Earnings And Consider SKUU"
+    },
+    {
+      "published_utc": "2026-11-08T16:27:18+00:00",
+      "publisher": "Yahoo",
+      "title": "SK hynix Is Down 57% From Its High With Half of 2027 and 2028 Capacity Already Contracted"
+    },
     {
       "published_utc": "2026-11-07T05:16:43+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T22:17:58+00:00",
       "publisher": "Yahoo",
       "title": "SK Hynix (NasdaqGS:SKHY) Hits U.S. License Delays On $45 Billion New York Plants"
-    },
-    {
-      "published_utc": "2026-11-05T21:21:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Why SK Hynix Plunged Today"
-    },
-    {
-      "published_utc": "2026-11-05T18:59:45+00:00",
-      "publisher": "Yahoo",
-      "title": "SK Hynix Stocks Fall 9.46% Despite Long-Term Capacity Agreements"
-    },
-    {
-      "published_utc": "2026-11-05T16:39:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Wedbush Has a Urgent Message for SK Hynix Stock Fans"
-    },
-    {
-      "published_utc": "2026-11-05T15:08:33+00:00",
-      "publisher": "Yahoo",
-      "title": "SK hynix Sinks 9% as Qualcomm’s 26% Handset Plunge Deepens Memory Chip Rout"
     }
   ]
 }
