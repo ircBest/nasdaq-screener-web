@@ -1,9 +1,24 @@
 {
   "ticker": "QNT",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T07:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Quantinuum and RIKEN Expand Partnership to Accelerate the Commercialization of Quantum-AI Hybrid Supercomputing in Japan"
+    },
+    {
+      "published_utc": "2026-11-10T03:14:06+00:00",
+      "publisher": "Benzinga",
+      "title": "Quantinuum, RIKEN Expand Partnership After Completing Reimei Upgrade To H2 System, Will Develop “Made With Japan” Fault-Tolerant Quantum Computer, Collaborate With SoftBank On AI Data Centers"
+    },
+    {
+      "published_utc": "2026-11-09T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Quantinuum to Participate in the Cantor Convergence 4th Annual Crypto, FinTech, AI & Energy Infrastructure Conference"
+    },
     {
       "published_utc": "2026-11-09T08:23:48+00:00",
       "publisher": "Benzinga",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-06T14:04:19+00:00",
       "publisher": "Benzinga",
       "title": "Quantinuum Stock Surges After Beating Q3 Expectations"
-    },
-    {
-      "published_utc": "2026-11-06T13:07:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Quantum Computing Stocks Rally On IonQ, Quantinuum Q3 Results"
-    },
-    {
-      "published_utc": "2026-11-06T09:12:21+00:00",
-      "publisher": "Benzinga",
-      "title": "Quantinuum Analysts Cut Their Forecasts After Q3 Results"
-    },
-    {
-      "published_utc": "2026-11-06T08:42:16+00:00",
-      "publisher": "Benzinga",
-      "title": "Cantor Fitzgerald Maintains Overweight on Quantinuum, Lowers Price Target to $55"
     }
   ]
 }

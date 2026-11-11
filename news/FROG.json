@@ -1,9 +1,24 @@
 {
   "ticker": "FROG",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T13:15:02+00:00",
+      "publisher": "Yahoo",
+      "title": "JFrog Ltd. (FROG) Hits Fresh High: Is There Still Room to Run?"
+    },
+    {
+      "published_utc": "2026-11-10T00:21:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Why JFrog (FROG) stock is up today"
+    },
+    {
+      "published_utc": "2026-11-09T15:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Bank of America's JFrog call comes with a costly catch"
+    },
     {
       "published_utc": "2026-11-09T06:45:36+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-06T14:11:16+00:00",
       "publisher": "Benzinga",
       "title": "Truist Securities Maintains Buy on JFrog, Raises Price Target to $120"
-    },
-    {
-      "published_utc": "2026-11-06T12:14:32+00:00",
-      "publisher": "Benzinga",
-      "title": "Guggenheim Maintains Buy on JFrog, Raises Price Target to $125"
-    },
-    {
-      "published_utc": "2026-11-06T11:51:02+00:00",
-      "publisher": "Benzinga",
-      "title": "Moderna, JFrog, TransMedics, Ubiquiti And Other Big Stocks Moving Higher On Friday"
-    },
-    {
-      "published_utc": "2026-11-06T10:32:32+00:00",
-      "publisher": "Benzinga",
-      "title": "Piper Sandler Maintains Neutral on JFrog, Raises Price Target to $95"
     }
   ]
 }

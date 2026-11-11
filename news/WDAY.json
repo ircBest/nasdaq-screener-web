@@ -1,9 +1,19 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T21:01:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Has Workday Stock Trailed Cadence?"
+    },
+    {
+      "published_utc": "2026-11-10T19:03:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Bank of America calls Workday a ‘show me’ stock before earnings"
+    },
     {
       "published_utc": "2026-11-09T18:45:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-03T14:05:00+00:00",
       "publisher": "Yahoo",
       "title": "Chime Expands Partnership with Workday, Bringing Easier Access to Banking and Financial Wellness Benefits to Millions of Employees"
-    },
-    {
-      "published_utc": "2026-11-02T19:37:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Workday Stock Get Back To Where It Was?"
-    },
-    {
-      "published_utc": "2026-11-02T15:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Securian Financial Joins Workday Wellness to Advance Connected Employee Benefits Experience"
     }
   ]
 }

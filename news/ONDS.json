@@ -1,9 +1,34 @@
 {
   "ticker": "ONDS",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T20:10:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas (ONDS) Received A Tactical Drone Purchase Order"
+    },
+    {
+      "published_utc": "2026-11-10T18:56:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Retreats 9% Despite Attack Drone Purchase Order Ahead of Earnings; Red Cat Declines 9%, AeroVironment Falls 4%"
+    },
+    {
+      "published_utc": "2026-11-10T18:23:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Plans U.S. Manufacturing Push to Scale ULTRA Aircraft Output"
+    },
+    {
+      "published_utc": "2026-11-10T13:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Receives Purchase Order for Next-Generation Tactical Attack Drones, Aims to Leverage Planned ARAN Defense Acquisition to Manufacture Thousands of Systems"
+    },
+    {
+      "published_utc": "2026-11-09T16:58:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Ondas Rallies 13% Ahead of Earnings, AeroVironment Jumps 10% on $315 Million Award; Red Cat Surges 10%"
+    },
     {
       "published_utc": "2026-11-09T04:26:10+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-05T13:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Ondas Plans Significant U.S. Manufacturing Expansion to Scale Low-Cost ULTRA ISR Aircraft Production, Targeting 10 Aircraft per Month by 2028"
-    },
-    {
-      "published_utc": "2026-11-05T09:34:19+00:00",
-      "publisher": "Benzinga",
-      "title": "Ondas Intends to Expand Manufacturing Of ULTRA Aircraft, Targeting 10 Aircraft Per Month By 2028"
-    },
-    {
-      "published_utc": "2026-11-05T02:09:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas (ONDS) Wins Counter UAS Deals Following A Narrative That Says It Looks Undervalued"
-    },
-    {
-      "published_utc": "2026-11-04T13:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Secures Multi-Million-Dollar Counter-UAS Contracts in Europe and Asia, Accelerating Global Expansion in Aerial Defense"
-    },
-    {
-      "published_utc": "2026-11-04T09:32:57+00:00",
-      "publisher": "Benzinga",
-      "title": "Ondas Secures Multi-Million-Dollar Contracts With Governmental Customers In Europe And Asia, Further Expanding Global Counter-Unmanned Aircraft Systems Business"
-    },
-    {
-      "published_utc": "2026-11-03T11:40:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Can Ondas Capitalize on FEMA's $500M Counter-Drone Funding Expansion?"
     }
   ]
 }

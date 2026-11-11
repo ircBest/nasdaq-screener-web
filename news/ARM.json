@@ -1,9 +1,24 @@
 {
   "ticker": "ARM",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T16:21:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Arm Holdings plc (ARM) Was Bought Back After a Sharp Sell-Off: What’s Driving the Renewed Interest?"
+    },
+    {
+      "published_utc": "2026-11-10T13:08:10+00:00",
+      "publisher": "Yahoo",
+      "title": "ARM Just Dropped 13% After Earnings. Is It Time to Sell, or Load Up?"
+    },
+    {
+      "published_utc": "2026-11-10T12:09:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Arm Holdings (ARM) CEO Warns US AI Data Center Pushback Could Send Jobs Abroad"
+    },
     {
       "published_utc": "2026-11-08T02:12:56+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-05T17:42:59+00:00",
       "publisher": "Yahoo",
       "title": "Why Arm Holdings Stock Is Crashing Today"
-    },
-    {
-      "published_utc": "2026-11-05T16:45:17+00:00",
-      "publisher": "Benzinga",
-      "title": "TD Cowen Maintains Buy on ARM Holdings, Lowers Price Target to $250"
-    },
-    {
-      "published_utc": "2026-11-05T16:27:48+00:00",
-      "publisher": "Yahoo",
-      "title": "With a $325 Target, Barclays Says Arm Holdings’ Selloff Went Too Far"
-    },
-    {
-      "published_utc": "2026-11-05T14:33:01+00:00",
-      "publisher": "Benzinga",
-      "title": "RBC Capital Maintains Outperform on ARM Holdings, Lowers Price Target to $300"
     }
   ]
 }

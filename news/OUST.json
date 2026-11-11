@@ -1,9 +1,14 @@
 {
   "ticker": "OUST",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T08:09:42+00:00",
+      "publisher": "Benzinga",
+      "title": "Ouster Selected By Indra To Supply 3D Digital Lidar Sensors For Detection Capabilities Across Electronic Toll Collection Projects"
+    },
     {
       "published_utc": "2026-11-05T13:41:34+00:00",
       "publisher": "Benzinga",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-04T04:25:53+00:00",
       "publisher": "Yahoo",
       "title": "OUST Stock Gets A Retail Boost After Ouster's Record Revenue And Sensor Shipments: ‘Great Guide And Q3’"
-    },
-    {
-      "published_utc": "2026-11-04T02:14:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Ouster Q3 Earnings Call Highlights"
     }
   ]
 }

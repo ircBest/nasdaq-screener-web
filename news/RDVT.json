@@ -1,9 +1,14 @@
 {
   "ticker": "RDVT",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T13:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "red violet to Participate in the 7th Annual Needham Virtual Tech Week"
+    },
     {
       "published_utc": "2026-11-07T22:07:53+00:00",
       "publisher": "SeekingAlpha",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-04T17:11:00+00:00",
       "publisher": "Benzinga",
       "title": "Red Violet Q3 Adj. EPS $0.47 Beats $0.41 Estimate, Sales $27.751M Beat $27.223M Estimate"
-    },
-    {
-      "published_utc": "2026-11-03T10:41:02+00:00",
-      "publisher": "ChartMill",
-      "title": "Red Violet (NASDAQ:RDVT) Screens as a High-Growth Candidate on Improving Fundamentals"
     }
   ]
 }

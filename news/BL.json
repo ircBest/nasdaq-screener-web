@@ -1,9 +1,34 @@
 {
   "ticker": "BL",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T18:38:35+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "BlackLine, Inc. 2026 Q3 - Results - Earnings Call Presentation"
+    },
+    {
+      "published_utc": "2026-11-10T06:53:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Why BlackLine (BL) stock is falling today"
+    },
+    {
+      "published_utc": "2026-11-09T14:48:59+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on BlackLine, Lowers Price Target to $40"
+    },
+    {
+      "published_utc": "2026-11-09T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "BlackLine Announces AI Roadmap in Alignment with SAP Partnership to Deliver AI-Powered Gold Standard for Record-to-Report"
+    },
+    {
+      "published_utc": "2026-11-09T13:26:57+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Equal-Weight on BlackLine, Lowers Price Target to $28"
+    },
     {
       "published_utc": "2026-11-07T10:14:40+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-05T23:30:02+00:00",
       "publisher": "Yahoo",
       "title": "Compared to Estimates, BlackLine (BL) Q3 Earnings: A Look at Key Metrics"
-    },
-    {
-      "published_utc": "2026-11-05T23:20:44+00:00",
-      "publisher": "ChartMill",
-      "title": "BLACKLINE INC (NASDAQ:BL) Margins Offset Revenue Miss as Guidance Resets Lower"
-    },
-    {
-      "published_utc": "2026-11-05T21:57:22+00:00",
-      "publisher": "Yahoo",
-      "title": "BlackLine’s (NASDAQ:BL) Q3 2026 earnings results: revenue in line with expectations but full-year sales guidance slightly misses expectations"
-    },
-    {
-      "published_utc": "2026-11-05T21:44:56+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "BlackLine, Inc. (BL) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-05T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "BlackLine Announces Third Quarter Financial Results"
-    },
-    {
-      "published_utc": "2026-11-05T19:25:12+00:00",
-      "publisher": "Benzinga",
-      "title": "BlackLine Q3 2026 Earnings Call Transcript"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "DDOG",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T23:31:33+00:00",
+      "publisher": "Yahoo",
+      "title": "“Missing Forest-for-the-Trees”: Datadog Sinks 17% in a Week as Its Biggest AI Customer Cuts Back"
+    },
+    {
+      "published_utc": "2026-11-10T21:08:31+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog (DDOG) Stock Gets Fair Value Trim After Mixed Views On Q4 And AI Demand"
+    },
     {
       "published_utc": "2026-11-09T17:22:05+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-05T22:17:33+00:00",
       "publisher": "Yahoo",
       "title": "Datadog Just Dropped 34% in a Week. Is It Time to Sell, or Load Up?"
-    },
-    {
-      "published_utc": "2026-11-05T18:05:05+00:00",
-      "publisher": "Yahoo",
-      "title": "56% Upside for Datadog? Canaccord Genuity Thinks So, and Here’s How"
-    },
-    {
-      "published_utc": "2026-11-05T17:36:27+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Maintains Buy on Datadog, Lowers Price Target to $290"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "STX",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T17:15:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Seagate (STX) Unveiled FireCuda Forge With Its New Alkemi Storage Platform"
+    },
+    {
+      "published_utc": "2026-11-10T17:12:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Kratos And Seagate Just Announced A Partnership – A Look At The Key Highlights"
+    },
+    {
+      "published_utc": "2026-11-10T11:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Seagate Launches the FireCuda Forge, Powered by New Alkemi Intelligent Platform to Deliver Both SSD-Grade Responsiveness and HDD Capacity"
+    },
+    {
+      "published_utc": "2026-11-10T04:50:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Seagate Dropped 15% in a Week: Morgan Stanley Says It Could Double in the Next 12 Months"
+    },
     {
       "published_utc": "2026-11-09T18:55:16+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T16:01:58+00:00",
       "publisher": "Yahoo",
       "title": "Seagate Sinks 16% as Lawmaker Urges “A Pause on Advanced AI Development”"
-    },
-    {
-      "published_utc": "2026-11-05T11:21:27+00:00",
-      "publisher": "ChartMill",
-      "title": "Seagate Technology Holdings (NASDAQ:STX): A Quality Dividend Stock for Income Investors"
-    },
-    {
-      "published_utc": "2026-11-05T10:10:45+00:00",
-      "publisher": "Yahoo",
-      "title": "Earnings Beat Might Change The Case For Seagate Stock"
-    },
-    {
-      "published_utc": "2026-11-04T19:12:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Seagate Sinks 8%, Western Digital Down 6% on Election, Memory Price Worries"
-    },
-    {
-      "published_utc": "2026-11-04T12:58:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Seagate Revenue Soars 61% in Q1: Can This Momentum Continue?"
     }
   ]
 }

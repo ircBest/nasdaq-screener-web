@@ -1,9 +1,24 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T18:45:12+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group (CME) Delivers Resilient Performance Amid Competition"
+    },
+    {
+      "published_utc": "2026-11-10T13:15:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CME vs. PayPal: Which Financial Stock Is a Better Buy for 2027?"
+    },
+    {
+      "published_utc": "2026-11-10T13:05:02+00:00",
+      "publisher": "Yahoo",
+      "title": "CME vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?"
+    },
     {
       "published_utc": "2026-11-05T15:15:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-10-29T00:14:00+00:00",
       "publisher": "Yahoo",
       "title": "CME Group (CME) Stock Could Be 16% Above Fair Value As Record Q3 Revenue Lands"
-    },
-    {
-      "published_utc": "2026-10-28T20:06:51+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Stock Sees Fair Value Lift As Analysts Back Record Volumes"
-    },
-    {
-      "published_utc": "2026-10-28T18:11:03+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Looks Better Valued As Record Real Futures Volume Lifts Sentiment"
-    },
-    {
-      "published_utc": "2026-10-27T15:03:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group Brazilian Real Futures Set New Daily Volume Record Following Election"
     }
   ]
 }

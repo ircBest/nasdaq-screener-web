@@ -1,9 +1,24 @@
 {
   "ticker": "WDC",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T13:44:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Qualcomm vs. Western Digital: Which Tech Stock Is a Better Buy for 2027?"
+    },
+    {
+      "published_utc": "2026-11-10T13:00:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Investors Heavily Search Western Digital Corporation (WDC): Here is What You Need to Know"
+    },
+    {
+      "published_utc": "2026-11-10T00:32:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Western Digital or Micron? Jim Cramer Says “I Think Micron’s a Better Company.” Here’s the Test"
+    },
     {
       "published_utc": "2026-11-09T17:52:31+00:00",
       "publisher": "Yahoo",
@@ -13,6 +28,11 @@
       "published_utc": "2026-11-09T12:16:00+00:00",
       "publisher": "Yahoo",
       "title": "Is Western Digital Emerging as a Big Winner in the AI Storage Boom?"
+    },
+    {
+      "published_utc": "2026-11-09T11:00:07+00:00",
+      "publisher": "Benzinga",
+      "title": "Congressional Trading Report: Rep. John McGuire Sold Over $1K In Western Digital Stock"
     },
     {
       "published_utc": "2026-11-07T19:17:39+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-06T11:08:29+00:00",
       "publisher": "Benzinga",
       "title": "Western Digital Stock Rebounds as Wall Street Bets AI Storage Demand Outlasts Election Rout"
-    },
-    {
-      "published_utc": "2026-11-06T10:37:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Nasdaq Suffers Worst AI Panic in Years as Nvidia, SanDisk, and Western Digital Sink"
-    },
-    {
-      "published_utc": "2026-11-06T02:19:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Are Western Digital (WDC) Shares Falling On AI Data Center Policy Risk?"
-    },
-    {
-      "published_utc": "2026-11-06T01:59:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Micron Technology vs. Western Digital: Which Tech Stock Is the Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-05T13:47:07+00:00",
-      "publisher": "Yahoo",
-      "title": "SanDisk Slides 7%, Micron and Western Digital Fall 5% as Lawmaker’s Call for AI Pause Extends Memory Rout"
     }
   ]
 }

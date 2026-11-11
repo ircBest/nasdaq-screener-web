@@ -1,9 +1,24 @@
 {
   "ticker": "ASML",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T11:03:44+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Are Net Sellers of ASML (ASML) on Nov. 6"
+    },
+    {
+      "published_utc": "2026-11-10T06:28:00+00:00",
+      "publisher": "Yahoo",
+      "title": "The Zacks Analyst Blog Highlights ASML, Alibaba, Intuitive Surgical, Paul Mueller and Presurance"
+    },
+    {
+      "published_utc": "2026-11-10T01:21:12+00:00",
+      "publisher": "Yahoo",
+      "title": "ASML (ENXTAM:ASML) Stock May Be Priced For Perfection After 125% Run"
+    },
     {
       "published_utc": "2026-11-09T20:33:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-05T19:09:15+00:00",
       "publisher": "Yahoo",
       "title": "ASML Sinks 8% as Post-Election Chip Rout Deepens"
-    },
-    {
-      "published_utc": "2026-11-05T18:59:54+00:00",
-      "publisher": "Yahoo",
-      "title": "ASML Stocks Fall 7.36% as Investors Question the Next Spending Cycle"
-    },
-    {
-      "published_utc": "2026-11-05T13:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Could $10,000 Invested in ASML Set You Up for Life?"
-    },
-    {
-      "published_utc": "2026-11-05T11:01:28+00:00",
-      "publisher": "Yahoo",
-      "title": "ASML (ASML) Sees $65.7 Million in Net ETF Buying on Tuesday"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "ADI",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T13:30:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Brokers Suggest Investing in Analog Devices (ADI): Read This Before Placing a Bet"
+    },
+    {
+      "published_utc": "2026-11-10T11:02:33+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Are Net Sellers of Analog Devices (ADI) on Nov. 6"
+    },
     {
       "published_utc": "2026-11-09T21:01:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-04T22:00:01+00:00",
       "publisher": "Yahoo",
       "title": "Analog Devices (ADI) Stock Sinks As Market Gains: Here's Why"
-    },
-    {
-      "published_utc": "2026-11-03T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Analog Devices Completes Acquisition of Alif Semiconductor"
-    },
-    {
-      "published_utc": "2026-11-02T16:10:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Will Analog Devices (ADI) Beat Estimates Again in Its Next Earnings Report?"
     }
   ]
 }

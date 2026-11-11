@@ -1,9 +1,54 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T20:55:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase's national trust charter approval is a major win for crypto custody"
+    },
+    {
+      "published_utc": "2026-11-10T20:03:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Gets National Bank Charter Approval"
+    },
+    {
+      "published_utc": "2026-11-10T17:51:41+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Falls 4%, Robinhood Slides 3% as Hot Inflation Data Drags Bitcoin Lower; Webull Declines 2%"
+    },
+    {
+      "published_utc": "2026-11-10T17:03:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase, Kalshi, and Kraken are lawyering up. Here's why."
+    },
+    {
+      "published_utc": "2026-11-10T16:26:13+00:00",
+      "publisher": "Yahoo",
+      "title": "What Brian Armstrong Sees Ahead for Coinbase (COIN) in an Agentic Economy"
+    },
+    {
+      "published_utc": "2026-11-10T16:09:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Anthropic IPO Buzz Has Coinbase Stock And Retail Broker Shares Back On Watch"
+    },
+    {
+      "published_utc": "2026-11-10T10:33:33+00:00",
+      "publisher": "Benzinga",
+      "title": "Coinbase, Kraken, Kalshi Support CFTC in Legal Fight Over Stock Perpetual Futures"
+    },
+    {
+      "published_utc": "2026-11-10T09:45:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase, Kalshi and Jump Trading Urge Judge to Keep Single-Stock Perps Trading"
+    },
+    {
+      "published_utc": "2026-11-10T06:12:32+00:00",
+      "publisher": "Yahoo",
+      "title": "What Does Coinbase Global (COIN) Regaining New Jersey Staking Access Mean?"
+    },
     {
       "published_utc": "2026-11-09T20:50:02+00:00",
       "publisher": "Yahoo",
@@ -18,51 +63,6 @@
       "published_utc": "2026-11-09T19:14:03+00:00",
       "publisher": "Yahoo",
       "title": "Is Coinbase Global (COIN) A Bargain After Its Federal Trust Charter Approval?"
-    },
-    {
-      "published_utc": "2026-11-09T17:38:31+00:00",
-      "publisher": "Yahoo",
-      "title": "What Coinbase's final federal trust charter actually changes"
-    },
-    {
-      "published_utc": "2026-11-09T17:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "PNC Bank Lets Corporate Clients Accept USDC Payments in New Coinbase-Powered Pilot"
-    },
-    {
-      "published_utc": "2026-11-09T17:23:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase secures unconditional trust charter"
-    },
-    {
-      "published_utc": "2026-11-09T17:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy buys more bitcoin, and Coinbase gets final federal trust charter"
-    },
-    {
-      "published_utc": "2026-11-09T15:44:00+00:00",
-      "publisher": "Yahoo",
-      "title": "PNC Bank Partners With Coinbase to Offer USDC Payments to Clients"
-    },
-    {
-      "published_utc": "2026-11-09T15:09:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global Receives U.S. Trust Charter"
-    },
-    {
-      "published_utc": "2026-11-09T13:21:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Wins Final OCC Approval to Charter a National Trust Company for Crypto Custody"
-    },
-    {
-      "published_utc": "2026-11-09T13:06:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Users Can Now Borrow USDC Against Tokenized Gold"
-    },
-    {
-      "published_utc": "2026-11-09T12:39:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Bets On The OCC Route Amid CLARITY Act Stalemate: COIN Stock Slides Amid Crypto Selloff"
     }
   ]
 }

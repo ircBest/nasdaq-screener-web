@@ -1,9 +1,24 @@
 {
   "ticker": "ALAB",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Astera Labs Announces Upcoming Financial Conference Participation"
+    },
+    {
+      "published_utc": "2026-11-10T11:03:51+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Are Net Sellers of Astera Labs (ALAB) on Nov. 6"
+    },
+    {
+      "published_utc": "2026-11-09T13:50:30+00:00",
+      "publisher": "Benzinga",
+      "title": "Astera Labs Stock Is Surging Monday: What's Going On?"
+    },
     {
       "published_utc": "2026-11-09T11:26:24+00:00",
       "publisher": "SeekingAlpha",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-05T16:03:12+00:00",
       "publisher": "Yahoo",
       "title": "Astera Labs Has Slumped Since June: Why J.P. Morgan Still Sees 157% Upside"
-    },
-    {
-      "published_utc": "2026-11-05T14:46:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Astera Labs Sinks 12%, Dell Technologies Down 8% as Chip Stocks Slide Again"
-    },
-    {
-      "published_utc": "2026-11-05T13:05:14+00:00",
-      "publisher": "Benzinga",
-      "title": "This Astera Labs Analyst Begins Coverage On A Bullish Note; Here Are Top 2 Initiations For Thursday"
-    },
-    {
-      "published_utc": "2026-11-05T08:37:28+00:00",
-      "publisher": "Benzinga",
-      "title": "BMO Capital Initiates Coverage On Astera Labs with Outperform Rating, Announces Price Target of $375"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "CIFR",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T06:15:43+00:00",
+      "publisher": "Yahoo",
+      "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms"
+    },
+    {
+      "published_utc": "2026-11-09T22:18:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Cipher Digital Rises 4%, Riot Up 6% as Morgan Stanley Calls Powered Shell Stocks a Buying Opportunity"
+    },
+    {
+      "published_utc": "2026-11-09T13:52:28+00:00",
+      "publisher": "Yahoo",
+      "title": "Cipher Digital and BitMine Fall 4% as Ethereum Slides in Crypto Sell-Off; Strategy Drops 3%"
+    },
+    {
+      "published_utc": "2026-11-09T13:29:39+00:00",
+      "publisher": "Benzinga",
+      "title": "Morgan Stanley Maintains Overweight on Cipher Digital, Lowers Price Target to $27.5"
+    },
     {
       "published_utc": "2026-11-09T05:09:39+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T16:07:12+00:00",
       "publisher": "Yahoo",
       "title": "Cipher Digital Sinks Another 21% as AI Data Center Selloff Deepens After Midterms"
-    },
-    {
-      "published_utc": "2026-11-05T11:04:27+00:00",
-      "publisher": "Benzinga",
-      "title": "Why Is Cipher Digital Stock Falling on Thursday?"
-    },
-    {
-      "published_utc": "2026-11-04T20:10:13+00:00",
-      "publisher": "Yahoo",
-      "title": "Cipher Digital Sinks 21% as Keefe Bruyette Downgrades It on Texas Election"
-    },
-    {
-      "published_utc": "2026-11-04T17:56:12+00:00",
-      "publisher": "Yahoo",
-      "title": "TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9%"
-    },
-    {
-      "published_utc": "2026-11-04T14:07:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Cipher Digital Stock Lost 53.9% in October"
     }
   ]
 }

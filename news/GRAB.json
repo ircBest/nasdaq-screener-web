@@ -1,9 +1,29 @@
 {
   "ticker": "GRAB",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T19:35:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Grab Holdings Stocks Fall 3.20% After $750 Million Bet on Malaysian AI Data Centers"
+    },
+    {
+      "published_utc": "2026-11-10T07:28:30+00:00",
+      "publisher": "Benzinga",
+      "title": "Toyota Liquidated Its Stake In Grab Holdings As Of September 30"
+    },
+    {
+      "published_utc": "2026-11-09T22:41:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Stock Market Today, Nov. 9: Grab Holdings Jumps on Record Adjusted EBITDA and Q3 Revenue Beat"
+    },
+    {
+      "published_utc": "2026-11-09T11:43:05+00:00",
+      "publisher": "Benzinga",
+      "title": "SoftBank Group, Grab Holdings, Petroleum Sarawak Berhad Ink Agreement To Invest $1B  To Develop AI Infrastructure In Sarawak, Malaysia"
+    },
     {
       "published_utc": "2026-11-04T12:41:51+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-03T22:18:19+00:00",
       "publisher": "Yahoo",
       "title": "Grab Stock Jumps On Raised Outlook After Strong Quarter"
-    },
-    {
-      "published_utc": "2026-11-03T13:53:28+00:00",
-      "publisher": "Benzinga",
-      "title": "JP Morgan Maintains Overweight on Grab Holdings, Raises Price Target to $5.1"
-    },
-    {
-      "published_utc": "2026-11-03T13:50:27+00:00",
-      "publisher": "Yahoo",
-      "title": "Grab Shares Surge 10% as Q3 Revenue Rises 27% and Full-Year Earnings Outlook Improves"
-    },
-    {
-      "published_utc": "2026-11-03T11:10:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Grab Holdings Limited (GRAB) Reports Break-Even Earnings for Q3"
-    },
-    {
-      "published_utc": "2026-11-03T09:19:29+00:00",
-      "publisher": "Benzinga",
-      "title": "Uber's Asia Rival Grab Reports First-Ever Profitability Across All Three Core Segments"
     }
   ]
 }

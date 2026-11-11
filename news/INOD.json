@@ -1,9 +1,29 @@
 {
   "ticker": "INOD",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-09T20:06:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Innodata (INOD) Faces A Valuation Test As Earnings And Selling Pressure Collide"
+    },
+    {
+      "published_utc": "2026-11-09T14:54:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Innodata Worth Buying as AI Growth Collides With Premium Valuation?"
+    },
+    {
+      "published_utc": "2026-11-09T14:52:00+00:00",
+      "publisher": "Yahoo",
+      "title": "INOD Drops 15.5% in a Week as Program Loss and Margin Risks Resurface"
+    },
+    {
+      "published_utc": "2026-11-09T14:50:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Innodata Sustain 42% Growth After a $12 Million Program Wind-Down?"
+    },
     {
       "published_utc": "2026-11-09T11:56:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T21:45:14+00:00",
       "publisher": "Yahoo",
       "title": "Innodata Inc (INOD) Tops Q3 Earnings and Revenue Estimates"
-    },
-    {
-      "published_utc": "2026-11-05T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Innodata Reports Record Third Quarter 2026 Results"
-    },
-    {
-      "published_utc": "2026-11-05T17:58:22+00:00",
-      "publisher": "Benzinga",
-      "title": "Innodata FY2026  Revenue expected to be more than $357.361M vs $358.235M Est"
-    },
-    {
-      "published_utc": "2026-11-04T14:04:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Cerebras Systems vs. Innodata: Which Tech Stock Is the Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-04T13:10:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Innodata (INOD) Above Fair Value After Its Sharp Pullback?"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "KLAC",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T18:47:29+00:00",
+      "publisher": "Yahoo",
+      "title": "$1,000 Invested in KLA 10 Years Ago Would Be Worth Over $21,000 Today"
+    },
+    {
+      "published_utc": "2026-11-10T13:05:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Can KLA Stock Rally 50% After This Dip?"
+    },
+    {
+      "published_utc": "2026-11-10T11:03:17+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Are Net Sellers of Kla-Tencor (KLAC) on Nov. 6"
+    },
+    {
+      "published_utc": "2026-11-10T02:37:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Amtech, Intel, Applied Materials, AMD, and KLA Corporation shares are soaring, what you need to know"
+    },
     {
       "published_utc": "2026-11-07T09:19:13+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-04T20:50:05+00:00",
       "publisher": "Yahoo",
       "title": "S&P upgrades KLA to ’A’ as AI chip demand bolsters scale and balance sheet"
-    },
-    {
-      "published_utc": "2026-11-04T17:21:00+00:00",
-      "publisher": "Yahoo",
-      "title": "KLAC Q1 Earnings Call Highlights AI Demand and 2027 Growth Outlook"
-    },
-    {
-      "published_utc": "2026-11-04T11:06:53+00:00",
-      "publisher": "Yahoo",
-      "title": "What Could Derail KLA Stock?"
-    },
-    {
-      "published_utc": "2026-11-04T07:24:00+00:00",
-      "publisher": "Yahoo",
-      "title": "The Zacks Analyst Blog Highlights Lilly, Cisco, KLA, Oil-Dri Corp. of America and NVE"
-    },
-    {
-      "published_utc": "2026-11-03T20:12:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Top Analyst Reports for Eli Lilly, Cisco & KLA"
     }
   ]
 }

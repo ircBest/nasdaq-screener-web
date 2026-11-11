@@ -1,9 +1,24 @@
 {
   "ticker": "DBX",
-  "generated_at": "2026-11-10T11:26:46+00:00",
+  "generated_at": "2026-11-11T11:12:01+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T14:42:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Dropbox stock falls after pricing $1.1B convertible notes"
+    },
+    {
+      "published_utc": "2026-11-10T09:24:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Dropbox Upsizes and Prices $1.1 Billion Private Convertible Senior Bond Offering"
+    },
+    {
+      "published_utc": "2026-11-10T05:31:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Dropbox, Inc. Announces Upsize and Pricing of $1.1 Billion Convertible Senior Notes Offering"
+    },
     {
       "published_utc": "2026-11-09T12:13:36+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-06T12:14:34+00:00",
       "publisher": "Yahoo",
       "title": "Dropbox (DBX) Earnings Put Fair Value Questions Back In Focus"
-    },
-    {
-      "published_utc": "2026-11-06T08:31:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Dropbox (DBX) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-06T08:27:45+00:00",
-      "publisher": "Yahoo",
-      "title": "Dropbox to acquire object storage service Tigris Data for $350m"
-    },
-    {
-      "published_utc": "2026-11-06T07:19:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Dropbox Inc (DBX) Q3 2026 Earnings Call Highlights: Margin Strength, AI Ambitions, and the ..."
     }
   ]
 }
