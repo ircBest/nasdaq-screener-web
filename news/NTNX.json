@@ -1,9 +1,19 @@
 {
   "ticker": "NTNX",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T21:45:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Nutanix (NTNX) Surpasses Market Returns: Some Facts Worth Knowing"
+    },
+    {
+      "published_utc": "2026-11-11T17:08:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Nutanix Stock Down 15%: Is Slower Growth Really The Supply Chain?"
+    },
     {
       "published_utc": "2026-11-08T06:11:52+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-29T14:52:00+00:00",
       "publisher": "Yahoo",
       "title": "Converged Infrastructure Solutions and Services - Global Strategic Business Report: Capitalize on 19.9% CAGR to $151.8B by 2030 as Cisco Systems, Dell EMC, Nutanix and IBM Disrupt Enterprise IT"
-    },
-    {
-      "published_utc": "2026-10-29T13:55:03+00:00",
-      "publisher": "Yahoo",
-      "title": "2 Reasons to like NTNX and 1 to stay skeptical"
-    },
-    {
-      "published_utc": "2026-10-28T15:08:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Earnings Beat Could Be A Big Test For Nutanix Stock (NTNX)"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "FSLY",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T20:02:14+00:00",
+      "publisher": "Yahoo",
+      "title": "Fastly Is Still Down 40% in the Past Month: Can FSLY Stock Get Back to $30?"
+    },
+    {
+      "published_utc": "2026-11-11T19:20:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Datadog vs. Fastly: Which Cloud Tech Stock Is a Better Buy for 2027?"
+    },
     {
       "published_utc": "2026-11-10T02:29:36+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-05T15:53:00+00:00",
       "publisher": "Yahoo",
       "title": "FSLY Q3 Earnings Call Highlights Growth & Higher Outlook"
-    },
-    {
-      "published_utc": "2026-11-05T15:24:34+00:00",
-      "publisher": "Benzinga",
-      "title": "RBC Capital Maintains Sector Perform on Fastly, Lowers Price Target to $19"
-    },
-    {
-      "published_utc": "2026-11-05T15:13:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Fastly (FSLY) Q3 2026 Earnings Call Transcript"
     }
   ]
 }

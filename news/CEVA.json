@@ -1,9 +1,34 @@
 {
   "ticker": "CEVA",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T05:06:25+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "CEVA: Growth Is Slowing, But The Valuation Remains High"
+    },
+    {
+      "published_utc": "2026-11-11T01:20:57+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "CEVA: Navigating The Edge AI Transition And Handset Royalty Risks"
+    },
+    {
+      "published_utc": "2026-11-10T16:34:33+00:00",
+      "publisher": "Benzinga",
+      "title": "UBS Maintains Buy on CEVA, Lowers Price Target to $35"
+    },
+    {
+      "published_utc": "2026-11-10T14:15:36+00:00",
+      "publisher": "Benzinga",
+      "title": "JP Morgan Maintains Neutral on CEVA, Lowers Price Target to $35"
+    },
+    {
+      "published_utc": "2026-11-10T12:43:11+00:00",
+      "publisher": "Benzinga",
+      "title": "Oppenheimer Reiterates Outperform on CEVA, Lowers Price Target to $35"
+    },
     {
       "published_utc": "2026-11-10T10:21:47+00:00",
       "publisher": "Benzinga",
@@ -38,21 +63,6 @@
       "published_utc": "2026-11-09T12:25:01+00:00",
       "publisher": "Yahoo",
       "title": "Ceva (CEVA) Lags Q3 Earnings and Revenue Estimates"
-    },
-    {
-      "published_utc": "2026-11-09T08:02:02+00:00",
-      "publisher": "Benzinga",
-      "title": "CEVA Q3 Adj. EPS $0.13 Misses $0.19 Estimate, Sales $29.100M Miss $32.708M Estimate"
-    },
-    {
-      "published_utc": "2026-11-04T03:22:13+00:00",
-      "publisher": "Yahoo",
-      "title": "CEVA (CEVA) Stock Fair Value Falls After Analysts Trim Targets Despite AI Licensing Progress"
-    },
-    {
-      "published_utc": "2026-11-02T17:38:01+00:00",
-      "publisher": "Benzinga",
-      "title": "UBS Maintains Buy on CEVA, Lowers Price Target to $40"
     }
   ]
 }

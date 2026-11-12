@@ -1,9 +1,19 @@
 {
   "ticker": "CGNX",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T10:13:14+00:00",
+      "publisher": "Benzinga",
+      "title": "Jefferies Initiates Coverage On Cognex with Buy Rating, Announces Price Target of $64"
+    },
+    {
+      "published_utc": "2026-11-10T23:35:46+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Cognex Corporation 2026 Q3 - Results - Earnings Call Presentation"
+    },
     {
       "published_utc": "2026-11-10T18:30:55+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-05T23:19:15+00:00",
       "publisher": "Yahoo",
       "title": "Cognex Corp (CGNX) (Q3 2026) Earnings Call Highlights: Record Revenue, 1,340 Basis Point Margin ..."
-    },
-    {
-      "published_utc": "2026-11-05T19:14:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Cognex (CGNX) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-05T19:14:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Cognex Q3 Earnings Call Highlights"
     }
   ]
 }

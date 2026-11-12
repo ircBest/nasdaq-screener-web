@@ -1,9 +1,19 @@
 {
   "ticker": "LYFT",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Lyft CEO to Participate in Fireside Chat at the 2026 RBC Capital Markets Global Technology, Internet, Media and Telecommunications Conference"
+    },
+    {
+      "published_utc": "2026-11-10T16:13:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Update: Lyft Faces $53 Million Lawsuit Over Alleged Discrimination Against Passengers With Disabilities"
+    },
     {
       "published_utc": "2026-11-10T03:25:36+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-06T14:44:12+00:00",
       "publisher": "Benzinga",
       "title": "Scotiabank Maintains Sector Perform on Lyft, Lowers Price Target to $16"
-    },
-    {
-      "published_utc": "2026-11-06T14:15:38+00:00",
-      "publisher": "Benzinga",
-      "title": "Truist Securities Maintains Hold on Lyft, Raises Price Target to $18"
-    },
-    {
-      "published_utc": "2026-11-06T10:51:59+00:00",
-      "publisher": "Benzinga",
-      "title": "Evercore ISI Group Maintains In-Line on Lyft, Lowers Price Target to $20"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T12:57:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Buy, Sell, or Hold? Wednesday’s Top Upgrades and Downgrades: Akamai Technologies, Apple, BILL Holdings, Corning, Form Factor, Guidewire Software, NVIDIA, Riot Platforms, Toast, and More"
+    },
+    {
+      "published_utc": "2026-11-11T05:30:10+00:00",
+      "publisher": "Benzinga",
+      "title": "Evercore ISI Group Downgrades Akamai Technologies to In-Line, Lowers Price Target to $90"
+    },
     {
       "published_utc": "2026-11-10T02:34:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-07T14:14:56+00:00",
       "publisher": "Yahoo",
       "title": "Anthropic Deal Could Reshape The Case For Akamai Stock"
-    },
-    {
-      "published_utc": "2026-11-07T13:09:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Akamai (AKAM) Stock May Be 23% Undervalued Despite Cloud Delays"
-    },
-    {
-      "published_utc": "2026-11-07T12:12:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Akamai Technologies (AKAM) Could Be 46% Undervalued After Third Quarter 2026 Results"
     }
   ]
 }

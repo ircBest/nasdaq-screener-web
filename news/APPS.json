@@ -1,9 +1,34 @@
 {
   "ticker": "APPS",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-10T19:12:00+00:00",
+      "publisher": "Yahoo",
+      "title": "APPS Q2 Earnings Beat Estimates on Strong Ad Growth, Guidance Up"
+    },
+    {
+      "published_utc": "2026-11-10T15:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Digital Turbine Stock Sinks 35% as AI Investments Turn Earnings Into ‘Deflated Balloon’"
+    },
+    {
+      "published_utc": "2026-11-10T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Digital Turbine Q2 Earnings Call Highlights AI-Led Growth"
+    },
+    {
+      "published_utc": "2026-11-10T13:52:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Digital Turbine Plunges 23% Despite Revenue Beat as Margins Shrink and Profit Outlook Stays Put; Unity Slides 2%, AppLovin Dips"
+    },
+    {
+      "published_utc": "2026-11-10T12:39:10+00:00",
+      "publisher": "Yahoo",
+      "title": "APPS Stock Eyes Worst Day In Two Years — CEO Says AI-Driven Open Web Traffic Declines Shifting Ads To Apps"
+    },
     {
       "published_utc": "2026-11-10T09:52:11+00:00",
       "publisher": "Benzinga",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-09T21:15:02+00:00",
       "publisher": "Yahoo",
       "title": "Digital Turbine (APPS) Beats Q2 Earnings and Revenue Estimates"
-    },
-    {
-      "published_utc": "2026-11-09T21:12:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Digital Turbine: Fiscal Q2 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-11-09T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Digital Turbine Reports Strong Fiscal 2027 Second Quarter Financial Results"
-    },
-    {
-      "published_utc": "2026-11-09T18:10:11+00:00",
-      "publisher": "Benzinga",
-      "title": "Digital Turbine Stock Drops After Q2 Earnings"
-    },
-    {
-      "published_utc": "2026-11-09T17:41:44+00:00",
-      "publisher": "Benzinga",
-      "title": "Digital Turbine Raises FY2027 Sales Guidance from $650.000M-$670.000M to $670.000M-$690.000M vs $665.291M Est"
-    },
-    {
-      "published_utc": "2026-11-09T17:13:54+00:00",
-      "publisher": "Benzinga",
-      "title": "Digital Turbine Q2 Adj. EPS $0.18 Beats $0.17 Estimate, Sales $178.683M Beat $166.750M Estimate"
     }
   ]
 }

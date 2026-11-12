@@ -1,9 +1,59 @@
 {
   "ticker": "SMCI",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T18:14:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Computer (SMCI) Unveils H15 Servers As Export Scrutiny Draws Focus"
+    },
+    {
+      "published_utc": "2026-11-11T17:15:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Supermicro (SMCI) Stock May Be Undervalued Following Fresh AI Server Launches"
+    },
+    {
+      "published_utc": "2026-11-11T16:51:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave’s Rise Takes Super Micro Along for the Ride, Sending Stock Higher"
+    },
+    {
+      "published_utc": "2026-11-11T16:22:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Vertiv's Data Center Growth Fuels Revenue: Can It Beat APH and SMCI?"
+    },
+    {
+      "published_utc": "2026-11-11T16:02:31+00:00",
+      "publisher": "Yahoo",
+      "title": "Dell Jumps 11% as AI Server Stocks Rebound From a Rough Month; Super Micro Surges 8%, Hewlett Packard Enterprise Advances 6%"
+    },
+    {
+      "published_utc": "2026-11-11T15:28:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Supermicro Begins Shipping New AMD-Powered AI Servers — Claims Up To 1.8x Higher AI Throughput"
+    },
+    {
+      "published_utc": "2026-11-11T14:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Supermicro Now Shipping Next-Generation Servers Powered by 6th Gen AMD EPYC™ 9006 Series CPUs for Cloud, HPC, and Agentic AI Workloads"
+    },
+    {
+      "published_utc": "2026-11-11T13:24:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Computer: Q1 Earnings Had Plenty to Cheer and Plenty to Worry About"
+    },
+    {
+      "published_utc": "2026-11-11T10:07:42+00:00",
+      "publisher": "Benzinga",
+      "title": "Super Micro Computer Begins Shipments Of Its H15 Generation Servers With AMD EPYC 9006 Series Processors"
+    },
+    {
+      "published_utc": "2026-11-10T23:26:50+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Super Micro Computer: The Story Is Getting Better And Better (Rating Upgrade)"
+    },
     {
       "published_utc": "2026-11-10T21:05:00+00:00",
       "publisher": "Yahoo",
@@ -13,56 +63,6 @@
       "published_utc": "2026-11-10T19:25:05+00:00",
       "publisher": "Yahoo",
       "title": "Super Micro Computer Stocks Fall 2.01% as Cash Drain Shadows Fourfold Sales Jump"
-    },
-    {
-      "published_utc": "2026-11-10T19:06:05+00:00",
-      "publisher": "ChartMill",
-      "title": "S&P 500 Most Active Stocks in Today's Session: SMCI, AT&T, Ford Lead Volume"
-    },
-    {
-      "published_utc": "2026-11-10T18:16:54+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Earned $1.6 Billion Last Quarter. Slight Problem: Its Operating Cash Flow Was Negative $434 Million"
-    },
-    {
-      "published_utc": "2026-11-10T18:02:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Falls 4% as NVIDIA’s Slide Drags AI Server Stocks; Dell Drops 6%, Hewlett Packard Enterprise Declines 2%"
-    },
-    {
-      "published_utc": "2026-11-10T13:50:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro CFO: A 44% Customer Is “a Consequence of the Scale” of the AI Buildout"
-    },
-    {
-      "published_utc": "2026-11-10T12:06:11+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Super Micro Q1 Earnings: Large Working Capital Requirements And Negative Cash Flow"
-    },
-    {
-      "published_utc": "2026-11-10T09:07:14+00:00",
-      "publisher": "Benzinga",
-      "title": "Susquehanna Maintains Negative on Super Micro Computer, Raises Price Target to $18"
-    },
-    {
-      "published_utc": "2026-11-10T04:52:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Is Down 28% in a Year. Is Jim Cramer Right About “Major Structural Problems”?"
-    },
-    {
-      "published_utc": "2026-11-09T15:50:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro CEO Calls a $72 Billion to $82 Billion Outlook “Very, Very Conservative”"
-    },
-    {
-      "published_utc": "2026-11-09T13:00:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Computer, Inc. (SMCI) Is a Trending Stock: Facts to Know Before Betting on It"
-    },
-    {
-      "published_utc": "2026-11-07T13:27:20+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Super Micro Computer: My Sell Call Worked, Now I'm Buying (Rating Upgrade)"
     }
   ]
 }

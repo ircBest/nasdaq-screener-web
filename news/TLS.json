@@ -1,0 +1,33 @@
+{
+  "ticker": "TLS",
+  "generated_at": "2026-11-12T11:21:41+00:00",
+  "window_days": 14,
+  "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
+  "articles": [
+    {
+      "published_utc": "2026-11-10T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "TLS Q3 Earnings Call Highlights 2027 Growth and Margin Plans"
+    },
+    {
+      "published_utc": "2026-11-10T13:53:39+00:00",
+      "publisher": "Benzinga",
+      "title": "B. Riley Securities Maintains Buy on Telos, Raises Price Target to $11"
+    },
+    {
+      "published_utc": "2026-11-10T12:42:00+00:00",
+      "publisher": "Yahoo",
+      "title": "TLS Q3 Earnings Beat Estimates on Identity Strength, Guidance Raised"
+    },
+    {
+      "published_utc": "2026-11-10T11:37:59+00:00",
+      "publisher": "Benzinga",
+      "title": "Wedbush Maintains Neutral on Telos, Raises Price Target to $7"
+    },
+    {
+      "published_utc": "2026-11-10T06:36:28+00:00",
+      "publisher": "Benzinga",
+      "title": "Needham Maintains Buy on Telos, Raises Price Target to $9"
+    }
+  ]
+}

@@ -1,9 +1,29 @@
 {
   "ticker": "CRDO",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T18:56:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Credo Technology Stocks Climb 10.8% as AI Connectivity Names Rally"
+    },
+    {
+      "published_utc": "2026-11-11T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Credo Schedules Second Quarter Fiscal Year 2027 Financial Results Conference Call"
+    },
+    {
+      "published_utc": "2026-11-11T06:30:50+00:00",
+      "publisher": "Benzinga",
+      "title": "Credo Technology Stock Is Surging Wednesday: What's Going On?"
+    },
+    {
+      "published_utc": "2026-11-11T02:55:30+00:00",
+      "publisher": "Yahoo",
+      "title": "Credo and Lumentum Sink 14% in a Week as Democrats’ Sweep Hits AI Data Centers"
+    },
     {
       "published_utc": "2026-11-09T19:13:42+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T20:02:12+00:00",
       "publisher": "Yahoo",
       "title": "Credo Sinks Another 14% as Democratic Sweep Stokes “Left-Tail Event” Fears for AI"
-    },
-    {
-      "published_utc": "2026-11-05T11:55:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit?"
-    },
-    {
-      "published_utc": "2026-11-05T09:15:29+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Credo Technology: Moving To Hold After ~40% Decline (Rating Upgrade)"
-    },
-    {
-      "published_utc": "2026-11-04T21:13:30+00:00",
-      "publisher": "Yahoo",
-      "title": "Credo Technology Group Holding (CRDO) Secures OCP Approval For Two Optical Telemetry Standards"
-    },
-    {
-      "published_utc": "2026-11-04T20:12:57+00:00",
-      "publisher": "Yahoo",
-      "title": "Credo Technology Group Holding (CRDO) Stock Looks Below Fair Value On Cash Flow"
     }
   ]
 }

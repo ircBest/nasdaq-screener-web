@@ -1,9 +1,19 @@
 {
   "ticker": "SOUN",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T16:26:00+00:00",
+      "publisher": "Yahoo",
+      "title": "SoundHound's $120M Annual Cost Cuts: A Path to Profitability?"
+    },
+    {
+      "published_utc": "2026-11-11T09:55:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Should You Buy SoundHound AI Stock After Its 83% Plunge? The Answer Might Surprise You."
+    },
     {
       "published_utc": "2026-11-10T14:45:36+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-07T01:19:14+00:00",
       "publisher": "Yahoo",
       "title": "SoundHound AI (SOUN) Stock Price Faces Q3 Results Margin Strain"
-    },
-    {
-      "published_utc": "2026-11-06T22:15:16+00:00",
-      "publisher": "Benzinga",
-      "title": "CORRECTION: Reported November 5, 2026: SoundHound AI Affirms FY2027 Sales Guidance of $350.000M-$400.000M vs $395.313M Est"
-    },
-    {
-      "published_utc": "2026-11-06T18:35:56+00:00",
-      "publisher": "Yahoo",
-      "title": "SoundHound Sinks 8% as It Gives Up Upfront License Revenue for “Quality of Earnings”"
     }
   ]
 }

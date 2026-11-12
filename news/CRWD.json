@@ -1,9 +1,19 @@
 {
   "ticker": "CRWD",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T22:46:45+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike CEO describes what a Hugging Face 2.0 would look like"
+    },
+    {
+      "published_utc": "2026-11-11T16:56:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Here’s Why Baron Fund Maintains High Conviction in CrowdStrike (CRWD)"
+    },
     {
       "published_utc": "2026-11-10T21:45:02+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-07T12:29:00+00:00",
       "publisher": "Yahoo",
       "title": "George Kurtz Just Announced Incredible News for CrowdStrike Investors and the Artificial Intelligence (AI) Industry"
-    },
-    {
-      "published_utc": "2026-11-06T16:39:35+00:00",
-      "publisher": "Yahoo",
-      "title": "CrowdStrike Rebounds 2%, Palo Alto Up 2% as Cloudflare Finds “An Even Higher Gear”"
-    },
-    {
-      "published_utc": "2026-11-06T14:33:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Will CRWD's Acquisitions of Fiddler and Dreadnode Boost its AI Growth?"
     }
   ]
 }

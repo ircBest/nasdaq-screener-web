@@ -1,9 +1,19 @@
 {
   "ticker": "NOVT",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T04:32:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Novanta Stock Earnings Beat Keeps Riverpoint Integration In Focus"
+    },
+    {
+      "published_utc": "2026-11-11T03:05:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Novanta Inc (NOVT) Q3 2026 Earnings Call Highlights: Record Margins, Strong Bookings and a ..."
+    },
     {
       "published_utc": "2026-11-10T23:30:50+00:00",
       "publisher": "Yahoo",
@@ -30,6 +40,11 @@
       "title": "Novanta Inc. (NOVT) Q3 2026 Earnings Call Transcript"
     },
     {
+      "published_utc": "2026-11-10T13:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Novanta Inc. Q3 2026 Earnings Call Summary"
+    },
+    {
       "published_utc": "2026-11-09T22:35:07+00:00",
       "publisher": "Yahoo",
       "title": "Novanta (NOVT) Q3 Earnings and Revenues Surpass Estimates"
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-09T21:45:00+00:00",
       "publisher": "Yahoo",
       "title": "Novanta Announces Financial Results for the Third Quarter 2026"
-    },
-    {
-      "published_utc": "2026-11-09T17:46:56+00:00",
-      "publisher": "Benzinga",
-      "title": "Novanta Lowers FY2026 Adj EPS Guidance from $3.68-$3.74 to $3.66-$3.71 vs $3.69 Est; Raises FY2026 Sales Guidance from $1.130B-$1.140B to $1.135B-$1.140B vs $1.134B Est"
-    },
-    {
-      "published_utc": "2026-11-09T17:46:10+00:00",
-      "publisher": "Benzinga",
-      "title": "Novanta Q3 Adj. EPS $1.05 Beats $0.97 Estimate, Sales $305.008M Beat $301.010M Estimate"
-    },
-    {
-      "published_utc": "2026-11-09T17:46:06+00:00",
-      "publisher": "Benzinga",
-      "title": "Novanta Sees Q4 Adj EPS $0.91-$0.96 vs $1.02 Est; Sees Sales $306.000M-$312.000M vs $308.823M Est"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "GDYN",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T20:06:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Grid Dynamics Holdings, Inc. (GDYN) Hits Fresh High: Is There Still Room to Run?"
+    },
+    {
+      "published_utc": "2026-11-10T11:02:06+00:00",
+      "publisher": "Benzinga",
+      "title": "Insider Transaction: LLOYD CARNEY Sells $887K Worth Of Grid Dynamics Holdings Shares"
+    },
     {
       "published_utc": "2026-11-10T05:44:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-10-30T18:42:01+00:00",
       "publisher": "Benzinga",
       "title": "JP Morgan Maintains Overweight on Grid Dynamics Holdings, Raises Price Target to $11"
-    },
-    {
-      "published_utc": "2026-10-30T15:44:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Grid Dynamics (GDYN) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-10-30T15:35:33+00:00",
-      "publisher": "Benzinga",
-      "title": "TD Cowen Maintains Buy on Grid Dynamics Holdings, Raises Price Target to $13"
     }
   ]
 }

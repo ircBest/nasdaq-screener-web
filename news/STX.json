@@ -1,9 +1,34 @@
 {
   "ticker": "STX",
-  "generated_at": "2026-11-11T11:12:01+00:00",
+  "generated_at": "2026-11-12T11:21:41+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T18:51:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Seagate Stocks Jump 11.36% as CoreWeave Results Revive Nearline Storage Demand"
+    },
+    {
+      "published_utc": "2026-11-11T15:57:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Seagate Expands Storage Portfolio With FireCuda Forge Launch"
+    },
+    {
+      "published_utc": "2026-11-11T15:37:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Seagate Soars 10% as CoreWeave’s “Breakout Quarter” Eases AI Spending Fears"
+    },
+    {
+      "published_utc": "2026-11-11T14:08:42+00:00",
+      "publisher": "Yahoo",
+      "title": "Seagate Spikes 9%, Sandisk Surges 8% as CoreWeave’s Results Revive AI Trade; Micron Climbs 7%"
+    },
+    {
+      "published_utc": "2026-11-11T01:50:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Seagate A Better Way Than Apple To Own AI Hardware Demand?"
+    },
     {
       "published_utc": "2026-11-10T17:15:27+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-09T12:13:00+00:00",
       "publisher": "Yahoo",
       "title": "STX Posts Record Q1 FY27 Profit: Can AI Storage Demand Drive Growth?"
-    },
-    {
-      "published_utc": "2026-11-09T06:06:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Seagate (STX) Stock Could Be Undervalued As Its Three Year Run Continues"
-    },
-    {
-      "published_utc": "2026-11-06T16:45:02+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Reasons Growth Investors Will Love Seagate (STX)"
-    },
-    {
-      "published_utc": "2026-11-06T12:21:03+00:00",
-      "publisher": "Yahoo",
-      "title": "What Would It Take For Seagate Stock To Do It Again?"
-    },
-    {
-      "published_utc": "2026-11-06T11:06:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Capital Group Growth (CGGR) Buys $16.8 Million More Seagate on Nov. 4"
-    },
-    {
-      "published_utc": "2026-11-05T16:01:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Seagate Sinks 16% as Lawmaker Urges “A Pause on Advanced AI Development”"
     }
   ]
 }
