@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-11T22:57:25+00:00",
+ "generated_at": "2026-11-12T02:02:05+00:00",
  "latest_hours": 36,
  "good_hours": 72,
  "note": "좋은 소식 · 나쁜 소식은 제목에 정해진 말 (예: 실적이 예상보다 좋았다 · 전망을 내렸다) 이 있는 기사를 기계가 골라 묶은 것입니다. 기사 본문은 읽지 않습니다. 사라 · 팔라는 뜻이 아니고, 검증된 신호도 아닙니다. 우리 모의 매매 기록에서 '큰 좋은 소식이 난 다음 날 사기' 는 판정 전이지만 지금까지 기대와 반대로 가고 있습니다. 회사 기사는 제목에 그 회사가 나오는 것만, 업계 소식은 한 회사가 아니라 AI · 반도체 · 데이터센터 · 클라우드 전체를 말하는 것만 실었습니다.",
@@ -178,18 +178,636 @@
   "latest": 80,
   "good": 112,
   "bad": 120,
-  "mixed": 21,
-  "sector_good": 16,
-  "sector_bad": 11,
-  "sector_mixed": 10,
+  "mixed": 22,
+  "sector_good": 15,
+  "sector_bad": 13,
+  "sector_mixed": 9,
   "dropped": {
    "forbidden": 0,
-   "unrelated": 2116,
-   "old": 713,
+   "unrelated": 2278,
+   "old": 323,
    "no_time": 0
   }
  },
  "latest": [
+  {
+   "time": "2026-11-11T23:55:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia Directors Reportedly Consider Ousting CEO Jensen Huang, WSJ Reports",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:53:10+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia sinks after report implicates CEO Jensen Huang in 2nd affair",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:51:18+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia's stock dives as board weighs move to oust Jensen Huang",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:48:55+00:00",
+   "publisher": "Yahoo",
+   "title": "Dow Jones Futures: Techs Tumble Late As Nvidia May Oust CEO Huang; AI Stocks Slide, But Not AMD",
+   "t": [
+    "AMD",
+    "NVDA"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc.",
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:43:23+00:00",
+   "publisher": "Yahoo",
+   "title": "CoreWeave plans $4 billion high-grade loan, Bloomberg reports",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:36:40+00:00",
+   "publisher": "Yahoo",
+   "title": "Applied Optoelectronics (AAOI) Just Soared 15.6% — This Company May Hold The Reason",
+   "t": [
+    "AAOI"
+   ],
+   "names": [
+    "Applied Optoelectronics, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:34:19+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results",
+   "t": [
+    "INTC",
+    "NVDA"
+   ],
+   "names": [
+    "Intel Corporation",
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:28:56+00:00",
+   "publisher": "Yahoo",
+   "title": "Analyst Says Sandisk Corp. (SNDK) Offers More Than 100% Upside. Should You Buy?",
+   "t": [
+    "SNDK"
+   ],
+   "names": [
+    "Sandisk Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:28:45+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:21:23+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia’s Board Is Reportedly Planning To Oust Jensen Huang Over Chinese Spy, Employee Misconduct Investigation",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:20:24+00:00",
+   "publisher": "Yahoo",
+   "title": "Amkor (AMKR) Stock May Be Below Fair Value On Earnings Power",
+   "t": [
+    "AMKR"
+   ],
+   "names": [
+    "Amkor Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:18:20+00:00",
+   "publisher": "Yahoo",
+   "title": "CoreWeave (CRWV) Stock Rebounds As Q3 Results Ignite Margin Debate",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:16:52+00:00",
+   "publisher": "Yahoo",
+   "title": "Who is Nvidia executive Kimberly Powell?",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:10:04+00:00",
+   "publisher": "Yahoo",
+   "title": "NVIDIA expected to oust Jensen Huang  - report",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:07:32+00:00",
+   "publisher": "Yahoo",
+   "title": "Wall Street’s Newest Teradyne Bull Just Sent a $2 Billion Signal That the Stock’s 56% Crash Went Too Far",
+   "t": [
+    "TER"
+   ],
+   "names": [
+    "Teradyne, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:07:13+00:00",
+   "publisher": "Yahoo",
+   "title": "Bloom Energy Just Jumped 13% After CoreWeave Calmed AI Data Center Fears. History Says What Usually Comes Next for a Stock That Halved",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:07:01+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia and Alphabet Just Agreed to Buy $10 Billion Each of Anthropic Stock at Its IPO Price",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:06:30+00:00",
+   "publisher": "ChartMill",
+   "title": "Digi International (NASDAQ:DGII) Shares Fall After In-Line Q4 and Soft Q1 Guidance",
+   "t": [
+    "DGII"
+   ],
+   "names": [
+    "Digi International Inc."
+   ],
+   "tone": "bad",
+   "kind": "guide_cut",
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:06:06+00:00",
+   "publisher": "Yahoo",
+   "title": "Nayax Ltd (NYAX) (Q3 2026) Earnings Call Highlights: Record Margins, 23% Revenue Growth and the ...",
+   "t": [
+    "NYAX"
+   ],
+   "names": [
+    "Nayax Ltd."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:04:34+00:00",
+   "publisher": "Yahoo",
+   "title": "Stock Market Today, Nov. 11: Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks",
+   "t": [
+    "INTC"
+   ],
+   "names": [
+    "Intel Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T23:01:17+00:00",
+   "publisher": "Yahoo",
+   "title": "Update: Market Chatter: Nvidia CEO Jensen Huang Said to Have Had Extramarital Affair With Nvidia Executive",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:52:34+00:00",
+   "publisher": "Yahoo",
+   "title": "Stock Market Today, Nov. 11: Advanced Micro Devices Jumps -- and Not Only Because of CoreWeave's Results",
+   "t": [
+    "AMD",
+    "CRWV"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc.",
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:46:45+00:00",
+   "publisher": "Yahoo",
+   "title": "CrowdStrike CEO describes what a Hugging Face 2.0 would look like",
+   "t": [
+    "CRWD"
+   ],
+   "names": [
+    "CrowdStrike Holdings, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:45:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Stock Market Today, Nov. 11: Stock Market Today, Nov. 11: Nasdaq Surges as CoreWeave's 25% Rally Reignites the AI Trade",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:36:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia-Backed CoreWeave Is Surging: Here’s What It Means for the AI Boom",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:34:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Micron Stock Is Down 40% From Its Peak After the Sell-Off. History Says This Is What Happens Next.",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:25:01+00:00",
+   "publisher": "Yahoo",
+   "title": "Stock Market Today, Nov. 11: IREN Rises as AI Cloud Peers Rally on CoreWeave Results",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:20:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Axon Enterprise vs. Okta: Which Security Stock Is a Better Buy for 2027?",
+   "t": [
+    "OKTA"
+   ],
+   "names": [
+    "Okta, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:18:42+00:00",
+   "publisher": "Yahoo",
+   "title": "How Much Tax Does a 66-Year-Old Owe Selling $600,000 in Micron and Oracle Gains?",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:14:11+00:00",
+   "publisher": "Yahoo",
+   "title": "Stock Market Today, Nov. 11: CoreWeave Surges 25% on Beat-and-Raise Quarter",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": "good",
+   "kind": "jump",
+   "good": "jump"
+  },
+  {
+   "time": "2026-11-11T22:12:07+00:00",
+   "publisher": "Yahoo",
+   "title": "Applied Materials (AMAT) Rebounds Ahead Of Earnings, Is It Still Trading At A Discount?",
+   "t": [
+    "AMAT"
+   ],
+   "names": [
+    "Applied Materials, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:11:49+00:00",
+   "publisher": "Yahoo",
+   "title": "Coinbase (COIN) Stock Could Look Pricey On New Trust Charter News",
+   "t": [
+    "COIN"
+   ],
+   "names": [
+    "Coinbase Global, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:11:42+00:00",
+   "publisher": "Yahoo",
+   "title": "Oracle Stock Just Surged After CoreWeave Earnings. Here's Why One Analyst Says It's Built for the Data-Center Backlash",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:10:57+00:00",
+   "publisher": "Yahoo",
+   "title": "Nayax Ltd. Q3 2026 Earnings Call Summary",
+   "t": [
+    "NYAX"
+   ],
+   "names": [
+    "Nayax Ltd."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:10:41+00:00",
+   "publisher": "Yahoo",
+   "title": "Micron Technology (MU) Commits $1 Billion To Landmark AI Infrastructure IPO",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:10:30+00:00",
+   "publisher": "Yahoo",
+   "title": "Cadence Design Systems (CDNS) Stock Could Be Overvalued On Fresh AI Design Platform News",
+   "t": [
+    "CDNS"
+   ],
+   "names": [
+    "Cadence Design Systems, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:09:45+00:00",
+   "publisher": "Yahoo",
+   "title": "Microchip Technology (MCHP) Stock Looks Like A Bargain On Balance",
+   "t": [
+    "MCHP"
+   ],
+   "names": [
+    "Microchip Technology Incorporat"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:09:08+00:00",
+   "publisher": "Yahoo",
+   "title": "Why Teradyne Stock Is Getting Attention After Edge AI Test Platform Launch",
+   "t": [
+    "TER"
+   ],
+   "names": [
+    "Teradyne, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:07:41+00:00",
+   "publisher": "Yahoo",
+   "title": "MSCI Drops Strategy From Its US Index: Will $2.8 Billion in Forced Selling Hit MSTR?",
+   "t": [
+    "MSTR",
+    "STRC",
+    "STRD",
+    "STRF",
+    "STRK"
+   ],
+   "names": [
+    "Strategy Inc",
+    "Strategy Inc - Variable Rate Se",
+    "Strategy Inc - 10.00% Series A ",
+    "Strategy Inc - 10.00% Series A ",
+    "Strategy Inc - 8.00% Series A P"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:07:34+00:00",
+   "publisher": "Yahoo",
+   "title": "Lam Research Sinks 16%, Applied Materials 15% in a Week. Lam Responds With $25 Billion Buyback",
+   "t": [
+    "LRCX"
+   ],
+   "names": [
+    "Lam Research Corporation"
+   ],
+   "tone": "mixed",
+   "kind": "mixed",
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:07:24+00:00",
+   "publisher": "Yahoo",
+   "title": "Jim Cramer Says Micron Isn’t Going Away. Here’s Why He Picks It Over Sandisk",
+   "t": [
+    "MU",
+    "SNDK"
+   ],
+   "names": [
+    "Micron Technology, Inc.",
+    "Sandisk Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:05:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Stock Market Today, Nov. 11: Nvidia Rebounds as CoreWeave Earnings Reignite the AI Trade",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T22:05:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Xanadu Announces Third Quarter 2026 Results",
+   "t": [
+    "XNDU"
+   ],
+   "names": [
+    "Xanadu Quantum Technologies Lim"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
   {
    "time": "2026-11-11T21:57:02+00:00",
    "publisher": "Yahoo",
@@ -205,6 +823,20 @@
    "good": null
   },
   {
+   "time": "2026-11-11T21:50:01+00:00",
+   "publisher": "Yahoo",
+   "title": "Why Okta (OKTA) Outpaced the Stock Market Today",
+   "t": [
+    "OKTA"
+   ],
+   "names": [
+    "Okta, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-11T21:46:00+00:00",
    "publisher": "Yahoo",
    "title": "Lisa Su Just Delivered Fantastic News for AMD Investors",
@@ -213,6 +845,34 @@
    ],
    "names": [
     "Advanced Micro Devices, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T21:45:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Workday (WDAY) Increases Yet Falls Behind Market: What Investors Need to Know",
+   "t": [
+    "WDAY"
+   ],
+   "names": [
+    "Workday, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T21:45:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Nutanix (NTNX) Surpasses Market Returns: Some Facts Worth Knowing",
+   "t": [
+    "NTNX"
+   ],
+   "names": [
+    "Nutanix, Inc."
    ],
    "tone": null,
    "kind": null,
@@ -294,6 +954,20 @@
    ],
    "tone": "bad",
    "kind": "people",
+   "good": null
+  },
+  {
+   "time": "2026-11-11T21:32:41+00:00",
+   "publisher": "Yahoo",
+   "title": "Atlassian vs. Zscaler: Which Technology Stock Is a Better Buy for 2027?",
+   "t": [
+    "ZS"
+   ],
+   "names": [
+    "Zscaler, Inc."
+   ],
+   "tone": null,
+   "kind": null,
    "good": null
   },
   {
@@ -471,6 +1145,20 @@
    "good": null
   },
   {
+   "time": "2026-11-11T20:33:14+00:00",
+   "publisher": "Yahoo",
+   "title": "Cathie Wood, Brad Gerstner and 8 Other Big Funds Bought Cerebras. Is It a Buy Before Earnings?",
+   "t": [
+    "CBRS"
+   ],
+   "names": [
+    "Cerebras Systems Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-11T20:28:34+00:00",
    "publisher": "Yahoo",
    "title": "13 Big Funds Sold Applied Materials. Should You Follow Them Before Earnings?",
@@ -479,6 +1167,20 @@
    ],
    "names": [
     "Applied Materials, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T20:26:45+00:00",
+   "publisher": "Yahoo",
+   "title": "Does The Move In AST SpaceMobile Stock Change Anything?",
+   "t": [
+    "ASTS"
+   ],
+   "names": [
+    "AST SpaceMobile, Inc."
    ],
    "tone": null,
    "kind": null,
@@ -569,6 +1271,34 @@
    "good": null
   },
   {
+   "time": "2026-11-11T20:21:20+00:00",
+   "publisher": "Yahoo",
+   "title": "Zoom Communications, Inc. (ZM) is Attracting Investor Attention: Here is What You Should Know",
+   "t": [
+    "ZM"
+   ],
+   "names": [
+    "Zoom Communications, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-11T20:19:45+00:00",
+   "publisher": "Yahoo",
+   "title": "Does nLight (LASR) Have the Potential to Rally 44.18% as Wall Street Analysts Expect?",
+   "t": [
+    "LASR"
+   ],
+   "names": [
+    "nLIGHT, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-11T20:19:34+00:00",
    "publisher": "Yahoo",
    "title": "Marvell Acquires Lumentum in Blockbuster $80 Billion Deal",
@@ -611,732 +1341,6 @@
    "tone": null,
    "kind": null,
    "good": null
-  },
-  {
-   "time": "2026-11-11T20:13:40+00:00",
-   "publisher": "Yahoo",
-   "title": "Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards",
-   "t": [
-    "AAPL"
-   ],
-   "names": [
-    "Apple Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:08:12+00:00",
-   "publisher": "Yahoo",
-   "title": "What Is Cisco Systems (CSCO) Building With Its New AI Defense Push?",
-   "t": [
-    "CSCO"
-   ],
-   "names": [
-    "Cisco Systems, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:08:01+00:00",
-   "publisher": "Yahoo",
-   "title": "Should Value Investors Buy Adobe (ADBE) Stock?",
-   "t": [
-    "ADBE"
-   ],
-   "names": [
-    "Adobe Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:05:00+00:00",
-   "publisher": "Yahoo",
-   "title": "SHI Recognized as the Winner of 2026 Microsoft Americas Regional Device Partner of the Year",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:02:11+00:00",
-   "publisher": "Yahoo",
-   "title": "Coinbase Is Still Down 23% in the Past Month: Did Today Mark the Bottom for COIN Stock?",
-   "t": [
-    "COIN"
-   ],
-   "names": [
-    "Coinbase Global, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:01:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Replit Awarded 2026 Microsoft for Startups Partner of the Year",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Cloudforce Named 2026 Microsoft Education Partner of the Year, the First Company Ever to Win the Award Twice",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Insight Wins Three 2026 Microsoft Partner of the Year Awards Following GitHub Partner of the Year Win",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Nerdio recognized as the winner of 2026 Microsoft Americas ISV Partner of the Year",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Arrow Electronics recognized as 2026 Microsoft Distribution Partner of the Year for second consecutive year",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T20:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "TD SYNNEX Recognized as the Winner of 2026 Microsoft Global Commercial Device Channel Partner of the Year Award",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:54:00+00:00",
-   "publisher": "Yahoo",
-   "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:37:50+00:00",
-   "publisher": "Yahoo",
-   "title": "CoreWeave Sees “10x as Much Qualified Demand” as Capacity as Old Nvidia Chips Reprice Higher",
-   "t": [
-    "CRWV",
-    "NVDA"
-   ],
-   "names": [
-    "CoreWeave, Inc.",
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:27:37+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia Just Had Its Worst 5 Days Since 2022, Worse Than the DeepSeek Crash",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:24:48+00:00",
-   "publisher": "Yahoo",
-   "title": "Micron Stock Fell 30% in a Week. Bernstein Says It Could Nearly Double",
-   "t": [
-    "MU"
-   ],
-   "names": [
-    "Micron Technology, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:20:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Datadog vs. Fastly: Which Cloud Tech Stock Is a Better Buy for 2027?",
-   "t": [
-    "DDOG"
-   ],
-   "names": [
-    "Datadog, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:15:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Prediction: Nvidia Stock Will Be Worth This Much by Year-End 2027",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:14:09+00:00",
-   "publisher": "Yahoo",
-   "title": "CME Group (CME) Hits Record October Volume, Is The Stock Already Pricey?",
-   "t": [
-    "CME"
-   ],
-   "names": [
-    "CME Group Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:12:52+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia short-seller warned of Jensen Huang's ties to suspected spy",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:11:37+00:00",
-   "publisher": "Yahoo",
-   "title": "Lam Research (LRCX) Just Gave Investors Something To Think About",
-   "t": [
-    "LRCX"
-   ],
-   "names": [
-    "Lam Research Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:10:18+00:00",
-   "publisher": "Yahoo",
-   "title": "Intel Stocks Climb 5.23% as SoftBank Reveals $7.4 Billion Raised Against Intel Shares",
-   "t": [
-    "INTC"
-   ],
-   "names": [
-    "Intel Corporation"
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-11T19:07:43+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia stock is pricing in 2 major risks as CEO Jensen Huang's affair fallout plays out",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:05:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Amazon and Microsoft Lead the Cloud Market. One of Them Has Far Greater Upside.",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:03:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Lumentum Stocks Jump 14.85% as AI Optics Rebound Narrows Marvell Deal Gap",
-   "t": [
-    "LITE",
-    "MRVL"
-   ],
-   "names": [
-    "Lumentum Holdings Inc.",
-    "Marvell Technology, Inc."
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-11T19:02:57+00:00",
-   "publisher": "Yahoo",
-   "title": "Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7%",
-   "t": [
-    "AMAT",
-    "KLAC",
-    "LRCX"
-   ],
-   "names": [
-    "Applied Materials, Inc.",
-    "KLA Corporation",
-    "Lam Research Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:02:41+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia-Backed Nebius Faces Crucial Wall Street Test",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T19:01:44+00:00",
-   "publisher": "Yahoo",
-   "title": "Marvell Technology Stocks Surge 12.22% as AI Optics Rally Eases Lumentum Deal Doubts",
-   "t": [
-    "LITE",
-    "MRVL"
-   ],
-   "names": [
-    "Lumentum Holdings Inc.",
-    "Marvell Technology, Inc."
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-11T19:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses",
-   "t": [
-    "MU"
-   ],
-   "names": [
-    "Micron Technology, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:55:45+00:00",
-   "publisher": "Yahoo",
-   "title": "Update: US Equity Indexes Jump as CoreWeave's Strong Quarterly Results, Guidance Boost AI Trade",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:53:58+00:00",
-   "publisher": "Yahoo",
-   "title": "Bloom Energy stock surges as CoreWeave earnings spur rally in power stocks",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:52:30+00:00",
-   "publisher": "Yahoo",
-   "title": "What's Going On With Nvidia Stock Wednesday",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:51:57+00:00",
-   "publisher": "Yahoo",
-   "title": "Stifel Just Cut Its CoreWeave Target From $120 to $60, Even After a Raised Outlook",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": "mixed",
-   "kind": "mixed",
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:51:53+00:00",
-   "publisher": "Yahoo",
-   "title": "Western Digital Stocks Climb 9.24% as AI Storage Names Rebound",
-   "t": [
-    "WDC"
-   ],
-   "names": [
-    "Western Digital Corporation"
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-11T18:51:13+00:00",
-   "publisher": "Yahoo",
-   "title": "Seagate Stocks Jump 11.36% as CoreWeave Results Revive Nearline Storage Demand",
-   "t": [
-    "STX"
-   ],
-   "names": [
-    "Seagate Technology Holdings PLC"
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-11T18:50:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Adobe Systems vs. Snowflake: Which Technology Stock Is a Better Buy for 2027?",
-   "t": [
-    "ADBE"
-   ],
-   "names": [
-    "Adobe Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:47:27+00:00",
-   "publisher": "Yahoo",
-   "title": "Sandisk Stocks Jump 16% as Storage Rally Returns Ahead of 8-for-1 Split",
-   "t": [
-    "SNDK"
-   ],
-   "names": [
-    "Sandisk Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:46:57+00:00",
-   "publisher": "Yahoo",
-   "title": "Cramer Says Apple Investors Who Sold After Steve Jobs Missed Years Of Gains. The Stock Is Up Nearly 3,000% Since. Now He’s Asking If Nvidia Needs Jensen Huang",
-   "t": [
-    "AAPL"
-   ],
-   "names": [
-    "Apple Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:39:51+00:00",
-   "publisher": "Yahoo",
-   "title": "Applied Materials Stocks Climb 5.72% a Day Before Fourth-Quarter Results",
-   "t": [
-    "AMAT"
-   ],
-   "names": [
-    "Applied Materials, Inc."
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-11T18:37:08+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia, AMD and Broadcom Lead AI Stock Rally as CoreWeave Results Ease Spending Fears",
-   "t": [
-    "AMD",
-    "AVGO"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc.",
-    "Broadcom Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:20:02+00:00",
-   "publisher": "Yahoo",
-   "title": "History Says This Is What Will Happen to Sandisk Stock After Its 8-for-1 Split",
-   "t": [
-    "SNDK"
-   ],
-   "names": [
-    "Sandisk Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:18:38+00:00",
-   "publisher": "Yahoo",
-   "title": "SNDK Stock Set For Best Day In Nearly Four Months: Evercore ISI Forecasts Stable Demand For NAND Storage Amid AI Spending",
-   "t": [
-    "SNDK"
-   ],
-   "names": [
-    "Sandisk Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:14:19+00:00",
-   "publisher": "Yahoo",
-   "title": "Super Micro Computer (SMCI) Unveils H15 Servers As Export Scrutiny Draws Focus",
-   "t": [
-    "SMCI"
-   ],
-   "names": [
-    "Super Micro Computer, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:11:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Micron Is Rebounding. Goldman Prefers These Memory Stocks.",
-   "t": [
-    "MU"
-   ],
-   "names": [
-    "Micron Technology, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:07:59+00:00",
-   "publisher": "Yahoo",
-   "title": "Applied Materials fiscal Q4 2026 earnings preview: what to watch for in the print",
-   "t": [
-    "AMAT"
-   ],
-   "names": [
-    "Applied Materials, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:07:25+00:00",
-   "publisher": "Yahoo",
-   "title": "Cisco earnings preview: EPS, margins, and guidance in focus",
-   "t": [
-    "CSCO"
-   ],
-   "names": [
-    "Cisco Systems, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:05:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Teradyne's AI testing opportunity prompts Jefferies 'buy' rating",
-   "t": [
-    "TER"
-   ],
-   "names": [
-    "Teradyne, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:03:26+00:00",
-   "publisher": "Yahoo",
-   "title": "Adobe (ADBE) Is Down About 31% This Year. Here’s What Citi’s Tyler Radke Sees Next",
-   "t": [
-    "ADBE"
-   ],
-   "names": [
-    "Adobe Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:02:59+00:00",
-   "publisher": "Yahoo",
-   "title": "Here’s Why Barclays’ Tom O’Malley Kept a Sell on Qualcomm (QCOM)",
-   "t": [
-    "QCOM"
-   ],
-   "names": [
-    "QUALCOMM Incorporated"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:02:24+00:00",
-   "publisher": "Yahoo",
-   "title": "Here’s Why Truist and Evercore Slashed Their Price Targets on Microchip (MCHP)",
-   "t": [
-    "MCHP"
-   ],
-   "names": [
-    "Microchip Technology Incorporat"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:02:02+00:00",
-   "publisher": "Yahoo",
-   "title": "BofA Raised Its Earnings Estimates but Cut Its Target on AMD (AMD), Here’s Why",
-   "t": [
-    "AMD"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-11T18:01:45+00:00",
-   "publisher": "Yahoo",
-   "title": "CoreWeave earnings analysis: questions answered and next catalysts",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
   }
  ],
  "good": [
@@ -1353,6 +1357,20 @@
      ],
      "names": [
       "CoreWeave, Inc."
+     ],
+     "tone": "good",
+     "kind": "beat",
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-11T15:25:13+00:00",
+     "publisher": "Yahoo",
+     "title": "Nayax (NYAX) Surpasses Q3 Earnings Estimates",
+     "t": [
+      "NYAX"
+     ],
+     "names": [
+      "Nayax Ltd."
      ],
      "tone": "good",
      "kind": "beat",
@@ -1749,104 +1767,6 @@
      "tone": "good",
      "kind": "beat",
      "good": "beat"
-    },
-    {
-     "time": "2026-11-10T01:14:54+00:00",
-     "publisher": "ChartMill",
-     "title": "Sanmina (NASDAQ:SANM) Q4 2026 Results Beat Estimates, Sparking 20.8% After-Hours Rally",
-     "t": [
-      "SANM"
-     ],
-     "names": [
-      "Sanmina Corporation"
-     ],
-     "tone": "good",
-     "kind": "beat",
-     "good": "beat"
-    },
-    {
-     "time": "2026-11-10T01:13:54+00:00",
-     "publisher": "ChartMill",
-     "title": "Rackspace Technology (NASDAQ:RXT) Tops Q3 2026 Estimates, Raises Revenue Outlook",
-     "t": [
-      "RXT"
-     ],
-     "names": [
-      "Rackspace Technology, Inc."
-     ],
-     "tone": "good",
-     "kind": "beat",
-     "good": "beat"
-    },
-    {
-     "time": "2026-11-10T01:08:22+00:00",
-     "publisher": "ChartMill",
-     "title": "Quantum Corp (NASDAQ:QMCO) Beats Q2 Estimates as Record Backlog Drives After-Hours Surge",
-     "t": [
-      "QMCO"
-     ],
-     "names": [
-      "Quantum Corporation"
-     ],
-     "tone": "good",
-     "kind": "beat",
-     "good": "beat"
-    },
-    {
-     "time": "2026-11-09T22:35:07+00:00",
-     "publisher": "Yahoo",
-     "title": "Novanta (NOVT) Q3 Earnings and Revenues Surpass Estimates",
-     "t": [
-      "NOVT"
-     ],
-     "names": [
-      "Novanta Inc."
-     ],
-     "tone": "good",
-     "kind": "beat",
-     "good": "beat"
-    },
-    {
-     "time": "2026-11-09T22:35:07+00:00",
-     "publisher": "Yahoo",
-     "title": "PubMatic, Inc. (PUBM) Q3 Earnings and Revenues Surpass Estimates",
-     "t": [
-      "PUBM"
-     ],
-     "names": [
-      "PubMatic, Inc."
-     ],
-     "tone": "good",
-     "kind": "beat",
-     "good": "beat"
-    },
-    {
-     "time": "2026-11-09T22:35:07+00:00",
-     "publisher": "Yahoo",
-     "title": "Quantum Corp. (QMCO) Q2 Earnings and Revenues Surpass Estimates",
-     "t": [
-      "QMCO"
-     ],
-     "names": [
-      "Quantum Corporation"
-     ],
-     "tone": "good",
-     "kind": "beat",
-     "good": "beat"
-    },
-    {
-     "time": "2026-11-09T22:05:02+00:00",
-     "publisher": "Yahoo",
-     "title": "PubMatic (NASDAQ:PUBM) reports bullish Q3 2026, full-year outlook slightly exceeds expectations",
-     "t": [
-      "PUBM"
-     ],
-     "names": [
-      "PubMatic, Inc."
-     ],
-     "tone": "good",
-     "kind": "beat",
-     "good": "beat"
     }
    ]
   },
@@ -1874,11 +1794,13 @@
      "title": "Micron Soars 10%, SK hynix Up 9% as CoreWeave Raises Outlook on “A Breakout Quarter”",
      "t": [
       "CRWV",
-      "MU"
+      "MU",
+      "SKHY"
      ],
      "names": [
       "CoreWeave, Inc.",
-      "Micron Technology, Inc."
+      "Micron Technology, Inc.",
+      "SK hynix Inc."
      ],
      "tone": "good",
      "kind": "guide",
@@ -1893,6 +1815,20 @@
      ],
      "names": [
       "Advanced Micro Devices, Inc."
+     ],
+     "tone": "good",
+     "kind": "guide",
+     "good": "guide"
+    },
+    {
+     "time": "2026-11-11T13:43:46+00:00",
+     "publisher": "Yahoo",
+     "title": "Nayax Reports 23% Revenue Growth to $128 Million in Q3 and Raises 2026 Outlook Following IPS Acquisition",
+     "t": [
+      "NYAX"
+     ],
+     "names": [
+      "Nayax Ltd."
      ],
      "tone": "good",
      "kind": "guide",
@@ -2007,20 +1943,6 @@
      "names": [
       "D-Wave Quantum Inc.",
       "Rigetti Computing, Inc."
-     ],
-     "tone": "good",
-     "kind": "guide",
-     "good": "guide"
-    },
-    {
-     "time": "2026-11-09T21:51:47+00:00",
-     "publisher": "Yahoo",
-     "title": "Sanmina soars on earnings beat and strong guidance",
-     "t": [
-      "SANM"
-     ],
-     "names": [
-      "Sanmina Corporation"
      ],
      "tone": "good",
      "kind": "guide",
@@ -2606,6 +2528,20 @@
    "label": "매출 · 이익이 크게 늘었다",
    "items": [
     {
+     "time": "2026-11-11T18:35:00+00:00",
+     "publisher": "Yahoo",
+     "title": "D-Wave gets Wedbush vote of confidence as bookings surge 611%",
+     "t": [
+      "QBTS"
+     ],
+     "names": [
+      "D-Wave Quantum Inc."
+     ],
+     "tone": "good",
+     "kind": "growth",
+     "good": "growth"
+    },
+    {
      "time": "2026-11-11T09:03:35+00:00",
      "publisher": "Yahoo",
      "title": "Bitdeer Technologies Group (BTDR) (Q3 2026) Earnings Call Highlights: Revenue Surges 89% as AI ...",
@@ -2614,6 +2550,20 @@
      ],
      "names": [
       "Bitdeer Technologies Group"
+     ],
+     "tone": "good",
+     "kind": "growth",
+     "good": "growth"
+    },
+    {
+     "time": "2026-11-11T07:12:41+00:00",
+     "publisher": "Yahoo",
+     "title": "Netlist CEO Hints Licensing Deal With SK Hynix Is In Works After Q3 Sales Rise 150%: Retail Turns Bullish",
+     "t": [
+      "SKHY"
+     ],
+     "names": [
+      "SK hynix Inc."
      ],
      "tone": "good",
      "kind": "growth",
@@ -2738,6 +2688,34 @@
    "label": "주가가 크게 올랐다",
    "items": [
     {
+     "time": "2026-11-11T22:14:11+00:00",
+     "publisher": "Yahoo",
+     "title": "Stock Market Today, Nov. 11: CoreWeave Surges 25% on Beat-and-Raise Quarter",
+     "t": [
+      "CRWV"
+     ],
+     "names": [
+      "CoreWeave, Inc."
+     ],
+     "tone": "good",
+     "kind": "jump",
+     "good": "jump"
+    },
+    {
+     "time": "2026-11-11T19:18:07+00:00",
+     "publisher": "Yahoo",
+     "title": "Aehr Test Systems Pops 30% After Earnings",
+     "t": [
+      "AEHR"
+     ],
+     "names": [
+      "Aehr Test Systems"
+     ],
+     "tone": "good",
+     "kind": "jump",
+     "good": "jump"
+    },
+    {
      "time": "2026-11-11T19:10:18+00:00",
      "publisher": "Yahoo",
      "title": "Intel Stocks Climb 5.23% as SoftBank Reveals $7.4 Billion Raised Against Intel Shares",
@@ -2778,6 +2756,20 @@
      "names": [
       "Lumentum Holdings Inc.",
       "Marvell Technology, Inc."
+     ],
+     "tone": "good",
+     "kind": "jump",
+     "good": "jump"
+    },
+    {
+     "time": "2026-11-11T18:56:15+00:00",
+     "publisher": "Yahoo",
+     "title": "Credo Technology Stocks Climb 10.8% as AI Connectivity Names Rally",
+     "t": [
+      "CRDO"
+     ],
+     "names": [
+      "Credo Technology Group Holding "
      ],
      "tone": "good",
      "kind": "jump",
@@ -2840,6 +2832,24 @@
      "good": "jump"
     },
     {
+     "time": "2026-11-11T16:56:16+00:00",
+     "publisher": "Yahoo",
+     "title": "Applied Digital Rallies 8% as CoreWeave’s Results Revive the AI Data Center Trade; Cipher Digital Jumps 10%, IREN Surges 9%",
+     "t": [
+      "CRWV",
+      "APLD",
+      "CIFR"
+     ],
+     "names": [
+      "CoreWeave, Inc.",
+      "Applied Digital Corporation",
+      "Cipher Digital Inc."
+     ],
+     "tone": "good",
+     "kind": "jump",
+     "good": "jump"
+    },
+    {
      "time": "2026-11-11T16:54:03+00:00",
      "publisher": "Yahoo",
      "title": "Micron Stocks Jump 11.2% as Memory Rebound Meets $1 Billion Anthropic Placement",
@@ -2864,6 +2874,22 @@
      "names": [
       "CoreWeave, Inc.",
       "Seagate Technology Holdings PLC"
+     ],
+     "tone": "good",
+     "kind": "jump",
+     "good": "jump"
+    },
+    {
+     "time": "2026-11-11T14:57:58+00:00",
+     "publisher": "Yahoo",
+     "title": "Applied Optoelectronics Surges 12%, Lumentum Jumps 11% as CoreWeave’s Results Revive AI Trade; Coherent Climbs 7%",
+     "t": [
+      "LITE",
+      "AAOI"
+     ],
+     "names": [
+      "Lumentum Holdings Inc.",
+      "Applied Optoelectronics, Inc."
      ],
      "tone": "good",
      "kind": "jump",
@@ -2986,20 +3012,6 @@
      "tone": "good",
      "kind": "jump",
      "good": "jump"
-    },
-    {
-     "time": "2026-11-09T23:35:02+00:00",
-     "publisher": "Yahoo",
-     "title": "Why AST SpaceMobile Stock Jumped 14.1% Today",
-     "t": [
-      "ASTS"
-     ],
-     "names": [
-      "AST SpaceMobile, Inc."
-     ],
-     "tone": "good",
-     "kind": "jump",
-     "good": "jump"
     }
    ]
   }
@@ -3009,6 +3021,20 @@
    "key": "miss",
    "label": "실적이 예상보다 나빴다",
    "items": [
+    {
+     "time": "2026-11-11T16:02:26+00:00",
+     "publisher": "Yahoo",
+     "title": "Rigetti Drops 5% on Revenue Miss and Soft 2026 Outlook; IonQ Slides 2%, D-Wave Rises 2%",
+     "t": [
+      "QBTS"
+     ],
+     "names": [
+      "D-Wave Quantum Inc."
+     ],
+     "tone": "bad",
+     "kind": "miss",
+     "good": null
+    },
     {
      "time": "2026-11-10T23:32:59+00:00",
      "publisher": "ChartMill",
@@ -3246,34 +3272,6 @@
      "tone": "bad",
      "kind": "miss",
      "good": null
-    },
-    {
-     "time": "2026-11-09T09:09:36+00:00",
-     "publisher": "Yahoo",
-     "title": "SOUN Q3 2026 deep dive: cost actions and revenue quality shift amid revenue miss",
-     "t": [
-      "SOUN"
-     ],
-     "names": [
-      "SoundHound AI, Inc."
-     ],
-     "tone": "bad",
-     "kind": "miss",
-     "good": null
-    },
-    {
-     "time": "2026-11-09T08:02:02+00:00",
-     "publisher": "Benzinga",
-     "title": "CEVA Q3 Adj. EPS $0.13 Misses $0.19 Estimate, Sales $29.100M Miss $32.708M Estimate",
-     "t": [
-      "CEVA"
-     ],
-     "names": [
-      "CEVA, Inc."
-     ],
-     "tone": "bad",
-     "kind": "miss",
-     "good": null
     }
    ]
   },
@@ -3281,6 +3279,20 @@
    "key": "guide_cut",
    "label": "전망을 내렸다",
    "items": [
+    {
+     "time": "2026-11-11T23:06:30+00:00",
+     "publisher": "ChartMill",
+     "title": "Digi International (NASDAQ:DGII) Shares Fall After In-Line Q4 and Soft Q1 Guidance",
+     "t": [
+      "DGII"
+     ],
+     "names": [
+      "Digi International Inc."
+     ],
+     "tone": "bad",
+     "kind": "guide_cut",
+     "good": null
+    },
     {
      "time": "2026-11-10T15:56:39+00:00",
      "publisher": "Yahoo",
@@ -3366,6 +3378,20 @@
      ],
      "names": [
       "NVIDIA Corporation"
+     ],
+     "tone": "bad",
+     "kind": "downgrade",
+     "good": null
+    },
+    {
+     "time": "2026-11-11T20:13:00+00:00",
+     "publisher": "Yahoo",
+     "title": "BofA downgrades Wix as AI gains mask partner slowdown",
+     "t": [
+      "WIX"
+     ],
+     "names": [
+      "Wix.com Ltd."
      ],
      "tone": "bad",
      "kind": "downgrade",
@@ -3506,20 +3532,6 @@
      ],
      "names": [
       "QUALCOMM Incorporated"
-     ],
-     "tone": "bad",
-     "kind": "downgrade",
-     "good": null
-    },
-    {
-     "time": "2026-11-09T08:57:02+00:00",
-     "publisher": "Yahoo",
-     "title": "Citi Downgraded Adobe Stock to Sell. I'd Buy It Now.",
-     "t": [
-      "ADBE"
-     ],
-     "names": [
-      "Adobe Inc."
      ],
      "tone": "bad",
      "kind": "downgrade",
@@ -4216,34 +4228,6 @@
      "tone": "bad",
      "kind": "dilution",
      "good": null
-    },
-    {
-     "time": "2026-11-09T07:56:56+00:00",
-     "publisher": "Benzinga",
-     "title": "Dropbox Announces $1B Private Placement Of Convertible Senior Notes Due 2031",
-     "t": [
-      "DBX"
-     ],
-     "names": [
-      "Dropbox, Inc."
-     ],
-     "tone": "bad",
-     "kind": "dilution",
-     "good": null
-    },
-    {
-     "time": "2026-11-09T07:27:10+00:00",
-     "publisher": "Benzinga",
-     "title": "Akamai Technologies Announces Proposed Offering Of $1.1B Of Convertible Senior Notes Due 2028 And $1.1B Of Convertible Senior Notes Due 2031",
-     "t": [
-      "AKAM"
-     ],
-     "names": [
-      "Akamai Technologies, Inc."
-     ],
-     "tone": "bad",
-     "kind": "dilution",
-     "good": null
     }
    ]
   },
@@ -4444,6 +4428,34 @@
    "label": "주가가 크게 빠졌다",
    "items": [
     {
+     "time": "2026-11-11T17:03:27+00:00",
+     "publisher": "Yahoo",
+     "title": "ASTS Stock Sinks 9%, but CEO Abel Avellan Points to ‘Real Progress on Every Front’",
+     "t": [
+      "ASTS"
+     ],
+     "names": [
+      "AST SpaceMobile, Inc."
+     ],
+     "tone": "bad",
+     "kind": "drop",
+     "good": null
+    },
+    {
+     "time": "2026-11-11T12:15:07+00:00",
+     "publisher": "Yahoo",
+     "title": "D-Wave Quantum Crashed 60% in 2026 But This Major Investment Bank Expects Shares to Quadruple",
+     "t": [
+      "QBTS"
+     ],
+     "names": [
+      "D-Wave Quantum Inc."
+     ],
+     "tone": "bad",
+     "kind": "drop",
+     "good": null
+    },
+    {
      "time": "2026-11-11T12:14:13+00:00",
      "publisher": "Yahoo",
      "title": "Palantir stock falls 19% as Wall Street spots a warning",
@@ -4504,10 +4516,12 @@
      "publisher": "Yahoo",
      "title": "Credo and Lumentum Sink 14% in a Week as Democrats’ Sweep Hits AI Data Centers",
      "t": [
-      "LITE"
+      "LITE",
+      "CRDO"
      ],
      "names": [
-      "Lumentum Holdings Inc."
+      "Lumentum Holdings Inc.",
+      "Credo Technology Group Holding "
      ],
      "tone": "bad",
      "kind": "drop",
@@ -4787,6 +4801,20 @@
   }
  ],
  "mixed": [
+  {
+   "time": "2026-11-11T22:07:34+00:00",
+   "publisher": "Yahoo",
+   "title": "Lam Research Sinks 16%, Applied Materials 15% in a Week. Lam Responds With $25 Billion Buyback",
+   "t": [
+    "LRCX"
+   ],
+   "names": [
+    "Lam Research Corporation"
+   ],
+   "tone": "mixed",
+   "kind": "mixed",
+   "good": null
+  },
   {
    "time": "2026-11-11T18:51:57+00:00",
    "publisher": "Yahoo",
@@ -5104,13 +5132,6 @@
     "label": "업종 주가가 올랐다",
     "items": [
      {
-      "time": "2026-11-11T18:56:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Credo Technology Stocks Climb 10.8% as AI Connectivity Names Rally",
-      "tone": "good",
-      "kind": "rally"
-     },
-     {
       "time": "2026-11-11T18:53:40+00:00",
       "publisher": "Yahoo",
       "title": "Coherent Stocks Climb 11.5% as Datacenter Optics Demand Lifts AI Suppliers",
@@ -5217,6 +5238,13 @@
     "label": "업종 주가가 빠졌다",
     "items": [
      {
+      "time": "2026-11-11T22:04:43+00:00",
+      "publisher": "Yahoo",
+      "title": "Stocks Slide as AI Trade Roars Back | Closing Bell",
+      "tone": "bad",
+      "kind": "selloff"
+     },
+     {
       "time": "2026-11-11T13:09:00+00:00",
       "publisher": "Yahoo",
       "title": "Nvidia Selloff Puts China Exposed US Chip Stocks Back In Focus",
@@ -5285,6 +5313,13 @@
     "key": "bubble",
     "label": "거품 · 과열 경고",
     "items": [
+     {
+      "time": "2026-11-11T18:55:00+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "CoreWeave Earnings Alleviate Some AI Spending Fears",
+      "tone": "bad",
+      "kind": "bubble"
+     },
      {
       "time": "2026-11-10T16:35:16+00:00",
       "publisher": "Yahoo",
@@ -5363,13 +5398,6 @@
     "time": "2026-11-09T03:38:02+00:00",
     "publisher": "Benzinga",
     "title": "Nasdaq Gains Over 1% as Chipmakers Recover: Investor Sentiment Improves, but Fear & Greed Index Remains in ‘Extreme Fear’ Zone",
-    "tone": "mixed",
-    "kind": "mixed"
-   },
-   {
-    "time": "2026-11-09T00:06:41+00:00",
-    "publisher": "CNBC",
-    "title": "Chip stocks gain despite Nvidia investigating Jensen Huang's affair",
     "tone": "mixed",
     "kind": "mixed"
    }
