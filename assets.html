@@ -182,13 +182,19 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
 
     $("#sub").textContent = `${n.date} 미국 종가 · 원·달러 ${n.fx.toLocaleString("ko-KR")}원 기준 · 넣은 돈과 투자 손익을 따로 봅니다`;
 
+    /* 증권사 화면이 종가 계산보다 새로우면 그 숫자를 먼저 보여 준다 (계산은 다음 갱신 때 따라온다) */
+    const ls = d.latest_screen && d.latest_screen.newer_than_calc ? d.latest_screen : null;
+    const nowTotal = ls ? ls.krw : n.total_with_pending_krw;
+    const nowPnl = ls ? ls.krw - (n.invested_krw + pend) : n.pnl_krw;
     const kpis = `<section class="kpis" aria-label="요약">
-      <div class="st"><div class="st-k">지금 자산</div><div class="st-v">${won(n.total_with_pending_krw)}</div>
-        <div class="st-s">${pend ? `종가 평가 ${won(n.total_krw)} + 대기 입금 ${won(pend)}` : `현금 ${won(n.cash_krw)} · 주식 ${won(n.stocks_krw)}`}</div></div>
+      <div class="st"><div class="st-k">지금 자산${ls ? ` (증권사 화면 ${esc(md(ls.date))})` : ""}</div><div class="st-v">${won(nowTotal)}</div>
+        <div class="st-s">${ls ? `종가 계산 (${esc(md(n.date))}) ${won(n.total_krw)}${pend ? ` + 대기 입금 ${won(pend)}` : ""} · 다음 갱신 때 맞춰집니다`
+          : pend ? `종가 평가 ${won(n.total_krw)} + 대기 입금 ${won(pend)}` : `현금 ${won(n.cash_krw)} · 주식 ${won(n.stocks_krw)}`}</div></div>
       <div class="st"><div class="st-k">넣은 돈</div><div class="st-v">${won(n.invested_krw + pend)}</div>
         <div class="st-s">처음 ${won(d.start.total_krw)}${(n.invested_krw + pend - d.start.total_krw) ? ` · 더 넣은 돈 ${swon(n.invested_krw + pend - d.start.total_krw)}` : ""}</div></div>
-      <div class="st"><div class="st-k">투자 손익 (넣은 돈 뺌)</div><div class="st-v ${n.pnl_krw > 0 ? "up" : n.pnl_krw < 0 ? "down" : ""}">${swon(n.pnl_krw)}</div>
-        <div class="st-s">주가 ${swon(n.pnl_price_krw)} · 환율 ${swon(n.pnl_fx_krw)}</div></div>
+      <div class="st"><div class="st-k">투자 손익 (넣은 돈 뺌)</div><div class="st-v ${nowPnl > 0 ? "up" : nowPnl < 0 ? "down" : ""}">${swon(nowPnl)}</div>
+        <div class="st-s">${ls ? `증권사 화면 기준 · 종가 계산 (${esc(md(n.date))}) ${swon(n.pnl_krw)} = 주가 ${swon(n.pnl_price_krw)} · 환율 ${swon(n.pnl_fx_krw)}`
+          : `주가 ${swon(n.pnl_price_krw)} · 환율 ${swon(n.pnl_fx_krw)}`}</div></div>
       <div class="st"><div class="st-k">자산 지수 (${esc(md(d.base_date))} = 100)</div><div class="st-v ${n.ret_pct > 0 ? "up" : n.ret_pct < 0 ? "down" : ""}">${n.index.toFixed(2)}</div>
         <div class="st-s">${spct(n.ret_pct)} · 넣은 돈은 지수에 안 들어갑니다</div></div>
       <div class="st"><div class="st-k">같은 기간 QQQ (원화)</div><div class="st-v">${n.qqq_index.toFixed(2)}</div>
@@ -261,8 +267,8 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
           { base: 0, floor: 0, fmt: v => (v / 10000).toFixed(1) + "만", label: "판 거래 누적 확정 이익", w: cw, h: Math.round(chh * 0.8) })}</div>
         <div class="legend"><span><i style="background:var(--brand)"></i>판 거래가 쌓인 확정 이익 (원 · 수수료 뒤 · 판 날 순서)</span></div>` : ""}
       ${tradeTable(sold, cum, order)}
-      <p class="as-note" style="padding-top:10px">언제 얼마에 사서 언제 얼마에 팔았는지입니다. 산 금액은 증권사 화면의 매수금액 + 수수료이고,
-        화면 값이 없는 거래는 그날 환율로 계산했습니다 ('환율 계산'). 날짜는 미국 거래일 기준입니다.
+      <p class="as-note" style="padding-top:10px">언제 얼마에 사서 언제 얼마에 팔았는지입니다. 산 금액 · 판 금액 · 손익 · 손익률은 증권사 실현손익 화면 값
+        (수량 × 매수 · 매도 평균가 · 수수료와 환전을 뗀 순손익) 입니다. 날짜는 미국 거래일 기준입니다.
         성공 = 수수료를 뗀 뒤 달러로 이익을 본 거래입니다 (환율로 생긴 손익은 매매 판단이 아니라 뺍니다 — 손익 칸의 작은 글씨가 달러 손익).
         누적 이익은 원화 (환율 포함) 입니다. '지수 시작 전' 거래는 자산 지수 시작 (${esc(d.base_date)}) 전에 끝나 지수에는 없고 누적 이익에만 들어갑니다.
         들고 있는 종목의 금액은 위 자산 · 지수에 들어 있습니다.</p>
