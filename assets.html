@@ -172,7 +172,8 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
     const ix = k => cols.indexOf(k);
     const daily = d.daily;
     const dates = daily.map(r => r[ix("date")]);
-    let invested = d.start.total_krw;
+    const principal = n.principal_initial_krw != null ? n.principal_initial_krw : d.start.total_krw;
+    let invested = principal;
     const investedSeries = daily.map(r => (invested += r[ix("flow_krw")]));
     const pend = n.pending_krw || 0;
     const sold = d.trades.filter(t => t.status === "매도");
@@ -191,10 +192,10 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
         <div class="st-s">${ls ? `종가 계산 (${esc(md(n.date))}) ${won(n.total_krw)}${pend ? ` + 대기 입금 ${won(pend)}` : ""} · 다음 갱신 때 맞춰집니다`
           : pend ? `종가 평가 ${won(n.total_krw)} + 대기 입금 ${won(pend)}` : `현금 ${won(n.cash_krw)} · 주식 ${won(n.stocks_krw)}`}</div></div>
       <div class="st"><div class="st-k">넣은 돈</div><div class="st-v">${won(n.invested_krw + pend)}</div>
-        <div class="st-s">처음 ${won(d.start.total_krw)}${(n.invested_krw + pend - d.start.total_krw) ? ` · 더 넣은 돈 ${swon(n.invested_krw + pend - d.start.total_krw)}` : ""}</div></div>
+        <div class="st-s">처음 ${won(principal)}${(n.invested_krw + pend - principal) ? ` · 더 넣은 돈 ${swon(n.invested_krw + pend - principal)}` : ""}</div></div>
       <div class="st"><div class="st-k">투자 손익 (넣은 돈 뺌)</div><div class="st-v ${nowPnl > 0 ? "up" : nowPnl < 0 ? "down" : ""}">${swon(nowPnl)}</div>
-        <div class="st-s">${ls ? `증권사 화면 기준 · 종가 계산 (${esc(md(n.date))}) ${swon(n.pnl_krw)} = 주가 ${swon(n.pnl_price_krw)} · 환율 ${swon(n.pnl_fx_krw)}`
-          : `주가 ${swon(n.pnl_price_krw)} · 환율 ${swon(n.pnl_fx_krw)}`}</div></div>
+        <div class="st-s">${ls ? `증권사 화면 − 넣은 돈 · 종가 계산 (${esc(md(n.date))}) ${swon(n.pnl_krw)}` : `처음부터 ${swon(n.pnl_krw)}`}
+          — ${esc(md(d.base_date))} 전 ${swon(n.pnl_before_start_krw || 0)} · 그 뒤 주가 ${swon(n.pnl_price_krw)} · 환율 ${swon(n.pnl_fx_krw)}</div></div>
       <div class="st"><div class="st-k">자산 지수 (${esc(md(d.base_date))} = 100)</div><div class="st-v ${n.ret_pct > 0 ? "up" : n.ret_pct < 0 ? "down" : ""}">${n.index.toFixed(2)}</div>
         <div class="st-s">${spct(n.ret_pct)} · 넣은 돈은 지수에 안 들어갑니다</div></div>
       <div class="st"><div class="st-k">같은 기간 QQQ (원화)</div><div class="st-v">${n.qqq_index.toFixed(2)}</div>
@@ -245,7 +246,7 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
           <td>${f.applied_us_close ? esc(f.applied_us_close) + " 미국 종가부터" : '<span class="tag t-warn">대기</span> 다음 미국 종가부터'}</td>
           <td style="white-space:normal;min-width:180px">${esc(f.note)}</td></tr>`).join("")}</tbody></table></div>`
         : `<div class="state">처음 넣은 돈 뒤로 넣고 뺀 돈이 없습니다</div>`}
-      <p class="as-note" style="padding-top:10px">처음 자산 ${won(d.start.total_krw)} (${esc(d.base_date)} · 첫 매수 전)</p>
+      <p class="as-note" style="padding-top:10px">처음 넣은 돈 ${won(principal)}. 자산 지수는 매매 기록이 다 있는 ${esc(d.base_date)} (그날 자산 ${won(d.start.total_krw)}) 부터 셉니다.</p>
     </section>`;
 
     const rz = d.realized || { n: 0, wins: 0, losses: 0, total_krw: 0, series: [] };
