@@ -133,7 +133,7 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
       <td class="num ${cls(r.qqq_ret_pct)}">${spct(r.qqq_ret_pct)}</td>
     </tr>`).join("");
     return `<div class="tbl-wrap"><table class="scr"><thead><tr>
-      <th>기간</th><th class="num">시작 자산</th><th class="num">넣고 뺀 돈</th>
+      <th>기간</th><th class="num">시작 자산</th><th class="num">입출금</th>
       <th class="num">주가 손익</th><th class="num">환율 손익</th><th class="num">투자 손익</th>
       <th class="num">끝 자산</th><th class="num">수익률</th><th class="num">QQQ (원화)</th>
     </tr></thead><tbody>${body}</tbody></table></div>`;
@@ -207,7 +207,7 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
     if (pend) warn.push(`<b>대기 입금 ${won(pend)}</b> — 다음 미국 종가부터 자산에 반영됩니다 (지수에는 들어가지 않습니다)`);
 
     const chart1 = `<section class="card as-card">
-      <div class="as-head"><h2>자산 지수</h2><span class="hint">넣고 뺀 돈을 뺀 수익만 · ${esc(d.base_date)} = 100</span></div>
+      <div class="as-head"><h2>자산 지수</h2><span class="hint">입출금을 뺀 수익만 · ${esc(d.base_date)} = 100</span></div>
       <div class="chart">${lineChart(dates, [
           { vals: daily.map(r => r[ix("qqq_index")]), cls: "l-q" },
           { vals: daily.map(r => r[ix("index")]), cls: "l-me" }],
@@ -227,25 +227,25 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
     </section>`;
 
     const periodsCard = `<section class="card as-card">
-      <div class="as-head"><h2>기간별</h2><span class="hint">투자 손익 = 주가 손익 + 환율 손익 · 넣고 뺀 돈은 따로</span></div>
+      <div class="as-head"><h2>기간별</h2><span class="hint">투자 손익 = 주가 손익 + 환율 손익 · 입출금은 따로</span></div>
       <div class="seg" role="group" aria-label="기간 단위">
         <button type="button" data-p="monthly" aria-pressed="true">월 단위</button>
         <button type="button" data-p="quarterly" aria-pressed="false">분기 단위</button>
       </div>
       <div id="periodBox">${periodTable(d.monthly)}</div>
-      <p class="as-note" style="padding-top:10px">수익률은 넣고 뺀 돈을 뺀 값입니다. 첫 달 · 이번 달은 다 차지 않은 기간입니다.</p>
+      <p class="as-note" style="padding-top:10px">수익률은 입출금을 뺀 값입니다. 첫 달 · 이번 달은 다 차지 않은 기간입니다.</p>
     </section>`;
 
     const flows = d.flows || [];
     const flowsCard = `<section class="card as-card">
-      <div class="as-head"><h2>넣고 뺀 돈</h2><span class="hint">수익이 아닙니다 — 지수에서 뺍니다</span></div>
+      <div class="as-head"><h2>입출금</h2><span class="hint">수익이 아닙니다 — 지수에서 뺍니다</span></div>
       ${flows.length ? `<div class="tbl-wrap"><table class="scr"><thead><tr>
         <th>날짜 (한국)</th><th>종류</th><th class="num">금액</th><th>반영</th><th>메모</th></tr></thead><tbody>${
         flows.slice().reverse().map(f => `<tr><td>${esc(f.date)}</td><td><span class="tag ${f.krw > 0 ? "t-up" : "t-down"}">${esc(f.kind)}</span></td>
           <td class="num"><b>${swon(f.krw)}</b></td>
           <td>${f.applied_us_close ? esc(f.applied_us_close) + " 미국 종가부터" : '<span class="tag t-warn">대기</span> 다음 미국 종가부터'}</td>
           <td style="white-space:normal;min-width:180px">${esc(f.note)}</td></tr>`).join("")}</tbody></table></div>`
-        : `<div class="state">처음 넣은 돈 뒤로 넣고 뺀 돈이 없습니다</div>`}
+        : `<div class="state">처음 넣은 돈 뒤로 입출금이 없습니다</div>`}
       <p class="as-note" style="padding-top:10px">처음 넣은 돈 ${won(principal)}. 자산 지수는 매매 기록이 다 있는 ${esc(d.base_date)} (그날 자산 ${won(d.start.total_krw)}) 부터 셉니다.</p>
     </section>`;
 
@@ -283,10 +283,10 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
       <td class="num ${cls(r[ix("pnl_fx_krw")])}">${swon(r[ix("pnl_fx_krw")])}</td>
       <td class="num">${won(r[ix("cash_krw")])}</td>
       <td class="num">${r[ix("index")].toFixed(2)}</td></tr>`;
-    const dayHead = `<thead><tr><th>날짜</th><th class="num">자산</th><th class="num">넣고 뺀 돈</th><th class="num">주가 손익</th>
+    const dayHead = `<thead><tr><th>날짜</th><th class="num">자산</th><th class="num">입출금</th><th class="num">주가 손익</th>
       <th class="num">환율 손익</th><th class="num">현금</th><th class="num">지수</th></tr></thead>`;
     const daysCard = `<section class="card as-card">
-      <div class="as-head"><h2>날마다 자산 변동</h2><span class="hint">하루 변동 = 넣고 뺀 돈 + 주가 손익 + 환율 손익</span></div>
+      <div class="as-head"><h2>날마다 자산 변동</h2><span class="hint">하루 변동 = 입출금 + 주가 손익 + 환율 손익</span></div>
       <div class="tbl-wrap"><table class="scr">${dayHead}<tbody>${recent.slice(0, 10).map(dayRow).join("")}</tbody></table></div>
       ${recent.length > 10 ? `<details class="more-days"><summary>나머지 ${recent.length - 10}일 보기</summary>
         <div class="tbl-wrap"><table class="scr">${dayHead}<tbody>${recent.slice(10).map(dayRow).join("")}</tbody></table></div></details>` : ""}
