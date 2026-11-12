@@ -20,7 +20,8 @@
     stock: '<path d="M3 17l5-6 4 4 8-9"/><path d="M15 6h5v5"/>',
     positions: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>',
     learning: '<path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-5.5"/>',
-    news: '<rect x="3" y="4" width="15" height="16" rx="2"/><path d="M18 8h3v10a2 2 0 0 1-2 2"/><path d="M7 8h7M7 12h7M7 16h4"/>'
+    news: '<rect x="3" y="4" width="15" height="16" rx="2"/><path d="M18 8h3v10a2 2 0 0 1-2 2"/><path d="M7 8h7M7 12h7M7 16h4"/>',
+    assets: '<rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/><path d="M16 14.5h2"/><path d="M7 6V4.5h10V6"/>'
   };
 
   var NAV = [
@@ -30,6 +31,7 @@
     { key: "news", href: "news.html", label: "오늘의 뉴스", short: "뉴스" },
     { key: "sectors", href: "sectors.html", label: "업종 모니터", short: "업종" },
     { key: "stock", href: "stock.html", label: "종목 상세", short: "종목" },
+    { key: "assets", href: "assets.html", label: "내 자산", short: "자산" },
     { key: "positions", href: "positions.html", label: "연구 장부", short: "장부" },
     { key: "learning", href: "learning.html", label: "연구 현황", short: "연구" }
   ];
