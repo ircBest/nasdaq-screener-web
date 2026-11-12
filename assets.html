@@ -96,6 +96,7 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
     if (opts.base != null) all.push(opts.base);
     let lo = Math.min(...all), hi = Math.max(...all);
     const pad = (hi - lo) * 0.08 || 1; lo -= pad; hi += pad;
+    if (opts.floor != null && lo < opts.floor && Math.min(...all) >= opts.floor) lo = opts.floor;
     const x = i => L + (W - L - R) * (dates.length > 1 ? i / (dates.length - 1) : 0.5);
     const y = v => T + (H - T - B) * (1 - (v - lo) / (hi - lo));
     let g = "";
@@ -139,9 +140,9 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
   }
 
   /* 판 거래만 — 지금 들고 있는 종목은 공개하지 않는다 (사용자 2026-11-12) */
-  function tradeTable(trades) {
-    const rows = trades.filter(t => t.status === "매도")
-      .slice().sort((a, b) => (b.sell_date + b.ticker).localeCompare(a.sell_date + a.ticker));
+  function tradeTable(trades, cum, order) {
+    const pos = t => order[t.sell_date + "|" + t.ticker] ?? -1;
+    const rows = trades.filter(t => t.status === "매도").slice().sort((a, b) => pos(b) - pos(a));
     if (!rows.length) return `<div class="state">판 거래가 아직 없습니다</div>`;
     const body = rows.map(t => `<tr>
         <td class="c-tk"><a href="stock.html?ticker=${encodeURIComponent(t.ticker)}">${esc(t.ticker)}</a><small>${esc(t.name)}</small></td>
@@ -154,12 +155,14 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
         <td class="num">${won(t.sell_krw)}</td>
         <td class="num ${cls(t.pnl_krw)}"><b>${swon(t.pnl_krw)}</b></td>
         <td class="num ${cls(t.pnl_pct)}">${spct(t.pnl_pct)}</td>
+        <td class="num ${cls(cum[t.sell_date + "|" + t.ticker])}">${swon(cum[t.sell_date + "|" + t.ticker])}</td>
+        <td><span class="tag ${t.pnl_krw > 0 ? "t-up" : "t-down"}">${t.pnl_krw > 0 ? "성공" : "실패"}</span></td>
         <td class="num">${t.days_held}일</td>
       </tr>`).join("");
     return `<div class="tbl-wrap"><table class="scr"><thead><tr>
       <th>종목</th><th class="num">수량</th><th>산 날</th><th class="num">산 값</th><th class="num">산 금액</th>
       <th>판 날</th><th class="num">판 값</th><th class="num">판 금액</th><th class="num">손익</th><th class="num">손익률</th>
-      <th class="num">들고 있던 거래일</th>
+      <th class="num">누적 이익</th><th>결과</th><th class="num">들고 있던 거래일</th>
     </tr></thead><tbody>${body}</tbody></table></div>`;
   }
 
@@ -239,12 +242,28 @@ details.more-days > summary:focus-visible { outline: 2px solid var(--brand); out
       <p class="as-note" style="padding-top:10px">처음 자산 ${won(d.start.total_krw)} (${esc(d.base_date)} · 첫 매수 전)</p>
     </section>`;
 
+    const rz = d.realized || { n: 0, wins: 0, losses: 0, total_krw: 0, series: [] };
+    const cum = {}, order = {};
+    rz.series.forEach((x, i) => { cum[x.date + "|" + x.ticker] = x.cum_krw; order[x.date + "|" + x.ticker] = i; });
+    const rzDates = [d.base_date].concat(rz.series.map(x => x.date));
+    const rzVals = [0].concat(rz.series.map(x => x.cum_krw));
     const tradesCard = `<section class="card as-card">
-      <div class="as-head"><h2>판 거래 내역</h2><span class="hint">${sold.length}건 · 지금 들고 있는 종목은 싣지 않습니다</span></div>
-      ${tradeTable(sold)}
+      <div class="as-head"><h2>판 거래 내역</h2><span class="hint">지금 들고 있는 종목은 싣지 않습니다</span></div>
+      <section class="kpis" aria-label="판 거래 요약" style="margin:4px 16px 12px">
+        <div class="st"><div class="st-k">판 거래</div><div class="st-v">${rz.n}건</div></div>
+        <div class="st"><div class="st-k">성공 (이익으로 판 것)</div><div class="st-v up">${rz.wins}번</div>
+          <div class="st-s">성공률 ${rz.win_rate_pct == null ? "—" : rz.win_rate_pct.toFixed(0) + "%"}</div></div>
+        <div class="st"><div class="st-k">실패 (손해로 판 것)</div><div class="st-v ${rz.losses ? "down" : ""}">${rz.losses}번</div></div>
+        <div class="st"><div class="st-k">누적 확정 이익</div><div class="st-v ${rz.total_krw > 0 ? "up" : rz.total_krw < 0 ? "down" : ""}">${swon(rz.total_krw)}</div>
+          <div class="st-s">거래당 평균 ${rz.avg_pct == null ? "—" : spct(rz.avg_pct)}</div></div>
+      </section>
+      ${rz.n ? `<div class="chart">${lineChart(rzDates, [{ vals: rzVals, cls: "l-me", area: "a-me" }],
+          { base: 0, floor: 0, fmt: v => (v / 10000).toFixed(1) + "만", label: "판 거래 누적 확정 이익", w: cw, h: Math.round(chh * 0.8) })}</div>
+        <div class="legend"><span><i style="background:var(--brand)"></i>판 거래가 쌓인 확정 이익 (원 · 수수료 뒤 · 판 날 순서)</span></div>` : ""}
+      ${tradeTable(sold, cum, order)}
       <p class="as-note" style="padding-top:10px">언제 얼마에 사서 언제 얼마에 팔았는지입니다. 산 금액은 증권사 화면의 매수금액 + 수수료이고,
         화면 값이 없는 거래는 그날 환율로 계산했습니다 ('환율 계산'). 날짜는 미국 거래일 기준입니다.
-        들고 있는 종목의 금액은 위 자산 · 지수에 들어 있습니다.</p>
+        성공 = 수수료를 뗀 뒤 이익으로 판 거래. 들고 있는 종목의 금액은 위 자산 · 지수에 들어 있습니다.</p>
     </section>`;
 
     const recent = daily.slice().reverse();
