@@ -1,9 +1,24 @@
 {
   "ticker": "APLD",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T07:55:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Morgan Stanley Just Cut Its Applied Digital Target From $41 to $25"
+    },
+    {
+      "published_utc": "2026-11-12T01:11:56+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Digital (APLD) Could Be 71% Undervalued After CoreWeave Lifted AI Sentiment"
+    },
+    {
+      "published_utc": "2026-11-11T23:27:23+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "CoreWeave, Applied Digital, And Too Many Leaps Of Faith"
+    },
     {
       "published_utc": "2026-11-11T16:56:16+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-09T15:08:04+00:00",
       "publisher": "Yahoo",
       "title": "Morgan Stanley raises Riot target to $41, cuts Cipher, Hut 8, Galaxy and Applied Digital"
-    },
-    {
-      "published_utc": "2026-11-09T14:53:04+00:00",
-      "publisher": "Yahoo",
-      "title": "IREN Falls 5% After Friday’s 20% Surge as AI Lending Worries Mount; TeraWulf and Applied Digital Rise 2%"
-    },
-    {
-      "published_utc": "2026-11-09T13:23:36+00:00",
-      "publisher": "Benzinga",
-      "title": "Morgan Stanley Maintains Equal-Weight on Applied Digital, Lowers Price Target to $25"
-    },
-    {
-      "published_utc": "2026-11-07T23:28:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Applied Digital (APLD) Stock a Value Trap or a Golden Multibagger Buying Opportunity at 52-Week Lows?"
     }
   ]
 }

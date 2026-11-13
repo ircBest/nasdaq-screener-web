@@ -1,9 +1,14 @@
 {
   "ticker": "DIOD",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T13:55:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Wall Street Analysts Think Diodes (DIOD) Could Surge 38.87%: Read This Before Placing a Bet"
+    },
     {
       "published_utc": "2026-11-10T13:00:00+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-05T18:59:37+00:00",
       "publisher": "Benzinga",
       "title": "Diodes Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-03T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Diodes Incorporated Named to Forbes’ 2027 Most Trusted Companies in America List"
     }
   ]
 }

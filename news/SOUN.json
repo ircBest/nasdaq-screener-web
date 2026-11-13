@@ -1,9 +1,24 @@
 {
   "ticker": "SOUN",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T23:21:43+00:00",
+      "publisher": "Yahoo",
+      "title": "Why SoundHound AI Stock Is Down 7.8% And What's Next After Revenue Miss"
+    },
+    {
+      "published_utc": "2026-11-12T22:09:58+00:00",
+      "publisher": "Yahoo",
+      "title": "SoundHound AI (SOUN) Stock May Be Pricey Following Fresh CXM AI Recognition"
+    },
+    {
+      "published_utc": "2026-11-12T14:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "American Heritage Credit Union’s AI Agent Surpasses Half a Million Member Conversations in Under a Year with SoundHound AI"
+    },
     {
       "published_utc": "2026-11-11T16:26:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-09T02:57:18+00:00",
       "publisher": "Yahoo",
       "title": "Why Did DKNG, SOUN, ORCL Stocks Plunge To 52-Week Lows Last Week?"
-    },
-    {
-      "published_utc": "2026-11-07T21:34:44+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "SoundHound: A Great Value Buy As Profit Synergy Expected In 2027"
-    },
-    {
-      "published_utc": "2026-11-07T18:34:01+00:00",
-      "publisher": "Yahoo",
-      "title": "SoundHound AI: 3 Key Takeaways for Long-Term Investors"
-    },
-    {
-      "published_utc": "2026-11-07T01:19:14+00:00",
-      "publisher": "Yahoo",
-      "title": "SoundHound AI (SOUN) Stock Price Faces Q3 Results Margin Strain"
     }
   ]
 }

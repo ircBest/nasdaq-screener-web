@@ -1,9 +1,24 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T23:14:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Fortinet Sees AI Fueling Firewall Demand as Supply Advantage Fades"
+    },
+    {
+      "published_utc": "2026-11-12T22:10:51+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Earnings Beat Altering The Investment Case For Fortinet Stock (FTNT)?"
+    },
+    {
+      "published_utc": "2026-11-12T18:59:13+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Fortinet, Inc. (FTNT) Presents at BMO Capital Technology and Innovation Leaders Conference Transcript"
+    },
     {
       "published_utc": "2026-11-11T16:26:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-04T12:51:38+00:00",
       "publisher": "Yahoo",
       "title": "Buy, Sell, or Hold? Wednesday’s Top Upgrades and Downgrades: Adobe, Apple, Duolingo, Exxon Mobil, Fiserv, Fortinet, Gartner, Lockheed Martin, Skyworks Solutions, Visa and More"
-    },
-    {
-      "published_utc": "2026-11-03T20:14:28+00:00",
-      "publisher": "Yahoo",
-      "title": "“Share Donor”: Fortinet Sinks 31% in a Week Despite Beating and Raising Guidance"
-    },
-    {
-      "published_utc": "2026-11-03T11:51:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Zacks Industry Outlook Highlights Fortinet, Zscaler and Qualys"
-    },
-    {
-      "published_utc": "2026-11-03T01:56:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Zscaler Sinks 14% in a Week as Fortinet’s Plunge and a Tech Selloff Hit Security Stocks"
     }
   ]
 }

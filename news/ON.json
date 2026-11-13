@@ -1,9 +1,29 @@
 {
   "ticker": "ON",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T17:13:19+00:00",
+      "publisher": "Yahoo",
+      "title": "ON Semiconductor (ON) Stock Fair Value Edges Lower As Analysts Cut Targets"
+    },
+    {
+      "published_utc": "2026-11-12T13:55:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Wall Street Analysts Believe ON Semiconductor Corp. (ON) Could Rally 29.15%: Here's is How to Trade"
+    },
+    {
+      "published_utc": "2026-11-12T01:10:04+00:00",
+      "publisher": "Yahoo",
+      "title": "ON Semiconductor Stock Gets A Lift From New Chip Platform And Earnings Momentum"
+    },
+    {
+      "published_utc": "2026-11-12T00:25:59+00:00",
+      "publisher": "Yahoo",
+      "title": "What Could ON Semiconductor (ON) Gain From Its EliteSiC M4 Launch?"
+    },
     {
       "published_utc": "2026-11-11T20:21:44+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T18:33:34+00:00",
       "publisher": "Yahoo",
       "title": "Onsemi’s AI Data Center Sales Reportedly Grew 175%. Is That the Chip Stock’s New Story?"
-    },
-    {
-      "published_utc": "2026-11-04T17:25:49+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Maintains Neutral on ON Semiconductor, Lowers Price Target to $80"
-    },
-    {
-      "published_utc": "2026-11-04T12:13:10+00:00",
-      "publisher": "Yahoo",
-      "title": "ON Semiconductor Stock Outlook: Is Wall Street Bullish or Bearish?"
-    },
-    {
-      "published_utc": "2026-11-04T11:25:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "ON Semiconductor Q3 Earnings: A Potential 12.7% FCF Yield If Management Delivers"
-    },
-    {
-      "published_utc": "2026-11-04T10:12:42+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "ON Semiconductor: AI-Driven Content Growth And Marquee Cloud Customers - Dip Buying Opportunity"
     }
   ]
 }

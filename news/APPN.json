@@ -1,9 +1,19 @@
 {
   "ticker": "APPN",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T12:36:24+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Appian: The Stock Will Take A Breather After A Large Rally (Rating Downgrade)"
+    },
+    {
+      "published_utc": "2026-11-12T11:20:50+00:00",
+      "publisher": "ChartMill",
+      "title": "Appian (NASDAQ:APPN) Aligns With Minervini Trend Template as High-Growth Momentum Builds"
+    },
     {
       "published_utc": "2026-11-09T17:15:22+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-05T23:16:40+00:00",
       "publisher": "Yahoo",
       "title": "Appian Corp (APPN) Q3 2026 Earnings Call Highlights: Cloud Growth Accelerates as Net ARR ..."
-    },
-    {
-      "published_utc": "2026-11-05T20:12:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Appian (APPN) Below Fair Value On Strong Q3 Earnings And Raised Guidance?"
-    },
-    {
-      "published_utc": "2026-11-05T19:16:22+00:00",
-      "publisher": "Yahoo",
-      "title": "Appian Corp (APPN) Q3 2026 Earnings Call Transcript"
     }
   ]
 }

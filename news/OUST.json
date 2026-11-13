@@ -1,6 +1,6 @@
 {
   "ticker": "OUST",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
@@ -8,6 +8,11 @@
       "published_utc": "2026-11-11T19:17:39+00:00",
       "publisher": "Yahoo",
       "title": "Ouster (OUST) Stock Could Be Pricey Following Record Revenue News"
+    },
+    {
+      "published_utc": "2026-11-11T11:10:41+00:00",
+      "publisher": "Benzinga",
+      "title": "Ouster Targets Next-Generation Electronic Tolls with Rev8 Lidar Technology"
     },
     {
       "published_utc": "2026-11-10T12:00:00+00:00",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-04T09:07:41+00:00",
       "publisher": "Yahoo",
       "title": "Ouster Inc (OUST) Q3 2026 Earnings Call Highlights: Record Revenue, Rev8 Ramp and the Road to ..."
-    },
-    {
-      "published_utc": "2026-11-04T07:41:23+00:00",
-      "publisher": "Benzinga",
-      "title": "Cantor Fitzgerald Upgrades Ouster to Overweight, Announces $45 Price Target"
     }
   ]
 }

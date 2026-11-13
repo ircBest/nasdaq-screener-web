@@ -1,9 +1,29 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T14:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday and The Josh Bersin Company Bring Galileo Agent to Workday Customers in Sana, Giving HR Leaders Instant Access to Trusted Expertise"
+    },
+    {
+      "published_utc": "2026-11-12T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Avalara Launches 1099 E-File For Workday, a Workday Design Approved Integration"
+    },
+    {
+      "published_utc": "2026-11-12T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday and Zuora Expand Partnership to Help Companies Launch AI and Usage-Based Pricing Without Sacrificing Accuracy or Financial Control"
+    },
+    {
+      "published_utc": "2026-11-12T13:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "PayPal Partners With Workday To Enhance Employee Financial Well-Being With PayPal Direct Deposit"
+    },
     {
       "published_utc": "2026-11-11T21:45:03+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-05T23:23:26+00:00",
       "publisher": "Yahoo",
       "title": "How Gartner Recognition Will Impact Workday Stock Ahead Of Earnings"
-    },
-    {
-      "published_utc": "2026-11-05T21:15:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday (WDAY), What Is Behind The Fresh Attention?"
-    },
-    {
-      "published_utc": "2026-11-05T16:57:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Named a Leader in 2026 Gartner® Magic Quadrant™ for Cloud ERP for Service-Centric Enterprises for Fifth Consecutive Year"
-    },
-    {
-      "published_utc": "2026-11-05T00:29:24+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Workday: The Market Is Pricing In Too Much Pessimism"
-    },
-    {
-      "published_utc": "2026-11-04T21:45:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Workday (WDAY) Outpaced the Stock Market Today"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T20:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Akamai Announces Closing of $2.5 Billion Offering of Convertible Senior Notes"
+    },
+    {
+      "published_utc": "2026-11-12T14:15:45+00:00",
+      "publisher": "Yahoo",
+      "title": "Akamai Technologies (AKAM) Wraps Up $1.1 Billion Notes Deal For Cloud Buildout"
+    },
+    {
+      "published_utc": "2026-11-12T07:12:10+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike chose Akamai for security, yet the stock plunged 46%"
+    },
+    {
+      "published_utc": "2026-11-11T19:17:36+00:00",
+      "publisher": "Yahoo",
+      "title": "This Analyst Just Downgraded Akamai Stock. Here’s Why."
+    },
     {
       "published_utc": "2026-11-11T12:57:12+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-09T09:08:14+00:00",
       "publisher": "Benzinga",
       "title": "What Is Going on With Akamai Stock on Monday?"
-    },
-    {
-      "published_utc": "2026-11-09T07:52:09+00:00",
-      "publisher": "Benzinga",
-      "title": "Baird Maintains Neutral on Akamai Technologies, Lowers Price Target to $92"
-    },
-    {
-      "published_utc": "2026-11-09T07:27:10+00:00",
-      "publisher": "Benzinga",
-      "title": "Akamai Technologies Announces Proposed Offering Of $1.1B Of Convertible Senior Notes Due 2028 And $1.1B Of Convertible Senior Notes Due 2031"
-    },
-    {
-      "published_utc": "2026-11-09T04:29:36+00:00",
-      "publisher": "Yahoo",
-      "title": "AKAM Q3 2026 deep dive: cloud infrastructure contracts expand as near-term guidance softens"
-    },
-    {
-      "published_utc": "2026-11-07T14:14:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Anthropic Deal Could Reshape The Case For Akamai Stock"
     }
   ]
 }

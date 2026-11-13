@@ -1,9 +1,24 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T14:39:20+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "AST SpaceMobile, Inc. (ASTS) Discusses Direct-to-Cell Satellite Connectivity and Space Technology Execution Transcript"
+    },
+    {
+      "published_utc": "2026-11-12T09:30:47+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "AST SpaceMobile: I'm Buying Before The 2027 Breakout"
+    },
+    {
+      "published_utc": "2026-11-12T04:32:16+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile (ASTS) Stock Fair Value Moves Lower As Analysts Split On Risks"
+    },
     {
       "published_utc": "2026-11-11T20:26:45+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-11T10:11:00+00:00",
       "publisher": "Yahoo",
       "title": "$10,000 in AST SpaceMobile Stock at Its Record High Is Worth About $2,770 Today. Here's What Gets That Money Back."
-    },
-    {
-      "published_utc": "2026-11-11T05:14:08+00:00",
-      "publisher": "Yahoo",
-      "title": "ASTS Stock Jumps Overnight: Analyst Estimates $50M Each For 3 Early BlueBirds — Retail Bulls Defend Spending"
-    },
-    {
-      "published_utc": "2026-11-11T04:44:07+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile: 3 Key Takeaways for Long-Term Investors"
-    },
-    {
-      "published_utc": "2026-11-11T00:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Has Fallen for 3 Straight Weeks and Sits More Than 75% Below Its High. Here's What $5,000 Invested Today Will Be Worth If It Gets Back There."
     }
   ]
 }

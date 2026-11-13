@@ -1,9 +1,29 @@
 {
   "ticker": "QNT",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T14:09:27+00:00",
+      "publisher": "Yahoo",
+      "title": "BTIG Says Quantum Leader Quantinuum Trades Below Peers"
+    },
+    {
+      "published_utc": "2026-11-12T09:09:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Quantinuum (QNT) Stock Looks Expensive After a 33% Year To Date Slide"
+    },
+    {
+      "published_utc": "2026-11-12T05:13:37+00:00",
+      "publisher": "Yahoo",
+      "title": "What Is Quantinuum (QNT) Signaling With Its Japan Quantum AI Expansion?"
+    },
+    {
+      "published_utc": "2026-11-12T03:11:58+00:00",
+      "publisher": "Yahoo",
+      "title": "Quantinuum (QNT) Could Be 51% Undervalued On Its Third Quarter Update"
+    },
     {
       "published_utc": "2026-11-10T18:33:02+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-08T07:49:40+00:00",
       "publisher": "Yahoo",
       "title": "Quantinuum: 3 Key Takeaways for Long-Term Investors"
-    },
-    {
-      "published_utc": "2026-11-07T18:00:38+00:00",
-      "publisher": "Yahoo",
-      "title": "Quantinuum (QNT) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-06T22:56:00+00:00",
-      "publisher": "Yahoo",
-      "title": "How Quantinuum Plans to Win Quantum Computing’s Long Game, According to Its CEO"
-    },
-    {
-      "published_utc": "2026-11-06T22:34:36+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Quantinuum Inc. (QNT) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-06T20:23:10+00:00",
-      "publisher": "Benzinga",
-      "title": "Jefferies Maintains Buy on Quantinuum, Lowers Price Target to $65"
     }
   ]
 }

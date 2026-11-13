@@ -1,9 +1,24 @@
 {
   "ticker": "ADBE",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T20:37:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Adobe makes major change creators will notice as Citi flags ‘hard reset’"
+    },
+    {
+      "published_utc": "2026-11-12T13:07:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Adobe (ADBE) Stock May Look Reasonable On Fresh AI Partnership News"
+    },
+    {
+      "published_utc": "2026-11-12T12:29:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Are Wall Street Analysts Bullish on Adobe Stock?"
+    },
     {
       "published_utc": "2026-11-11T20:08:01+00:00",
       "publisher": "Yahoo",
@@ -30,6 +45,11 @@
       "title": "Global Omnichannel Retail Market Report 2026 | Capitalize on Unified Commerce Growth to $22.26 Billion by 2030 with Adobe, Adyen, AWS, Salesforce, and Shopify"
     },
     {
+      "published_utc": "2026-11-11T10:51:28+00:00",
+      "publisher": "Benzinga",
+      "title": "RBC Capital Reiterates Outperform on Adobe, Maintains $315 Price Target"
+    },
+    {
       "published_utc": "2026-11-11T06:13:47+00:00",
       "publisher": "Yahoo",
       "title": "Adobe (ADBE) Expands Its AI Partnership and Workspace Reach"
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-10T20:06:02+00:00",
       "publisher": "Yahoo",
       "title": "Accenture vs. Adobe: What Does Fluctuating vs. Steady Revenue Tell Investors?"
-    },
-    {
-      "published_utc": "2026-11-10T14:04:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Adobe and Google Deepen Partnership to Bring Leading AI Models and Integrated Workflows to Creatives and Enterprises"
-    },
-    {
-      "published_utc": "2026-11-10T14:03:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Adobe Brings Agentic AI to the Content Supply Chain with CX Enterprise Coworker"
-    },
-    {
-      "published_utc": "2026-11-10T14:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Adobe Transforms Its Creative Cloud Tools Into Agentic Workflows Built with the Precision and Control Pros Expect, Giving Creatives More Time for Their Craft"
-    },
-    {
-      "published_utc": "2026-11-10T14:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Adobe Firefly Expands as the AI Creative Studio, Bringing Adobe’s Trusted Creative Tools to Every Creator"
     }
   ]
 }

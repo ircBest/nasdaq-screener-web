@@ -1,9 +1,24 @@
 {
   "ticker": "TEAM",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T21:32:41+00:00",
+      "publisher": "Yahoo",
+      "title": "Atlassian vs. Zscaler: Which Technology Stock Is a Better Buy for 2027?"
+    },
+    {
+      "published_utc": "2026-11-11T18:01:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Here’s Why Truist’s Miller Jump Cut His Target on Atlassian (TEAM) Despite a Buy Rating"
+    },
+    {
+      "published_utc": "2026-11-11T17:33:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Morgan Stanley still believes in Atlassian after the sell-off"
+    },
     {
       "published_utc": "2026-11-11T09:02:26+00:00",
       "publisher": "SeekingAlpha",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-07T12:49:47+00:00",
       "publisher": "Yahoo",
       "title": "What Is Behind The Move In Atlassian Stock?"
-    },
-    {
-      "published_utc": "2026-11-06T21:14:40+00:00",
-      "publisher": "Yahoo",
-      "title": "What Atlassian (TEAM) Said on Its Q1 Earnings Call"
-    },
-    {
-      "published_utc": "2026-11-06T20:31:53+00:00",
-      "publisher": "Benzinga",
-      "title": "Jefferies Maintains Buy on Atlassian, Lowers Price Target to $190"
-    },
-    {
-      "published_utc": "2026-11-06T19:58:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Atlassian's Strong Fiscal Q1 Execution Offset by Cautious Guidance, Truist Says"
     }
   ]
 }

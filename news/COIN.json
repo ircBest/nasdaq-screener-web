@@ -1,9 +1,44 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T16:35:39+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Fell 22% in a Month Before Its Charter Win: Is It Time to Sell, or Load Up?"
+    },
+    {
+      "published_utc": "2026-11-12T16:10:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase (COIN) Stock Fair Value Moves Lower After Mixed Analyst Target Changes"
+    },
+    {
+      "published_utc": "2026-11-12T13:47:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Prediction: The Next Phase of Coinbase Could Be Its Most Important Yet"
+    },
+    {
+      "published_utc": "2026-11-12T11:28:05+00:00",
+      "publisher": "CNBC",
+      "title": "Coinbase CEO Brian Armstrong reacts to Jensen Huang probe and Binance hack"
+    },
+    {
+      "published_utc": "2026-11-12T09:40:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase’s Bank Charter Is Bad News for Circle. Here’s the $1.4 Billion That Matters"
+    },
+    {
+      "published_utc": "2026-11-12T08:44:27+00:00",
+      "publisher": "CNBC",
+      "title": "Coinbase CEO says industry collaboration can help contain fallout from hacks like Binance breach"
+    },
+    {
+      "published_utc": "2026-11-12T06:42:11+00:00",
+      "publisher": "Benzinga",
+      "title": "Coinbase CEO Says AI Agents Are Sending Hundreds of Feature Requests Daily, With Some Updates Live in Under 24 Hours"
+    },
     {
       "published_utc": "2026-11-11T22:11:49+00:00",
       "publisher": "Yahoo",
@@ -28,41 +63,6 @@
       "published_utc": "2026-11-11T13:00:00+00:00",
       "publisher": "Yahoo",
       "title": "OKXICE Tokenized Stock Venue to Open Nov. 23; Circle, Coinbase, Robinhood Among 70+ Assets"
-    },
-    {
-      "published_utc": "2026-11-10T20:55:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase's national trust charter approval is a major win for crypto custody"
-    },
-    {
-      "published_utc": "2026-11-10T20:03:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Gets National Bank Charter Approval"
-    },
-    {
-      "published_utc": "2026-11-10T17:51:41+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Falls 4%, Robinhood Slides 3% as Hot Inflation Data Drags Bitcoin Lower; Webull Declines 2%"
-    },
-    {
-      "published_utc": "2026-11-10T17:03:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase, Kalshi, and Kraken are lawyering up. Here's why."
-    },
-    {
-      "published_utc": "2026-11-10T16:26:13+00:00",
-      "publisher": "Yahoo",
-      "title": "What Brian Armstrong Sees Ahead for Coinbase (COIN) in an Agentic Economy"
-    },
-    {
-      "published_utc": "2026-11-10T16:09:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Anthropic IPO Buzz Has Coinbase Stock And Retail Broker Shares Back On Watch"
-    },
-    {
-      "published_utc": "2026-11-10T10:33:33+00:00",
-      "publisher": "Benzinga",
-      "title": "Coinbase, Kraken, Kalshi Support CFTC in Legal Fight Over Stock Perpetual Futures"
     }
   ]
 }

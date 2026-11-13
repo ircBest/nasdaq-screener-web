@@ -1,9 +1,14 @@
 {
   "ticker": "LIF",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T14:42:15+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Life360, Lowers Price Target to $56.6"
+    },
     {
       "published_utc": "2026-11-11T05:14:58+00:00",
       "publisher": "Benzinga",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-09T17:29:32+00:00",
       "publisher": "Benzinga",
       "title": "Life360 Q3 EPS $0.26 Beats $0.24 Estimate, Sales $174.137M Beat $171.421M Estimate"
-    },
-    {
-      "published_utc": "2026-11-09T17:07:55+00:00",
-      "publisher": "Benzinga",
-      "title": "Life360 Narrows FY2026 Sales Guidance from $650.000M-$685.000M to $665.000M-$681.000M vs $673.023M Est"
     }
   ]
 }

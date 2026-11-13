@@ -1,9 +1,59 @@
 {
   "ticker": "MSTR",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T22:25:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Europe’s largest asset manager doubles down on MicroStrategy amid MSCI setback"
+    },
+    {
+      "published_utc": "2026-11-12T20:45:32+00:00",
+      "publisher": "Yahoo",
+      "title": "JPMorgan Bought More MicroStrategy Before MSCI Exit, Plus Insurance Against a Drop"
+    },
+    {
+      "published_utc": "2026-11-12T15:57:22+00:00",
+      "publisher": "Yahoo",
+      "title": "It’s Official: Michael Saylor’s Strategy Is Out of the MSCI Indexes"
+    },
+    {
+      "published_utc": "2026-11-12T13:18:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Expands Cloud Subscriptions: Can Software Revenues Recover?"
+    },
+    {
+      "published_utc": "2026-11-12T12:28:12+00:00",
+      "publisher": "Yahoo",
+      "title": "Peter Schiff: Strategy Is “Sacrificing MSTR Common Stockholders” to Prop Up Its Preferred"
+    },
+    {
+      "published_utc": "2026-11-12T10:40:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitcoin Price Slides Toward $73K as Nvidia Plunges 9% and MSCI Drops Saylor’s Strategy"
+    },
+    {
+      "published_utc": "2026-11-12T10:17:27+00:00",
+      "publisher": "Yahoo",
+      "title": "MSCI Drops Michael Saylor’s Strategy (MSTR): Is Bitcoin Price at Risk?"
+    },
+    {
+      "published_utc": "2026-11-12T07:59:14+00:00",
+      "publisher": "Benzinga",
+      "title": "Strategy Shares Fall About 6% After MSCI Confirms Index Removal"
+    },
+    {
+      "published_utc": "2026-11-12T06:09:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Fidelity's MSTR Holdings Jump 132% In Q3 — But There's More To Its Bitcoin Bet"
+    },
+    {
+      "published_utc": "2026-11-12T03:15:17+00:00",
+      "publisher": "Yahoo",
+      "title": "Why MSCI Removed MSTR From Its Indexes – And What It Means For Bitcoin Stocks"
+    },
     {
       "published_utc": "2026-11-11T22:07:41+00:00",
       "publisher": "Yahoo",
@@ -13,56 +63,6 @@
       "published_utc": "2026-11-11T10:09:00+00:00",
       "publisher": "Benzinga",
       "title": "MSTR Risks Slide to $100 as MSCI Exit Puts $2.8B at Stake"
-    },
-    {
-      "published_utc": "2026-11-11T09:03:31+00:00",
-      "publisher": "Yahoo",
-      "title": "MSTR Stock In Focus: MSCI Prepares First Index Review Under New Crypto Treasury Rules"
-    },
-    {
-      "published_utc": "2026-11-11T01:10:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy (MSTR) Stock May Still Look Undervalued Following The Binance Hack"
-    },
-    {
-      "published_utc": "2026-11-10T16:31:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin at $73,600 Is Below Strategy’s Average Cost. How Long Can Saylor Go Without Selling?"
-    },
-    {
-      "published_utc": "2026-11-10T02:18:14+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy (MSTR) Is Building A Global Bitcoin Bank"
-    },
-    {
-      "published_utc": "2026-11-09T17:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Saylor's 'Underwater' bitcoin narrative is misleading"
-    },
-    {
-      "published_utc": "2026-11-09T14:25:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Buys 1,036 BTC but Spends More Repurchasing Its Preferred Stock Just Under $100"
-    },
-    {
-      "published_utc": "2026-11-09T13:24:29+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Buys $82M in Bitcoin, Buys Back $188M of STRC"
-    },
-    {
-      "published_utc": "2026-11-09T13:13:28+00:00",
-      "publisher": "Yahoo",
-      "title": "MicroStrategy and Strive Buy 1,065 Bitcoin: Can Saylor Keep Adding Below Cost?"
-    },
-    {
-      "published_utc": "2026-11-09T10:55:59+00:00",
-      "publisher": "Benzinga",
-      "title": "MSTR Drops 3% Despite Strategy’s Biggest Bitcoin Buy in 6 Weeks"
-    },
-    {
-      "published_utc": "2026-11-08T18:31:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin Trades $200 Above Strategy’s Average Cost of $75,451. What Happens to MSTR if BTC Closes Below It?"
     }
   ]
 }

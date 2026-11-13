@@ -1,9 +1,29 @@
 {
   "ticker": "SHOP",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T23:12:41+00:00",
+      "publisher": "Yahoo",
+      "title": "RBC’s Paul Treiber Held Firm on Shopify (SHOP) After a Slight Miss. Here’s the AI Pitch"
+    },
+    {
+      "published_utc": "2026-11-12T14:52:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Shopify (SHOP) Positioned as Key Beneficiary of AI Discovery and Agentic Checkout"
+    },
+    {
+      "published_utc": "2026-11-12T02:16:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Shopify (SHOP) Earnings And AI Commerce Story Put Valuation Back In Focus"
+    },
+    {
+      "published_utc": "2026-11-12T01:10:10+00:00",
+      "publisher": "Yahoo",
+      "title": "How Investors May Respond To Shopify (SHOP) Mixed Earnings And AI Push"
+    },
     {
       "published_utc": "2026-11-11T21:20:02+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-09T19:54:42+00:00",
       "publisher": "Yahoo",
       "title": "Shopify Captured “Nearly Half of All Incremental E-Comm” in the U.S. With Just 14% Share"
-    },
-    {
-      "published_utc": "2026-11-09T16:45:25+00:00",
-      "publisher": "Benzinga",
-      "title": "Here's How Much $100 Invested In Shopify 10 Years Ago Would Be Worth Today"
-    },
-    {
-      "published_utc": "2026-11-09T13:30:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Brokers Suggest Investing in Shopify (SHOP): Read This Before Placing a Bet"
-    },
-    {
-      "published_utc": "2026-11-09T02:37:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Shopify just hit its numbers, and that was the problem"
-    },
-    {
-      "published_utc": "2026-11-06T22:56:00+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Shopify: A $185B E-Commerce Empire Growing 30%+ Annually"
     }
   ]
 }

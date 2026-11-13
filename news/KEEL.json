@@ -1,9 +1,14 @@
 {
   "ticker": "KEEL",
-  "generated_at": "2026-11-12T11:21:41+00:00",
+  "generated_at": "2026-11-13T11:16:51+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-11T15:39:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Goldman Sachs initiates KEEL at neutral with $2 target, citing lack of signed leases"
+    },
     {
       "published_utc": "2026-11-07T04:28:13+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-05T14:55:56+00:00",
       "publisher": "Yahoo",
       "title": "KEEL starts Moses Lake construction for 2027 HPC revenue as third-quarter revenue falls 59%"
-    },
-    {
-      "published_utc": "2026-11-05T14:24:46+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Keel Infrastructure Corp. (KEEL) Q3 2026 Earnings Call Transcript"
     }
   ]
 }
