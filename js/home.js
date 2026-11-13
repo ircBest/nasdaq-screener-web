@@ -24,7 +24,7 @@
   const WATCH_KEY = "nr.watchlist.v1";
 
   const state = {
-    rows: [], shake: {}, tab: "all", query: "", rsi: 40, profit: "all", cap: "all",
+    rows: [], ranked: {}, shake: {}, tab: "all", query: "", rsi: 40, profit: "all", cap: "all",
     ind: "all", tier: "all", sort: "rsi", dir: 1, shown: PAGE, watch: loadWatch()
   };
 
@@ -149,10 +149,32 @@
   };
   const DEFAULT_DIR = { rsi: 1, change: -1, cap: -1, rr: -1, volume: -1, price: -1, ticker: 1, tier: 1 };
 
+  /* 관심 종목 — 스크리너 필터 (RSI 40 이하 · 흑자 · 시총 · 업종 · 흔들림) 를 걸지 않는다. 검색어만.
+     오늘 신호 목록 (RSI 40 이하 종목만 든다) 에 없는 종목은 전체 순위 자료 (rankings.json · 약 311종목) 로 채운다.
+     전에는 둘 다 안 해서 담은 8종목 중 3종목만 보였다 (사용자 2026-11-13). */
+  function fromRanking(x) {
+    return { ticker: x.ticker, name: x.name, industry: x.industry, price: x.price, day_change_pct: x.day_change_pct,
+      market_cap_b: x.market_cap_b, rsi: null, risk_reward: null, volume_ratio: null,
+      profitable: x.profit === true ? true : x.profit === false ? false : null, fromRanking: true };
+  }
+  function watchRows(q) {
+    const have = new Map(state.rows.map((r) => [r.ticker, r]));
+    let rows = [...state.watch].map((t) => have.get(t) || (state.ranked[t] ? fromRanking(state.ranked[t]) : null)).filter(Boolean);
+    if (q) rows = rows.filter((r) => String(r.ticker).toLowerCase().includes(q) || String(r.name || "").toLowerCase().includes(q));
+    const key = SORTERS[state.sort] || SORTERS.rsi, dir = state.dir;
+    return rows.sort((x, y) => {
+      const p = key(x), q2 = key(y);
+      if (p === null && q2 === null) return String(x.ticker).localeCompare(String(y.ticker));
+      if (p === null) return 1;
+      if (q2 === null) return -1;
+      return (p < q2 ? -1 : p > q2 ? 1 : 0) * dir;
+    });
+  }
+
   function filtered() {
     const q = state.query.trim().toLowerCase();
+    if (state.tab === "watch") return watchRows(q);
     let rows = state.rows.filter((r) => {
-      if (state.tab === "watch" && !state.watch.has(r.ticker)) return false;
       if (num(r.rsi) === null || num(r.rsi) > state.rsi) return false;
       if (state.profit === "profit" && r.profitable !== true) return false;
       const c = num(r.market_cap_b);
@@ -214,6 +236,16 @@
           <td class="c-opt">${t ? `<span class="tier tier-${t}">${TIER[t][0]}</span>` : dash}</td>
           <td class="c-opt c-tags">${tags(r)}</td></tr>`;
       }).join("");
+    }
+    if (state.tab === "watch") {
+      const have = new Set(rows.map((r) => r.ticker));
+      const missing = [...state.watch].filter((t) => !have.has(t)).sort();
+      if (missing.length) {
+        $("rows").insertAdjacentHTML("beforeend", `<tr><td colspan="12" class="empty" style="height:auto;padding:12px 10px">
+          오늘 자료에 없는 관심 종목: ${missing.map((t) => `<a href="stock.html?ticker=${encodeURIComponent(t)}">${esc(t)}</a>`).join(" · ")}</td></tr>`);
+      }
+      $("resultCount").textContent = `관심 종목 ${state.watch.size}개 · 필터는 적용하지 않습니다` +
+        (rows.some((r) => r.fromRanking) ? " · RSI 는 오늘 신호 목록에 든 종목만" : "");
     }
     $("moreBtn").hidden = rows.length <= shown.length;
     $("moreBtn").textContent = `${Math.min(PAGE, rows.length - shown.length)}개 더 보기`;
@@ -356,8 +388,10 @@
   }
 
   async function start() {
-    const [latest, data, sec, shake, bsi, learning, vix] = await Promise.all(
-      ["latest_signals.json", "data.json", "sectors.json", "shake.json", "bsi.json", "learning.json", "vix.json"].map(get));
+    const [latest, data, sec, shake, bsi, learning, vix, ranks] = await Promise.all(
+      ["latest_signals.json", "data.json", "sectors.json", "shake.json", "bsi.json", "learning.json", "vix.json", "rankings.json"].map(get));
+    state.ranked = {};
+    ((ranks && ranks.rows) || []).forEach((x) => { if (x && x.ticker) state.ranked[x.ticker] = x; });
     state.shake = (shake && shake.tickers) || {};
     state.rsiMax = num(latest && latest.config && latest.config.RSI_THRESHOLD) || 40;
     state.rsi = state.rsiMax;
