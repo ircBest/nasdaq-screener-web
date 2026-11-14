@@ -31,7 +31,8 @@
     { key: "news", href: "news.html", label: "오늘의 뉴스", short: "뉴스" },
     { key: "sectors", href: "sectors.html", label: "업종 모니터", short: "업종" },
     { key: "stock", href: "stock.html", label: "종목 상세", short: "종목" },
-    { key: "assets", href: "assets.html", label: "내 자산", short: "자산" },
+    /* 내 자산 — 사용자 (2026-11-14): "잠깐 감춰봐 · 나중에 다시 공개해달라고 하면 해줘". 다시 공개할 때 아래 줄을 살린다.
+    { key: "assets", href: "assets.html", label: "내 자산", short: "자산" }, */
     { key: "positions", href: "positions.html", label: "연구 장부", short: "장부" },
     { key: "learning", href: "learning.html", label: "연구 현황", short: "연구" }
   ];
