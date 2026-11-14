@@ -1,9 +1,24 @@
 {
   "ticker": "CORZ",
-  "generated_at": "2026-11-13T11:16:51+00:00",
+  "generated_at": "2026-11-14T10:39:37+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T16:20:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Surging Earnings Estimates Signal Upside for Core Scientific, Inc. (CORZ) Stock"
+    },
+    {
+      "published_utc": "2026-11-12T13:55:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Wall Street Analysts See a 91.83% Upside in Core Scientific, Inc. (CORZ): Can the Stock Really Move This High?"
+    },
+    {
+      "published_utc": "2026-11-12T07:29:09+00:00",
+      "publisher": "Yahoo",
+      "title": "CoreWeave’s Blowout Quarter Is Good News for Core Scientific’s $10 Billion Contract"
+    },
     {
       "published_utc": "2026-11-10T16:04:19+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-06T08:19:20+00:00",
       "publisher": "Benzinga",
       "title": "Needham Maintains Buy on Core Scientific, Lowers Price Target to $28"
-    },
-    {
-      "published_utc": "2026-11-06T03:10:50+00:00",
-      "publisher": "Benzinga",
-      "title": "Core Scientific to Exit Bitcoin Mining by Year-End and Become a Pure-Play AI Data Center Provider"
-    },
-    {
-      "published_utc": "2026-11-06T00:31:32+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Core Scientific, Inc. 2026 Q3 - Results - Earnings Call Presentation"
-    },
-    {
-      "published_utc": "2026-11-05T22:14:52+00:00",
-      "publisher": "Yahoo",
-      "title": "Core Scientific (CORZ) Stock Still Looks Overvalued After A 38% Slide"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-11-13T11:16:51+00:00",
+  "generated_at": "2026-11-14T10:39:37+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-13T06:16:11+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions (PENG) Launches Cree LED X21, Is The Stock Above Fair Value?"
+    },
+    {
+      "published_utc": "2026-11-13T05:12:54+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions (PENG) Unveils AI Memory Tools And Services Ahead Of SC26"
+    },
+    {
+      "published_utc": "2026-11-13T03:15:47+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Memory Reuse For AI Data Centers Altering The Investment Case For Penguin Solutions (PENG)?"
+    },
     {
       "published_utc": "2026-11-12T15:31:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-04T10:19:40+00:00",
       "publisher": "Benzinga",
       "title": "Penguin Solutions Agrees To Sell Cree LED Business To Transom Capital Group; Financial Terms Undisclosed"
-    },
-    {
-      "published_utc": "2026-11-04T08:12:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions “Sells at a Low Multiple.” Its Next Report Has to Prove the Earnings Behind It"
-    },
-    {
-      "published_utc": "2026-11-03T15:40:03+00:00",
-      "publisher": "Yahoo",
-      "title": "PENG vs. FFIV: Which Stock Is the Better Value Option?"
-    },
-    {
-      "published_utc": "2026-11-03T14:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions to Showcase Full-Stack AI Factory Platform Innovations at SC26"
     }
   ]
 }

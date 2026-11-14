@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-11-13T11:16:37+00:00",
-  "date": "2026-11-12",
+  "updated_utc": "2026-11-14T10:39:24+00:00",
+  "date": "2026-11-13",
   "note": "최근 60거래일 동안 주가가 하루에 보통 얼마나 움직였는지로 나눈 단계입니다. 그날 살펴본 종목들 안에서의 순서이고, 앞으로 오르거나 내린다는 뜻이 아닙니다. 흔들림이 큰 종목은 크게 빠지는 일도 크게 오르는 일도 많습니다.",
   "history_note": "과거 비율은 2021 ~ 2025년 같은 방식으로 나눈 종목들이 4주(20거래일) 뒤 20% 넘게 빠져 있던 비율과 20% 넘게 올라 있던 비율입니다. 지금 상장된 종목만으로 센 값이라 빠진 비율은 실제보다 낮게 나왔을 수 있습니다.",
   "history": {
@@ -57,7 +57,7 @@
         90,
         100
       ],
-      "count": 32,
+      "count": 31,
       "n": 27492,
       "down_pct": 19.4,
       "up_pct": 22.4
@@ -66,7 +66,7 @@
   "tickers": {
     "AAOI": {
       "tier": "very_high",
-      "daily_move_pct": 7.1
+      "daily_move_pct": 7.0
     },
     "AAPL": {
       "tier": "low",
@@ -110,7 +110,7 @@
     },
     "AEVA": {
       "tier": "high",
-      "daily_move_pct": 5.3
+      "daily_move_pct": 5.5
     },
     "AGLT": {
       "tier": "high",
@@ -126,7 +126,7 @@
     },
     "AKAM": {
       "tier": "mid",
-      "daily_move_pct": 3.8
+      "daily_move_pct": 3.7
     },
     "ALAB": {
       "tier": "high",
@@ -142,7 +142,7 @@
     },
     "ALNT": {
       "tier": "mid",
-      "daily_move_pct": 4.3
+      "daily_move_pct": 4.4
     },
     "ALRM": {
       "tier": "low",
@@ -158,7 +158,7 @@
     },
     "AMD": {
       "tier": "high",
-      "daily_move_pct": 5.0
+      "daily_move_pct": 5.2
     },
     "AMKR": {
       "tier": "mid",
@@ -170,7 +170,7 @@
     },
     "AOSL": {
       "tier": "high",
-      "daily_move_pct": 6.1
+      "daily_move_pct": 6.3
     },
     "APLD": {
       "tier": "high",
@@ -206,7 +206,7 @@
     },
     "AVGO": {
       "tier": "low",
-      "daily_move_pct": 3.0
+      "daily_move_pct": 3.1
     },
     "AVPT": {
       "tier": "low",
@@ -218,7 +218,7 @@
     },
     "AXTI": {
       "tier": "very_high",
-      "daily_move_pct": 8.1
+      "daily_move_pct": 8.2
     },
     "BAND": {
       "tier": "very_high",
@@ -230,7 +230,7 @@
     },
     "BELFB": {
       "tier": "mid",
-      "daily_move_pct": 3.6
+      "daily_move_pct": 3.7
     },
     "BL": {
       "tier": "mid",
@@ -238,15 +238,11 @@
     },
     "BLKB": {
       "tier": "low",
-      "daily_move_pct": 2.0
+      "daily_move_pct": 2.1
     },
     "BLZE": {
       "tier": "high",
-      "daily_move_pct": 5.9
-    },
-    "BRUN": {
-      "tier": "very_high",
-      "daily_move_pct": 8.6
+      "daily_move_pct": 6.0
     },
     "BRZE": {
       "tier": "very_high",
@@ -274,7 +270,7 @@
     },
     "CBRS": {
       "tier": "high",
-      "daily_move_pct": 5.3
+      "daily_move_pct": 5.6
     },
     "CCC": {
       "tier": "low",
@@ -290,11 +286,11 @@
     },
     "CDW": {
       "tier": "low",
-      "daily_move_pct": 3.4
+      "daily_move_pct": 3.3
     },
     "CEVA": {
       "tier": "mid",
-      "daily_move_pct": 4.5
+      "daily_move_pct": 4.4
     },
     "CGNT": {
       "tier": "low",
@@ -318,11 +314,11 @@
     },
     "CIFR": {
       "tier": "very_high",
-      "daily_move_pct": 7.6
+      "daily_move_pct": 7.5
     },
     "CLBT": {
       "tier": "low",
-      "daily_move_pct": 3.0
+      "daily_move_pct": 3.1
     },
     "CLMB": {
       "tier": "mid",
@@ -346,7 +342,7 @@
     },
     "COIN": {
       "tier": "mid",
-      "daily_move_pct": 4.8
+      "daily_move_pct": 4.7
     },
     "CORZ": {
       "tier": "high",
@@ -370,19 +366,19 @@
     },
     "CRWD": {
       "tier": "mid",
-      "daily_move_pct": 4.6
+      "daily_move_pct": 4.5
     },
     "CRWV": {
       "tier": "high",
-      "daily_move_pct": 6.2
+      "daily_move_pct": 6.3
     },
     "CSCO": {
       "tier": "low",
-      "daily_move_pct": 2.2
+      "daily_move_pct": 2.4
     },
     "CSIQ": {
       "tier": "mid",
-      "daily_move_pct": 4.2
+      "daily_move_pct": 4.1
     },
     "CTSH": {
       "tier": "low",
@@ -390,7 +386,7 @@
     },
     "CVLT": {
       "tier": "low",
-      "daily_move_pct": 2.8
+      "daily_move_pct": 3.0
     },
     "DAKT": {
       "tier": "low",
@@ -441,12 +437,12 @@
       "daily_move_pct": 2.1
     },
     "DSP": {
-      "tier": "high",
+      "tier": "mid",
       "daily_move_pct": 4.9
     },
     "DUOL": {
       "tier": "mid",
-      "daily_move_pct": 4.4
+      "daily_move_pct": 4.5
     },
     "EEFT": {
       "tier": "low",
@@ -466,11 +462,11 @@
     },
     "EVCM": {
       "tier": "high",
-      "daily_move_pct": 4.9
+      "daily_move_pct": 5.0
     },
     "EVLV": {
       "tier": "low",
-      "daily_move_pct": 2.8
+      "daily_move_pct": 2.9
     },
     "EXLS": {
       "tier": "low",
@@ -481,8 +477,8 @@
       "daily_move_pct": 3.2
     },
     "FEIM": {
-      "tier": "high",
-      "daily_move_pct": 6.4
+      "tier": "very_high",
+      "daily_move_pct": 6.5
     },
     "FFIV": {
       "tier": "mid",
@@ -498,7 +494,7 @@
     },
     "FLYW": {
       "tier": "low",
-      "daily_move_pct": 2.6
+      "daily_move_pct": 2.7
     },
     "FORM": {
       "tier": "high",
@@ -530,7 +526,7 @@
     },
     "GCT": {
       "tier": "low",
-      "daily_move_pct": 3.0
+      "daily_move_pct": 2.9
     },
     "GDS": {
       "tier": "mid",
@@ -588,10 +584,6 @@
       "tier": "low",
       "daily_move_pct": 2.3
     },
-    "IIIV": {
-      "tier": "low",
-      "daily_move_pct": 2.4
-    },
     "IMOS": {
       "tier": "high",
       "daily_move_pct": 5.2
@@ -622,7 +614,7 @@
     },
     "IQMX": {
       "tier": "mid",
-      "daily_move_pct": 4.4
+      "daily_move_pct": 4.5
     },
     "ITRI": {
       "tier": "low",
@@ -641,11 +633,11 @@
       "daily_move_pct": 1.8
     },
     "KC": {
-      "tier": "mid",
-      "daily_move_pct": 3.4
+      "tier": "low",
+      "daily_move_pct": 3.3
     },
     "KEEL": {
-      "tier": "very_high",
+      "tier": "high",
       "daily_move_pct": 6.5
     },
     "KLAC": {
@@ -662,11 +654,11 @@
     },
     "KSPI": {
       "tier": "low",
-      "daily_move_pct": 2.1
+      "daily_move_pct": 2.0
     },
     "LASR": {
       "tier": "high",
-      "daily_move_pct": 5.1
+      "daily_move_pct": 5.2
     },
     "LFUS": {
       "tier": "mid",
@@ -674,11 +666,11 @@
     },
     "LIF": {
       "tier": "low",
-      "daily_move_pct": 3.0
+      "daily_move_pct": 2.9
     },
     "LITE": {
       "tier": "very_high",
-      "daily_move_pct": 6.6
+      "daily_move_pct": 6.5
     },
     "LOGI": {
       "tier": "low",
@@ -690,7 +682,7 @@
     },
     "LRCX": {
       "tier": "mid",
-      "daily_move_pct": 4.5
+      "daily_move_pct": 4.6
     },
     "LSCC": {
       "tier": "mid",
@@ -698,7 +690,7 @@
     },
     "LYFT": {
       "tier": "low",
-      "daily_move_pct": 2.8
+      "daily_move_pct": 2.9
     },
     "MAAS": {
       "tier": "high",
@@ -722,11 +714,11 @@
     },
     "MITK": {
       "tier": "mid",
-      "daily_move_pct": 3.6
+      "daily_move_pct": 3.5
     },
     "MKSI": {
       "tier": "mid",
-      "daily_move_pct": 4.0
+      "daily_move_pct": 4.1
     },
     "MLAB": {
       "tier": "low",
@@ -758,7 +750,7 @@
     },
     "MSTR": {
       "tier": "high",
-      "daily_move_pct": 5.4
+      "daily_move_pct": 5.3
     },
     "MTSI": {
       "tier": "high",
@@ -766,11 +758,11 @@
     },
     "MU": {
       "tier": "mid",
-      "daily_move_pct": 4.6
+      "daily_move_pct": 4.5
     },
     "MXL": {
       "tier": "very_high",
-      "daily_move_pct": 7.5
+      "daily_move_pct": 7.6
     },
     "NANO": {
       "tier": "very_high",
@@ -822,7 +814,7 @@
     },
     "NTNX": {
       "tier": "low",
-      "daily_move_pct": 2.3
+      "daily_move_pct": 2.2
     },
     "NTSK": {
       "tier": "mid",
@@ -914,7 +906,7 @@
     },
     "PDFS": {
       "tier": "high",
-      "daily_move_pct": 5.2
+      "daily_move_pct": 5.4
     },
     "PEGA": {
       "tier": "low",
@@ -974,15 +966,15 @@
     },
     "PSQL": {
       "tier": "very_high",
-      "daily_move_pct": 11.3
+      "daily_move_pct": 11.4
     },
     "PTC": {
       "tier": "mid",
       "daily_move_pct": 4.2
     },
     "PUBM": {
-      "tier": "low",
-      "daily_move_pct": 3.4
+      "tier": "mid",
+      "daily_move_pct": 3.5
     },
     "QBTS": {
       "tier": "high",
@@ -990,7 +982,7 @@
     },
     "QCOM": {
       "tier": "low",
-      "daily_move_pct": 3.3
+      "daily_move_pct": 3.4
     },
     "QLYS": {
       "tier": "mid",
@@ -1010,7 +1002,7 @@
     },
     "RDVT": {
       "tier": "low",
-      "daily_move_pct": 2.6
+      "daily_move_pct": 2.7
     },
     "RDWR": {
       "tier": "low",
@@ -1062,7 +1054,7 @@
     },
     "SAIL": {
       "tier": "mid",
-      "daily_move_pct": 4.3
+      "daily_move_pct": 4.2
     },
     "SANM": {
       "tier": "mid",
@@ -1070,7 +1062,7 @@
     },
     "SCSC": {
       "tier": "mid",
-      "daily_move_pct": 3.9
+      "daily_move_pct": 3.7
     },
     "SEDG": {
       "tier": "mid",
@@ -1082,7 +1074,7 @@
     },
     "SHLS": {
       "tier": "high",
-      "daily_move_pct": 5.1
+      "daily_move_pct": 5.0
     },
     "SHOP": {
       "tier": "mid",
@@ -1094,7 +1086,7 @@
     },
     "SITM": {
       "tier": "high",
-      "daily_move_pct": 5.5
+      "daily_move_pct": 5.6
     },
     "SKHY": {
       "tier": "mid",
@@ -1114,7 +1106,7 @@
     },
     "SNDK": {
       "tier": "high",
-      "daily_move_pct": 5.9
+      "daily_move_pct": 6.0
     },
     "SNPS": {
       "tier": "mid",
@@ -1146,7 +1138,7 @@
     },
     "SSYS": {
       "tier": "low",
-      "daily_move_pct": 3.3
+      "daily_move_pct": 3.1
     },
     "STNE": {
       "tier": "high",
@@ -1182,7 +1174,7 @@
     },
     "TASK": {
       "tier": "low",
-      "daily_move_pct": 2.9
+      "daily_move_pct": 2.8
     },
     "TEAM": {
       "tier": "mid",
@@ -1198,7 +1190,7 @@
     },
     "TLS": {
       "tier": "very_high",
-      "daily_move_pct": 6.6
+      "daily_move_pct": 6.7
     },
     "TRMB": {
       "tier": "low",
@@ -1210,7 +1202,7 @@
     },
     "TSEM": {
       "tier": "high",
-      "daily_move_pct": 5.4
+      "daily_move_pct": 5.5
     },
     "TTAN": {
       "tier": "high",
@@ -1254,11 +1246,11 @@
     },
     "VNET": {
       "tier": "high",
-      "daily_move_pct": 6.1
+      "daily_move_pct": 6.2
     },
     "VRNS": {
       "tier": "low",
-      "daily_move_pct": 2.6
+      "daily_move_pct": 2.5
     },
     "VRSN": {
       "tier": "low",
@@ -1273,12 +1265,12 @@
       "daily_move_pct": 2.4
     },
     "WDC": {
-      "tier": "mid",
+      "tier": "high",
       "daily_move_pct": 4.9
     },
     "WIX": {
       "tier": "mid",
-      "daily_move_pct": 4.0
+      "daily_move_pct": 3.9
     },
     "WLTH": {
       "tier": "mid",
@@ -1296,6 +1288,10 @@
       "tier": "high",
       "daily_move_pct": 6.4
     },
+    "YB": {
+      "tier": "low",
+      "daily_move_pct": 2.5
+    },
     "ZBRA": {
       "tier": "low",
       "daily_move_pct": 2.1
@@ -1306,7 +1302,7 @@
     },
     "ZS": {
       "tier": "mid",
-      "daily_move_pct": 4.4
+      "daily_move_pct": 4.3
     }
   }
 }

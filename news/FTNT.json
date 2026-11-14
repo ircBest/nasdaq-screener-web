@@ -1,9 +1,19 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-11-13T11:16:51+00:00",
+  "generated_at": "2026-11-14T10:39:37+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-13T13:02:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CRWD vs. FTNT: Which Cybersecurity Stock Has an Edge Right Now?"
+    },
+    {
+      "published_utc": "2026-11-13T01:13:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Fortinet (FTNT) Leans Into AI Security Following Stronger 2026 Outlook And Valuation Debate"
+    },
     {
       "published_utc": "2026-11-12T23:14:27+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-04T20:00:18+00:00",
       "publisher": "Yahoo",
       "title": "Should Twilio Stock Holders Look At Fortinet Instead?"
-    },
-    {
-      "published_utc": "2026-11-04T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "FTNT Q3 Earnings Call Highlights Services Outlook and AI Demand"
-    },
-    {
-      "published_utc": "2026-11-04T12:51:38+00:00",
-      "publisher": "Yahoo",
-      "title": "Buy, Sell, or Hold? Wednesday’s Top Upgrades and Downgrades: Adobe, Apple, Duolingo, Exxon Mobil, Fiserv, Fortinet, Gartner, Lockheed Martin, Skyworks Solutions, Visa and More"
     }
   ]
 }

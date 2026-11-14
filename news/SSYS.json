@@ -1,9 +1,44 @@
 {
   "ticker": "SSYS",
-  "generated_at": "2026-11-13T11:16:51+00:00",
+  "generated_at": "2026-11-14T10:39:37+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-13T06:29:54+00:00",
+      "publisher": "Benzinga",
+      "title": "Needham Maintains Buy on Stratasys, Lowers Price Target to $9.5"
+    },
+    {
+      "published_utc": "2026-11-12T20:14:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Stratasys Q3 Earnings Call Highlights"
+    },
+    {
+      "published_utc": "2026-11-12T18:24:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Stratasys Ltd. Q3 2026 Earnings Call Summary"
+    },
+    {
+      "published_utc": "2026-11-12T17:31:36+00:00",
+      "publisher": "Yahoo",
+      "title": "Stratasys (SSYS) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-12T12:25:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Stratasys (SSYS) Q3 Earnings Beat Estimates"
+    },
+    {
+      "published_utc": "2026-11-12T12:21:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Stratasys: Q3 Earnings Snapshot"
+    },
+    {
+      "published_utc": "2026-11-12T12:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Stratasys Releases Third Quarter 2026 Financial Results"
+    },
     {
       "published_utc": "2026-11-12T11:49:05+00:00",
       "publisher": "SeekingAlpha",
@@ -28,26 +63,6 @@
       "published_utc": "2026-11-12T10:08:51+00:00",
       "publisher": "SeekingAlpha",
       "title": "Stratasys Q3 Review: Progressing, But Still Not Good Enough"
-    },
-    {
-      "published_utc": "2026-11-12T08:14:05+00:00",
-      "publisher": "Benzinga",
-      "title": "Stratasys Q3 Adj. EPS $0.04 Beats $0.02 Estimate, Sales $142.640M Beat $141.919M Estimate"
-    },
-    {
-      "published_utc": "2026-11-12T08:01:52+00:00",
-      "publisher": "Benzinga",
-      "title": "Stratasys Narrows FY2026 Adj EPS Guidance from $0.09-$0.14 to $0.10-$0.12 vs $0.11 Est; Lowers FY2026 Sales Guidance from $565.000M-$575.000M to $556.000M-$561.000M vs $565.202M Est"
-    },
-    {
-      "published_utc": "2026-11-12T08:01:33+00:00",
-      "publisher": "Benzinga",
-      "title": "Stratasys Raises FY2026 GAAP EPS Guidance from $(0.95)-$(0.76) to $(0.88)-$(0.73) vs $(0.88) Est"
-    },
-    {
-      "published_utc": "2026-11-04T13:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Stratasys Sets 2030 Environmental Targets and Completes First Climate Risk Analysis Disclosed in Fifth Annual Sustainability Report"
     }
   ]
 }

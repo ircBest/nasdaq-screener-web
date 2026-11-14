@@ -1,9 +1,24 @@
 {
   "ticker": "XNDU",
-  "generated_at": "2026-11-13T11:16:51+00:00",
+  "generated_at": "2026-11-14T10:39:37+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-12T20:20:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Xanadu Quantum Technologies: 3 Key Takeaways for Long-Term Investors"
+    },
+    {
+      "published_utc": "2026-11-12T13:06:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Xanadu Quantum Analysts Slash Their Forecasts Following Downbeat Q3 Results"
+    },
+    {
+      "published_utc": "2026-11-12T11:05:23+00:00",
+      "publisher": "Benzinga",
+      "title": "RBC Capital Maintains Outperform on Xanadu Quantum, Lowers Price Target to $13"
+    },
     {
       "published_utc": "2026-11-12T09:22:33+00:00",
       "publisher": "Benzinga",
@@ -48,16 +63,6 @@
       "published_utc": "2026-11-10T12:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Xanadu and HyperLight Achieve Breakthrough of Nearly 3x Reduction in Optical Switch Loss, Accelerating Path to Commercial Photonic Quantum Systems"
-    },
-    {
-      "published_utc": "2026-11-10T08:06:12+00:00",
-      "publisher": "Benzinga",
-      "title": "Xanadu Quantum Technologies And Thin-Film Lithium Niobate Photonics Maker HyperLight Announce Hardware Performance Milestone Of Reducing Optical Switch Insertion Loss To 7mdB"
-    },
-    {
-      "published_utc": "2026-11-04T01:14:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Xanadu Quantum Technologies Heads These 3 Canadian Founder Led Stocks To Watch"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "ADI",
-  "generated_at": "2026-11-13T11:16:51+00:00",
+  "generated_at": "2026-11-14T10:39:37+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-13T22:00:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Analog Devices (ADI) Dipped More Than Broader Market Today"
+    },
+    {
+      "published_utc": "2026-11-13T18:07:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Analog Devices (ADI) Draws Fresh ETF Buying, Is The Stock Already Pricey?"
+    },
+    {
+      "published_utc": "2026-11-13T17:09:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Analog Devices (ADI) Stock Looks Fully Valued As It Buys Into AI"
+    },
     {
       "published_utc": "2026-11-12T20:48:56+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-09T11:07:16+00:00",
       "publisher": "Yahoo",
       "title": "Missed Analog Devices' Rally? Here's What Early Buyers Saw"
-    },
-    {
-      "published_utc": "2026-11-09T11:01:44+00:00",
-      "publisher": "Yahoo",
-      "title": "47 ETFs Add to Analog Devices (ADI) Holdings on Thursday"
-    },
-    {
-      "published_utc": "2026-11-06T21:02:17+00:00",
-      "publisher": "Yahoo",
-      "title": "ADI Stock Couldn't Defy Gravity Of Chip Sector For Long"
-    },
-    {
-      "published_utc": "2026-11-05T13:50:56+00:00",
-      "publisher": "ChartMill",
-      "title": "Analog Devices (NASDAQ:ADI): A Dividend Quality Candidate for Income Investors"
     }
   ]
 }

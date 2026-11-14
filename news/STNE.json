@@ -1,9 +1,14 @@
 {
   "ticker": "STNE",
-  "generated_at": "2026-11-13T11:16:51+00:00",
+  "generated_at": "2026-11-14T10:39:37+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-13T04:14:34+00:00",
+      "publisher": "Yahoo",
+      "title": "StoneCo Q3 Earnings Call Highlights"
+    },
     {
       "published_utc": "2026-11-12T22:05:06+00:00",
       "publisher": "Yahoo",
@@ -13,6 +18,16 @@
       "published_utc": "2026-11-12T21:11:00+00:00",
       "publisher": "Yahoo",
       "title": "StoneCo Reports Third Quarter 2026 Results"
+    },
+    {
+      "published_utc": "2026-11-12T17:17:02+00:00",
+      "publisher": "Benzinga",
+      "title": "StoneCo Raises FY2026 Adj EPS Guidance from $2.00-$2.11 to $2.10-$2.22 vs $2.21 Est"
+    },
+    {
+      "published_utc": "2026-11-12T17:14:30+00:00",
+      "publisher": "Benzinga",
+      "title": "StoneCo Q3 Adj. EPS $0.45 Misses $0.49 Estimate, Sales $717.136M Beat $715.070M Estimate"
     },
     {
       "published_utc": "2026-11-05T14:00:04+00:00",
@@ -38,11 +53,6 @@
       "published_utc": "2026-11-02T21:45:02+00:00",
       "publisher": "Yahoo",
       "title": "Why StoneCo Ltd. (STNE) Dipped More Than Broader Market Today"
-    },
-    {
-      "published_utc": "2026-10-30T13:28:24+00:00",
-      "publisher": "Benzinga",
-      "title": "Goldman Sachs Maintains Neutral on StoneCo, Lowers Price Target to $9.5"
     }
   ]
 }

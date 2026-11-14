@@ -1,13 +1,33 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-11-13T11:16:51+00:00",
+  "generated_at": "2026-11-14T10:39:37+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-12T19:14:52+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile Plans Its Own Rocket to Speed Satellite Launches and Cut Costs"
+    },
+    {
+      "published_utc": "2026-11-12T14:51:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Intuitive Machines Surges 16% on Record Quarter and Positive Free Cash Flow; AST SpaceMobile Falls 3%, Rocket Lab Slips 2%"
+    },
+    {
       "published_utc": "2026-11-12T14:39:20+00:00",
       "publisher": "SeekingAlpha",
       "title": "AST SpaceMobile, Inc. (ASTS) Discusses Direct-to-Cell Satellite Connectivity and Space Technology Execution Transcript"
+    },
+    {
+      "published_utc": "2026-11-12T13:40:27+00:00",
+      "publisher": "Yahoo",
+      "title": "ASTS Short Interest At 2-Year Highs Ahead Of Blacklift Event – Retail Calls ASTS The ‘Biggest Stock Of The Next 5 Years’"
+    },
+    {
+      "published_utc": "2026-11-12T12:03:00+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile sends strong signal to SpaceX investors"
     },
     {
       "published_utc": "2026-11-12T09:30:47+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-11T16:10:00+00:00",
       "publisher": "Yahoo",
       "title": "Should You Exercise Caution on ASTS Stock After Soft Q3 Results?"
-    },
-    {
-      "published_utc": "2026-11-11T16:06:20+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Firefly: AST SpaceMobile Deal Turns The Launch Bottleneck Into A Growth Engine"
-    },
-    {
-      "published_utc": "2026-11-11T14:35:25+00:00",
-      "publisher": "Yahoo",
-      "title": "ASTS Stock Alert: What to Know as AST SpaceMobile Teams Up With Rakuten"
-    },
-    {
-      "published_utc": "2026-11-11T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ASTS Q3 Earnings Call Highlights Service Rollout and Launch Plans"
-    },
-    {
-      "published_utc": "2026-11-11T10:11:00+00:00",
-      "publisher": "Yahoo",
-      "title": "$10,000 in AST SpaceMobile Stock at Its Record High Is Worth About $2,770 Today. Here's What Gets That Money Back."
     }
   ]
 }
