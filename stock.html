@@ -79,6 +79,16 @@
 .ins-mini .v{font-size:16px;font-weight:700;margin-top:2px}
 .ins-mini .v.up{color:var(--green)} .ins-mini .v.down{color:var(--red)}
 .ins-mini .n{font-size:11px;color:var(--text-dim);margin-top:2px}
+/* 공매도 잔고 — FINRA · 한 달 두 번 (막대 = 잔고 · 선 = 평균 거래량으로 며칠치) */
+.si-chart{padding:10px 12px 8px}
+.si-chart svg{display:block;width:100%;height:180px}
+.si-chart .bar{fill:rgba(48,93,220,.30)}
+.si-chart .bar.last{fill:var(--brand)}
+.si-chart .dl{fill:none;stroke:var(--amber);stroke-width:2;vector-effect:non-scaling-stroke}
+.si-chart .lbl{display:flex;justify-content:space-between;margin-top:4px;font-size:11px;color:var(--text-faint)}
+.si-chart .legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px;font-size:11px;color:var(--text-dim)}
+.si-chart .legend i{display:inline-block;width:12px;height:8px;margin-right:5px;vertical-align:middle;border-radius:2px}
+@media (max-width:767px){.si-chart svg{height:150px}}
 @media (max-width:480px){.news li{grid-template-columns:1fr;gap:2px}
   .news .when span{display:inline;margin-left:6px}}
 </style>
@@ -574,7 +584,82 @@ function insidersSection(ins){
     </section>`;
 }
 
-const TABS = [["summary","요약"],["chart","차트"],["indicators","지표"],["signals","신호 이력"],["similar","유사 흐름"],["news","뉴스"],["insiders","임원 거래"]];
+/* 공매도 잔고 — short/{T}.json (FINRA · 한 달 두 번 · 기준일 뒤 약 일주일에 공개).
+   이 사이트의 시험 (2021 ~ 2025 · 나스닥 기술주 약 280개) 에서 그다음 한 달 · 석 달 방향을 가르지 못했다 — 기록으로만 싣는다. */
+function siDays(v){ return v==null ? "—" : Number(v).toFixed(1) + "일"; }
+function siChg(v){ return v==null ? "—" : (v>0?"+":"") + Number(v).toFixed(1) + "%"; }
+function siPos(p){
+  if(p==null) return "—";
+  return p >= 50 ? `많은 편 · 상위 ${Math.max(1, Math.round(100 - p))}%` : `적은 편 · 하위 ${Math.max(1, Math.round(p))}%`;
+}
+function siUsual(si, r){
+  if(r.dtc==null || si.dtc_avg==null) return "";
+  return r.dtc > si.dtc_avg * 1.2 ? "평소보다 많음" : r.dtc < si.dtc_avg * 0.8 ? "평소보다 적음" : "평소와 비슷";
+}
+function siChart(rows){
+  const pts = (rows || []).filter(r => r && r.si != null);
+  if(pts.length < 2) return "";
+  const W = 600, H = 180, T = 10, B = 4, n = pts.length;
+  const maxSI = Math.max(...pts.map(p => p.si)) || 1;
+  const ds = pts.map(p => p.dtc).filter(v => v != null);
+  const maxD = Math.max(...ds, 0.01);
+  const bw = W / n, gap = Math.min(6, bw * 0.25);
+  const bars = pts.map((p, i) => {
+    const h = (p.si / maxSI) * (H - T - B);
+    return `<rect class="bar${i === n - 1 ? " last" : ""}" x="${(i * bw + gap / 2).toFixed(1)}" y="${(H - B - h).toFixed(1)}" width="${(bw - gap).toFixed(1)}" height="${h.toFixed(1)}"><title>${escapeHTML(p.d)} · 잔고 ${fmtShares(p.si)}주${p.dtc != null ? " · " + Number(p.dtc).toFixed(2) + "일치" : ""}</title></rect>`;
+  }).join("");
+  const line = pts.map((p, i) => p.dtc == null ? null : `${(i * bw + bw / 2).toFixed(1)},${(T + (1 - p.dtc / maxD) * (H - T - B)).toFixed(1)}`).filter(Boolean).join(" ");
+  return `<div class="si-chart">
+    <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="공매도 잔고 ${n}번 · ${escapeHTML(pts[0].d)} ~ ${escapeHTML(pts[n - 1].d)}">${bars}<polyline class="dl" points="${line}"/></svg>
+    <div class="lbl"><span>${escapeHTML(pts[0].d)}</span><span>${escapeHTML(pts[n - 1].d)}</span></div>
+    <div class="legend"><span><i style="background:rgba(48,93,220,.45)"></i>공매도 잔고 (가장 많을 때 ${fmtCompact(maxSI)}주)</span>
+      <span><i style="background:var(--amber);height:3px"></i>평균 거래량으로 며칠치 (가장 많을 때 ${maxD.toFixed(1)}일)</span></div>
+  </div>`;
+}
+function shortMini(si){
+  if(!si || !(si.rows || []).length) return "";
+  const r = si.rows[si.rows.length - 1];
+  return `<section class="card sd-box"><h2>공매도 잔고 <small style="font-weight:400;color:var(--text-dim)">${escapeHTML(r.d)} 기준</small></h2>
+    <div class="ins-mini">
+      <div><div class="k">빌려서 판 뒤 아직 안 갚은 주식</div><div class="v mono">${fmtCompact(r.si)}주</div>
+        <div class="n">지난번 대비 ${siChg(r.chg)}</div></div>
+      <div><div class="k">평균 거래량으로 며칠치</div><div class="v mono">${siDays(r.dtc)}</div>
+        <div class="n">${siPos(si.dtc_rank_pct)}</div></div>
+    </div>
+    <button type="button" class="sd-more" data-go="short">공매도 잔고 추이 보기 →</button></section>`;
+}
+function shortSection(si){
+  if(!si || !(si.rows || []).length) return '<div class="state">이 종목의 공매도 잔고 기록이 아직 없습니다. 한 달에 두 번 채워집니다.</div>';
+  const rows = si.rows, r = rows[rows.length - 1];
+  return `
+    <section>
+      <div class="section-title"><div class="title">공매도 잔고</div>
+        <div class="hint">FINRA · ${escapeHTML(r.d)} 기준 · 한 달에 두 번 (15일 · 말일 무렵) 모아 약 일주일 뒤 공개</div></div>
+      <div class="kv" style="margin-bottom:12px">
+        <div><div class="k">공매도 잔고</div><div class="v mono">${fmtShares(r.si)}주</div>
+          <div class="n">지난번 대비 ${siChg(r.chg)}</div></div>
+        <div><div class="k">평균 거래량으로 며칠치</div><div class="v mono">${siDays(r.dtc)}</div>
+          <div class="n">하루 평균 ${fmtCompact(r.adv)}주 거래</div></div>
+        <div><div class="k">이 사이트 종목 ${si.universe_n || ""}개 가운데</div><div class="v">${siPos(si.dtc_rank_pct)}</div>
+          <div class="n">며칠치로 줄 세움 · ${escapeHTML(si.latest_settle || r.d)}</div></div>
+        <div><div class="k">최근 1년 평균</div><div class="v mono">${siDays(si.dtc_avg)}</div>
+          <div class="n">${siUsual(si, r)}</div></div>
+      </div>
+      <div class="chart-box">${siChart(rows)}</div>
+      <div class="table-scroll"><table class="research-table">
+        <thead><tr><th>기준일</th><th class="num">공매도 잔고</th><th class="num">지난번 대비</th><th class="num">하루 평균 거래량</th><th class="num">며칠치</th></tr></thead>
+        <tbody>${rows.slice().reverse().map(x => `<tr><td class="mono nowrap">${escapeHTML(x.d)}</td>
+          <td class="num mono">${fmtShares(x.si)}</td><td class="num mono">${siChg(x.chg)}</td>
+          <td class="num mono">${fmtShares(x.adv)}</td><td class="num mono">${x.dtc != null ? Number(x.dtc).toFixed(2) : "—"}</td></tr>`).join("")}</tbody>
+      </table></div>
+      <div class="news-note"><b>공매도 잔고</b>는 주식을 빌려서 판 뒤 아직 되갚지 않은 주식 수입니다. 값이 내려야 이익을 보는 쪽의 몫이라
+        '내린다고 보는 돈이 얼마나 걸려 있나' 를 보여 줍니다. <b>며칠치</b>는 지금 잔고를 하루 평균 거래량으로 모두 되사는 데 걸리는 날 수입니다.</div>
+      <div class="news-note">이 사이트의 시험 (2021 ~ 2025년 · 나스닥 기술주 약 280개) 에서는 공매도 잔고가 많거나 많이 늘어난 종목이
+        그다음 한 달 · 석 달 동안 다른 종목보다 더 빠지지 않았습니다. 사고팔 신호가 아니라 기록입니다.</div>
+    </section>`;
+}
+
+const TABS = [["summary","요약"],["chart","차트"],["indicators","지표"],["signals","신호 이력"],["similar","유사 흐름"],["news","뉴스"],["insiders","임원 거래"],["short","공매도"]];
 const WATCH_KEY = "nr.watchlist.v1";
 function watchSet(){ try { return new Set(JSON.parse(localStorage.getItem(WATCH_KEY) || "[]")); } catch(e){ return new Set(); } }
 function watchSave(set){ try { localStorage.setItem(WATCH_KEY, JSON.stringify([...set])); } catch(e){} }
@@ -603,7 +688,7 @@ function sparkSVG(points, target, stop){
 }
 
 function render(info){
-  const {signal, history, series, latest, news, shake, ins} = info;
+  const {signal, history, series, latest, news, shake, ins, si} = info;
 
   /* 오늘 신호가 없는 종목은 latest 가 없다 — 옛 신호의 진입가 대신 차트 요약의 마지막 종가를 쓴다. */
   const price = latest?.price ?? series?.chart?.close ?? signal?.entry_price;
@@ -646,6 +731,7 @@ function render(info){
           </section>
           ${shakeSection(shake)}
           ${insMini(ins)}
+          ${shortMini(si)}
           ${items.length ? `<section class="card sd-box"><h2>최근 뉴스</h2><ul class="sd-news-mini">
             ${items.slice(0,3).map(a=>`<li>${escapeHTML(a.title)}<small>${escapeHTML(a.publisher||"")} · ${escapeHTML((a.published_utc||"").slice(0,10))}</small></li>`).join("")}
             </ul><button type="button" class="sd-more" data-go="news">뉴스 ${items.length}건 모두 보기 →</button></section>` : ""}
@@ -741,7 +827,8 @@ function render(info){
       </section>`,
     similar: outlookSection(series && series.outlook) || '<div class="state">비슷한 흐름 통계가 아직 없습니다.</div>',
     news: newsSection(news),
-    insiders: insidersSection(ins)
+    insiders: insidersSection(ins),
+    short: shortSection(si)
   };
 
   $("content").innerHTML = `
@@ -875,13 +962,14 @@ function fmtCompact(v){
   /* performance.json 은 더 이상 받지 않는다.
      거기 들어 있는 것은 고정 기간(5일·10일·30일) 성과뿐이고,
      이 화면은 그 틀로 승패를 표시하지 않는다. */
-  const [signalsPayload, series, scan, news, shake, ins] = await Promise.all([
+  const [signalsPayload, series, scan, news, shake, ins, si] = await Promise.all([
     getJSON("signals.json"),
     getJSON(`tickers/${encodeURIComponent(TICKER)}.json`),
     getJSON("latest_signals.json"),
     getJSON(`news/${encodeURIComponent(TICKER)}.json`),
     getJSON("shake.json"),
-    getJSON(`insiders/${encodeURIComponent(TICKER)}.json`)
+    getJSON(`insiders/${encodeURIComponent(TICKER)}.json`),
+    getJSON(`short/${encodeURIComponent(TICKER)}.json`)
   ]);
 
   const signals = (signalsPayload?.signals || [])
@@ -900,7 +988,7 @@ function fmtCompact(v){
 
   const latest = (scan?.signals || []).find(s=>s && s.ticker===TICKER);
 
-  if(!signals.length && !series && !news && !ins){
+  if(!signals.length && !series && !news && !ins && !si){
     fail(`${TICKER} 의 기록을 찾을 수 없습니다.`);
     return;
   }
@@ -912,7 +1000,8 @@ function fmtCompact(v){
     latest,
     news,
     shake,
-    ins
+    ins,
+    si
   });
 })();
 </script>
