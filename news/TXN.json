@@ -1,9 +1,24 @@
 {
   "ticker": "TXN",
-  "generated_at": "2026-11-14T10:39:37+00:00",
+  "generated_at": "2026-11-15T11:06:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-14T01:03:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Did Texas Instruments Stock Beat NXP Over Five Years?"
+    },
+    {
+      "published_utc": "2026-11-13T17:40:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Qualcomm or Texas Instruments: The One Dividend Stock I’d Hold for the Next 10 Years"
+    },
+    {
+      "published_utc": "2026-11-13T11:30:14+00:00",
+      "publisher": "Benzinga",
+      "title": "$1000 Invested In Texas Instruments 15 Years Ago Would Be Worth This Much Today"
+    },
     {
       "published_utc": "2026-11-12T20:15:46+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-10T18:53:00+00:00",
       "publisher": "Yahoo",
       "title": "Texas Instruments Stock Surges 70% YTD: Is the Rally Set to Continue?"
-    },
-    {
-      "published_utc": "2026-11-10T13:48:53+00:00",
-      "publisher": "Yahoo",
-      "title": "What Did Texas Instruments Say Before Its Stock Took Off?"
-    },
-    {
-      "published_utc": "2026-11-10T11:02:27+00:00",
-      "publisher": "Yahoo",
-      "title": "ETFs Are Net Sellers of Texas Instruments (TXN) on Nov. 6"
-    },
-    {
-      "published_utc": "2026-11-09T20:07:07+00:00",
-      "publisher": "Yahoo",
-      "title": "What Is Texas Instruments (TXN) Launching For Factory Automation And IIoT?"
     }
   ]
 }

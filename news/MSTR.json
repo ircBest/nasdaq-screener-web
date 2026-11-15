@@ -1,9 +1,24 @@
 {
   "ticker": "MSTR",
-  "generated_at": "2026-11-14T10:39:37+00:00",
+  "generated_at": "2026-11-15T11:06:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-14T17:31:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitcoin Is Slumping, but Michael Saylor Says Strategy Can Create $10 Billion to $30 Billion in \"Digital Credit\""
+    },
+    {
+      "published_utc": "2026-11-14T12:02:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy's Michael Saylor Says Bitcoin Is Now a Bipartisan Issue That Crosses Party Lines. Here's Why He's Right."
+    },
+    {
+      "published_utc": "2026-11-14T04:24:05+00:00",
+      "publisher": "Yahoo",
+      "title": "How Index Removal Will Impact Strategy Stock Investors"
+    },
     {
       "published_utc": "2026-11-13T21:33:51+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-13T03:07:45+00:00",
       "publisher": "Yahoo",
       "title": "Dow, S&P 500, Nasdaq Futures Edge Higher As Markets Attempt To Recover From Nvidia Rout: SLS, MSFT, CADL, MSTR In Focus"
-    },
-    {
-      "published_utc": "2026-11-12T22:25:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Europe’s largest asset manager doubles down on MicroStrategy amid MSCI setback"
-    },
-    {
-      "published_utc": "2026-11-12T20:45:32+00:00",
-      "publisher": "Yahoo",
-      "title": "JPMorgan Bought More MicroStrategy Before MSCI Exit, Plus Insurance Against a Drop"
-    },
-    {
-      "published_utc": "2026-11-12T15:57:22+00:00",
-      "publisher": "Yahoo",
-      "title": "It’s Official: Michael Saylor’s Strategy Is Out of the MSCI Indexes"
     }
   ]
 }

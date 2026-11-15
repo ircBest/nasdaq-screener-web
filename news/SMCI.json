@@ -1,9 +1,24 @@
 {
   "ticker": "SMCI",
-  "generated_at": "2026-11-14T10:39:37+00:00",
+  "generated_at": "2026-11-15T11:06:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-14T19:08:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Computer (SMCI) Under DOJ Scrutiny Over Alleged Server Smuggling To China"
+    },
+    {
+      "published_utc": "2026-11-14T16:32:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Gets Swept Up in Spreading Nvidia Scandal. Says Megaspeed Was “Never a Customer”"
+    },
+    {
+      "published_utc": "2026-11-13T23:48:45+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro, run by Jensen Huang’s friend, says Megaspeed was ‘never’ its customer"
+    },
     {
       "published_utc": "2026-11-13T17:16:42+00:00",
       "publisher": "Yahoo",
@@ -35,6 +50,11 @@
       "title": "HPE vs. SMCI: Which AI Infrastructure Stock Has More Upside Now?"
     },
     {
+      "published_utc": "2026-11-13T12:46:00+00:00",
+      "publisher": "Benzinga",
+      "title": "Super Micro Computer Spokesperson Says Responsive To Inquiries And Has Fully Cooperated With US And Taiwanese Officials; Megaspeed Is Not, And Has Never Been, A Supermicro Customer; Voluntarily Provided Information And Engaging With All Requests From Singapore Authorities To Date"
+    },
+    {
       "published_utc": "2026-11-13T12:41:19+00:00",
       "publisher": "Yahoo",
       "title": "Rosenblatt defends Super Micro amid selloff, Megaspeed allegations"
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-13T12:15:15+00:00",
       "publisher": "Yahoo",
       "title": "Super Micro Computer Cratered Again, Down 35% in One Month: This Lead Analyst Who Just Defended Nvidia Says Super Micro Computer Shares to Gain 140%"
-    },
-    {
-      "published_utc": "2026-11-13T11:49:31+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Stock Tanks. Export Concerns Could Be a Bigger Problem Than Nvidia's Leadership"
-    },
-    {
-      "published_utc": "2026-11-13T07:43:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro CEO Says Its Shift “Continues to Accelerate.” Prosecutors Just Knocked the Stock Down 12%"
-    },
-    {
-      "published_utc": "2026-11-13T07:34:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Down 32% in a month, Super Micro trades at 6x P/E: Bargain or trap?"
-    },
-    {
-      "published_utc": "2026-11-13T01:07:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro (SMCI) Takes Another Hit as Fresh Probe Weighs on Shares"
     }
   ]
 }

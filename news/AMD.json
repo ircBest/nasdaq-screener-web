@@ -1,9 +1,44 @@
 {
   "ticker": "AMD",
-  "generated_at": "2026-11-14T10:39:37+00:00",
+  "generated_at": "2026-11-15T11:06:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-14T20:06:56+00:00",
+      "publisher": "Yahoo",
+      "title": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?"
+    },
+    {
+      "published_utc": "2026-11-14T15:41:51+00:00",
+      "publisher": "Yahoo",
+      "title": "AMD Just Crushed Nvidia by 32 Points After Scandal. Here’s How NVDA Can Come Back"
+    },
+    {
+      "published_utc": "2026-11-14T15:07:49+00:00",
+      "publisher": "Yahoo",
+      "title": "AMD Just Beat Nvidia by the Widest Margin Since 1999"
+    },
+    {
+      "published_utc": "2026-11-14T15:00:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Analysts Think AMD Could Emerge as the Biggest Winner From Nvidia’s Turmoil"
+    },
+    {
+      "published_utc": "2026-11-14T14:38:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Harvard Cut Nvidia by a Third and Bought AMD"
+    },
+    {
+      "published_utc": "2026-11-14T13:06:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Advanced Micro Devices Stock Surged This Week"
+    },
+    {
+      "published_utc": "2026-11-14T08:17:58+00:00",
+      "publisher": "Benzinga",
+      "title": "NVDA, AMD, CRWV and More: 5 Stocks Investors Couldn’t Stop Buzzing About This Week"
+    },
     {
       "published_utc": "2026-11-13T22:13:55+00:00",
       "publisher": "Yahoo",
@@ -28,41 +63,6 @@
       "published_utc": "2026-11-13T20:53:59+00:00",
       "publisher": "Yahoo",
       "title": "AMD Tried to Wear Nvidia’s Crown For A Day"
-    },
-    {
-      "published_utc": "2026-11-13T20:13:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Bank of America resets AMD stock price target as Nvidia CEO exits"
-    },
-    {
-      "published_utc": "2026-11-13T20:02:20+00:00",
-      "publisher": "Yahoo",
-      "title": "AMDL 2X AMD ETF Tumbles 18% as AMD Sinks Amid Michael Burry’s Bearish Chip Bets"
-    },
-    {
-      "published_utc": "2026-11-13T18:50:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AMD or Intel: 1 Chip Stock Is the Clear Winner"
-    },
-    {
-      "published_utc": "2026-11-13T18:45:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Advanced Micro Devices Stock Is Down Today"
-    },
-    {
-      "published_utc": "2026-11-13T17:22:43+00:00",
-      "publisher": "Yahoo",
-      "title": "AMD Stocks Fall 6.46% After 30% Weekly Surge on Nvidia Leadership Shock"
-    },
-    {
-      "published_utc": "2026-11-13T16:56:11+00:00",
-      "publisher": "Yahoo",
-      "title": "AMD Tumbles 11%, Broadcom and Intel Slide 6% as Chip Rally Reverses"
-    },
-    {
-      "published_utc": "2026-11-13T16:16:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Advanced Micro Devices Well Positioned as Agentic AI Drives Server CPU Market Growth, BofA Says"
     }
   ]
 }

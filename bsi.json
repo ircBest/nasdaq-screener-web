@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T10:34:29.243632+00:00",
+  "generated_at": "2026-11-15T11:04:49.118693+00:00",
   "index_name": "BSI",
   "description": "Signal 발생 이후 각 거래일의 평균 수익률",
   "base": 0.0,
@@ -85,14 +85,14 @@
       "day": 2,
       "bsi_pct": -0.1095,
       "benchmark_pct": 0.0462,
-      "alpha_pct": -0.1556,
+      "alpha_pct": -0.1557,
       "samples": 4163
     },
     {
       "day": 3,
       "bsi_pct": 0.5587,
       "benchmark_pct": 0.3808,
-      "alpha_pct": 0.1779,
+      "alpha_pct": 0.1778,
       "samples": 4054
     },
     {
@@ -211,7 +211,7 @@
       "day": 20,
       "bsi_pct": -1.2515,
       "benchmark_pct": -1.2271,
-      "alpha_pct": -0.0244,
+      "alpha_pct": -0.0245,
       "samples": 2377
     },
     {
@@ -323,7 +323,7 @@
       "day": 36,
       "bsi_pct": -6.0987,
       "benchmark_pct": -1.5408,
-      "alpha_pct": -4.5579,
+      "alpha_pct": -4.558,
       "samples": 1259
     },
     {

@@ -1,9 +1,19 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-11-14T10:39:37+00:00",
+  "generated_at": "2026-11-15T11:06:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-14T13:11:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Just Raised Its AI Forecast Again. Is it a Buy?"
+    },
+    {
+      "published_utc": "2026-11-14T08:20:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Cisco Systems a Buy After Its Latest Earnings Report?"
+    },
     {
       "published_utc": "2026-11-13T20:32:00+00:00",
       "publisher": "Yahoo",
@@ -18,6 +28,11 @@
       "published_utc": "2026-11-13T17:34:56+00:00",
       "publisher": "Yahoo",
       "title": "Cisco Stocks Fall 5.29% as AI Networking Mix Squeezes Gross Margins"
+    },
+    {
+      "published_utc": "2026-11-13T17:12:50+00:00",
+      "publisher": "Benzinga",
+      "title": "Citigroup Maintains Buy on Cisco Systems, Lowers Price Target to $120"
     },
     {
       "published_utc": "2026-11-13T16:32:05+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-13T14:12:00+00:00",
       "publisher": "Yahoo",
       "title": "Cisco's Q1 Earnings Beat Estimates, Strong Networking Aids Revenues"
-    },
-    {
-      "published_utc": "2026-11-13T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco Q1 Earnings Call Highlights AI Growth and Higher Outlook"
-    },
-    {
-      "published_utc": "2026-11-13T13:40:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco shares fall as margin pressure and slower orders overshadow AI growth"
-    },
-    {
-      "published_utc": "2026-11-13T13:36:22+00:00",
-      "publisher": "ChartMill",
-      "title": "S&P 500 Premarket Movers: Travelers, Palo Alto Networks Gain; Cisco, AMD Fall"
     }
   ]
 }

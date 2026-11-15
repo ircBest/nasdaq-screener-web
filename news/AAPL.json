@@ -1,9 +1,29 @@
 {
   "ticker": "AAPL",
-  "generated_at": "2026-11-14T10:39:37+00:00",
+  "generated_at": "2026-11-15T11:06:38+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-14T16:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Apple users are about to lose something they've had for 28 years"
+    },
+    {
+      "published_utc": "2026-11-14T15:45:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia lost $1.6 trillion after Jensen Huang's exit, but Apple's and Uber's CEO transitions offer a blueprint"
+    },
+    {
+      "published_utc": "2026-11-14T13:00:58+00:00",
+      "publisher": "Yahoo",
+      "title": "Apple Leads Five Stocks Standing Tall Near Buy Points Despite Nvidia, Other Headwinds"
+    },
+    {
+      "published_utc": "2026-11-14T04:00:57+00:00",
+      "publisher": "Benzinga",
+      "title": "'Nvidia Will Die Without Jensen' Doesn't Add Up, Says Anthony Scaramucci, Pointing to Apple's Post-Steve Jobs Success: 'Great Entrepreneurs...'"
+    },
     {
       "published_utc": "2026-11-13T21:13:10+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-13T14:10:00+00:00",
       "publisher": "Yahoo",
       "title": "AAPL is Trading at a Premium at 36.15X P/E: Is the Stock Still a Hold?"
-    },
-    {
-      "published_utc": "2026-11-13T13:12:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Apple (AAPL) Puts Tim Cook At The Center Of A Surprise CEO Search"
-    },
-    {
-      "published_utc": "2026-11-13T12:42:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Trump Wants Apple’s Tim Cook to Run Nvidia"
-    },
-    {
-      "published_utc": "2026-11-13T12:17:02+00:00",
-      "publisher": "Yahoo",
-      "title": "What Does Apple’s Run Mean for a 72-Year-Old Widow With $600,000 of a $1.6 Million IRA in the Stock?"
-    },
-    {
-      "published_utc": "2026-11-13T11:04:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Goldman Sachs S&P 500 Premium Income (GPIX) Adds Alphabet and Apple on Nov. 11"
     }
   ]
 }
