@@ -1,9 +1,19 @@
 {
   "ticker": "STRK",
-  "generated_at": "2026-11-15T11:06:38+00:00",
+  "generated_at": "2026-11-16T11:24:52+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-14T17:31:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitcoin Is Slumping, but Michael Saylor Says Strategy Can Create $10 Billion to $30 Billion in \"Digital Credit\""
+    },
+    {
+      "published_utc": "2026-11-14T12:02:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy's Michael Saylor Says Bitcoin Is Now a Bipartisan Issue That Crosses Party Lines. Here's Why He's Right."
+    },
     {
       "published_utc": "2026-11-13T03:20:39+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-12T06:09:06+00:00",
       "publisher": "Yahoo",
       "title": "Fidelity's MSTR Holdings Jump 132% In Q3 — But There's More To Its Bitcoin Bet"
-    },
-    {
-      "published_utc": "2026-11-12T03:15:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Why MSCI Removed MSTR From Its Indexes – And What It Means For Bitcoin Stocks"
-    },
-    {
-      "published_utc": "2026-11-11T22:07:41+00:00",
-      "publisher": "Yahoo",
-      "title": "MSCI Drops Strategy From Its US Index: Will $2.8 Billion in Forced Selling Hit MSTR?"
     }
   ]
 }
