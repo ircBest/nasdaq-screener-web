@@ -1,9 +1,14 @@
 {
   "ticker": "UCTT",
-  "generated_at": "2026-11-16T11:24:52+00:00",
+  "generated_at": "2026-11-17T12:15:03+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-16T08:22:00+00:00",
+      "publisher": "Yahoo",
+      "title": "The Zacks Analyst Blog Highlights Entegris, Ultra Clean and FormFactor"
+    },
     {
       "published_utc": "2026-11-13T08:52:27+00:00",
       "publisher": "Benzinga",
@@ -23,26 +28,6 @@
       "published_utc": "2026-11-06T11:14:37+00:00",
       "publisher": "Yahoo",
       "title": "Ultra Clean Holdings Stock In Focus After Profit Turn And Strong Guidance"
-    },
-    {
-      "published_utc": "2026-11-02T16:00:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Ultra Clean (UCTT) Upgraded to Buy: What Does It Mean for the Stock?"
-    },
-    {
-      "published_utc": "2026-11-02T15:39:00+00:00",
-      "publisher": "Yahoo",
-      "title": "What UCTT's Q3 Beat and Strong Q4 Guidance Mean for Investors Now"
-    },
-    {
-      "published_utc": "2026-11-02T15:37:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Is UCTT Worth Buying as Growth Accelerates but Cash Flow Weakens?"
-    },
-    {
-      "published_utc": "2026-11-02T15:36:00+00:00",
-      "publisher": "Yahoo",
-      "title": "UCTT Fell 31.6% in the Past Month: Is the Sell-Off an Opportunity?"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-11-16T11:24:52+00:00",
+  "generated_at": "2026-11-17T12:15:03+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-16T17:06:44+00:00",
+      "publisher": "Yahoo",
+      "title": "Marvell Stock in Focus After New AI Data Center Deal With Penguin Solutions"
+    },
+    {
+      "published_utc": "2026-11-16T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions Unveils Industry’s First Photonics-Based HBM-Class Memory Appliance to Break the GPU Memory Wall for Agentic AI"
+    },
+    {
+      "published_utc": "2026-11-16T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Marvell and Penguin Solutions Collaborate to Address Data Center AI Memory and Accelerate Inference at Scale"
+    },
     {
       "published_utc": "2026-11-13T06:16:11+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-04T14:05:00+00:00",
       "publisher": "Yahoo",
       "title": "Penguin Solutions Announces Agreement to Sell Cree LED to Transom Capital Group"
-    },
-    {
-      "published_utc": "2026-11-04T11:35:22+00:00",
-      "publisher": "Benzinga",
-      "title": "Penguin Solutions Affirms FY2027 Adj EPS Guidance of $3.75-$5.15 vs $3.25 Est; Affirms FY2027 Sales Guidance of $2.250B-$2.596B vs $2.201B Est"
-    },
-    {
-      "published_utc": "2026-11-04T11:35:15+00:00",
-      "publisher": "Benzinga",
-      "title": "Penguin Solutions Affirms FY2027 GAAP EPS Guidance of $2.80-$4.20 vs $2.13 Est"
-    },
-    {
-      "published_utc": "2026-11-04T10:19:40+00:00",
-      "publisher": "Benzinga",
-      "title": "Penguin Solutions Agrees To Sell Cree LED Business To Transom Capital Group; Financial Terms Undisclosed"
     }
   ]
 }

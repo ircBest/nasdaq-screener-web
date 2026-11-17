@@ -1,9 +1,14 @@
 {
   "ticker": "LFUS",
-  "generated_at": "2026-11-16T11:24:52+00:00",
+  "generated_at": "2026-11-17T12:15:03+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-16T07:48:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Zacks Investment Ideas feature highlights: Arista Networks, Zeta and Littelfuse"
+    },
     {
       "published_utc": "2026-11-13T13:55:04+00:00",
       "publisher": "Yahoo",
@@ -33,11 +38,6 @@
       "published_utc": "2026-11-04T07:15:28+00:00",
       "publisher": "Yahoo",
       "title": "Is Littelfuse (LFUS) Below Fair Value After Record Q3 Results?"
-    },
-    {
-      "published_utc": "2026-11-02T19:47:10+00:00",
-      "publisher": "Yahoo",
-      "title": "FPA Queens Road Small Cap Value Fund Cuts Its Position in Littelfuse, Inc. (LFUS) After a Major Rally"
     }
   ]
 }

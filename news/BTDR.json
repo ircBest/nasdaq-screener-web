@@ -1,9 +1,14 @@
 {
   "ticker": "BTDR",
-  "generated_at": "2026-11-16T11:24:52+00:00",
+  "generated_at": "2026-11-17T12:15:03+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-16T11:33:30+00:00",
+      "publisher": "Yahoo",
+      "title": "KBW names Bitdeer most exposed to Nvidia fall out"
+    },
     {
       "published_utc": "2026-11-12T23:21:30+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-10T15:45:05+00:00",
       "publisher": "Yahoo",
       "title": "Bitdeer reports $2.9 billion AI Cloud backlog as record Q3 revenue comes with $125.5 million net loss"
-    },
-    {
-      "published_utc": "2026-11-10T15:14:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitdeer Shares Rise as Q3 Revenue Jumps 89% to $320.7 Million Despite Earnings Miss"
     }
   ]
 }

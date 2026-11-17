@@ -1,9 +1,39 @@
 {
   "ticker": "SMCI",
-  "generated_at": "2026-11-16T11:24:52+00:00",
+  "generated_at": "2026-11-17T12:15:03+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-16T19:06:03+00:00",
+      "publisher": "ChartMill",
+      "title": "Today's Most-Active S&P 500 Stocks: Ford Leads Volume as SMCI and Micron Fall"
+    },
+    {
+      "published_utc": "2026-11-16T18:28:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Could Nvidia Be the Next Super Micro?"
+    },
+    {
+      "published_utc": "2026-11-16T15:02:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Falls 5% as Reported DOJ Smuggling Probe Weighs for a Third Session; Dell and Hewlett Packard Enterprise Drop 4%"
+    },
+    {
+      "published_utc": "2026-11-16T11:47:08+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Computer Stock Faces a New Problem Despite Explosive AI Sales"
+    },
+    {
+      "published_utc": "2026-11-16T02:58:41+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Computer (SMCI) Faces Growing Pressure as AI Server Margins Shrink"
+    },
+    {
+      "published_utc": "2026-11-16T02:10:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Super Micro Is Priced Like It “Goes Bankrupt Next Quarter” Despite $16B of Equity"
+    },
     {
       "published_utc": "2026-11-14T19:08:29+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-11-13T15:45:47+00:00",
       "publisher": "Yahoo",
       "title": "Here’s Who’s Getting Dragged Down Further as Huang Exits: CoreWeave Vs. Super Micro Computer"
-    },
-    {
-      "published_utc": "2026-11-13T15:13:18+00:00",
-      "publisher": "Yahoo",
-      "title": "SMCI Stock Alert: Super Micro Computer Slammed By Alice Huang-Linked Server Smuggling Probe"
-    },
-    {
-      "published_utc": "2026-11-13T14:08:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Stock Bounces Back After a Denial Involving Megaspeed"
-    },
-    {
-      "published_utc": "2026-11-13T13:42:00+00:00",
-      "publisher": "Yahoo",
-      "title": "HPE vs. SMCI: Which AI Infrastructure Stock Has More Upside Now?"
-    },
-    {
-      "published_utc": "2026-11-13T12:46:00+00:00",
-      "publisher": "Benzinga",
-      "title": "Super Micro Computer Spokesperson Says Responsive To Inquiries And Has Fully Cooperated With US And Taiwanese Officials; Megaspeed Is Not, And Has Never Been, A Supermicro Customer; Voluntarily Provided Information And Engaging With All Requests From Singapore Authorities To Date"
-    },
-    {
-      "published_utc": "2026-11-13T12:41:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Rosenblatt defends Super Micro amid selloff, Megaspeed allegations"
-    },
-    {
-      "published_utc": "2026-11-13T12:15:15+00:00",
-      "publisher": "Yahoo",
-      "title": "Super Micro Computer Cratered Again, Down 35% in One Month: This Lead Analyst Who Just Defended Nvidia Says Super Micro Computer Shares to Gain 140%"
     }
   ]
 }

@@ -1,9 +1,39 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-16T11:24:52+00:00",
+  "generated_at": "2026-11-17T12:15:03+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-16T18:59:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Stocks Fall 7.54% as Bitcoin Slides Toward $64,000 and Trading Volumes Shrink"
+    },
+    {
+      "published_utc": "2026-11-16T15:47:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase, Broadridge to Bring Shareholder Voting Rights to Tokenized Stocks"
+    },
+    {
+      "published_utc": "2026-11-16T14:08:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Sinks 8% as Bitcoin Selloff Deepens; Coinbase and MARA Fall 7%"
+    },
+    {
+      "published_utc": "2026-11-16T12:36:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitcoin Prices Tumble and Bring Coinbase and Strategy Stocks Down With Them"
+    },
+    {
+      "published_utc": "2026-11-16T12:11:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Should Equity Perpetual Futures Require Action From Coinbase (COIN) Investors?"
+    },
+    {
+      "published_utc": "2026-11-16T03:11:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Global (COIN) Is Upgrading Custody After 35% Of Bitcoin Was Flagged At Risk"
+    },
     {
       "published_utc": "2026-11-14T09:30:18+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-11-13T14:12:01+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase Global vs. Mastercard: Which Financial Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-13T13:00:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Investors Heavily Search Coinbase Global, Inc. (COIN): Here is What You Need to Know"
-    },
-    {
-      "published_utc": "2026-11-13T12:12:51+00:00",
-      "publisher": "Yahoo",
-      "title": "How Much Downside Is Left In Coinbase Stock Now?"
-    },
-    {
-      "published_utc": "2026-11-12T16:35:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Fell 22% in a Month Before Its Charter Win: Is It Time to Sell, or Load Up?"
-    },
-    {
-      "published_utc": "2026-11-12T16:10:26+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase (COIN) Stock Fair Value Moves Lower After Mixed Analyst Target Changes"
-    },
-    {
-      "published_utc": "2026-11-12T13:47:46+00:00",
-      "publisher": "Yahoo",
-      "title": "Prediction: The Next Phase of Coinbase Could Be Its Most Important Yet"
-    },
-    {
-      "published_utc": "2026-11-12T11:28:05+00:00",
-      "publisher": "CNBC",
-      "title": "Coinbase CEO Brian Armstrong reacts to Jensen Huang probe and Binance hack"
     }
   ]
 }

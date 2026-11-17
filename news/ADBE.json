@@ -1,9 +1,24 @@
 {
   "ticker": "ADBE",
-  "generated_at": "2026-11-16T11:24:52+00:00",
+  "generated_at": "2026-11-17T12:15:03+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-16T22:44:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts"
+    },
+    {
+      "published_utc": "2026-11-16T20:13:00+00:00",
+      "publisher": "Yahoo",
+      "title": "BTIG sends blunt message on Adobe stock after MAX event"
+    },
+    {
+      "published_utc": "2026-11-16T03:43:31+00:00",
+      "publisher": "Yahoo",
+      "title": "Adobe’s Sam Garfield: AI has Sped Up Creative, But Organizations Haven’t Kept Pace"
+    },
     {
       "published_utc": "2026-11-14T19:02:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-11T18:50:02+00:00",
       "publisher": "Yahoo",
       "title": "Adobe Systems vs. Snowflake: Which Technology Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-11T18:03:26+00:00",
-      "publisher": "Yahoo",
-      "title": "Adobe (ADBE) Is Down About 31% This Year. Here’s What Citi’s Tyler Radke Sees Next"
-    },
-    {
-      "published_utc": "2026-11-11T16:14:10+00:00",
-      "publisher": "Yahoo",
-      "title": "Adobe Poised to Outperform Peers Over the Next 12 Months, RBC Says"
-    },
-    {
-      "published_utc": "2026-11-11T14:32:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Global Omnichannel Retail Market Report 2026 | Capitalize on Unified Commerce Growth to $22.26 Billion by 2030 with Adobe, Adyen, AWS, Salesforce, and Shopify"
     }
   ]
 }
