@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-18T09:37:17+00:00",
+  "updated_utc": "2026-11-18T10:19:06+00:00",
   "date": "2026-11-16",
   "note": "최근 60거래일 동안 주가가 하루에 보통 얼마나 움직였는지로 나눈 단계입니다. 그날 살펴본 종목들 안에서의 순서이고, 앞으로 오르거나 내린다는 뜻이 아닙니다. 흔들림이 큰 종목은 크게 빠지는 일도 크게 오르는 일도 많습니다.",
   "history_note": "과거 비율은 2021 ~ 2025년 같은 방식으로 나눈 종목들이 4주(20거래일) 안에 종가가 한때 20% 넘게 빠졌던 · 올랐던 비율과, 4주 뒤 20% 넘게 빠져 있던 비율과 20% 넘게 올라 있던 비율입니다. 지금 상장된 종목만으로 센 값이라 빠진 비율은 실제보다 낮게 나왔을 수 있습니다.",
@@ -77,62 +77,158 @@
     "AAOI": {
       "tier": "very_high",
       "daily_move_pct": 7.1,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -65.3,
+        "deeper_pct": 1.2,
+        "high60": 130.16,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "AAPL": {
       "tier": "low",
       "daily_move_pct": 1.4,
-      "industry": "Consumer Electronics"
+      "industry": "Consumer Electronics",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.0,
+        "deeper_pct": 76.5,
+        "high60": 356.27,
+        "high60_date": "2026-11-13",
+        "history_from": "2021-10-25"
+      }
     },
     "ACIW": {
       "tier": "low",
       "daily_move_pct": 1.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -2.3,
+        "deeper_pct": 79.0,
+        "high60": 61.85,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "ACLS": {
       "tier": "mid",
       "daily_move_pct": 4.3,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -32.9,
+        "deeper_pct": 9.7,
+        "high60": 147.77,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "ACMR": {
       "tier": "high",
       "daily_move_pct": 5.2,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -47.4,
+        "deeper_pct": 5.0,
+        "high60": 83.58,
+        "high60_date": "2026-10-01",
+        "history_from": "2021-10-25"
+      }
     },
     "ADBE": {
       "tier": "low",
       "daily_move_pct": 2.4,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -16.0,
+        "deeper_pct": 37.3,
+        "high60": 292.79,
+        "high60_date": "2026-08-31",
+        "history_from": "2021-10-25"
+      }
     },
     "ADEA": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -45.8,
+        "deeper_pct": 0.2,
+        "high60": 27.2,
+        "high60_date": "2026-09-08",
+        "history_from": "2021-10-25"
+      }
     },
     "ADI": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -11.6,
+        "deeper_pct": 21.9,
+        "high60": 433.28,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "ADP": {
       "tier": "low",
       "daily_move_pct": 1.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 313.43,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "ADSK": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.9,
+        "deeper_pct": 82.1,
+        "high60": 270.58,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "AEHR": {
       "tier": "very_high",
       "daily_move_pct": 7.6,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -52.4,
+        "deeper_pct": 6.0,
+        "high60": 107.21,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "AEVA": {
       "tier": "high",
       "daily_move_pct": 5.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -39.1,
+        "deeper_pct": 37.0,
+        "high60": 16.46,
+        "high60_date": "2026-08-24",
+        "history_from": "2021-10-25"
+      }
     },
     "AGLT": {
       "tier": "high",
@@ -142,147 +238,379 @@
     "AGYS": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.0,
+        "deeper_pct": 88.2,
+        "high60": 124.15,
+        "high60_date": "2026-11-10",
+        "history_from": "2021-10-25"
+      }
     },
     "AIP": {
       "tier": "mid",
       "daily_move_pct": 4.7,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -24.5,
+        "deeper_pct": 38.8,
+        "high60": 24.78,
+        "high60_date": "2026-09-22",
+        "history_from": "2021-10-27"
+      }
     },
     "AKAM": {
       "tier": "mid",
       "daily_move_pct": 3.8,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -29.0,
+        "deeper_pct": 2.7,
+        "high60": 118.44,
+        "high60_date": "2026-09-23",
+        "history_from": "2021-10-25"
+      }
     },
     "ALAB": {
       "tier": "high",
       "daily_move_pct": 6.4,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -48.1,
+        "deeper_pct": 6.9,
+        "high60": 389.8,
+        "high60_date": "2026-10-06",
+        "history_from": "2024-03-20"
+      }
     },
     "ALGM": {
       "tier": "mid",
       "daily_move_pct": 4.4,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -28.9,
+        "deeper_pct": 15.1,
+        "high60": 39.53,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "ALKT": {
       "tier": "mid",
       "daily_move_pct": 4.6,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -31.0,
+        "deeper_pct": 10.9,
+        "high60": 20.51,
+        "high60_date": "2026-09-11",
+        "history_from": "2021-10-25"
+      }
     },
     "ALNT": {
       "tier": "mid",
       "daily_move_pct": 4.3,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -35.5,
+        "deeper_pct": 2.2,
+        "high60": 118.63,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "ALRM": {
       "tier": "low",
       "daily_move_pct": 1.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -2.4,
+        "deeper_pct": 83.5,
+        "high60": 67.96,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "AMAT": {
       "tier": "mid",
       "daily_move_pct": 4.1,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -35.4,
+        "deeper_pct": 1.7,
+        "high60": 542.28,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "AMBA": {
       "tier": "mid",
       "daily_move_pct": 3.7,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -24.3,
+        "deeper_pct": 37.9,
+        "high60": 72.68,
+        "high60_date": "2026-09-25",
+        "history_from": "2021-10-25"
+      }
     },
     "AMD": {
       "tier": "high",
       "daily_move_pct": 5.2,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -22.3,
+        "deeper_pct": 23.8,
+        "high60": 649.42,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "AMKR": {
       "tier": "high",
       "daily_move_pct": 4.9,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -39.2,
+        "deeper_pct": 4.0,
+        "high60": 56.02,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "AMPL": {
       "tier": "low",
       "daily_move_pct": 3.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 17.77,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "AOSL": {
       "tier": "high",
       "daily_move_pct": 6.3,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -17.3,
+        "deeper_pct": 56.2,
+        "high60": 30.86,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "APLD": {
       "tier": "high",
       "daily_move_pct": 6.0,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -49.5,
+        "deeper_pct": 9.6,
+        "high60": 28.85,
+        "high60_date": "2026-08-25",
+        "history_from": "2022-04-13"
+      }
     },
     "APPF": {
       "tier": "low",
       "daily_move_pct": 2.7,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -6.1,
+        "deeper_pct": 66.8,
+        "high60": 236.85,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "APPN": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 55.58,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "APPS": {
       "tier": "very_high",
       "daily_move_pct": 8.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -42.1,
+        "deeper_pct": 30.7,
+        "high60": 12.19,
+        "high60_date": "2026-09-22",
+        "history_from": "2021-10-25"
+      }
     },
     "ARM": {
       "tier": "high",
       "daily_move_pct": 5.5,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -47.5,
+        "deeper_pct": 0.9,
+        "high60": 333.2,
+        "high60_date": "2026-09-22",
+        "history_from": "2023-09-14"
+      }
     },
     "ARRY": {
       "tier": "high",
       "daily_move_pct": 5.5,
-      "industry": "Solar"
+      "industry": "Solar",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -20.2,
+        "deeper_pct": 51.7,
+        "high60": 5.86,
+        "high60_date": "2026-11-06",
+        "history_from": "2021-10-25"
+      }
     },
     "ASML": {
       "tier": "low",
       "daily_move_pct": 3.0,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -24.7,
+        "deeper_pct": 8.7,
+        "high60": 1867.31,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "ASTS": {
       "tier": "high",
       "daily_move_pct": 6.1,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -56.8,
+        "deeper_pct": 1.9,
+        "high60": 66.12,
+        "high60_date": "2026-09-08",
+        "history_from": "2021-10-25"
+      }
     },
     "AVGO": {
       "tier": "low",
       "daily_move_pct": 3.1,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -11.4,
+        "deeper_pct": 33.9,
+        "high60": 376.51,
+        "high60_date": "2026-10-07",
+        "history_from": "2021-10-25"
+      }
     },
     "AVPT": {
       "tier": "low",
       "daily_move_pct": 2.6,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.4,
+        "deeper_pct": 63.4,
+        "high60": 17.35,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "AVT": {
       "tier": "low",
       "daily_move_pct": 3.1,
-      "industry": "Electronics & Computer Distribution"
+      "industry": "Electronics & Computer Distribution",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -24.0,
+        "deeper_pct": 0.7,
+        "high60": 106.94,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "AXTI": {
       "tier": "very_high",
       "daily_move_pct": 8.2,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -55.6,
+        "deeper_pct": 2.5,
+        "high60": 86.66,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "BAND": {
       "tier": "very_high",
       "daily_move_pct": 6.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -35.8,
+        "deeper_pct": 19.9,
+        "high60": 63.74,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "BELFA": {
       "tier": "mid",
       "daily_move_pct": 3.8,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -23.8,
+        "deeper_pct": 13.0,
+        "high60": 213.23,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "BELFB": {
       "tier": "mid",
       "daily_move_pct": 3.8,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -20.0,
+        "deeper_pct": 13.4,
+        "high60": 260.26,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "BGIN": {
       "tier": "very_high",
@@ -292,17 +620,41 @@
     "BL": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -18.3,
+        "deeper_pct": 34.1,
+        "high60": 34.8,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "BLKB": {
       "tier": "low",
       "daily_move_pct": 2.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -4.5,
+        "deeper_pct": 68.1,
+        "high60": 56.48,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "BRZE": {
       "tier": "very_high",
       "daily_move_pct": 6.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.2,
+        "deeper_pct": 92.6,
+        "high60": 46.64,
+        "high60_date": "2026-11-13",
+        "history_from": "2021-11-17"
+      }
     },
     "BSP": {
       "tier": "very_high",
@@ -312,22 +664,54 @@
     "BSY": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.8,
+        "deeper_pct": 84.5,
+        "high60": 45.4,
+        "high60_date": "2026-11-09",
+        "history_from": "2021-10-25"
+      }
     },
     "BTDR": {
       "tier": "very_high",
       "daily_move_pct": 7.3,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -65.8,
+        "deeper_pct": 3.0,
+        "high60": 13.14,
+        "high60_date": "2026-09-21",
+        "history_from": "2021-10-25"
+      }
     },
     "BULL": {
       "tier": "mid",
       "daily_move_pct": 4.7,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -51.0,
+        "deeper_pct": 6.3,
+        "high60": 10.0,
+        "high60_date": "2026-09-03",
+        "history_from": "2022-08-22"
+      }
     },
     "CAMT": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -43.5,
+        "deeper_pct": 2.0,
+        "high60": 165.19,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "CBRS": {
       "tier": "high",
@@ -337,342 +721,886 @@
     "CCC": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.8,
+        "deeper_pct": 87.5,
+        "high60": 7.82,
+        "high60_date": "2026-10-13",
+        "history_from": "2021-10-25"
+      }
     },
     "CCSI": {
       "tier": "low",
       "daily_move_pct": 3.4,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -4.2,
+        "deeper_pct": 80.8,
+        "high60": 44.69,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "CDNS": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -13.9,
+        "deeper_pct": 23.3,
+        "high60": 359.55,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "CDW": {
       "tier": "low",
       "daily_move_pct": 3.4,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -4.2,
+        "deeper_pct": 71.9,
+        "high60": 173.08,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "CEVA": {
       "tier": "mid",
       "daily_move_pct": 4.4,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -32.9,
+        "deeper_pct": 8.9,
+        "high60": 37.1,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "CGNT": {
       "tier": "low",
       "daily_move_pct": 2.7,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -21.1,
+        "deeper_pct": 32.2,
+        "high60": 10.19,
+        "high60_date": "2026-10-27",
+        "history_from": "2021-10-25"
+      }
     },
     "CGNX": {
       "tier": "mid",
       "daily_move_pct": 3.4,
-      "industry": "Scientific & Technical Instruments"
+      "industry": "Scientific & Technical Instruments",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -27.4,
+        "deeper_pct": 10.7,
+        "high60": 66.35,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "CHKP": {
       "tier": "low",
       "daily_move_pct": 2.4,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -7.6,
+        "deeper_pct": 37.5,
+        "high60": 159.84,
+        "high60_date": "2026-10-27",
+        "history_from": "2021-10-25"
+      }
     },
     "CHRN": {
       "tier": "very_high",
       "daily_move_pct": 6.5,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -58.4,
+        "deeper_pct": 0.4,
+        "high60": 22.57,
+        "high60_date": "2026-08-24",
+        "history_from": "2021-10-25"
+      }
     },
     "CHYM": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.8,
+        "deeper_pct": 90.7,
+        "high60": 34.55,
+        "high60_date": "2026-09-09",
+        "history_from": "2025-06-12"
+      }
     },
     "CIFR": {
       "tier": "very_high",
       "daily_move_pct": 7.5,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -65.7,
+        "deeper_pct": 2.7,
+        "high60": 19.09,
+        "high60_date": "2026-09-22",
+        "history_from": "2021-10-25"
+      }
     },
     "CLBT": {
       "tier": "low",
       "daily_move_pct": 3.2,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -12.4,
+        "deeper_pct": 42.0,
+        "high60": 12.7,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "CLMB": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Electronics & Computer Distribution"
+      "industry": "Electronics & Computer Distribution",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.7,
+        "deeper_pct": 80.6,
+        "high60": 43.16,
+        "high60_date": "2026-11-10",
+        "history_from": "2021-10-25"
+      }
     },
     "CME": {
       "tier": "low",
       "daily_move_pct": 1.5,
-      "industry": "Financial Data & Stock Exchanges"
+      "industry": "Financial Data & Stock Exchanges",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 319.37,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "CNXC": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -4.6,
+        "deeper_pct": 84.1,
+        "high60": 34.25,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "CNXN": {
       "tier": "low",
       "daily_move_pct": 1.9,
-      "industry": "Electronics & Computer Distribution"
+      "industry": "Electronics & Computer Distribution",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -14.2,
+        "deeper_pct": 14.5,
+        "high60": 95.22,
+        "high60_date": "2026-10-13",
+        "history_from": "2021-10-25"
+      }
     },
     "COHU": {
       "tier": "high",
       "daily_move_pct": 6.5,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -45.6,
+        "deeper_pct": 0.7,
+        "high60": 73.73,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "COIN": {
       "tier": "mid",
       "daily_move_pct": 4.6,
-      "industry": "Financial Data & Stock Exchanges"
+      "industry": "Financial Data & Stock Exchanges",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -40.4,
+        "deeper_pct": 13.9,
+        "high60": 201.07,
+        "high60_date": "2026-09-22",
+        "history_from": "2021-10-25"
+      }
     },
     "CORZ": {
       "tier": "high",
       "daily_move_pct": 5.2,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -27.7,
+        "deeper_pct": 27.3,
+        "high60": 18.79,
+        "high60_date": "2026-09-22",
+        "history_from": "2024-01-24"
+      }
     },
     "CRCT": {
       "tier": "high",
       "daily_move_pct": 5.5,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -6.5,
+        "deeper_pct": 78.0,
+        "high60": 9.25,
+        "high60_date": "2026-11-05",
+        "history_from": "2021-10-25"
+      }
     },
     "CRDO": {
       "tier": "very_high",
       "daily_move_pct": 6.8,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -49.8,
+        "deeper_pct": 6.3,
+        "high60": 240.24,
+        "high60_date": "2026-08-27",
+        "history_from": "2022-01-27"
+      }
     },
     "CRSR": {
       "tier": "mid",
       "daily_move_pct": 3.6,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -21.4,
+        "deeper_pct": 32.2,
+        "high60": 14.32,
+        "high60_date": "2026-10-13",
+        "history_from": "2021-10-25"
+      }
     },
     "CRUS": {
       "tier": "low",
       "daily_move_pct": 2.2,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.0,
+        "deeper_pct": 65.2,
+        "high60": 122.21,
+        "high60_date": "2026-09-15",
+        "history_from": "2021-10-25"
+      }
     },
     "CRWD": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -20.0,
+        "deeper_pct": 22.2,
+        "high60": 278.86,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "CRWV": {
       "tier": "high",
       "daily_move_pct": 6.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -50.0,
+        "deeper_pct": 5.9,
+        "high60": 99.83,
+        "high60_date": "2026-09-08",
+        "history_from": "2025-03-28"
+      }
     },
     "CSCO": {
       "tier": "low",
       "daily_move_pct": 2.4,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -20.2,
+        "deeper_pct": 2.1,
+        "high60": 118.39,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "CSIQ": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Solar"
+      "industry": "Solar",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -36.0,
+        "deeper_pct": 11.6,
+        "high60": 14.32,
+        "high60_date": "2026-08-24",
+        "history_from": "2021-10-25"
+      }
     },
     "CTSH": {
       "tier": "low",
       "daily_move_pct": 2.7,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -15.5,
+        "deeper_pct": 19.9,
+        "high60": 73.72,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "CVLT": {
       "tier": "low",
       "daily_move_pct": 3.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -14.5,
+        "deeper_pct": 18.6,
+        "high60": 172.55,
+        "high60_date": "2026-10-27",
+        "history_from": "2021-10-25"
+      }
     },
     "DAKT": {
       "tier": "low",
       "daily_move_pct": 2.2,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -8.6,
+        "deeper_pct": 56.8,
+        "high60": 20.96,
+        "high60_date": "2026-10-26",
+        "history_from": "2021-10-25"
+      }
     },
     "DAVE": {
       "tier": "mid",
       "daily_move_pct": 4.7,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -30.1,
+        "deeper_pct": 32.2,
+        "high60": 390.86,
+        "high60_date": "2026-09-03",
+        "history_from": "2021-10-25"
+      }
     },
     "DBX": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -9.4,
+        "deeper_pct": 37.8,
+        "high60": 37.83,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "DCBO": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -8.7,
+        "deeper_pct": 65.2,
+        "high60": 32.91,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "DDOG": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -41.1,
+        "deeper_pct": 2.3,
+        "high60": 293.26,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "DGII": {
       "tier": "mid",
       "daily_move_pct": 3.6,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -32.9,
+        "deeper_pct": 2.4,
+        "high60": 78.85,
+        "high60_date": "2026-10-27",
+        "history_from": "2021-10-25"
+      }
     },
     "DIOD": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -22.6,
+        "deeper_pct": 16.7,
+        "high60": 107.74,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "DJCO": {
       "tier": "low",
       "daily_move_pct": 2.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -7.3,
+        "deeper_pct": 46.6,
+        "high60": 687.66,
+        "high60_date": "2026-09-15",
+        "history_from": "2021-10-25"
+      }
     },
     "DLO": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -15.5,
+        "deeper_pct": 42.8,
+        "high60": 15.78,
+        "high60_date": "2026-09-03",
+        "history_from": "2021-10-25"
+      }
     },
     "DOCU": {
       "tier": "low",
       "daily_move_pct": 2.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -6.4,
+        "deeper_pct": 74.3,
+        "high60": 85.27,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "DOX": {
       "tier": "high",
       "daily_move_pct": 4.9,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -31.4,
+        "deeper_pct": 0.4,
+        "high60": 63.57,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "DSGX": {
       "tier": "low",
       "daily_move_pct": 2.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.0,
+        "deeper_pct": 85.0,
+        "high60": 95.99,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "DSP": {
       "tier": "high",
       "daily_move_pct": 5.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -21.7,
+        "deeper_pct": 30.2,
+        "high60": 14.3,
+        "high60_date": "2026-10-28",
+        "history_from": "2021-10-25"
+      }
     },
     "DUOL": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 168.75,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "EEFT": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.7,
+        "deeper_pct": 68.2,
+        "high60": 73.81,
+        "high60_date": "2026-09-04",
+        "history_from": "2021-10-25"
+      }
     },
     "ENPH": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Solar"
+      "industry": "Solar",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -36.4,
+        "deeper_pct": 15.0,
+        "high60": 39.25,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "ENTG": {
       "tier": "mid",
       "daily_move_pct": 4.7,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -16.1,
+        "deeper_pct": 34.7,
+        "high60": 166.92,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "ERIC": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -6.0,
+        "deeper_pct": 62.3,
+        "high60": 11.18,
+        "high60_date": "2026-10-30",
+        "history_from": "2021-10-25"
+      }
     },
     "EVCM": {
       "tier": "high",
       "daily_move_pct": 5.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -35.6,
+        "deeper_pct": 7.1,
+        "high60": 9.89,
+        "high60_date": "2026-10-01",
+        "history_from": "2021-10-25"
+      }
     },
     "EVLV": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Security & Protection Services"
+      "industry": "Security & Protection Services",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -25.9,
+        "deeper_pct": 33.5,
+        "high60": 5.32,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "EXLS": {
       "tier": "low",
       "daily_move_pct": 1.8,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.6,
+        "deeper_pct": 82.3,
+        "high60": 44.3,
+        "high60_date": "2026-11-10",
+        "history_from": "2021-10-25"
+      }
     },
     "EXTR": {
       "tier": "low",
       "daily_move_pct": 3.2,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.9,
+        "deeper_pct": 74.1,
+        "high60": 27.18,
+        "high60_date": "2026-11-12",
+        "history_from": "2021-10-25"
+      }
     },
     "FEIM": {
       "tier": "very_high",
       "daily_move_pct": 6.5,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -32.0,
+        "deeper_pct": 0.3,
+        "high60": 89.0,
+        "high60_date": "2026-09-21",
+        "history_from": "2021-10-25"
+      }
     },
     "FFIV": {
       "tier": "mid",
       "daily_move_pct": 3.8,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -36.5,
+        "deeper_pct": 0.1,
+        "high60": 479.83,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "FIVN": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -30.3,
+        "deeper_pct": 16.8,
+        "high60": 38.65,
+        "high60_date": "2026-09-22",
+        "history_from": "2021-10-25"
+      }
     },
     "FLEX": {
       "tier": "high",
       "daily_move_pct": 5.0,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -38.4,
+        "deeper_pct": 0.7,
+        "high60": 121.38,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "FLYW": {
       "tier": "low",
       "daily_move_pct": 2.6,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.9,
+        "deeper_pct": 91.0,
+        "high60": 22.35,
+        "high60_date": "2026-11-10",
+        "history_from": "2021-10-25"
+      }
     },
     "FORM": {
       "tier": "high",
       "daily_move_pct": 6.4,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -45.7,
+        "deeper_pct": 0.7,
+        "high60": 149.31,
+        "high60_date": "2026-09-30",
+        "history_from": "2021-10-25"
+      }
     },
     "FORTY": {
       "tier": "low",
       "daily_move_pct": 3.0,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.3,
+        "deeper_pct": 68.6,
+        "high60": 129.9,
+        "high60_date": "2026-10-26",
+        "history_from": "2021-10-25"
+      }
     },
     "FROG": {
       "tier": "high",
       "daily_move_pct": 6.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.2,
+        "deeper_pct": 82.8,
+        "high60": 113.6,
+        "high60_date": "2026-11-13",
+        "history_from": "2021-10-25"
+      }
     },
     "FRSH": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -14.6,
+        "deeper_pct": 53.0,
+        "high60": 15.49,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "FSLR": {
       "tier": "low",
       "daily_move_pct": 3.0,
-      "industry": "Solar"
+      "industry": "Solar",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -23.8,
+        "deeper_pct": 24.1,
+        "high60": 213.25,
+        "high60_date": "2026-09-08",
+        "history_from": "2021-10-25"
+      }
     },
     "FSLY": {
       "tier": "very_high",
       "daily_move_pct": 7.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -46.5,
+        "deeper_pct": 11.6,
+        "high60": 29.65,
+        "high60_date": "2026-09-23",
+        "history_from": "2021-10-25"
+      }
     },
     "FTNT": {
       "tier": "mid",
       "daily_move_pct": 4.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -36.7,
+        "deeper_pct": 0.3,
+        "high60": 194.75,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "GCT": {
       "tier": "low",
       "daily_move_pct": 3.0,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.7,
+        "deeper_pct": 77.2,
+        "high60": 66.63,
+        "high60_date": "2026-11-13",
+        "history_from": "2022-08-18"
+      }
     },
     "GDS": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -50.7,
+        "deeper_pct": 4.8,
+        "high60": 34.25,
+        "high60_date": "2026-09-21",
+        "history_from": "2021-10-25"
+      }
     },
     "GDYN": {
       "tier": "high",
       "daily_move_pct": 5.1,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.3,
+        "deeper_pct": 81.2,
+        "high60": 14.06,
+        "high60_date": "2026-11-10",
+        "history_from": "2021-10-25"
+      }
     },
     "GEN": {
       "tier": "mid",
       "daily_move_pct": 3.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.2,
+        "deeper_pct": 70.5,
+        "high60": 31.41,
+        "high60_date": "2026-09-14",
+        "history_from": "2021-10-25"
+      }
     },
     "GFS": {
       "tier": "mid",
       "daily_move_pct": 3.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -21.4,
+        "deeper_pct": 24.0,
+        "high60": 50.17,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-28"
+      }
     },
     "GMEX": {
       "tier": "very_high",
@@ -682,27 +1610,67 @@
     "GRAB": {
       "tier": "low",
       "daily_move_pct": 3.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -11.8,
+        "deeper_pct": 51.7,
+        "high60": 3.64,
+        "high60_date": "2026-08-26",
+        "history_from": "2021-10-25"
+      }
     },
     "GTLB": {
       "tier": "low",
       "daily_move_pct": 3.2,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -18.4,
+        "deeper_pct": 47.0,
+        "high60": 57.97,
+        "high60_date": "2026-10-28",
+        "history_from": "2021-10-25"
+      }
     },
     "GTM": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -28.3,
+        "deeper_pct": 30.4,
+        "high60": 4.48,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "HIMX": {
       "tier": "high",
       "daily_move_pct": 5.4,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -47.8,
+        "deeper_pct": 1.5,
+        "high60": 15.24,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "HLIT": {
       "tier": "low",
       "daily_move_pct": 3.0,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -18.3,
+        "deeper_pct": 26.2,
+        "high60": 12.44,
+        "high60_date": "2026-08-26",
+        "history_from": "2021-10-25"
+      }
     },
     "HQ": {
       "tier": "very_high",
@@ -712,17 +1680,41 @@
     "IBEX": {
       "tier": "low",
       "daily_move_pct": 2.7,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.9,
+        "deeper_pct": 86.2,
+        "high60": 56.92,
+        "high60_date": "2026-11-13",
+        "history_from": "2021-10-25"
+      }
     },
     "ICHR": {
       "tier": "high",
       "daily_move_pct": 5.4,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -46.9,
+        "deeper_pct": 4.5,
+        "high60": 63.33,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "IDCC": {
       "tier": "low",
       "daily_move_pct": 2.4,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -21.6,
+        "deeper_pct": 8.5,
+        "high60": 350.13,
+        "high60_date": "2026-09-11",
+        "history_from": "2021-10-25"
+      }
     },
     "IIIV": {
       "tier": "low",
@@ -732,217 +1724,561 @@
     "IMOS": {
       "tier": "high",
       "daily_move_pct": 5.3,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -45.0,
+        "deeper_pct": 0.2,
+        "high60": 83.3,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "INOD": {
       "tier": "high",
       "daily_move_pct": 6.1,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -54.7,
+        "deeper_pct": 0.9,
+        "high60": 71.99,
+        "high60_date": "2026-09-23",
+        "history_from": "2021-10-25"
+      }
     },
     "INTA": {
       "tier": "low",
       "daily_move_pct": 3.2,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -4.2,
+        "deeper_pct": 71.5,
+        "high60": 47.99,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "INTC": {
       "tier": "high",
       "daily_move_pct": 6.2,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -56.5,
+        "deeper_pct": 0.2,
+        "high60": 127.39,
+        "high60_date": "2026-09-24",
+        "history_from": "2021-10-25"
+      }
     },
     "INTU": {
       "tier": "low",
       "daily_move_pct": 2.6,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -6.6,
+        "deeper_pct": 59.8,
+        "high60": 369.92,
+        "high60_date": "2026-08-24",
+        "history_from": "2021-10-25"
+      }
     },
     "IPGP": {
       "tier": "low",
       "daily_move_pct": 3.4,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -25.3,
+        "deeper_pct": 17.4,
+        "high60": 84.05,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "IQMX": {
       "tier": "mid",
       "daily_move_pct": 4.1,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -41.6,
+        "deeper_pct": 0.3,
+        "high60": 10.99,
+        "high60_date": "2026-08-26",
+        "history_from": "2025-06-02"
+      }
     },
     "ITRI": {
       "tier": "low",
       "daily_move_pct": 1.9,
-      "industry": "Scientific & Technical Instruments"
+      "industry": "Scientific & Technical Instruments",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.9,
+        "deeper_pct": 62.9,
+        "high60": 101.6,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "ITRN": {
       "tier": "low",
       "daily_move_pct": 1.7,
-      "industry": "Scientific & Technical Instruments"
+      "industry": "Scientific & Technical Instruments",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -13.3,
+        "deeper_pct": 20.9,
+        "high60": 53.38,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "JKHY": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.7,
+        "deeper_pct": 87.7,
+        "high60": 180.26,
+        "high60_date": "2026-11-05",
+        "history_from": "2021-10-25"
+      }
     },
     "KARO": {
       "tier": "low",
       "daily_move_pct": 1.8,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -9.5,
+        "deeper_pct": 50.3,
+        "high60": 68.71,
+        "high60_date": "2026-09-17",
+        "history_from": "2021-10-25"
+      }
     },
     "KC": {
       "tier": "mid",
       "daily_move_pct": 3.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -37.2,
+        "deeper_pct": 23.4,
+        "high60": 10.94,
+        "high60_date": "2026-09-04",
+        "history_from": "2021-10-25"
+      }
     },
     "KEEL": {
       "tier": "very_high",
       "daily_move_pct": 6.5,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -58.1,
+        "deeper_pct": 7.9,
+        "high60": 4.15,
+        "high60_date": "2026-09-22",
+        "history_from": "2021-10-25"
+      }
     },
     "KLAC": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -30.4,
+        "deeper_pct": 4.3,
+        "high60": 206.89,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "KLIC": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -34.8,
+        "deeper_pct": 3.1,
+        "high60": 100.77,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "KPLT": {
       "tier": "very_high",
       "daily_move_pct": 9.9,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -28.4,
+        "deeper_pct": 51.2,
+        "high60": 12.52,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "KSPI": {
       "tier": "low",
       "daily_move_pct": 2.0,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -15.9,
+        "deeper_pct": 22.9,
+        "high60": 108.75,
+        "high60_date": "2026-08-25",
+        "history_from": "2024-01-19"
+      }
     },
     "LASR": {
       "tier": "high",
       "daily_move_pct": 5.3,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -15.9,
+        "deeper_pct": 49.4,
+        "high60": 44.99,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "LFUS": {
       "tier": "mid",
       "daily_move_pct": 3.4,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -17.5,
+        "deeper_pct": 15.6,
+        "high60": 456.53,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "LIF": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -8.6,
+        "deeper_pct": 61.6,
+        "high60": 48.05,
+        "high60_date": "2026-11-04",
+        "history_from": "2024-06-06"
+      }
     },
     "LITE": {
       "tier": "very_high",
       "daily_move_pct": 6.6,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -51.8,
+        "deeper_pct": 0.2,
+        "high60": 1133.4,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "LOGI": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -12.0,
+        "deeper_pct": 39.6,
+        "high60": 112.52,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "LRCX": {
       "tier": "mid",
       "daily_move_pct": 4.6,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -39.3,
+        "deeper_pct": 0.5,
+        "high60": 347.49,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "LSCC": {
       "tier": "mid",
       "daily_move_pct": 4.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -19.6,
+        "deeper_pct": 29.9,
+        "high60": 134.47,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "LYFT": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -10.1,
+        "deeper_pct": 70.0,
+        "high60": 18.74,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "MAAS": {
       "tier": "high",
       "daily_move_pct": 5.2,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -45.0,
+        "deeper_pct": 24.3,
+        "high60": 17.95,
+        "high60_date": "2026-09-28",
+        "history_from": "2021-10-25"
+      }
     },
     "MANH": {
       "tier": "low",
       "daily_move_pct": 2.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.0,
+        "deeper_pct": 83.9,
+        "high60": 260.41,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "MCHP": {
       "tier": "mid",
       "daily_move_pct": 3.4,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -28.0,
+        "deeper_pct": 3.3,
+        "high60": 81.49,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "MDB": {
       "tier": "high",
       "daily_move_pct": 5.0,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -30.1,
+        "deeper_pct": 25.7,
+        "high60": 453.37,
+        "high60_date": "2026-08-31",
+        "history_from": "2021-10-25"
+      }
     },
     "MGRT": {
       "tier": "mid",
       "daily_move_pct": 3.7,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 130.0,
+        "high60_date": "2026-11-16",
+        "history_from": "2025-07-16"
+      }
     },
     "MITK": {
       "tier": "mid",
       "daily_move_pct": 3.6,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -9.3,
+        "deeper_pct": 58.0,
+        "high60": 19.21,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "MKSI": {
       "tier": "mid",
       "daily_move_pct": 4.1,
-      "industry": "Scientific & Technical Instruments"
+      "industry": "Scientific & Technical Instruments",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -27.4,
+        "deeper_pct": 18.5,
+        "high60": 281.41,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "MLAB": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Scientific & Technical Instruments"
+      "industry": "Scientific & Technical Instruments",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.7,
+        "deeper_pct": 76.8,
+        "high60": 142.23,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "MNDY": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -25.1,
+        "deeper_pct": 33.3,
+        "high60": 106.86,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "MORN": {
       "tier": "low",
       "daily_move_pct": 2.3,
-      "industry": "Financial Data & Stock Exchanges"
+      "industry": "Financial Data & Stock Exchanges",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.3,
+        "deeper_pct": 90.8,
+        "high60": 248.65,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "MPWR": {
       "tier": "mid",
       "daily_move_pct": 4.3,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -11.2,
+        "deeper_pct": 46.5,
+        "high60": 1479.89,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "MQ": {
       "tier": "low",
       "daily_move_pct": 2.0,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -7.6,
+        "deeper_pct": 73.1,
+        "high60": 19.35,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "MRVL": {
       "tier": "high",
       "daily_move_pct": 5.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -49.4,
+        "deeper_pct": 2.1,
+        "high60": 287.01,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "MSFT": {
       "tier": "low",
       "daily_move_pct": 1.7,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -6.8,
+        "deeper_pct": 44.1,
+        "high60": 555.8,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "MSTR": {
       "tier": "high",
       "daily_move_pct": 5.4,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -38.9,
+        "deeper_pct": 18.6,
+        "high60": 168.5,
+        "high60_date": "2026-09-21",
+        "history_from": "2021-10-25"
+      }
     },
     "MTSI": {
       "tier": "high",
       "daily_move_pct": 5.7,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -37.1,
+        "deeper_pct": 1.2,
+        "high60": 350.67,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "MU": {
       "tier": "mid",
       "daily_move_pct": 4.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -34.5,
+        "deeper_pct": 3.4,
+        "high60": 1097.39,
+        "high60_date": "2026-10-01",
+        "history_from": "2021-10-25"
+      }
     },
     "MXL": {
       "tier": "very_high",
       "daily_move_pct": 7.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -52.5,
+        "deeper_pct": 3.0,
+        "high60": 109.3,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "NAVN": {
       "tier": "mid",
@@ -952,52 +2288,132 @@
     "NCNO": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.6,
+        "deeper_pct": 84.0,
+        "high60": 23.63,
+        "high60_date": "2026-09-03",
+        "history_from": "2021-10-25"
+      }
     },
     "NDAQ": {
       "tier": "low",
       "daily_move_pct": 1.6,
-      "industry": "Financial Data & Stock Exchanges"
+      "industry": "Financial Data & Stock Exchanges",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.4,
+        "deeper_pct": 76.3,
+        "high60": 110.02,
+        "high60_date": "2026-11-10",
+        "history_from": "2021-10-25"
+      }
     },
     "NICE": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -23.7,
+        "deeper_pct": 16.3,
+        "high60": 122.41,
+        "high60_date": "2026-10-26",
+        "history_from": "2021-10-25"
+      }
     },
     "NN": {
       "tier": "high",
       "daily_move_pct": 5.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -43.9,
+        "deeper_pct": 7.9,
+        "high60": 15.87,
+        "high60_date": "2026-08-31",
+        "history_from": "2021-10-25"
+      }
     },
     "NOVT": {
       "tier": "mid",
       "daily_move_pct": 3.7,
-      "industry": "Scientific & Technical Instruments"
+      "industry": "Scientific & Technical Instruments",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -24.3,
+        "deeper_pct": 4.2,
+        "high60": 151.18,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "NSIT": {
       "tier": "low",
       "daily_move_pct": 3.3,
-      "industry": "Electronics & Computer Distribution"
+      "industry": "Electronics & Computer Distribution",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -13.1,
+        "deeper_pct": 28.4,
+        "high60": 178.72,
+        "high60_date": "2026-10-26",
+        "history_from": "2021-10-25"
+      }
     },
     "NSSC": {
       "tier": "low",
       "daily_move_pct": 3.2,
-      "industry": "Security & Protection Services"
+      "industry": "Security & Protection Services",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -27.1,
+        "deeper_pct": 14.2,
+        "high60": 39.98,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "NTAP": {
       "tier": "low",
       "daily_move_pct": 3.4,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -25.6,
+        "deeper_pct": 4.4,
+        "high60": 239.18,
+        "high60_date": "2026-10-12",
+        "history_from": "2021-10-25"
+      }
     },
     "NTCT": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -23.1,
+        "deeper_pct": 4.0,
+        "high60": 41.2,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "NTNX": {
       "tier": "low",
       "daily_move_pct": 2.2,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -21.0,
+        "deeper_pct": 23.1,
+        "high60": 74.63,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "NTSK": {
       "tier": "mid",
@@ -1007,32 +2423,80 @@
     "NVDA": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -34.7,
+        "deeper_pct": 4.6,
+        "high60": 239.24,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "NVMI": {
       "tier": "mid",
       "daily_move_pct": 3.5,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -22.6,
+        "deeper_pct": 17.2,
+        "high60": 396.12,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "NVTS": {
       "tier": "high",
       "daily_move_pct": 5.8,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -37.8,
+        "deeper_pct": 33.0,
+        "high60": 12.67,
+        "high60_date": "2026-08-26",
+        "history_from": "2021-10-25"
+      }
     },
     "NXPI": {
       "tier": "low",
       "daily_move_pct": 2.5,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.7,
+        "deeper_pct": 66.5,
+        "high60": 269.51,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "NXT": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Solar"
+      "industry": "Solar",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -16.3,
+        "deeper_pct": 38.0,
+        "high60": 106.7,
+        "high60_date": "2026-11-04",
+        "history_from": "2023-02-09"
+      }
     },
     "NYAX": {
       "tier": "low",
       "daily_move_pct": 3.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -8.7,
+        "deeper_pct": 50.2,
+        "high60": 54.02,
+        "high60_date": "2026-08-26",
+        "history_from": "2022-09-21"
+      }
     },
     "OCTV": {
       "tier": "low",
@@ -1042,52 +2506,132 @@
     "OKTA": {
       "tier": "high",
       "daily_move_pct": 5.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -23.2,
+        "deeper_pct": 24.1,
+        "high60": 232.13,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "OLED": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -2.8,
+        "deeper_pct": 84.2,
+        "high60": 90.54,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "ON": {
       "tier": "mid",
       "daily_move_pct": 3.9,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -21.6,
+        "deeper_pct": 19.6,
+        "high60": 86.31,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "ONDS": {
       "tier": "high",
       "daily_move_pct": 5.4,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -46.2,
+        "deeper_pct": 23.7,
+        "high60": 8.75,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "OSIS": {
       "tier": "low",
       "daily_move_pct": 1.7,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -10.8,
+        "deeper_pct": 29.2,
+        "high60": 211.04,
+        "high60_date": "2026-08-26",
+        "history_from": "2021-10-25"
+      }
     },
     "OSPN": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -11.4,
+        "deeper_pct": 53.5,
+        "high60": 25.66,
+        "high60_date": "2026-10-30",
+        "history_from": "2021-10-25"
+      }
     },
     "OTEX": {
       "tier": "low",
       "daily_move_pct": 2.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -11.5,
+        "deeper_pct": 41.7,
+        "high60": 27.95,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "OUST": {
       "tier": "high",
       "daily_move_pct": 5.7,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -30.5,
+        "deeper_pct": 49.8,
+        "high60": 44.91,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "PANW": {
       "tier": "mid",
       "daily_move_pct": 4.1,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -24.7,
+        "deeper_pct": 4.0,
+        "high60": 419.91,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "PAYO": {
       "tier": "low",
       "daily_move_pct": 0.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 7.2,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "PAYP": {
       "tier": "mid",
@@ -1097,42 +2641,106 @@
     "PAYS": {
       "tier": "mid",
       "daily_move_pct": 4.7,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -38.9,
+        "deeper_pct": 5.3,
+        "high60": 15.62,
+        "high60_date": "2026-10-21",
+        "history_from": "2021-10-25"
+      }
     },
     "PAYX": {
       "tier": "low",
       "daily_move_pct": 2.2,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -7.5,
+        "deeper_pct": 44.5,
+        "high60": 127.34,
+        "high60_date": "2026-08-31",
+        "history_from": "2021-10-25"
+      }
     },
     "PCTY": {
       "tier": "low",
       "daily_move_pct": 1.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 184.46,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "PDFS": {
       "tier": "high",
       "daily_move_pct": 5.4,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -37.3,
+        "deeper_pct": 2.5,
+        "high60": 56.08,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "PEGA": {
       "tier": "low",
       "daily_move_pct": 2.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -16.6,
+        "deeper_pct": 36.5,
+        "high60": 38.71,
+        "high60_date": "2026-09-14",
+        "history_from": "2021-10-25"
+      }
     },
     "PENG": {
       "tier": "very_high",
       "daily_move_pct": 7.0,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -44.1,
+        "deeper_pct": 1.6,
+        "high60": 79.15,
+        "high60_date": "2026-10-12",
+        "history_from": "2021-10-25"
+      }
     },
     "PGY": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -31.1,
+        "deeper_pct": 40.6,
+        "high60": 23.26,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "PI": {
       "tier": "mid",
       "daily_move_pct": 3.4,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -15.0,
+        "deeper_pct": 44.0,
+        "high60": 192.14,
+        "high60_date": "2026-10-14",
+        "history_from": "2021-10-25"
+      }
     },
     "PICS": {
       "tier": "very_high",
@@ -1142,47 +2750,119 @@
     "PLAB": {
       "tier": "low",
       "daily_move_pct": 3.0,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -16.5,
+        "deeper_pct": 32.9,
+        "high60": 31.49,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "PLTR": {
       "tier": "low",
       "daily_move_pct": 3.2,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -23.3,
+        "deeper_pct": 24.3,
+        "high60": 209.05,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "PLUS": {
       "tier": "low",
       "daily_move_pct": 2.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.9,
+        "deeper_pct": 81.1,
+        "high60": 97.19,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "PLXS": {
       "tier": "low",
       "daily_move_pct": 3.1,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -24.6,
+        "deeper_pct": 2.7,
+        "high60": 273.18,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "POET": {
       "tier": "high",
       "daily_move_pct": 5.5,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -44.6,
+        "deeper_pct": 14.1,
+        "high60": 8.41,
+        "high60_date": "2026-09-21",
+        "history_from": "2021-10-25"
+      }
     },
     "PONY": {
       "tier": "mid",
       "daily_move_pct": 3.6,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -44.6,
+        "deeper_pct": 13.6,
+        "high60": 7.58,
+        "high60_date": "2026-08-28",
+        "history_from": "2024-11-27"
+      }
     },
     "POWI": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -23.4,
+        "deeper_pct": 18.2,
+        "high60": 55.31,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "PRGS": {
       "tier": "low",
       "daily_move_pct": 2.6,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -6.3,
+        "deeper_pct": 53.5,
+        "high60": 46.45,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "PRTH": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.3,
+        "deeper_pct": 93.9,
+        "high60": 7.92,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "PSQL": {
       "tier": "very_high",
@@ -1192,32 +2872,80 @@
     "PTC": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.1,
+        "deeper_pct": 91.6,
+        "high60": 196.55,
+        "high60_date": "2026-11-10",
+        "history_from": "2021-10-25"
+      }
     },
     "PUBM": {
       "tier": "mid",
       "daily_move_pct": 3.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 20.71,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "QBTS": {
       "tier": "high",
       "daily_move_pct": 5.2,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -55.2,
+        "deeper_pct": 15.7,
+        "high60": 19.35,
+        "high60_date": "2026-08-25",
+        "history_from": "2021-10-25"
+      }
     },
     "QCOM": {
       "tier": "low",
       "daily_move_pct": 3.4,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -16.6,
+        "deeper_pct": 28.5,
+        "high60": 201.97,
+        "high60_date": "2026-09-25",
+        "history_from": "2021-10-25"
+      }
     },
     "QLYS": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -21.0,
+        "deeper_pct": 11.1,
+        "high60": 230.29,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "QMCO": {
       "tier": "very_high",
       "daily_move_pct": 6.7,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -59.1,
+        "deeper_pct": 12.0,
+        "high60": 34.5,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "QNT": {
       "tier": "high",
@@ -1227,32 +2955,80 @@
     "QUBT": {
       "tier": "mid",
       "daily_move_pct": 4.4,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -42.7,
+        "deeper_pct": 24.3,
+        "high60": 9.16,
+        "high60_date": "2026-09-24",
+        "history_from": "2021-10-25"
+      }
     },
     "RDVT": {
       "tier": "low",
       "daily_move_pct": 2.7,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -13.4,
+        "deeper_pct": 33.9,
+        "high60": 82.4,
+        "high60_date": "2026-10-28",
+        "history_from": "2021-10-25"
+      }
     },
     "RDWR": {
       "tier": "low",
       "daily_move_pct": 3.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -16.6,
+        "deeper_pct": 20.3,
+        "high60": 37.16,
+        "high60_date": "2026-10-28",
+        "history_from": "2021-10-25"
+      }
     },
     "RELY": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -19.0,
+        "deeper_pct": 33.0,
+        "high60": 27.08,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "RGTI": {
       "tier": "high",
       "daily_move_pct": 5.2,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -46.5,
+        "deeper_pct": 31.4,
+        "high60": 16.94,
+        "high60_date": "2026-08-25",
+        "history_from": "2021-10-25"
+      }
     },
     "RMBS": {
       "tier": "mid",
       "daily_move_pct": 4.7,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -31.7,
+        "deeper_pct": 10.1,
+        "high60": 114.09,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "RMNI": {
       "tier": "mid",
@@ -1262,52 +3038,132 @@
     "ROP": {
       "tier": "low",
       "daily_move_pct": 2.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.7,
+        "deeper_pct": 75.2,
+        "high60": 492.22,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "RPD": {
       "tier": "high",
       "daily_move_pct": 5.7,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -18.1,
+        "deeper_pct": 49.1,
+        "high60": 17.93,
+        "high60_date": "2026-10-26",
+        "history_from": "2021-10-25"
+      }
     },
     "RUN": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Solar"
+      "industry": "Solar",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -16.3,
+        "deeper_pct": 68.3,
+        "high60": 9.98,
+        "high60_date": "2026-11-06",
+        "history_from": "2021-10-25"
+      }
     },
     "RXT": {
       "tier": "very_high",
       "daily_move_pct": 6.8,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -40.1,
+        "deeper_pct": 30.9,
+        "high60": 4.2,
+        "high60_date": "2026-09-24",
+        "history_from": "2021-10-25"
+      }
     },
     "SABR": {
       "tier": "mid",
       "daily_move_pct": 3.8,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -26.2,
+        "deeper_pct": 40.0,
+        "high60": 2.33,
+        "high60_date": "2026-09-21",
+        "history_from": "2021-10-25"
+      }
     },
     "SAIC": {
       "tier": "low",
       "daily_move_pct": 1.7,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.8,
+        "deeper_pct": 63.4,
+        "high60": 152.91,
+        "high60_date": "2026-11-02",
+        "history_from": "2021-10-25"
+      }
     },
     "SAIL": {
       "tier": "mid",
       "daily_move_pct": 4.2,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.9,
+        "deeper_pct": 82.2,
+        "high60": 22.39,
+        "high60_date": "2026-10-27",
+        "history_from": "2025-02-13"
+      }
     },
     "SANM": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -32.8,
+        "deeper_pct": 0.9,
+        "high60": 229.04,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "SCSC": {
       "tier": "mid",
       "daily_move_pct": 3.6,
-      "industry": "Electronics & Computer Distribution"
+      "industry": "Electronics & Computer Distribution",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -28.6,
+        "deeper_pct": 4.3,
+        "high60": 62.22,
+        "high60_date": "2026-10-01",
+        "history_from": "2021-10-25"
+      }
     },
     "SEDG": {
       "tier": "mid",
       "daily_move_pct": 4.6,
-      "industry": "Solar"
+      "industry": "Solar",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -36.7,
+        "deeper_pct": 25.2,
+        "high60": 36.75,
+        "high60_date": "2026-09-10",
+        "history_from": "2021-10-25"
+      }
     },
     "SHAZ": {
       "tier": "very_high",
@@ -1317,22 +3173,54 @@
     "SHLS": {
       "tier": "high",
       "daily_move_pct": 5.0,
-      "industry": "Solar"
+      "industry": "Solar",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -20.4,
+        "deeper_pct": 56.3,
+        "high60": 10.08,
+        "high60_date": "2026-11-06",
+        "history_from": "2021-10-25"
+      }
     },
     "SHOP": {
       "tier": "mid",
       "daily_move_pct": 3.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -17.5,
+        "deeper_pct": 38.9,
+        "high60": 179.22,
+        "high60_date": "2026-10-12",
+        "history_from": "2021-10-25"
+      }
     },
     "SIMO": {
       "tier": "high",
       "daily_move_pct": 6.1,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -44.9,
+        "deeper_pct": 0.2,
+        "high60": 285.78,
+        "high60_date": "2026-10-07",
+        "history_from": "2021-10-25"
+      }
     },
     "SITM": {
       "tier": "high",
       "daily_move_pct": 5.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -40.8,
+        "deeper_pct": 8.8,
+        "high60": 711.06,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "SKHY": {
       "tier": "mid",
@@ -1342,122 +3230,314 @@
     "SLAB": {
       "tier": "low",
       "daily_move_pct": 0.2,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.5,
+        "deeper_pct": 86.9,
+        "high60": 222.8,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "SMCI": {
       "tier": "high",
       "daily_move_pct": 5.0,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -44.3,
+        "deeper_pct": 9.0,
+        "high60": 44.94,
+        "high60_date": "2026-10-07",
+        "history_from": "2021-10-25"
+      }
     },
     "SMTC": {
       "tier": "very_high",
       "daily_move_pct": 6.8,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -46.6,
+        "deeper_pct": 8.7,
+        "high60": 197.2,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "SNDK": {
       "tier": "high",
       "daily_move_pct": 6.0,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -57.1,
+        "deeper_pct": 0.5,
+        "high60": 1887.04,
+        "high60_date": "2026-09-22",
+        "history_from": "2025-02-13"
+      }
     },
     "SNPS": {
       "tier": "mid",
       "daily_move_pct": 3.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -13.5,
+        "deeper_pct": 33.7,
+        "high60": 509.99,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "SONO": {
       "tier": "low",
       "daily_move_pct": 3.1,
-      "industry": "Consumer Electronics"
+      "industry": "Consumer Electronics",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -8.6,
+        "deeper_pct": 60.6,
+        "high60": 19.06,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "SOUN": {
       "tier": "low",
       "daily_move_pct": 3.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -55.3,
+        "deeper_pct": 11.4,
+        "high60": 7.22,
+        "high60_date": "2026-08-27",
+        "history_from": "2022-04-28"
+      }
     },
     "SPSC": {
       "tier": "low",
       "daily_move_pct": 2.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -11.8,
+        "deeper_pct": 38.9,
+        "high60": 92.63,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "SPT": {
       "tier": "low",
       "daily_move_pct": 3.4,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -12.7,
+        "deeper_pct": 68.2,
+        "high60": 13.11,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "SRAD": {
       "tier": "low",
       "daily_move_pct": 3.3,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -16.7,
+        "deeper_pct": 41.6,
+        "high60": 14.49,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "SSNC": {
       "tier": "low",
       "daily_move_pct": 1.6,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -11.2,
+        "deeper_pct": 26.1,
+        "high60": 89.54,
+        "high60_date": "2026-10-22",
+        "history_from": "2021-10-25"
+      }
     },
     "SSYS": {
       "tier": "low",
       "daily_move_pct": 3.1,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -33.1,
+        "deeper_pct": 7.4,
+        "high60": 8.7,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "STNE": {
       "tier": "high",
       "daily_move_pct": 5.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -35.7,
+        "deeper_pct": 7.1,
+        "high60": 12.46,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "STRC": {
       "tier": "low",
       "daily_move_pct": 0.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -0.9,
+        "deeper_pct": 37.9,
+        "high60": 99.99,
+        "high60_date": "2026-11-11",
+        "history_from": "2025-07-30"
+      }
     },
     "STRD": {
       "tier": "low",
       "daily_move_pct": 1.4,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -15.4,
+        "deeper_pct": 16.4,
+        "high60": 75.9,
+        "high60_date": "2026-09-04",
+        "history_from": "2025-06-06"
+      }
     },
     "STRF": {
       "tier": "low",
       "daily_move_pct": 0.6,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -4.3,
+        "deeper_pct": 61.1,
+        "high60": 104.4,
+        "high60_date": "2026-09-03",
+        "history_from": "2025-03-26"
+      }
     },
     "STRK": {
       "tier": "low",
       "daily_move_pct": 2.2,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -17.8,
+        "deeper_pct": 25.1,
+        "high60": 78.15,
+        "high60_date": "2026-09-08",
+        "history_from": "2025-02-03"
+      }
     },
     "STX": {
       "tier": "high",
       "daily_move_pct": 5.0,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -47.2,
+        "deeper_pct": 0.3,
+        "high60": 945.57,
+        "high60_date": "2026-10-01",
+        "history_from": "2021-10-25"
+      }
     },
     "SWKS": {
       "tier": "mid",
       "daily_move_pct": 3.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -5.4,
+        "deeper_pct": 76.5,
+        "high60": 91.45,
+        "high60_date": "2026-09-23",
+        "history_from": "2021-10-25"
+      }
     },
     "SYNA": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.0,
+        "deeper_pct": 85.6,
+        "high60": 121.1,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "TASK": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.1,
+        "deeper_pct": 95.1,
+        "high60": 9.23,
+        "high60_date": "2026-11-10",
+        "history_from": "2021-10-25"
+      }
     },
     "TEAM": {
       "tier": "mid",
       "daily_move_pct": 4.0,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -34.1,
+        "deeper_pct": 15.5,
+        "high60": 227.61,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "TENB": {
       "tier": "mid",
       "daily_move_pct": 4.6,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -20.8,
+        "deeper_pct": 17.4,
+        "high60": 51.78,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "TER": {
       "tier": "high",
       "daily_move_pct": 5.1,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -48.4,
+        "deeper_pct": 0.4,
+        "high60": 449.04,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "TLS": {
       "tier": "very_high",
@@ -1467,102 +3547,262 @@
     "TRMB": {
       "tier": "low",
       "daily_move_pct": 2.9,
-      "industry": "Scientific & Technical Instruments"
+      "industry": "Scientific & Technical Instruments",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -16.9,
+        "deeper_pct": 25.2,
+        "high60": 65.84,
+        "high60_date": "2026-11-02",
+        "history_from": "2021-10-25"
+      }
     },
     "TSAT": {
       "tier": "mid",
       "daily_move_pct": 4.5,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -16.5,
+        "deeper_pct": 60.9,
+        "high60": 51.67,
+        "high60_date": "2026-09-17",
+        "history_from": "2021-10-25"
+      }
     },
     "TSEM": {
       "tier": "high",
       "daily_move_pct": 5.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -48.4,
+        "deeper_pct": 0.2,
+        "high60": 258.41,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "TTAN": {
       "tier": "high",
       "daily_move_pct": 5.9,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -17.9,
+        "deeper_pct": 43.9,
+        "high60": 100.64,
+        "high60_date": "2026-08-27",
+        "history_from": "2024-12-12"
+      }
     },
     "TTMI": {
       "tier": "very_high",
       "daily_move_pct": 7.1,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -48.7,
+        "deeper_pct": 0.8,
+        "high60": 133.14,
+        "high60_date": "2026-10-05",
+        "history_from": "2021-10-25"
+      }
     },
     "TXN": {
       "tier": "low",
       "daily_move_pct": 2.6,
-      "industry": "Semiconductors"
+      "industry": "Semiconductors",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -6.0,
+        "deeper_pct": 56.1,
+        "high60": 312.94,
+        "high60_date": "2026-10-29",
+        "history_from": "2021-10-25"
+      }
     },
     "UCTT": {
       "tier": "high",
       "daily_move_pct": 5.8,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -47.1,
+        "deeper_pct": 4.5,
+        "high60": 81.06,
+        "high60_date": "2026-09-30",
+        "history_from": "2021-10-25"
+      }
     },
     "UPBD": {
       "tier": "mid",
       "daily_move_pct": 3.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -1.4,
+        "deeper_pct": 90.3,
+        "high60": 25.27,
+        "high60_date": "2026-11-11",
+        "history_from": "2021-10-25"
+      }
     },
     "VECO": {
       "tier": "mid",
       "daily_move_pct": 4.4,
-      "industry": "Semiconductor Equipment & Materials"
+      "industry": "Semiconductor Equipment & Materials",
+      "dip": {
+        "grade": "A+",
+        "dd60_pct": -35.2,
+        "deeper_pct": 5.3,
+        "high60": 57.38,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "VERX": {
       "tier": "low",
       "daily_move_pct": 3.1,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -0.0,
+        "deeper_pct": 100.0,
+        "high60": 18.4,
+        "high60_date": "2026-11-16",
+        "history_from": "2021-10-25"
+      }
     },
     "VIAV": {
       "tier": "high",
       "daily_move_pct": 5.7,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -40.3,
+        "deeper_pct": 0.4,
+        "high60": 48.14,
+        "high60_date": "2026-10-06",
+        "history_from": "2021-10-25"
+      }
     },
     "VICR": {
       "tier": "very_high",
       "daily_move_pct": 7.1,
-      "industry": "Electronic Components"
+      "industry": "Electronic Components",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -52.6,
+        "deeper_pct": 0.4,
+        "high60": 308.9,
+        "high60_date": "2026-10-02",
+        "history_from": "2021-10-25"
+      }
     },
     "VISN": {
       "tier": "very_high",
       "daily_move_pct": 9.7,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -66.0,
+        "deeper_pct": 0.1,
+        "high60": 11.63,
+        "high60_date": "2026-08-27",
+        "history_from": "2021-10-25"
+      }
     },
     "VNET": {
       "tier": "high",
       "daily_move_pct": 6.3,
-      "industry": "Information Technology Services"
+      "industry": "Information Technology Services",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -63.5,
+        "deeper_pct": 0.6,
+        "high60": 7.24,
+        "high60_date": "2026-09-21",
+        "history_from": "2021-10-25"
+      }
     },
     "VRNS": {
       "tier": "low",
       "daily_move_pct": 2.5,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -2.1,
+        "deeper_pct": 78.3,
+        "high60": 50.12,
+        "high60_date": "2026-10-09",
+        "history_from": "2021-10-25"
+      }
     },
     "VRSN": {
       "tier": "low",
       "daily_move_pct": 1.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -3.0,
+        "deeper_pct": 65.9,
+        "high60": 318.03,
+        "high60_date": "2026-11-04",
+        "history_from": "2021-10-25"
+      }
     },
     "VSAT": {
       "tier": "high",
       "daily_move_pct": 5.0,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -18.3,
+        "deeper_pct": 45.8,
+        "high60": 78.26,
+        "high60_date": "2026-10-28",
+        "history_from": "2021-10-25"
+      }
     },
     "WDAY": {
       "tier": "low",
       "daily_move_pct": 2.4,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -7.6,
+        "deeper_pct": 62.6,
+        "high60": 209.99,
+        "high60_date": "2026-10-23",
+        "history_from": "2021-10-25"
+      }
     },
     "WDC": {
       "tier": "high",
       "daily_move_pct": 4.9,
-      "industry": "Computer Hardware"
+      "industry": "Computer Hardware",
+      "dip": {
+        "grade": "S",
+        "dd60_pct": -41.7,
+        "deeper_pct": 0.8,
+        "high60": 482.28,
+        "high60_date": "2026-09-09",
+        "history_from": "2021-10-25"
+      }
     },
     "WIX": {
       "tier": "mid",
       "daily_move_pct": 3.9,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -24.8,
+        "deeper_pct": 28.5,
+        "high60": 88.38,
+        "high60_date": "2026-09-01",
+        "history_from": "2021-10-25"
+      }
     },
     "WLTH": {
       "tier": "mid",
@@ -1572,7 +3812,15 @@
     "WRD": {
       "tier": "mid",
       "daily_move_pct": 3.7,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -34.5,
+        "deeper_pct": 27.4,
+        "high60": 6.08,
+        "high60_date": "2026-09-08",
+        "history_from": "2024-10-25"
+      }
     },
     "WSE": {
       "tier": "low",
@@ -1587,22 +3835,54 @@
     "YB": {
       "tier": "low",
       "daily_move_pct": 2.5,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -15.7,
+        "deeper_pct": 65.9,
+        "high60": 13.91,
+        "high60_date": "2026-09-11",
+        "history_from": "2025-04-30"
+      }
     },
     "ZBRA": {
       "tier": "low",
       "daily_move_pct": 2.1,
-      "industry": "Communication Equipment"
+      "industry": "Communication Equipment",
+      "dip": {
+        "grade": "B",
+        "dd60_pct": -18.1,
+        "deeper_pct": 30.9,
+        "high60": 391.0,
+        "high60_date": "2026-10-21",
+        "history_from": "2021-10-25"
+      }
     },
     "ZM": {
       "tier": "low",
       "daily_move_pct": 2.8,
-      "industry": "Software - Application"
+      "industry": "Software - Application",
+      "dip": {
+        "grade": "F",
+        "dd60_pct": -8.3,
+        "deeper_pct": 63.6,
+        "high60": 104.83,
+        "high60_date": "2026-08-24",
+        "history_from": "2021-10-25"
+      }
     },
     "ZS": {
       "tier": "mid",
       "daily_move_pct": 4.3,
-      "industry": "Software - Infrastructure"
+      "industry": "Software - Infrastructure",
+      "dip": {
+        "grade": "A",
+        "dd60_pct": -26.7,
+        "deeper_pct": 26.4,
+        "high60": 260.45,
+        "high60_date": "2026-10-26",
+        "history_from": "2021-10-25"
+      }
     }
   },
   "industry_note": "업종마다 그 업종 종목들의 흔들림 단계를 모은 것입니다. '4주 안 한때 20% 넘게 빠짐' 은 종목마다 단계의 과거 비율을 평균한 어림값이고, 그 업종이 빠진다는 예측이 아닙니다. '평균보다 높음' 은 이 어림값이 살펴본 모든 종목 평균의 1.25배 이상, '평균보다 낮음' 은 0.8배 이하입니다.",
@@ -1947,6 +4227,140 @@
         "1993-04-27",
         "2025-12-02"
       ]
+    }
+  ],
+  "dip_note": "저점 등급은 지금 값이 최근 60거래일 가장 높은 종가보다 얼마나 내려와 있는지를 그 종목의 지난 기록과 견준 것입니다. S 는 그 종목 기록에서 가장 깊이 빠졌던 5% 안, F 는 고점 근처입니다. 깊이 빠졌다고 바닥이라는 뜻은 아니고, 더 빠질 수도 있습니다.",
+  "dip_history_note": "과거 결과는 2023 ~ 2025년에 같은 방식으로 등급을 매긴 날마다 4주(20거래일) 뒤를 센 것입니다. '같은 날 평균 대비' 는 그날 살펴본 모든 종목의 4주 평균 수익과의 차이입니다. 깊이 빠진 등급이 같은 날 다른 종목보다 나았다는 근거는 없었습니다. 지금 상장된 종목만으로 센 값입니다.",
+  "dip_history": {
+    "start": "2023-01-17",
+    "end": "2025-12-02",
+    "decision_end": "2025-12-31",
+    "all": {
+      "n": 198981,
+      "days_pct": 100.0,
+      "dd60_median_pct": -9.6,
+      "up20_pct": 53.0,
+      "ret20_pct": 2.46,
+      "excess_pct": -0.08,
+      "bounce_pct": 35.9,
+      "dip_pct": 9.5
+    }
+  },
+  "dip_grades": [
+    {
+      "key": "F",
+      "name": "고점 근처",
+      "share": [
+        0,
+        40
+      ],
+      "desc": "최근 60거래일 고점 가까이에 있습니다. 이 종목 기준으로 거의 빠지지 않았습니다.",
+      "count": 76,
+      "n": 101300,
+      "days_pct": 50.9,
+      "dd60_median_pct": -3.5,
+      "up20_pct": 52.7,
+      "ret20_pct": 2.26,
+      "excess_pct": 0.17,
+      "bounce_pct": 34.1,
+      "dip_pct": 8.8,
+      "by_year": {
+        "2023": -0.13,
+        "2024": 0.23,
+        "2025": 0.51
+      }
+    },
+    {
+      "key": "B",
+      "name": "조금 빠짐",
+      "share": [
+        40,
+        70
+      ],
+      "desc": "이 종목이 보통 빠져 있던 만큼 내려와 있습니다.",
+      "count": 62,
+      "n": 54106,
+      "days_pct": 27.2,
+      "dd60_median_pct": -13.9,
+      "up20_pct": 52.6,
+      "ret20_pct": 2.39,
+      "excess_pct": -0.11,
+      "bounce_pct": 35.7,
+      "dip_pct": 9.6,
+      "by_year": {
+        "2023": 0.17,
+        "2024": 0.1,
+        "2025": -0.59
+      }
+    },
+    {
+      "key": "A",
+      "name": "꽤 빠짐",
+      "share": [
+        70,
+        85
+      ],
+      "desc": "이 종목 기록에서 깊은 쪽 15 ~ 30% 만큼 내려와 있습니다.",
+      "count": 49,
+      "n": 22197,
+      "days_pct": 11.2,
+      "dd60_median_pct": -22.1,
+      "up20_pct": 51.4,
+      "ret20_pct": 1.78,
+      "excess_pct": -1.01,
+      "bounce_pct": 35.6,
+      "dip_pct": 11.2,
+      "by_year": {
+        "2023": -1.17,
+        "2024": -0.79,
+        "2025": -1.09
+      }
+    },
+    {
+      "key": "A+",
+      "name": "깊이 빠짐",
+      "share": [
+        85,
+        95
+      ],
+      "desc": "이 종목 기록에서 깊은 쪽 5 ~ 15% 만큼 내려와 있습니다.",
+      "count": 35,
+      "n": 13122,
+      "days_pct": 6.6,
+      "dd60_median_pct": -29.0,
+      "up20_pct": 55.9,
+      "ret20_pct": 3.3,
+      "excess_pct": -0.93,
+      "bounce_pct": 41.7,
+      "dip_pct": 10.5,
+      "by_year": {
+        "2023": -1.1,
+        "2024": -1.0,
+        "2025": -0.78
+      }
+    },
+    {
+      "key": "S",
+      "name": "아주 드물게 깊이 빠짐",
+      "share": [
+        95,
+        100
+      ],
+      "desc": "이 종목 기록에서 가장 깊이 빠졌던 5% 안에 있습니다.",
+      "count": 63,
+      "n": 8256,
+      "days_pct": 4.1,
+      "dd60_median_pct": -35.9,
+      "up20_pct": 59.7,
+      "ret20_pct": 5.8,
+      "excess_pct": 0.92,
+      "bounce_pct": 49.5,
+      "dip_pct": 11.1,
+      "by_year": {
+        "2023": 3.56,
+        "2024": -2.82,
+        "2025": 1.35
+      }
     }
   ]
 }
