@@ -87,7 +87,7 @@ const SORTS = {
   r60:  {label: "60일", key: r => r.r60, asc: false},
   r5:   {label: "5일",  key: r => r.r5,  asc: false},
 };
-let sort = "rank", ROWS = [], SPAN = {}, RANK = {}, SHAKE = {};
+let sort = "rank", ROWS = [], SPAN = {}, RANK = {}, SHAKE = {}, SHI = null, SHALL = null, SHNOTE = "";
 
 function sorted(list) {
   const s = SORTS[sort];
@@ -146,6 +146,9 @@ function switcher(industries, current) {
 (async () => {
   const [sec, rk, sh] = await Promise.all([get("sectors.json"), get("rankings.json"), get("shake.json")]);
   SHAKE = (sh && sh.tickers) || {};
+  SHI = (sh && sh.industries && sh.industries[IND]) || null;      /* 이 업종의 빠질 위험 (업종 종목들의 흔들림 단계로 어림) */
+  SHALL = (sh && sh.history && sh.history.all) || null;
+  SHNOTE = (sh && sh.industry_note) || "";
   (rk && rk.rows || []).forEach(r => { RANK[r.ticker] = r; });
   const inds = (sec && sec.industries) || [];
   const ind = inds.find(i => i.industry === IND);
@@ -179,6 +182,9 @@ function switcher(industries, current) {
       <div class="st"><div class="st-k">20일 (중간값)</div><div class="st-v ${ind.r20 > 0 ? "up" : ind.r20 < 0 ? "down" : ""}">${pct(ind.r20)}</div></div>
       <div class="st"><div class="st-k">60일 (중간값)</div><div class="st-v ${ind.r60 > 0 ? "up" : ind.r60 < 0 ? "down" : ""}">${pct(ind.r60)}</div></div>
       <div class="st"><div class="st-k">50일선 위 종목</div><div class="st-v">${ind.above50 == null ? "—" : ind.above50 + "%"}</div><div class="st-s">${ind.count}종목 중</div></div>
+      ${SHI ? `<div class="st"><div class="st-k">빠질 위험</div><div class="st-v"><span class="tier ${({high: "tier-high", normal: "tier-mid", low: "tier-low"})[SHI.level] || "tier-mid"}">${esc(SHI.level_name || "—")}</span></div>
+        <div class="st-s">4주 안 한때 −20% 어림 ${SHI.dip_pct == null ? "—" : Number(SHI.dip_pct).toFixed(1) + "%"}${SHALL && SHALL.dip_pct != null ? ` (평균 ${Number(SHALL.dip_pct).toFixed(1)}%)` : ""}
+          · 흔들림 큰 종목 ${(SHI.tiers?.high || 0) + (SHI.tiers?.very_high || 0)} / ${esc(SHI.count)}</div></div>` : ""}
     </section>
 
     <section class="card tbl-card">
@@ -199,6 +205,7 @@ function switcher(industries, current) {
 
     <div class="page-foot">
       가격은 ${esc(sec.price_date || "—")} 종가입니다. 5 · 20 · 60일은 거래일 기준입니다. 투자 권유가 아닙니다.<br>
+      ${SHI ? `${esc(SHNOTE)} 시장 업종별 흔들림은 <a href="sectors.html">업종 순위</a>에 있습니다.<br>` : ""}
       갱신 ${esc((sec.generated_at || "").slice(0, 16).replace("T", " "))} UTC
     </div>`;
 

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>업종 순위 · NASDAQ IT 스크리너</title>
-<meta name="description" content="어느 업종이 오르고 어느 업종이 빠지는지. 업종마다 최근 20 · 60거래일 흐름과 50일선 위 종목 비율을 모았습니다.">
+<meta name="description" content="어느 업종이 오르고 어느 업종이 빠지는지, 어디가 크게 빠질 위험이 큰지. 업종마다 최근 20 · 60거래일 흐름과 50일선 위 종목 비율, 흔들림을 모았습니다.">
 <link rel="icon" href="icon.svg">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="css/style.css?v=20261107b">
@@ -14,11 +14,29 @@
 table.sx { min-width: 860px; }
 table.sx .leaders a { margin-right: 8px; color: var(--brand); text-decoration: none; font-size: 12px; }
 table.sx .leaders a:hover { text-decoration: underline; }
-table.sx td.nm { max-width: 230px; overflow: hidden; text-overflow: ellipsis; }
+table.sx td.nm { max-width: 210px; overflow: hidden; text-overflow: ellipsis; }
+table.sx .vbar .track { width: 48px; }          /* 빠질 위험 칸이 들어갈 자리 — 막대만 조금 줄인다 */
 table.sx a.ind-link { color: var(--brand); font-weight: 700; text-decoration: none; }
 table.sx a.ind-link:hover { text-decoration: underline; }
 .ref-line { padding: 0 16px 10px; font-size: 12.5px; color: var(--text-dim); }
 .sx-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+/* 빠질 위험 — 단계 섞임 막대 (낮음 · 보통 · 높음 · 매우 높음 종목 수) */
+.mixbar { display: inline-flex; width: 44px; height: 8px; border-radius: 4px; overflow: hidden;
+  background: var(--surface-3); vertical-align: middle; margin-left: 6px; }
+.mixbar i { display: block; height: 100%; }
+.mixbar .low { background: var(--green); opacity: .45; }
+.mixbar .mid { background: var(--text-faint); opacity: .45; }
+.mixbar .high { background: var(--amber); }
+.mixbar .very_high { background: var(--red); }
+table.sx td.rk small.sub { display: block; white-space: nowrap; }
+@media (max-width: 767px) {
+  .card-head .seg { width: 100%; }
+  .card-head .seg button { flex: 1; padding: 0 4px; white-space: nowrap; font-size: 12.5px; }
+}
+.risk-card .risk-lines { padding: 4px 16px 14px; display: grid; gap: 8px; font-size: 13.5px; line-height: 1.6; }
+.risk-card .risk-lines b { font-weight: 700; }
+.risk-card .risk-lines a { color: var(--brand); text-decoration: none; }
+.risk-card .risk-lines a:hover { text-decoration: underline; }
 @media (max-width: 767px) { table.sx { min-width: 0; } }
 </style>
 </head>
@@ -36,7 +54,7 @@ table.sx a.ind-link:hover { text-decoration: underline; }
     <div class="eyebrow"><span class="dot"></span>업종 모니터</div>
     <h1>어느 업종이 오르고 어디가 빠지나</h1>
     <div class="sub">
-      업종마다 최근 흐름을 모아 순서를 세웠습니다
+      업종마다 최근 흐름을 모아 순서를 세우고, 크게 빠질 위험을 함께 적었습니다
     </div>
   </header>
 
@@ -76,11 +94,54 @@ function vbar(v, span) {
   return `<span class="vbar"><span class="track" aria-hidden="true"><i style="left:${left}%;width:${w}%;background:${color}"></i></span><span class="n">${pct(v)}</span></span>`;
 }
 
+/* 빠질 위험 — shake.json (흔들림). 없으면 위험 칸만 비운다.
+   우리 업종: 업종 종목들의 흔들림 단계로 어림한 '4주 안 한때 −20%' 비율 · 평균 대비 꼬리표
+   시장 업종: 지금 흔들림이 그 섹터 ETF 의 평소 대비 어디인지 · 과거 같은 구간의 '4주 안 한때 −10%' 비율 */
+let SH = null, MKT = {};
+const LV_CLS = {high: "tier-high", normal: "tier-mid", low: "tier-low"};
+const BAND_CLS = {high: "tier-high", normal: "tier-mid", low: "tier-low"};
+const TIER_KEYS = ["low", "mid", "high", "very_high"];
+const TIER_NAMES = {low: "낮음", mid: "보통", high: "높음", very_high: "매우 높음"};
+const indRisk = r => (SH && SH.industries && SH.industries[r.industry]) || null;
+const mktRisk = r => MKT[r.ticker] || null;
+const riskKey = r => r.industry != null ? indRisk(r)?.dip_pct : mktRisk(r)?.dip10_pct;
+const num1 = v => v == null ? "—" : Number(v).toFixed(1) + "%";
+
+function mixbar(t, n) {
+  if (!t || !n) return "";
+  const title = TIER_KEYS.map(k => `${TIER_NAMES[k]} ${t[k] || 0}`).join(" · ");
+  return `<span class="mixbar" title="흔들림 단계 — ${title}" aria-label="흔들림 단계 — ${title}">${
+    TIER_KEYS.map(k => t[k] ? `<i class="${k}" style="width:${(t[k] / n * 100).toFixed(1)}%"></i>` : "").join("")}</span>`;
+}
+
+/* 빠질 위험 칸 — 꼬리표 · 한때 −20% 어림 · 단계 섞임 막대와 흔들림 큰 (높음 이상) 종목 수 */
+function indRiskCell(r) {
+  const k = indRisk(r);
+  if (!k) return '<span class="dim">—</span>';
+  const hi = (k.tiers?.high || 0) + (k.tiers?.very_high || 0);
+  return `<span class="tier ${LV_CLS[k.level] || "tier-mid"}">${esc(k.level_name || "—")}</span>${mixbar(k.tiers, k.count)}
+    <small class="sub">한때 −20% ${num1(k.dip_pct)} · 큰 흔들림 ${hi}/${k.count}</small>`;
+}
+
+function mktRiskCell(r) {
+  const k = mktRisk(r);
+  if (!k) return '<span class="dim">—</span>';
+  return `<span class="tier ${BAND_CLS[k.band] || "tier-mid"}">${esc(k.band_name)}</span>
+    <small class="sub">하루 보통 ±${esc(k.daily_move_pct)}%</small>`;
+}
+
+function mktDipCell(r) {
+  const k = mktRisk(r);
+  if (!k) return '<span class="dim">—</span>';
+  return `${num1(k.dip10_pct)}<small class="sub">평소 ${num1(k.dip10_all_pct)}</small>`;
+}
+
 const SORTS = {
   rank: {label: "종합 순위", key: r => r.rank, asc: true},
   r20:  {label: "20일",     key: r => r.r20,  asc: false},
   r60:  {label: "60일",     key: r => r.r60,  asc: false},
   r5:   {label: "5일",      key: r => r.r5,   asc: false},
+  risk: {label: "빠질 위험", key: riskKey,     asc: false},
 };
 
 let DATA = null;
@@ -110,13 +171,15 @@ function industryTable(list) {
   return `<div class="tbl-wrap"><table class="scr sx">
     <caption class="sr-only">우리가 살펴보는 종목의 업종별 중간값</caption>
     <thead><tr>
-      <th class="num" scope="col">#</th><th scope="col">업종</th>
+      <th class="num" scope="col">#</th><th scope="col">업종</th><th scope="col">빠질 위험</th>
       <th class="num" scope="col">5일</th><th class="num" scope="col">20일</th><th class="num" scope="col">60일</th>
-      <th class="num m-hide" scope="col">50일선 위</th><th scope="col">추세</th><th class="m-hide" scope="col">20일 상위 종목</th>
+      <th class="num m-hide" scope="col">50일선 위</th><th scope="col">추세</th>
+      <th class="m-hide" scope="col">20일 상위 종목</th>
     </tr></thead>
     <tbody>${sorted(list).map(r => { const href = "industry.html?industry=" + encodeURIComponent(r.industry); return `<tr data-href="${href}">
       <td class="num rk-cell">${r.rank}</td>
       <td class="nm" title="${esc(r.industry)}"><a class="ind-link" href="${href}">${esc(r.name)}</a><small class="sub">${r.count}종목 · ${esc(r.industry)}</small></td>
+      <td class="rk">${indRiskCell(r)}</td>
       <td class="num">${vbar(r.r5, sp.r5)}</td>
       <td class="num">${vbar(r.r20, sp.r20)}</td>
       <td class="num">${vbar(r.r60, sp.r60)}</td>
@@ -134,18 +197,54 @@ function marketTable(list) {
     <caption class="sr-only">미국 시장 전체 섹터 ETF 11개</caption>
     <thead><tr>
       <th class="num" scope="col">#</th><th scope="col">섹터 · ETF</th>
+      <th scope="col">지금 흔들림</th><th class="num" scope="col">4주 안 한때 −10%</th>
       <th class="num" scope="col">5일</th><th class="num" scope="col">20일</th><th class="num" scope="col">60일</th>
       <th class="num m-hide" scope="col">50일선 대비</th><th scope="col">추세</th>
     </tr></thead>
     <tbody>${sorted(list).map(r => `<tr>
       <td class="num rk-cell">${r.rank}</td>
       <td class="nm">${esc(r.name)}<small class="sub">${esc(r.ticker)}</small></td>
+      <td class="rk">${mktRiskCell(r)}</td>
+      <td class="num rk">${mktDipCell(r)}</td>
       <td class="num">${vbar(r.r5, sp.r5)}</td>
       <td class="num">${vbar(r.r20, sp.r20)}</td>
       <td class="num">${vbar(r.r60, sp.r60)}</td>
       <td class="num m-hide">${pct(r.gap50)}</td>
       <td>${chip(r.trend)}</td>
     </tr>`).join("")}</tbody></table></div>`;
+}
+
+/* 한눈에 — 시장 전체 · 시장 업종 가운데 평소보다 흔들리는 곳 · 우리 업종 가운데 평균보다 위험한 곳 */
+function riskCard(d) {
+  if (!SH || !(SH.industries || SH.market)) return "";
+  const names = {};
+  (d.industries || []).forEach(r => { names[r.industry] = r.name; });
+  const inds = Object.entries(SH.industries || {}).map(([k, v]) => Object.assign({industry: k, name: names[k] || k}, v));
+  const hiInd = inds.filter(x => x.level === "high").sort((a, b) => b.dip_pct - a.dip_pct);
+  const loInd = inds.filter(x => x.level === "low").sort((a, b) => a.dip_pct - b.dip_pct);
+  const refT = d.reference && d.reference.ticker;
+  const ref = refT ? MKT[refT] : null;
+  const hiMk = (SH.market || []).filter(x => x.band === "high" && x.ticker !== refT);
+  const loMk = (SH.market || []).filter(x => x.band === "low" && x.ticker !== refT);
+  const avg = SH.history && SH.history.all ? SH.history.all.dip_pct : null;
+  const indLink = x => `<a href="industry.html?industry=${encodeURIComponent(x.industry)}">${esc(x.name)}</a> ${num1(x.dip_pct)}`;
+  const mkItem = x => `${esc(x.name)} (${esc(x.ticker)}) ${num1(x.dip10_pct)} <span class="dim">· 평소 ${num1(x.dip10_all_pct)}</span>`;
+  return `<section class="card risk-card">
+    <div class="card-head"><h2>크게 빠질 위험 한눈에</h2></div>
+    <div class="card-sub">${esc(SH.date || "")} 종가 기준입니다. 흔들림이 큰 곳은 과거에 크게 빠지는 일도 크게 오르는 일도 많았습니다. 어느 쪽으로 갈지 맞히는 숫자가 아닙니다.</div>
+    <div class="risk-lines">
+      ${ref ? `<div><b>미국 시장 전체 (S&amp;P 500)</b> — 지금 흔들림 <span class="tier ${BAND_CLS[ref.band] || "tier-mid"}">${esc(ref.band_name)}</span>
+        · 과거 같은 구간에서 4주 안에 한때 10% 넘게 빠졌던 비율 ${num1(ref.dip10_pct)} <span class="dim">(평소 ${num1(ref.dip10_all_pct)})</span></div>` : ""}
+      ${SH.market ? `<div><b>시장 업종</b> — ${hiMk.length
+        ? `지금 흔들림이 평소보다 높은 곳 · 4주 안 한때 −10% 비율: ${hiMk.map(mkItem).join(" · ")}`
+        : "지금 흔들림이 평소보다 높은 업종이 없습니다."}${loMk.length
+        ? `<br><span class="dim">평소보다 조용한 곳: ${loMk.map(x => `${esc(x.name)} (${esc(x.ticker)})`).join(" · ")}</span>` : ""}</div>` : ""}
+      ${SH.industries ? `<div><b>우리가 살펴보는 업종</b> — ${hiInd.length
+        ? `빠질 위험이 평균보다 높은 곳 · 4주 안 한때 −20% 어림: ${hiInd.map(indLink).join(" · ")}`
+        : "빠질 위험이 평균보다 높은 업종이 없습니다."} <span class="dim">(살펴본 모든 종목 평균 ${num1(avg)})</span>${loInd.length
+        ? `<br><span class="dim">평균보다 낮은 곳: ${loInd.map(indLink).join(" · ")}</span>` : ""}</div>` : ""}
+    </div>
+  </section>`;
 }
 
 function paint() {
@@ -172,6 +271,10 @@ function render(d) {
       <p>위쪽 표는 이 사이트가 매일 살펴보는 종목(나스닥 기술주 위주)을 업종으로 묶은 것이라
          에너지 · 헬스케어 같은 업종이 거의 없습니다. 그래서 아래에 미국 시장 전체의
          섹터 ETF 11개를 따로 적습니다.</p>
+      ${SH ? `<p><b>빠질 위험 (우리 업종)</b> — ${esc(SH.industry_note || "")}</p>
+      <p><b>지금 흔들림 · 4주 안 한때 −10% (시장 업종)</b> — ${esc(SH.market_note || "")}</p>
+      <p>흔들림이 큰 종목일수록 과거에 4주 안에 크게 빠진 일이 많았다는 것은 2021 ~ 2025년 자료로 확인한 관계입니다.
+         다만 크게 오른 일도 같이 많았으므로, 위험이 높다는 것은 '빠진다' 가 아니라 '크게 움직인다' 는 뜻입니다.</p>` : ""}
       </div>
     </details>
     <section class="kpis" aria-label="요약 숫자">
@@ -181,6 +284,7 @@ function render(d) {
       <div class="st"><div class="st-k">내리는 중</div><div class="st-v down">${s.falling ?? "—"}</div></div>
       ${ref ? `<div class="st"><div class="st-k">${esc(ref.name)}</div><div class="st-v ${ref.r20 > 0 ? "up" : ref.r20 < 0 ? "down" : ""}">${pct(ref.r20)}</div><div class="st-s">20일 · 5일 ${pct(ref.r5)} · 60일 ${pct(ref.r60)}</div></div>` : ""}
     </section>
+    ${riskCard(d)}
     <section class="card tbl-card">
       <div class="card-head"><h2>우리가 살펴보는 종목의 업종</h2>
         <div class="seg" role="group" aria-label="정렬">
@@ -189,17 +293,20 @@ function render(d) {
           ).join("")}
         </div>
       </div>
-      <div class="card-sub">업종 숫자는 그 업종 종목들의 중간값입니다. 막대는 가운데가 0 입니다. 업종을 누르면 그 업종 종목의 순위가 나옵니다.</div>
+      <div class="card-sub">업종 숫자는 그 업종 종목들의 중간값입니다. 막대는 가운데가 0 입니다. 업종을 누르면 그 업종 종목의 순위가 나옵니다.${SH
+        ? ` 빠질 위험은 그 업종 종목들의 흔들림 단계로 어림한 '4주 안 한때 −20%' 비율을 살펴본 모든 종목 평균과 견준 것입니다. 막대는 종목들의 흔들림 단계 (낮음 · 보통 · 높음 · 매우 높음) 섞임이고, 큰 흔들림은 높음 · 매우 높음인 종목 수입니다.` : ""}</div>
       <div id="industries"></div>
     </section>
     <section class="card tbl-card">
       <div class="card-head"><h2>미국 시장 전체 섹터</h2></div>
-      <div class="card-sub">섹터 ETF 11개의 같은 숫자입니다. 정렬은 위 표와 같습니다.</div>
+      <div class="card-sub">섹터 ETF 11개의 같은 숫자입니다. 정렬은 위 표와 같습니다.${SH
+        ? ` 지금 흔들림은 그 섹터의 지난 흔들림과 견준 것이고, 4주 안 한때 −10% 는 과거에 같은 흔들림 구간이었을 때 4주 안에 한때 10% 넘게 빠졌던 비율입니다 (평소 = 모든 날).` : ""}</div>
       <div id="market"></div>
     </section>
     <div class="page-foot">
       가격은 ${esc(d.price_date || "—")} 종가입니다. 5 · 20 · 60일은 거래일 기준입니다.<br>
-      지나온 흐름을 모은 순서이며, 앞으로 오를 업종을 맞힌다는 뜻이 아닙니다. 투자 권유가 아닙니다.<br>
+      지나온 흐름을 모은 순서이며, 앞으로 오를 업종을 맞힌다는 뜻이 아닙니다. 투자 권유가 아닙니다.<br>${SH
+        ? `빠질 위험의 과거 비율은 종목 ${esc(SH.history?.start || "")} ~ ${esc(SH.history?.end || "")} · 섹터 ETF 는 상장 이후 2025년까지 자료로 셌습니다. 지금 상장된 종목만으로 센 값이라 빠진 비율이 실제보다 낮게 나왔을 수 있습니다.<br>` : ""}
       갱신 ${esc((d.generated_at || "").slice(0, 16).replace("T", " "))} UTC
     </div>`;
   $("#industries").addEventListener("click", e => {
@@ -220,8 +327,13 @@ function render(d) {
 
 (async () => {
   try {
-    const r = await fetch("sectors.json", {cache: "no-cache"});
+    const [r, rs] = await Promise.all([
+      fetch("sectors.json", {cache: "no-cache"}),
+      fetch("shake.json", {cache: "no-cache"}).catch(() => null),
+    ]);
     if (!r.ok) throw new Error(r.status);
+    try { SH = rs && rs.ok ? await rs.json() : null; } catch (e) { SH = null; }
+    (SH && SH.market || []).forEach(m => { MKT[m.ticker] = m; });
     render(await r.json());
   } catch (e) {
     $("#content").innerHTML =
