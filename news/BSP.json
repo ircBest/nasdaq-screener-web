@@ -1,9 +1,24 @@
 {
   "ticker": "BSP",
-  "generated_at": "2026-11-17T12:15:03+00:00",
+  "generated_at": "2026-11-18T12:01:09+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-17T11:15:05+00:00",
+      "publisher": "Yahoo",
+      "title": "Bending Spoons (BSP) Stock May Be 16% Undervalued On AI Risk Warning"
+    },
+    {
+      "published_utc": "2026-11-17T10:09:03+00:00",
+      "publisher": "Yahoo",
+      "title": "What Could Bending Spoons (BSP) Gain From A New Institutional Backer?"
+    },
+    {
+      "published_utc": "2026-11-17T09:18:51+00:00",
+      "publisher": "Yahoo",
+      "title": "What’s Going On With Bending Spoons (BSP)?"
+    },
     {
       "published_utc": "2026-11-16T23:02:47+00:00",
       "publisher": "Yahoo",
@@ -13,6 +28,11 @@
       "published_utc": "2026-11-16T18:20:00+00:00",
       "publisher": "Yahoo",
       "title": "Bending Spoons faces AI disruption risks despite scope for stronger organic growth, says Bank of America"
+    },
+    {
+      "published_utc": "2026-11-16T17:41:45+00:00",
+      "publisher": "Benzinga",
+      "title": "Berkshire Hathaway Takes Stake In AOL Owner Bending Spoons, Nearly Doubles Lennar Holding"
     },
     {
       "published_utc": "2026-11-16T15:54:03+00:00",

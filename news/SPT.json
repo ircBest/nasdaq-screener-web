@@ -1,9 +1,19 @@
 {
   "ticker": "SPT",
-  "generated_at": "2026-11-17T12:15:03+00:00",
+  "generated_at": "2026-11-18T12:01:09+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-17T18:27:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Buy Internet Service Players Sprout Social and HealthStream"
+    },
+    {
+      "published_utc": "2026-11-17T14:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Sprout Social Appoints New Chief Financial Officer"
+    },
     {
       "published_utc": "2026-11-15T07:08:17+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-04T13:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Sprout Social, Inc. Q3 2026 Earnings Call Summary"
-    },
-    {
-      "published_utc": "2026-11-04T09:35:22+00:00",
-      "publisher": "Benzinga",
-      "title": "Keybanc Maintains Underweight on Sprout Social, Raises Price Target to $10"
-    },
-    {
-      "published_utc": "2026-11-04T07:49:37+00:00",
-      "publisher": "Benzinga",
-      "title": "Cantor Fitzgerald Maintains Neutral on Sprout Social, Raises Price Target to $13"
     }
   ]
 }

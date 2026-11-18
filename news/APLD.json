@@ -1,9 +1,19 @@
 {
   "ticker": "APLD",
-  "generated_at": "2026-11-17T12:15:03+00:00",
+  "generated_at": "2026-11-18T12:01:09+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-17T16:12:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Digital (APLD) Stock Looks Pricey After Its 232% Three Year Run"
+    },
+    {
+      "published_utc": "2026-11-17T14:40:50+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Applied Digital Spending Too Much?"
+    },
     {
       "published_utc": "2026-11-16T15:58:00+00:00",
       "publisher": "Yahoo",
@@ -13,6 +23,11 @@
       "published_utc": "2026-11-16T15:55:06+00:00",
       "publisher": "Yahoo",
       "title": "TeraWulf Sinks 9% Despite Kentucky Power Deal for Muskie Data Campus; Applied Digital Tumbles 10%, Cipher Digital Drops 7%"
+    },
+    {
+      "published_utc": "2026-11-16T11:45:40+00:00",
+      "publisher": "Benzinga",
+      "title": "Why Is Applied Digital Stock Falling on Monday?"
     },
     {
       "published_utc": "2026-11-14T21:06:51+00:00",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-11T16:56:16+00:00",
       "publisher": "Yahoo",
       "title": "Applied Digital Rallies 8% as CoreWeave’s Results Revive the AI Data Center Trade; Cipher Digital Jumps 10%, IREN Surges 9%"
-    },
-    {
-      "published_utc": "2026-11-11T15:55:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Digital And Harwood: A Teaching Moment For AI Data Centers?"
-    },
-    {
-      "published_utc": "2026-11-11T11:15:21+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Applied Digital: AI Bubble Fears, Durable Demand, And Financing Risks"
-    },
-    {
-      "published_utc": "2026-11-10T20:29:13+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Applied Digital: Leverage Risks Can No Longer Be Ignored (Rating Downgrade)"
     }
   ]
 }

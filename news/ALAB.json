@@ -1,9 +1,29 @@
 {
   "ticker": "ALAB",
-  "generated_at": "2026-11-17T12:15:03+00:00",
+  "generated_at": "2026-11-18T12:01:09+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-17T15:32:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Astera Labs vs. Amphenol: Which Connectivity Stock Is the Better Buy?"
+    },
+    {
+      "published_utc": "2026-11-17T14:40:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is Astera Labs Stock Falling Again?"
+    },
+    {
+      "published_utc": "2026-11-17T11:02:29+00:00",
+      "publisher": "Yahoo",
+      "title": "ETFs Are Net Sellers of Astera Labs (ALAB) on Friday"
+    },
+    {
+      "published_utc": "2026-11-17T09:05:36+00:00",
+      "publisher": "Benzinga",
+      "title": "Astera Labs Stock Rebounds Tuesday as Expanded Hyve Deal Speeds AI Deployments"
+    },
     {
       "published_utc": "2026-11-16T17:47:17+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-12T19:49:03+00:00",
       "publisher": "SeekingAlpha",
       "title": "Astera Labs, Inc. (ALAB) Presents at BMO Capital Technology and Innovation Leaders Conference Transcript"
-    },
-    {
-      "published_utc": "2026-11-12T17:10:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ALAB Benefits From Strong PCIe Demand: Can It Beat MRVL & CRDO?"
-    },
-    {
-      "published_utc": "2026-11-12T16:15:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Astera Labs Sees Scorpio X-Series Exiting Year Above $1 Billion Revenue Run Rate"
-    },
-    {
-      "published_utc": "2026-11-10T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Astera Labs Announces Upcoming Financial Conference Participation"
-    },
-    {
-      "published_utc": "2026-11-10T11:03:51+00:00",
-      "publisher": "Yahoo",
-      "title": "ETFs Are Net Sellers of Astera Labs (ALAB) on Nov. 6"
     }
   ]
 }

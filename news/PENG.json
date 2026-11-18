@@ -1,9 +1,34 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-11-17T12:15:03+00:00",
+  "generated_at": "2026-11-18T12:01:09+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-17T15:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions' Neocloud Wins Surge: Can It Turn Deals Into Growth?"
+    },
+    {
+      "published_utc": "2026-11-17T14:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions Expands ComputeAI Portfolio with NVIDIA Vera Rubin NVL72 Rack-Scale Systems"
+    },
+    {
+      "published_utc": "2026-11-17T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions Expands ClusterWareAI Capabilities to Accelerate Deployment and Scaling of NVIDIA Vera Rubin Platform"
+    },
+    {
+      "published_utc": "2026-11-17T10:07:14+00:00",
+      "publisher": "Benzinga",
+      "title": "Penguin Solutions Announces Availability Of ComputeAI NML72-VR200, Pre-Validated, Liquid-Cooled Rack-Scale Platform Built On NVIDIA Vera Rubin NVL72 Architecture"
+    },
+    {
+      "published_utc": "2026-11-17T05:40:48+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Penguin Solutions: For Now I Would Skip This Small Cap AI Stock"
+    },
     {
       "published_utc": "2026-11-16T17:06:44+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-12T15:31:00+00:00",
       "publisher": "Yahoo",
       "title": "Is Penguin Solutions Stock a Buy After a 162% Rally in a Year?"
-    },
-    {
-      "published_utc": "2026-11-12T14:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions Introduces CXL-Enabled DDR4 Module to Help Address Memory Shortages in AI Data Centers"
-    },
-    {
-      "published_utc": "2026-11-12T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions Launches AI Platform Operations Services to Accelerate Customers’ Time to Value and Safeguard SLA Achievement"
-    },
-    {
-      "published_utc": "2026-11-07T19:22:52+00:00",
-      "publisher": "Yahoo",
-      "title": "The 11.7x Forward P/E Bargain: Is Penguin Solutions the Ultimate AI Steal?"
-    },
-    {
-      "published_utc": "2026-11-06T12:25:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions Is Up 134% This Year. Can Its Free Cash Flow Keep Up With the Story?"
-    },
-    {
-      "published_utc": "2026-11-04T14:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions Announces Agreement to Sell Cree LED to Transom Capital Group"
     }
   ]
 }

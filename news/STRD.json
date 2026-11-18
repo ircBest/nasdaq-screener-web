@@ -1,9 +1,29 @@
 {
   "ticker": "STRD",
-  "generated_at": "2026-11-17T12:15:03+00:00",
+  "generated_at": "2026-11-18T12:01:09+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-17T21:15:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Sinks 6% as Bitcoin Slides; Saylor Says Cash Covers “3.4 Years of Interest and Dividends”"
+    },
+    {
+      "published_utc": "2026-11-17T17:56:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Is Down 28% in a Month. Can MSTR Stock Hit Cantor Fitzgerald’s $208 Target by 2030?"
+    },
+    {
+      "published_utc": "2026-11-17T13:22:36+00:00",
+      "publisher": "Yahoo",
+      "title": "What You Actually Own When You Buy Strategy (MSTR) Stock"
+    },
+    {
+      "published_utc": "2026-11-16T18:58:54+00:00",
+      "publisher": "Yahoo",
+      "title": "Dear MicroStrategy Stock Fans, Mark Your Calendars for November 30"
+    },
     {
       "published_utc": "2026-11-16T17:48:58+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-15T17:45:34+00:00",
       "publisher": "Yahoo",
       "title": "Perplexity AI Predicts a Monster Move for Saylor’s MicroStrategy"
-    },
-    {
-      "published_utc": "2026-11-15T17:28:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?"
-    },
-    {
-      "published_utc": "2026-11-14T17:31:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin Is Slumping, but Michael Saylor Says Strategy Can Create $10 Billion to $30 Billion in \"Digital Credit\""
-    },
-    {
-      "published_utc": "2026-11-14T12:02:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy's Michael Saylor Says Bitcoin Is Now a Bipartisan Issue That Crosses Party Lines. Here's Why He's Right."
-    },
-    {
-      "published_utc": "2026-11-13T03:20:39+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy (MSTR) Faces Removal From Major Global Equity Indexes"
     }
   ]
 }
