@@ -38,6 +38,9 @@
 .kv .v.up{color:var(--green)}
 .kv .v.down{color:var(--red)}
 .kv .n{font-size:11px;color:var(--text-dim);margin-top:2px}
+.kv > div.kv-wide{grid-column:1 / -1}
+.kv .n a{color:var(--brand);text-decoration:none}
+.kv .n a:hover{text-decoration:underline}
 
 .tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;
   font-weight:700;background:rgba(97,112,133,.14);color:var(--text-dim)}
@@ -473,32 +476,47 @@ function outlookSection(o){
     </section>`;
 }
 
-/* 흔들림 — shake.py 가 매긴 단계. 단계마다 과거에 4주 뒤 크게 빠진 비율과 크게 오른 비율을 함께 보인다. */
-function shakeSection(sh){
+/* 흔들림 — shake.py 가 매긴 단계. 단계마다 과거에 4주 안에 한때 크게 빠졌던 · 올랐던 비율과 4주 뒤 비율을 함께 보인다.
+   이 종목 업종의 위험 (업종 종목들의 단계 비율 평균) 도 함께 — 업종 이름은 shake.json 종목 줄 (없으면 오늘 신호). */
+function shakeSection(sh, industry){
   const s = sh && sh.tickers && sh.tickers[TICKER];
   if(!s) return "";
   const tier = (sh.tiers || []).find(x => x.key === s.tier) || {};
   const all = (sh.history && sh.history.all) || {};
   const pctv = v => v!=null ? `${Number(v).toFixed(1)}%` : "-";
+  const odds = v => v ? ` · 약 ${Math.max(1, Math.round(100 / v))}번 중 1번꼴` : "";
+  industry = s.industry || industry;            /* shake.json 종목 줄의 업종 — 없으면 오늘 신호의 업종 */
+  const ind = industry && sh.industries && sh.industries[industry];
+  const lvCls = {high: "tier-high", normal: "tier-mid", low: "tier-low"};
+  const indBox = ind ? `
+        <div class="kv-wide"><div class="k">이 종목 업종의 빠질 위험</div>
+          <div class="v"><span class="tier ${lvCls[ind.level] || "tier-mid"}">${escapeHTML(ind.level_name || "-")}</span></div>
+          <div class="n"><a href="industry.html?industry=${encodeURIComponent(industry)}">${escapeHTML(industry)}</a> ·
+            흔들림 큰 종목 ${(ind.tiers?.high || 0) + (ind.tiers?.very_high || 0)} / ${escapeHTML(ind.count)} ·
+            한때 −20% 어림 ${pctv(ind.dip_pct)}</div></div>` : "";
   return `
     <section>
       <div class="section-title">
-        <div class="title">흔들림</div>
+        <div class="title">흔들림 · 크게 빠질 위험</div>
         <div class="hint">${escapeHTML(sh.date || "")} 종가 기준 · 살펴본 ${Object.keys(sh.tickers).length}개 종목 안에서</div>
       </div>
       <div class="kv">
         <div><div class="k">단계</div>
-          <div class="v">${escapeHTML(tier.name || s.tier)}</div>
+          <div class="v"><span class="tier tier-${escapeHTML(s.tier)}">${escapeHTML(tier.name || s.tier)}</span></div>
           <div class="n">하루에 보통 ±${escapeHTML(s.daily_move_pct)}% 움직임</div></div>
-        <div><div class="k">4주 뒤 20% 넘게 빠져 있던 비율</div>
+        <div><div class="k">4주 안에 한때 20% 넘게 빠졌던 비율</div>
+          <div class="v mono">${pctv(tier.dip_pct)}</div>
+          <div class="n">모든 종목 평균 ${pctv(all.dip_pct)}${odds(tier.dip_pct)}</div></div>
+        <div><div class="k">4주 안에 한때 20% 넘게 올랐던 비율</div>
+          <div class="v mono">${pctv(tier.spike_pct)}</div>
+          <div class="n">모든 종목 평균 ${pctv(all.spike_pct)}</div></div>
+        <div><div class="k">4주 뒤에도 20% 넘게 빠져 있던 비율</div>
           <div class="v mono">${pctv(tier.down_pct)}</div>
-          <div class="n">모든 종목 평균 ${pctv(all.down_pct)}</div></div>
-        <div><div class="k">4주 뒤 20% 넘게 올라 있던 비율</div>
-          <div class="v mono">${pctv(tier.up_pct)}</div>
-          <div class="n">모든 종목 평균 ${pctv(all.up_pct)}</div></div>
+          <div class="n">모든 종목 평균 ${pctv(all.down_pct)} · 20% 넘게 올라 있던 비율 ${pctv(tier.up_pct)}</div></div>${indBox}
       </div>
       <div class="news-note">${escapeHTML(sh.note || "")}</div>
       <div class="news-note">${escapeHTML(sh.history_note || "")}</div>
+      ${ind ? `<div class="news-note">${escapeHTML(sh.industry_note || "")} 업종 비교와 미국 시장 업종별 흔들림은 <a href="sectors.html">업종 순위</a>에 있습니다.</div>` : ""}
     </section>`;
 }
 
@@ -729,7 +747,7 @@ function render(info){
             <div class="section-title" style="margin:0 0 6px"><div class="title">종가 흐름</div><div class="hint">최근 ${(series?.points||[]).length}거래일</div></div>
             ${sparkSVG(series?.points, risk.target_price, risk.stop_loss)}
           </section>
-          ${shakeSection(shake)}
+          ${shakeSection(shake, latest?.industry)}
           ${insMini(ins)}
           ${shortMini(si)}
           ${items.length ? `<section class="card sd-box"><h2>최근 뉴스</h2><ul class="sd-news-mini">
