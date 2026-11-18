@@ -21,11 +21,13 @@
   const $ = (id) => document.getElementById(id);
   const PAGE = 25;
   const TIER = { low: ["낮음", 1], mid: ["보통", 2], high: ["높음", 3], very_high: ["매우 높음", 4] };
+  // 저점 등급 (shake.json dip) — 깊은 순서 (S 0 … F 4) · CSS 이름 (A+ → g-Ap)
+  const GRADE = { "S": [0, "g-S"], "A+": [1, "g-Ap"], "A": [2, "g-A"], "B": [3, "g-B"], "F": [4, "g-F"] };
   const WATCH_KEY = "nr.watchlist.v1";
 
   const state = {
     rows: [], ranked: {}, shake: {}, tab: "all", query: "", rsi: 40, profit: "all", cap: "all",
-    ind: "all", tier: "all", sort: "rsi", dir: 1, shown: PAGE, watch: loadWatch()
+    ind: "all", tier: "all", dip: "all", sort: "rsi", dir: 1, shown: PAGE, watch: loadWatch()
   };
 
   /* ---------- 작은 도구 ---------- */
@@ -133,6 +135,11 @@
 
   /* ---------- 스크리너 ---------- */
   function tierOf(t) { const s = state.shake[t]; return s && TIER[s.tier] ? s.tier : null; }
+  function dipOf(t) { const s = state.shake[t]; return s && s.dip && GRADE[s.dip.grade] ? s.dip : null; }
+  function dipBadge(t) {
+    const d = dipOf(t);
+    return d ? `<span class="grade ${GRADE[d.grade][1]}" title="60거래일 고점 대비 ${esc(d.dd60_pct)}%">${esc(d.grade)}</span>` : dash;
+  }
   function tags(r) {
     const out = [];
     if (num(r.rsi) !== null && num(r.rsi) < 30) out.push('<span class="tag t-warn">RSI 30 아래</span>');
@@ -145,9 +152,10 @@
   const SORTERS = {
     rsi: (r) => num(r.rsi), change: (r) => num(r.day_change_pct), cap: (r) => num(r.market_cap_b),
     rr: (r) => num(r.risk_reward), volume: (r) => num(r.volume_ratio), price: (r) => num(r.price),
-    ticker: (r) => r.ticker, tier: (r) => (tierOf(r.ticker) ? TIER[tierOf(r.ticker)][1] : null)
+    ticker: (r) => r.ticker, tier: (r) => (tierOf(r.ticker) ? TIER[tierOf(r.ticker)][1] : null),
+    dip: (r) => (dipOf(r.ticker) ? GRADE[dipOf(r.ticker).grade][0] * 1000 + num(dipOf(r.ticker).dd60_pct) : null)
   };
-  const DEFAULT_DIR = { rsi: 1, change: -1, cap: -1, rr: -1, volume: -1, price: -1, ticker: 1, tier: 1 };
+  const DEFAULT_DIR = { rsi: 1, change: -1, cap: -1, rr: -1, volume: -1, price: -1, ticker: 1, tier: 1, dip: 1 };
 
   /* 관심 종목 — 스크리너 필터 (RSI 40 이하 · 흑자 · 시총 · 업종 · 흔들림) 를 걸지 않는다. 검색어만.
      오늘 신호 목록 (RSI 40 이하 종목만 든다) 에 없는 종목은 전체 순위 자료 (rankings.json · 약 311종목) 로 채운다.
@@ -185,6 +193,14 @@
       const t = tierOf(r.ticker);
       if (state.tier === "calm" && !(t === "low" || t === "mid")) return false;
       if (state.tier === "wild" && !(t === "high" || t === "very_high")) return false;
+      if (state.dip !== "all") {
+        const d = dipOf(r.ticker), k = d ? GRADE[d.grade][0] : null;
+        if (k === null) return false;
+        if (state.dip === "S" && k > 0) return false;
+        if (state.dip === "Ap" && k > 1) return false;
+        if (state.dip === "A" && k > 2) return false;
+        if (state.dip === "noF" && k === 4) return false;
+      }
       return true;
     });
     if (q) {
@@ -216,7 +232,7 @@
       const msg = state.tab === "watch" && !state.watch.size
         ? "관심 종목이 없습니다. 표에서 ☆ 를 눌러 담으세요."
         : "조건에 맞는 종목이 없습니다. 필터를 넓혀 보세요.";
-      $("rows").innerHTML = `<tr><td colspan="12" class="empty">${msg}</td></tr>`;
+      $("rows").innerHTML = `<tr><td colspan="13" class="empty">${msg}</td></tr>`;
     } else {
       $("rows").innerHTML = shown.map((r, i) => {
         const t = tierOf(r.ticker), on = state.watch.has(r.ticker);
@@ -230,6 +246,7 @@
           <td class="num">${price(r.price)}</td>
           <td class="num ${cls(r.day_change_pct)}">${pct(r.day_change_pct, 2)}</td>
           <td class="num">${num(r.rsi) === null ? dash : num(r.rsi).toFixed(1)}</td>
+          <td>${dipBadge(r.ticker)}</td>
           <td class="num c-opt">${cap(r.market_cap_b)}</td>
           <td class="num c-opt">${num(r.risk_reward) === null ? dash : num(r.risk_reward).toFixed(2)}</td>
           <td class="num c-opt">${num(r.volume_ratio) === null ? dash : num(r.volume_ratio).toFixed(2) + "×"}</td>
@@ -241,7 +258,7 @@
       const have = new Set(rows.map((r) => r.ticker));
       const missing = [...state.watch].filter((t) => !have.has(t)).sort();
       if (missing.length) {
-        $("rows").insertAdjacentHTML("beforeend", `<tr><td colspan="12" class="empty" style="height:auto;padding:12px 10px">
+        $("rows").insertAdjacentHTML("beforeend", `<tr><td colspan="13" class="empty" style="height:auto;padding:12px 10px">
           오늘 자료에 없는 관심 종목: ${missing.map((t) => `<a href="stock.html?ticker=${encodeURIComponent(t)}">${esc(t)}</a>`).join(" · ")}</td></tr>`);
       }
       $("resultCount").textContent = `관심 종목 ${state.watch.size}개 · 필터는 적용하지 않습니다` +
@@ -257,7 +274,7 @@
 
   const SORT_OPTS = [["rsi:1", "RSI 낮은 순"], ["change:-1", "등락률 높은 순"], ["change:1", "등락률 낮은 순"],
     ["cap:-1", "시가총액 큰 순"], ["rr:-1", "Risk/Reward 높은 순"], ["volume:-1", "거래량 배수 높은 순"],
-    ["tier:1", "흔들림 낮은 순"]];
+    ["tier:1", "흔들림 낮은 순"], ["dip:1", "저점 깊은 순 (S 먼저)"]];
 
   function setupControls() {
     $("fSort").innerHTML = SORT_OPTS.map(([v, l]) => `<option value="${v}">${l}</option>`).join("") +
@@ -274,10 +291,11 @@
     on("fCap", "change", (e) => { state.cap = e.target.value; reset(); });
     on("fInd", "change", (e) => { state.ind = e.target.value; reset(); });
     on("fTier", "change", (e) => { state.tier = e.target.value; reset(); });
+    on("fDip", "change", (e) => { state.dip = e.target.value; reset(); });
     on("fSort", "change", (e) => { if (!e.target.value) return; const [k, d] = e.target.value.split(":"); state.sort = k; state.dir = Number(d); reset(); });
     on("resetFilters", "click", () => {
-      Object.assign(state, { rsi: state.rsiMax, profit: "all", cap: "all", ind: "all", tier: "all", sort: "rsi", dir: 1, query: "" });
-      ["fProfit", "fCap", "fInd", "fTier"].forEach((id) => { $(id).value = "all"; });
+      Object.assign(state, { rsi: state.rsiMax, profit: "all", cap: "all", ind: "all", tier: "all", dip: "all", sort: "rsi", dir: 1, query: "" });
+      ["fProfit", "fCap", "fInd", "fTier", "fDip"].forEach((id) => { $(id).value = "all"; });
       $("fRsi").value = String(state.rsi); $("q").value = ""; reset();
     });
     on("moreBtn", "click", () => { state.shown += PAGE; renderTable(); });

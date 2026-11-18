@@ -96,7 +96,7 @@
 
   <link
     rel="stylesheet"
-    href="./css/terminal.css?v=20261107f"
+    href="./css/terminal.css?v=20261118a"
   >
   <style>
     /* VIX 카드 (vix.json) — 숫자와 흐름만 싣는다 */
@@ -228,6 +228,8 @@
       <label><span class="sr-only">업종</span><select id="fInd"><option value="all">업종 전체</option></select></label>
       <label><span class="sr-only">흔들림</span><select id="fTier">
         <option value="all">흔들림 전체</option><option value="calm">낮음 · 보통만</option><option value="wild">높음 · 매우 높음만</option></select></label>
+      <label><span class="sr-only">저점 등급</span><select id="fDip">
+        <option value="all">저점 등급 전체</option><option value="S">S 만</option><option value="Ap">A+ 이상</option><option value="A">A 이상</option><option value="noF">F 빼기</option></select></label>
       <label class="sort"><span>정렬</span><select id="fSort"></select></label>
     </div>
 
@@ -248,6 +250,7 @@
             <th class="num" scope="col" data-sort="price"><button type="button">가격</button></th>
             <th class="num" scope="col" data-sort="change"><button type="button">등락률</button></th>
             <th class="num" scope="col" data-sort="rsi"><button type="button">RSI</button></th>
+            <th scope="col" data-sort="dip" title="60거래일 고점에서 얼마나 내려와 있나를 그 종목 자기 기록과 견준 등급 (F · B · A · A+ · S)"><button type="button">저점</button></th>
             <th class="num c-opt" scope="col" data-sort="cap"><button type="button">시가총액</button></th>
             <th class="num c-opt" scope="col" data-sort="rr"><button type="button">Risk/Reward</button></th>
             <th class="num c-opt" scope="col" data-sort="volume"><button type="button">거래량 배수</button></th>
@@ -255,7 +258,7 @@
             <th class="c-opt" scope="col">메모</th>
           </tr>
         </thead>
-        <tbody id="rows"><tr><td colspan="12" class="empty">불러오는 중…</td></tr></tbody>
+        <tbody id="rows"><tr><td colspan="13" class="empty">불러오는 중…</td></tr></tbody>
       </table>
     </div>
     <div class="more"><button type="button" class="btn-sec" id="moreBtn" hidden>25개 더 보기</button></div>
@@ -332,7 +335,7 @@
 
 <script src="./js/utils.js?v=20261107b"></script>
 <script src="./js/data.js?v=20261107b"></script>
-<script src="./js/home.js?v=20261113a"></script>
+<script src="./js/home.js?v=20261118a"></script>
 <script>
 // 뉴욕증시 탭 (2026-11-09) — us_market.json. 탭을 처음 고를 때 한 번 받는다. 주소 끝이 #ny 면 그 탭으로 연다.
 (function () {

@@ -8,7 +8,7 @@
 <link rel="icon" href="icon.svg">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="css/style.css?v=20261107b">
-<link rel="stylesheet" href="css/terminal.css?v=20261107f">
+<link rel="stylesheet" href="css/terminal.css?v=20261118a">
 <style>
 /* 오늘의 순위 전용 — 공통 표 모양은 css/terminal.css (table.scr) */
 table.rk { min-width: 1060px; }
@@ -104,6 +104,14 @@ function shakeCell(t) {
   return `<td class="m-hide"><span class="tier tier-${esc(s.tier)}">${esc(tier ? tier.name : s.tier)}</span><small class="sub">하루 ±${esc(s.daily_move_pct)}%</small></td>`;
 }
 
+/* 저점 등급 — 60거래일 고점에서 얼마나 내려와 있나를 그 종목 자기 기록과 견준 등급 (shake.json dip) */
+const GRADE_CLS = {"F": "g-F", "B": "g-B", "A": "g-A", "A+": "g-Ap", "S": "g-S"};
+function dipCell(t) {
+  const d = SHAKE && SHAKE.tickers && SHAKE.tickers[t] && SHAKE.tickers[t].dip;
+  if (!d) return '<td><span class="dim">—</span></td>';
+  return `<td title="60거래일 고점 대비 ${esc(d.dd60_pct)}% · 이 종목 기록에서 지금만큼 빠져 있던 날 ${esc(d.deeper_pct)}%"><span class="grade ${GRADE_CLS[d.grade] || "g-F"}">${esc(d.grade)}</span></td>`;
+}
+
 function insCell(t) {
   const x = INS && INS.tickers && INS.tickers[t];
   if (!x) return '<td class="m-hide"><span class="dim">—</span></td>';
@@ -128,6 +136,7 @@ function table(list) {
       <td class="name c-name" title="${esc(r.name)}"><span>${esc(r.name || "—")}</span><small>${esc(r.industry || "")}</small></td>
       <td class="num">${money(r.price)}</td>
       <td class="num">${pct(r.day_change_pct)}</td>
+      ${dipCell(r.ticker)}
       <td class="num m-hide">${pct(r.from_high60_pct)}</td>
       <td>${fact(r.profit, "흑자", "적자")}</td>
       <td class="m-hide">${fact(r.cash, "유입", "유출")}</td>
@@ -143,6 +152,7 @@ function table(list) {
       <thead><tr>
         <th class="num" scope="col">${filtered ? "표시 순서" : "순위"}</th><th scope="col">티커</th><th class="c-name" scope="col">기업명</th>
         <th class="num" scope="col">가격</th><th class="num" scope="col">전일 대비</th>
+        <th scope="col" title="60거래일 고점에서 얼마나 내려와 있나를 그 종목 자기 기록과 견준 등급 (F · B · A · A+ · S)">저점</th>
         <th class="num m-hide" scope="col">60일 고점 대비</th>
         <th scope="col">순이익</th><th class="m-hide" scope="col">영업현금</th><th class="m-hide" scope="col">매출</th>
         <th class="num m-hide" scope="col">시가총액</th>
