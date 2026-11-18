@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-18T20:49:33+00:00",
+ "generated_at": "2026-11-18T23:04:32+00:00",
  "latest_hours": 36,
  "good_hours": 72,
  "note": "좋은 소식 · 나쁜 소식은 제목에 정해진 말 (예: 실적이 예상보다 좋았다 · 전망을 내렸다) 이 있는 기사를 기계가 골라 묶은 것입니다. 기사 본문은 읽지 않습니다. 사라 · 팔라는 뜻이 아니고, 검증된 신호도 아닙니다. 우리 모의 매매 기록에서 '큰 좋은 소식이 난 다음 날 사기' 는 판정 전이지만 지금까지 기대와 반대로 가고 있습니다. 회사 기사는 제목에 그 회사가 나오는 것만, 업계 소식은 한 회사가 아니라 AI · 반도체 · 데이터센터 · 클라우드 전체를 말하는 것만 실었습니다.",
@@ -176,20 +176,460 @@
  },
  "counts": {
   "latest": 80,
-  "good": 37,
+  "good": 38,
   "bad": 92,
   "mixed": 5,
   "sector_good": 7,
-  "sector_bad": 24,
+  "sector_bad": 25,
   "sector_mixed": 3,
   "dropped": {
    "forbidden": 0,
-   "unrelated": 2285,
-   "old": 426,
+   "unrelated": 2345,
+   "old": 448,
    "no_time": 0
   }
  },
  "latest": [
+  {
+   "time": "2026-11-18T22:00:00+00:00",
+   "publisher": "Yahoo",
+   "title": "MKS Named by TIME as One of America’s Top Manufacturers for 2027",
+   "t": [
+    "MKSI"
+   ],
+   "names": [
+    "MKS Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:58:17+00:00",
+   "publisher": "Yahoo",
+   "title": "Micron President on AI memory demand: \"We can't meet all requirements'",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:58:15+00:00",
+   "publisher": "Yahoo",
+   "title": "Memory supply constraints will be even 'tighter' in 2027: Micron CTO",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:48:30+00:00",
+   "publisher": "Yahoo",
+   "title": "Stock Market Today: Dow Ends In Red On Rate 'Shock' Fears; Nvidia Sinks As Anthropic IPO Looms",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:48:05+00:00",
+   "publisher": "Yahoo",
+   "title": "Dow Drops 561 Points. Nvidia Reverses Rally As Fed Signals More Rate Hikes.",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:46:50+00:00",
+   "publisher": "Yahoo",
+   "title": "Palo Alto Networks Tops First-Quarter Views, Announces $4.5 Billion Deal to Buy Applied Compute",
+   "t": [
+    "PANW"
+   ],
+   "names": [
+    "Palo Alto Networks, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:40:54+00:00",
+   "publisher": "Yahoo",
+   "title": "Forget CoreWeave: Applied Digital Is the Real Loser as “The Bank of Nvidia” Pulls Back",
+   "t": [
+    "CRWV",
+    "NVDA"
+   ],
+   "names": [
+    "CoreWeave, Inc.",
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:31:21+00:00",
+   "publisher": "Yahoo",
+   "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:31:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia, Take-Two, Palo Alto, Applied Optoelectronics, TJX, and More Stocks That Explain Today’s Market",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:29:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Marvell And Intel Halved: How Long Until They Recover?",
+   "t": [
+    "INTC",
+    "MRVL"
+   ],
+   "names": [
+    "Intel Corporation",
+    "Marvell Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:28:24+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia's Board Chairman Says Jensen Huang Isn't Coming Back, but He May Have a Poker Move for the Ages Hiding up His Sleeve",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:23:53+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia Delivers Reassuring Results, Outlook. But Wall Street Split.",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:20:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Adobe (ADBE) Is Printing Cash While Wall Street Writes Its Obituary",
+   "t": [
+    "ADBE"
+   ],
+   "names": [
+    "Adobe Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:16:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Palo Alto Networks Q1 Adjusted Earnings, Revenue Rises; Lifts 2027 Outlook; Announces Applied Compute Acquisition",
+   "t": [
+    "PANW"
+   ],
+   "names": [
+    "Palo Alto Networks, Inc."
+   ],
+   "tone": "good",
+   "kind": "guide",
+   "good": "guide"
+  },
+  {
+   "time": "2026-11-18T21:13:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Palo Alto Networks Shares Rise After Earnings Beat",
+   "t": [
+    "PANW"
+   ],
+   "names": [
+    "Palo Alto Networks, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:11:17+00:00",
+   "publisher": "Yahoo",
+   "title": "What Could Chinese Import Curbs Mean For Lumentum Holdings (LITE)?",
+   "t": [
+    "LITE"
+   ],
+   "names": [
+    "Lumentum Holdings Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:07:42+00:00",
+   "publisher": "Yahoo",
+   "title": "How Much Upside Is Left In Micron Stock?",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:05:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Palo Alto Networks to Acquire Applied Compute, Bringing Secure Open-Weight AI to the Enterprise",
+   "t": [
+    "PANW"
+   ],
+   "names": [
+    "Palo Alto Networks, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:05:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Palo Alto Networks Reports Fiscal First Quarter 2027 Financial Results",
+   "t": [
+    "PANW"
+   ],
+   "names": [
+    "Palo Alto Networks, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:04:03+00:00",
+   "publisher": "Yahoo",
+   "title": "Microsoft expands Azure arsenal at Ignite",
+   "t": [
+    "MSFT"
+   ],
+   "names": [
+    "Microsoft Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:00:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Microsoft Stock (MSFT) Forecast – Mizuho Stays Bullish on Strong Revenue Growth Prospects",
+   "t": [
+    "MSFT"
+   ],
+   "names": [
+    "Microsoft Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T21:00:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Edison Scientific Hires Former Palantir Healthcare Leader Lewis Woolfson as Head of Forward Deployed Engineering",
+   "t": [
+    "PLTR"
+   ],
+   "names": [
+    "Palantir Technologies Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:55:25+00:00",
+   "publisher": "Yahoo",
+   "title": "What Sent Intel Stock Lower Since May?",
+   "t": [
+    "INTC"
+   ],
+   "names": [
+    "Intel Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:43:47+00:00",
+   "publisher": "Yahoo",
+   "title": "CoreWeave Stock Forecast: Can Nvidia’s AI Boom Drive More Gains?",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:41:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Is Micron Undervalued?",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:30:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Coinbase AI blocks $4.7 million deepfake Elon Musk crypto scam",
+   "t": [
+    "COIN"
+   ],
+   "names": [
+    "Coinbase Global, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:25:47+00:00",
+   "publisher": "Yahoo",
+   "title": "IREN, CoreWeave and Nebius Stock Prices Have Plunged More Than 60%. Here's What It Means for AI Investors",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": "bad",
+   "kind": "drop",
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:17:02+00:00",
+   "publisher": "Yahoo",
+   "title": "SpaceX Is Now Nvidia's Biggest Stock Holding, Ahead of Intel. Here's What That Says About SpaceX.",
+   "t": [
+    "INTC"
+   ],
+   "names": [
+    "Intel Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:11:23+00:00",
+   "publisher": "Yahoo",
+   "title": "Microsoft Copilot’s cost advantage claim: plausible but unproven",
+   "t": [
+    "MSFT"
+   ],
+   "names": [
+    "Microsoft Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:10:20+00:00",
+   "publisher": "Yahoo",
+   "title": "Super Micro Computer (SMCI) Ships PCIe Gen 6 Servers, Is It 57% Below Fair Value?",
+   "t": [
+    "SMCI"
+   ],
+   "names": [
+    "Super Micro Computer, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T20:03:55+00:00",
+   "publisher": "Yahoo",
+   "title": "Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?",
+   "t": [
+    "LITE",
+    "MRVL"
+   ],
+   "names": [
+    "Lumentum Holdings Inc.",
+    "Marvell Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
   {
    "time": "2026-11-18T19:52:23+00:00",
    "publisher": "Yahoo",
@@ -227,6 +667,20 @@
    ],
    "names": [
     "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-18T19:50:25+00:00",
+   "publisher": "Yahoo",
+   "title": "Could Qualcomm Actually Climb 85%? Or Is Baird Totally Wrong?",
+   "t": [
+    "QCOM"
+   ],
+   "names": [
+    "QUALCOMM Incorporated"
    ],
    "tone": null,
    "kind": null,
@@ -549,6 +1003,20 @@
    "good": null
   },
   {
+   "time": "2026-11-18T19:00:00+00:00",
+   "publisher": "Yahoo",
+   "title": "NVIDIA vs. Cisco: One AI Stock Looks Like a Better Buy Now",
+   "t": [
+    "CSCO"
+   ],
+   "names": [
+    "Cisco Systems, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-18T18:55:25+00:00",
    "publisher": "Yahoo",
    "title": "Microsoft Stocks Fall 2.27% on Day Ignite Unveils Maia 300 and Copilot Workspaces",
@@ -865,476 +1333,6 @@
    "tone": null,
    "kind": null,
    "good": null
-  },
-  {
-   "time": "2026-11-18T17:39:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Cisco Drops 7% Post Earnings: Should You Buy the Stock on the Dip?",
-   "t": [
-    "CSCO"
-   ],
-   "names": [
-    "Cisco Systems, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:35:47+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia stock erases earnings pop as investors face life after Jensen Huang",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:34:05+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia Stock At $155: Cheaper Than Its 2018 Low?",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:30:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Stock Market Midday, Nov. 18: Nvidia Doubles Revenue, but Wall Street's Sell-Off Continues",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:30:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia shares turn lower despite record revenue as leadership uncertainty weighs",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": "mixed",
-   "kind": "mixed",
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:29:59+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia’s Supply Commitments Hit $390 Billion, Mostly Memory. SK Hynix Is the Real Winner",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:23:30+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia’s CEO Calls Customer Shifts “Just Not True.” Broadcom and AMD’s Frontier Deal Share Says Otherwise",
-   "t": [
-    "AMD",
-    "AVGO"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc.",
-    "Broadcom Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:19:38+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia’s Interim CEO: Old Hopper GPUs Recontracted at “Up to Twice Their Original Price.” Good News for CoreWeave",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:16:12+00:00",
-   "publisher": "Yahoo",
-   "title": "Jack Henry (JKHY) Stands Out as One of the Best IT Services Stocks to Look at",
-   "t": [
-    "JKHY"
-   ],
-   "names": [
-    "Jack Henry & Associates, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:12:33+00:00",
-   "publisher": "Yahoo",
-   "title": "Here Is Why Investors Should Pay Attention to Cognizant Technology (CTSH)",
-   "t": [
-    "CTSH"
-   ],
-   "names": [
-    "Cognizant Technology Solutions "
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:09:57+00:00",
-   "publisher": "Yahoo",
-   "title": "How Much Of Flex Stock's Rise Did The Business Earn?",
-   "t": [
-    "FLEX"
-   ],
-   "names": [
-    "Flex Ltd."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:09:09+00:00",
-   "publisher": "Yahoo",
-   "title": "CoreWeave Sinks 5% After Nvidia Earnings as Kress Vows “A Very Strong Look” at Neocloud Financing",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": "bad",
-   "kind": "drop",
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:05:00+00:00",
-   "publisher": "Yahoo",
-   "title": "FIRST and Qualcomm Technologies, Inc. Launch Next Generation of K-8 Robotics Education",
-   "t": [
-    "QCOM"
-   ],
-   "names": [
-    "QUALCOMM Incorporated"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:04:20+00:00",
-   "publisher": "Yahoo",
-   "title": "Micron Sees Tighter Memory Supply Through 2028 as AI Demand Remains Strong, RBC Says",
-   "t": [
-    "MU"
-   ],
-   "names": [
-    "Micron Technology, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:02:55+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Sandisk Stock Dropped Again",
-   "t": [
-    "SNDK"
-   ],
-   "names": [
-    "Sandisk Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:01:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Duolingo's 29% User Growth Signals Stronger Subscription Momentum",
-   "t": [
-    "DUOL"
-   ],
-   "names": [
-    "Duolingo, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Anthropic trades crypto ahead of IPO launch, and Coinbase borrow covers all 50 states",
-   "t": [
-    "COIN"
-   ],
-   "names": [
-    "Coinbase Global, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T17:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Splashtop Joins Microsoft Virus Initiative, Strengthening Protection for Microsoft Environments",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:57:46+00:00",
-   "publisher": "Yahoo",
-   "title": "SanDisk Slides 4% Ahead of 8-for-1 Stock Split as NAND Glut Worries Linger; Micron Drops 3%, Seagate Edges Lower",
-   "t": [
-    "MU",
-    "SNDK",
-    "STX"
-   ],
-   "names": [
-    "Micron Technology, Inc.",
-    "Sandisk Corporation",
-    "Seagate Technology Holdings PLC"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:47:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Microsoft and Intel Deepen Collaboration to Deliver Differentiated Azure Infrastructure",
-   "t": [
-    "INTC",
-    "MSFT"
-   ],
-   "names": [
-    "Intel Corporation",
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:45:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Is FormFactor (FORM) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
-   "t": [
-    "FORM"
-   ],
-   "names": [
-    "FormFactor, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:43:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia’s Cautious Tone Is a Big Drag on CoreWeave, AI Cloud Stocks",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:40:42+00:00",
-   "publisher": "Yahoo",
-   "title": "Why You Need To Pay Attention To Nextpower Stock",
-   "t": [
-    "NXT"
-   ],
-   "names": [
-    "Nextpower Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:38:23+00:00",
-   "publisher": "Yahoo",
-   "title": "Micron Keeps Sliding: Why RBC Still Sees 114% Upside",
-   "t": [
-    "MU"
-   ],
-   "names": [
-    "Micron Technology, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:33:37+00:00",
-   "publisher": "Yahoo",
-   "title": "CoreWeave’s Next $10 Billion Revenue Opportunity Could Change Its Valuation",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:33:07+00:00",
-   "publisher": "Yahoo",
-   "title": "Astera Labs and Credo Each Trade About 60% Below Their Highs. Only One Still Needs a $1.46 Billion Second Half",
-   "t": [
-    "ALAB"
-   ],
-   "names": [
-    "Astera Labs, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:12:13+00:00",
-   "publisher": "Yahoo",
-   "title": "Intel's Turnaround Takes Another Turn With Reported Job Cuts",
-   "t": [
-    "INTC"
-   ],
-   "names": [
-    "Intel Corporation"
-   ],
-   "tone": "bad",
-   "kind": "people",
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:12:01+00:00",
-   "publisher": "Yahoo",
-   "title": "What Changed for Deutsche Bank on Cognizant (CTSH)?",
-   "t": [
-    "CTSH"
-   ],
-   "names": [
-    "Cognizant Technology Solutions "
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:11:30+00:00",
-   "publisher": "Yahoo",
-   "title": "Intel Makes Another Major Workforce Move as CEO Reshapes Chip Giant",
-   "t": [
-    "INTC"
-   ],
-   "names": [
-    "Intel Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:11:29+00:00",
-   "publisher": "Yahoo",
-   "title": "The Deal Behind Needham’s Call on Lumentum (LITE)",
-   "t": [
-    "LITE"
-   ],
-   "names": [
-    "Lumentum Holdings Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:10:20+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Jefferies Calls Teradyne (TER) a “Compute Test Company”",
-   "t": [
-    "TER"
-   ],
-   "names": [
-    "Teradyne, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:10:07+00:00",
-   "publisher": "Yahoo",
-   "title": "How NHS Contract Extension Will Impact Palantir Stock Investors",
-   "t": [
-    "PLTR"
-   ],
-   "names": [
-    "Palantir Technologies Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-18T16:10:01+00:00",
-   "publisher": "Yahoo",
-   "title": "Will Nutanix (NTNX) Beat Estimates Again in Its Next Earnings Report?",
-   "t": [
-    "NTNX"
-   ],
-   "names": [
-    "Nutanix, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
   }
  ],
  "good": [
@@ -1418,6 +1416,20 @@
    "key": "guide",
    "label": "전망을 올렸다",
    "items": [
+    {
+     "time": "2026-11-18T21:16:00+00:00",
+     "publisher": "Yahoo",
+     "title": "Palo Alto Networks Q1 Adjusted Earnings, Revenue Rises; Lifts 2027 Outlook; Announces Applied Compute Acquisition",
+     "t": [
+      "PANW"
+     ],
+     "names": [
+      "Palo Alto Networks, Inc."
+     ],
+     "tone": "good",
+     "kind": "guide",
+     "good": "guide"
+    },
     {
      "time": "2026-11-17T14:33:00+00:00",
      "publisher": "Yahoo",
@@ -2643,20 +2655,6 @@
      "tone": "bad",
      "kind": "people",
      "good": null
-    },
-    {
-     "time": "2026-11-15T21:20:02+00:00",
-     "publisher": "Yahoo",
-     "title": "Nvidia CEO Jensen Huang Resigns as Stock Tanks. Here Are the Next Steps for Investors.",
-     "t": [
-      "NVDA"
-     ],
-     "names": [
-      "NVIDIA Corporation"
-     ],
-     "tone": "bad",
-     "kind": "people",
-     "good": null
     }
    ]
   },
@@ -2850,6 +2848,20 @@
    "key": "drop",
    "label": "주가가 크게 빠졌다",
    "items": [
+    {
+     "time": "2026-11-18T20:25:47+00:00",
+     "publisher": "Yahoo",
+     "title": "IREN, CoreWeave and Nebius Stock Prices Have Plunged More Than 60%. Here's What It Means for AI Investors",
+     "t": [
+      "CRWV"
+     ],
+     "names": [
+      "CoreWeave, Inc."
+     ],
+     "tone": "bad",
+     "kind": "drop",
+     "good": null
+    },
     {
      "time": "2026-11-18T19:29:11+00:00",
      "publisher": "Yahoo",
@@ -3444,6 +3456,13 @@
     "key": "selloff",
     "label": "업종 주가가 빠졌다",
     "items": [
+     {
+      "time": "2026-11-18T20:45:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Tech layoffs flare up in San Diego with hundreds of layoffs at chipmaker",
+      "tone": "bad",
+      "kind": "selloff"
+     },
      {
       "time": "2026-11-18T03:45:46+00:00",
       "publisher": "Yahoo",
