@@ -1,6 +1,6 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
@@ -18,6 +18,11 @@
       "published_utc": "2026-11-17T14:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Penguin Solutions Expands ClusterWareAI Capabilities to Accelerate Deployment and Scaling of NVIDIA Vera Rubin Platform"
+    },
+    {
+      "published_utc": "2026-11-17T13:40:29+00:00",
+      "publisher": "Benzinga",
+      "title": "What's Going On With Penguin Solutions Stock Tuesday?"
     },
     {
       "published_utc": "2026-11-17T10:07:14+00:00",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-13T03:15:47+00:00",
       "publisher": "Yahoo",
       "title": "Is Memory Reuse For AI Data Centers Altering The Investment Case For Penguin Solutions (PENG)?"
-    },
-    {
-      "published_utc": "2026-11-12T15:31:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Penguin Solutions Stock a Buy After a 162% Rally in a Year?"
     }
   ]
 }

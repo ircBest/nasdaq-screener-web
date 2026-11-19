@@ -1,9 +1,29 @@
 {
   "ticker": "CTSH",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T17:12:33+00:00",
+      "publisher": "Yahoo",
+      "title": "Here Is Why Investors Should Pay Attention to Cognizant Technology (CTSH)"
+    },
+    {
+      "published_utc": "2026-11-18T16:12:01+00:00",
+      "publisher": "Yahoo",
+      "title": "What Changed for Deutsche Bank on Cognizant (CTSH)?"
+    },
+    {
+      "published_utc": "2026-11-18T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cognizant Joins Qualys Global mROC Alliance to Deliver Managed Risk Operations for the Frontier AI Era"
+    },
+    {
+      "published_utc": "2026-11-18T14:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Introducing Cognizant® Patient Hub Operations: AI-enabled patient access offering designed to shorten the path from prescription to therapy"
+    },
     {
       "published_utc": "2026-11-13T15:55:32+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-10T15:12:21+00:00",
       "publisher": "Yahoo",
       "title": "Cognizant Establishes 25,000-Person Claude AI Group and Introduces Enterprise Managed Services"
-    },
-    {
-      "published_utc": "2026-11-10T11:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cognizant dedicates more than 25,000 professionals to Claude delivery, introduces managed services model to run Claude at the core of enterprise operations"
-    },
-    {
-      "published_utc": "2026-11-10T08:31:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Accenture Stock Rallied 31.5% Since October 6. Is Cognizant Now the Better Buy?"
-    },
-    {
-      "published_utc": "2026-11-10T07:37:12+00:00",
-      "publisher": "Benzinga",
-      "title": "Cognizant Announces Formation Of Claude Frontier Capability Group, Bringing More Than 25,000 Professionals For Global Claude Delivery"
-    },
-    {
-      "published_utc": "2026-11-06T22:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Cognizant Completes Acquisition of Wizeline"
     }
   ]
 }

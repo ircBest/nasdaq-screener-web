@@ -1,9 +1,24 @@
 {
   "ticker": "ACIW",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T16:01:00+00:00",
+      "publisher": "Yahoo",
+      "title": "ACI Worldwide’s CEO heads out"
+    },
+    {
+      "published_utc": "2026-11-18T11:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "ACI Worldwide Appoints Robert Leibrock as Interim Chief Executive Officer"
+    },
+    {
+      "published_utc": "2026-11-18T09:11:32+00:00",
+      "publisher": "Benzinga",
+      "title": "ACI Worldwide Affirms FY2026 Sales Guidance of $1.895B-$1.925B vs $1.907B Est"
+    },
     {
       "published_utc": "2026-11-07T09:10:57+00:00",
       "publisher": "Yahoo",
@@ -43,26 +58,6 @@
       "published_utc": "2026-11-05T12:21:47+00:00",
       "publisher": "ChartMill",
       "title": "ACI Worldwide (NASDAQ:ACIW) Surges as Q3 Adjusted EPS Beat and Raised EBITDA Outlook Offset Revenue Miss"
-    },
-    {
-      "published_utc": "2026-11-05T11:53:50+00:00",
-      "publisher": "Yahoo",
-      "title": "ACI Worldwide Reports Lower Q3 Revenue but Raises Full-Year Adjusted EBITDA Outlook"
-    },
-    {
-      "published_utc": "2026-11-05T11:35:01+00:00",
-      "publisher": "Yahoo",
-      "title": "ACI Worldwide (ACIW) Q3 Earnings Lag Estimates"
-    },
-    {
-      "published_utc": "2026-11-05T11:17:37+00:00",
-      "publisher": "Yahoo",
-      "title": "ACI Worldwide: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-11-05T11:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ACI Worldwide Reports Third Quarter 2026 Results; Raising FY 2026 Adjusted EBITDA Guidance"
     }
   ]
 }

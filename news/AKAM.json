@@ -1,9 +1,19 @@
 {
   "ticker": "AKAM",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T13:58:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Akamai Extends Its Enterprise Security Controls to Microsoft Edge for Business Browser on Mobile"
+    },
+    {
+      "published_utc": "2026-11-18T11:13:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Are Wall Street Analysts Predicting Akamai Technologies Stock Will Climb or Sink?"
+    },
     {
       "published_utc": "2026-11-17T14:43:07+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-09T20:09:32+00:00",
       "publisher": "CNBC",
       "title": "Lightning Round: I like Cloudflare more than Akamai, says Jim Cramer"
-    },
-    {
-      "published_utc": "2026-11-09T16:24:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Moody’s and S&P downgrade Akamai on debt-fueled AI infrastructure buildout"
-    },
-    {
-      "published_utc": "2026-11-09T13:04:38+00:00",
-      "publisher": "Yahoo",
-      "title": "AKAM Stock Slides: Akamai Plans $2.2B Convertible Debt Offering To Fund Cloud Expansion, Repay Debt"
     }
   ]
 }

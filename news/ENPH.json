@@ -1,9 +1,19 @@
 {
   "ticker": "ENPH",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T04:48:22+00:00",
+      "publisher": "Yahoo",
+      "title": "Enphase Energy (ENPH) Hits New Record Low. Why Investors Are Losing Confidence"
+    },
+    {
+      "published_utc": "2026-11-18T02:53:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Solar Stocks Rebound After A Brutal Rout: Is The Worst Over For ENPH, FSLR, CSIQ, SEDG Stocks?"
+    },
     {
       "published_utc": "2026-11-17T18:58:32+00:00",
       "publisher": "Yahoo",
@@ -48,21 +58,6 @@
       "published_utc": "2026-11-05T13:12:56+00:00",
       "publisher": "Yahoo",
       "title": "Could Enphase Or Centene Stock Double?"
-    },
-    {
-      "published_utc": "2026-11-04T18:10:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Enphase Energy (ENPH) Reaches 800 VDC AI Data Center Power Milestone"
-    },
-    {
-      "published_utc": "2026-11-04T17:53:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Did Enphase Stock Jump?"
-    },
-    {
-      "published_utc": "2026-11-04T16:52:37+00:00",
-      "publisher": "Yahoo",
-      "title": "First Solar Jumps 9% as Democratic Sweep Revives Clean-Energy Hopes; Enphase Surges 9%, SolarEdge Sinks 8%"
     }
   ]
 }

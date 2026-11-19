@@ -1,9 +1,24 @@
 {
   "ticker": "MDB",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T08:09:01+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "MongoDB: Need To See Profitability Improving Dramatically Before Upgrading"
+    },
+    {
+      "published_utc": "2026-11-17T14:46:23+00:00",
+      "publisher": "Benzinga",
+      "title": "MongoDB Buys Firebolt to Help AI Agents Make Split-Second Decisions"
+    },
+    {
+      "published_utc": "2026-11-17T12:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "MongoDB's Biggest Advantage May Be GitLab's Biggest Weakness"
+    },
     {
       "published_utc": "2026-11-17T09:52:38+00:00",
       "publisher": "Benzinga",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-05T14:00:00+00:00",
       "publisher": "Yahoo",
       "title": "MongoDB, Inc. Announces Date of Third Quarter Fiscal 2027 Earnings Call"
-    },
-    {
-      "published_utc": "2026-11-05T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "VictoriaMetrics Expands in North America as Spotify and MongoDB Use Its Open-Source Stack to Run Observability at Scale"
-    },
-    {
-      "published_utc": "2026-11-04T22:15:02+00:00",
-      "publisher": "Yahoo",
-      "title": "MongoDB (MDB) Stock Dips While Market Gains: Key Facts"
-    },
-    {
-      "published_utc": "2026-11-04T15:14:22+00:00",
-      "publisher": "Yahoo",
-      "title": "What Did CrowdStrike Do That MongoDB Did Not?"
     }
   ]
 }

@@ -1,9 +1,19 @@
 {
   "ticker": "ZBRA",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T15:56:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Purpose-Driven Innovation, Frontline AI Place Zebra Technologies Among TIME's Top Manufacturers in America"
+    },
+    {
+      "published_utc": "2026-11-18T12:42:51+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Zebra Technologies Corporation (ZBRA) Presents at 2026 Stephens Annual Investment Conference | NASH2026 Transcript"
+    },
     {
       "published_utc": "2026-11-12T15:00:00+00:00",
       "publisher": "Yahoo",
@@ -33,26 +43,6 @@
       "published_utc": "2026-11-05T13:35:01+00:00",
       "publisher": "Yahoo",
       "title": "Down 13.9% in 4 Weeks, Here's Why Zebra (ZBRA) Looks Ripe for a Turnaround"
-    },
-    {
-      "published_utc": "2026-11-04T17:05:04+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Maintains Neutral on Zebra Technologies, Lowers Price Target to $398"
-    },
-    {
-      "published_utc": "2026-11-04T15:06:06+00:00",
-      "publisher": "Benzinga",
-      "title": "Barclays Maintains Overweight on Zebra Technologies, Raises Price Target to $432"
-    },
-    {
-      "published_utc": "2026-11-04T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "ZBRA Q3 Earnings Call Highlights Strong Demand and Raised Outlook"
-    },
-    {
-      "published_utc": "2026-11-04T13:50:49+00:00",
-      "publisher": "Benzinga",
-      "title": "BNP Paribas Maintains Outperform on Zebra Technologies, Lowers Price Target to $455"
     }
   ]
 }
