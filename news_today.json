@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-19T20:55:00+00:00",
+ "generated_at": "2026-11-19T23:13:02+00:00",
  "latest_hours": 36,
  "good_hours": 72,
  "note": "좋은 소식 · 나쁜 소식은 제목에 정해진 말 (예: 실적이 예상보다 좋았다 · 전망을 내렸다) 이 있는 기사를 기계가 골라 묶은 것입니다. 기사 본문은 읽지 않습니다. 사라 · 팔라는 뜻이 아니고, 검증된 신호도 아닙니다. 우리 모의 매매 기록에서 '큰 좋은 소식이 난 다음 날 사기' 는 판정 전이지만 지금까지 기대와 반대로 가고 있습니다. 회사 기사는 제목에 그 회사가 나오는 것만, 업계 소식은 한 회사가 아니라 AI · 반도체 · 데이터센터 · 클라우드 전체를 말하는 것만 실었습니다.",
@@ -177,19 +177,475 @@
  "counts": {
   "latest": 80,
   "good": 53,
-  "bad": 70,
-  "mixed": 5,
+  "bad": 72,
+  "mixed": 4,
   "sector_good": 11,
-  "sector_bad": 22,
+  "sector_bad": 21,
   "sector_mixed": 3,
   "dropped": {
    "forbidden": 0,
-   "unrelated": 2517,
-   "old": 1310,
+   "unrelated": 2492,
+   "old": 1455,
    "no_time": 0
   }
  },
  "latest": [
+  {
+   "time": "2026-11-19T22:00:00+00:00",
+   "publisher": "Yahoo",
+   "title": "John Forsyth, Cirrus Logic President and CEO, Elected Chair of Semiconductor Industry Association",
+   "t": [
+    "CRUS"
+   ],
+   "names": [
+    "Cirrus Logic, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:54:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Intuit Stock Tumbles After Earnings Beat. It’s Selling Mailchimp.",
+   "t": [
+    "INTU"
+   ],
+   "names": [
+    "Intuit Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:52:20+00:00",
+   "publisher": "Yahoo",
+   "title": "Dow Jones Futures Fall After Ugly Market Reversal To New Lows; Anthropic IPO Debuts, AMD Dives",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:47:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:35:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Is Nvidia Stock a Once-in-a-Decade Buying Opportunity After Its Latest Earnings?",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:33:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Bending Spoons to Buy Marketing Platform from Intuit as It Beats Expectations",
+   "t": [
+    "INTU"
+   ],
+   "names": [
+    "Intuit Inc."
+   ],
+   "tone": "good",
+   "kind": "beat",
+   "good": "beat"
+  },
+  {
+   "time": "2026-11-19T21:30:21+00:00",
+   "publisher": "Yahoo",
+   "title": "Jensen Huang's Nvidia comeback: Why the math doesn't add up",
+   "t": [
+    "NVDA"
+   ],
+   "names": [
+    "NVIDIA Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:21:37+00:00",
+   "publisher": "Yahoo",
+   "title": "Intuit Beats Fiscal Q1 Goals, Gives Soft Outlook, Sells Mailchimp",
+   "t": [
+    "INTU"
+   ],
+   "names": [
+    "Intuit Inc."
+   ],
+   "tone": "bad",
+   "kind": "guide_cut",
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:18:46+00:00",
+   "publisher": "Yahoo",
+   "title": "AMD Shares Tumble 7% After Short Seller Questions China Ties. Chipmaker Denies Allegations.",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": "bad",
+   "kind": "incident",
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:14:42+00:00",
+   "publisher": "Yahoo",
+   "title": "How ChatGPT Sales Plugin At DocuSign (DOCU) Has Changed Its Investment Story",
+   "t": [
+    "DOCU"
+   ],
+   "names": [
+    "DocuSign, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:14:24+00:00",
+   "publisher": "Yahoo",
+   "title": "Strategy (MSTR) On Bitcoin Buying And MSCI Exit Still Looks Undervalued",
+   "t": [
+    "MSTR"
+   ],
+   "names": [
+    "Strategy Inc"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:12:06+00:00",
+   "publisher": "Yahoo",
+   "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+   "t": [
+    "AMD",
+    "MU",
+    "NVDA"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc.",
+    "Micron Technology, Inc.",
+    "NVIDIA Corporation"
+   ],
+   "tone": "bad",
+   "kind": "drop",
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:05:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Docusign to Announce Third Quarter Fiscal 2027 Financial Results on December 3, 2026",
+   "t": [
+    "DOCU"
+   ],
+   "names": [
+    "DocuSign, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:02:16+00:00",
+   "publisher": "Yahoo",
+   "title": "Brian Armstrong on bitcoin’s bottom, AI trading agents and Coinbase’s next act",
+   "t": [
+    "COIN"
+   ],
+   "names": [
+    "Coinbase Global, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:01:30+00:00",
+   "publisher": "Yahoo",
+   "title": "Synopsys vs Cadence: value and quality compared",
+   "t": [
+    "CDNS",
+    "SNPS"
+   ],
+   "names": [
+    "Cadence Design Systems, Inc.",
+    "Synopsys, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:01:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Micron Technology to Report Fiscal First Quarter Results on December 17, 2026",
+   "t": [
+    "MU"
+   ],
+   "names": [
+    "Micron Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:00:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Bending Spoons has entered into a definitive agreement to acquire Mailchimp",
+   "t": [
+    "INTU"
+   ],
+   "names": [
+    "Intuit Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T21:00:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Intuit Reports First-Quarter Results and Enters Agreement to Sell Mailchimp to Bending Spoons",
+   "t": [
+    "INTU"
+   ],
+   "names": [
+    "Intuit Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:56:02+00:00",
+   "publisher": "Yahoo",
+   "title": "This Is Incredible News for AMD Stock Investors (Hint: It’s Bad News for Intel)",
+   "t": [
+    "AMD",
+    "INTC"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc.",
+    "Intel Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:53:07+00:00",
+   "publisher": "Yahoo",
+   "title": "Coinbase Reportedly Plans To Launch In-House Prediction Markets In Early 2027",
+   "t": [
+    "COIN"
+   ],
+   "names": [
+    "Coinbase Global, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:28:33+00:00",
+   "publisher": "Yahoo",
+   "title": "Lumentum’s sales surged 137%—so why is its stock crashing?",
+   "t": [
+    "LITE"
+   ],
+   "names": [
+    "Lumentum Holdings Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:25:57+00:00",
+   "publisher": "Yahoo",
+   "title": "Marvell Stock Halved Again. What Does Its Cash Say?",
+   "t": [
+    "MRVL"
+   ],
+   "names": [
+    "Marvell Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:22:22+00:00",
+   "publisher": "Yahoo",
+   "title": "Wall Street analysts say buy Strategy Inc, yet a November 30 shock is coming",
+   "t": [
+    "MSTR"
+   ],
+   "names": [
+    "Strategy Inc"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:17:18+00:00",
+   "publisher": "Yahoo",
+   "title": "CoreWeave Just Dropped 25% in a Month. Will CRWV Stock Hit $40 or $50 First?",
+   "t": [
+    "CRWV"
+   ],
+   "names": [
+    "CoreWeave, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:15:02+00:00",
+   "publisher": "Yahoo",
+   "title": "First Nvidia, Now AMD: A Short Seller Just Put Its China Business Under the Microscope",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": "bad",
+   "kind": "incident",
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:12:54+00:00",
+   "publisher": "Yahoo",
+   "title": "Looks Like AMD Also Has A China Problem",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:09:54+00:00",
+   "publisher": "Yahoo",
+   "title": "Palantir Technologies (PLTR) Gets A Fresh AI Signal From A Key Platform Partner",
+   "t": [
+    "PLTR"
+   ],
+   "names": [
+    "Palantir Technologies Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:05:15+00:00",
+   "publisher": "Yahoo",
+   "title": "Arm Just Dropped 21% in a Month. Will ARM Stock Hit $150 or $200 First?",
+   "t": [
+    "ARM"
+   ],
+   "names": [
+    "Arm Holdings plc"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:02:00+00:00",
+   "publisher": "Yahoo",
+   "title": "AMD Stock Drops After Short Report Says It Isn’t an Nvidia Replacement",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": "bad",
+   "kind": "incident",
+   "good": null
+  },
+  {
+   "time": "2026-11-19T20:01:23+00:00",
+   "publisher": "Yahoo",
+   "title": "Why Broadcom Stock Took a Wild Ride on Thursday",
+   "t": [
+    "AVGO"
+   ],
+   "names": [
+    "Broadcom Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T19:56:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Coinbase Plans to Bring Prediction Markets In-House, Cutting Reliance on Kalshi",
+   "t": [
+    "COIN"
+   ],
+   "names": [
+    "Coinbase Global, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-19T19:52:04+00:00",
+   "publisher": "Yahoo",
+   "title": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
+   "t": [
+    "PLTR"
+   ],
+   "names": [
+    "Palantir Technologies Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
   {
    "time": "2026-11-19T19:50:03+00:00",
    "publisher": "Yahoo",
@@ -869,454 +1325,6 @@
    "tone": null,
    "kind": null,
    "good": null
-  },
-  {
-   "time": "2026-11-19T17:45:22+00:00",
-   "publisher": "Yahoo",
-   "title": "AMD Is Actually Cheap With Projected Earnings Now Costing Less Than 50 Cents on The Dollar",
-   "t": [
-    "AMD"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:45:06+00:00",
-   "publisher": "Yahoo",
-   "title": "$310 And Falling: Why Nvidia’s Turmoil and AI Server Margin Pressure Are Dragging Dell Lower Before Earnings",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:43:43+00:00",
-   "publisher": "Yahoo",
-   "title": "Why AMD Stock Was Plunging on Thursday",
-   "t": [
-    "AMD"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:36:29+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:30:26+00:00",
-   "publisher": "Yahoo",
-   "title": "Broadcom Stocks Rise 4.21% as Chip Supplier Joins Anthropic's $26 Billion Placement",
-   "t": [
-    "AVGO"
-   ],
-   "names": [
-    "Broadcom Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:30:14+00:00",
-   "publisher": "Yahoo",
-   "title": "Microsoft Stocks Rise 3.16% as Anthropic Commits $47.2 Billion Minimum to Azure",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:28:24+00:00",
-   "publisher": "Yahoo",
-   "title": "Coinbase Eyes In-House Prediction Markets in First Half 2027",
-   "t": [
-    "COIN"
-   ],
-   "names": [
-    "Coinbase Global, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:28:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia reportedly approaches Arm CEO Rene Haas in search for Jensen Huang successor",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:27:27+00:00",
-   "publisher": "Yahoo",
-   "title": "Micron Stocks Jump 6.63% as 75% of 2027 Capacity Sells Out",
-   "t": [
-    "MU"
-   ],
-   "names": [
-    "Micron Technology, Inc."
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-19T17:26:06+00:00",
-   "publisher": "Yahoo",
-   "title": "AMD Stocks Rise 3.77% as Anthropic Deal Points to $20 Billion-Plus of Helios Spending",
-   "t": [
-    "AMD"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:24:05+00:00",
-   "publisher": "Yahoo",
-   "title": "Intel Stocks Jump 7.87% After Foundry Signs First Outside 18A Customer",
-   "t": [
-    "INTC"
-   ],
-   "names": [
-    "Intel Corporation"
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-19T17:20:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Coinbase Global vs. Interactive Brokers Group: Which Financial Stock Is a Better Buy for 2027?",
-   "t": [
-    "COIN"
-   ],
-   "names": [
-    "Coinbase Global, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:16:33+00:00",
-   "publisher": "Yahoo",
-   "title": "Palo Alto Networks Stocks Jump 6.90% on Guidance Raise and $4.5 Billion AI Deal",
-   "t": [
-    "PANW"
-   ],
-   "names": [
-    "Palo Alto Networks, Inc."
-   ],
-   "tone": "good",
-   "kind": "jump",
-   "good": "jump"
-  },
-  {
-   "time": "2026-11-19T17:16:00+00:00",
-   "publisher": "Yahoo",
-   "title": "AMD shares slide over 9% after short seller raises concerns over China exposure",
-   "t": [
-    "AMD"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc."
-   ],
-   "tone": "bad",
-   "kind": "incident",
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:15:08+00:00",
-   "publisher": "Yahoo",
-   "title": "AMD stock drops after Hunterbrook Media raises export control concerns",
-   "t": [
-    "AMD"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:10:06+00:00",
-   "publisher": "Yahoo",
-   "title": "Coinbase CEO Predicts 99.999% of Financial Transactions Will Happen “Between Agents” Within 10 Years",
-   "t": [
-    "COIN"
-   ],
-   "names": [
-    "Coinbase Global, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:08:00+00:00",
-   "publisher": "Yahoo",
-   "title": "ASML Rides on Improving Profitability: Will It Sustain?",
-   "t": [
-    "ASML"
-   ],
-   "names": [
-    "ASML Holding N.V. - New York Re"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:04:46+00:00",
-   "publisher": "Yahoo",
-   "title": "What Have Lattice Stock Holders Had To Sit Through?",
-   "t": [
-    "LSCC"
-   ],
-   "names": [
-    "Lattice Semiconductor Corporati"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:04:22+00:00",
-   "publisher": "Yahoo",
-   "title": "Micron’s Next $100 Billion Growth Opportunity Could Surprise Wall Street",
-   "t": [
-    "MU"
-   ],
-   "names": [
-    "Micron Technology, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:03:54+00:00",
-   "publisher": "Yahoo",
-   "title": "Apple’s Longest-Serving Director Just Cashed Out $32 Million",
-   "t": [
-    "AAPL"
-   ],
-   "names": [
-    "Apple Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:03:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Qualcomm vs. Taiwan Semiconductor: Diverging Revenue Trends for Major Chipmakers",
-   "t": [
-    "QCOM"
-   ],
-   "names": [
-    "QUALCOMM Incorporated"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:01:09+00:00",
-   "publisher": "Yahoo",
-   "title": "AMD Sinks 8% as Short Seller Hunterbrook Warns “AMD Has a China Problem of Its Own”",
-   "t": [
-    "AMD"
-   ],
-   "names": [
-    "Advanced Micro Devices, Inc."
-   ],
-   "tone": "bad",
-   "kind": "incident",
-   "good": null
-  },
-  {
-   "time": "2026-11-19T17:00:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Expect crypto to rebound after Anthropic's IPO, and Coinbase launching spot margin returns",
-   "t": [
-    "COIN"
-   ],
-   "names": [
-    "Coinbase Global, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:59:58+00:00",
-   "publisher": "Yahoo",
-   "title": "Accelerating Azure Growth and Copilot Adoption Fuel Microsoft Corp.’s (MSFT) AI Momentum",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:59:01+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Intel Stock Is Gaining Today",
-   "t": [
-    "INTC"
-   ],
-   "names": [
-    "Intel Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:57:53+00:00",
-   "publisher": "Yahoo",
-   "title": "What Are Okta Investors Betting On?",
-   "t": [
-    "OKTA"
-   ],
-   "names": [
-    "Okta, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:56:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Micron Stock Is Up Today",
-   "t": [
-    "MU"
-   ],
-   "names": [
-    "Micron Technology, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:52:35+00:00",
-   "publisher": "Yahoo",
-   "title": "Google’s Parent Now Holds a $548 Million Qualcomm Stake That Wasn’t in Its June Filing",
-   "t": [
-    "QCOM"
-   ],
-   "names": [
-    "QUALCOMM Incorporated"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:50:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Coinbase Global vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
-   "t": [
-    "COIN"
-   ],
-   "names": [
-    "Coinbase Global, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:49:26+00:00",
-   "publisher": "Yahoo",
-   "title": "Multiple Compression Weighs on Applied Materials (AMAT) in Q3",
-   "t": [
-    "AMAT"
-   ],
-   "names": [
-    "Applied Materials, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:47:19+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Palo Alto Networks Stock Rallied Today",
-   "t": [
-    "PANW"
-   ],
-   "names": [
-    "Palo Alto Networks, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-19T16:46:00+00:00",
-   "publisher": "Yahoo",
-   "title": "Vertiv's 800 VDC Push Boosts AI Prospects: Can It Beat APH and SMCI?",
-   "t": [
-    "SMCI"
-   ],
-   "names": [
-    "Super Micro Computer, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
   }
  ],
  "good": [
@@ -1324,6 +1332,20 @@
    "key": "beat",
    "label": "실적이 예상보다 좋았다",
    "items": [
+    {
+     "time": "2026-11-19T21:33:00+00:00",
+     "publisher": "Yahoo",
+     "title": "Bending Spoons to Buy Marketing Platform from Intuit as It Beats Expectations",
+     "t": [
+      "INTU"
+     ],
+     "names": [
+      "Intuit Inc."
+     ],
+     "tone": "good",
+     "kind": "beat",
+     "good": "beat"
+    },
     {
      "time": "2026-11-19T14:27:00+00:00",
      "publisher": "Yahoo",
@@ -1579,20 +1601,6 @@
      ],
      "names": [
       "Palantir Technologies Inc."
-     ],
-     "tone": "good",
-     "kind": "guide",
-     "good": "guide"
-    },
-    {
-     "time": "2026-11-16T21:12:04+00:00",
-     "publisher": "Yahoo",
-     "title": "Telos (TLS) Stock Sees Fair Value Lift After Q3 Beat And Raised Outlook",
-     "t": [
-      "TLS"
-     ],
-     "names": [
-      "Telos Corporation"
      ],
      "tone": "good",
      "kind": "guide",
@@ -2153,20 +2161,6 @@
      "tone": "bad",
      "kind": "miss",
      "good": null
-    },
-    {
-     "time": "2026-11-16T22:06:44+00:00",
-     "publisher": "Yahoo",
-     "title": "SharonAI falls as third quarter revenue misses estimates",
-     "t": [
-      "SHAZ"
-     ],
-     "names": [
-      "SharonAI Holdings, Inc."
-     ],
-     "tone": "bad",
-     "kind": "miss",
-     "good": null
     }
    ]
   },
@@ -2174,6 +2168,20 @@
    "key": "guide_cut",
    "label": "전망을 내렸다",
    "items": [
+    {
+     "time": "2026-11-19T21:21:37+00:00",
+     "publisher": "Yahoo",
+     "title": "Intuit Beats Fiscal Q1 Goals, Gives Soft Outlook, Sells Mailchimp",
+     "t": [
+      "INTU"
+     ],
+     "names": [
+      "Intuit Inc."
+     ],
+     "tone": "bad",
+     "kind": "guide_cut",
+     "good": null
+    },
     {
      "time": "2026-11-18T23:14:05+00:00",
      "publisher": "Yahoo",
@@ -2432,20 +2440,6 @@
      "kind": "target_cut",
      "good": null,
      "rating": "매수"
-    },
-    {
-     "time": "2026-11-16T21:01:44+00:00",
-     "publisher": "Yahoo",
-     "title": "JPMorgan slashes IREN price target on Microsoft site delays",
-     "t": [
-      "MSFT"
-     ],
-     "names": [
-      "Microsoft Corporation"
-     ],
-     "tone": "bad",
-     "kind": "target_cut",
-     "good": null
     }
    ]
   },
@@ -2662,22 +2656,6 @@
      "tone": "bad",
      "kind": "people",
      "good": null
-    },
-    {
-     "time": "2026-11-16T23:12:59+00:00",
-     "publisher": "Yahoo",
-     "title": "Broadcom Is “the Best Play” on Nvidia’s CEO Exit, One Investor Argues. The Reason Is China",
-     "t": [
-      "AVGO",
-      "NVDA"
-     ],
-     "names": [
-      "Broadcom Inc.",
-      "NVIDIA Corporation"
-     ],
-     "tone": "bad",
-     "kind": "people",
-     "good": null
     }
    ]
   },
@@ -2685,6 +2663,48 @@
    "key": "incident",
    "label": "사고 · 유출 · 리콜 · 공매도 보고서",
    "items": [
+    {
+     "time": "2026-11-19T21:18:46+00:00",
+     "publisher": "Yahoo",
+     "title": "AMD Shares Tumble 7% After Short Seller Questions China Ties. Chipmaker Denies Allegations.",
+     "t": [
+      "AMD"
+     ],
+     "names": [
+      "Advanced Micro Devices, Inc."
+     ],
+     "tone": "bad",
+     "kind": "incident",
+     "good": null
+    },
+    {
+     "time": "2026-11-19T20:15:02+00:00",
+     "publisher": "Yahoo",
+     "title": "First Nvidia, Now AMD: A Short Seller Just Put Its China Business Under the Microscope",
+     "t": [
+      "AMD"
+     ],
+     "names": [
+      "Advanced Micro Devices, Inc."
+     ],
+     "tone": "bad",
+     "kind": "incident",
+     "good": null
+    },
+    {
+     "time": "2026-11-19T20:02:00+00:00",
+     "publisher": "Yahoo",
+     "title": "AMD Stock Drops After Short Report Says It Isn’t an Nvidia Replacement",
+     "t": [
+      "AMD"
+     ],
+     "names": [
+      "Advanced Micro Devices, Inc."
+     ],
+     "tone": "bad",
+     "kind": "incident",
+     "good": null
+    },
     {
      "time": "2026-11-19T19:49:17+00:00",
      "publisher": "Yahoo",
@@ -2889,6 +2909,24 @@
    "key": "drop",
    "label": "주가가 크게 빠졌다",
    "items": [
+    {
+     "time": "2026-11-19T21:12:06+00:00",
+     "publisher": "Yahoo",
+     "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+     "t": [
+      "AMD",
+      "MU",
+      "NVDA"
+     ],
+     "names": [
+      "Advanced Micro Devices, Inc.",
+      "Micron Technology, Inc.",
+      "NVIDIA Corporation"
+     ],
+     "tone": "bad",
+     "kind": "drop",
+     "good": null
+    },
     {
      "time": "2026-11-19T16:10:10+00:00",
      "publisher": "Yahoo",
@@ -3250,20 +3288,6 @@
    "tone": "mixed",
    "kind": "mixed",
    "good": null
-  },
-  {
-   "time": "2026-11-16T21:22:04+00:00",
-   "publisher": "Yahoo",
-   "title": "Rocket Lab Sinks 7%, AST SpaceMobile Down 12% as Tech Selloff and Vulcan Failure Hit Space Stocks",
-   "t": [
-    "ASTS"
-   ],
-   "names": [
-    "AST SpaceMobile, Inc."
-   ],
-   "tone": "mixed",
-   "kind": "mixed",
-   "good": null
   }
  ],
  "sector": {
@@ -3363,6 +3387,13 @@
     "key": "selloff",
     "label": "업종 주가가 빠졌다",
     "items": [
+     {
+      "time": "2026-11-19T20:49:38+00:00",
+      "publisher": "Yahoo",
+      "title": "Sector Update: Tech Stocks Decline Late Afternoon",
+      "tone": "bad",
+      "kind": "selloff"
+     },
      {
       "time": "2026-11-19T07:08:31+00:00",
       "publisher": "Yahoo",
@@ -3479,20 +3510,6 @@
       "time": "2026-11-17T01:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Tom Lee Sees No Cracks in the AI Trade Despite Nasdaq's 12% Drop",
-      "tone": "bad",
-      "kind": "selloff"
-     },
-     {
-      "time": "2026-11-16T23:10:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Nov. 16: IREN Slides as Neocloud Weakness and Tech Sector Selling Put Pressure on Shares",
-      "tone": "bad",
-      "kind": "selloff"
-     },
-     {
-      "time": "2026-11-16T22:25:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Stock Market Today, Nov. 16: Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq",
       "tone": "bad",
       "kind": "selloff"
      }
