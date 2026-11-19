@@ -39,6 +39,7 @@
 .kv .v.down{color:var(--red)}
 .kv .n{font-size:11px;color:var(--text-dim);margin-top:2px}
 .kv > div.kv-wide{grid-column:1 / -1}
+.ol-warn{border-left:3px solid var(--amber);background:#FBF6EC;padding:8px 12px;margin:0 0 12px;font-size:12.5px;line-height:1.6;color:var(--text-dim);border-radius:4px}
 .dip-head{display:flex;align-items:center;gap:14px;margin:0 0 12px}
 .grade.grade-lg{min-width:54px;height:54px;font-size:24px;border-radius:12px}
 .dip-name{font-size:16px;font-weight:800}
@@ -458,19 +459,20 @@ function chartSection(ch){
     </section>`;
 }
 
-/* 과거 비슷한 흐름 — outlook.py 가 센 과거 기록의 빈도. 예측이 아니다. */
-/* 크게 보이는 숫자는 '고친 값' — 과거 시험에서 같은 비율이 나왔던 종목들이 실제로 오른 비율.
-   고친 값이 없는 옛 자료면 닮은 사례의 비율을 그대로 보인다. */
+/* 과거 비슷한 흐름 — outlook.py 가 센 과거 기록의 빈도. 예측이 아니다.
+   크게 보이는 숫자는 '고친 값' — 과거 시험에서 같은 비율이 나왔던 종목들이 실제로 오른 비율. 아무 종목의 비율과 나란히 둔다.
+   닮은 사례를 그대로 센 비율 · 그 사례들의 수익 범위는 싣지 않는다 (2026-11-19 사용자: 72% 를 보고 샀다 — 과거에 실제보다 높게 나왔던 숫자).
+   고친 값이 없는 옛 자료면 그대로 센 비율을 '고치기 전' 이라고 적어 보인다. */
 function outlookCell(label, o, base){
   if(!o) return `<div><div class="k">${label}</div><div class="v mono">-</div></div>`;
   const fixed = o.calibrated != null;
   const main = fixed ? o.calibrated : o.rate;
+  const diff = base != null ? Math.round(main * 100) - Math.round(base * 100) : null;   /* 보이는 두 숫자의 차 */
   return `
     <div><div class="k">${label}</div>
       <div class="v mono">${(main*100).toFixed(0)}%</div>
-      ${fixed ? `<div class="n">과거 시험으로 고친 값 · 닮은 사례만 보면 ${(o.rate*100).toFixed(0)}%</div>` : ""}
-      <div class="n">닮은 사례 가운데 ${fmtPctShort(o.median_pct)} · 절반이 ${fmtPctShort(o.q25_pct)} ~ ${fmtPctShort(o.q75_pct)}</div>
-      <div class="n">모든 과거 사례 평균 ${base!=null?(base*100).toFixed(0)+"%":"-"}</div></div>`;
+      <div class="n">아무 종목이나 ${base!=null?(base*100).toFixed(0)+"%":"-"}${diff!=null?` · 차이 ${diff>0?"+":""}${diff}%p`:""}</div>
+      ${fixed ? "" : `<div class="n">고치기 전 값 — 과거에 실제보다 높게 나왔던 숫자입니다</div>`}</div>`;
 }
 
 function outlookSection(o){
@@ -483,12 +485,12 @@ function outlookSection(o){
         <div class="title">과거 비슷한 흐름</div>
         <div class="hint">${escapeHTML(o.as_of || "")} 종가 기준 · 비슷한 사례 ${n || "-"}건 (${tk || "-"}개 종목)</div>
       </div>
+      <div class="ol-warn">${escapeHTML(o.reliability || "")}</div>
       <div class="kv">
-        ${outlookCell("5거래일 뒤 오른 비율", o.up5, o.base && o.base.up5)}
-        ${outlookCell("60거래일 뒤 오른 비율", o.up60, o.base && o.base.up60)}
+        ${outlookCell("5거래일 뒤 오른 비율 (과거 시험으로 고친 값)", o.up5, o.base && o.base.up5)}
+        ${outlookCell("60거래일 뒤 오른 비율 (과거 시험으로 고친 값)", o.up60, o.base && o.base.up60)}
       </div>
       <div class="news-note">${escapeHTML(o.note || "")}</div>
-      <div class="news-note">${escapeHTML(o.reliability || "")}</div>
     </section>`;
 }
 
