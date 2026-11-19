@@ -1,9 +1,29 @@
 {
   "ticker": "STRD",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T15:02:55+00:00",
+      "publisher": "Yahoo",
+      "title": "Analyst Warns of 76% MSTR Stock Drop to $23: Strategy Falls 4%, Riot Climbs 4%, MARA Gains 2%"
+    },
+    {
+      "published_utc": "2026-11-18T14:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Analyst Warns Strategy’s Stock Could Fall More Than 75%"
+    },
+    {
+      "published_utc": "2026-11-18T13:17:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Stock to $23? Analyst Warns of 76% Slide as Firm Sells MSTR to Buy Back STRC"
+    },
+    {
+      "published_utc": "2026-11-18T07:24:57+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Spends Far More On STRC Buybacks Than Bitcoin, Peter Schiff Asks Whether Saylor Will Sell BTC To Fund Them"
+    },
     {
       "published_utc": "2026-11-17T21:15:48+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-16T16:43:28+00:00",
       "publisher": "Yahoo",
       "title": "Strategy Stock Today: How To Make A Bear Put Spread Profit From Further Potential Downside"
-    },
-    {
-      "published_utc": "2026-11-16T16:21:00+00:00",
-      "publisher": "Yahoo",
-      "title": "MSTR Drops Nearly 18% in a Month: Is the Stock Worth Buying Now?"
-    },
-    {
-      "published_utc": "2026-11-16T14:28:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Buys Bitcoin As Price Falls"
-    },
-    {
-      "published_utc": "2026-11-16T02:04:21+00:00",
-      "publisher": "Yahoo",
-      "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus"
-    },
-    {
-      "published_utc": "2026-11-15T17:45:34+00:00",
-      "publisher": "Yahoo",
-      "title": "Perplexity AI Predicts a Monster Move for Saylor’s MicroStrategy"
     }
   ]
 }

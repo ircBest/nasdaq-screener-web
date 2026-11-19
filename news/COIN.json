@@ -1,9 +1,54 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T20:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase AI blocks $4.7 million deepfake Elon Musk crypto scam"
+    },
+    {
+      "published_utc": "2026-11-18T19:26:48+00:00",
+      "publisher": "Yahoo",
+      "title": "Elon Musk deepfake nearly costs coinbase users $4.7 million"
+    },
+    {
+      "published_utc": "2026-11-18T18:16:57+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase expands crypto-backed loans to New York, now reaching all 50 states"
+    },
+    {
+      "published_utc": "2026-11-18T17:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Anthropic trades crypto ahead of IPO launch, and Coinbase borrow covers all 50 states"
+    },
+    {
+      "published_utc": "2026-11-18T15:53:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Says AI Defenses Blocked $4.7M in Elon Musk Deepfake Crypto Scam"
+    },
+    {
+      "published_utc": "2026-11-18T14:17:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Global Expands Crypto Loans"
+    },
+    {
+      "published_utc": "2026-11-18T13:11:54+00:00",
+      "publisher": "Yahoo",
+      "title": "Should You Buy Coinbase Stock Now Or Wait?"
+    },
+    {
+      "published_utc": "2026-11-18T07:27:29+00:00",
+      "publisher": "Benzinga",
+      "title": "Coinbase CEO Wants AI Agents to Hire and Pay Each Other In Decentralized Economy: 'Freedom of Choice and Real Competition'"
+    },
+    {
+      "published_utc": "2026-11-18T02:36:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Exec Says AI IPOs Pulling Money From Bitcoin Is ‘A Reasonable Argument’ As Anthropic Debut Nears"
+    },
     {
       "published_utc": "2026-11-17T14:40:48+00:00",
       "publisher": "Yahoo",
@@ -18,51 +63,6 @@
       "published_utc": "2026-11-16T18:59:46+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase Stocks Fall 7.54% as Bitcoin Slides Toward $64,000 and Trading Volumes Shrink"
-    },
-    {
-      "published_utc": "2026-11-16T16:06:13+00:00",
-      "publisher": "Benzinga",
-      "title": "Coinbase Stock Slides as Bitcoin Hits August Lows"
-    },
-    {
-      "published_utc": "2026-11-16T15:47:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase, Broadridge to Bring Shareholder Voting Rights to Tokenized Stocks"
-    },
-    {
-      "published_utc": "2026-11-16T14:08:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Sinks 8% as Bitcoin Selloff Deepens; Coinbase and MARA Fall 7%"
-    },
-    {
-      "published_utc": "2026-11-16T12:36:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin Prices Tumble and Bring Coinbase and Strategy Stocks Down With Them"
-    },
-    {
-      "published_utc": "2026-11-16T12:11:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Should Equity Perpetual Futures Require Action From Coinbase (COIN) Investors?"
-    },
-    {
-      "published_utc": "2026-11-16T03:11:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global (COIN) Is Upgrading Custody After 35% Of Bitcoin Was Flagged At Risk"
-    },
-    {
-      "published_utc": "2026-11-14T09:30:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Wall Street Has Nearly Halved Its Coinbase Target. Cantor Fitzgerald Still Sees 57% Upside"
-    },
-    {
-      "published_utc": "2026-11-14T05:11:49+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase CEO Brian Armstrong Credits SEC, CFTC Chiefs For Ending ‘Turf Wars’ Over Stock Perps"
-    },
-    {
-      "published_utc": "2026-11-14T01:33:35+00:00",
-      "publisher": "Yahoo",
-      "title": "US Fintech Weekly: Coinbase Secures Federal Trust Charter, While Hot CPI Pressures Rate-Sensitive Lenders"
     }
   ]
 }

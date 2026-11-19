@@ -1,9 +1,19 @@
 {
   "ticker": "CVLT",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T23:19:23+00:00",
+      "publisher": "Yahoo",
+      "title": "Zscaler Stock Faces AI Security Test After Commvault Partnership"
+    },
+    {
+      "published_utc": "2026-11-18T16:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Commvault Expands Microsoft Security Integration to Turn Threat Intelligence into Recovery Action"
+    },
     {
       "published_utc": "2026-11-16T09:49:10+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-10T13:30:00+00:00",
       "publisher": "Yahoo",
       "title": "Commvault and Databricks Unlock Trusted Enterprise Data for AI"
-    },
-    {
-      "published_utc": "2026-11-10T13:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Commvault Gives IT and Security an AI Agent Recovery Plan - Helping Recover Agents and Unwanted Changes Triggered Across Environments"
-    },
-    {
-      "published_utc": "2026-11-10T13:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Commvault Announces Strategic Partnership with Zscaler to Help Enterprises Adopt AI with Confidence, Control, and Resilience"
     }
   ]
 }

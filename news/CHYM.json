@@ -1,9 +1,24 @@
 {
   "ticker": "CHYM",
-  "generated_at": "2026-11-18T12:01:09+00:00",
+  "generated_at": "2026-11-19T12:00:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-18T21:37:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Did Chime Financial Stock Jump?"
+    },
+    {
+      "published_utc": "2026-11-18T10:33:18+00:00",
+      "publisher": "Benzinga",
+      "title": "B. Riley Securities Reiterates Buy on Chime Financial, Raises Price Target to $55"
+    },
+    {
+      "published_utc": "2026-11-18T10:11:02+00:00",
+      "publisher": "ChartMill",
+      "title": "Chime Financial Inc-Cl A (NASDAQ:CHYM): Strong Trend and Growth, but Setup Rating Warns on Entry"
+    },
     {
       "published_utc": "2026-11-17T21:08:15+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-05T20:19:42+00:00",
       "publisher": "Benzinga",
       "title": "UBS Maintains Neutral on Chime Financial, Raises Price Target to $34"
-    },
-    {
-      "published_utc": "2026-11-05T19:27:05+00:00",
-      "publisher": "Benzinga",
-      "title": "JP Morgan Maintains Overweight on Chime Financial, Raises Price Target to $40"
-    },
-    {
-      "published_utc": "2026-11-05T16:28:01+00:00",
-      "publisher": "Benzinga",
-      "title": "Scotiabank Maintains Sector Outperform on Chime Financial, Raises Price Target to $44"
-    },
-    {
-      "published_utc": "2026-11-05T15:30:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Chime Financial (CHYM) Q3 2026 Earnings Call Transcript"
     }
   ]
 }
