@@ -64,6 +64,31 @@
 .others .bar-row { margin-top: 10px; }
 .facts .when { display: inline-block; margin-bottom: 2px; font-size: 11px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
 @media (max-width: 1023px) { .others { grid-template-columns: 1fr; } }
+/* 끝난 실험 · 다음에 할 실험 (2026-11-19) */
+.board { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; padding: 0 16px 10px; }
+.board > div { min-width: 0; }
+.board .bh { display: flex; align-items: center; gap: 8px; padding: 10px 0 8px; font-size: 13.5px; font-weight: 700; }
+.board .bh .n { font-size: 12px; font-weight: 600; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.board .bh .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.board .ok .bh .dot { background: var(--green); }
+.board .ng .bh .dot { background: var(--red); }
+.board .bh .gl { font-size: 11.5px; font-weight: 500; color: var(--text-dim); line-height: 1.5; }
+.blist { list-style: none; margin: 0; padding: 0; }
+.blist li { padding: 10px 0; border-top: 1px solid var(--border); min-width: 0; }
+.blist .h { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.blist .nm { font-size: 13px; font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
+.blist .mt { margin-top: 2px; font-size: 11px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.blist .ln { margin-top: 4px; font-size: 12.5px; line-height: 1.65; color: var(--text-dim); overflow-wrap: anywhere; }
+.blist .chip { flex: none; }
+.board details { border-top: 1px solid var(--border); }
+.board summary { min-height: 40px; display: flex; align-items: center; cursor: pointer; font-size: 12.5px; font-weight: 600; color: var(--brand); list-style: none; }
+.board summary::-webkit-details-marker { display: none; }
+.board summary::after { content: "▾"; margin-left: 6px; font-size: 11px; }
+.board details[open] summary::after { content: "▴"; }
+.board details .blist li:first-child { border-top: 0; }
+.board.plan { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.chip.next { background: #E8EEFC; color: var(--brand); }
+@media (max-width: 1023px) { .board, .board.plan { grid-template-columns: 1fr; } }
 @media (max-width: 1023px) { .lr-top, .lr-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -121,6 +146,55 @@ function stateChip(st){
   const cls = st === "답을 냈습니다" ? "up" : st === "아직 못 잽니다" ? "mix" : "";
   return `<span class="chip ${cls}">${escapeHTML(st || "-")}</span>`;
 }
+/* 끝난 실험 — 성공 · 실패. 실패가 길어 앞의 몇 개만 펴 두고 나머지는 접는다 (성공은 다 편다). */
+const KIND = {"위험": "위험 가리기", "사기": "사는 신호", "시장": "시장 전체", "도구": "도구 · 방법"};
+const SHOW_FIRST = 7;
+function doneItem(x){
+  const kind = KIND[x["종류"]] || x["종류"] || "";
+  return `<li>
+    <div class="nm">${escapeHTML(x["이름"] || "")}</div>
+    <div class="mt">${escapeHTML(x["끝난 날"] || "")}${kind ? ` · ${escapeHTML(kind)}` : ""}</div>
+    <div class="ln">${escapeHTML(x["한 줄"] || "")}</div>
+  </li>`;
+}
+function doneList(items){
+  const head = items.slice(0, SHOW_FIRST), rest = items.slice(SHOW_FIRST);
+  return `<ul class="blist">${head.map(doneItem).join("")}</ul>
+    ${rest.length ? `<details><summary>나머지 ${rest.length}개 더 보기</summary>
+      <ul class="blist">${rest.map(doneItem).join("")}</ul></details>` : ""}`;
+}
+function doneSection(fin, wins, losses){
+  return `<section class="card lr-sec" id="done">
+    <div class="card-head"><h2>끝난 실험 <b>${wins.length + losses.length}</b></h2></div>
+    <div class="card-sub">${escapeHTML(fin["설명"] || "")}${fin["고친 날"] ? ` (${escapeHTML(fin["고친 날"])} 기준)` : ""}</div>
+    <div class="board">
+      <div class="ok"><div class="bh"><span class="dot"></span>성공 <span class="n">${wins.length}</span></div>${doneList(wins)}</div>
+      <div class="ng"><div class="bh"><span class="dot"></span>실패 <span class="n">${losses.length}</span></div>${doneList(losses)}</div>
+    </div>
+  </section>`;
+}
+/* 다음에 할 실험 — 묶음 (A · B · C) 마다 한 칸 */
+function nextSection(up, plan){
+  const groups = up["묶음"] || {};
+  const keys = Object.keys(groups).length ? Object.keys(groups) : [...new Set(plan.map(x => x["묶음"]))];
+  return `<section class="card lr-sec" id="next">
+    <div class="card-head"><h2>다음에 할 실험 <b>${plan.length}</b></h2></div>
+    <div class="card-sub">${escapeHTML(up["설명"] || "")}</div>
+    <div class="board plan">
+      ${keys.map(g => {
+        const items = plan.filter(x => x["묶음"] === g);
+        return `<div><div class="bh"><span>${escapeHTML(g)}</span><span class="n">${items.length}</span></div>
+          ${groups[g] ? `<div class="bh" style="padding-top:0"><span class="gl">${escapeHTML(groups[g])}</span></div>` : ""}
+          <ul class="blist">${items.map(x => `<li>
+            <div class="h"><div class="nm">${escapeHTML(x["이름"] || "")}</div>
+              <span class="chip${x["상태"] === "다음 차례" ? " next" : ""}">${escapeHTML(x["상태"] || "예정")}</span></div>
+            <div class="mt">답까지 ${escapeHTML(x["답"] || "-")}</div>
+            <div class="ln">${escapeHTML(x["묻는 것"] || "")}</div>
+          </li>`).join("")}</ul></div>`;
+      }).join("")}
+    </div>
+  </section>`;
+}
 function render(d){
   const now = d["지금 하고 있는 것"] || {};
   const col = d["모으고 있는 것"] || {};
@@ -129,6 +203,11 @@ function render(d){
   const gaps = d["아직 안 되는 것"] || [];
   const asking = d["지금 연구 중인 질문"] || [];
   const others = d["함께 진행 중인 연구"] || [];
+  const fin = d["끝난 실험"] || null;
+  const up = d["다음에 할 실험"] || null;
+  const wins = fin ? (fin["성공"] || []) : [];
+  const losses = fin ? (fin["실패"] || []) : [];
+  const plan = up ? (up["목록"] || []) : [];
   /* 날짜가 있는 사실 (새로 확인한 것) 을 먼저, 그다음 예전 것 — 둘 다 최근 것부터 */
   const facts = learned.filter(x => x["언제"]).reverse().concat(learned.filter(x => !x["언제"]).reverse());
 
@@ -141,6 +220,8 @@ function render(d){
   $("content").innerHTML = `
     <nav class="jump" aria-label="이 페이지 안에서 이동">
       ${others.length ? `<a href="#others">함께 진행 중인 연구 <b>${others.length}</b></a>` : ""}
+      ${fin ? `<a href="#done">끝난 실험 <b>성공 ${wins.length} · 실패 ${losses.length}</b></a>` : ""}
+      ${plan.length ? `<a href="#next">다음에 할 실험 <b>${plan.length}</b></a>` : ""}
       <a href="#ask">연구 질문 <b>${asking.length}</b></a>
       <a href="#collect">수집 중인 정보</a>
       <a href="#gate">검증 진행</a>
@@ -185,6 +266,9 @@ function render(d){
         }).join("")}
       </ul>
     </section>` : ""}
+
+    ${fin ? doneSection(fin, wins, losses) : ""}
+    ${plan.length ? nextSection(up, plan) : ""}
 
     <div class="lr-grid">
       <div>
