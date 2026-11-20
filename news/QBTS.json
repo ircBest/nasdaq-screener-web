@@ -1,9 +1,29 @@
 {
   "ticker": "QBTS",
-  "generated_at": "2026-11-19T12:00:08+00:00",
+  "generated_at": "2026-11-20T11:50:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-19T19:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "QBTS Stock Drops 27% After Q3 Results: Is This a Buying Opportunity?"
+    },
+    {
+      "published_utc": "2026-11-19T15:02:42+00:00",
+      "publisher": "Yahoo",
+      "title": "IonQ Jumps 9% as Anthropic’s IPO Lifts Beaten-Down Quantum Stocks; D-Wave and Rigetti Surge 8%"
+    },
+    {
+      "published_utc": "2026-11-18T18:10:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Here's How D-Wave Quantum Prioritizes International Expansion"
+    },
+    {
+      "published_utc": "2026-11-18T13:35:17+00:00",
+      "publisher": "Yahoo",
+      "title": "D-Wave Quantum Stock Down 66%: What Moves It Next?"
+    },
     {
       "published_utc": "2026-11-17T16:08:59+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-12T12:57:56+00:00",
       "publisher": "Yahoo",
       "title": "BMO Is Sticking With Its $35 Target on D-Wave Quantum, Even After a 67% Drop"
-    },
-    {
-      "published_utc": "2026-11-12T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "D-Wave Named a Market Shaper as of November 2026 in the Gartner® Emerging Market Quadrant™ for Quantum Computing – Established Vendors"
-    },
-    {
-      "published_utc": "2026-11-12T09:57:54+00:00",
-      "publisher": "Benzinga",
-      "title": "Quantum Stocks Slide as Rigetti, D-Wave Results Disappoint, Nvidia Turmoil Overshadows IonQ"
-    },
-    {
-      "published_utc": "2026-11-11T18:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "D-Wave gets Wedbush vote of confidence as bookings surge 611%"
-    },
-    {
-      "published_utc": "2026-11-11T16:35:00+00:00",
-      "publisher": "Yahoo",
-      "title": "QBTS Q3 Earnings Call Highlights System Sales and Quantum Roadmap"
     }
   ]
 }

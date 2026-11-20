@@ -1,9 +1,29 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-11-19T12:00:08+00:00",
+  "generated_at": "2026-11-20T11:50:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-19T22:13:44+00:00",
+      "publisher": "Yahoo",
+      "title": "What Would A Short Seller Say About Workday?"
+    },
+    {
+      "published_utc": "2026-11-19T16:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines"
+    },
+    {
+      "published_utc": "2026-11-19T14:59:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Can Healthy Top-Line Growth Benefit Workday's Q3 Earnings?"
+    },
+    {
+      "published_utc": "2026-11-19T09:12:38+00:00",
+      "publisher": "Yahoo",
+      "title": "What Could Workday (WDAY) Gain From Its AI Deal And EU Cloud Safeguards?"
+    },
     {
       "published_utc": "2026-11-18T15:08:00+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-17T21:45:03+00:00",
       "publisher": "Yahoo",
       "title": "Workday (WDAY) Registers a Bigger Fall Than the Market: Important Facts to Note"
-    },
-    {
-      "published_utc": "2026-11-17T12:18:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Strada deepens Workday partnership to deploy Talent AI capabilities, expand UK public sector access and advance payroll innovation at Workday Rising EMEA 2026"
-    },
-    {
-      "published_utc": "2026-11-16T16:44:05+00:00",
-      "publisher": "Yahoo",
-      "title": "Here’s What Boosted Workday (WDAY) Share Price in Q3"
-    },
-    {
-      "published_utc": "2026-11-13T06:11:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday (WDAY) Deepens Its AI Push Through Two New Partnerships"
-    },
-    {
-      "published_utc": "2026-11-12T15:30:10+00:00",
-      "publisher": "Benzinga",
-      "title": "Workday CEO Admits He’s ‘Absolutely’ Worried About AI Job Displacement — Says ‘Yes,’ Companies Will Want to Replace Humans for Less"
     }
   ]
 }
