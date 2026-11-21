@@ -1,9 +1,19 @@
 {
   "ticker": "SKHY",
-  "generated_at": "2026-11-19T12:00:08+00:00",
+  "generated_at": "2026-11-20T11:50:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-19T12:11:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Which ETFs Give You SK hynix While Softening Its Stock Specific Risks?"
+    },
+    {
+      "published_utc": "2026-11-19T08:24:36+00:00",
+      "publisher": "Yahoo",
+      "title": "ANT Stock’s Debut Could Be A Blockbuster – But SpaceX And SK Hynix History Shows Why The First-Day Pop Isn’t Everything"
+    },
     {
       "published_utc": "2026-11-18T19:46:43+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-17T18:20:02+00:00",
       "publisher": "Yahoo",
       "title": "Qualcomm vs. SK Hynix: Stable Revenue vs. Rapid Acceleration"
-    },
-    {
-      "published_utc": "2026-11-17T17:49:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Micron, SanDisk and SK Hynix Face New Warning From Wall Street"
-    },
-    {
-      "published_utc": "2026-11-17T16:06:40+00:00",
-      "publisher": "Yahoo",
-      "title": "SanDisk and Micron Fall 4% as GF Securities Cuts NAND Price Forecast and Warns of a Glut; SK Hynix Dips"
     }
   ]
 }

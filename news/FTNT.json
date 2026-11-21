@@ -1,9 +1,39 @@
 {
   "ticker": "FTNT",
-  "generated_at": "2026-11-19T12:00:08+00:00",
+  "generated_at": "2026-11-20T11:50:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-19T16:00:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Westlands Advisory Names Fortinet a Leader in OT Cybersecurity Platforms"
+    },
+    {
+      "published_utc": "2026-11-19T14:09:11+00:00",
+      "publisher": "Yahoo",
+      "title": "How Much Downside Is Left In Fortinet Stock?"
+    },
+    {
+      "published_utc": "2026-11-19T12:33:12+00:00",
+      "publisher": "Yahoo",
+      "title": "What Is Driving Fortinet Stock?"
+    },
+    {
+      "published_utc": "2026-11-18T17:00:22+00:00",
+      "publisher": "Benzinga",
+      "title": "$1000 Invested In Fortinet 15 Years Ago Would Be Worth This Much Today"
+    },
+    {
+      "published_utc": "2026-11-18T15:48:38+00:00",
+      "publisher": "Benzinga",
+      "title": "Fortinet Stock Pops Amid Digital Infrastructure Security Concerns"
+    },
+    {
+      "published_utc": "2026-11-18T13:05:04+00:00",
+      "publisher": "CNBC",
+      "title": "Final Trades: Fortinet, UnitedHealth, Disney and CrowdStrike"
+    },
     {
       "published_utc": "2026-11-17T14:20:00+00:00",
       "publisher": "Yahoo",
@@ -33,31 +63,6 @@
       "published_utc": "2026-11-12T18:59:13+00:00",
       "publisher": "SeekingAlpha",
       "title": "Fortinet, Inc. (FTNT) Presents at BMO Capital Technology and Innovation Leaders Conference Transcript"
-    },
-    {
-      "published_utc": "2026-11-11T16:26:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet Raises 2026 Outlook After Strong Q3: Time to Hold the Stock?"
-    },
-    {
-      "published_utc": "2026-11-10T13:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Will Fortinet's Cash Flow Profile Support the Stock Amid Higher Capex?"
-    },
-    {
-      "published_utc": "2026-11-05T20:14:18+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet (FTNT) Unveiled Two New Security Services"
-    },
-    {
-      "published_utc": "2026-11-05T14:12:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet (FTNT) Stock May Be 11% Undervalued Following Service Outlook Cut"
-    },
-    {
-      "published_utc": "2026-11-05T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Fortinet and Equinix Secure Distributed AI at Scale"
     }
   ]
 }

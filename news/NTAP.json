@@ -1,9 +1,29 @@
 {
   "ticker": "NTAP",
-  "generated_at": "2026-11-19T12:00:08+00:00",
+  "generated_at": "2026-11-20T11:50:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-19T21:50:02+00:00",
+      "publisher": "Yahoo",
+      "title": "NetApp (NTAP) Stock Moves -1.17%: What You Should Know"
+    },
+    {
+      "published_utc": "2026-11-19T15:40:02+00:00",
+      "publisher": "Yahoo",
+      "title": "SMCI vs. NTAP: Which Stock Is the Better Value Option?"
+    },
+    {
+      "published_utc": "2026-11-19T14:51:00+00:00",
+      "publisher": "Yahoo",
+      "title": "NetApp vs. Dell: Which AI Data Storage Stock is the Better Buy?"
+    },
+    {
+      "published_utc": "2026-11-19T00:22:20+00:00",
+      "publisher": "Yahoo",
+      "title": "Is NetApp (NTAP) Priced For Perfection As AI Demand Builds?"
+    },
     {
       "published_utc": "2026-11-18T14:09:39+00:00",
       "publisher": "Yahoo",
@@ -43,11 +63,6 @@
       "published_utc": "2026-11-10T13:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Nebul Adopts NetApp Novus to Power Sovereign AI Infrastructure"
-    },
-    {
-      "published_utc": "2026-11-10T09:01:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp Hosts Second Quarter of Fiscal Year 2027 Financial Results Webcast"
     }
   ]
 }

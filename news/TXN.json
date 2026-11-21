@@ -1,9 +1,24 @@
 {
   "ticker": "TXN",
-  "generated_at": "2026-11-19T12:00:08+00:00",
+  "generated_at": "2026-11-20T11:50:49+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-19T14:40:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Texas Instruments' Sales Boom Its Biggest Risk?"
+    },
+    {
+      "published_utc": "2026-11-19T11:06:26+00:00",
+      "publisher": "Yahoo",
+      "title": "First Trust NASDAQ-100 Tech (QTEC) Sells AppLovin and Texas Instruments on Tuesday"
+    },
+    {
+      "published_utc": "2026-11-19T02:13:09+00:00",
+      "publisher": "Yahoo",
+      "title": "What Does Texas Instruments (TXN) New AI Push Mean For Its Industrial Growth?"
+    },
     {
       "published_utc": "2026-11-18T14:30:23+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-12T20:15:46+00:00",
       "publisher": "Yahoo",
       "title": "Texas Instruments (TXN) Stock Looks Fully Valued After Fresh Embedded AI News"
-    },
-    {
-      "published_utc": "2026-11-12T12:30:02+00:00",
-      "publisher": "Yahoo",
-      "title": "If You Invested $1000 in Texas Instruments a Decade Ago, This is How Much It'd Be Worth Now"
-    },
-    {
-      "published_utc": "2026-11-12T11:19:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Will Texas Instruments' 2027 Pricing Strategy Lift Profitability?"
-    },
-    {
-      "published_utc": "2026-11-12T10:10:49+00:00",
-      "publisher": "ChartMill",
-      "title": "Texas Instruments (NASDAQ:TXN): A Quality Dividend Stock for Income Investors"
     }
   ]
 }
