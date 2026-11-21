@@ -1,9 +1,59 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-20T11:50:49+00:00",
+  "generated_at": "2026-11-21T11:19:02+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-20T20:12:47+00:00",
+      "publisher": "Yahoo",
+      "title": "What Coinbase Global Bears Saw Before A 54% Drop"
+    },
+    {
+      "published_utc": "2026-11-20T16:59:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Launches Crypto Options for Non-US Users"
+    },
+    {
+      "published_utc": "2026-11-20T16:53:06+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Plans Its Own Prediction Markets by Mid-2027. That’s a New Rival for Robinhood"
+    },
+    {
+      "published_utc": "2026-11-20T15:30:19+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Sets Mid-2027 Goal to Write Its Own Event Contracts, Bloomberg Reports"
+    },
+    {
+      "published_utc": "2026-11-20T15:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase falls below Morgan Stanley’s $120 target"
+    },
+    {
+      "published_utc": "2026-11-20T14:12:41+00:00",
+      "publisher": "Yahoo",
+      "title": "Fake Elon Musk Stream Drew 500,000 Viewers as Coinbase AI Blocked $4.7M in Crypto Transfers"
+    },
+    {
+      "published_utc": "2026-11-20T11:23:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Targets In-House Prediction Markets by First Half of 2027: Report"
+    },
+    {
+      "published_utc": "2026-11-20T10:30:53+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Asks CFTC to Keep Crypto Contracts in Play Under Prediction Market Swap Rule"
+    },
+    {
+      "published_utc": "2026-11-20T09:39:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Plans to Launch Its Own US Prediction Market Contracts in Early 2027"
+    },
+    {
+      "published_utc": "2026-11-20T08:32:20+00:00",
+      "publisher": "Benzinga",
+      "title": "Coinbase Targets In-House Prediction Markets as Shares Sink to 2023 Levels"
+    },
     {
       "published_utc": "2026-11-19T21:02:16+00:00",
       "publisher": "Yahoo",
@@ -13,56 +63,6 @@
       "published_utc": "2026-11-19T20:53:07+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase Reportedly Plans To Launch In-House Prediction Markets In Early 2027"
-    },
-    {
-      "published_utc": "2026-11-19T19:56:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Plans to Bring Prediction Markets In-House, Cutting Reliance on Kalshi"
-    },
-    {
-      "published_utc": "2026-11-19T18:33:23+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase aims to bring prediction markets in-house by H1 of 2027, Bloomberg says"
-    },
-    {
-      "published_utc": "2026-11-19T18:16:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase introduces US crypto spot margin — with a $10M catch"
-    },
-    {
-      "published_utc": "2026-11-19T17:28:24+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Eyes In-House Prediction Markets in First Half 2027"
-    },
-    {
-      "published_utc": "2026-11-19T17:20:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global vs. Interactive Brokers Group: Which Financial Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-19T17:10:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase CEO Predicts 99.999% of Financial Transactions Will Happen “Between Agents” Within 10 Years"
-    },
-    {
-      "published_utc": "2026-11-19T17:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Expect crypto to rebound after Anthropic's IPO, and Coinbase launching spot margin returns"
-    },
-    {
-      "published_utc": "2026-11-19T16:50:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-19T16:20:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Global vs. Nu: Which Financial Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-19T05:17:48+00:00",
-      "publisher": "Yahoo",
-      "title": "What Could Coinbase Global (COIN) Gain From Tokenized US Stocks Onchain?"
     }
   ]
 }

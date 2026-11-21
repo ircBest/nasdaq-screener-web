@@ -1,9 +1,14 @@
 {
   "ticker": "APPN",
-  "generated_at": "2026-11-20T11:50:49+00:00",
+  "generated_at": "2026-11-21T11:19:02+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-20T13:10:43+00:00",
+      "publisher": "ChartMill",
+      "title": "Appian (NASDAQ:APPN): High Growth Momentum Meets a Breakout Setup"
+    },
     {
       "published_utc": "2026-11-18T09:00:00+00:00",
       "publisher": "Yahoo",
@@ -38,31 +43,6 @@
       "published_utc": "2026-11-09T06:13:36+00:00",
       "publisher": "Yahoo",
       "title": "APPN Q3 2026 deep dive: AI adoption and platform modernization drive outperformance"
-    },
-    {
-      "published_utc": "2026-11-06T17:09:00+00:00",
-      "publisher": "Benzinga",
-      "title": "Citigroup Maintains Buy on Appian, Raises Price Target to $69"
-    },
-    {
-      "published_utc": "2026-11-06T16:25:55+00:00",
-      "publisher": "Benzinga",
-      "title": "DA Davidson Maintains Neutral on Appian, Raises Price Target to $60"
-    },
-    {
-      "published_utc": "2026-11-06T16:15:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Wall Street Still Thinks Appian Stock Can Gain 50% from Here"
-    },
-    {
-      "published_utc": "2026-11-06T15:21:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Appian Q3 Earnings Beat Estimates, Revenues Increase Y/Y"
-    },
-    {
-      "published_utc": "2026-11-06T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "APPN Q3 Earnings Call Highlights AI Demand and Higher Outlook"
     }
   ]
 }

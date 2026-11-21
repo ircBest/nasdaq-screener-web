@@ -1,13 +1,33 @@
 {
   "ticker": "NXPI",
-  "generated_at": "2026-11-20T11:50:49+00:00",
+  "generated_at": "2026-11-21T11:19:02+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
     {
+      "published_utc": "2026-11-20T17:02:19+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "NXPI Semiconductors And Ambarella: Weighing The Pros And Cons Of A Potential Deal"
+    },
+    {
+      "published_utc": "2026-11-20T12:17:35+00:00",
+      "publisher": "Yahoo",
+      "title": "What Could NXP Semiconductors (NXPI) New Robotics Platform Mean For Investors?"
+    },
+    {
+      "published_utc": "2026-11-19T19:51:45+00:00",
+      "publisher": "Yahoo",
+      "title": "Ambarella Stock Soars on Reports NXP Semiconductors Deal Is Drawing to a Close"
+    },
+    {
       "published_utc": "2026-11-19T13:00:00+00:00",
       "publisher": "Yahoo",
       "title": "NXP Semiconductors Announces Quarterly Dividend"
+    },
+    {
+      "published_utc": "2026-11-19T12:24:58+00:00",
+      "publisher": "Benzinga",
+      "title": "StoneX Initiates Coverage On NXP Semiconductors with Buy Rating, Announces Price Target of $340"
     },
     {
       "published_utc": "2026-11-19T11:03:54+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-12T10:31:46+00:00",
       "publisher": "Yahoo",
       "title": "Are Wall Street Analysts Predicting NXP Semiconductors Stock Will Climb or Sink?"
-    },
-    {
-      "published_utc": "2026-11-12T05:15:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Did NXP Semiconductors (NXPI) Climb After Its Latest Update?"
-    },
-    {
-      "published_utc": "2026-11-12T04:31:43+00:00",
-      "publisher": "Yahoo",
-      "title": "NXP Semiconductors (NXPI) Stock Appears Fully Valued After Its 42% Run"
-    },
-    {
-      "published_utc": "2026-11-12T02:16:43+00:00",
-      "publisher": "Yahoo",
-      "title": "How Robotics Platform Launch Will Impact NXP Stock Investors"
-    },
-    {
-      "published_utc": "2026-11-11T11:02:17+00:00",
-      "publisher": "Yahoo",
-      "title": "ETFs Are Net Sellers of NXP Semiconductors (NXPI) on Nov. 9"
     }
   ]
 }

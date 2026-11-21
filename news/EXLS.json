@@ -1,9 +1,14 @@
 {
   "ticker": "EXLS",
-  "generated_at": "2026-11-20T11:50:49+00:00",
+  "generated_at": "2026-11-21T11:19:02+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-20T09:11:03+00:00",
+      "publisher": "ChartMill",
+      "title": "ExlService Holdings (NASDAQ:EXLS): A Growth-at-a-Reasonable-Price Stock to Consider"
+    },
     {
       "published_utc": "2026-11-19T16:45:03+00:00",
       "publisher": "Yahoo",
@@ -33,11 +38,6 @@
       "published_utc": "2026-11-13T11:30:54+00:00",
       "publisher": "ChartMill",
       "title": "ExlService (NASDAQ:EXLS) Combines Strong Growth With a High-Quality Technical Setup"
-    },
-    {
-      "published_utc": "2026-11-06T13:15:16+00:00",
-      "publisher": "Yahoo",
-      "title": "ExlService Holdings, Inc. (EXLS) Hits Fresh High: Is There Still Room to Run?"
     }
   ]
 }

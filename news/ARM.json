@@ -1,9 +1,14 @@
 {
   "ticker": "ARM",
-  "generated_at": "2026-11-20T11:50:49+00:00",
+  "generated_at": "2026-11-21T11:19:02+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-20T13:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Zacks Investment Ideas feature highlights: Nasdaq, Nvidia, Advanced Micro Devices, SanDisk, Nebius Arm Holdings and Anthropic"
+    },
     {
       "published_utc": "2026-11-19T20:05:15+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-10T16:21:37+00:00",
       "publisher": "Yahoo",
       "title": "Arm Holdings plc (ARM) Was Bought Back After a Sharp Sell-Off: What’s Driving the Renewed Interest?"
-    },
-    {
-      "published_utc": "2026-11-10T13:08:10+00:00",
-      "publisher": "Yahoo",
-      "title": "ARM Just Dropped 13% After Earnings. Is It Time to Sell, or Load Up?"
     }
   ]
 }

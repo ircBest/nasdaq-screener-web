@@ -1,9 +1,24 @@
 {
   "ticker": "NTAP",
-  "generated_at": "2026-11-20T11:50:49+00:00",
+  "generated_at": "2026-11-21T11:19:02+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-20T16:10:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Why NetApp (NTAP) is Poised to Beat Earnings Estimates Again"
+    },
+    {
+      "published_utc": "2026-11-20T16:00:02+00:00",
+      "publisher": "Yahoo",
+      "title": "What Makes NetApp (NTAP) a New Buy Stock"
+    },
+    {
+      "published_utc": "2026-11-20T15:09:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Purpose-Built Backup Appliance (PBBA) - Global Strategic Business Report 2026: Capitalize on 8.4% CAGR and $15.9B by 2032 with Key Players Dell EMC, IBM, NetApp and Veeam"
+    },
     {
       "published_utc": "2026-11-19T21:50:02+00:00",
       "publisher": "Yahoo",
@@ -18,6 +33,11 @@
       "published_utc": "2026-11-19T14:51:00+00:00",
       "publisher": "Yahoo",
       "title": "NetApp vs. Dell: Which AI Data Storage Stock is the Better Buy?"
+    },
+    {
+      "published_utc": "2026-11-19T11:15:46+00:00",
+      "publisher": "Benzinga",
+      "title": "$100 Invested In NetApp 10 Years Ago Would Be Worth This Much Today"
     },
     {
       "published_utc": "2026-11-19T00:22:20+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-12T21:50:02+00:00",
       "publisher": "Yahoo",
       "title": "Why the Market Dipped But NetApp (NTAP) Gained Today"
-    },
-    {
-      "published_utc": "2026-11-12T13:00:02+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp, Inc. (NTAP) Is a Trending Stock: Facts to Know Before Betting on It"
-    },
-    {
-      "published_utc": "2026-11-12T12:11:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Nebul Picks NetApp Novus: Why It Matters for NTAP's AI Growth"
-    },
-    {
-      "published_utc": "2026-11-11T17:04:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NetApp's Q2 Gross Margin Guide: Is Another Sequential Dip Ahead?"
-    },
-    {
-      "published_utc": "2026-11-10T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Nebul Adopts NetApp Novus to Power Sovereign AI Infrastructure"
     }
   ]
 }

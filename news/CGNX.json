@@ -1,9 +1,19 @@
 {
   "ticker": "CGNX",
-  "generated_at": "2026-11-20T11:50:49+00:00",
+  "generated_at": "2026-11-21T11:19:02+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-20T01:14:46+00:00",
+      "publisher": "Yahoo",
+      "title": "Cognex (CGNX) Stock Looks Fully Priced After A 38% Run"
+    },
+    {
+      "published_utc": "2026-11-20T00:21:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Cognex (CGNX) Could Be 36% Undervalued As Investors Reassess The Story"
+    },
     {
       "published_utc": "2026-11-19T15:23:19+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-09T07:33:36+00:00",
       "publisher": "Yahoo",
       "title": "5 insightful analyst questions from Cognex’s Q3 2026 earnings call"
-    },
-    {
-      "published_utc": "2026-11-06T16:46:32+00:00",
-      "publisher": "Benzinga",
-      "title": "Stephens & Co. Maintains Overweight on Cognex, Lowers Price Target to $70"
-    },
-    {
-      "published_utc": "2026-11-06T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CGNX Q3 Earnings Call Highlights Outlook and Margin Expansion"
     }
   ]
 }

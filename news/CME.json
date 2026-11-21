@@ -1,9 +1,39 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-11-20T11:50:49+00:00",
+  "generated_at": "2026-11-21T11:19:02+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-20T17:07:40+00:00",
+      "publisher": "Yahoo",
+      "title": "CME’s CEO Just Sold 43% of His Shares Near a Record"
+    },
+    {
+      "published_utc": "2026-11-20T15:30:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is CME (CME) Up 0.1% Since Last Earnings Report?"
+    },
+    {
+      "published_utc": "2026-11-20T15:26:18+00:00",
+      "publisher": "Yahoo",
+      "title": "XRP News: CME Futures Hit $81.2 Billion in 18 Months – So Why Is XRP Down 61%?"
+    },
+    {
+      "published_utc": "2026-11-20T12:13:58+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group Stock And Other Exchange Operators Leveraged To AI Trading"
+    },
+    {
+      "published_utc": "2026-11-20T11:13:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is CME Group (CME) Pushing Into Wind Power Futures Now?"
+    },
+    {
+      "published_utc": "2026-11-20T10:05:17+00:00",
+      "publisher": "Benzinga",
+      "title": "CME Group CEO Terrence Duffy Sells $8M As Shares Pull Back From Recent Highs"
+    },
     {
       "published_utc": "2026-11-19T12:00:00+00:00",
       "publisher": "Yahoo",
@@ -33,36 +63,6 @@
       "published_utc": "2026-11-17T11:07:07+00:00",
       "publisher": "Yahoo",
       "title": "CME Stock: Is Wall Street Bullish or Bearish?"
-    },
-    {
-      "published_utc": "2026-11-16T11:56:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CME vs. Morningstar: Which Financial Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-11T19:14:09+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Hits Record October Volume, Is The Stock Already Pricey?"
-    },
-    {
-      "published_utc": "2026-11-11T13:13:05+00:00",
-      "publisher": "Benzinga",
-      "title": "'Nuclear Revival Spurs CME to Move Ahead on Physical Uranium Contracts' - Bloomberg Exclusive"
-    },
-    {
-      "published_utc": "2026-11-10T18:45:12+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Delivers Resilient Performance Amid Competition"
-    },
-    {
-      "published_utc": "2026-11-10T13:15:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CME vs. PayPal: Which Financial Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-10T13:05:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CME vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?"
     }
   ]
 }
