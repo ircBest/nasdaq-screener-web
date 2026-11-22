@@ -1,13 +1,13 @@
 {
   "observation_date": "2026-11-21",
   "price_date": "2026-11-20",
-  "generated_at": "2026-11-21T11:18:40+00:00",
+  "generated_at": "2026-11-22T11:33:55+00:00",
   "note": "그날 살펴본 종목 전체를 기대되는 순서대로 세운 것입니다. '사라 / 사지 마라' 가 아니라 순서이며, 이 순서가 맞는지는 아직 증명되지 않았습니다.",
   "summary": {
     "ranked": 304,
     "profit": 167,
-    "loss": 65,
-    "unknown": 72,
+    "loss": 66,
+    "unknown": 71,
     "all_three": 145
   },
   "rows": [
@@ -216,10 +216,10 @@
       "price": 16.83,
       "day_change_pct": -18.06,
       "from_high60_pct": -73.37,
-      "profit": null,
-      "cash": null,
+      "profit": false,
+      "cash": false,
       "growth": true,
-      "revenue_growth_pct": 412.3
+      "revenue_growth_pct": 1859.7
     },
     {
       "rank": 16,
@@ -1367,7 +1367,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 29.0
+      "revenue_growth_pct": 25.3
     },
     {
       "rank": 98,
@@ -1437,7 +1437,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 10.9
+      "revenue_growth_pct": 13.3
     },
     {
       "rank": 103,
@@ -1479,7 +1479,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 34.5
+      "revenue_growth_pct": 39.2
     },
     {
       "rank": 106,
@@ -1493,7 +1493,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 2.2
+      "revenue_growth_pct": 1.0
     },
     {
       "rank": 107,
@@ -1647,7 +1647,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 8.8
+      "revenue_growth_pct": 19.6
     },
     {
       "rank": 118,
@@ -1773,7 +1773,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 69.7
+      "revenue_growth_pct": 84.0
     },
     {
       "rank": 127,
@@ -1969,7 +1969,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 28.1
+      "revenue_growth_pct": 23.1
     },
     {
       "rank": 141,
@@ -2164,8 +2164,8 @@
       "from_high60_pct": -63.16,
       "profit": false,
       "cash": false,
-      "growth": false,
-      "revenue_growth_pct": -0.6
+      "growth": true,
+      "revenue_growth_pct": 20.7
     },
     {
       "rank": 155,
@@ -2585,7 +2585,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 122.6
+      "revenue_growth_pct": 131.1
     },
     {
       "rank": 185,
@@ -3061,7 +3061,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 17.6
+      "revenue_growth_pct": 24.4
     },
     {
       "rank": 219,
@@ -3341,7 +3341,7 @@
       "profit": true,
       "cash": true,
       "growth": true,
-      "revenue_growth_pct": 13.7
+      "revenue_growth_pct": 12.1
     },
     {
       "rank": 239,
@@ -4055,7 +4055,7 @@
       "profit": true,
       "cash": true,
       "growth": false,
-      "revenue_growth_pct": -6.8
+      "revenue_growth_pct": -24.7
     },
     {
       "rank": 290,

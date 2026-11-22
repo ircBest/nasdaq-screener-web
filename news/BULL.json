@@ -1,9 +1,29 @@
 {
   "ticker": "BULL",
-  "generated_at": "2026-11-21T11:19:02+00:00",
+  "generated_at": "2026-11-22T11:34:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-21T22:47:21+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull: 3 Key Takeaways for Long-Term Investors"
+    },
+    {
+      "published_utc": "2026-11-21T13:09:37+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull (BULL) Stock Looks Fully Priced On New AI Premium Features"
+    },
+    {
+      "published_utc": "2026-11-21T12:11:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull (BULL) Expands Premium Benefits, Is It Still Below Fair Value?"
+    },
+    {
+      "published_utc": "2026-11-20T15:49:40+00:00",
+      "publisher": "Benzinga",
+      "title": "Rosenblatt Maintains Buy on Webull, Lowers Price Target to $10"
+    },
     {
       "published_utc": "2026-11-20T15:45:05+00:00",
       "publisher": "Yahoo",
@@ -13,6 +33,11 @@
       "published_utc": "2026-11-20T14:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Webull Unveils New Benefits Coming to Webull Premium, Bringing Advanced Analytics and AI Research to Active Traders"
+    },
+    {
+      "published_utc": "2026-11-20T13:30:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Webull Corporation Class A Ordinary Shares Q3 2026 Earnings Call Summary"
     },
     {
       "published_utc": "2026-11-20T08:35:07+00:00",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-19T23:00:40+00:00",
       "publisher": "ChartMill",
       "title": "Webull Corp (NASDAQ:BULL) Q3 2026 Earnings: EPS Beat, Revenue In Line, Muted After-Hours Reaction"
-    },
-    {
-      "published_utc": "2026-11-19T21:30:01+00:00",
-      "publisher": "Yahoo",
-      "title": "Webull Corporation (BULL) Tops Q3 Earnings and Revenue Estimates"
-    },
-    {
-      "published_utc": "2026-11-19T21:15:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Webull Reports Third Quarter 2026 Financial Results"
-    },
-    {
-      "published_utc": "2026-11-19T20:01:39+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Webull Corporation 2026 Q3 - Results - Earnings Call Presentation"
-    },
-    {
-      "published_utc": "2026-11-19T17:30:52+00:00",
-      "publisher": "Benzinga",
-      "title": "Webull Stock Wavers Despite Solid Q3 Results: CEO Points to 'Strong Engagement Among Active Traders'"
-    },
-    {
-      "published_utc": "2026-11-19T17:17:02+00:00",
-      "publisher": "Benzinga",
-      "title": "Webull Q3 Adj. EPS $0.13 Beats $0.06 Estimate, Sales $218.717M Beat $218.374M Estimate"
     }
   ]
 }

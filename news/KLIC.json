@@ -1,9 +1,19 @@
 {
   "ticker": "KLIC",
-  "generated_at": "2026-11-21T11:19:02+00:00",
+  "generated_at": "2026-11-22T11:34:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-21T02:11:15+00:00",
+      "publisher": "Yahoo",
+      "title": "Kulicke And Soffa Industries (KLIC) Posted Strong Results, Is The Stock Still Cheap?"
+    },
+    {
+      "published_utc": "2026-11-20T11:29:48+00:00",
+      "publisher": "Benzinga",
+      "title": "B. Riley Securities Maintains Neutral on Kulicke & Soffa Indus, Raises Price Target to $71"
+    },
     {
       "published_utc": "2026-11-20T06:30:12+00:00",
       "publisher": "Benzinga",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-18T21:05:00+00:00",
       "publisher": "Yahoo",
       "title": "Kulicke & Soffa Reports Fourth Quarter 2026 Results"
-    },
-    {
-      "published_utc": "2026-11-18T21:05:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Kulicke & Soffa Accelerates Industry Shift to Panel-Level Capability for AI Applications"
-    },
-    {
-      "published_utc": "2026-11-18T17:14:30+00:00",
-      "publisher": "Benzinga",
-      "title": "Kulicke & Soffa Indus Sees Q1 Adj EPS $1.49-$1.82 vs $1.43 Est; Sees Sales $390.000M-$430.000M vs $373.300M Est"
     }
   ]
 }

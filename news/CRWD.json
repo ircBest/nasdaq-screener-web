@@ -1,9 +1,24 @@
 {
   "ticker": "CRWD",
-  "generated_at": "2026-11-21T11:19:02+00:00",
+  "generated_at": "2026-11-22T11:34:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-21T19:02:24+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation"
+    },
+    {
+      "published_utc": "2026-11-21T02:29:33+00:00",
+      "publisher": "Yahoo",
+      "title": "Crowd Pleaser….Crowdstrike  Wants to Buy Zscaler"
+    },
+    {
+      "published_utc": "2026-11-21T01:30:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment —   ANT, NVDA, TTWO, ZS, CRWD In Focus"
+    },
     {
       "published_utc": "2026-11-20T23:56:14+00:00",
       "publisher": "Yahoo",
@@ -18,6 +33,11 @@
       "published_utc": "2026-11-20T22:27:40+00:00",
       "publisher": "Yahoo",
       "title": "Zscaler Stock Soars 18% On CrowdStrike Takeover Report. $32 Billion Cybersecurity Deal In Focus."
+    },
+    {
+      "published_utc": "2026-11-20T22:16:54+00:00",
+      "publisher": "Benzinga",
+      "title": "CrowdStrike-Zscaler Reported Merger Talks Could Spark One of Cybersecurity’s Biggest Deals Ever: ZS Stock Jumps, CRWD Falls After Hours"
     },
     {
       "published_utc": "2026-11-20T22:16:02+00:00",
@@ -40,29 +60,9 @@
       "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler"
     },
     {
-      "published_utc": "2026-11-20T13:49:17+00:00",
-      "publisher": "Yahoo",
-      "title": "Tech investors are fleeing to CrowdStrike—ignoring a 5,552x P/E"
-    },
-    {
-      "published_utc": "2026-11-20T05:17:25+00:00",
-      "publisher": "Yahoo",
-      "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up"
-    },
-    {
-      "published_utc": "2026-11-20T01:27:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today"
-    },
-    {
-      "published_utc": "2026-11-19T22:37:57+00:00",
-      "publisher": "Yahoo",
-      "title": "AI Hacking Is “a Fantastic Bonanza” for CrowdStrike and Palo Alto, per Paul Kedrosky"
-    },
-    {
-      "published_utc": "2026-11-19T07:53:34+00:00",
-      "publisher": "Benzinga",
-      "title": "Why Is CrowdStrike Stock Surging Thursday?"
+      "published_utc": "2026-11-20T16:11:32+00:00",
+      "publisher": "CNBC",
+      "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor"
     }
   ]
 }

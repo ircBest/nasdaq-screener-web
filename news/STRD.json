@@ -1,9 +1,14 @@
 {
   "ticker": "STRD",
-  "generated_at": "2026-11-21T11:19:02+00:00",
+  "generated_at": "2026-11-22T11:34:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-21T03:10:59+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitcoin Falls Below $60K For First Time Since July, Saylor's MSTR Hits 52-Week Low Amid $14B Paper Loss"
+    },
     {
       "published_utc": "2026-11-20T20:02:35+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-19T02:10:00+00:00",
       "publisher": "Yahoo",
       "title": "Is MicroStrategy’s 12% Dividend Safe? Its $100 Stock Just Broke Again"
-    },
-    {
-      "published_utc": "2026-11-18T15:02:55+00:00",
-      "publisher": "Yahoo",
-      "title": "Analyst Warns of 76% MSTR Stock Drop to $23: Strategy Falls 4%, Riot Climbs 4%, MARA Gains 2%"
     }
   ]
 }

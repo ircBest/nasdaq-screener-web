@@ -1,9 +1,24 @@
 {
   "ticker": "SNDK",
-  "generated_at": "2026-11-21T11:19:02+00:00",
+  "generated_at": "2026-11-22T11:34:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-21T21:43:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Renaissance Technologies Grew Its SanDisk Stake More Than 55-Fold to $481 Million"
+    },
+    {
+      "published_utc": "2026-11-21T16:50:56+00:00",
+      "publisher": "Yahoo",
+      "title": "SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”"
+    },
+    {
+      "published_utc": "2026-11-21T04:25:29+00:00",
+      "publisher": "Yahoo",
+      "title": "Sandisk (SNDK) Implements 8 For 1 Stock Split"
+    },
     {
       "published_utc": "2026-11-20T18:12:44+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-20T14:09:29+00:00",
       "publisher": "Yahoo",
       "title": "SanDisk Tumbles 8% as TrendForce Turns Bearish on 2027 NAND Prices; Micron Falls 5%, SK Hynix Slides 4%"
-    },
-    {
-      "published_utc": "2026-11-20T13:45:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Here’s Why SanDisk Has The Cleaner Setup Over Bigger Rival SKHynix to Through The End of 2026"
-    },
-    {
-      "published_utc": "2026-11-20T13:07:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Zacks Investment Ideas feature highlights: Nasdaq, Nvidia, Advanced Micro Devices, SanDisk, Nebius Arm Holdings and Anthropic"
-    },
-    {
-      "published_utc": "2026-11-20T12:20:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Nasdaq Futures Slide, Anthropic Shares Reverse IPO Gains — LITE, IREN, SNDK, NVDA In Focus"
     }
   ]
 }

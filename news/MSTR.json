@@ -1,9 +1,14 @@
 {
   "ticker": "MSTR",
-  "generated_at": "2026-11-21T11:19:02+00:00",
+  "generated_at": "2026-11-22T11:34:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-21T03:10:59+00:00",
+      "publisher": "Yahoo",
+      "title": "Bitcoin Falls Below $60K For First Time Since July, Saylor's MSTR Hits 52-Week Low Amid $14B Paper Loss"
+    },
     {
       "published_utc": "2026-11-20T20:02:35+00:00",
       "publisher": "Yahoo",
@@ -18,6 +23,11 @@
       "published_utc": "2026-11-20T15:37:02+00:00",
       "publisher": "Yahoo",
       "title": "Why Strategy Stock Tanked 23% This Week"
+    },
+    {
+      "published_utc": "2026-11-20T12:43:47+00:00",
+      "publisher": "Benzinga",
+      "title": "Strategy Stock Slides to 52-Week Low as Bitcoin Dips Below $60,000"
     },
     {
       "published_utc": "2026-11-20T07:54:44+00:00",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-19T14:51:00+00:00",
       "publisher": "Yahoo",
       "title": "Strategy Stock Lives and Dies by Bitcoin. The Crypto’s Slump Takes a Toll."
-    },
-    {
-      "published_utc": "2026-11-19T14:37:29+00:00",
-      "publisher": "Benzinga",
-      "title": "STRC Trading Tops $600M, Saylor ‘Intends to Keep Buying Below $100’"
-    },
-    {
-      "published_utc": "2026-11-19T11:02:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Sinks 26% in a Week as MSCI Drops It. Saylor: “Seller Exhaustion Will Come Long Before Saylor Exhaustion”"
     }
   ]
 }
