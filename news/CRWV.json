@@ -1,9 +1,19 @@
 {
   "ticker": "CRWV",
-  "generated_at": "2026-11-22T11:34:18+00:00",
+  "generated_at": "2026-11-23T12:44:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-22T18:06:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Cathie Wood Just Bought $22 Million of CoreWeave Across 2 ARK Funds"
+    },
+    {
+      "published_utc": "2026-11-22T14:43:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Warning for CoreWeave: Satya Nadella Says “Selling to One or Two Customers Is Not a Business”"
+    },
     {
       "published_utc": "2026-11-21T18:47:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-20T17:51:47+00:00",
       "publisher": "Yahoo",
       "title": "CoreWeave Stocks Fall 6.10% After Co-Founder's $30 Million Bond Bet Fails to Hold Rally"
-    },
-    {
-      "published_utc": "2026-11-20T17:31:19+00:00",
-      "publisher": "Yahoo",
-      "title": "CoreWeave Briefly Trades Below $40 IPO Price Amid Financing Worries"
-    },
-    {
-      "published_utc": "2026-11-20T16:49:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Should You Buy CoreWeave Stock Now Or Wait?"
     }
   ]
 }

@@ -1,9 +1,54 @@
 {
   "ticker": "NVDA",
-  "generated_at": "2026-11-22T11:34:18+00:00",
+  "generated_at": "2026-11-23T12:44:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-22T23:43:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia Just Lost Nearly Half Its Value. A 62-Year-Old With $1 Million in an S&P 500 Index Fund Owns About $50,000 of It Without Buying a Share"
+    },
+    {
+      "published_utc": "2026-11-22T21:08:04+00:00",
+      "publisher": "Yahoo",
+      "title": "U.S. Treasury Secretary Scott Bessent Just Delivered Great News to Former Nvidia CEO Jensen Huang. Should You Buy Nvidia Stock Before Nov. 25?"
+    },
+    {
+      "published_utc": "2026-11-22T21:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Jeff Bezos sends a strong signal to Nvidia stock investors as CEO search heats up"
+    },
+    {
+      "published_utc": "2026-11-22T18:40:08+00:00",
+      "publisher": "Yahoo",
+      "title": "SpaceX Expects to Pass “One Gigawatt a Month” of AI Compute by the End of 2027. That’s Great News for Nvidia"
+    },
+    {
+      "published_utc": "2026-11-22T01:23:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Should You Forget Nvidia and Buy These 2 AI Memory Stocks Instead?"
+    },
+    {
+      "published_utc": "2026-11-22T00:47:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia Stock Has Crashed 48% and Now Trades at 15 Times Earnings, Its Cheapest in More Than a Decade and Cheaper Than Microsoft and Broadcom"
+    },
+    {
+      "published_utc": "2026-11-22T00:30:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Trump Recalls Helping Elon Musk When He Was ‘In Big Trouble,’ Defends Nvidia’s Jensen Huang as One of America’s Rare 'Geniuses'"
+    },
+    {
+      "published_utc": "2026-11-22T00:01:01+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia Without Jensen Huang: 3 Things That Could Go Right and 3 That Could Go Wrong"
+    },
+    {
+      "published_utc": "2026-11-21T23:28:19+00:00",
+      "publisher": "Benzinga",
+      "title": "Kevin O’Leary Says ‘The Bank of NVIDIA Is Closed’ as AI Data Center Boom Faces Scrutiny"
+    },
     {
       "published_utc": "2026-11-21T22:50:00+00:00",
       "publisher": "Yahoo",
@@ -18,51 +63,6 @@
       "published_utc": "2026-11-21T22:07:02+00:00",
       "publisher": "Yahoo",
       "title": "Prediction: This Will Be Nvidia’s Stock Price in 2027 After Its Phenomenal Q3 Results"
-    },
-    {
-      "published_utc": "2026-11-21T21:53:54+00:00",
-      "publisher": "Yahoo",
-      "title": "Nvidia faces US accounting probe amid deepening turmoil: media"
-    },
-    {
-      "published_utc": "2026-11-21T18:35:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Should You Buy Nvidia Stock Right Now?"
-    },
-    {
-      "published_utc": "2026-11-21T18:20:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Marvell Just Dropped 22% in a Week as Nvidia’s Turmoil Hit AI Chips. Sell, or Load Up Before Dec. 1?"
-    },
-    {
-      "published_utc": "2026-11-21T18:08:06+00:00",
-      "publisher": "Yahoo",
-      "title": "3 AI Chip Stocks Retail Investors Are Watching After The Nvidia Selloff"
-    },
-    {
-      "published_utc": "2026-11-21T03:25:58+00:00",
-      "publisher": "Benzinga",
-      "title": "Chuck Schumer Says Trump, Lutnick ‘Sold Out America’ by Approving Nvidia, AMD AI Chip Sales to China: ‘They Get Rich and America Gets Screwed’"
-    },
-    {
-      "published_utc": "2026-11-21T02:48:25+00:00",
-      "publisher": "Yahoo",
-      "title": "NVDA Stock Sees Biggest Fall In 22 Months, But Top Analyst Says Nvidia’s AI Boom Isn’t Over Yet — Here Are 5 Reasons Why"
-    },
-    {
-      "published_utc": "2026-11-21T01:45:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's Why Nvidia Stock Crashed on Friday"
-    },
-    {
-      "published_utc": "2026-11-21T01:30:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment —   ANT, NVDA, TTWO, ZS, CRWD In Focus"
-    },
-    {
-      "published_utc": "2026-11-21T00:30:04+00:00",
-      "publisher": "Yahoo",
-      "title": "Here's How Much Nvidia Stock Is Worth Without Jensen Huang, According to Dan Ives"
     }
   ]
 }

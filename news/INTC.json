@@ -1,9 +1,24 @@
 {
   "ticker": "INTC",
-  "generated_at": "2026-11-22T11:34:18+00:00",
+  "generated_at": "2026-11-23T12:44:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-22T19:17:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel announces more layoffs as workforce shrinks by 7,300"
+    },
+    {
+      "published_utc": "2026-11-22T02:07:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Intel Says It Just Signed Its First Customer for Its Most Advanced Chipmaking Process. The Stock Is Still More Than 60% Below Its June Record."
+    },
+    {
+      "published_utc": "2026-11-21T20:45:47+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Intel's Turnaround Story Remains Firmly Intact, Buy The Panic"
+    },
     {
       "published_utc": "2026-11-21T15:50:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-20T18:40:04+00:00",
       "publisher": "Yahoo",
       "title": "How to Play INTC Stock as Intel Launches Another Round of Layoffs"
-    },
-    {
-      "published_utc": "2026-11-20T18:12:09+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel Stock: Bounceback Potential Etches Path Toward Lower-Cost Ownership"
-    },
-    {
-      "published_utc": "2026-11-20T18:04:07+00:00",
-      "publisher": "Yahoo",
-      "title": "Wedbush: Microsoft May Give Intel a Crucial AI Chip Win"
-    },
-    {
-      "published_utc": "2026-11-20T17:22:12+00:00",
-      "publisher": "Yahoo",
-      "title": "Intel Corporation (INTC) Faces a High-Stakes Turnaround as Server Demand Improves: Can the Stock Recover?"
     }
   ]
 }

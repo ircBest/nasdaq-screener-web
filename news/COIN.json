@@ -1,9 +1,19 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-22T11:34:18+00:00",
+  "generated_at": "2026-11-23T12:44:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-22T18:40:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Coinbase Stock a Buy, Sell, or Hold 64% Below Its 52-Week High?"
+    },
+    {
+      "published_utc": "2026-11-22T08:49:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase's $21 children's book comes with $50 Bitcoin"
+    },
     {
       "published_utc": "2026-11-21T01:10:40+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-20T10:30:53+00:00",
       "publisher": "Yahoo",
       "title": "Coinbase Asks CFTC to Keep Crypto Contracts in Play Under Prediction Market Swap Rule"
-    },
-    {
-      "published_utc": "2026-11-20T09:39:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Plans to Launch Its Own US Prediction Market Contracts in Early 2027"
-    },
-    {
-      "published_utc": "2026-11-20T08:32:20+00:00",
-      "publisher": "Benzinga",
-      "title": "Coinbase Targets In-House Prediction Markets as Shares Sink to 2023 Levels"
     }
   ]
 }

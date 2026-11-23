@@ -1,9 +1,19 @@
 {
   "ticker": "INTU",
-  "generated_at": "2026-11-22T11:34:18+00:00",
+  "generated_at": "2026-11-23T12:44:20+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-22T18:07:00+00:00",
+      "publisher": "Yahoo",
+      "title": "TurboTax parent's $12 billion bet ends with a costly twist"
+    },
+    {
+      "published_utc": "2026-11-22T00:00:25+00:00",
+      "publisher": "Yahoo",
+      "title": "Intuit vs. Oracle: Which Technology Stock Is a Better Buy for 2027?"
+    },
     {
       "published_utc": "2026-11-20T23:13:00+00:00",
       "publisher": "Yahoo",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-20T16:29:00+00:00",
       "publisher": "Yahoo",
       "title": "Intuit Q1 Earnings Beat Estimates on Online Ecosystem Growth"
-    },
-    {
-      "published_utc": "2026-11-20T16:18:43+00:00",
-      "publisher": "Yahoo",
-      "title": "Update: Intuit Faces AI Headwinds at Credit Karma; RBC Says Long-Term Opportunity Outweighs Risks"
-    },
-    {
-      "published_utc": "2026-11-20T16:16:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Bending Spoons buys Mailchimp for $3.68B"
     }
   ]
 }
