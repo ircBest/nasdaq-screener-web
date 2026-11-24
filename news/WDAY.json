@@ -1,9 +1,24 @@
 {
   "ticker": "WDAY",
-  "generated_at": "2026-11-23T12:44:20+00:00",
+  "generated_at": "2026-11-24T01:17:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T17:46:38+00:00",
+      "publisher": "Yahoo",
+      "title": "7 Big Funds Sold Workday Last Quarter. Should You Follow Them Before Earnings?"
+    },
+    {
+      "published_utc": "2026-11-23T14:15:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Workday Completes Acquisition of C1.ai"
+    },
+    {
+      "published_utc": "2026-11-22T16:20:08+00:00",
+      "publisher": "Benzinga",
+      "title": "Workday Earnings Preview: Can Results Calm SaaSPocalypse Concerns?"
+    },
     {
       "published_utc": "2026-11-20T00:18:07+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-18T07:56:24+00:00",
       "publisher": "Benzinga",
       "title": "Workday Eyes Honeydew to Accelerate Enterprise AI Adoption"
-    },
-    {
-      "published_utc": "2026-11-18T07:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Announces Intent to Acquire Honeydew, a Semantic Layer for AI and Business Intelligence"
-    },
-    {
-      "published_utc": "2026-11-18T07:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Introduces Workday GO for Financials, Giving Growing Companies Financial Software They Won't Outgrow"
-    },
-    {
-      "published_utc": "2026-11-18T07:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Workday Advances EU Sovereign Cloud with New EU-Based Operating Company and Added Safeguards for Customer Data and Services"
     }
   ]
 }

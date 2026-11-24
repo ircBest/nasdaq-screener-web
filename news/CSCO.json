@@ -1,9 +1,34 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-11-23T12:44:20+00:00",
+  "generated_at": "2026-11-24T01:17:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T21:20:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco and OpenAI Launch Shirudo, A New Project to Safeguard Agentic AI"
+    },
+    {
+      "published_utc": "2026-11-23T20:35:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Top Stock Reports for NVIDIA, Cisco & BHP"
+    },
+    {
+      "published_utc": "2026-11-23T16:11:16+00:00",
+      "publisher": "Yahoo",
+      "title": "Cisco Systems (CSCO) Lifted Its Outlook, Is It Still 38% Undervalued?"
+    },
+    {
+      "published_utc": "2026-11-23T14:14:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Global Smart Ports Market Report 2026-2035: Trends, Forecast and Competitive Analysis Featuring ABB, IBM, Kaleris, Siemens, General Electric, Cisco, Trelleborg, ZPMC, Liebherr, Accenture"
+    },
+    {
+      "published_utc": "2026-11-23T13:03:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Ciena vs. Cisco: Which Optical Networking Stock is the Better Buy?"
+    },
     {
       "published_utc": "2026-11-22T14:06:07+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-20T14:53:00+00:00",
       "publisher": "Yahoo",
       "title": "Network Infrastructure and Software Market Report 2026: Global Size, Trends and Forecast to 2030 | Capitalize on Edge and Multi-Cloud Growth with AWS, Microsoft, Cisco, and Huawei"
-    },
-    {
-      "published_utc": "2026-11-20T14:03:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Cisco Fell 89%. Is Nvidia Stock Next?"
-    },
-    {
-      "published_utc": "2026-11-20T13:42:00+00:00",
-      "publisher": "Yahoo",
-      "title": "The Zacks Analyst Blog Highlights Cisco, UnitedHealth and Salesforce"
-    },
-    {
-      "published_utc": "2026-11-20T05:18:58+00:00",
-      "publisher": "Yahoo",
-      "title": "Anthropic Defies Tech Rout On Debut — Tom Lee Sees ‘Big Payoff’ Ahead And Says Cisco’s Wild 1997 Ride Shows Why"
-    },
-    {
-      "published_utc": "2026-11-19T22:57:46+00:00",
-      "publisher": "Yahoo",
-      "title": "HSBC Just Turned Bullish on Cisco Stock Again. Here’s Why It Expects 40% Upside."
-    },
-    {
-      "published_utc": "2026-11-19T22:10:30+00:00",
-      "publisher": "Yahoo",
-      "title": "What Is Cisco Systems (CSCO) Really Gaining From Its New AI Alliances?"
     }
   ]
 }

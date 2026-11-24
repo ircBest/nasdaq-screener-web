@@ -1,9 +1,14 @@
 {
   "ticker": "LIF",
-  "generated_at": "2026-11-23T12:44:20+00:00",
+  "generated_at": "2026-11-24T01:17:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T10:18:17+00:00",
+      "publisher": "Benzinga",
+      "title": "Life360 Names Mark Goines Chairman Of Board; Co-Founder Chris Hulls Transitions From Executive Chairman To Director"
+    },
     {
       "published_utc": "2026-11-11T14:42:15+00:00",
       "publisher": "Benzinga",
@@ -33,36 +38,6 @@
       "published_utc": "2026-11-10T05:09:22+00:00",
       "publisher": "Yahoo",
       "title": "Life360 Inc (LIFX) (Q3 2026) Earnings Call Highlights: Revenue Surges 40% as Advertising ..."
-    },
-    {
-      "published_utc": "2026-11-10T04:14:34+00:00",
-      "publisher": "Yahoo",
-      "title": "What Life360 (LIF) Said on Its Q3 Earnings Call"
-    },
-    {
-      "published_utc": "2026-11-10T01:50:52+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Life360, Inc. (LIF) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-09T22:30:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Life360 (LIF) Reports Q3 Earnings: What Key Metrics Have to Say"
-    },
-    {
-      "published_utc": "2026-11-09T22:15:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Life360: Q3 Earnings Snapshot"
-    },
-    {
-      "published_utc": "2026-11-09T19:05:05+00:00",
-      "publisher": "Benzinga",
-      "title": "Life360 Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-09T17:29:32+00:00",
-      "publisher": "Benzinga",
-      "title": "Life360 Q3 EPS $0.26 Beats $0.24 Estimate, Sales $174.137M Beat $171.421M Estimate"
     }
   ]
 }

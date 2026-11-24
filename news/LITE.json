@@ -1,9 +1,24 @@
 {
   "ticker": "LITE",
-  "generated_at": "2026-11-23T12:44:20+00:00",
+  "generated_at": "2026-11-24T01:17:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T21:42:45+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Lumentum Holdings Stock Trounced the Market Today"
+    },
+    {
+      "published_utc": "2026-11-23T15:57:07+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Optoelectronics and Lumentum Soar 22% as Jensen Huang’s Return to NVIDIA Sparks AI Optics Rebound; Coherent Jumps 19%"
+    },
+    {
+      "published_utc": "2026-11-22T15:15:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Marvell Technology and Lumentum Selloff Raises Questions Over Pending Merger"
+    },
     {
       "published_utc": "2026-11-22T11:59:18+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-20T06:41:04+00:00",
       "publisher": "SeekingAlpha",
       "title": "Lumentum: The Drawdown Might Have Gone Too Far (Rating Upgrade)"
-    },
-    {
-      "published_utc": "2026-11-20T06:15:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Could Tesla Become The Next Lumentum? Gary Black Warns A SpaceX Stock Deal Could Send TSLA Down 25%"
-    },
-    {
-      "published_utc": "2026-11-19T20:28:33+00:00",
-      "publisher": "Yahoo",
-      "title": "Lumentum’s sales surged 137%—so why is its stock crashing?"
-    },
-    {
-      "published_utc": "2026-11-19T19:50:53+00:00",
-      "publisher": "CNBC",
-      "title": "The combination with Marvell is going to be very powerful, says Lumentum CEO Hurlston"
     }
   ]
 }

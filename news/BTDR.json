@@ -1,9 +1,14 @@
 {
   "ticker": "BTDR",
-  "generated_at": "2026-11-23T12:44:20+00:00",
+  "generated_at": "2026-11-24T01:17:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T10:00:18+00:00",
+      "publisher": "Benzinga",
+      "title": "B. Riley Securities Maintains Buy on Bitdeer Techs, Lowers Price Target to $12"
+    },
     {
       "published_utc": "2026-11-19T15:15:59+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-11T03:52:28+00:00",
       "publisher": "Yahoo",
       "title": "Bitdeer (BTDR) Q3 2026 Earnings Call Transcript"
-    },
-    {
-      "published_utc": "2026-11-11T02:21:48+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitdeer Technologies Group Q3 2026 Earnings Call Summary"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "ONDS",
-  "generated_at": "2026-11-23T12:44:20+00:00",
+  "generated_at": "2026-11-24T01:17:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T09:45:09+00:00",
+      "publisher": "Benzinga",
+      "title": "Ondas Reaffirms 2026 Revenue Target Of At Least $550M, Initial 2027 Revenue Target Of At Least $1.1B, Excluding Additional Acquisitions"
+    },
+    {
+      "published_utc": "2026-11-23T09:44:44+00:00",
+      "publisher": "Benzinga",
+      "title": "Ondas CEO Says Company Will Only Consider Using Equity For Acquisitions When Economics Are 'Exceptionally Attractive'; Will Not Compromise Liquidity To Expand Portfolio"
+    },
+    {
+      "published_utc": "2026-11-23T09:44:30+00:00",
+      "publisher": "Benzinga",
+      "title": "Ondas CEO Eric Brock Says In Shareholder Letter Company Intends To 'Substantially Moderate' Pace Of New Acquisitions"
+    },
     {
       "published_utc": "2026-11-20T13:30:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-17T12:55:00+00:00",
       "publisher": "Yahoo",
       "title": "Should You Buy, Hold or Sell Ondas Stock Post-Q3 Earnings?"
-    },
-    {
-      "published_utc": "2026-11-17T11:08:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas' Aggressive Acquisition Spree: Can It Fuel Sustained Growth?"
-    },
-    {
-      "published_utc": "2026-11-17T10:38:58+00:00",
-      "publisher": "Yahoo",
-      "title": "How Risky Is Ondas Stock After Earnings?"
-    },
-    {
-      "published_utc": "2026-11-16T18:10:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Ondas Is Building a Defense Growth Engine, But Can It Deliver on Its Backlog?"
     }
   ]
 }

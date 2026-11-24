@@ -1,9 +1,34 @@
 {
   "ticker": "VNET",
-  "generated_at": "2026-11-23T12:44:20+00:00",
+  "generated_at": "2026-11-24T01:17:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T12:21:10+00:00",
+      "publisher": "ChartMill",
+      "title": "VNET Group (NASDAQ:VNET) Posts Narrower-Than-Expected Q3 2026 Loss as Revenue Lands Roughly In Line"
+    },
+    {
+      "published_utc": "2026-11-23T11:32:13+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "VNET Group, Inc. (VNET) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "published_utc": "2026-11-23T07:32:28+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "VNET Group, Inc. 2026 Q3 - Results - Earnings Call Presentation"
+    },
+    {
+      "published_utc": "2026-11-23T05:14:02+00:00",
+      "publisher": "Benzinga",
+      "title": "VNET Group Sees FY2026 Total Net Revenue of RMB 11.5B-RMB 11.8B"
+    },
+    {
+      "published_utc": "2026-11-23T05:04:36+00:00",
+      "publisher": "Benzinga",
+      "title": "VNET Gr Q3 EPS $(0.04) Misses $0.53 Estimate, Sales $442.000M Beat $441.850M Estimate"
+    },
     {
       "published_utc": "2026-11-16T14:00:03+00:00",
       "publisher": "Yahoo",

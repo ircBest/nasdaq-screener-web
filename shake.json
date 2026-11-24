@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T12:44:10+00:00",
+  "updated_utc": "2026-11-24T01:17:07+00:00",
   "date": "2026-11-20",
   "note": "최근 60거래일 동안 주가가 하루에 보통 얼마나 움직였는지로 나눈 단계입니다. 그날 살펴본 종목들 안에서의 순서이고, 앞으로 오르거나 내린다는 뜻이 아닙니다. 흔들림이 큰 종목은 크게 빠지는 일도 크게 오르는 일도 많습니다.",
   "history_note": "과거 비율은 2021 ~ 2025년 같은 방식으로 나눈 종목들이 4주(20거래일) 안에 종가가 한때 20% 넘게 빠졌던 · 올랐던 비율과, 4주 뒤 20% 넘게 빠져 있던 비율과 20% 넘게 올라 있던 비율입니다. 지금 상장된 종목만으로 센 값이라 빠진 비율은 실제보다 낮게 나왔을 수 있습니다.",
@@ -23,7 +23,7 @@
         0,
         40
       ],
-      "count": 122,
+      "count": 119,
       "n": 107844,
       "down_pct": 2.1,
       "up_pct": 3.9,
@@ -37,7 +37,7 @@
         40,
         70
       ],
-      "count": 91,
+      "count": 90,
       "n": 81135,
       "down_pct": 5.6,
       "up_pct": 8.8,
@@ -51,7 +51,7 @@
         70,
         90
       ],
-      "count": 61,
+      "count": 60,
       "n": 54100,
       "down_pct": 10.9,
       "up_pct": 15.6,
@@ -65,7 +65,7 @@
         90,
         100
       ],
-      "count": 31,
+      "count": 30,
       "n": 27492,
       "down_pct": 19.4,
       "up_pct": 22.4,
@@ -405,7 +405,7 @@
       }
     },
     "AOSL": {
-      "tier": "high",
+      "tier": "very_high",
       "daily_move_pct": 6.7,
       "industry": "Semiconductors",
       "dip": {
@@ -657,7 +657,7 @@
       }
     },
     "BSP": {
-      "tier": "high",
+      "tier": "very_high",
       "daily_move_pct": 6.6,
       "industry": "Software - Application"
     },
@@ -1053,19 +1053,6 @@
         "deeper_pct": 0.2,
         "high60": 118.39,
         "high60_date": "2026-10-09",
-        "history_from": "2021-10-25"
-      }
-    },
-    "CSIQ": {
-      "tier": "high",
-      "daily_move_pct": 5.8,
-      "industry": "Solar",
-      "dip": {
-        "grade": "S",
-        "dd60_pct": -56.6,
-        "deeper_pct": 0.1,
-        "high60": 13.87,
-        "high60_date": "2026-09-08",
         "history_from": "2021-10-25"
       }
     },
@@ -1667,11 +1654,6 @@
         "history_from": "2021-10-25"
       }
     },
-    "HQ": {
-      "tier": "very_high",
-      "daily_move_pct": 9.1,
-      "industry": "Software - Infrastructure"
-    },
     "IBEX": {
       "tier": "low",
       "daily_move_pct": 2.7,
@@ -1710,11 +1692,6 @@
         "high60_date": "2026-09-11",
         "history_from": "2021-10-25"
       }
-    },
-    "IIIV": {
-      "tier": "low",
-      "daily_move_pct": 2.9,
-      "industry": "Software - Infrastructure"
     },
     "IMOS": {
       "tier": "high",
@@ -1782,7 +1759,7 @@
       }
     },
     "IPGP": {
-      "tier": "low",
+      "tier": "mid",
       "daily_move_pct": 3.5,
       "industry": "Semiconductor Equipment & Materials",
       "dip": {
@@ -2042,7 +2019,7 @@
       }
     },
     "MAAS": {
-      "tier": "mid",
+      "tier": "high",
       "daily_move_pct": 4.9,
       "industry": "Information Technology Services",
       "dip": {
@@ -2250,7 +2227,7 @@
       }
     },
     "MU": {
-      "tier": "mid",
+      "tier": "high",
       "daily_move_pct": 4.9,
       "industry": "Semiconductors",
       "dip": {
@@ -2947,19 +2924,6 @@
         "history_from": "2021-10-25"
       }
     },
-    "QMCO": {
-      "tier": "very_high",
-      "daily_move_pct": 7.0,
-      "industry": "Computer Hardware",
-      "dip": {
-        "grade": "A+",
-        "dd60_pct": -66.7,
-        "deeper_pct": 6.5,
-        "high60": 34.5,
-        "high60_date": "2026-10-02",
-        "history_from": "2021-10-25"
-      }
-    },
     "QNT": {
       "tier": "high",
       "daily_move_pct": 6.0,
@@ -3079,19 +3043,6 @@
         "deeper_pct": 34.4,
         "high60": 9.98,
         "high60_date": "2026-11-06",
-        "history_from": "2021-10-25"
-      }
-    },
-    "RXT": {
-      "tier": "very_high",
-      "daily_move_pct": 7.2,
-      "industry": "Software - Infrastructure",
-      "dip": {
-        "grade": "A+",
-        "dd60_pct": -54.8,
-        "deeper_pct": 6.2,
-        "high60": 4.2,
-        "high60_date": "2026-09-24",
         "history_from": "2021-10-25"
       }
     },
@@ -3827,19 +3778,6 @@
       "daily_move_pct": 6.4,
       "industry": "Software - Infrastructure"
     },
-    "YB": {
-      "tier": "low",
-      "daily_move_pct": 2.6,
-      "industry": "Software - Application",
-      "dip": {
-        "grade": "A",
-        "dd60_pct": -23.7,
-        "deeper_pct": 22.4,
-        "high60": 13.91,
-        "high60_date": "2026-09-11",
-        "history_from": "2025-04-30"
-      }
-    },
     "ZBRA": {
       "tier": "low",
       "daily_move_pct": 2.2,
@@ -3897,16 +3835,16 @@
       "level_name": "평균보다 높음"
     },
     "Computer Hardware": {
-      "count": 15,
+      "count": 14,
       "tiers": {
         "low": 1,
         "mid": 4,
         "high": 7,
-        "very_high": 3
+        "very_high": 2
       },
-      "high_share": 67,
+      "high_share": 64,
       "daily_move_pct": 5.2,
-      "dip_pct": 17.3,
+      "dip_pct": 16.3,
       "level": "high",
       "level_name": "평균보다 높음"
     },
@@ -3956,15 +3894,15 @@
       "count": 23,
       "tiers": {
         "low": 9,
-        "mid": 5,
-        "high": 4,
+        "mid": 4,
+        "high": 5,
         "very_high": 5
       },
-      "high_share": 39,
+      "high_share": 43,
       "daily_move_pct": 4.6,
-      "dip_pct": 13.3,
-      "level": "normal",
-      "level_name": "평균 수준"
+      "dip_pct": 13.7,
+      "level": "high",
+      "level_name": "평균보다 높음"
     },
     "Scientific & Technical Instruments": {
       "count": 7,
@@ -3983,14 +3921,14 @@
     "Semiconductor Equipment & Materials": {
       "count": 23,
       "tiers": {
-        "low": 3,
-        "mid": 10,
+        "low": 2,
+        "mid": 11,
         "high": 7,
         "very_high": 3
       },
       "high_share": 43,
       "daily_move_pct": 4.8,
-      "dip_pct": 13.9,
+      "dip_pct": 14.2,
       "level": "high",
       "level_name": "평균보다 높음"
     },
@@ -3998,55 +3936,55 @@
       "count": 43,
       "tiers": {
         "low": 8,
-        "mid": 13,
+        "mid": 12,
         "high": 18,
-        "very_high": 4
+        "very_high": 5
       },
-      "high_share": 51,
+      "high_share": 53,
       "daily_move_pct": 5.0,
-      "dip_pct": 13.7,
+      "dip_pct": 14.3,
       "level": "high",
       "level_name": "평균보다 높음"
     },
     "Software - Application": {
-      "count": 80,
+      "count": 79,
       "tiers": {
-        "low": 49,
+        "low": 48,
         "mid": 19,
-        "high": 8,
-        "very_high": 4
+        "high": 7,
+        "very_high": 5
       },
       "high_share": 15,
       "daily_move_pct": 3.0,
-      "dip_pct": 7.5,
+      "dip_pct": 7.7,
       "level": "low",
       "level_name": "평균보다 낮음"
     },
     "Software - Infrastructure": {
-      "count": 65,
+      "count": 62,
       "tiers": {
-        "low": 27,
+        "low": 26,
         "mid": 24,
         "high": 7,
-        "very_high": 7
+        "very_high": 5
       },
-      "high_share": 22,
+      "high_share": 19,
       "daily_move_pct": 3.9,
-      "dip_pct": 10.1,
+      "dip_pct": 9.5,
       "level": "normal",
       "level_name": "평균 수준"
     },
     "Solar": {
-      "count": 8,
+      "count": 7,
       "tiers": {
         "low": 1,
         "mid": 4,
-        "high": 3,
+        "high": 2,
         "very_high": 0
       },
-      "high_share": 38,
+      "high_share": 29,
       "daily_move_pct": 4.6,
-      "dip_pct": 11.6,
+      "dip_pct": 10.7,
       "level": "normal",
       "level_name": "평균 수준"
     }
@@ -4282,7 +4220,7 @@
         85
       ],
       "desc": "이 종목 기록에서 깊은 쪽 15 ~ 30% 만큼 내려와 있습니다.",
-      "count": 46,
+      "count": 45,
       "n": 22197,
       "days_pct": 11.2,
       "dd60_median_pct": -22.1,
@@ -4305,7 +4243,7 @@
         95
       ],
       "desc": "이 종목 기록에서 깊은 쪽 5 ~ 15% 만큼 내려와 있습니다.",
-      "count": 63,
+      "count": 61,
       "n": 13122,
       "days_pct": 6.6,
       "dd60_median_pct": -29.0,
@@ -4328,7 +4266,7 @@
         100
       ],
       "desc": "이 종목 기록에서 가장 깊이 빠졌던 5% 안에 있습니다.",
-      "count": 89,
+      "count": 88,
       "n": 8256,
       "days_pct": 4.1,
       "dd60_median_pct": -35.9,

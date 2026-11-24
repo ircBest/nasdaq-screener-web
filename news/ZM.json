@@ -1,9 +1,29 @@
 {
   "ticker": "ZM",
-  "generated_at": "2026-11-23T12:44:20+00:00",
+  "generated_at": "2026-11-24T01:17:19+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T23:09:21+00:00",
+      "publisher": "ChartMill",
+      "title": "Zoom Communications Inc (NASDAQ:ZM) Slips as Weak Guidance Outweighs Earnings Beat"
+    },
+    {
+      "published_utc": "2026-11-23T09:29:07+00:00",
+      "publisher": "Benzinga",
+      "title": "Zoom Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call"
+    },
+    {
+      "published_utc": "2026-11-23T09:21:05+00:00",
+      "publisher": "Benzinga",
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After ANT IPO and Friday’s AI Rout— ORCL, ZS, ZM in Focus (UPDATED)"
+    },
+    {
+      "published_utc": "2026-11-23T06:09:58+00:00",
+      "publisher": "Benzinga",
+      "title": "Hewlett Packard Enterprise, Zoom Communications and 3 Stocks to Watch Heading Into Monday"
+    },
     {
       "published_utc": "2026-11-22T02:06:52+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-17T12:09:15+00:00",
       "publisher": "Benzinga",
       "title": "Citigroup Maintains Buy on Zoom Communications, Raises Price Target to $131"
-    },
-    {
-      "published_utc": "2026-11-16T21:45:03+00:00",
-      "publisher": "Yahoo",
-      "title": "Zoom Communications (ZM) Falls More Steeply Than Broader Market: What Investors Need to Know"
-    },
-    {
-      "published_utc": "2026-11-12T13:34:14+00:00",
-      "publisher": "Yahoo",
-      "title": "What Explains The Move In Zoom Stock?"
-    },
-    {
-      "published_utc": "2026-11-12T13:30:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Zoom Invests in Medaica to Help Expand Clinical Exams to Every Home"
-    },
-    {
-      "published_utc": "2026-11-12T00:22:38+00:00",
-      "publisher": "Benzinga",
-      "title": "Zoom (ZM) Stock Is Trending in After-Hours Trading: Here’s Why"
     }
   ]
 }
