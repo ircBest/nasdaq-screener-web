@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-24T03:03:26+00:00",
+ "generated_at": "2026-11-24T04:56:49+00:00",
  "latest_hours": 36,
  "good_hours": 72,
  "note": "좋은 소식 · 나쁜 소식은 제목에 정해진 말 (예: 실적이 예상보다 좋았다 · 전망을 내렸다) 이 있는 기사를 기계가 골라 묶은 것입니다. 기사 본문은 읽지 않습니다. 사라 · 팔라는 뜻이 아니고, 검증된 신호도 아닙니다. 우리 모의 매매 기록에서 '큰 좋은 소식이 난 다음 날 사기' 는 판정 전이지만 지금까지 기대와 반대로 가고 있습니다. 회사 기사는 제목에 그 회사가 나오는 것만, 업계 소식은 한 회사가 아니라 AI · 반도체 · 데이터센터 · 클라우드 전체를 말하는 것만 실었습니다.",
@@ -177,15 +177,15 @@
  "counts": {
   "latest": 80,
   "good": 56,
-  "bad": 26,
+  "bad": 25,
   "mixed": 5,
   "sector_good": 21,
   "sector_bad": 12,
   "sector_mixed": 5,
   "dropped": {
    "forbidden": 1,
-   "unrelated": 1344,
-   "old": 1324,
+   "unrelated": 1336,
+   "old": 1347,
    "no_time": 0
   }
  },
@@ -751,6 +751,20 @@
    "good": null
   },
   {
+   "time": "2026-11-23T21:41:31+00:00",
+   "publisher": "Yahoo",
+   "title": "How to Play Adobe Stock Before 2027 as Michael Burry Loads Up on More Shares",
+   "t": [
+    "ADBE"
+   ],
+   "names": [
+    "Adobe Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-23T21:40:38+00:00",
    "publisher": "Yahoo",
    "title": "Nvidia closes up more than 30% after Jensen Huang returns as CEO",
@@ -1295,20 +1309,6 @@
    ],
    "names": [
     "CrowdStrike Holdings, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-23T20:05:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Alkami: 3 Key Takeaways for Long-Term Investors",
-   "t": [
-    "ALKT"
-   ],
-   "names": [
-    "Alkami Technology, Inc."
    ],
    "tone": null,
    "kind": null,
@@ -2332,26 +2332,6 @@
      "kind": "target_cut",
      "good": null,
      "rating": "매수"
-    }
-   ]
-  },
-  {
-   "key": "legal",
-   "label": "조사 · 소송 · 제재",
-   "items": [
-    {
-     "time": "2026-11-21T04:00:00+00:00",
-     "publisher": "Yahoo",
-     "title": "Startup sues Apple in India over tap-to-share contacts feature",
-     "t": [
-      "AAPL"
-     ],
-     "names": [
-      "Apple Inc."
-     ],
-     "tone": "bad",
-     "kind": "legal",
-     "good": null
     }
    ]
   },
