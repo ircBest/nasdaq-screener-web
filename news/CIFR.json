@@ -1,9 +1,19 @@
 {
   "ticker": "CIFR",
-  "generated_at": "2026-11-24T01:17:19+00:00",
+  "generated_at": "2026-11-24T04:35:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T21:02:26+00:00",
+      "publisher": "Yahoo",
+      "title": "Should You Buy Cipher Digital Stock Now Or Wait For February?"
+    },
+    {
+      "published_utc": "2026-11-23T15:02:41+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Digital Soars 26% on $5.4B Hyperscaler Lease; Cipher Digital Jumps 19%, TeraWulf Surges 15%"
+    },
     {
       "published_utc": "2026-11-23T07:28:44+00:00",
       "publisher": "SeekingAlpha",
@@ -53,16 +63,6 @@
       "published_utc": "2026-11-18T10:13:07+00:00",
       "publisher": "Yahoo",
       "title": "Cipher Digital Is the Real Winner of Blackstone’s $5 Billion AWS Data Center Deal"
-    },
-    {
-      "published_utc": "2026-11-17T15:05:38+00:00",
-      "publisher": "Yahoo",
-      "title": "Hinojosa: Abbott Started “the Data Center Madness.” Cipher Digital Lost 21% the Next Day"
-    },
-    {
-      "published_utc": "2026-11-16T15:55:06+00:00",
-      "publisher": "Yahoo",
-      "title": "TeraWulf Sinks 9% Despite Kentucky Power Deal for Muskie Data Campus; Applied Digital Tumbles 10%, Cipher Digital Drops 7%"
     }
   ]
 }

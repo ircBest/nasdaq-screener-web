@@ -1,9 +1,24 @@
 {
   "ticker": "PENG",
-  "generated_at": "2026-11-24T01:17:19+00:00",
+  "generated_at": "2026-11-24T04:35:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions to Present at Barclays 24th Annual Global Technology Conference"
+    },
+    {
+      "published_utc": "2026-11-23T17:30:49+00:00",
+      "publisher": "Yahoo",
+      "title": "Penguin Solutions (PENG) Stock Is Up 18.0% Today: AI Hardware Rally After Nvidia News"
+    },
+    {
+      "published_utc": "2026-11-23T15:02:00+00:00",
+      "publisher": "Yahoo",
+      "title": "PENG vs. APLD: Which AI Infrastructure Stock Is the Better Investment?"
+    },
     {
       "published_utc": "2026-11-19T15:40:02+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-16T14:00:00+00:00",
       "publisher": "Yahoo",
       "title": "Penguin Solutions Unveils Industry’s First Photonics-Based HBM-Class Memory Appliance to Break the GPU Memory Wall for Agentic AI"
-    },
-    {
-      "published_utc": "2026-11-16T14:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Marvell and Penguin Solutions Collaborate to Address Data Center AI Memory and Accelerate Inference at Scale"
-    },
-    {
-      "published_utc": "2026-11-13T06:16:11+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions (PENG) Launches Cree LED X21, Is The Stock Above Fair Value?"
-    },
-    {
-      "published_utc": "2026-11-13T05:12:54+00:00",
-      "publisher": "Yahoo",
-      "title": "Penguin Solutions (PENG) Unveils AI Memory Tools And Services Ahead Of SC26"
     }
   ]
 }

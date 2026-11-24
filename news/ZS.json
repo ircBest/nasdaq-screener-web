@@ -1,9 +1,29 @@
 {
   "ticker": "ZS",
-  "generated_at": "2026-11-24T01:17:19+00:00",
+  "generated_at": "2026-11-24T04:35:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T21:18:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Zscaler Stock Surged on CrowdStrike's $43.9 Billion Buyout. Here's How Much Shareholders Will Actually Get"
+    },
+    {
+      "published_utc": "2026-11-23T19:55:23+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike Shares Fall 10% After a $44 Billion Zscaler Deal Despite an Earnings Beat and Raised Guidance"
+    },
+    {
+      "published_utc": "2026-11-23T19:20:35+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike’s Zscaler deal sets up Palo Alto rivalry, R.F. Lafferty analyst says"
+    },
+    {
+      "published_utc": "2026-11-23T18:41:05+00:00",
+      "publisher": "Yahoo",
+      "title": "CrowdStrike earnings beat overshadowed by $43.9B Zscaler acquisition"
+    },
     {
       "published_utc": "2026-11-23T15:37:26+00:00",
       "publisher": "SeekingAlpha",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-23T09:21:05+00:00",
       "publisher": "Benzinga",
       "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After ANT IPO and Friday’s AI Rout— ORCL, ZS, ZM in Focus (UPDATED)"
-    },
-    {
-      "published_utc": "2026-11-23T06:53:54+00:00",
-      "publisher": "Benzinga",
-      "title": "Zscaler Q1 Adj. EPS $1.23 Beats $1.16 Estimate, Sales $949.300M Beat $937.686M Estimate"
-    },
-    {
-      "published_utc": "2026-11-23T05:59:26+00:00",
-      "publisher": "Benzinga",
-      "title": "Why Zscaler Shares Are Trading Higher By Over 12%; Here Are 20 Stocks Moving Premarket"
-    },
-    {
-      "published_utc": "2026-11-23T02:08:57+00:00",
-      "publisher": "Yahoo",
-      "title": "ANT, BABA, PANW, TTWO, ZS: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week"
-    },
-    {
-      "published_utc": "2026-11-22T04:59:48+00:00",
-      "publisher": "Yahoo",
-      "title": "CrowdStrike-Zscaler Merger Could Make Cybersecurity Rival ‘More Formidable’ Against Palo Alto Networks, Says Jefferies"
     }
   ]
 }

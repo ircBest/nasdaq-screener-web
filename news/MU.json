@@ -1,9 +1,24 @@
 {
   "ticker": "MU",
-  "generated_at": "2026-11-24T01:17:19+00:00",
+  "generated_at": "2026-11-24T04:35:18+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-23T22:20:02+00:00",
+      "publisher": "Yahoo",
+      "title": "Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears"
+    },
+    {
+      "published_utc": "2026-11-23T22:17:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Micron Stock Jumps 19%. Why the Rally Has Legs."
+    },
+    {
+      "published_utc": "2026-11-23T21:27:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Nvidia, Dell, Micron, Anthropic, CrowdStrike, UnitedHealth, and More Stocks That Explain Today’s Market"
+    },
     {
       "published_utc": "2026-11-23T20:13:00+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-23T16:57:38+00:00",
       "publisher": "Yahoo",
       "title": "David Tepper and 28 Other Big Funds Bought Micron Last Quarter. Leopold Aschenbrenner and 30 Others Sold. Who’s Right?"
-    },
-    {
-      "published_utc": "2026-11-23T16:12:37+00:00",
-      "publisher": "Yahoo",
-      "title": "Citi Says Micron and SanDisk Selloff Is Overdone as AI Memory Demand Holds Up"
-    },
-    {
-      "published_utc": "2026-11-23T15:52:20+00:00",
-      "publisher": "Yahoo",
-      "title": "Semiconductor Stocks like Micron, Marvell, and Bloom Energy See Massive Gains as Jensen Huang Returns to NVIDIA"
-    },
-    {
-      "published_utc": "2026-11-23T15:49:53+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Nvidia Rehiring Jensen Huang Is Making Micron Stock Skyrocket Today"
     }
   ]
 }
