@@ -1,9 +1,49 @@
 {
   "ticker": "COIN",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T18:20:35+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase wins dismissal of four-year investor lawsuit"
+    },
+    {
+      "published_utc": "2026-11-24T16:30:49+00:00",
+      "publisher": "Yahoo",
+      "title": "What Just Happened To Coinbase Stock?"
+    },
+    {
+      "published_utc": "2026-11-24T14:58:32+00:00",
+      "publisher": "Yahoo",
+      "title": "Could Coinbase Actually Climb 70%? Or Is Goldman Sachs Totally Wrong?"
+    },
+    {
+      "published_utc": "2026-11-24T13:00:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Global, Inc. (COIN) Is a Trending Stock: Facts to Know Before Betting on It"
+    },
+    {
+      "published_utc": "2026-11-24T12:11:20+00:00",
+      "publisher": "Yahoo",
+      "title": "Kalshi Says New York Threatens Its $22 Billion Business. Coinbase Has a Problem Too"
+    },
+    {
+      "published_utc": "2026-11-24T12:09:40+00:00",
+      "publisher": "Yahoo",
+      "title": "Coinbase Global (COIN) Could Be 56% Below Fair Value On Its Crypto Adoption Narrative"
+    },
+    {
+      "published_utc": "2026-11-24T08:25:47+00:00",
+      "publisher": "Benzinga",
+      "title": "Goldman Sachs Maintains Buy on Coinbase Global, Lowers Price Target to $181"
+    },
+    {
+      "published_utc": "2026-11-24T08:08:10+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "CONY Lets You Bet On A Coinbase Rebound Without Needing To Be Right On Timing"
+    },
     {
       "published_utc": "2026-11-23T16:28:00+00:00",
       "publisher": "Yahoo",
@@ -23,46 +63,6 @@
       "published_utc": "2026-11-23T10:24:35+00:00",
       "publisher": "SeekingAlpha",
       "title": "Coinbase: The Future Is Muddy As Multiple Revenue Streams Shrink (Rating Downgrade)"
-    },
-    {
-      "published_utc": "2026-11-23T06:05:13+00:00",
-      "publisher": "Benzinga",
-      "title": "Brian Armstrong Says Coinbase Uses AI to Scan Every Line of Code Amid Rising Cyber Threats: ‘Trust Matters More Now Than Ever’"
-    },
-    {
-      "published_utc": "2026-11-22T18:40:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Is Coinbase Stock a Buy, Sell, or Hold 64% Below Its 52-Week High?"
-    },
-    {
-      "published_utc": "2026-11-22T08:49:16+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase's $21 children's book comes with $50 Bitcoin"
-    },
-    {
-      "published_utc": "2026-11-21T01:10:40+00:00",
-      "publisher": "Yahoo",
-      "title": "3 Stocks to Watch as Coinbase and Trading Platforms Face a Volatility Test"
-    },
-    {
-      "published_utc": "2026-11-20T20:12:47+00:00",
-      "publisher": "Yahoo",
-      "title": "What Coinbase Global Bears Saw Before A 54% Drop"
-    },
-    {
-      "published_utc": "2026-11-20T16:59:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Launches Crypto Options for Non-US Users"
-    },
-    {
-      "published_utc": "2026-11-20T16:53:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Plans Its Own Prediction Markets by Mid-2027. That’s a New Rival for Robinhood"
-    },
-    {
-      "published_utc": "2026-11-20T15:30:19+00:00",
-      "publisher": "Yahoo",
-      "title": "Coinbase Sets Mid-2027 Goal to Write Its Own Event Contracts, Bloomberg Reports"
     }
   ]
 }

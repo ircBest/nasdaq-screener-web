@@ -1,9 +1,14 @@
 {
   "ticker": "NXPI",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T20:31:13+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Is NXP (NXPI) Stock Down Today? Chip Sector Selloff Drags Shares"
+    },
     {
       "published_utc": "2026-11-20T17:02:19+00:00",
       "publisher": "SeekingAlpha",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-12T10:40:47+00:00",
       "publisher": "ChartMill",
       "title": "NXP Semiconductors (NASDAQ:NXPI) Looks Like a Decent Value Stock"
-    },
-    {
-      "published_utc": "2026-11-12T10:31:46+00:00",
-      "publisher": "Yahoo",
-      "title": "Are Wall Street Analysts Predicting NXP Semiconductors Stock Will Climb or Sink?"
     }
   ]
 }

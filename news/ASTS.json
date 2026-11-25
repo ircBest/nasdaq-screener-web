@@ -1,9 +1,24 @@
 {
   "ticker": "ASTS",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T11:03:10+00:00",
+      "publisher": "Yahoo",
+      "title": "Three Reasons To Rethink AST SpaceMobile Stock Now"
+    },
+    {
+      "published_utc": "2026-11-24T08:22:54+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "AST SpaceMobile: Playing Dangerous Games"
+    },
+    {
+      "published_utc": "2026-11-24T00:23:19+00:00",
+      "publisher": "Yahoo",
+      "title": "AST SpaceMobile Stock Gets FCC Approval for Direct to Device Service"
+    },
     {
       "published_utc": "2026-11-23T23:35:21+00:00",
       "publisher": "Yahoo",
@@ -13,6 +28,11 @@
       "published_utc": "2026-11-23T15:58:23+00:00",
       "publisher": "Yahoo",
       "title": "Rocket Lab Rallies 11% After Its Worst Week Ever as CFO Eyes Higher Electron Prices; AST SpaceMobile Jumps 14%, SpaceX Surges 9%"
+    },
+    {
+      "published_utc": "2026-11-23T13:07:25+00:00",
+      "publisher": "Benzinga",
+      "title": "Why Is AST SpaceMobile Stock Surging on Monday?"
     },
     {
       "published_utc": "2026-11-21T06:55:44+00:00",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-20T15:10:17+00:00",
       "publisher": "Yahoo",
       "title": "AST SpaceMobile (ASTS), What Is Behind The Fresh Attention?"
-    },
-    {
-      "published_utc": "2026-11-20T14:52:35+00:00",
-      "publisher": "Yahoo",
-      "title": "SpaceX Falls 5%, Breaks Below IPO Price as Lenders Reportedly Balk at Musk’s Orbital AI Chip Plans; Rocket Lab Drops 3%, AST SpaceMobile Dips"
-    },
-    {
-      "published_utc": "2026-11-20T10:14:50+00:00",
-      "publisher": "Yahoo",
-      "title": "Wall Street Wrap: ASTS, BE, MDB Stocks Win Bullish Calls As PEP, USAR, SMMT Face Downgrades"
-    },
-    {
-      "published_utc": "2026-11-20T06:58:31+00:00",
-      "publisher": "Yahoo",
-      "title": "SpaceX Holds Its Orbit As Space Stocks Fall Back To Earth — Inside A Rough Week For FLY, ASTS, RKLB And RDW"
-    },
-    {
-      "published_utc": "2026-11-19T17:03:43+00:00",
-      "publisher": "Yahoo",
-      "title": "AST SpaceMobile Is Down 37% in a Month. Can B. Riley’s Upgrade Get ASTS Stock Back to $48?"
     }
   ]
 }

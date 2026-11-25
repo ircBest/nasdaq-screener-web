@@ -1,9 +1,14 @@
 {
   "ticker": "ZBRA",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T21:05:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Zebra Technologies Completes Debt Refinancing"
+    },
     {
       "published_utc": "2026-11-21T07:12:05+00:00",
       "publisher": "Yahoo",
@@ -43,11 +48,6 @@
       "published_utc": "2026-11-11T10:11:56+00:00",
       "publisher": "Benzinga",
       "title": "Jefferies Initiates Coverage On Zebra Technologies with Buy Rating, Announces Price Target of $382"
-    },
-    {
-      "published_utc": "2026-11-10T14:44:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Autonomous Mobile Robots - Global Strategic Business Report 2026: Capitalize on a 14.7% CAGR and $10.5 Billion Market by 2032 as Dematic, Seegrid, Zebra Technologies, and Apptronik Disrupt Automation"
     }
   ]
 }

@@ -1,9 +1,29 @@
 {
   "ticker": "AAOI",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T16:36:00+00:00",
+      "publisher": "Yahoo",
+      "title": "AAOI vs. Lumentum: Which Optical Networking Stock Has an Edge Now?"
+    },
+    {
+      "published_utc": "2026-11-24T14:58:24+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%"
+    },
+    {
+      "published_utc": "2026-11-24T14:44:09+00:00",
+      "publisher": "Yahoo",
+      "title": "Applied Optoelectronics stock rises on datacenter deal"
+    },
+    {
+      "published_utc": "2026-11-24T05:07:21+00:00",
+      "publisher": "SeekingAlpha",
+      "title": "Applied Optoelectronics: The Market Got This Wrong"
+    },
     {
       "published_utc": "2026-11-23T15:57:07+00:00",
       "publisher": "Yahoo",
@@ -43,26 +63,6 @@
       "published_utc": "2026-11-18T19:11:53+00:00",
       "publisher": "Yahoo",
       "title": "Applied Optoelectronics Stock Plunges 10% -- Company Seeks $550 Million Share Sale"
-    },
-    {
-      "published_utc": "2026-11-18T16:47:00+00:00",
-      "publisher": "Yahoo",
-      "title": "AAOI Rides on AI-Led Optical Demand: Can It Beat Fabrinet and Coherent?"
-    },
-    {
-      "published_utc": "2026-11-18T14:08:51+00:00",
-      "publisher": "Yahoo",
-      "title": "Applied Optoelectronics Sinks 9% on $550 Million Stock Sale Plan; Coherent and Lumentum Rise 4%"
-    },
-    {
-      "published_utc": "2026-11-18T11:19:41+00:00",
-      "publisher": "Yahoo",
-      "title": "How Far Could Applied Optoelectronics Stock Fall?"
-    },
-    {
-      "published_utc": "2026-11-18T09:47:47+00:00",
-      "publisher": "Benzinga",
-      "title": "Applied Optoelectronics Stock Slides on $550M ATM Weeks After $600M Raise"
     }
   ]
 }

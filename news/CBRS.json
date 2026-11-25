@@ -1,9 +1,14 @@
 {
   "ticker": "CBRS",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T16:15:25+00:00",
+      "publisher": "Yahoo",
+      "title": "CEO of $21 billion Cerebras says it’s minted 1,000 employees into millionaires—but warns that drastic changes in fortunes can be ‘really stressful’"
+    },
     {
       "published_utc": "2026-11-23T17:44:57+00:00",
       "publisher": "Yahoo",
@@ -58,11 +63,6 @@
       "published_utc": "2026-11-17T21:22:34+00:00",
       "publisher": "Yahoo",
       "title": "What It Will Take for Cerebras Stock to Stage a Real Revival After Q3 Earnings Rally"
-    },
-    {
-      "published_utc": "2026-11-17T12:48:08+00:00",
-      "publisher": "Yahoo",
-      "title": "Anthropic IPO Frenzy: SPCX, CBRS, ARM And Other Mega-Listings Show What Happens After The First-Day Pop"
     }
   ]
 }

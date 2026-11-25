@@ -1,9 +1,14 @@
 {
   "ticker": "CHKP",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T00:16:04+00:00",
+      "publisher": "Yahoo",
+      "title": "How Investors Are Reacting To Check Point Stock As FedRAMP Approval Supports 2027 Growth Plan"
+    },
     {
       "published_utc": "2026-11-23T00:12:06+00:00",
       "publisher": "Yahoo",
@@ -23,11 +28,6 @@
       "published_utc": "2026-11-12T14:04:00+00:00",
       "publisher": "Yahoo",
       "title": "Check Point Software Achieves FedRAMP Certification for Check Point WAF, Empowering U.S. Federal Agencies with Prevention-First Application and API Security"
-    },
-    {
-      "published_utc": "2026-11-10T15:28:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Check Point Named a Leader in Enterprise Firewall Solutions"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "ticker": "ASML",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T18:23:02+00:00",
+      "publisher": "Yahoo",
+      "title": "ASML Is the Most Important Company You’ve Never Heard Of. Should You Buy the Stock?"
+    },
+    {
+      "published_utc": "2026-11-24T12:15:58+00:00",
+      "publisher": "Yahoo",
+      "title": "ASML Stock What Changed After Nvidia CEO Return"
+    },
+    {
+      "published_utc": "2026-11-24T11:16:07+00:00",
+      "publisher": "Yahoo",
+      "title": "ASML (ENXTAM:ASML) Stock May Trade At A Premium Following Its 107% Run"
+    },
     {
       "published_utc": "2026-11-23T22:36:24+00:00",
       "publisher": "Yahoo",
@@ -48,21 +63,6 @@
       "published_utc": "2026-11-19T17:08:00+00:00",
       "publisher": "Yahoo",
       "title": "ASML Rides on Improving Profitability: Will It Sustain?"
-    },
-    {
-      "published_utc": "2026-11-19T11:04:44+00:00",
-      "publisher": "Yahoo",
-      "title": "Why ASML Holding (ASML)’s Monopoly in EUV Technology Gives It a Powerful Competitive Advantage"
-    },
-    {
-      "published_utc": "2026-11-19T00:44:54+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Nvidia and ASML still fit an underweight tech strategy"
-    },
-    {
-      "published_utc": "2026-11-18T19:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "NVIDIA's Leadership Woes: Buy TSMC & ASML Despite Supply-Chain Risks?"
     }
   ]
 }

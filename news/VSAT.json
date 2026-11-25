@@ -1,9 +1,19 @@
 {
   "ticker": "VSAT",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T14:44:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Mobile User Objective System (MUOS) SATCOM Terminals Global Market Report 2026 | Lockheed Martin, L3Harris and Viasat Capitalize on Secure, Anti-Jam LEO Connectivity Through 2030"
+    },
+    {
+      "published_utc": "2026-11-24T14:43:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Global Military Satellite Communications Market Report 2026-2030 | Lockheed Martin, RTX, SpaceX and Viasat Accelerate AI, LEO and Jam-Resistant Networks Toward $29.58 Billion"
+    },
     {
       "published_utc": "2026-11-21T05:15:58+00:00",
       "publisher": "Yahoo",
@@ -18,26 +28,6 @@
       "published_utc": "2026-11-12T14:23:00+00:00",
       "publisher": "Yahoo",
       "title": "Global Unmanned Aerial Vehicle (UAV) Satellite Communication Market Report 2026 | Capitalize on LEO and BVLOS Demand with Viasat, Airbus, Lockheed Martin and Iridium"
-    },
-    {
-      "published_utc": "2026-11-10T18:45:59+00:00",
-      "publisher": "SeekingAlpha",
-      "title": "Viasat, Inc. 2027 Q2 - Results - Earnings Call Presentation"
-    },
-    {
-      "published_utc": "2026-11-10T18:45:25+00:00",
-      "publisher": "Yahoo",
-      "title": "Viasat, Inc. (VSAT) Shares Nearly Double Following Cooperation Agreement with Activist Carronade Capital"
-    },
-    {
-      "published_utc": "2026-11-10T13:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "Viasat Selected by U.S. Space Force, in partnership with Golden Dome for America, for the Space Data Network Backbone (SDN-B) development"
-    },
-    {
-      "published_utc": "2026-11-10T09:05:01+00:00",
-      "publisher": "Benzinga",
-      "title": "Viasat Awarded $450M-Ceiling Indefinite Delivery/Indefinite Quantity Contract From U.S. Space Force For The Space Data Network Backbone Mission Operations Center; Includes Initial $115M Task Order Award"
     }
   ]
 }

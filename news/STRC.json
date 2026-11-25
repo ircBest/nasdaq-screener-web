@@ -1,9 +1,34 @@
 {
   "ticker": "STRC",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T22:10:18+00:00",
+      "publisher": "Yahoo",
+      "title": "Michael Saylor gets the regulator's nod he wanted, just not at full price"
+    },
+    {
+      "published_utc": "2026-11-24T15:16:03+00:00",
+      "publisher": "Yahoo",
+      "title": "Is Michael Saylor's bitcoin strategy losing its appeal?"
+    },
+    {
+      "published_utc": "2026-11-24T13:00:04+00:00",
+      "publisher": "Yahoo",
+      "title": "Strategy Inc (MSTR) Is a Trending Stock: Facts to Know Before Betting on It"
+    },
+    {
+      "published_utc": "2026-11-24T10:00:13+00:00",
+      "publisher": "Benzinga",
+      "title": "Grant Cardone: Bitcoin Will Go 5X, MSTR Is 'So Cheap, You Have to Buy'"
+    },
+    {
+      "published_utc": "2026-11-24T08:49:27+00:00",
+      "publisher": "Yahoo",
+      "title": "Why Hyperliquid CEO Rejected The Michael Saylor-Style Bitcoin Treasury Model — And Bet On HYPE Instead"
+    },
     {
       "published_utc": "2026-11-23T19:54:04+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-23T13:10:59+00:00",
       "publisher": "Yahoo",
       "title": "Bitcoin Crashed to $55,000 and MicroStrategy Bought Only 457 BTC. Why?"
-    },
-    {
-      "published_utc": "2026-11-23T09:44:38+00:00",
-      "publisher": "Yahoo",
-      "title": "MSTR Stock Jumps In Premarket As Bitcoin Reclaims $61K After Brutal Nasdaq Sell-Off"
-    },
-    {
-      "published_utc": "2026-11-21T03:10:59+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin Falls Below $60K For First Time Since July, Saylor's MSTR Hits 52-Week Low Amid $14B Paper Loss"
-    },
-    {
-      "published_utc": "2026-11-20T20:02:35+00:00",
-      "publisher": "Yahoo",
-      "title": "Strategy Is Down 44% in a Month as Crypto Stocks Crumble: Can MSTR Stock Get Back to $100 This Year?"
-    },
-    {
-      "published_utc": "2026-11-20T18:34:06+00:00",
-      "publisher": "Yahoo",
-      "title": "Bitcoin Drops Below $59K, Wiping Out $1.5B In Crypto Bets: MSTR, BMNR, ASST Stocks Extend Losses"
-    },
-    {
-      "published_utc": "2026-11-20T15:37:02+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Strategy Stock Tanked 23% This Week"
     }
   ]
 }

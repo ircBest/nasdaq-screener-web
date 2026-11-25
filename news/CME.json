@@ -1,9 +1,34 @@
 {
   "ticker": "CME",
-  "generated_at": "2026-11-24T04:35:18+00:00",
+  "generated_at": "2026-11-25T05:22:08+00:00",
   "window_days": 14,
   "note": "뉴스 공급자가 이 종목에 연결한 기사 제목입니다. 다른 회사 이야기가 섞여 있을 수 있고, 프로그램의 판단에는 아직 쓰이지 않습니다.",
   "articles": [
+    {
+      "published_utc": "2026-11-24T23:24:37+00:00",
+      "publisher": "Yahoo",
+      "title": "How Investors May Respond To CME Group (CME) Wind Power Options Launch"
+    },
+    {
+      "published_utc": "2026-11-24T16:47:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group Announces Strong European Dairy Volumes on First Day of Trading"
+    },
+    {
+      "published_utc": "2026-11-24T15:51:00+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group Sets New Daily Volume Record of 71.5 Million Contracts, Driven by Strong Interest Rates Volume"
+    },
+    {
+      "published_utc": "2026-11-24T15:15:56+00:00",
+      "publisher": "Yahoo",
+      "title": "CME Group (CME): Initiating a Position in a Mispriced Crown-Jewel Asset"
+    },
+    {
+      "published_utc": "2026-11-24T13:48:22+00:00",
+      "publisher": "Yahoo",
+      "title": "CME vs. Visa: Which Financial Stock Is a Better Buy for 2027?"
+    },
     {
       "published_utc": "2026-11-21T14:40:02+00:00",
       "publisher": "Yahoo",
@@ -38,31 +63,6 @@
       "published_utc": "2026-11-20T10:05:17+00:00",
       "publisher": "Benzinga",
       "title": "CME Group CEO Terrence Duffy Sells $8M As Shares Pull Back From Recent Highs"
-    },
-    {
-      "published_utc": "2026-11-19T12:00:00+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group Announces First Trade for Wind Power Contracts"
-    },
-    {
-      "published_utc": "2026-11-18T14:55:43+00:00",
-      "publisher": "CNBC",
-      "title": "CME Group CEO Terry Duffy on the CME Group Tour Championship, prediction markets"
-    },
-    {
-      "published_utc": "2026-11-18T12:31:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CME vs. Upstart: Which Financial Stock Is a Better Buy for 2027?"
-    },
-    {
-      "published_utc": "2026-11-18T04:33:56+00:00",
-      "publisher": "Yahoo",
-      "title": "CME Group (CME) Stock Looks Fully Valued After Its 69% Run"
-    },
-    {
-      "published_utc": "2026-11-17T12:29:02+00:00",
-      "publisher": "Yahoo",
-      "title": "CME vs. Toast: Which Financial Stock Is a Better Buy for 2027?"
     }
   ]
 }
