@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-25T01:00:39+00:00",
+ "generated_at": "2026-11-25T03:40:47+00:00",
  "latest_hours": 36,
  "good_hours": 72,
  "note": "좋은 소식 · 나쁜 소식은 제목에 정해진 말 (예: 실적이 예상보다 좋았다 · 전망을 내렸다) 이 있는 기사를 기계가 골라 묶은 것입니다. 기사 본문은 읽지 않습니다. 사라 · 팔라는 뜻이 아니고, 검증된 신호도 아닙니다. 우리 모의 매매 기록에서 '큰 좋은 소식이 난 다음 날 사기' 는 판정 전이지만 지금까지 기대와 반대로 가고 있습니다. 회사 기사는 제목에 그 회사가 나오는 것만, 업계 소식은 한 회사가 아니라 AI · 반도체 · 데이터센터 · 클라우드 전체를 말하는 것만 실었습니다.",
@@ -176,16 +176,16 @@
  },
  "counts": {
   "latest": 80,
-  "good": 84,
-  "bad": 56,
-  "mixed": 14,
+  "good": 92,
+  "bad": 58,
+  "mixed": 15,
   "sector_good": 30,
-  "sector_bad": 21,
-  "sector_mixed": 10,
+  "sector_bad": 20,
+  "sector_mixed": 11,
   "dropped": {
    "forbidden": 1,
-   "unrelated": 2146,
-   "old": 362,
+   "unrelated": 2216,
+   "old": 392,
    "no_time": 0
   }
  },
@@ -247,6 +247,76 @@
    "good": null
   },
   {
+   "time": "2026-11-24T23:30:01+00:00",
+   "publisher": "Yahoo",
+   "title": "Nutanix (NTNX) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "t": [
+    "NTNX"
+   ],
+   "names": [
+    "Nutanix, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T23:25:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Why AMD Stock Fell Today",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T23:24:37+00:00",
+   "publisher": "Yahoo",
+   "title": "How Investors May Respond To CME Group (CME) Wind Power Options Launch",
+   "t": [
+    "CME"
+   ],
+   "names": [
+    "CME Group Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T23:20:51+00:00",
+   "publisher": "Yahoo",
+   "title": "Nutanix Inc (NTNX) Q1 2027 Earnings Call Highlights: Record Margins, Raised Cash Flow Guidance ...",
+   "t": [
+    "NTNX"
+   ],
+   "names": [
+    "Nutanix, Inc."
+   ],
+   "tone": "good",
+   "kind": "guide",
+   "good": "guide"
+  },
+  {
+   "time": "2026-11-24T23:20:45+00:00",
+   "publisher": "Yahoo",
+   "title": "Ambarella Inc (AMBA) (Q3 2027) Earnings Call Highlights: Record Revenue Meets Memory Crisis ...",
+   "t": [
+    "AMBA"
+   ],
+   "names": [
+    "Ambarella, Inc."
+   ],
+   "tone": "good",
+   "kind": "beat",
+   "good": "beat"
+  },
+  {
    "time": "2026-11-24T23:20:33+00:00",
    "publisher": "Yahoo",
    "title": "Workday Inc (WDAY) (Q3 2027) Earnings Call Highlights: AI Momentum Accelerates as ARR Tops $750 ...",
@@ -261,18 +331,62 @@
    "good": null
   },
   {
-   "time": "2026-11-24T23:17:00+00:00",
+   "time": "2026-11-24T23:19:04+00:00",
    "publisher": "Yahoo",
-   "title": "A scandal like the one haunting Nvidia just reached AMD, its biggest rival",
+   "title": "3 AI Investment Stocks We’re Buying Today And Why We’re Selling On Micron",
    "t": [
-    "NVDA"
+    "MU"
    ],
    "names": [
-    "NVIDIA Corporation"
+    "Micron Technology, Inc."
    ],
    "tone": null,
    "kind": null,
    "good": null
+  },
+  {
+   "time": "2026-11-24T23:17:00+00:00",
+   "publisher": "Yahoo",
+   "title": "A scandal like the one haunting Nvidia just reached AMD, its biggest rival",
+   "t": [
+    "NVDA",
+    "AMD"
+   ],
+   "names": [
+    "NVIDIA Corporation",
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T23:16:01+00:00",
+   "publisher": "Yahoo",
+   "title": "Why Intel Stock Fell Today",
+   "t": [
+    "INTC"
+   ],
+   "names": [
+    "Intel Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T23:06:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Autodesk Beat Earnings Estimates and Raised Its Outlook. The Stock Fell Anyway.",
+   "t": [
+    "ADSK"
+   ],
+   "names": [
+    "Autodesk, Inc."
+   ],
+   "tone": "good",
+   "kind": "beat",
+   "good": "beat"
   },
   {
    "time": "2026-11-24T23:04:27+00:00",
@@ -345,6 +459,20 @@
    "good": null
   },
   {
+   "time": "2026-11-24T22:59:22+00:00",
+   "publisher": "Yahoo",
+   "title": "Novanta Shares Just Jumped And We’re Buying This Robotics Play",
+   "t": [
+    "NOVT"
+   ],
+   "names": [
+    "Novanta Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-24T22:54:00+00:00",
    "publisher": "Yahoo",
    "title": "Maverick Medical AI Surfaces CodeAgent within Microsoft Radiology Reporting Solutions to Reduce Physician Rework",
@@ -373,6 +501,34 @@
    "good": null
   },
   {
+   "time": "2026-11-24T22:39:38+00:00",
+   "publisher": "Yahoo",
+   "title": "Stock Market Today, Nov. 24: AMD Plunges 9% as 337 Million-Share Resale Filing Adds to AI Sell-Off",
+   "t": [
+    "AMD"
+   ],
+   "names": [
+    "Advanced Micro Devices, Inc."
+   ],
+   "tone": "bad",
+   "kind": "drop",
+   "good": null
+  },
+  {
+   "time": "2026-11-24T22:30:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Autodesk (ADSK) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "t": [
+    "ADSK"
+   ],
+   "names": [
+    "Autodesk, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-24T22:23:18+00:00",
    "publisher": "Yahoo",
    "title": "Texas Instruments (TXN) Remains A Preferred Pick Despite Chip Oversupply Risk",
@@ -381,6 +537,34 @@
    ],
    "names": [
     "Texas Instruments Incorporated"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T22:23:18+00:00",
+   "publisher": "Yahoo",
+   "title": "What Does Zoom Communications (ZM) Naming A New Asia Head Mean For Investors?",
+   "t": [
+    "ZM"
+   ],
+   "names": [
+    "Zoom Communications, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T22:19:18+00:00",
+   "publisher": "Yahoo",
+   "title": "Intel And 2 More AI Stocks To Watch",
+   "t": [
+    "INTC"
+   ],
+   "names": [
+    "Intel Corporation"
    ],
    "tone": null,
    "kind": null,
@@ -420,11 +604,17 @@
    "title": "Michael Saylor gets the regulator's nod he wanted, just not at full price",
    "t": [
     "MSTR",
-    "STRD"
+    "STRD",
+    "STRC",
+    "STRF",
+    "STRK"
    ],
    "names": [
     "Strategy Inc",
-    "Strategy Inc - 10.00% Series A "
+    "Strategy Inc - 10.00% Series A ",
+    "Strategy Inc - Variable Rate Se",
+    "Strategy Inc - 10.00% Series A ",
+    "Strategy Inc - 8.00% Series A P"
    ],
    "tone": null,
    "kind": null,
@@ -439,6 +629,20 @@
    ],
    "names": [
     "Marvell Technology, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T21:50:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Why Okta (OKTA) Dipped More Than Broader Market Today",
+   "t": [
+    "OKTA"
+   ],
+   "names": [
+    "Okta, Inc."
    ],
    "tone": null,
    "kind": null,
@@ -557,6 +761,20 @@
    "good": null
   },
   {
+   "time": "2026-11-24T21:27:47+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Vicor Stock: Why I'm Unfazed",
+   "t": [
+    "VICR"
+   ],
+   "names": [
+    "Vicor Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-24T21:22:02+00:00",
    "publisher": "Yahoo",
    "title": "Prediction: A $10,000 Investment in Nvidia Stock Will Be Worth This Much by Year-End 2027",
@@ -601,6 +819,20 @@
    "good": "beat"
   },
   {
+   "time": "2026-11-24T21:20:01+00:00",
+   "publisher": "Yahoo",
+   "title": "Ambarella (AMBA) Misses Q3 Earnings and Revenue Estimates",
+   "t": [
+    "AMBA"
+   ],
+   "names": [
+    "Ambarella, Inc."
+   ],
+   "tone": "bad",
+   "kind": "miss",
+   "good": null
+  },
+  {
    "time": "2026-11-24T21:15:00+00:00",
    "publisher": "Yahoo",
    "title": "Cadence’s Anirudh Devgan to Present at UBS Global Technology and AI Conference",
@@ -609,6 +841,20 @@
    ],
    "names": [
     "Cadence Design Systems, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T21:14:22+00:00",
+   "publisher": "Yahoo",
+   "title": "GDS Holdings And 2 Other AI Infrastructure Stocks",
+   "t": [
+    "GDS"
+   ],
+   "names": [
+    "GDS Holdings Limited"
    ],
    "tone": null,
    "kind": null,
@@ -641,6 +887,34 @@
    "tone": null,
    "kind": null,
    "good": null
+  },
+  {
+   "time": "2026-11-24T21:10:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Autodesk (ADSK) Q3 Earnings and Revenues Beat Estimates",
+   "t": [
+    "ADSK"
+   ],
+   "names": [
+    "Autodesk, Inc."
+   ],
+   "tone": "good",
+   "kind": "beat",
+   "good": "beat"
+  },
+  {
+   "time": "2026-11-24T21:10:02+00:00",
+   "publisher": "Yahoo",
+   "title": "Nutanix (NTNX) Q1 Earnings and Revenues Surpass Estimates",
+   "t": [
+    "NTNX"
+   ],
+   "names": [
+    "Nutanix, Inc."
+   ],
+   "tone": "good",
+   "kind": "beat",
+   "good": "beat"
   },
   {
    "time": "2026-11-24T21:06:00+00:00",
@@ -727,6 +1001,48 @@
    "good": null
   },
   {
+   "time": "2026-11-24T21:05:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Ambarella, Inc. Announces Third Quarter Fiscal Year 2027 Financial Results",
+   "t": [
+    "AMBA"
+   ],
+   "names": [
+    "Ambarella, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T21:05:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Ambarella and Liquid AI Partner to Accelerate Device-Native Agentic AI for Physical AI Applications",
+   "t": [
+    "AMBA"
+   ],
+   "names": [
+    "Ambarella, Inc."
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T21:05:00+00:00",
+   "publisher": "Yahoo",
+   "title": "Wealthfront to Present at the Goldman Sachs 2026 Financial Services Conference",
+   "t": [
+    "WLTH"
+   ],
+   "names": [
+    "Wealthfront Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
    "time": "2026-11-24T21:04:42+00:00",
    "publisher": "Yahoo",
    "title": "7 Firms Downgraded Zscaler After CrowdStrike’s $43.9 Billion Deal. Is There Still Money to Make?",
@@ -807,6 +1123,20 @@
    ],
    "names": [
     "Semtech Corporation"
+   ],
+   "tone": null,
+   "kind": null,
+   "good": null
+  },
+  {
+   "time": "2026-11-24T21:01:16+00:00",
+   "publisher": "SeekingAlpha",
+   "title": "Ambarella, Inc. (AMBA) Q3 2027 Earnings Call Transcript",
+   "t": [
+    "AMBA"
+   ],
+   "names": [
+    "Ambarella, Inc."
    ],
    "tone": null,
    "kind": null,
@@ -957,10 +1287,12 @@
    "publisher": "Yahoo",
    "title": "Top Analyst Reports for Apple, Philip Morris & Intel",
    "t": [
-    "AAPL"
+    "AAPL",
+    "INTC"
    ],
    "names": [
-    "Apple Inc."
+    "Apple Inc.",
+    "Intel Corporation"
    ],
    "tone": null,
    "kind": null,
@@ -993,332 +1325,6 @@
    "tone": null,
    "kind": null,
    "good": null
-  },
-  {
-   "time": "2026-11-24T20:46:49+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Is Applied Materials (AMAT) Stock Down Today? Chip Selloff Drags Suppliers",
-   "t": [
-    "AMAT"
-   ],
-   "names": [
-    "Applied Materials, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:46:42+00:00",
-   "publisher": "Yahoo",
-   "title": "Why SiTime (SITM) Stock Is Plunging Today: Chip Sector Selloff",
-   "t": [
-    "SITM"
-   ],
-   "names": [
-    "SiTime Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:46:34+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Is TTM Technologies (TTMI) Stock Down Today? Tech Sector Selloff Hits Peers",
-   "t": [
-    "TTMI"
-   ],
-   "names": [
-    "TTM Technologies, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:46:29+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Bel Fuse (BELFB) Stock Is Down Today: AI Chip Selloff Hits Components",
-   "t": [
-    "BELFB"
-   ],
-   "names": [
-    "Bel Fuse Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:45:34+00:00",
-   "publisher": "Yahoo",
-   "title": "ZoomInfo (GTM) Stock Is Up 8.3% Today Without Company News",
-   "t": [
-    "GTM"
-   ],
-   "names": [
-    "ZoomInfo Technologies Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:38:20+00:00",
-   "publisher": "Yahoo",
-   "title": "Midterms Lead to an Encouraging Sentiment Around The Descartes Systems Group (DSGX)",
-   "t": [
-    "DSGX"
-   ],
-   "names": [
-    "The Descartes Systems Group Inc"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:32:18+00:00",
-   "publisher": "Yahoo",
-   "title": "Kingsoft (KC) Q3 2026 Earnings Call Transcript",
-   "t": [
-    "KC"
-   ],
-   "names": [
-    "Kingsoft Cloud Holdings Limited"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:31:46+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Bitdeer (BTDR) Stock Is Plunging Today: Bitcoin Falls Below $60,000",
-   "t": [
-    "BTDR"
-   ],
-   "names": [
-    "Bitdeer Technologies Group"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:31:25+00:00",
-   "publisher": "Yahoo",
-   "title": "Why KLA (KLAC) Stock Is Falling Today: Chip Sector Selloff",
-   "t": [
-    "KLAC"
-   ],
-   "names": [
-    "KLA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:31:13+00:00",
-   "publisher": "Yahoo",
-   "title": "Why Is NXP (NXPI) Stock Down Today? Chip Sector Selloff Drags Shares",
-   "t": [
-    "NXPI"
-   ],
-   "names": [
-    "NXP Semiconductors N.V."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:30:52+00:00",
-   "publisher": "Yahoo",
-   "title": "Dropbox (DBX) Stock Is Up 5.8% Today Without Company News",
-   "t": [
-    "DBX"
-   ],
-   "names": [
-    "Dropbox, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:30:19+00:00",
-   "publisher": "Yahoo",
-   "title": "Nutanix (NTNX) Stock Is Down 7.2% Today in Tech Selloff",
-   "t": [
-    "NTNX"
-   ],
-   "names": [
-    "Nutanix, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:25:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
-   "t": [
-    "SNDK"
-   ],
-   "names": [
-    "Sandisk Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:24:15+00:00",
-   "publisher": "Yahoo",
-   "title": "CrowdStrike’s all-stock bid for Zscaler: deal structure shifts risk to target holders",
-   "t": [
-    "CRWD",
-    "ZS"
-   ],
-   "names": [
-    "CrowdStrike Holdings, Inc.",
-    "Zscaler, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T20:20:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?",
-   "t": [
-    "PLTR"
-   ],
-   "names": [
-    "Palantir Technologies Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T19:53:21+00:00",
-   "publisher": "Yahoo",
-   "title": "CoreWeave bonds hit record lows as AI trade concerns return",
-   "t": [
-    "CRWV"
-   ],
-   "names": [
-    "CoreWeave, Inc."
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T19:52:42+00:00",
-   "publisher": "Yahoo",
-   "title": "US Attorney General Praises Nvidia As Questions Swirl Over Huang’s Reinstatement",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T19:50:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy for 2027?",
-   "t": [
-    "AMAT",
-    "INTC"
-   ],
-   "names": [
-    "Applied Materials, Inc.",
-    "Intel Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T19:50:02+00:00",
-   "publisher": "Yahoo",
-   "title": "Is Microsoft the Best Big Tech Stock to Buy Now?",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T19:49:02+00:00",
-   "publisher": "Yahoo",
-   "title": "With Jensen Huang Back as CEO, Is It More Likely That Nvidia Will Rebound to $243.37 or Plummet to $100?",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T19:37:40+00:00",
-   "publisher": "Yahoo",
-   "title": "Microsoft declares a code red in the middle of a 'Patchpocalypse'",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
-  },
-  {
-   "time": "2026-11-24T19:32:55+00:00",
-   "publisher": "Yahoo",
-   "title": "Microsoft initiates ‘Code Red’ after most disruptive outage in company’s history: report",
-   "t": [
-    "MSFT"
-   ],
-   "names": [
-    "Microsoft Corporation"
-   ],
-   "tone": "bad",
-   "kind": "incident",
-   "good": null
-  },
-  {
-   "time": "2026-11-24T19:31:03+00:00",
-   "publisher": "Yahoo",
-   "title": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO",
-   "t": [
-    "NVDA"
-   ],
-   "names": [
-    "NVIDIA Corporation"
-   ],
-   "tone": null,
-   "kind": null,
-   "good": null
   }
  ],
  "good": [
@@ -1347,6 +1353,34 @@
    "label": "실적이 예상보다 좋았다",
    "items": [
     {
+     "time": "2026-11-24T23:20:45+00:00",
+     "publisher": "Yahoo",
+     "title": "Ambarella Inc (AMBA) (Q3 2027) Earnings Call Highlights: Record Revenue Meets Memory Crisis ...",
+     "t": [
+      "AMBA"
+     ],
+     "names": [
+      "Ambarella, Inc."
+     ],
+     "tone": "good",
+     "kind": "beat",
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-24T23:06:00+00:00",
+     "publisher": "Yahoo",
+     "title": "Autodesk Beat Earnings Estimates and Raised Its Outlook. The Stock Fell Anyway.",
+     "t": [
+      "ADSK"
+     ],
+     "names": [
+      "Autodesk, Inc."
+     ],
+     "tone": "good",
+     "kind": "beat",
+     "good": "beat"
+    },
+    {
      "time": "2026-11-24T21:20:02+00:00",
      "publisher": "Yahoo",
      "title": "Workday (WDAY) Tops Q3 Earnings and Revenue Estimates",
@@ -1355,6 +1389,48 @@
      ],
      "names": [
       "Workday, Inc."
+     ],
+     "tone": "good",
+     "kind": "beat",
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-24T21:10:02+00:00",
+     "publisher": "Yahoo",
+     "title": "Autodesk (ADSK) Q3 Earnings and Revenues Beat Estimates",
+     "t": [
+      "ADSK"
+     ],
+     "names": [
+      "Autodesk, Inc."
+     ],
+     "tone": "good",
+     "kind": "beat",
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-24T21:10:02+00:00",
+     "publisher": "Yahoo",
+     "title": "Nutanix (NTNX) Q1 Earnings and Revenues Surpass Estimates",
+     "t": [
+      "NTNX"
+     ],
+     "names": [
+      "Nutanix, Inc."
+     ],
+     "tone": "good",
+     "kind": "beat",
+     "good": "beat"
+    },
+    {
+     "time": "2026-11-24T19:58:38+00:00",
+     "publisher": "Yahoo",
+     "title": "Red Violet, Inc. (RDVT) Delivered Record Results: How Its Identity Intelligence Platform Is Driving Growth",
+     "t": [
+      "RDVT"
+     ],
+     "names": [
+      "Red Violet, Inc."
      ],
      "tone": "good",
      "kind": "beat",
@@ -1521,6 +1597,20 @@
    "label": "전망을 올렸다",
    "items": [
     {
+     "time": "2026-11-24T23:20:51+00:00",
+     "publisher": "Yahoo",
+     "title": "Nutanix Inc (NTNX) Q1 2027 Earnings Call Highlights: Record Margins, Raised Cash Flow Guidance ...",
+     "t": [
+      "NTNX"
+     ],
+     "names": [
+      "Nutanix, Inc."
+     ],
+     "tone": "good",
+     "kind": "guide",
+     "good": "guide"
+    },
+    {
      "time": "2026-11-23T17:20:06+00:00",
      "publisher": "Benzinga",
      "title": "Zoom Posts Q3 Double Beat, Lifts 2026 Outlook",
@@ -1630,6 +1720,21 @@
    "key": "target",
    "label": "목표가를 올렸다 (의견은 그대로)",
    "items": [
+    {
+     "time": "2026-11-24T17:41:55+00:00",
+     "publisher": "Yahoo",
+     "title": "Update: Morgan Stanley Raises Zoom Communications Price Target to $108 From $107, Maintains Equal Weight Rating",
+     "t": [
+      "ZM"
+     ],
+     "names": [
+      "Zoom Communications, Inc."
+     ],
+     "tone": "good",
+     "kind": "target",
+     "good": "target",
+     "rating": "중립"
+    },
     {
      "time": "2026-11-24T09:45:58+00:00",
      "publisher": "Benzinga",
@@ -1893,6 +1998,20 @@
    "key": "growth",
    "label": "매출 · 이익이 크게 늘었다",
    "items": [
+    {
+     "time": "2026-11-24T20:23:40+00:00",
+     "publisher": "Yahoo",
+     "title": "Bending Spoons SpA (BSP) Q2 2026 Earnings Call Highlights: Revenue Jumps 126% as Adjusted ...",
+     "t": [
+      "BSP"
+     ],
+     "names": [
+      "Bending Spoons S.p.A."
+     ],
+     "tone": "good",
+     "kind": "growth",
+     "good": "growth"
+    },
     {
      "time": "2026-11-24T10:37:33+00:00",
      "publisher": "Yahoo",
@@ -2608,6 +2727,20 @@
      "good": null
     },
     {
+     "time": "2026-11-24T21:20:01+00:00",
+     "publisher": "Yahoo",
+     "title": "Ambarella (AMBA) Misses Q3 Earnings and Revenue Estimates",
+     "t": [
+      "AMBA"
+     ],
+     "names": [
+      "Ambarella, Inc."
+     ],
+     "tone": "bad",
+     "kind": "miss",
+     "good": null
+    },
+    {
      "time": "2026-11-24T14:17:23+00:00",
      "publisher": "Yahoo",
      "title": "Analog Devices Shares Fall as First-Quarter Earnings Guidance Misses Expectations",
@@ -3204,6 +3337,20 @@
      "good": null
     },
     {
+     "time": "2026-11-24T22:39:38+00:00",
+     "publisher": "Yahoo",
+     "title": "Stock Market Today, Nov. 24: AMD Plunges 9% as 337 Million-Share Resale Filing Adds to AI Sell-Off",
+     "t": [
+      "AMD"
+     ],
+     "names": [
+      "Advanced Micro Devices, Inc."
+     ],
+     "tone": "bad",
+     "kind": "drop",
+     "good": null
+    },
+    {
      "time": "2026-11-24T21:46:48+00:00",
      "publisher": "Yahoo",
      "title": "Why Analog Devices Stock Fell Nearly 20% Today",
@@ -3470,6 +3617,22 @@
    ],
    "names": [
     "Autodesk, Inc."
+   ],
+   "tone": "mixed",
+   "kind": "mixed",
+   "good": null
+  },
+  {
+   "time": "2026-11-24T17:52:13+00:00",
+   "publisher": "Yahoo",
+   "title": "D-Wave Declines 9% as Quantum Stocks Reverse Monday’s Surge; Rigetti Drops 7%, IonQ Falls 5%",
+   "t": [
+    "QBTS",
+    "RGTI"
+   ],
+   "names": [
+    "D-Wave Quantum Inc.",
+    "Rigetti Computing, Inc."
    ],
    "tone": "mixed",
    "kind": "mixed",
@@ -3902,6 +4065,13 @@
       "kind": "selloff"
      },
      {
+      "time": "2026-11-24T21:13:00+00:00",
+      "publisher": "Yahoo",
+      "title": "Dow Brushes Off Tech Rout, Tariff Worries to Add 423 Points: Stock Market Today",
+      "tone": "bad",
+      "kind": "selloff"
+     },
+     {
       "time": "2026-11-24T21:01:45+00:00",
       "publisher": "Yahoo",
       "title": "nVent Electric (NVT) Stock Is Down 8.4% Today: AI Chip Selloff Drags Power Peers",
@@ -3919,13 +4089,6 @@
       "time": "2026-11-24T20:31:25+00:00",
       "publisher": "Yahoo",
       "title": "Why Flex (FLEX) Stock Is Down Today: AI Chip Selloff Hits Peers",
-      "tone": "bad",
-      "kind": "selloff"
-     },
-     {
-      "time": "2026-11-24T20:31:23+00:00",
-      "publisher": "Yahoo",
-      "title": "Why Ichor Holdings (ICHR) Stock Is Plunging Today: Semiconductor Equipment Selloff",
       "tone": "bad",
       "kind": "selloff"
      },
@@ -4012,13 +4175,6 @@
       "title": "Taiwan stocks suffer worst week since 1990 as AI rout drains emerging Asia",
       "tone": "bad",
       "kind": "selloff"
-     },
-     {
-      "time": "2026-11-22T02:19:56+00:00",
-      "publisher": "Yahoo",
-      "title": "Tom Lee Says AI Sell-Off Is ‘Max Pain’ Before A ‘Big Payoff’ For Patient Investors",
-      "tone": "bad",
-      "kind": "selloff"
      }
     ]
    },
@@ -4055,6 +4211,13 @@
     "time": "2026-11-24T23:47:08+00:00",
     "publisher": "Yahoo",
     "title": "This AI Chip Stock Just Crashed 38% on a Memory Shortage Warning. Its Filings Flagged the Risk Months Ago",
+    "tone": "mixed",
+    "kind": "mixed"
+   },
+   {
+    "time": "2026-11-24T22:11:48+00:00",
+    "publisher": "Yahoo",
+    "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
     "tone": "mixed",
     "kind": "mixed"
    },
