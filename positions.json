@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T04:30:52.744269+00:00",
+  "generated_at": "2026-11-27T12:24:54.616140+00:00",
   "window": 60,
   "note": "어느 날 어느 종목을 높게 봤는지 먼저 적어 두고, 그 뒤 60거래일 동안 어떻게 되는지 따라갑니다. 아직 따라가는 중인 것은 확정된 손익이 아닙니다.",
   "summary": {
@@ -22364,10 +22364,10 @@
           "entry_date": "2026-11-04",
           "entry_price": 16.925,
           "last_date": "2026-11-25",
-          "last_price": 14.03,
+          "last_price": 14.04,
           "held_days": 15,
           "window": 60,
-          "return_pct": -17.1,
+          "return_pct": -17.05,
           "unrealized": true,
           "judged_days": 15,
           "unjudged_days": 0
@@ -24047,10 +24047,10 @@
           "entry_date": "2026-11-09",
           "entry_price": 16.28,
           "last_date": "2026-11-25",
-          "last_price": 14.03,
+          "last_price": 14.04,
           "held_days": 12,
           "window": 60,
-          "return_pct": -13.82,
+          "return_pct": -13.76,
           "unrealized": true,
           "judged_days": 12,
           "unjudged_days": 0

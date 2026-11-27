@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T04:34:29+00:00",
+  "generated_at": "2026-11-27T12:29:39+00:00",
   "window_days": 14,
   "dropped": {
     "forbidden": 1,
-    "old": 0,
+    "old": 300,
     "no_time": 0,
-    "duplicate": 81,
-    "unrelated": 8611
+    "duplicate": 59,
+    "unrelated": 7583
   },
   "tickers": {
     "AAOI": {
@@ -34,7 +34,7 @@
       "latest": "2026-11-24T15:29:00+00:00"
     },
     "ADEA": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-21T08:11:06+00:00"
     },
     "ADI": {
@@ -58,15 +58,15 @@
       "latest": "2026-11-16T13:55:03+00:00"
     },
     "AGLT": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-24T06:36:32+00:00"
     },
     "AIP": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-23T17:03:26+00:00"
     },
     "AKAM": {
-      "articles": 12,
+      "articles": 10,
       "latest": "2026-11-23T15:51:00+00:00"
     },
     "ALAB": {
@@ -74,11 +74,11 @@
       "latest": "2026-11-24T03:20:57+00:00"
     },
     "ALGM": {
-      "articles": 9,
+      "articles": 6,
       "latest": "2026-11-24T14:10:03+00:00"
     },
     "ALKT": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-24T15:00:00+00:00"
     },
     "ALNT": {
@@ -102,7 +102,7 @@
       "latest": "2026-11-24T23:25:02+00:00"
     },
     "AMKR": {
-      "articles": 7,
+      "articles": 6,
       "latest": "2026-11-23T15:05:00+00:00"
     },
     "AMPL": {
@@ -122,7 +122,7 @@
       "latest": "2026-11-24T13:30:04+00:00"
     },
     "APPN": {
-      "articles": 7,
+      "articles": 5,
       "latest": "2026-11-24T14:34:00+00:00"
     },
     "APPS": {
@@ -134,7 +134,7 @@
       "latest": "2026-11-24T17:27:48+00:00"
     },
     "ARRY": {
-      "articles": 2,
+      "articles": 1,
       "latest": "2026-11-24T09:23:09+00:00"
     },
     "ASML": {
@@ -154,7 +154,7 @@
       "latest": "2026-11-21T15:01:03+00:00"
     },
     "AVT": {
-      "articles": 10,
+      "articles": 7,
       "latest": "2026-11-24T16:01:04+00:00"
     },
     "AXTI": {
@@ -166,28 +166,24 @@
       "latest": "2026-11-23T17:03:04+00:00"
     },
     "BELFA": {
-      "articles": 2,
+      "articles": 1,
       "latest": "2026-11-24T20:46:29+00:00"
     },
     "BELFB": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-24T20:46:29+00:00"
     },
     "BL": {
-      "articles": 11,
+      "articles": 10,
       "latest": "2026-11-23T11:50:50+00:00"
     },
     "BLKB": {
-      "articles": 2,
+      "articles": 1,
       "latest": "2026-11-19T13:40:02+00:00"
     },
     "BLZE": {
       "articles": 1,
       "latest": "2026-11-16T11:51:00+00:00"
-    },
-    "BRUN": {
-      "articles": 6,
-      "latest": "2026-11-12T20:45:34+00:00"
     },
     "BRZE": {
       "articles": 3,
@@ -198,11 +194,11 @@
       "latest": "2026-11-24T20:23:40+00:00"
     },
     "BSY": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-20T21:01:00+00:00"
     },
     "BTDR": {
-      "articles": 10,
+      "articles": 7,
       "latest": "2026-11-24T20:31:46+00:00"
     },
     "BULL": {
@@ -222,7 +218,7 @@
       "latest": "2026-11-20T13:55:04+00:00"
     },
     "CDNS": {
-      "articles": 7,
+      "articles": 6,
       "latest": "2026-11-23T13:00:04+00:00"
     },
     "CDW": {
@@ -238,11 +234,11 @@
       "latest": "2026-11-23T13:00:00+00:00"
     },
     "CGNX": {
-      "articles": 8,
+      "articles": 7,
       "latest": "2026-11-24T15:29:00+00:00"
     },
     "CHKP": {
-      "articles": 5,
+      "articles": 4,
       "latest": "2026-11-24T00:16:04+00:00"
     },
     "CHRN": {
@@ -258,7 +254,7 @@
       "latest": "2026-11-23T21:02:26+00:00"
     },
     "CLBT": {
-      "articles": 12,
+      "articles": 6,
       "latest": "2026-11-15T03:03:47+00:00"
     },
     "CLMB": {
@@ -278,7 +274,7 @@
       "latest": "2026-11-24T18:49:46+00:00"
     },
     "COHU": {
-      "articles": 5,
+      "articles": 4,
       "latest": "2026-11-24T16:20:02+00:00"
     },
     "COIN": {
@@ -286,7 +282,7 @@
       "latest": "2026-11-24T18:20:35+00:00"
     },
     "CORZ": {
-      "articles": 11,
+      "articles": 8,
       "latest": "2026-11-24T10:11:58+00:00"
     },
     "CRCT": {
@@ -322,11 +318,11 @@
       "latest": "2026-11-18T08:02:47+00:00"
     },
     "CTSH": {
-      "articles": 11,
+      "articles": 9,
       "latest": "2026-11-22T19:06:39+00:00"
     },
     "CVLT": {
-      "articles": 6,
+      "articles": 5,
       "latest": "2026-11-20T13:30:03+00:00"
     },
     "DAKT": {
@@ -342,7 +338,7 @@
       "latest": "2026-11-24T20:30:52+00:00"
     },
     "DCBO": {
-      "articles": 2,
+      "articles": 1,
       "latest": "2026-11-24T13:30:00+00:00"
     },
     "DDOG": {
@@ -350,11 +346,11 @@
       "latest": "2026-11-24T17:20:02+00:00"
     },
     "DGII": {
-      "articles": 6,
+      "articles": 3,
       "latest": "2026-11-24T20:00:00+00:00"
     },
     "DIOD": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-24T16:30:30+00:00"
     },
     "DJCO": {
@@ -362,15 +358,15 @@
       "latest": "2026-11-19T13:48:00+00:00"
     },
     "DLO": {
-      "articles": 9,
+      "articles": 2,
       "latest": "2026-11-18T09:44:08+00:00"
     },
     "DOCU": {
-      "articles": 9,
+      "articles": 8,
       "latest": "2026-11-23T17:31:01+00:00"
     },
     "DOX": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-18T15:11:29+00:00"
     },
     "DSGX": {
@@ -382,7 +378,7 @@
       "latest": "2026-11-18T09:15:00+00:00"
     },
     "DUOL": {
-      "articles": 11,
+      "articles": 7,
       "latest": "2026-11-23T22:53:04+00:00"
     },
     "EEFT": {
@@ -390,11 +386,11 @@
       "latest": "2026-11-17T14:11:00+00:00"
     },
     "ENPH": {
-      "articles": 11,
+      "articles": 10,
       "latest": "2026-11-24T13:00:04+00:00"
     },
     "ENTG": {
-      "articles": 11,
+      "articles": 10,
       "latest": "2026-11-24T16:30:54+00:00"
     },
     "ERIC": {
@@ -406,16 +402,12 @@
       "latest": "2026-11-24T15:33:19+00:00"
     },
     "EVLV": {
-      "articles": 2,
+      "articles": 1,
       "latest": "2026-11-15T09:09:16+00:00"
     },
     "EXLS": {
-      "articles": 8,
+      "articles": 7,
       "latest": "2026-11-23T10:09:11+00:00"
-    },
-    "EXTR": {
-      "articles": 2,
-      "latest": "2026-11-12T18:20:03+00:00"
     },
     "FEIM": {
       "articles": 1,
@@ -426,11 +418,11 @@
       "latest": "2026-11-24T09:30:29+00:00"
     },
     "FIVN": {
-      "articles": 6,
+      "articles": 5,
       "latest": "2026-11-24T21:05:00+00:00"
     },
     "FLEX": {
-      "articles": 5,
+      "articles": 4,
       "latest": "2026-11-20T14:05:00+00:00"
     },
     "FLYW": {
@@ -446,7 +438,7 @@
       "latest": "2026-11-20T18:15:18+00:00"
     },
     "FROG": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-23T11:04:51+00:00"
     },
     "FRSH": {
@@ -454,7 +446,7 @@
       "latest": "2026-11-23T12:31:00+00:00"
     },
     "FSLR": {
-      "articles": 12,
+      "articles": 10,
       "latest": "2026-11-24T16:13:01+00:00"
     },
     "FSLY": {
@@ -462,11 +454,11 @@
       "latest": "2026-11-24T17:50:02+00:00"
     },
     "FTNT": {
-      "articles": 12,
+      "articles": 11,
       "latest": "2026-11-20T14:33:44+00:00"
     },
     "GCT": {
-      "articles": 10,
+      "articles": 9,
       "latest": "2026-11-24T21:00:15+00:00"
     },
     "GDS": {
@@ -486,19 +478,15 @@
       "latest": "2026-11-21T05:13:25+00:00"
     },
     "GTLB": {
-      "articles": 8,
+      "articles": 7,
       "latest": "2026-11-23T11:27:59+00:00"
     },
     "GTM": {
       "articles": 6,
       "latest": "2026-11-24T20:45:34+00:00"
     },
-    "HIMX": {
-      "articles": 1,
-      "latest": "2026-11-12T13:09:45+00:00"
-    },
     "HLIT": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-23T17:01:54+00:00"
     },
     "IBEX": {
@@ -510,7 +498,7 @@
       "latest": "2026-11-24T20:31:23+00:00"
     },
     "IDCC": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-23T08:12:15+00:00"
     },
     "IIIV": {
@@ -522,7 +510,7 @@
       "latest": "2026-11-24T10:00:00+00:00"
     },
     "INOD": {
-      "articles": 11,
+      "articles": 10,
       "latest": "2026-11-24T05:22:14+00:00"
     },
     "INTA": {
@@ -578,7 +566,7 @@
       "latest": "2026-11-24T13:54:54+00:00"
     },
     "KPLT": {
-      "articles": 7,
+      "articles": 4,
       "latest": "2026-11-21T18:03:08+00:00"
     },
     "KSPI": {
@@ -586,7 +574,7 @@
       "latest": "2026-11-19T09:29:47+00:00"
     },
     "LASR": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-18T16:20:02+00:00"
     },
     "LFUS": {
@@ -602,7 +590,7 @@
       "latest": "2026-11-24T16:36:00+00:00"
     },
     "LOGI": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-22T23:12:10+00:00"
     },
     "LRCX": {
@@ -610,15 +598,15 @@
       "latest": "2026-11-24T18:54:34+00:00"
     },
     "LSCC": {
-      "articles": 10,
+      "articles": 5,
       "latest": "2026-11-24T16:30:30+00:00"
     },
     "LYFT": {
-      "articles": 9,
+      "articles": 8,
       "latest": "2026-11-24T11:04:47+00:00"
     },
     "MANH": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-19T15:42:23+00:00"
     },
     "MCHP": {
@@ -637,20 +625,16 @@
       "articles": 4,
       "latest": "2026-11-24T21:01:30+00:00"
     },
-    "MLAB": {
-      "articles": 2,
-      "latest": "2026-11-12T18:34:14+00:00"
-    },
     "MNDY": {
       "articles": 5,
       "latest": "2026-11-24T17:20:02+00:00"
     },
     "MORN": {
-      "articles": 11,
+      "articles": 10,
       "latest": "2026-11-23T13:21:02+00:00"
     },
     "MPWR": {
-      "articles": 9,
+      "articles": 8,
       "latest": "2026-11-24T17:20:27+00:00"
     },
     "MRVL": {
@@ -682,19 +666,19 @@
       "latest": "2026-11-16T13:30:00+00:00"
     },
     "NAVN": {
-      "articles": 8,
-      "latest": "2026-11-24T21:05:00+00:00"
-    },
-    "NCNO": {
-      "articles": 4,
-      "latest": "2026-11-24T21:05:00+00:00"
-    },
-    "NDAQ": {
       "articles": 7,
       "latest": "2026-11-24T21:05:00+00:00"
     },
+    "NCNO": {
+      "articles": 3,
+      "latest": "2026-11-24T21:05:00+00:00"
+    },
+    "NDAQ": {
+      "articles": 6,
+      "latest": "2026-11-24T21:05:00+00:00"
+    },
     "NICE": {
-      "articles": 4,
+      "articles": 1,
       "latest": "2026-11-18T14:07:00+00:00"
     },
     "NN": {
@@ -702,7 +686,7 @@
       "latest": "2026-11-21T08:11:01+00:00"
     },
     "NOVT": {
-      "articles": 4,
+      "articles": 2,
       "latest": "2026-11-24T22:59:22+00:00"
     },
     "NSIT": {
@@ -722,7 +706,7 @@
       "latest": "2026-11-24T23:30:01+00:00"
     },
     "NTSK": {
-      "articles": 12,
+      "articles": 10,
       "latest": "2026-11-23T11:02:45+00:00"
     },
     "NVDA": {
@@ -730,23 +714,19 @@
       "latest": "2026-11-24T23:58:47+00:00"
     },
     "NVTS": {
-      "articles": 11,
+      "articles": 10,
       "latest": "2026-11-24T12:15:47+00:00"
     },
     "NXPI": {
-      "articles": 12,
+      "articles": 11,
       "latest": "2026-11-24T20:31:13+00:00"
     },
     "NXT": {
       "articles": 12,
       "latest": "2026-11-23T10:07:29+00:00"
     },
-    "NYAX": {
-      "articles": 4,
-      "latest": "2026-11-12T20:46:00+00:00"
-    },
     "OCTV": {
-      "articles": 11,
+      "articles": 5,
       "latest": "2026-11-18T12:00:00+00:00"
     },
     "OKTA": {
@@ -758,7 +738,7 @@
       "latest": "2026-11-14T18:35:01+00:00"
     },
     "ON": {
-      "articles": 6,
+      "articles": 4,
       "latest": "2026-11-24T18:00:52+00:00"
     },
     "ONDS": {
@@ -778,7 +758,7 @@
       "latest": "2026-11-21T05:13:00+00:00"
     },
     "OUST": {
-      "articles": 5,
+      "articles": 3,
       "latest": "2026-11-17T13:43:39+00:00"
     },
     "PANW": {
@@ -834,11 +814,11 @@
       "latest": "2026-11-20T11:20:21+00:00"
     },
     "POWI": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-24T16:00:59+00:00"
     },
     "PRGS": {
-      "articles": 5,
+      "articles": 4,
       "latest": "2026-11-19T14:42:00+00:00"
     },
     "PSQL": {
@@ -846,11 +826,11 @@
       "latest": "2026-11-24T13:00:00+00:00"
     },
     "PTC": {
-      "articles": 8,
+      "articles": 7,
       "latest": "2026-11-24T16:53:47+00:00"
     },
     "PUBM": {
-      "articles": 7,
+      "articles": 5,
       "latest": "2026-11-23T13:30:00+00:00"
     },
     "QBTS": {
@@ -862,16 +842,12 @@
       "latest": "2026-11-24T17:49:20+00:00"
     },
     "QLYS": {
-      "articles": 6,
+      "articles": 3,
       "latest": "2026-11-22T00:00:28+00:00"
     },
     "QMCO": {
       "articles": 3,
       "latest": "2026-11-18T07:45:42+00:00"
-    },
-    "QNT": {
-      "articles": 3,
-      "latest": "2026-11-12T14:09:27+00:00"
     },
     "QUBT": {
       "articles": 1,
@@ -886,7 +862,7 @@
       "latest": "2026-11-20T10:11:59+00:00"
     },
     "RELY": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-22T03:10:04+00:00"
     },
     "RGTI": {
@@ -906,19 +882,19 @@
       "latest": "2026-11-23T13:20:11+00:00"
     },
     "RPD": {
-      "articles": 3,
+      "articles": 1,
       "latest": "2026-11-18T21:05:00+00:00"
     },
     "RUN": {
-      "articles": 5,
+      "articles": 2,
       "latest": "2026-11-19T08:00:00+00:00"
     },
     "RXT": {
-      "articles": 5,
+      "articles": 3,
       "latest": "2026-11-18T17:28:04+00:00"
     },
     "SABR": {
-      "articles": 7,
+      "articles": 6,
       "latest": "2026-11-23T10:12:20+00:00"
     },
     "SAIC": {
@@ -926,11 +902,11 @@
       "latest": "2026-11-20T16:12:59+00:00"
     },
     "SAIL": {
-      "articles": 9,
+      "articles": 7,
       "latest": "2026-11-24T14:00:00+00:00"
     },
     "SANM": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-24T20:48:16+00:00"
     },
     "SCSC": {
@@ -938,7 +914,7 @@
       "latest": "2026-11-18T05:22:31+00:00"
     },
     "SEDG": {
-      "articles": 6,
+      "articles": 5,
       "latest": "2026-11-20T23:12:22+00:00"
     },
     "SHAZ": {
@@ -954,7 +930,7 @@
       "latest": "2026-11-24T16:18:00+00:00"
     },
     "SIMO": {
-      "articles": 6,
+      "articles": 5,
       "latest": "2026-11-18T15:56:13+00:00"
     },
     "SITM": {
@@ -982,7 +958,7 @@
       "latest": "2026-11-24T20:54:16+00:00"
     },
     "SONO": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-24T14:43:00+00:00"
     },
     "SOUN": {
@@ -998,15 +974,15 @@
       "latest": "2026-11-21T09:15:41+00:00"
     },
     "SSNC": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-24T19:08:39+00:00"
     },
     "SSYS": {
-      "articles": 12,
+      "articles": 2,
       "latest": "2026-11-17T12:00:00+00:00"
     },
     "STNE": {
-      "articles": 7,
+      "articles": 2,
       "latest": "2026-11-17T18:06:03+00:00"
     },
     "STRC": {
@@ -1054,11 +1030,11 @@
       "latest": "2026-11-24T14:17:00+00:00"
     },
     "TLS": {
-      "articles": 4,
+      "articles": 3,
       "latest": "2026-11-18T16:20:02+00:00"
     },
     "TRMB": {
-      "articles": 6,
+      "articles": 3,
       "latest": "2026-11-19T12:05:00+00:00"
     },
     "TSAT": {
@@ -1078,7 +1054,7 @@
       "latest": "2026-11-24T22:23:18+00:00"
     },
     "UCTT": {
-      "articles": 6,
+      "articles": 4,
       "latest": "2026-11-24T13:30:00+00:00"
     },
     "UPBD": {
@@ -1086,7 +1062,7 @@
       "latest": "2026-11-24T20:47:31+00:00"
     },
     "VECO": {
-      "articles": 3,
+      "articles": 2,
       "latest": "2026-11-24T08:55:22+00:00"
     },
     "VIAV": {
@@ -1110,7 +1086,7 @@
       "latest": "2026-11-24T12:28:38+00:00"
     },
     "VSAT": {
-      "articles": 5,
+      "articles": 4,
       "latest": "2026-11-24T14:44:00+00:00"
     },
     "WDAY": {
@@ -1122,11 +1098,11 @@
       "latest": "2026-11-23T19:00:00+00:00"
     },
     "WIX": {
-      "articles": 4,
+      "articles": 2,
       "latest": "2026-11-19T16:00:04+00:00"
     },
     "WLTH": {
-      "articles": 2,
+      "articles": 1,
       "latest": "2026-11-24T21:05:00+00:00"
     },
     "WRD": {
@@ -1134,15 +1110,15 @@
       "latest": "2026-11-23T23:21:25+00:00"
     },
     "WSE": {
-      "articles": 8,
+      "articles": 6,
       "latest": "2026-11-19T06:12:46+00:00"
     },
     "XNDU": {
-      "articles": 9,
+      "articles": 3,
       "latest": "2026-11-23T16:12:57+00:00"
     },
     "ZBRA": {
-      "articles": 7,
+      "articles": 5,
       "latest": "2026-11-24T21:05:00+00:00"
     },
     "ZM": {
