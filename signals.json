@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T12:24:06.535434+00:00",
-  "total_signals": 5493,
-  "completed": 4679,
-  "pending": 814,
+  "generated_at": "2026-11-28T04:30:04.125534+00:00",
+  "total_signals": 5556,
+  "completed": 4812,
+  "pending": 744,
   "duplicate_sessions": {
     "2026-08-23": 52,
     "2026-08-24": 52,
@@ -11,7 +11,8 @@
     "2026-10-03": 14,
     "2026-11-21": 1,
     "2026-11-24": 75,
-    "2026-11-26": 1
+    "2026-11-26": 1,
+    "2026-11-28": 1
   },
   "signals": [
     {
@@ -79572,7 +79573,7 @@
       "operating_cash_flow_change_pct": -6.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "GMEX|2026-11-19",
@@ -79589,7 +79590,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.07,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NVDA|2026-11-19",
@@ -79606,7 +79607,7 @@
       "operating_cash_flow_change_pct": -52.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "EVCM|2026-11-19",
@@ -79623,7 +79624,7 @@
       "operating_cash_flow_change_pct": 15.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "STRD|2026-11-19",
@@ -79640,7 +79641,7 @@
       "operating_cash_flow_change_pct": 207.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "TEAM|2026-11-19",
@@ -79657,7 +79658,7 @@
       "operating_cash_flow_change_pct": -2.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "GTM|2026-11-19",
@@ -79674,7 +79675,7 @@
       "operating_cash_flow_change_pct": -45.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MSTR|2026-11-19",
@@ -79691,7 +79692,7 @@
       "operating_cash_flow_change_pct": 207.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "GDS|2026-11-19",
@@ -79708,7 +79709,7 @@
       "operating_cash_flow_change_pct": 216.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PSQL|2026-11-19",
@@ -79725,7 +79726,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PONY|2026-11-19",
@@ -79742,7 +79743,7 @@
       "operating_cash_flow_change_pct": 40.7,
       "risk_reward": 2.0,
       "volume_direction": "down",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DOX|2026-11-19",
@@ -79759,7 +79760,7 @@
       "operating_cash_flow_change_pct": 94.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "FIVN|2026-11-19",
@@ -79776,7 +79777,7 @@
       "operating_cash_flow_change_pct": 38.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "COIN|2026-11-19",
@@ -79793,7 +79794,7 @@
       "operating_cash_flow_change_pct": 105.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NICE|2026-11-19",
@@ -79810,7 +79811,7 @@
       "operating_cash_flow_change_pct": -20.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "STRC|2026-11-19",
@@ -79827,7 +79828,7 @@
       "operating_cash_flow_change_pct": 207.3,
       "risk_reward": 2.0,
       "volume_direction": "down",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "XNDU|2026-11-19",
@@ -79844,7 +79845,7 @@
       "operating_cash_flow_change_pct": -237.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SSYS|2026-11-19",
@@ -79861,7 +79862,7 @@
       "operating_cash_flow_change_pct": 118.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VISN|2026-11-19",
@@ -79878,7 +79879,7 @@
       "operating_cash_flow_change_pct": 21.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "STRK|2026-11-19",
@@ -79895,7 +79896,7 @@
       "operating_cash_flow_change_pct": 207.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DDOG|2026-11-19",
@@ -79912,7 +79913,7 @@
       "operating_cash_flow_change_pct": -8.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "KC|2026-11-19",
@@ -79929,7 +79930,7 @@
       "operating_cash_flow_change_pct": 433.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "QBTS|2026-11-19",
@@ -79946,7 +79947,7 @@
       "operating_cash_flow_change_pct": -24.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NANO|2026-11-19",
@@ -79963,7 +79964,7 @@
       "operating_cash_flow_change_pct": 267.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SEDG|2026-11-19",
@@ -79980,7 +79981,7 @@
       "operating_cash_flow_change_pct": 78.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "INOD|2026-11-19",
@@ -79997,7 +79998,7 @@
       "operating_cash_flow_change_pct": -166.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "STRF|2026-11-19",
@@ -80014,7 +80015,7 @@
       "operating_cash_flow_change_pct": 207.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "HIMX|2026-11-19",
@@ -80031,7 +80032,7 @@
       "operating_cash_flow_change_pct": 36.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PEGA|2026-11-19",
@@ -80048,7 +80049,7 @@
       "operating_cash_flow_change_pct": -92.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VNET|2026-11-19",
@@ -80065,7 +80066,7 @@
       "operating_cash_flow_change_pct": 25.6,
       "risk_reward": 2.0,
       "volume_direction": "down",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "BTDR|2026-11-19",
@@ -80082,7 +80083,7 @@
       "operating_cash_flow_change_pct": 103.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "INTC|2026-11-19",
@@ -80099,7 +80100,7 @@
       "operating_cash_flow_change_pct": -27.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PICS|2026-11-19",
@@ -80116,7 +80117,7 @@
       "operating_cash_flow_change_pct": 440.7,
       "risk_reward": 2.0,
       "volume_direction": "up",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ADEA|2026-11-19",
@@ -80133,7 +80134,7 @@
       "operating_cash_flow_change_pct": -90.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ASTS|2026-11-19",
@@ -80150,7 +80151,7 @@
       "operating_cash_flow_change_pct": -74.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "FSLR|2026-11-19",
@@ -80167,7 +80168,7 @@
       "operating_cash_flow_change_pct": 70.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AAOI|2026-11-19",
@@ -80184,7 +80185,7 @@
       "operating_cash_flow_change_pct": -125.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AGLT|2026-11-19",
@@ -80201,7 +80202,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NTNX|2026-11-19",
@@ -80218,7 +80219,7 @@
       "operating_cash_flow_change_pct": 51.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ENPH|2026-11-19",
@@ -80235,7 +80236,7 @@
       "operating_cash_flow_change_pct": -99.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "GTLB|2026-11-19",
@@ -80252,7 +80253,7 @@
       "operating_cash_flow_change_pct": -102.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "RGTI|2026-11-19",
@@ -80269,7 +80270,7 @@
       "operating_cash_flow_change_pct": -8.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "OTEX|2026-11-19",
@@ -80286,7 +80287,7 @@
       "operating_cash_flow_change_pct": -7.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "BULL|2026-11-19",
@@ -80303,7 +80304,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MAAS|2026-11-19",
@@ -80320,7 +80321,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "QUBT|2026-11-19",
@@ -80337,7 +80338,7 @@
       "operating_cash_flow_change_pct": 15.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CSIQ|2026-11-19",
@@ -80354,7 +80355,7 @@
       "operating_cash_flow_change_pct": 13.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PAYS|2026-11-19",
@@ -80371,7 +80372,7 @@
       "operating_cash_flow_change_pct": 4730.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SMCI|2026-11-19",
@@ -80388,7 +80389,7 @@
       "operating_cash_flow_change_pct": -158.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "STNE|2026-11-19",
@@ -80405,7 +80406,7 @@
       "operating_cash_flow_change_pct": -256.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PLTR|2026-11-19",
@@ -80422,7 +80423,7 @@
       "operating_cash_flow_change_pct": -1.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "BL|2026-11-19",
@@ -80439,7 +80440,7 @@
       "operating_cash_flow_change_pct": 49.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SCSC|2026-11-19",
@@ -80456,7 +80457,7 @@
       "operating_cash_flow_change_pct": -1739.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "FFIV|2026-11-19",
@@ -80473,7 +80474,7 @@
       "operating_cash_flow_change_pct": -62.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MRVL|2026-11-19",
@@ -80490,7 +80491,7 @@
       "operating_cash_flow_change_pct": -5.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "WRD|2026-11-19",
@@ -80507,7 +80508,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": "down",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CHRN|2026-11-19",
@@ -80524,7 +80525,7 @@
       "operating_cash_flow_change_pct": 1.4,
       "risk_reward": 2.0,
       "volume_direction": "down",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MNDY|2026-11-19",
@@ -80541,7 +80542,7 @@
       "operating_cash_flow_change_pct": -63.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ONDS|2026-11-19",
@@ -80558,7 +80559,7 @@
       "operating_cash_flow_change_pct": -63.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DGII|2026-11-19",
@@ -80575,7 +80576,7 @@
       "operating_cash_flow_change_pct": -19.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SIMO|2026-11-19",
@@ -80592,7 +80593,7 @@
       "operating_cash_flow_change_pct": -301.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MCHP|2026-11-19",
@@ -80609,7 +80610,7 @@
       "operating_cash_flow_change_pct": -18.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "IQMX|2026-11-19",
@@ -80626,7 +80627,7 @@
       "operating_cash_flow_change_pct": -378.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SSNC|2026-11-19",
@@ -80643,7 +80644,7 @@
       "operating_cash_flow_change_pct": 20.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "WDAY|2026-11-19",
@@ -80660,7 +80661,7 @@
       "operating_cash_flow_change_pct": -25.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "IDCC|2026-11-19",
@@ -80677,7 +80678,7 @@
       "operating_cash_flow_change_pct": 82.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DJCO|2026-11-19",
@@ -80694,7 +80695,7 @@
       "operating_cash_flow_change_pct": 163.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PAYP|2026-11-19",
@@ -80711,7 +80712,7 @@
       "operating_cash_flow_change_pct": 230.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ACIW|2026-11-19",
@@ -80728,7 +80729,7 @@
       "operating_cash_flow_change_pct": 68.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "POET|2026-11-19",
@@ -80745,7 +80746,7 @@
       "operating_cash_flow_change_pct": -39.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "TER|2026-11-19",
@@ -80762,7 +80763,7 @@
       "operating_cash_flow_change_pct": 77.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "QMCO|2026-11-19",
@@ -80779,7 +80780,7 @@
       "operating_cash_flow_change_pct": 1388.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "IMOS|2026-11-19",
@@ -80796,7 +80797,7 @@
       "operating_cash_flow_change_pct": -1.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NSSC|2026-11-19",
@@ -80813,7 +80814,7 @@
       "operating_cash_flow_change_pct": -84.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "TSEM|2026-11-19",
@@ -80830,7 +80831,7 @@
       "operating_cash_flow_change_pct": 4.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ADBE|2026-11-19",
@@ -80847,7 +80848,7 @@
       "operating_cash_flow_change_pct": 16.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "LITE|2026-11-19",
@@ -80864,7 +80865,7 @@
       "operating_cash_flow_change_pct": -26.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CTSH|2026-11-19",
@@ -80881,7 +80882,7 @@
       "operating_cash_flow_change_pct": 79.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "HQ|2026-11-19",
@@ -80898,7 +80899,7 @@
       "operating_cash_flow_change_pct": -41.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "APPS|2026-11-19",
@@ -80915,7 +80916,7 @@
       "operating_cash_flow_change_pct": 5.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "TRMB|2026-11-19",
@@ -80932,7 +80933,7 @@
       "operating_cash_flow_change_pct": -37.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "PGY|2026-11-19",
@@ -80949,7 +80950,7 @@
       "operating_cash_flow_change_pct": -34.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NTAP|2026-11-19",
@@ -80966,7 +80967,7 @@
       "operating_cash_flow_change_pct": -47.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "WIX|2026-11-19",
@@ -80983,7 +80984,7 @@
       "operating_cash_flow_change_pct": 40.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ZBRA|2026-11-19",
@@ -81000,7 +81001,7 @@
       "operating_cash_flow_change_pct": 53.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "EVLV|2026-11-19",
@@ -81017,7 +81018,7 @@
       "operating_cash_flow_change_pct": 51.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ITRN|2026-11-19",
@@ -81034,7 +81035,7 @@
       "operating_cash_flow_change_pct": 76.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AXTI|2026-11-19",
@@ -81051,7 +81052,7 @@
       "operating_cash_flow_change_pct": 841.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "VICR|2026-11-19",
@@ -81068,7 +81069,7 @@
       "operating_cash_flow_change_pct": 47.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MQ|2026-11-19",
@@ -81085,7 +81086,7 @@
       "operating_cash_flow_change_pct": -58.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ASML|2026-11-19",
@@ -81102,7 +81103,7 @@
       "operating_cash_flow_change_pct": 592.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CIFR|2026-11-19",
@@ -81119,7 +81120,7 @@
       "operating_cash_flow_change_pct": 46.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "KEEL|2026-11-19",
@@ -81136,7 +81137,7 @@
       "operating_cash_flow_change_pct": 20.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "KARO|2026-11-19",
@@ -81153,7 +81154,7 @@
       "operating_cash_flow_change_pct": 3.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "APLD|2026-11-19",
@@ -81170,7 +81171,7 @@
       "operating_cash_flow_change_pct": -51.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MU|2026-11-19",
@@ -81187,7 +81188,7 @@
       "operating_cash_flow_change_pct": 73.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CGNT|2026-11-19",
@@ -81204,7 +81205,7 @@
       "operating_cash_flow_change_pct": 123.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "RELY|2026-11-19",
@@ -81221,7 +81222,7 @@
       "operating_cash_flow_change_pct": -30.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AMBA|2026-11-19",
@@ -81238,7 +81239,7 @@
       "operating_cash_flow_change_pct": 98.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SPSC|2026-11-19",
@@ -81255,7 +81256,7 @@
       "operating_cash_flow_change_pct": -3.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SHOP|2026-11-19",
@@ -81272,7 +81273,7 @@
       "operating_cash_flow_change_pct": 24.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MXL|2026-11-19",
@@ -81289,7 +81290,7 @@
       "operating_cash_flow_change_pct": -383.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NOVT|2026-11-19",
@@ -81306,7 +81307,7 @@
       "operating_cash_flow_change_pct": -39.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "STX|2026-11-19",
@@ -81323,7 +81324,7 @@
       "operating_cash_flow_change_pct": 29.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DAVE|2026-11-19",
@@ -81340,7 +81341,7 @@
       "operating_cash_flow_change_pct": 19.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NVTS|2026-11-19",
@@ -81357,7 +81358,7 @@
       "operating_cash_flow_change_pct": 41.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CAMT|2026-11-19",
@@ -81374,7 +81375,7 @@
       "operating_cash_flow_change_pct": null,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SKHY|2026-11-19",
@@ -81391,7 +81392,7 @@
       "operating_cash_flow_change_pct": -17.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ACMR|2026-11-19",
@@ -81408,7 +81409,7 @@
       "operating_cash_flow_change_pct": -1000.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SPT|2026-11-19",
@@ -81425,7 +81426,7 @@
       "operating_cash_flow_change_pct": 25.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ICHR|2026-11-19",
@@ -81442,7 +81443,7 @@
       "operating_cash_flow_change_pct": -81.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AVT|2026-11-19",
@@ -81459,7 +81460,7 @@
       "operating_cash_flow_change_pct": -189.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "LRCX|2026-11-19",
@@ -81476,7 +81477,7 @@
       "operating_cash_flow_change_pct": 140.0,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "WDC|2026-11-19",
@@ -81493,7 +81494,7 @@
       "operating_cash_flow_change_pct": 15.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CBRS|2026-11-19",
@@ -81510,7 +81511,7 @@
       "operating_cash_flow_change_pct": -470.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CRDO|2026-11-19",
@@ -81527,7 +81528,7 @@
       "operating_cash_flow_change_pct": -50.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AEHR|2026-11-19",
@@ -81544,7 +81545,7 @@
       "operating_cash_flow_change_pct": -272.2,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CGNX|2026-11-19",
@@ -81561,7 +81562,7 @@
       "operating_cash_flow_change_pct": 53.8,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SMTC|2026-11-19",
@@ -81578,7 +81579,7 @@
       "operating_cash_flow_change_pct": 90.3,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "MDB|2026-11-19",
@@ -81595,7 +81596,7 @@
       "operating_cash_flow_change_pct": -29.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "CRWV|2026-11-19",
@@ -81612,7 +81613,7 @@
       "operating_cash_flow_change_pct": 190.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ALNT|2026-11-19",
@@ -81629,7 +81630,7 @@
       "operating_cash_flow_change_pct": -85.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ALKT|2026-11-19",
@@ -81646,7 +81647,7 @@
       "operating_cash_flow_change_pct": -0.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DSP|2026-11-19",
@@ -81663,7 +81664,7 @@
       "operating_cash_flow_change_pct": -84.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "TTMI|2026-11-19",
@@ -81680,7 +81681,7 @@
       "operating_cash_flow_change_pct": 60.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "DLO|2026-11-19",
@@ -81697,7 +81698,7 @@
       "operating_cash_flow_change_pct": 27.5,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "AMAT|2026-11-19",
@@ -81714,7 +81715,7 @@
       "operating_cash_flow_change_pct": 259.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "RUN|2026-11-19",
@@ -81731,7 +81732,7 @@
       "operating_cash_flow_change_pct": 261.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NTCT|2026-11-19",
@@ -81748,7 +81749,7 @@
       "operating_cash_flow_change_pct": -129.7,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "NXT|2026-11-19",
@@ -81765,7 +81766,7 @@
       "operating_cash_flow_change_pct": 30.6,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "ARM|2026-11-19",
@@ -81782,7 +81783,7 @@
       "operating_cash_flow_change_pct": -77.1,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "INTU|2026-11-19",
@@ -81799,7 +81800,7 @@
       "operating_cash_flow_change_pct": -74.9,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "FTNT|2026-11-19",
@@ -81816,7 +81817,7 @@
       "operating_cash_flow_change_pct": -9.4,
       "risk_reward": 2.0,
       "volume_direction": null,
-      "status": "pending"
+      "status": "complete"
     },
     {
       "signal_id": "SOUN|2026-11-20",
@@ -93391,6 +93392,1077 @@
       "revenue_growth_pct": 5.6,
       "ebitda_growth_pct": 81.4,
       "operating_cash_flow_change_pct": -129.7,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "NTNX|2026-11-28",
+      "ticker": "NTNX",
+      "observation_date": "2026-11-28",
+      "entry_price": 46.5,
+      "target_price": 56.81,
+      "stop_price": 41.35,
+      "rsi": 23.5865,
+      "volume_ratio": 1.16,
+      "profitable": true,
+      "revenue_growth_pct": 7.7,
+      "ebitda_growth_pct": 1.3,
+      "operating_cash_flow_change_pct": 51.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "AMBA|2026-11-28",
+      "ticker": "AMBA",
+      "observation_date": "2026-11-28",
+      "entry_price": 35.24,
+      "target_price": 50.78,
+      "stop_price": 27.47,
+      "rsi": 25.5967,
+      "volume_ratio": 1.23,
+      "profitable": false,
+      "revenue_growth_pct": 7.7,
+      "ebitda_growth_pct": 86.9,
+      "operating_cash_flow_change_pct": 98.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "GDS|2026-11-28",
+      "ticker": "GDS",
+      "observation_date": "2026-11-28",
+      "entry_price": 13.49,
+      "target_price": 18.9,
+      "stop_price": 10.78,
+      "rsi": 26.6312,
+      "volume_ratio": 1.61,
+      "profitable": true,
+      "revenue_growth_pct": -8.3,
+      "ebitda_growth_pct": -28.7,
+      "operating_cash_flow_change_pct": 216.4,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "SOUN|2026-11-28",
+      "ticker": "SOUN",
+      "observation_date": "2026-11-28",
+      "entry_price": 2.78,
+      "target_price": 3.6,
+      "stop_price": 2.37,
+      "rsi": 27.8606,
+      "volume_ratio": 0.49,
+      "profitable": false,
+      "revenue_growth_pct": 0.8,
+      "ebitda_growth_pct": -11.5,
+      "operating_cash_flow_change_pct": -6.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "MSTR|2026-11-28",
+      "ticker": "MSTR",
+      "observation_date": "2026-11-28",
+      "entry_price": 81.62,
+      "target_price": 108.0,
+      "stop_price": 68.43,
+      "rsi": 28.7003,
+      "volume_ratio": 0.78,
+      "profitable": true,
+      "revenue_growth_pct": 2.5,
+      "ebitda_growth_pct": 356.0,
+      "operating_cash_flow_change_pct": 207.3,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "PONY|2026-11-28",
+      "ticker": "PONY",
+      "observation_date": "2026-11-28",
+      "entry_price": 3.46,
+      "target_price": 4.41,
+      "stop_price": 2.98,
+      "rsi": 29.127,
+      "volume_ratio": 0.64,
+      "profitable": false,
+      "revenue_growth_pct": 23.2,
+      "ebitda_growth_pct": -4.6,
+      "operating_cash_flow_change_pct": -37.5,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "VNET|2026-11-28",
+      "ticker": "VNET",
+      "observation_date": "2026-11-28",
+      "entry_price": 1.84,
+      "target_price": 3.08,
+      "stop_price": 1.22,
+      "rsi": 30.0652,
+      "volume_ratio": 0.84,
+      "profitable": false,
+      "revenue_growth_pct": 6.7,
+      "ebitda_growth_pct": 12.4,
+      "operating_cash_flow_change_pct": 206.9,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "INTU|2026-11-28",
+      "ticker": "INTU",
+      "observation_date": "2026-11-28",
+      "entry_price": 271.94,
+      "target_price": 314.92,
+      "stop_price": 250.45,
+      "rsi": 30.0939,
+      "volume_ratio": 0.49,
+      "profitable": true,
+      "revenue_growth_pct": 0.0,
+      "ebitda_growth_pct": 51.0,
+      "operating_cash_flow_change_pct": -20.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "BTDR|2026-11-28",
+      "ticker": "BTDR",
+      "observation_date": "2026-11-28",
+      "entry_price": 3.1,
+      "target_price": 5.36,
+      "stop_price": 1.97,
+      "rsi": 30.8381,
+      "volume_ratio": 0.57,
+      "profitable": false,
+      "revenue_growth_pct": 40.2,
+      "ebitda_growth_pct": 147.6,
+      "operating_cash_flow_change_pct": 103.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "FIVN|2026-11-28",
+      "ticker": "FIVN",
+      "observation_date": "2026-11-28",
+      "entry_price": 23.58,
+      "target_price": 29.59,
+      "stop_price": 20.57,
+      "rsi": 30.9153,
+      "volume_ratio": 0.57,
+      "profitable": true,
+      "revenue_growth_pct": 3.5,
+      "ebitda_growth_pct": 35.0,
+      "operating_cash_flow_change_pct": 38.7,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "BULL|2026-11-28",
+      "ticker": "BULL",
+      "observation_date": "2026-11-28",
+      "entry_price": 4.13,
+      "target_price": 5.12,
+      "stop_price": 3.64,
+      "rsi": 31.0611,
+      "volume_ratio": 0.48,
+      "profitable": true,
+      "revenue_growth_pct": 10.0,
+      "ebitda_growth_pct": 22.2,
+      "operating_cash_flow_change_pct": null,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "COIN|2026-11-28",
+      "ticker": "COIN",
+      "observation_date": "2026-11-28",
+      "entry_price": 107.04,
+      "target_price": 133.08,
+      "stop_price": 94.02,
+      "rsi": 31.9924,
+      "volume_ratio": 0.53,
+      "profitable": true,
+      "revenue_growth_pct": -0.4,
+      "ebitda_growth_pct": 393.2,
+      "operating_cash_flow_change_pct": 105.5,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "ICHR|2026-11-28",
+      "ticker": "ICHR",
+      "observation_date": "2026-11-28",
+      "entry_price": 26.11,
+      "target_price": 36.82,
+      "stop_price": 20.75,
+      "rsi": 33.396,
+      "volume_ratio": 0.6,
+      "profitable": true,
+      "revenue_growth_pct": 11.5,
+      "ebitda_growth_pct": 114.9,
+      "operating_cash_flow_change_pct": -81.1,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "VISN|2026-11-28",
+      "ticker": "VISN",
+      "observation_date": "2026-11-28",
+      "entry_price": 4.08,
+      "target_price": 4.93,
+      "stop_price": 3.66,
+      "rsi": 34.1504,
+      "volume_ratio": 0.47,
+      "profitable": true,
+      "revenue_growth_pct": 0.0,
+      "ebitda_growth_pct": 167.6,
+      "operating_cash_flow_change_pct": 21.0,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "KEEL|2026-11-28",
+      "ticker": "KEEL",
+      "observation_date": "2026-11-28",
+      "entry_price": 1.41,
+      "target_price": 2.06,
+      "stop_price": 1.08,
+      "rsi": 34.2392,
+      "volume_ratio": 0.3,
+      "profitable": false,
+      "revenue_growth_pct": -9.2,
+      "ebitda_growth_pct": -296.4,
+      "operating_cash_flow_change_pct": 20.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "WRD|2026-11-28",
+      "ticker": "WRD",
+      "observation_date": "2026-11-28",
+      "entry_price": 3.16,
+      "target_price": 4.03,
+      "stop_price": 2.72,
+      "rsi": 34.311,
+      "volume_ratio": 0.92,
+      "profitable": false,
+      "revenue_growth_pct": 38.8,
+      "ebitda_growth_pct": -3.5,
+      "operating_cash_flow_change_pct": null,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "DDOG|2026-11-28",
+      "ticker": "DDOG",
+      "observation_date": "2026-11-28",
+      "entry_price": 165.75,
+      "target_price": 204.78,
+      "stop_price": 146.24,
+      "rsi": 34.9509,
+      "volume_ratio": 0.38,
+      "profitable": true,
+      "revenue_growth_pct": 6.7,
+      "ebitda_growth_pct": 101.1,
+      "operating_cash_flow_change_pct": -8.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "IDCC|2026-11-28",
+      "ticker": "IDCC",
+      "observation_date": "2026-11-28",
+      "entry_price": 260.28,
+      "target_price": 297.24,
+      "stop_price": 241.8,
+      "rsi": 35.1852,
+      "volume_ratio": 0.32,
+      "profitable": true,
+      "revenue_growth_pct": -25.7,
+      "ebitda_growth_pct": -25.3,
+      "operating_cash_flow_change_pct": 82.3,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "DJCO|2026-11-28",
+      "ticker": "DJCO",
+      "observation_date": "2026-11-28",
+      "entry_price": 542.99,
+      "target_price": 625.88,
+      "stop_price": 501.54,
+      "rsi": 35.3543,
+      "volume_ratio": 0.68,
+      "profitable": false,
+      "revenue_growth_pct": 18.9,
+      "ebitda_growth_pct": 66.5,
+      "operating_cash_flow_change_pct": 163.4,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "ONDS|2026-11-28",
+      "ticker": "ONDS",
+      "observation_date": "2026-11-28",
+      "entry_price": 4.1,
+      "target_price": 5.52,
+      "stop_price": 3.39,
+      "rsi": 35.739,
+      "volume_ratio": 0.35,
+      "profitable": false,
+      "revenue_growth_pct": 99.9,
+      "ebitda_growth_pct": 83.0,
+      "operating_cash_flow_change_pct": -63.3,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "ENPH|2026-11-28",
+      "ticker": "ENPH",
+      "observation_date": "2026-11-28",
+      "entry_price": 21.69,
+      "target_price": 27.53,
+      "stop_price": 18.77,
+      "rsi": 35.7626,
+      "volume_ratio": 0.69,
+      "profitable": true,
+      "revenue_growth_pct": 0.5,
+      "ebitda_growth_pct": -79.5,
+      "operating_cash_flow_change_pct": -99.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "GTM|2026-11-28",
+      "ticker": "GTM",
+      "observation_date": "2026-11-28",
+      "entry_price": 3.06,
+      "target_price": 3.79,
+      "stop_price": 2.7,
+      "rsi": 35.8258,
+      "volume_ratio": 0.41,
+      "profitable": true,
+      "revenue_growth_pct": -0.5,
+      "ebitda_growth_pct": 108.1,
+      "operating_cash_flow_change_pct": -45.7,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "TEAM|2026-11-28",
+      "ticker": "TEAM",
+      "observation_date": "2026-11-28",
+      "entry_price": 145.95,
+      "target_price": 175.12,
+      "stop_price": 131.36,
+      "rsi": 35.9771,
+      "volume_ratio": 0.35,
+      "profitable": true,
+      "revenue_growth_pct": 0.3,
+      "ebitda_growth_pct": -10.6,
+      "operating_cash_flow_change_pct": -2.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "DOX|2026-11-28",
+      "ticker": "DOX",
+      "observation_date": "2026-11-28",
+      "entry_price": 43.62,
+      "target_price": 49.72,
+      "stop_price": 40.57,
+      "rsi": 35.9971,
+      "volume_ratio": 0.23,
+      "profitable": null,
+      "revenue_growth_pct": null,
+      "ebitda_growth_pct": null,
+      "operating_cash_flow_change_pct": 94.1,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "CIFR|2026-11-28",
+      "ticker": "CIFR",
+      "observation_date": "2026-11-28",
+      "entry_price": 5.68,
+      "target_price": 8.52,
+      "stop_price": 4.26,
+      "rsi": 36.0368,
+      "volume_ratio": 0.45,
+      "profitable": true,
+      "revenue_growth_pct": 7.7,
+      "ebitda_growth_pct": 160.7,
+      "operating_cash_flow_change_pct": 46.1,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "QBTS|2026-11-28",
+      "ticker": "QBTS",
+      "observation_date": "2026-11-28",
+      "entry_price": 7.58,
+      "target_price": 10.34,
+      "stop_price": 6.2,
+      "rsi": 36.3339,
+      "volume_ratio": 0.84,
+      "profitable": false,
+      "revenue_growth_pct": 45.2,
+      "ebitda_growth_pct": 0.2,
+      "operating_cash_flow_change_pct": -24.9,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "INOD|2026-11-28",
+      "ticker": "INOD",
+      "observation_date": "2026-11-28",
+      "entry_price": 32.64,
+      "target_price": 43.04,
+      "stop_price": 27.44,
+      "rsi": 36.4133,
+      "volume_ratio": 0.27,
+      "profitable": true,
+      "revenue_growth_pct": 3.8,
+      "ebitda_growth_pct": -40.1,
+      "operating_cash_flow_change_pct": -166.0,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "NICE|2026-11-28",
+      "ticker": "NICE",
+      "observation_date": "2026-11-28",
+      "entry_price": 90.32,
+      "target_price": 103.27,
+      "stop_price": 83.84,
+      "rsi": 36.4197,
+      "volume_ratio": 0.46,
+      "profitable": true,
+      "revenue_growth_pct": 1.1,
+      "ebitda_growth_pct": 73.6,
+      "operating_cash_flow_change_pct": -20.4,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "AAOI|2026-11-28",
+      "ticker": "AAOI",
+      "observation_date": "2026-11-28",
+      "entry_price": 40.9,
+      "target_price": 61.19,
+      "stop_price": 30.76,
+      "rsi": 36.5087,
+      "volume_ratio": 0.47,
+      "profitable": true,
+      "revenue_growth_pct": 40.6,
+      "ebitda_growth_pct": 343.6,
+      "operating_cash_flow_change_pct": -125.0,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "UCTT|2026-11-28",
+      "ticker": "UCTT",
+      "observation_date": "2026-11-28",
+      "entry_price": 36.29,
+      "target_price": 49.97,
+      "stop_price": 29.45,
+      "rsi": 36.5892,
+      "volume_ratio": 0.55,
+      "profitable": true,
+      "revenue_growth_pct": 17.7,
+      "ebitda_growth_pct": 42.9,
+      "operating_cash_flow_change_pct": -2.9,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "FSLR|2026-11-28",
+      "ticker": "FSLR",
+      "observation_date": "2026-11-28",
+      "entry_price": 149.77,
+      "target_price": 178.99,
+      "stop_price": 135.16,
+      "rsi": 36.6459,
+      "volume_ratio": 0.36,
+      "profitable": true,
+      "revenue_growth_pct": 16.5,
+      "ebitda_growth_pct": 16.9,
+      "operating_cash_flow_change_pct": 70.4,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "XNDU|2026-11-28",
+      "ticker": "XNDU",
+      "observation_date": "2026-11-28",
+      "entry_price": 2.1,
+      "target_price": 2.91,
+      "stop_price": 1.69,
+      "rsi": 36.7537,
+      "volume_ratio": 0.66,
+      "profitable": false,
+      "revenue_growth_pct": -13.3,
+      "ebitda_growth_pct": -17.5,
+      "operating_cash_flow_change_pct": -237.1,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "SEDG|2026-11-28",
+      "ticker": "SEDG",
+      "observation_date": "2026-11-28",
+      "entry_price": 21.0,
+      "target_price": 27.48,
+      "stop_price": 17.76,
+      "rsi": 36.8609,
+      "volume_ratio": 0.62,
+      "profitable": false,
+      "revenue_growth_pct": -5.8,
+      "ebitda_growth_pct": 348.6,
+      "operating_cash_flow_change_pct": 78.9,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "SHAZ|2026-11-28",
+      "ticker": "SHAZ",
+      "observation_date": "2026-11-28",
+      "entry_price": 17.28,
+      "target_price": 27.77,
+      "stop_price": 12.04,
+      "rsi": 37.0482,
+      "volume_ratio": 0.33,
+      "profitable": false,
+      "revenue_growth_pct": 421.1,
+      "ebitda_growth_pct": 92.4,
+      "operating_cash_flow_change_pct": -315.3,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "LIF|2026-11-28",
+      "ticker": "LIF",
+      "observation_date": "2026-11-28",
+      "entry_price": 38.68,
+      "target_price": 46.07,
+      "stop_price": 34.98,
+      "rsi": 37.1042,
+      "volume_ratio": 0.5,
+      "profitable": true,
+      "revenue_growth_pct": 9.5,
+      "ebitda_growth_pct": 149.1,
+      "operating_cash_flow_change_pct": 13.9,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "PICS|2026-11-28",
+      "ticker": "PICS",
+      "observation_date": "2026-11-28",
+      "entry_price": 5.54,
+      "target_price": 7.99,
+      "stop_price": 4.31,
+      "rsi": 37.1415,
+      "volume_ratio": 0.69,
+      "profitable": true,
+      "revenue_growth_pct": 14.6,
+      "ebitda_growth_pct": null,
+      "operating_cash_flow_change_pct": -238.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "AGLT|2026-11-28",
+      "ticker": "AGLT",
+      "observation_date": "2026-11-28",
+      "entry_price": 6.65,
+      "target_price": 9.9,
+      "stop_price": 5.03,
+      "rsi": 37.2915,
+      "volume_ratio": 0.78,
+      "profitable": null,
+      "revenue_growth_pct": null,
+      "ebitda_growth_pct": null,
+      "operating_cash_flow_change_pct": null,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "VICR|2026-11-28",
+      "ticker": "VICR",
+      "observation_date": "2026-11-28",
+      "entry_price": 131.17,
+      "target_price": 183.87,
+      "stop_price": 104.82,
+      "rsi": 37.3909,
+      "volume_ratio": 0.48,
+      "profitable": true,
+      "revenue_growth_pct": 37.4,
+      "ebitda_growth_pct": 92.8,
+      "operating_cash_flow_change_pct": 47.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "QUBT|2026-11-28",
+      "ticker": "QUBT",
+      "observation_date": "2026-11-28",
+      "entry_price": 4.83,
+      "target_price": 6.28,
+      "stop_price": 4.11,
+      "rsi": 37.5984,
+      "volume_ratio": 0.63,
+      "profitable": false,
+      "revenue_growth_pct": 69.6,
+      "ebitda_growth_pct": -21.0,
+      "operating_cash_flow_change_pct": 15.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "STRK|2026-11-28",
+      "ticker": "STRK",
+      "observation_date": "2026-11-28",
+      "entry_price": 61.53,
+      "target_price": 69.98,
+      "stop_price": 57.31,
+      "rsi": 37.6353,
+      "volume_ratio": 0.4,
+      "profitable": true,
+      "revenue_growth_pct": 2.5,
+      "ebitda_growth_pct": 356.0,
+      "operating_cash_flow_change_pct": 207.3,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "ASTS|2026-11-28",
+      "ticker": "ASTS",
+      "observation_date": "2026-11-28",
+      "entry_price": 26.85,
+      "target_price": 37.87,
+      "stop_price": 21.34,
+      "rsi": 38.0547,
+      "volume_ratio": 0.62,
+      "profitable": false,
+      "revenue_growth_pct": 34.3,
+      "ebitda_growth_pct": 52.3,
+      "operating_cash_flow_change_pct": -74.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "NVDA|2026-11-28",
+      "ticker": "NVDA",
+      "observation_date": "2026-11-28",
+      "entry_price": 150.49,
+      "target_price": 189.18,
+      "stop_price": 131.14,
+      "rsi": 38.116,
+      "volume_ratio": 0.53,
+      "profitable": null,
+      "revenue_growth_pct": null,
+      "ebitda_growth_pct": null,
+      "operating_cash_flow_change_pct": -52.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "SMCI|2026-11-28",
+      "ticker": "SMCI",
+      "observation_date": "2026-11-28",
+      "entry_price": 23.76,
+      "target_price": 31.14,
+      "stop_price": 20.07,
+      "rsi": 38.1404,
+      "volume_ratio": 0.44,
+      "profitable": true,
+      "revenue_growth_pct": 79.4,
+      "ebitda_growth_pct": 36.1,
+      "operating_cash_flow_change_pct": -158.1,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "POET|2026-11-28",
+      "ticker": "POET",
+      "observation_date": "2026-11-28",
+      "entry_price": 3.88,
+      "target_price": 5.34,
+      "stop_price": 3.15,
+      "rsi": 38.4007,
+      "volume_ratio": 0.45,
+      "profitable": false,
+      "revenue_growth_pct": 66.7,
+      "ebitda_growth_pct": 38.2,
+      "operating_cash_flow_change_pct": -2.4,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "ASML|2026-11-28",
+      "ticker": "ASML",
+      "observation_date": "2026-11-28",
+      "entry_price": 1325.82,
+      "target_price": 1546.06,
+      "stop_price": 1215.7,
+      "rsi": 38.4379,
+      "volume_ratio": 0.53,
+      "profitable": true,
+      "revenue_growth_pct": 25.0,
+      "ebitda_growth_pct": 46.8,
+      "operating_cash_flow_change_pct": 592.7,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "DAVE|2026-11-28",
+      "ticker": "DAVE",
+      "observation_date": "2026-11-28",
+      "entry_price": 246.37,
+      "target_price": 310.03,
+      "stop_price": 214.54,
+      "rsi": 38.5075,
+      "volume_ratio": 0.23,
+      "profitable": true,
+      "revenue_growth_pct": 15.7,
+      "ebitda_growth_pct": 318.7,
+      "operating_cash_flow_change_pct": 19.0,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "NANO|2026-11-28",
+      "ticker": "NANO",
+      "observation_date": "2026-11-28",
+      "entry_price": 3.9,
+      "target_price": 6.3,
+      "stop_price": 2.7,
+      "rsi": 39.0276,
+      "volume_ratio": 0.63,
+      "profitable": true,
+      "revenue_growth_pct": -100.0,
+      "ebitda_growth_pct": 100.0,
+      "operating_cash_flow_change_pct": 267.7,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "KLIC|2026-11-28",
+      "ticker": "KLIC",
+      "observation_date": "2026-11-28",
+      "entry_price": 59.58,
+      "target_price": 75.02,
+      "stop_price": 51.86,
+      "rsi": 39.0959,
+      "volume_ratio": 0.36,
+      "profitable": true,
+      "revenue_growth_pct": 24.2,
+      "ebitda_growth_pct": 27.1,
+      "operating_cash_flow_change_pct": -43.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "APLD|2026-11-28",
+      "ticker": "APLD",
+      "observation_date": "2026-11-28",
+      "entry_price": 12.99,
+      "target_price": 18.64,
+      "stop_price": 10.17,
+      "rsi": 39.0993,
+      "volume_ratio": 0.55,
+      "profitable": false,
+      "revenue_growth_pct": 32.2,
+      "ebitda_growth_pct": -33.0,
+      "operating_cash_flow_change_pct": -51.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "LRCX|2026-11-28",
+      "ticker": "LRCX",
+      "observation_date": "2026-11-28",
+      "entry_price": 192.69,
+      "target_price": 245.77,
+      "stop_price": 166.15,
+      "rsi": 39.1254,
+      "volume_ratio": 0.51,
+      "profitable": true,
+      "revenue_growth_pct": 22.3,
+      "ebitda_growth_pct": 28.1,
+      "operating_cash_flow_change_pct": 140.0,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "SCSC|2026-11-28",
+      "ticker": "SCSC",
+      "observation_date": "2026-11-28",
+      "entry_price": 45.37,
+      "target_price": 52.49,
+      "stop_price": 41.81,
+      "rsi": 39.1797,
+      "volume_ratio": 0.31,
+      "profitable": true,
+      "revenue_growth_pct": 1.0,
+      "ebitda_growth_pct": -46.4,
+      "operating_cash_flow_change_pct": -1739.1,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "TER|2026-11-28",
+      "ticker": "TER",
+      "observation_date": "2026-11-28",
+      "entry_price": 222.96,
+      "target_price": 290.79,
+      "stop_price": 189.04,
+      "rsi": 39.2622,
+      "volume_ratio": 0.58,
+      "profitable": null,
+      "revenue_growth_pct": null,
+      "ebitda_growth_pct": null,
+      "operating_cash_flow_change_pct": 77.0,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "LITE|2026-11-28",
+      "ticker": "LITE",
+      "observation_date": "2026-11-28",
+      "entry_price": 514.63,
+      "target_price": 719.19,
+      "stop_price": 412.35,
+      "rsi": 39.3283,
+      "volume_ratio": 0.41,
+      "profitable": true,
+      "revenue_growth_pct": 25.5,
+      "ebitda_growth_pct": 106.1,
+      "operating_cash_flow_change_pct": -26.3,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "AEHR|2026-11-28",
+      "ticker": "AEHR",
+      "observation_date": "2026-11-28",
+      "entry_price": 43.6,
+      "target_price": 65.21,
+      "stop_price": 32.8,
+      "rsi": 39.3499,
+      "volume_ratio": 0.41,
+      "profitable": true,
+      "revenue_growth_pct": 75.5,
+      "ebitda_growth_pct": 2433.3,
+      "operating_cash_flow_change_pct": -272.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "FORM|2026-11-28",
+      "ticker": "FORM",
+      "observation_date": "2026-11-28",
+      "entry_price": 74.39,
+      "target_price": 100.44,
+      "stop_price": 61.37,
+      "rsi": 39.4317,
+      "volume_ratio": 0.29,
+      "profitable": true,
+      "revenue_growth_pct": 8.6,
+      "ebitda_growth_pct": 34.9,
+      "operating_cash_flow_change_pct": 68.8,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "MRVL|2026-11-28",
+      "ticker": "MRVL",
+      "observation_date": "2026-11-28",
+      "entry_price": 140.54,
+      "target_price": 189.25,
+      "stop_price": 116.19,
+      "rsi": 39.473,
+      "volume_ratio": 0.52,
+      "profitable": true,
+      "revenue_growth_pct": 13.3,
+      "ebitda_growth_pct": 16.3,
+      "operating_cash_flow_change_pct": -5.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "ACIW|2026-11-28",
+      "ticker": "ACIW",
+      "observation_date": "2026-11-28",
+      "entry_price": 52.24,
+      "target_price": 58.35,
+      "stop_price": 49.19,
+      "rsi": 39.5362,
+      "volume_ratio": 0.37,
+      "profitable": true,
+      "revenue_growth_pct": -0.8,
+      "ebitda_growth_pct": 2.2,
+      "operating_cash_flow_change_pct": 68.2,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "MXL|2026-11-28",
+      "ticker": "MXL",
+      "observation_date": "2026-11-28",
+      "entry_price": 44.83,
+      "target_price": 65.27,
+      "stop_price": 34.61,
+      "rsi": 39.5656,
+      "volume_ratio": 0.33,
+      "profitable": true,
+      "revenue_growth_pct": 29.2,
+      "ebitda_growth_pct": 1269.0,
+      "operating_cash_flow_change_pct": -383.3,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "IMOS|2026-11-28",
+      "ticker": "IMOS",
+      "observation_date": "2026-11-28",
+      "entry_price": 41.58,
+      "target_price": 52.97,
+      "stop_price": 35.88,
+      "rsi": 39.645,
+      "volume_ratio": 0.33,
+      "profitable": true,
+      "revenue_growth_pct": 13.8,
+      "ebitda_growth_pct": 79.3,
+      "operating_cash_flow_change_pct": -1.4,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "HIMX|2026-11-28",
+      "ticker": "HIMX",
+      "observation_date": "2026-11-28",
+      "entry_price": 7.98,
+      "target_price": 10.05,
+      "stop_price": 6.94,
+      "rsi": 39.6628,
+      "volume_ratio": 0.68,
+      "profitable": true,
+      "revenue_growth_pct": 8.5,
+      "ebitda_growth_pct": -6.3,
+      "operating_cash_flow_change_pct": 36.6,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "INTC|2026-11-28",
+      "ticker": "INTC",
+      "observation_date": "2026-11-28",
+      "entry_price": 57.4,
+      "target_price": 73.66,
+      "stop_price": 49.27,
+      "rsi": 39.8238,
+      "volume_ratio": 0.47,
+      "profitable": true,
+      "revenue_growth_pct": 2.4,
+      "ebitda_growth_pct": 203.6,
+      "operating_cash_flow_change_pct": -27.5,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "ADEA|2026-11-28",
+      "ticker": "ADEA",
+      "observation_date": "2026-11-28",
+      "entry_price": 14.99,
+      "target_price": 18.42,
+      "stop_price": 13.27,
+      "rsi": 39.8453,
+      "volume_ratio": 0.55,
+      "profitable": true,
+      "revenue_growth_pct": -16.5,
+      "ebitda_growth_pct": -36.7,
+      "operating_cash_flow_change_pct": -90.7,
+      "risk_reward": 2.0,
+      "volume_direction": null,
+      "status": "pending"
+    },
+    {
+      "signal_id": "FFIV|2026-11-28",
+      "ticker": "FFIV",
+      "observation_date": "2026-11-28",
+      "entry_price": 322.86,
+      "target_price": 367.09,
+      "stop_price": 300.75,
+      "rsi": 39.9783,
+      "volume_ratio": 0.23,
+      "profitable": true,
+      "revenue_growth_pct": 6.0,
+      "ebitda_growth_pct": 2.7,
+      "operating_cash_flow_change_pct": -62.7,
       "risk_reward": 2.0,
       "volume_direction": null,
       "status": "pending"
